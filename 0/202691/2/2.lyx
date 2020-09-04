@@ -1,0 +1,805 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+\usepackage{indentfirst}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2.5cm
+\topmargin 2.5cm
+\rightmargin 2.5cm
+\bottommargin 2.5cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Lecture 2
+\end_layout
+
+\begin_layout Section
+Nominal and Real interest rate
+\end_layout
+
+\begin_layout Description
+i Nominal interest rate - 
+\begin_inset Formula $X\$$
+\end_inset
+
+ today yields 
+\begin_inset Formula $(1+i)X\$$
+\end_inset
+
+ next period
+\end_layout
+
+\begin_layout Description
+r The real interest rate is in 
+\series bold
+consumption goods
+\end_layout
+
+\begin_layout Standard
+Price of a unit today: 
+\begin_inset Formula $P_{0}\$$
+\end_inset
+
+, expected price next period: 
+\begin_inset Formula $P_{1}\$$
+\end_inset
+
+.
+ Having 
+\begin_inset Formula $X\$$
+\end_inset
+
+, one can purchase 
+\begin_inset Formula $\frac{X}{P_{0}}$
+\end_inset
+
+ units today.
+ Saving it will allow 
+\begin_inset Formula $\frac{X}{P_{0}}(1+r)$
+\end_inset
+
+ units next period.
+ The required amount next period: 
+\begin_inset Formula 
+\[
+P_{1}\frac{X}{P_{0}}(1+r)
+\]
+
+\end_inset
+
+Considersing particular values of 
+\begin_inset Formula $i,r$
+\end_inset
+
+ - which one is better? When in 
+\series bold
+equilibrium
+\series default
+, all returns should be 
+\series bold
+equal
+\series default
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+X(1+i)=P_{1}\frac{X}{P_{0}}(1+r)
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+1+i=\frac{P_{1}}{P_{0}}(1+r)
+\]
+
+\end_inset
+
+The expected inflation rate is given by:
+\begin_inset Formula 
+\[
+\pi^{e}=\frac{P_{1}-P_{0}}{P_{0}}=\frac{P_{1}}{P_{0}}-1\rightarrow\frac{P_{1}}{P_{0}}=1+\pi^{e}
+\]
+
+\end_inset
+
+Thus, the following formula describes the relationship between the real
+ and the nominal interest rates (
+\series bold
+Fisher equation
+\series default
+):
+\begin_inset Formula 
+\[
+1+i=(1+\pi^{e})(1+r)
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+i\backsimeq r+\pi^{e}
+\]
+
+\end_inset
+
+How one knows what's the value of the inflation? By the difference between
+ nominal bonds vs.
+ real bonds.
+\end_layout
+
+\begin_layout Section
+Economical Models
+\end_layout
+
+\begin_layout Standard
+What an economical model actually is? Unlike physics, where there are very
+ precise models that explain the exact behavior of all objects of interest
+ by using strict rules and calculations, an economical model is not quite
+ the same.
+\end_layout
+
+\begin_layout Standard
+There is no goal to actually predict and calculate the precise outcome.
+ Hitting 
+\begin_inset Quotes eld
+\end_inset
+
+in the vicinity
+\begin_inset Quotes erd
+\end_inset
+
+ of the result, or just determining the direction is usually good enoguh.
+ Therefore, no need to put all the relevant data to the model.
+ The opposit is true - try to add the least possible data, to highlight
+ the specific relevant economic forces and understand them.
+\end_layout
+
+\begin_layout Standard
+There're 2 problmes we have to deal with:
+\end_layout
+
+\begin_layout Enumerate
+We don't know all the forces existing in the economy
+\end_layout
+
+\begin_layout Enumerate
+The economy might react to decisions (people have free will and try to increase
+ their utility) - thus we can't assume people will always behave the same.
+\end_layout
+
+\begin_layout Standard
+Bottom line - in an economical model we try to capture the smallest amount
+ of variable, which will give valuable insight.
+\end_layout
+
+\begin_layout Section
+The Neo-Classical Framework
+\end_layout
+
+\begin_layout Standard
+Based on 2 assumptions:
+\end_layout
+
+\begin_layout Enumerate
+Prices are flexible.
+ Every firm can ask any price for a product, any employee and employer can
+ negotiate, there is no max or min price imposed by the government.
+\end_layout
+
+\begin_layout Enumerate
+Prices are in an equilibrium
+\end_layout
+
+\begin_layout Standard
+We consider a 
+\series bold
+closed
+\series default
+ economy, meaning no import/export and no free movement of labor or goods
+ (i.e North Korea, 
+\begin_inset Quotes eld
+\end_inset
+
+Island Economy
+\begin_inset Quotes erd
+\end_inset
+
+, etc).
+ Obviously it is a very simplified case, yet it still provides important
+ insights.
+ Usually, large economies are less open (<10% GDP are import/export in the
+ US).
+\end_layout
+
+\begin_layout Standard
+Only a 
+\series bold
+single
+\series default
+ good is in consideration.
+ The good must be 
+\series bold
+perishable
+\series default
+ - if it is not consumed, it is wasted and cannot be saved anymore.
+ Thus, there's no point it producing more than can be consumed.
+\end_layout
+
+\begin_layout Section
+Firms
+\end_layout
+
+\begin_layout Standard
+For each model, we usually try to describe: who are the actual economic
+ agents? How to they make decisions? What are their constraint? How do they
+ intersect and interact? An 
+\series bold
+economic agent
+\series default
+ is an independent player with free will, which attempts to maximize its
+ profit.
+\begin_inset Newline newline
+\end_inset
+
+Production function:
+\begin_inset Formula 
+\[
+Y=F\left(\begin{array}{c}
+A\\
+(+)
+\end{array},\begin{array}{c}
+L\\
+(+)
+\end{array}\right),\,\,\,F_{L}>0,\,\,\,F_{LL}<0,\,\,\,F_{LA}>0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+Y Output
+\end_layout
+
+\begin_layout Description
+L Labour (hours of work)
+\end_layout
+
+\begin_layout Description
+A Technology (or productivity level)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $F_{L}>0$
+\end_inset
+
+ means more labour produces more output.
+ 
+\begin_inset Formula $F_{LL}<0$
+\end_inset
+
+ means that the 
+\series bold
+marginal productivity of extra labour is decreasing
+\series default
+.
+ 
+\begin_inset Formula $F_{LA}>0$
+\end_inset
+
+ - the cross-derivative between labour and technology is positive.
+ If the technology is better, not only the production increases, but also
+ the marginal productivity of labour.
+\begin_inset Newline newline
+\end_inset
+
+The production function is same for all firms.
+ Most firms can't influence the market (too small players).
+ The government is a counter-example, 
+\begin_inset Quotes eld
+\end_inset
+
+Intel
+\begin_inset Quotes erd
+\end_inset
+
+ as well.
+ They are large enough so that if they decide, for example, to pay 20% more
+ - it impacts the market.
+\end_layout
+
+\begin_layout Standard
+We assume that firms act separately and independently, and do not attempt
+ to unite (form a cartel).
+ In such case we can safely assume that all decision-making is identical.
+\end_layout
+
+\begin_layout Standard
+A firm continues to hire more employees, as long as their marginal productivity
+ is above their wage - up to the point where the marginal productivity falls
+ below the wage.
+\end_layout
+
+\begin_layout Standard
+Firms care about real wage, not about the nominal - i.e not about 
+\begin_inset Quotes eld
+\end_inset
+
+absolute numbers
+\begin_inset Quotes erd
+\end_inset
+
+ but rather about the wage compared to price of a unit that a firm can sell.
+ We can think of it as if a tomato farm pays its workers with tomatoes (
+\begin_inset Formula $W=\frac{W^{n}}{p},$
+\end_inset
+
+nominal wage/price level).
+\end_layout
+
+\begin_layout Standard
+A simplified formula can be described as 
+\begin_inset Formula $Y=AL^{\alpha},\,\,\,\alpha<1$
+\end_inset
+
+ (labour productivity decreases).
+\end_layout
+
+\begin_layout Section
+Labor Demand
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+L^{d}=L^{d}\left(\begin{array}{c}
+W\\
+(-)
+\end{array},\begin{array}{c}
+A\\
+(+)
+\end{array}\right)
+\]
+
+\end_inset
+
+The labor demand depends on 2 variables, which the firm assumes as given:
+ the wage and the productivity.
+ As the wage rises, a firm needs to hire less employees up to the point
+ where the wage is equal to the productivity.
+\end_layout
+
+\begin_layout Standard
+The demand is not a number, but a function.
+ Movement 
+\series bold
+along
+\series default
+ the curve (different wage - different labor) 
+\series bold
+doesn't change
+\series default
+ the demand function, what does change it is 
+\series bold
+shifting
+\series default
+ the curve (demanding more labor given the same wage).
+\end_layout
+
+\begin_layout Standard
+If 
+\begin_inset Formula $Y=AL^{\alpha}$
+\end_inset
+
+, then the marginal productivity is given by 
+\begin_inset Formula $W=MPL=\alpha AL^{\alpha-1}$
+\end_inset
+
+.
+ Given different levels of technology, the curve is shifted (left / right).
+\end_layout
+
+\begin_layout Section
+Output Supply
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+Y=F\left(\begin{array}{c}
+A\\
+(+)
+\end{array},\begin{array}{c}
+L\\
+(+)
+\end{array}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Plugging the labor demand function, we get the 
+\series bold
+indirect production function
+\series default
+:
+\begin_inset Formula 
+\[
+Y=F\left(\begin{array}{c}
+A\\
+(+)
+\end{array},L^{d}\left(\begin{array}{c}
+W\\
+(-)
+\end{array},\begin{array}{c}
+A\\
+(+)
+\end{array}\right)\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Households
+\end_layout
+
+\begin_layout Standard
+As with firms, households are considered same in terms of preferences
+\begin_inset Formula 
+\[
+C=C\left(\begin{array}{c}
+\Omega\\
+(+)
+\end{array},\begin{array}{c}
+r\\
+(-)
+\end{array}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+All 
+\begin_inset Quotes eld
+\end_inset
+
+representative
+\begin_inset Quotes erd
+\end_inset
+
+ households will make exactly the same decisions on 2 questions of interest:
+ How much to produce (work - only to finance consumption), and how much
+ to consume.
+\end_layout
+
+\begin_layout Description
+\begin_inset Formula $\Omega$
+\end_inset
+
+ wealth
+\end_layout
+
+\begin_layout Description
+r real interest rate (nominal, inflation adjusted)
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Standard
+More wealth allows more consumption.
+ Interest rate relates 
+\series bold
+negatively
+\series default
+ to consumption (represents an 
+\series bold
+alternative
+\series default
+ to consumption) - saving money for later.
+\end_layout
+
+\begin_layout Standard
+Labor supply is given by:
+\begin_inset Formula 
+\[
+L^{S}=\left(\begin{array}{c}
+W\\
+(+)
+\end{array},\begin{array}{c}
+\Omega\\
+(-)
+\end{array},\begin{array}{c}
+r\\
+(+)
+\end{array}\right)
+\]
+
+\end_inset
+
+As wage rises, people are more willing to work.
+ If one has more wealth, he's less willing to work.
+ Interest rate increase would increase the labor supply.
+\end_layout
+
+\begin_layout Standard
+It is important to distinguish the supply curve, from a specific point on
+ it.
+ A shift in the supply curve doesn't imply a change (or a lack thereof)
+ of the value (i.e if a person suddently gets wealthier, his labor supply
+ curve shifts.
+ Depends on whether his wage changes, the supply value might or might not
+ change).
+\end_layout
+
+\begin_layout Section
+Labor Market Equilibrium
+\end_layout
+
+\begin_layout Standard
+The equilibrium is achieved at the intersection of the labor supply and
+ demand curves:
+\begin_inset Formula 
+\[
+L^{S}=\left(\begin{array}{c}
+W\\
+(+)
+\end{array},\begin{array}{c}
+\Omega\\
+(-)
+\end{array},\begin{array}{c}
+r\\
+(+)
+\end{array}\right)=L^{d}\left(\begin{array}{c}
+W\\
+(-)
+\end{array},\begin{array}{c}
+A\\
+(+)
+\end{array}\right)=L^{d}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+There is no external mechanism of coordination of all agents (
+\begin_inset Quotes eld
+\end_inset
+
+announcing
+\begin_inset Quotes erd
+\end_inset
+
+ what is that exact intersection point).
+ Consider an example, when there is an increase in a wage.
+ An employee is willing to work more hours (supply) but the employer prefers
+ less labor (decrease in demand), which may result in less working hours
+ / firing employees.
+\end_layout
+
+\begin_layout Standard
+What is the mechanism, which will eventually bring the situation back to
+ the equilibrium? In the situation of the increased wage, eventually someone
+ will suggest a lower wage to the employer.
+ The gap between the supply and demand of labor is 
+\series bold
+unemployment
+\series default
+.
+ Usually it is misinterpreted in the media as 
+\begin_inset Quotes eld
+\end_inset
+
+people who don't work
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+When curves shift because of change in variables (for example - interest
+ rate increase), a new equilibrium is reached at the new intersection point.
+\end_layout
+
+\begin_layout Section
+Supply of Goods
+\end_layout
+
+\begin_layout Standard
+We already saw the supply of goods:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+Y^{S}=\widetilde{Y}^{S}\left(\begin{array}{c}
+A\\
+(+)
+\end{array},\begin{array}{c}
+W\\
+(-)
+\end{array}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Plugging in the wage equilibrium results in:
+\begin_inset Formula 
+\[
+Y^{S}=\widetilde{Y}^{S}\left(\begin{array}{c}
+A\\
+(+)
+\end{array},\begin{array}{c}
+W\\
+(-)
+\end{array}\right)=\widetilde{Y}^{S}\left(\begin{array}{c}
+A\\
+(+)
+\end{array},W\left(\begin{array}{c}
+\Omega\\
+(+)
+\end{array},\begin{array}{c}
+r\\
+(-)
+\end{array},\begin{array}{c}
+A\\
+(+)
+\end{array}\right)\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Wealth influences output negatively.
+ Higher wealth leads to less employment, which results in less output.
+ Higher interest leads to lower wages, which increases output.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $A$
+\end_inset
+
+ has contradicting effects, how can we determine the correct direction?
+ Better technology produces more, but also pushes wages upward.
+\end_layout
+
+\begin_layout Standard
+Increased productivity moves labor demand to the right, 
+\series bold
+without
+\series default
+ reducing employment.
+ Wages go up, 
+\series bold
+not
+\series default
+ because employers are 
+\begin_inset Quotes eld
+\end_inset
+
+more generous
+\begin_inset Quotes erd
+\end_inset
+
+, but only because employers have to pay more, to convince people to work.
+ Higher level of productivity doesn't cause working more.
+ Higher level of productivity 
+\series bold
+reduces
+\series default
+ employment, but only compared to a 
+\series bold
+hypothetical, unresalistic 
+\series default
+point.
+ Thus, higher wages don't reduce output, but onlyt reduce the 
+\series bold
+increase
+\series default
+ in the output.
+\end_layout
+
+\end_body
+\end_document
