@@ -1,0 +1,1117 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+\usepackage{indentfirst}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2.5cm
+\topmargin 2.5cm
+\rightmargin 2.5cm
+\bottommargin 2.5cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Lecture 3
+\end_layout
+
+\begin_layout Section
+Goods Market Equilibrium
+\end_layout
+
+\begin_layout Standard
+The demand for goods is given by:
+\begin_inset Formula 
+\[
+Y^{d}=C\left(\begin{array}{c}
+\Omega\\
+(+)
+\end{array},\begin{array}{c}
+r\\
+(-)
+\end{array}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The supply is:
+\begin_inset Formula 
+\[
+Y^{S}=\left(\begin{array}{c}
+A\\
+(+)
+\end{array},\begin{array}{c}
+\Omega\\
+(-)
+\end{array},\begin{array}{c}
+r\\
+(+)
+\end{array}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes erd
+\end_inset
+
+Solving
+\begin_inset Quotes erd
+\end_inset
+
+ the economy, in the neoclassical model, means - assumed that the level
+ of productivity and income are fixed for the short-term and known to all
+ participants in the economy, given these exogenous variables, we want to
+ find out the endogenous variables - i.e level of production (consumption)
+ and the interest rate.
+\end_layout
+
+\begin_layout Standard
+The supply curve is sloping upward (it is positively correlated with the
+ interest rate).
+\end_layout
+
+\begin_layout Standard
+The equilibrium is the point of intersection of the demand and supply curves.
+\end_layout
+
+\begin_layout Standard
+Algebrically, each curve represents a single set of possible points (
+\begin_inset Quotes eld
+\end_inset
+
+potential
+\begin_inset Quotes erd
+\end_inset
+
+ equilibriums - meaning the 
+\begin_inset Quotes eld
+\end_inset
+
+fit
+\begin_inset Quotes erd
+\end_inset
+
+ the equation).
+\end_layout
+
+\begin_layout Standard
+An economy 
+\series bold
+can
+\series default
+ be in an out-of-equilibrium state, but it is generally assumed that such
+ state is not sustainable.
+\end_layout
+
+\begin_layout Standard
+The equilibrium is characterized by the exogenous variables.
+ Given their values, it is possible to solve the parametrized equation.
+\end_layout
+
+\begin_layout Section
+Exercises
+\end_layout
+
+\begin_layout Standard
+Assume, we start in an equilibrium and a long-term steady state (i.e nothing
+ changes).
+ Suddenly, a sudden unexpected change (
+\begin_inset Quotes eld
+\end_inset
+
+
+\series bold
+shock
+\series default
+
+\begin_inset Quotes erd
+\end_inset
+
+) is introduced.
+\end_layout
+
+\begin_layout Standard
+Assuming the interest rate didn't change, what can we tell about its level?
+ Using Euler equation, we can deduct 
+\series bold
+the interest rate is the same as time-preference of the population
+\series default
+.
+\end_layout
+
+\begin_layout Subsection
+A temporary increase in productivity level (
+\begin_inset Formula $A_{1}>A_{0}$
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Subsubsection
+Goods Market
+\end_layout
+
+\begin_layout Standard
+The increase is 
+\series bold
+temporary
+\series default
+ but assume we don't know it (believe it's a 
+\begin_inset Quotes eld
+\end_inset
+
+one-time bonanza
+\begin_inset Quotes erd
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Standard
+Thus, we consider the wealth level (
+\begin_inset Formula $\Omega$
+\end_inset
+
+) is unchanged.
+ Having 
+\begin_inset Quotes eld
+\end_inset
+
+infinite horizon
+\begin_inset Quotes erd
+\end_inset
+
+, a one-time increase has 0 impact on the wealth.
+\end_layout
+
+\begin_layout Standard
+The first thing that needs to be done when analyzing a change - is understanding
+ which curve does 
+\series bold
+not
+\series default
+ move.
+ In this case, the demand curve won't change.
+\end_layout
+
+\begin_layout Standard
+The supply curve will be affected [higher productivity means higher production
+ - (1) even if no one knows in advance, at the end of the day there'll be
+ more produced, (2) hiring more people, labor demand durve will move to
+ the right] and shift to the right.
+\end_layout
+
+\begin_layout Standard
+For every level of interest of the economy, there will be produced more.
+\end_layout
+
+\begin_layout Standard
+Considering the demand surve didn't move, their intersection is now at a
+ different point.
+\end_layout
+
+\begin_layout Standard
+The fact that the demand durve didn't move, 
+\series bold
+doesn't mean that the demand doesn't change!
+\series default
+ It only means that 
+\series bold
+the demand function is the same
+\series default
+.
+\end_layout
+
+\begin_layout Standard
+In the new equilibrium, there is more production, which leads to more demand,
+ and lowers the interest rate.
+\end_layout
+
+\begin_layout Standard
+Everyone feels a bit wealthier today (
+\begin_inset Quotes eld
+\end_inset
+
+one-time bonus
+\begin_inset Quotes erd
+\end_inset
+
+).
+ According to the Euler equation, such bonus will be saved, and not consumed
+ at the moment.
+\end_layout
+
+\begin_layout Standard
+Here we get to a crucial difference between Macroeconomics and Microeconomics.
+ As a single person, such one-time bonus can be completely spent.
+ Consider an example with a fidherman.
+ As you can't actually physically save fish, you 
+\series bold
+loan
+\series default
+ them fish and get money (more precise - 
+\begin_inset Quotes eld
+\end_inset
+
+IOU
+\begin_inset Quotes erd
+\end_inset
+
+ / a bond / promise - as there's 
+\begin_inset Quotes eld
+\end_inset
+
+no money
+\begin_inset Quotes erd
+\end_inset
+
+) with interest rate.
+\end_layout
+
+\begin_layout Standard
+That can work if there is a 
+\series bold
+single
+\series default
+ fisherman in such situation, but when 
+\series bold
+everyone
+\series default
+ has it - everything changes.
+ 
+\series bold
+One
+\series default
+ person can lend to the rest, but it is impossible for everyone to do it
+ in such primitive economy.
+ 
+\series bold
+Saving
+\series default
+ means that there is always somebody at the other end of the transaction,
+ who preferes to consume more today and return later.
+ When 
+\series bold
+everyone
+\series default
+ tries to sell bonds and nobody wants them, it pushes the price downwards,
+ thus the interest rate must fall.
+\end_layout
+
+\begin_layout Standard
+The trade done here is 
+\begin_inset Quotes eld
+\end_inset
+
+fish vs.
+ future promise to pay
+\begin_inset Quotes erd
+\end_inset
+
+, and the price must fall until no one actually wants to sell, i.e until
+ fish is 
+\series bold
+exactly
+\series default
+ the same valuable as the bond:
+\begin_inset Formula 
+\[
+u(c_{t})=\frac{1+r}{1+\delta}u(c_{t+1})
+\]
+
+\end_inset
+
+Thus we can actually calculate, how much the interest rate has to fall so
+ that people are indifferent between saving and consuming now (the first
+ term should be 
+\begin_inset Formula $\leq1$
+\end_inset
+
+).
+ In a closed economy, people can't save in an equilibrium, as there is no
+ one to lend to, so the interest rate must fall in order for the market
+ to clear
+\end_layout
+
+\begin_layout Subsubsection
+Labor Market
+\end_layout
+
+\begin_layout Standard
+We always solve the goods market first, as it always includes the labor
+ market.
+\end_layout
+
+\begin_layout Standard
+The demand for labor increases, as the level of productivity has risen (for
+ every level of wage, employers will want to hire more people).
+\end_layout
+
+\begin_layout Standard
+When the interest rate is lower, labor supply curves shifts up (there is
+ less point in working, saving is a good alternative).
+\end_layout
+
+\begin_layout Standard
+In an equilibrium, the new (per-hour) wages level will be higher.
+ Just from this qualitative analysis it is impossible to say what will happen
+ to the level of employment (depends on the exact shapes of the curves).
+\end_layout
+
+\begin_layout Standard
+The analysis here is a simplification, we omit the non-important details
+ (i.e how exactly do people find out the new level of wages, etc).
+\end_layout
+
+\begin_layout Subsection
+A temporary increase in 
+\begin_inset Formula $\Omega$
+\end_inset
+
+ (wealth)
+\end_layout
+
+\begin_layout Subsubsection
+Goods Market
+\end_layout
+
+\begin_layout Standard
+This is the opposite of the first exercies - no change in productivity here.
+\end_layout
+
+\begin_layout Standard
+It is important to notice that we're dealing here with the impact 
+\series bold
+today
+\series default
+, without dealing with the future.
+ We only look at how the 
+\series bold
+expectation
+\series default
+ of a better future makes influence on today.
+\end_layout
+
+\begin_layout Standard
+Once households feel wealthier, they will want to consume more starting
+ today, shifting the demand curve up.
+\end_layout
+
+\begin_layout Standard
+The supply curve will shift left.
+\end_layout
+
+\begin_layout Standard
+Summarized, such shock will have 2 effects: consume more and work less.
+\end_layout
+
+\begin_layout Standard
+The interest rate will rise (everyone wants to consume).
+\end_layout
+
+\begin_layout Standard
+It is impossible to tell exactly what will happen to the production.
+ It depends on the 
+\begin_inset Quotes eld
+\end_inset
+
+race
+\begin_inset Quotes erd
+\end_inset
+
+ between people who want ot increase consumption, and people who want to
+ work less (increase their leisure).
+ The final result depends on what people prefer more.
+\end_layout
+
+\begin_layout Subsubsection
+Labor Market
+\end_layout
+
+\begin_layout Standard
+Wealth is higher.
+ We suppose labor demand is unchanged (which is true 
+\series bold
+only for today
+\series default
+ - tomorrow it will be more demanded).
+\end_layout
+
+\begin_layout Standard
+Because of increased wealth, people want to work less.
+ But because of increased interest rate, people will want to work less.
+ The final result, again, depends on which preference is stronger.
+\end_layout
+
+\begin_layout Standard
+There are 4 variables here we can't know: Y, C, W, L.
+ But it doesn't mean they don't have constraints.
+ For example, if production is higher - the labor is higher (meaning interest
+ rate effect is more dominant), and vice versa.
+\end_layout
+
+\begin_layout Subsection
+Permanent increase in productivity
+\end_layout
+
+\begin_layout Standard
+Wealth actually increases (
+\begin_inset Formula $\Omega\uparrow$
+\end_inset
+
+), because the change is permanent - and the productivity itself increases
+ as well (
+\begin_inset Formula $A_{1}>A_{0})$
+\end_inset
+
+.
+ Basically it is a combination of both previous examples.
+\end_layout
+
+\begin_layout Subsubsection
+Goods Market
+\end_layout
+
+\begin_layout Standard
+The demand curve only depends on wealth.
+ People are actually wealthier, which shifts its to the right (for every
+ level of interest rate - people will want to consume more).
+\end_layout
+
+\begin_layout Standard
+It is much harder to tell what will happen to the supply curve.
+ The increasing productivity will tend to push it to the right, but the
+ increased wealth will tend to push it to the left.
+\end_layout
+
+\begin_layout Standard
+At first glance, it seems as if we cannot say what will happen to the suppply
+ curve.
+ That is not completely true as we can use insights from the Euler equation.
+ We know that it tells us the given 
+\series bold
+smooth
+\series default
+ consumption path - the interest rate is equal to the time-preference.
+\end_layout
+
+\begin_layout Standard
+If the consumption path is 
+\series bold
+stable
+\series default
+ - we assume that the interest level is 
+\series bold
+equal
+\series default
+ to the time-preference.
+\end_layout
+
+\begin_layout Standard
+In the new steady state we may have higher path, but the interest rate will
+ be the same (
+\begin_inset Formula $r=\delta$
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Standard
+We claim the because of a permanent change starting at the moment, the economy
+ will move to a new equilibrium.
+ As we assume interest rate to be the same in the new situation, the supply
+ of goods will necessarily move to the right, which depicts higher levels
+ of both production and consumption.
+\end_layout
+
+\begin_layout Standard
+Some assumptions are made here:
+\end_layout
+
+\begin_layout Itemize
+A change in productivity doesn't change time preference.
+\end_layout
+
+\begin_layout Itemize
+The new state arrives immediately.
+\end_layout
+
+\begin_layout Itemize
+Regardless of how much time it will take to reach it, Euler equation still
+ holds.
+\end_layout
+
+\begin_layout Standard
+An economy doesn't necessarily get to a steady state, but it can also oscilate
+ around it (
+\begin_inset Quotes eld
+\end_inset
+
+business cycles
+\begin_inset Quotes erd
+\end_inset
+
+) with fluctuations.
+ With less rigit assumptions it is obviously possible.
+\end_layout
+
+\begin_layout Subsubsection
+Labor Market
+\end_layout
+
+\begin_layout Standard
+Labor will shifr upwards.
+\end_layout
+
+\begin_layout Section
+Investment Demand
+\end_layout
+
+\begin_layout Standard
+Assume that the goods are not perishable, and they can be used as capital
+ (i.e wheat in an agrarian economy), thus firms use both labor and capital:
+\begin_inset Formula 
+\[
+Y=F\left(\begin{array}{c}
+A\\
+(+)
+\end{array},\begin{array}{c}
+L\\
+(+)
+\end{array},\begin{array}{c}
+K\\
+(+)
+\end{array}\right),\,\,\,F_{K}>0,\,\,F_{KK}<0,\,\,F_{LK}>0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Assumptions are similar to handling labor.
+ More capital gives more production, the marginal productivity is decreasing,
+ more capitals makes each employee more productive.
+\end_layout
+
+\begin_layout Standard
+There is an important difference between capital and labor - the former
+ one cannot be bought and used instantly (unlike labor - it needs to be
+ prepared 
+\series bold
+in advance
+\series default
+).
+\end_layout
+
+\begin_layout Standard
+Capital depreciates at some fixed rate 
+\begin_inset Formula $\delta$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+To determine how much capital is demanded, we shall think 
+\series bold
+in margin
+\series default
+.
+\end_layout
+
+\begin_layout Standard
+As a firm manager, now there is a second decision one has to made, not only
+ 
+\begin_inset Quotes eld
+\end_inset
+
+how much labor to use (today)
+\begin_inset Quotes erd
+\end_inset
+
+, but also 
+\begin_inset Quotes eld
+\end_inset
+
+how much capital is needed (in the next period)
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+The interest rate influences on that decision, as it determines 
+\series bold
+the cost of capital
+\series default
+.
+\end_layout
+
+\begin_layout Standard
+Unlike labor, which doesn't require taking any loans (
+\begin_inset Quotes eld
+\end_inset
+
+pay at the end of the day
+\begin_inset Quotes erd
+\end_inset
+
+) - with capital one needs to start paying immediately, but get additional
+ production only at a later moment.
+\end_layout
+
+\begin_layout Standard
+The seond factor is the marginal productivity of the capital.
+\end_layout
+
+\begin_layout Standard
+When equationg the 
+\series bold
+marginal
+\series default
+ cost and productivity of the capital (in the 
+\series bold
+next
+\series default
+ period), one can find out the desired amount.
+\end_layout
+
+\begin_layout Section
+Total Goods Demand
+\end_layout
+
+\begin_layout Standard
+Investment is an addition to the capital stock.
+ Its demand is given by:
+\begin_inset Formula 
+\[
+I^{d}=\left(\begin{array}{c}
+A_{t+1}\\
+(+)
+\end{array},\begin{array}{c}
+r\\
+(-)
+\end{array},\begin{array}{c}
+K\\
+(-)
+\end{array}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+\begin_inset Formula $A_{t+1}$
+\end_inset
+
+ productivity level in the 
+\series bold
+next
+\series default
+ period
+\end_layout
+
+\begin_layout Description
+r interest rate
+\end_layout
+
+\begin_layout Description
+\begin_inset Formula $K$
+\end_inset
+
+ Current capital stock
+\end_layout
+
+\begin_layout Standard
+At the end, the required additional investment will be 
+\begin_inset Formula $I=K^{*}-K(1-\delta)$
+\end_inset
+
+ (total needed minus currently existing, adjusted for depreciation rate
+ 
+\begin_inset Formula $\delta$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+The total demand comes both form households (which consume goods for consumption
+) and firms (which need investments).
+ Still a single good is assumed.
+\begin_inset Formula 
+\[
+Y^{d}=C+I
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+Y^{d}=Y^{d}\left(\begin{array}{c}
+\Omega\\
+(+)
+\end{array},\begin{array}{c}
+r\\
+(-)
+\end{array},\begin{array}{c}
+A_{t+1}\\
+(+)
+\end{array},\begin{array}{c}
+K\\
+(-)
+\end{array}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+A temporary increase in productivity level 
+\begin_inset Formula $(A_{t+1}>A_{t})$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+A temporary change means there is 
+\series bold
+no change in wealth
+\series default
+.
+\end_layout
+
+\begin_layout Standard
+The supply curve doesn't change (because the change is 
+\series bold
+
+\begin_inset Quotes eld
+\end_inset
+
+tomorrow
+\begin_inset Quotes erd
+\end_inset
+
+ 
+\series default
+and not today).
+ On the demand curve, the change will shift it to the right (firms want
+ to take advantage of the higher productivity level).
+\end_layout
+
+\begin_layout Standard
+We can immediately see that the interest rate increases (it won't hold because
+ the change is temporary), and the total production increases as well.
+\end_layout
+
+\begin_layout Standard
+Now that production has 2 uses - both consumption as investment.
+\end_layout
+
+\begin_layout Standard
+Consumption will be lower, as wealth did not change but the interest rate
+ increased (people don't know anything about productivity levels - they
+ just know that interest rate increased, according to Euler equation).
+\end_layout
+
+\begin_layout Standard
+Based on that alone, investment will be higher.
+ The only reason that interest rates are higher - is because the demand
+ for investment has increased, and one needs to 
+\begin_inset Quotes eld
+\end_inset
+
+pay higher price
+\begin_inset Quotes erd
+\end_inset
+
+ to 
+\begin_inset Quotes eld
+\end_inset
+
+convince
+\begin_inset Quotes erd
+\end_inset
+
+ the supply to grow accordingly.
+\end_layout
+
+\begin_layout Standard
+The fact that the interest is higher 
+\series bold
+doesn't mean that the investment is lower
+\series default
+.
+ It just means that it is lower that what it 
+\series bold
+could have been
+\series default
+ if the interest rate had stayed the same.
+\end_layout
+
+\begin_layout Standard
+Consider the example with 
+\begin_inset Quotes eld
+\end_inset
+
+hi-tech
+\begin_inset Quotes erd
+\end_inset
+
+ salaries (
+\begin_inset Quotes eld
+\end_inset
+
+They're so high, that Ukraine can take all employees...
+\begin_inset Quotes erd
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Standard
+From the labor market perspective, the supply curve will shift right (people
+ are willing to work more), that will lead to a move along the demand curve
+ and reuslt in decreased production.
+\end_layout
+
+\begin_layout Section
+Money Demand and Supply
+\end_layout
+
+\begin_layout Standard
+The model tells nothing about the price level 
+\begin_inset Formula $P$
+\end_inset
+
+, nor the nominal wage 
+\begin_inset Formula $W^{n}$
+\end_inset
+
+.
+ The reason is that money is simply not needed in that model, all equations
+ can be solved in real terms, without involving anything nominal.
+\end_layout
+
+\begin_layout Standard
+Households and firms need money in order to perform transactions (
+\begin_inset Quotes eld
+\end_inset
+
+medium of exchange
+\begin_inset Quotes erd
+\end_inset
+
+ - gold, salt, cigarettes in WWII) which is necessary in almost any economy.
+\end_layout
+
+\begin_layout Standard
+The liquidity demand (for real purchasing power):
+\begin_inset Formula 
+\[
+\left(\frac{M}{P}\right)^{d}=L^{d}\left(\begin{array}{c}
+Y\\
+(+)
+\end{array},\begin{array}{c}
+r\\
+(-)
+\end{array}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+\begin_inset Formula $M$
+\end_inset
+
+ Total amount of cash money (
+\begin_inset Quotes eld
+\end_inset
+
+bills in circulation
+\begin_inset Quotes erd
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Description
+\begin_inset Formula $P$
+\end_inset
+
+ Price level
+\end_layout
+
+\begin_layout Standard
+The more productive the economy is, the more money is needed for people.
+ Interest rate make a counter-effect (alternative opportunity), thus its
+ increase decreases money demand.
+\end_layout
+
+\begin_layout Standard
+The supply is determined exogeneously by the central bank.
+ In an equilibrium state, the supply and demand for money are equal.
+\end_layout
+
+\begin_layout Section
+Money in the Neoclassical Framework
+\end_layout
+
+\begin_layout Standard
+What happens to the real variables if the CB increases 
+\begin_inset Formula $M$
+\end_inset
+
+, by some degree? - 
+\series bold
+Nothing
+\series default
+.
+ The intuition behind that is that we are able to calculate all real value
+ without using nominal money at all.
+\end_layout
+
+\begin_layout Standard
+What 
+\series bold
+will
+\series default
+ change are price levels.
+ Obviously 
+\begin_inset Formula $\left(\frac{M}{P}\right)$
+\end_inset
+
+ must remain the same, thus an increase in 
+\begin_inset Formula $M$
+\end_inset
+
+ must be followed by an increase in 
+\begin_inset Formula $P$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+In neoclassical economy, increasing money by the central bank will increase
+ all nominal values, without giving any real value.
+
+\series default
+ Money is 
+\series bold
+
+\begin_inset Quotes eld
+\end_inset
+
+neutral
+\begin_inset Quotes erd
+\end_inset
+
+
+\series default
+.
+ Real wages and prices won't change, the effect will only be on the nominal
+ values.
+ That assumes completely flexible prices (no price rigidity).
+ Notice that we do not discuss money distribution here, which may alter
+ these results.
+\end_layout
+
+\end_body
+\end_document
