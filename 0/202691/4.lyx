@@ -1,0 +1,921 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+\usepackage{indentfirst}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2.5cm
+\topmargin 2.5cm
+\rightmargin 2.5cm
+\bottommargin 2.5cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Lecture 4
+\end_layout
+
+\begin_layout Section
+Money in the Neoclassical Framework
+\end_layout
+
+\begin_layout Standard
+The fact that there is only a single point of equilibrium (intersection)
+ - doesn't mean that in real life the economy will always be there.
+ There is a process of discovery by 
+\begin_inset Quotes eld
+\end_inset
+
+agents
+\begin_inset Quotes erd
+\end_inset
+
+ - when out of equilibrium, something is wrong and people correct their
+ behavior.
+ Assuming exogenous variable don't change, eventually equilibrium is reached.
+\end_layout
+
+\begin_layout Standard
+In real life we don't know whether we are currently at the equilibrium,
+ and not even where the equilibrium is.
+\end_layout
+
+\begin_layout Standard
+When analyzing a shock, one shall look at the goods market first, and only
+ then handle the labor market.
+ Understanding forces is more important than calculating real and precise
+ numbers, because the aggregate result is anyway influenced by all the people
+ and the behavior.
+\end_layout
+
+\begin_layout Standard
+Different models might be useful in different situations, because they depend
+ on different assumptions.
+ Thus, they do not really 
+\begin_inset Quotes eld
+\end_inset
+
+compete
+\begin_inset Quotes erd
+\end_inset
+
+ with each other in the sense of explaining reality (i.e example with flexible
+ vs.
+ rigid prices.
+ Keynesian framework is more relevant in the 
+\begin_inset Quotes eld
+\end_inset
+
+rigid
+\begin_inset Quotes erd
+\end_inset
+
+ case).
+\end_layout
+
+\begin_layout Section
+The Keynesian Framework
+\end_layout
+
+\begin_layout Standard
+Our core assumption here is price rigidity.
+\end_layout
+
+\begin_layout Standard
+Consider the case when the price is constant, and the demand curve shifts
+ left (downward).
+\end_layout
+
+\begin_layout Standard
+If there was no rigidity (in the neoclassical framework), prices would obviously
+ fall.
+ But as they are rigid, prices will remain constant.
+ Production will fall because the demand is lower (can't 
+\begin_inset Quotes eld
+\end_inset
+
+force people to buy
+\begin_inset Quotes erd
+\end_inset
+
+).
+ It will decrease by 
+\series bold
+more 
+\series default
+than if prices were flexible.
+\end_layout
+
+\begin_layout Standard
+As long as the production capacity is higher than what people are willing
+ to buy (the demand), it is irrelevant.
+\end_layout
+
+\begin_layout Standard
+Assume now that 
+\begin_inset Formula $P=\overline{P}$
+\end_inset
+
+ and let's repeat 
+\begin_inset Formula $M\uparrow$
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\frac{M}{\overline{P}}=L\left(\begin{array}{c}
+Y\\
+(+)
+\end{array},\begin{array}{c}
+r\\
+(-)
+\end{array}\right)
+\]
+
+\end_inset
+
+Either 
+\begin_inset Formula $Y\uparrow$
+\end_inset
+
+, 
+\begin_inset Formula $r\downarrow$
+\end_inset
+
+ or both are possible.
+ The 
+\begin_inset Formula $Y^{S}=Y^{d}$
+\end_inset
+
+ equilibrium is broken, so we can't determine 
+\begin_inset Formula $Y$
+\end_inset
+
+ and 
+\begin_inset Formula $r$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+The Keynesian model assumes that production depends only on demand (
+\begin_inset Formula $Y=Y^{d})$
+\end_inset
+
+ - 
+\begin_inset Formula $L$
+\end_inset
+
+ in the labor market adjusts to produce the resulting 
+\begin_inset Formula $Y$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Section
+The IS-LM Model
+\end_layout
+
+\begin_layout Standard
+Instead of equating the supply and the demand of good, we'll use 2 equations
+ (curves) which solve for 
+\begin_inset Formula $Y$
+\end_inset
+
+ and 
+\begin_inset Formula $r$
+\end_inset
+
+ as functions of 
+\begin_inset Formula $M$
+\end_inset
+
+ and 
+\begin_inset Formula $\Omega$
+\end_inset
+
+:
+\begin_inset Formula 
+\[
+Y=Y^{d}\left(\begin{array}{c}
+\Omega\\
+(+)
+\end{array},\begin{array}{c}
+r\\
+(-)
+\end{array}\right)
+\]
+
+\end_inset
+
+The 
+\begin_inset Quotes eld
+\end_inset
+
+IS
+\begin_inset Quotes erd
+\end_inset
+
+ (investment-saving) curve, which we already saw slopping down in the 
+\begin_inset Formula $r-Y$
+\end_inset
+
+ plane.
+\end_layout
+
+\begin_layout Standard
+For every single level of wealth there can be infinite points (depending
+ on the interest rate) thus a second equation is needed.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{M}{\overline{P}}=L\left(\begin{array}{c}
+Y\\
+(+)
+\end{array},\begin{array}{c}
+r\\
+(-)
+\end{array}\right)
+\]
+
+\end_inset
+
+That's the 
+\begin_inset Quotes eld
+\end_inset
+
+LM
+\begin_inset Quotes erd
+\end_inset
+
+ (liquidity-money market) curve.
+ The money supply is taken as exogenous.
+\end_layout
+
+\begin_layout Standard
+Consider some point 
+\begin_inset Formula $(r_{0},y_{0})$
+\end_inset
+
+ which is known to be on the curve, and 
+\begin_inset Formula $y_{1}>y_{0}$
+\end_inset
+
+.
+ Given the same exogenous variables, what will happen to 
+\begin_inset Formula $r$
+\end_inset
+
+? It has to increase as well (to keep 
+\begin_inset Formula $\frac{M}{\overline{P}}$
+\end_inset
+
+ at the same level).
+ Eventually interest will have to rise.
+\end_layout
+
+\begin_layout Standard
+When everyone tries to invest (buy bonds) - the 
+\begin_inset Quotes eld
+\end_inset
+
+price
+\begin_inset Quotes erd
+\end_inset
+
+ rises (i.e interest rate falls down).
+\end_layout
+
+\begin_layout Standard
+Lower levels of both production & interest levels are consistent - same
+ regarding higher levels (from LM point of view).
+\end_layout
+
+\begin_layout Standard
+When there is less production is the economy, people will earn less and
+ generally want to buy less.
+ But they can use their savings for increased consumption (these are two
+ different things).
+\end_layout
+
+\begin_layout Standard
+If the money supply is increased (assume even distribution), obviously money
+ demand must go up as well.
+ If production level and interest rate are assumed to be the same, people
+ must be willing in an equilibrium to hold more liquidity.
+ Having 
+\begin_inset Formula $M_{1}>M_{0}$
+\end_inset
+
+ it is not equilibrium anymore.
+ Considering production level doesn't change, interest rate must fall.
+ Alternatively, it is possible that interest rate remaing the same and productio
+n increases.
+\end_layout
+
+\begin_layout Standard
+We saw here 2 different analyses: In order to see 
+\begin_inset Formula $LM$
+\end_inset
+
+ curve going upward, we assume left side stays the same.
+ When looking at an exogenous change, we look at the right side and try
+ to find ways for the equilibrium to still hold (
+\begin_inset Formula $Y\uparrow$
+\end_inset
+
+ or 
+\begin_inset Formula $r\downarrow$
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Standard
+The Keynesian framework assumes rigid prices, which is usually not so realistic.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $Y$
+\end_inset
+
+ an 
+\begin_inset Formula $r$
+\end_inset
+
+ are determined at the intersection, given values of 
+\begin_inset Formula $M$
+\end_inset
+
+ and 
+\begin_inset Formula $\Omega$
+\end_inset
+
+.
+ Not all economies are 
+\begin_inset Quotes eld
+\end_inset
+
+Keynesian
+\begin_inset Quotes erd
+\end_inset
+
+, but they proved a good approximation of central banks' behavior
+\end_layout
+
+\begin_layout Subsection
+Increase in 
+\begin_inset Formula $M$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+As usual, we assume the economy is in some steady state [being in the 
+\begin_inset Quotes eld
+\end_inset
+
+Keynesian state
+\begin_inset Quotes erd
+\end_inset
+
+ means a 
+\begin_inset Quotes eld
+\end_inset
+
+bad
+\begin_inset Quotes erd
+\end_inset
+
+ state - recession].
+\end_layout
+
+\begin_layout Standard
+We start at an equilibrium, where LM and IS curve intersect.
+\end_layout
+
+\begin_layout Standard
+As usual, the first thing is to find out what does 
+\series bold
+not
+\series default
+ change - it's the IS curve in our case.
+ There's new purchasing power in the economy, so for every level of interest
+ a higher level of production will be needed, or given a constant level
+ of production the interest rate will have to decrease.
+ The central bank printed more money, and by doing so - the production increased
+ [the most benifical part - what we're usually after], and the interest
+ rate decreased [side-effect].
+\end_layout
+
+\begin_layout Standard
+In most cases, when an economy enters a recession, if CB decides that it
+ is because of lack of demand (which is usually the case), they lower the
+ interest rate and wait until it increases the demand for goods.
+\end_layout
+
+\begin_layout Standard
+Sometimes demand is not the problem, and decreasing the interest rate doesn't
+ help.
+\end_layout
+
+\begin_layout Subsection
+Increase in 
+\begin_inset Formula $\Omega$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+People are optimistic and have positive expectations regarding the future.
+ Expectations 
+\series bold
+actually matter
+\series default
+.
+ The LM curve won't move, but the IS will shift right (people feel more
+ wealthier and they want to purchase more, at every level of interest rate
+ and every given level of prices).
+\end_layout
+
+\begin_layout Standard
+People do want to work less than before, but they alreay work so much less
+ than that - so that the diference doesn't matter (
+\begin_inset Quotes eld
+\end_inset
+
+they want to work until 16 instead of 17, but it doesn't matter because
+ they work until noon
+\begin_inset Quotes erd
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Standard
+There will be an increase both in production rate and interest rate.
+ It is generally considered as a good thing to exit a recession.
+\end_layout
+
+\begin_layout Standard
+People can 
+\begin_inset Quotes eld
+\end_inset
+
+be convinced
+\begin_inset Quotes erd
+\end_inset
+
+ (by setting expectations) that the future will be better.
+ That assumes that the problem was initially cause by demand - otherwise,
+ the Keynesian framework is not the correct one to apply to this situation.
+\end_layout
+
+\begin_layout Standard
+In practice, usually prices are assumed to be rigid in the short-term, and
+ flexible in the long-term.
+ Thus, the Keynesian framework is mostly appropriate for specific temporary
+ problem, while the neoclassical one is more fit for the long-term.
+ It is extremely important to identify the correct framework to use.
+\end_layout
+
+\begin_layout Section
+Government
+\end_layout
+
+\begin_layout Standard
+Until this point we didn't introduce government at all, especially in the
+ neoclassical framework (in the Keynesian framework the can only print money).
+\end_layout
+
+\begin_layout Standard
+The government has very significant impact on the economy.
+ In some countries 
+\begin_inset Formula $>50\%$
+\end_inset
+
+ of the GDP is collected and redistributed by taxes.
+\end_layout
+
+\begin_layout Description
+G Government purchases - 
+\begin_inset Quotes eld
+\end_inset
+
+public goods
+\begin_inset Quotes erd
+\end_inset
+
+, which can't be charged directly because the whole population benefits
+ from them (i.e army).
+ We assume that the government doesn't directly produce, but it is involved
+ in the economy by collecting taxes and spending them.
+\end_layout
+
+\begin_layout Description
+T Taxes - for simplicity are assumed to be 
+\begin_inset Quotes eld
+\end_inset
+
+lump sum
+\begin_inset Quotes erd
+\end_inset
+
+ - are considered 
+\begin_inset Quotes eld
+\end_inset
+
+the best
+\begin_inset Quotes erd
+\end_inset
+
+ by economists
+\end_layout
+
+\begin_layout Description
+B Government Debt - Taxes are not the only way to finance spendings, but
+ also by issuing debt
+\end_layout
+
+\begin_layout Standard
+Government budget constraint:
+\begin_inset Formula 
+\[
+G+(1+r)B_{-1}=T+B
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Spending + paying debt interest = Taxes + new debt.
+\end_layout
+
+\begin_layout Standard
+This is only 
+\series bold
+today
+\series default
+ constraint.
+ We assume countries 
+\begin_inset Quotes eld
+\end_inset
+
+live forever
+\begin_inset Quotes erd
+\end_inset
+
+.
+ What will happen at the next period?
+\begin_inset Formula 
+\[
+G_{+1}+(1+r)B=T_{+1}+B_{+1}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Bonds taken today have to be redeemed tomorrow, in a manner similar to 
+\begin_inset Quotes eld
+\end_inset
+
+current period
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+We usually try to look at it in 
+\begin_inset Quotes eld
+\end_inset
+
+present value
+\begin_inset Quotes erd
+\end_inset
+
+ (dividing by 
+\begin_inset Formula $(1+r)$
+\end_inset
+
+):
+\begin_inset Formula 
+\[
+\frac{G_{+1}}{1+r}+B=\frac{T_{+1}}{1+r}+\frac{B_{+1}}{1+r}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Both years together:
+\begin_inset Formula 
+\[
+G+\frac{G_{+1}}{1+r}+(1+r)B_{-1}=T+\frac{T_{+1}}{1+r}+\frac{B_{+1}}{1+r}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Government intertemporal budget - generalization of the above equations:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+G+\frac{G_{+1}}{1+r}+\frac{G_{+2}}{(1+r)^{2}}+\cdots+(1+t)B_{-1}=T+\frac{T_{+1}}{1+r}+\frac{T_{+2}}{(1+r)^{2}}+\cdots
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The only exogenous variable here is 
+\begin_inset Formula $B_{-1}$
+\end_inset
+
+ (assuming the government has discretion on how much to actually spend).
+\end_layout
+
+\begin_layout Standard
+This simple exercies has huge implications, which are sadly usually misunderstoo
+d.
+\end_layout
+
+\begin_layout Standard
+Interpretation - the Ricardian equivalence.
+\end_layout
+
+\begin_layout Standard
+The government spending and taxes don't have to be equal in each and every
+ period, but 
+\series bold
+eventually
+\series default
+ they do [we can 
+\begin_inset Quotes eld
+\end_inset
+
+default
+\begin_inset Quotes erd
+\end_inset
+
+, but debt can't be rolled forever - eventually it has to be paid].
+\end_layout
+
+\begin_layout Standard
+Adding the government to the neoclassical framework, we get consumption
+ demand:
+\begin_inset Formula 
+\[
+C^{d}=C^{d}\left(\begin{array}{c}
+\Omega\\
+(+)
+\end{array},\begin{array}{c}
+r\\
+(-)
+\end{array}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+But now there is an additional part - future taxes:
+\begin_inset Formula 
+\[
+\Omega=\cdots-\left(G+\frac{G_{+1}}{1+r}+\cdots\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Total demang for goods:
+\begin_inset Formula 
+\[
+Y_{d}=C+G
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Temporary Increase in government purchases
+\end_layout
+
+\begin_layout Standard
+Consider the case when government decides to increase (
+\series bold
+only
+\series default
+ for this perios) purchases of goods.
+\end_layout
+
+\begin_layout Standard
+Even without telling that explicitly, it is obvious that taxes will rise.
+ So, present value of taxes will increase.
+\end_layout
+
+\begin_layout Standard
+We assume that productivity doesn't change.
+ The demand curve shifts right, leading to increase in demand and in the
+ interest rate.
+\end_layout
+
+\begin_layout Subsection
+Permanent increase in government purchases
+\end_layout
+
+\begin_layout Standard
+Government expenditure introduces an addition to demand.
+ Building an airport 
+\begin_inset Quotes eld
+\end_inset
+
+once
+\begin_inset Quotes erd
+\end_inset
+
+ vs.
+ doing it 
+\begin_inset Quotes eld
+\end_inset
+
+every year
+\begin_inset Quotes erd
+\end_inset
+
+ have very different implications.
+ It means a huge reduction of wealth, which takes effect from now and forever.
+\end_layout
+
+\begin_layout Standard
+Considering the government wants to smooth the tax collection, it must be
+ raised by the same amount (
+\begin_inset Formula $\Delta T=\Delta G$
+\end_inset
+
+) 
+\series bold
+in every period
+\series default
+, otherwise an interset will have to be paid.
+\end_layout
+
+\begin_layout Standard
+Looking at that from a household perspective.
+ Consider an announcement of a sudden tax one-time decrease.
+ The wealth does not depend on the taxes paid today! Government spending
+ didn't decrease, so it will have to be funded eventually (it is only delayed),
+ thus the only reasonable thing to do in such situation would be putting
+ this sum in a savings account (the government will have to issue bonds
+ for these messing taxes).
+\end_layout
+
+\begin_layout Standard
+The wealth depends on government expenditure, not on taxes (which are only
+ a change in 
+\series bold
+scheduling
+\series default
+ the taxes).
+\end_layout
+
+\begin_layout Standard
+Government expenditure moves the demand curve to the right by 
+\begin_inset Formula $\Delta G$
+\end_inset
+
+.
+ As the wealth is less now, one needs to either reduce consumption or increase
+ labor.
+\end_layout
+
+\begin_layout Standard
+If 
+\series bold
+only
+\series default
+ consumption is reduced (putting 
+\begin_inset Quotes eld
+\end_inset
+
+the entire burden
+\begin_inset Quotes erd
+\end_inset
+
+ of that additional tax on the consumption) - the demand will 
+\series bold
+go back
+\series default
+ by the same amount that the government has spent.
+\end_layout
+
+\begin_layout Standard
+Another option is to have some combination of consuming less and working
+ more.
+ The actual final situation depends on the exact combination people will
+ choose.
+\end_layout
+
+\end_body
+\end_document
