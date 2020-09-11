@@ -1,0 +1,759 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+\usepackage{indentfirst}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2.5cm
+\topmargin 2.5cm
+\rightmargin 2.5cm
+\bottommargin 2.5cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+202691 - Lecture 5
+\end_layout
+
+\begin_layout Author
+Leonid Genkin
+\end_layout
+
+\begin_layout Section
+The Open Economy
+\end_layout
+
+\begin_layout Standard
+In an open economy it is possible to freely export and import goods.
+\end_layout
+
+\begin_layout Standard
+We'll provide an analytical analysis of domestic & foreign currency, exhcnage
+ rates and interest rates difference.
+\end_layout
+
+\begin_layout Standard
+In modern economies, most of us consume many goods which originate in other
+ countries.
+ Almost 100% is produced by other people.
+\end_layout
+
+\begin_layout Standard
+The 
+\begin_inset Quotes eld
+\end_inset
+
+divison of labor
+\begin_inset Quotes erd
+\end_inset
+
+ - everyone focuses on a small fraction of the production process.
+\end_layout
+
+\begin_layout Standard
+The same concept which is true for a household, works for countries as well.
+\end_layout
+
+\begin_layout Standard
+Unfortunateyly, the romantic concept of 
+\begin_inset Quotes eld
+\end_inset
+
+self-sufficient country
+\begin_inset Quotes erd
+\end_inset
+
+ is more widespread than a 
+\begin_inset Quotes eld
+\end_inset
+
+self-sufficiend household
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes eld
+\end_inset
+
+Comparative advantage
+\begin_inset Quotes erd
+\end_inset
+
+ - if people are allowed to trade, they will focus on what they do best.
+\end_layout
+
+\begin_layout Standard
+Trading with other countries implies exporting and importing - 
+\series bold
+the latter one is the more important
+\series default
+.
+\end_layout
+
+\begin_layout Standard
+In order to be able to import, a country needs to export.
+\end_layout
+
+\begin_layout Standard
+Some countried are not balances (the US imports much more than exports,
+ strange thing is that the world allows that and the one who complains about
+ that is the people of US itself).
+\end_layout
+
+\begin_layout Standard
+Generally, import and export follow the same pattern.
+ Otherwise, the exchange rate would not allow that to happen for a long
+ time.
+\end_layout
+
+\begin_layout Standard
+If a country exports more than it imports, its currency starts to appreciate,
+ which chokes other exporters, and increases the imports.
+\end_layout
+
+\begin_layout Standard
+Open economy assumptions:
+\end_layout
+
+\begin_layout Itemize
+There is 
+\series bold
+free flow of capital
+\series default
+ - households can hold domestic & foreign bonds, foreign investors can hold
+ domestic bonds
+\end_layout
+
+\begin_layout Itemize
+Domestic bonds are denominated in 
+\series bold
+local currency
+\series default
+ with interst rate 
+\begin_inset Formula $i$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Foreign bonds are denominated in foreign currency with 
+\begin_inset Quotes eld
+\end_inset
+
+world interest rate
+\begin_inset Quotes erd
+\end_inset
+
+ 
+\begin_inset Formula $i^{*}$
+\end_inset
+
+, echange rate 
+\begin_inset Formula $e$
+\end_inset
+
+ and expected exchange rate at the next period 
+\begin_inset Formula $e^{E}$
+\end_inset
+
+ (its increase means the domestic currency depreciates)
+\end_layout
+
+\begin_layout Itemize
+Local economy is 
+\begin_inset Quotes eld
+\end_inset
+
+small
+\begin_inset Quotes erd
+\end_inset
+
+ compared to the worls economy - it can't influence the world (i.e price
+ of the 
+\begin_inset Quotes eld
+\end_inset
+
+world
+\begin_inset Quotes erd
+\end_inset
+
+ bonds, 
+\begin_inset Quotes eld
+\end_inset
+
+world
+\begin_inset Quotes erd
+\end_inset
+
+ interest rate, etc.
+ 
+\begin_inset Quotes eld
+\end_inset
+
+We're not China
+\begin_inset Quotes erd
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Itemize
+We only care about the return 
+\series bold
+on
+\series default
+ capitcal, not the return 
+\series bold
+of
+\series default
+ capital (i.e no default risk)
+\end_layout
+
+\begin_layout Section
+The Uncovered Interest Parity (UIP)
+\end_layout
+
+\begin_layout Standard
+There are 2 alternatives to investing 1 unit of domestic currency:
+\end_layout
+
+\begin_layout Itemize
+Investing 1 local amount in domestic bonds yields 
+\begin_inset Formula $1+i$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Investing in foreign bonds.
+ Requires fist exchanging to foreign currency 
+\begin_inset Formula $(\frac{1}{e}$
+\end_inset
+
+ foreign currency).
+ That yields 
+\begin_inset Formula $\frac{1}{e}(1+i^{*})$
+\end_inset
+
+ in foreign currency in the 
+\series bold
+next
+\series default
+ period, which is 
+\begin_inset Formula $\frac{e^{E}}{e}(1+i^{*})$
+\end_inset
+
+ in domestic currency
+\end_layout
+
+\begin_layout Standard
+In an equilibrium both returns are equal:
+\begin_inset Formula 
+\[
+1+i=(1+i^{*})\frac{e^{E}}{e}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+If the former is higher - instead of investing in the local currency, the
+ best thing to do would be to get a loan from a foreign bank and invest
+ it domestically.
+ This arbitrage requires 2 things to happen - loan availability and correct
+ assumption regarding the future exchange rate.
+\end_layout
+
+\begin_layout Standard
+Example: Eliezer Fischman - increase of interest in Turkish Lira.
+ He exchange shekels to Lira, bought (high-yield) bonds, but then the Lira
+ had depreciated and he had to default.
+\end_layout
+
+\begin_layout Standard
+Hedging could have been achieved by some sort of a future contract.
+\end_layout
+
+\begin_layout Standard
+The non-arbitrage condition can be simplified to:
+\begin_inset Formula 
+\[
+1+i=(1+i^{*})\left(1+\frac{e^{E}}{e}-1\right)=(1+i^{*})\left(1+\frac{e^{E}-e}{e}\right)
+\]
+
+\end_inset
+
+
+\begin_inset Formula $\frac{e^{E}-e}{e}$
+\end_inset
+
+ is the 
+\series bold
+expected depreciation
+\series default
+.
+\begin_inset Formula 
+\[
+1+i\cong1+i^{*}+\frac{e^{E}-e}{e}
+\]
+
+\end_inset
+
+neglecting the cross-term, because it is very small
+\end_layout
+
+\begin_layout Standard
+The interpretation is: 
+\series bold
+the domestic interest rate has to equal the world interest rate, plus expected
+ depreciation
+\series default
+.
+\end_layout
+
+\begin_layout Standard
+Thus the local interest rate equals the 
+\begin_inset Quotes eld
+\end_inset
+
+world interest rate
+\begin_inset Quotes erd
+\end_inset
+
+, with compensation for depreciation (otherwise, no one will be willing
+ to buy domestic bonds).
+\end_layout
+
+\begin_layout Standard
+Given values of 
+\begin_inset Formula $i^{*}$
+\end_inset
+
+ and 
+\begin_inset Formula $e^{E}$
+\end_inset
+
+, if interest rate (
+\begin_inset Formula $i)$
+\end_inset
+
+ is high, the exchange rate (
+\begin_inset Formula $e)$
+\end_inset
+
+ must be low, and vice-versa.
+ If current exchange rate equals to the future (expected) exchange rate),
+ then 
+\begin_inset Formula $i=i^{*}$
+\end_inset
+
+ and 
+\begin_inset Formula $e=e^{E}$
+\end_inset
+
+ (the world interest rate equals to the domestic interest rate).
+\end_layout
+
+\begin_layout Standard
+Countries with a weak currency will usually have high interest rate, and
+ vice-versa.
+\end_layout
+
+\begin_layout Standard
+If there is a change in the exogenous variables, the curve will shift.
+ For example, an increase in world interest rate will shift the curve to
+ the right.
+\end_layout
+
+\begin_layout Standard
+When the interest rates stays the same, if 
+\begin_inset Formula $i^{*}$
+\end_inset
+
+ increases, 
+\begin_inset Formula $e$
+\end_inset
+
+ must increase as well.
+\end_layout
+
+\begin_layout Standard
+Assuming a higher 
+\begin_inset Formula $e^{E}$
+\end_inset
+
+, what can be done to: (1) Keep the interest rate stable, (2) keep the exchange
+ rate stable?
+\end_layout
+
+\begin_layout Standard
+The entire curve will shift right
+\end_layout
+
+\begin_layout Standard
+(1) If the interest rate is kept stable, echange rate will increase.
+\end_layout
+
+\begin_layout Standard
+Why is a large depreciation a problem? Usually it is a problem, especially
+ in poorer countries - where import payments are actually made in dollars
+ and large portion of cunsumption is imported food.
+ Food prices would rise, there can be riots (Jordan, Egypt, Malaysia).
+\end_layout
+
+\begin_layout Standard
+(2) The second alternative 
+\begin_inset Quotes eld
+\end_inset
+
+locking
+\begin_inset Quotes erd
+\end_inset
+
+ the exchange rate, by increasing the interest rate.
+ Sometimes it can require a huge spike in the interset rate (
+\begin_inset Quotes eld
+\end_inset
+
+
+\begin_inset Formula $>9\%$
+\end_inset
+
+ interest rate in Argentitna
+\begin_inset Quotes erd
+\end_inset
+
+) at least for the short-term, in order to prevent the exchange rate from
+ collapse.
+ Another reason for that is that a lot of debt might be denominated in foreign
+ currency (which imposed a problem in easter Europe in the 2008 crysis).
+\end_layout
+
+\begin_layout Section
+The Trilemma
+\end_layout
+
+\begin_layout Standard
+There is a tradeoff between fixed exchange rate, independent monetary policy
+ and fre capital flow.
+\end_layout
+
+\begin_layout Standard
+Each country might (want to) have each of these 3 policies.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Free capital flow
+\series default
+ is beneficial, as it allows free trade & investment.
+\end_layout
+
+\begin_layout Standard
+An 
+\series bold
+independent monetary policy 
+\series default
+means the ability to decide locally on an interest rate and not be forced
+ by some 
+\begin_inset Quotes eld
+\end_inset
+
+world
+\begin_inset Quotes erd
+\end_inset
+
+ entity which is beneficial as well.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Fixed exchange rate
+\series default
+ is also beneficial, as it allow planning ahead of future investmens (not
+ being afraid that debt would have to be repaid with higher amount of currency).
+\end_layout
+
+\begin_layout Standard
+The trilemma is that it is not possible to have all 3 things, but one of
+ them had to be given up.
+\end_layout
+
+\begin_layout Subsection
+No fixed exchange rate
+\end_layout
+
+\begin_layout Standard
+That's the most popular case in mostm odern countries, and is the case in
+ Israel today.
+ Sometimes we 
+\begin_inset Quotes eld
+\end_inset
+
+suffer
+\begin_inset Quotes erd
+\end_inset
+
+ the consequences of fluctuation exchange rate, which harms the exporters.
+ The CB can make some small intervention, but generally the exchange rate
+ is free.
+\end_layout
+
+\begin_layout Standard
+In the past it was not the case, and the exchange rate was determined by
+ the CB.
+\end_layout
+
+\begin_layout Standard
+If we try to forecfully fix the exchange rate, what will happen? If it fixed
+ at the equilibrium rate, it doesn't matter.
+ If it is 
+\begin_inset Quotes eld
+\end_inset
+
+too high
+\begin_inset Quotes erd
+\end_inset
+
+, people will 
+\begin_inset Quotes eld
+\end_inset
+
+attack
+\begin_inset Quotes erd
+\end_inset
+
+ the currency (take loans in local currency and exchange it).
+ To hold a fixed exhcange rate means that you need to be willing to 
+\series bold
+buy
+\series default
+ that currency at that exchange rate (example in the UK - Europe had some
+ fixed rate before the Euro, there was 
+\begin_inset Quotes eld
+\end_inset
+
+attack
+\begin_inset Quotes erd
+\end_inset
+
+ on the GBP).
+\end_layout
+
+\begin_layout Standard
+If the exchange rate is fixed, eventually 
+\begin_inset Quotes eld
+\end_inset
+
+speculators
+\begin_inset Quotes erd
+\end_inset
+
+ would attack the mistaked of setting the exchange rate not an the eqilibrium
+ rate.
+\end_layout
+
+\begin_layout Subsection
+No free capital flow
+\end_layout
+
+\begin_layout Standard
+This is usualy the natural choice of poor countries (
+\begin_inset Quotes eld
+\end_inset
+
+emerging markets
+\begin_inset Quotes erd
+\end_inset
+
+, where there is not enoguh market liquidity), including Israel up to mid
+ 90-s, Asian countries.
+ Usually the exchange rate they force is very different from the equilibrium
+ value.
+\end_layout
+
+\begin_layout Standard
+In such situation a secondary (
+\begin_inset Quotes eld
+\end_inset
+
+black
+\begin_inset Quotes erd
+\end_inset
+
+) market will develop, or people will simply accept other currency (example
+ - dollars in Tanzania).
+ That was also the case in Israel.
+\end_layout
+
+\begin_layout Standard
+In Venezuela the government doesn't even bother to calculate the current
+ inflation rate, people rather clculate it by taking the difference of the
+ black market from the fixed exchange rate.
+\end_layout
+
+\begin_layout Subsection
+No independent monetary policy
+\end_layout
+
+\begin_layout Standard
+Eeropean countries currently follow this policy.
+ The EU CB decides on the interest rate for all countries.
+ They benefit fom the strong currency, the tradeoff is that they gave up
+ the control on the interest rate.
+ That option was discussed in Israel during th hyperinflation period (to
+ 
+\begin_inset Quotes eld
+\end_inset
+
+dolarize
+\begin_inset Quotes erd
+\end_inset
+
+ the economy in 1983-1984).
+\end_layout
+
+\begin_layout Standard
+The tradeoff here is losing the independence (when there is a good CB which
+ adjusts according to local situation it is a good thing).
+\end_layout
+
+\begin_layout Section
+Models & Shocks
+\end_layout
+
+\begin_layout Standard
+First solve the shock in the goods market, because it already contains the
+ labor market.
+ Once we understand where the new equilibrium is, we can move to the labor
+ market.
+\end_layout
+
+\begin_layout Standard
+We also added investment to the neoclassical framework (
+\begin_inset Formula $r$
+\end_inset
+
+ - 
+\begin_inset Quotes eld
+\end_inset
+
+price
+\begin_inset Quotes erd
+\end_inset
+
+ of capital), which is different from 
+\begin_inset Formula $L$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+The imporatnt thing here is translating variables and forces to curves.
+\end_layout
+
+\begin_layout Standard
+It is important to distinguish movement 
+\series bold
+on
+\series default
+ the curve (
+\series bold
+endogenous
+\series default
+ variables change) from the 
+\series bold
+exogenous 
+\series default
+variables (
+\series bold
+shift
+\series default
+ of the curve).
+\end_layout
+
+\end_body
+\end_document
