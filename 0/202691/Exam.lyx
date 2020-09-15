@@ -1,0 +1,277 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 3cm
+\topmargin 3cm
+\rightmargin 3cm
+\bottommargin 3cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Final Exam
+\end_layout
+
+\begin_layout Author
+Leonid Genkin I.D 321275802
+\end_layout
+
+\begin_layout Section*
+Question 1
+\end_layout
+
+\begin_layout Enumerate
+In the neoclassical model, an announcement of government expenditure reduce
+ will lead to a demand decrease (by the government) and 
+\begin_inset Formula $\Omega$
+\end_inset
+
+ increase (as people will assume less taxation, in a manner similar to the
+ opposite case when an increase in government expenditure creates expectations
+ of more taxes).
+ People will partially compensate for that by consuming more, or by working
+ less, or the combination of both.
+ As the increase is permanent, we assume people will smooth their consumption
+ in the long-term, thus no change in 
+\begin_inset Formula $r$
+\end_inset
+
+.
+ People are wealthier, so 
+\begin_inset Formula $L^{s}$
+\end_inset
+
+ would shift left, leading to 
+\begin_inset Formula $W$
+\end_inset
+
+ increase and 
+\begin_inset Formula $L$
+\end_inset
+
+ decrease.
+\end_layout
+
+\begin_layout Quote
+\begin_inset Graphics
+	filename /home/leonid/logs/2.jpg
+	scale 20
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+In the Keynesian model, as prices are rigid, an increase in capital will
+ shift the 
+\begin_inset Formula $IS$
+\end_inset
+
+ curve to the right - whith results in increase in 
+\begin_inset Formula $Y$
+\end_inset
+
+,more demand for money liquidity, and increases 
+\begin_inset Formula $r$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Quote
+\begin_inset Graphics
+	filename /home/leonid/logs/3.jpg
+	scale 12
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+Question 2
+\end_layout
+
+\begin_layout Enumerate
+The utility function is given by:
+\begin_inset Formula 
+\[
+U=u(c_{1})+\frac{u(c_{2})}{\rho}
+\]
+
+\end_inset
+
+where 
+\begin_inset Formula $\rho$
+\end_inset
+
+ is the 
+\begin_inset Quotes eld
+\end_inset
+
+time preference
+\begin_inset Quotes erd
+\end_inset
+
+ - the degree to which one prefers present consumption and discounts the
+ future.
+\end_layout
+
+\begin_layout Enumerate
+-
+\end_layout
+
+\begin_layout Quote
+\begin_inset Graphics
+	filename /home/leonid/logs/4.jpg
+	scale 15
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+In overall, 
+\begin_inset Formula $\Omega$
+\end_inset
+
+ increases by 
+\begin_inset Formula $y^{*}$
+\end_inset
+
+.
+ The specific 
+\begin_inset Quotes eld
+\end_inset
+
+schedule
+\begin_inset Quotes erd
+\end_inset
+
+ of the income has nothing to do with the time preference, thus this addition
+ will be spread between the consumption periods 
+\series bold
+in the same proportion
+\series default
+ as the original 
+\begin_inset Formula $\Omega$
+\end_inset
+
+ was spread between them.
+ As 
+\begin_inset Formula $\rho=r$
+\end_inset
+
+ is given, we can infer that 
+\begin_inset Formula $c_{1}=c_{2}$
+\end_inset
+
+ thus the addition will be equally spread as well.
+\end_layout
+
+\begin_layout Section*
+Question 3
+\end_layout
+
+\begin_layout Standard
+There is an expectation of appreciation (
+\series bold
+decrease
+\series default
+ in exchange rate) of the currency.
+
+\series bold
+ 
+\series default
+In order to keep the exchange rate at the same level, the central bank should
+ lower the interest rate.
+\end_layout
+
+\begin_layout Quote
+\begin_inset Graphics
+	filename /home/leonid/logs/index.jpg
+	scale 15
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
