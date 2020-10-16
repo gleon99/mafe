@@ -1,0 +1,604 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+\usepackage{indentfirst}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2.5cm
+\topmargin 2.5cm
+\rightmargin 2.5cm
+\bottommargin 2.5cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+202702 - Lecture 1
+\end_layout
+
+\begin_layout Author
+Leonid Genkin
+\end_layout
+
+\begin_layout Section
+Introduction
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Microeconomics
+\series default
+ is, basically, a theory of 
+\series bold
+decisions
+\series default
+.
+ It studies how households and consumers make fundamental economic decisions
+ on: what to buy, how much to work, etc.
+ The idea to put an analytical framework to analyze this logic.
+\end_layout
+
+\begin_layout Standard
+On the background of each decision, there's always some scarcity (i.e limited
+ budget, even when a big one).
+ Each decision involves a tradeoff.
+ (Buying more of something - can buy less of something else; work more -
+ less leisure time; save more - consume less, etc).
+\end_layout
+
+\begin_layout Standard
+The 
+\series bold
+tradeoff
+\series default
+ is the underlying reason for the theory (it's not needed when there's no
+ scarcity).
+\end_layout
+
+\begin_layout Standard
+The main paradigm is that rational people always try to maximize their interests
+ / utility.
+ It doesn't mean that people are always rational in reality, it just means
+ that people 
+\series bold
+try
+\series default
+ (there are many reasons for them not to succeed: lack of time / information,
+ cognitive biases, etc), and they are rational to some extent, and systematicall
+y do try to make the best decision for themselves.
+\end_layout
+
+\begin_layout Section
+Consumer's Theory
+\end_layout
+
+\begin_layout Standard
+We'll analyze consumer possibilities, assuming there is 
+\begin_inset Quotes eld
+\end_inset
+
+no future
+\begin_inset Quotes erd
+\end_inset
+
+ and there are only 2 products (can be easily generalized to more).
+\end_layout
+
+\begin_layout Standard
+Given the income and prices we'll first map the possible consumption possibiliti
+es, then we'll address the consumer preferences.
+\end_layout
+
+\begin_layout Standard
+At the third stage we combine the results, to find out what will be the
+ consumption decision (choice) - according to possibilities, and preferences.
+\end_layout
+
+\begin_layout Description
+Consumption
+\begin_inset space ~
+\end_inset
+
+Bundle A specific combination of both goods
+\end_layout
+
+\begin_layout Description
+Consumption
+\begin_inset space ~
+\end_inset
+
+Possibilities All affordable bundles (for this consumer).
+ There are infinite possibilities, because we don't limit them to only integers
+\end_layout
+
+\begin_layout Description
+Budget
+\begin_inset space ~
+\end_inset
+
+Constraint Limit of the consumption possibilities (bundles that exhaust
+ all available income)
+\end_layout
+
+\begin_layout Standard
+The most important thing is understanding the insights and applying principles,
+ rather than math (in this course).
+\end_layout
+
+\begin_layout Subsection
+Example
+\end_layout
+
+\begin_layout Subsubsection
+Budget Constraint
+\end_layout
+
+\begin_layout Standard
+Income - 1200.
+ Fish, Mango prices - 4, 1 respectively.
+ What's the budget constraint?
+\end_layout
+
+\begin_layout Standard
+Max amount of fish, mangos ? 300, 1200 respectively.
+\end_layout
+
+\begin_layout Standard
+The budget constraint is: 
+\begin_inset Formula $4F+M=1200$
+\end_inset
+
+.
+ The cost equals the income.
+ Graph plot is a negative-slope straight line, crossing 
+\begin_inset Formula $X$
+\end_inset
+
+ and 
+\begin_inset Formula $Y$
+\end_inset
+
+ axes at the max mangos / fish points.
+ Any point on the curve or beneath it is a possible consumption bundle.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Slopes
+\series default
+ of curves always have meaning in economics.
+ How many mangos should be given up to buy extra fish? The 
+\series bold
+relative
+\series default
+ price of fish is 4 mangos (denoted not in money, but in other products).
+\end_layout
+
+\begin_layout Subsubsection
+Preferences
+\end_layout
+
+\begin_layout Standard
+Now after dealing with what the consumer 
+\series bold
+can
+\series default
+ afford, we deal with what he 
+\series bold
+wants
+\series default
+.
+ Being rational, the costomer prefers the bundle which gives him the highest
+ level of satisfaction.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes eld
+\end_inset
+
+More is better than less
+\begin_inset Quotes erd
+\end_inset
+
+.
+ However, when comparing (2,4) to (4,3) - the decision depends on the consumer,
+ which requires some tool to compare bundles.
+\end_layout
+
+\begin_layout Description
+Indifference
+\begin_inset space ~
+\end_inset
+
+Curves Consumption bundles that give the consumer same level of utility
+\end_layout
+
+\begin_layout Standard
+I.Cs are always downward sloping (that would contradict 
+\begin_inset Quotes eld
+\end_inset
+
+more is better than less
+\begin_inset Quotes erd
+\end_inset
+
+), the same logic rules out a horizontal/vertical consumption curve.
+\end_layout
+
+\begin_layout Standard
+Higher I.Cs are preferred to lower ones.
+ Given 2 curves, how do we know that? Using transitivity, with a slope connectin
+g from (0,0) - if 
+\begin_inset Formula $A>B$
+\end_inset
+
+ and 
+\begin_inset Formula $A=C$
+\end_inset
+
+, then 
+\begin_inset Formula $C>B$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+I.Cs cannot cross, which would contradict 
+\begin_inset Quotes eld
+\end_inset
+
+more better than less
+\begin_inset Quotes erd
+\end_inset
+
+ as well.
+\end_layout
+
+\begin_layout Standard
+I.Cs are 
+\begin_inset Quotes eld
+\end_inset
+
+thin
+\begin_inset Quotes erd
+\end_inset
+
+ (they cannot be 
+\begin_inset Quotes eld
+\end_inset
+
+thick
+\begin_inset Quotes erd
+\end_inset
+
+, that would violate the basic assumption as well).
+\end_layout
+
+\begin_layout Description
+MRS
+\begin_inset space ~
+\end_inset
+
+(Marginal
+\begin_inset space ~
+\end_inset
+
+Rate
+\begin_inset space ~
+\end_inset
+
+of
+\begin_inset space ~
+\end_inset
+
+Substitution) The rate, at which a customer is willing to trade one good
+ for another
+\end_layout
+
+\begin_layout Standard
+In other words: How many mangos can be given up for a single fish, to keep
+ indifferent? Contrary to the budget line, the slope here is not constant.
+ The more you have of some product - the less you value it, thus the MRS
+ normally falls as moving along the I.C (it's convex and not concave).
+\end_layout
+
+\begin_layout Standard
+It is possible, in theory, for the I.Cs to be concave, but it's quite unlikely
+ (it requires that the willingness to trade increases as you have less of
+ some product).
+ Thus it's uncommon but doesn't contradict rationality (he would end up
+ spending all budget on one good).
+\end_layout
+
+\begin_layout Subsection
+Utility Representation
+\end_layout
+
+\begin_layout Standard
+A utility function 
+\begin_inset Formula $U(x,y)$
+\end_inset
+
+ assigns a numerical value for each bundle, representing satisfaction /
+ benefit level of consuming it.
+ Given it, we can determine what will be the consumer decision.
+ The rational consumer would choose the optimal affordable bundle.
+\end_layout
+
+\begin_layout Standard
+Optimal bundle means one that maximizes the utility level, thus it must
+ be on the highest possible indifference curve.
+\end_layout
+
+\begin_layout Standard
+A typical solution is the intersection point of the budget line with the
+ highest possible I.C.
+ At that point the I.C is (usually) tanget to the budget line (
+\begin_inset Formula $MRS=-P_{X}/P_{Y}$
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Standard
+Generalizing to a formal math equation, we need to find the endogenous variables
+ 
+\begin_inset Formula $X,Y$
+\end_inset
+
+ given the exogenous 
+\begin_inset Formula $P_{X},P_{Y},I$
+\end_inset
+
+.
+ Total differential of 
+\begin_inset space ~
+\end_inset
+
+U along and indifference curve yields:
+\begin_inset Formula 
+\[
+dU=0=\frac{\partial U}{\partial X}dX+\frac{\partial U}{\partial Y}dY\rightarrow MRS=\frac{dY}{dX}=-\frac{MU_{x}}{MU_{y}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $MU_{x},MU_{y}$
+\end_inset
+
+ - marginal utilities.
+ That's the mathematical description of a particular indifference curve.
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $FOC:|MRS(X,Y)|=P_{X}/P_{Y}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+The budget line equation
+\end_layout
+
+\begin_layout Standard
+Two conditions are needed, because there're 2 variables in the solution.
+\end_layout
+
+\begin_layout Subsubsection
+Example
+\end_layout
+
+\begin_layout Standard
+A utility function is given by 
+\begin_inset Formula $U=F^{0.6}M^{0.4}$
+\end_inset
+
+, prices are 
+\begin_inset Formula $P_{F},P_{M}$
+\end_inset
+
+, income is 
+\begin_inset Formula $I$
+\end_inset
+
+.
+ What's the optimal choice?
+\end_layout
+
+\begin_layout Standard
+The tangency condition:
+\begin_inset Formula 
+\[
+|MRS|=\frac{0.6F^{-0.4}M^{0.4}}{0,4F^{0.6}M^{-0.6}}=\frac{3M}{2F}=\frac{P_{F}}{P_{M}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The budget line is: 
+\begin_inset Formula $P_{F}F+P_{M}M=I$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Thus, solving for 
+\begin_inset Formula $F$
+\end_inset
+
+ and 
+\begin_inset Formula $M$
+\end_inset
+
+ yields:
+\begin_inset Formula 
+\[
+M=0.4I/P_{M}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+F=0.6I/P_{F}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Notice that in this form of utilify function, the amount of 
+\begin_inset Formula $M$
+\end_inset
+
+ doesn't depend on the price of 
+\begin_inset Formula $F$
+\end_inset
+
+ (unlike some other utility functions).
+\end_layout
+
+\begin_layout Subsection
+Demand Function
+\end_layout
+
+\begin_layout Standard
+The solution for each endogenous variable is a function os all exogenous
+ variables.
+ When the consumer maximizes utilisy, it's calles the 
+\series bold
+demand function for X
+\series default
+.
+ It describes the desired (optimal) quality of a certain product.
+\end_layout
+
+\begin_layout Subsubsection
+Determinants of Demand
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Preferences
+\series default
+: As the consumer prefers the product more (more utility by consuming it),
+ quantity demand increases.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Income
+\series default
+: As it increases, the consumer wll consume more if the good is normal,
+ but less if it's inferior (i.e hamburger: Why? - Because there're more expensive
+ alternatives).
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Related Good Price
+\series default
+: If the price on 
+\begin_inset Formula $Y$
+\end_inset
+
+ increases, the demand on 
+\begin_inset Formula $X$
+\end_inset
+
+ might increase (if they're substitutes, like apple/orange juice) or decrease
+ (if they're complements, like coffee+milk).
+\end_layout
+
+\end_body
+\end_document
