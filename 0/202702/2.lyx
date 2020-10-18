@@ -1,0 +1,424 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+\usepackage{indentfirst}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2.5cm
+\topmargin 2.5cm
+\rightmargin 2.5cm
+\bottommargin 2.5cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+202702 - Lecture 2
+\end_layout
+
+\begin_layout Author
+Leonid Genkin
+\end_layout
+
+\begin_layout Section
+Consumer's Theory
+\end_layout
+
+\begin_layout Subsection
+Determinants of Demand
+\end_layout
+
+\begin_layout Standard
+When the good's price changes, it entails 2 effects:
+\end_layout
+
+\begin_layout Itemize
+Income Effect: higher price reduces purchasing power, as if the income fails,
+ thus demands falls (if it's normal) or rises (if it's inferior).
+\end_layout
+
+\begin_layout Itemize
+Substitution Effect: higher price makes other pruducts relatively cheaper.
+\end_layout
+
+\begin_layout Standard
+The price effect is the sum of these two, which usually has inverse correlation
+ with price (demand curve has negative slope).
+\end_layout
+
+\begin_layout Standard
+Preference - more (less) demand at any given price.
+\end_layout
+
+\begin_layout Standard
+Changes in price affect the achieved level of utility, but do not reshape
+ preferences.
+\end_layout
+
+\begin_layout Subsubsection
+Exercise
+\end_layout
+
+\begin_layout Standard
+What happens to the demand curve of a good, when:
+\end_layout
+
+\begin_layout Itemize
+The income of the consumers rises? Shifts right, unless it's an inferior
+ good.
+\end_layout
+
+\begin_layout Itemize
+Price of a substitude good falls? Shifts left.
+\end_layout
+
+\begin_layout Itemize
+Price of the good increases? Nothing (movement along the curve).
+\end_layout
+
+\begin_layout Section
+Firm's Theory
+\end_layout
+
+\begin_layout Description
+Inputs Rsources used n the production process (labor, equipment, etc)
+\end_layout
+
+\begin_layout Description
+Output The produced commodity, using the inputs
+\end_layout
+
+\begin_layout Description
+Technology The process that converts input to output
+\end_layout
+
+\begin_layout Description
+Production
+\begin_inset space ~
+\end_inset
+
+Function A quantitative relation between input & output
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+X=F(L,K),\,e.g\,X=L^{a}+K^{b}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+(or Cobb-Douglas function).
+\end_layout
+
+\begin_layout Description
+Marginal
+\begin_inset space ~
+\end_inset
+
+Product Change in overral output level, when either input is marginally
+ changed (partial derivative with respect to labor/capital).
+\end_layout
+
+\begin_layout Standard
+In the 
+\series bold
+short-run
+\series default
+, some inputs are fixed (i.e offices) some are variable (employees), while
+ in the 
+\series bold
+long-run
+\series default
+ all inputs are variable.
+\end_layout
+
+\begin_layout Standard
+Why does the marginal product added by each worker decrease (concave function
+ shape)? Diminishing marginal product - because the other input (land, machines,
+ etc) is held 
+\series bold
+constant
+\series default
+ - each new worker has less capital to work with, so productivity falls.
+\end_layout
+
+\begin_layout Subsection
+Costs Functions
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Costs
+\series default
+ include both explicit (expenditure) and implicit (forgone income, potential
+ rent/earnings).
+\end_layout
+
+\begin_layout Standard
+Example: 2 firms with income=40, one rents office for 50, other one owns
+ it.
+ Both should shut down, the former one is explicit cost, in the latter one
+ it's implicit.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Total costs
+\series default
+ are the minimum required costs to produce any output level.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Fixed costs
+\series default
+ - paid for the fixed input, regardless of output level (rent).
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Variable costs
+\series default
+ - costs of the variable input (labor).
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Average cost
+\series default
+ - cost per unit (total cost / units number)
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Marginal cost
+\series default
+ - change in total cost, as a result of marginal output increase.
+\end_layout
+
+\begin_layout Standard
+Average cost curve is normally U-shaped.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Economies of scale
+\series default
+ - average cost falls when output rises (specialization).
+ This proprety is common in big corporations / monopolies.
+ Huge fixed cost for initial setup, then, as it continues to expand - efficiency
+ increases.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Constant return to scale 
+\series default
+- average cost is constant when output rises.
+ The idea is that the output responds to scaling, and returns (ratio between
+ output & input) are constant.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Diseconomies of scale
+\series default
+ - average cost rises when output rises (coordination).
+\end_layout
+
+\begin_layout Standard
+Why does MC increase? Because MPL decreases.
+ Expanding the firm leads to hiring more workers (short-term analysis!),
+ each of them is equally paid but less productive.
+\end_layout
+
+\begin_layout Standard
+Is it possible to have a firm with a constant MC? - It means that MPL must
+ be constant as well.
+\end_layout
+
+\begin_layout Standard
+Why does MC cross AC at its minium level (The 
+\begin_inset Quotes eld
+\end_inset
+
+efficient scale
+\begin_inset Quotes erd
+\end_inset
+
+)? - 
+\begin_inset Quotes eld
+\end_inset
+
+Average follows the marginal
+\begin_inset Quotes erd
+\end_inset
+
+ (MC influences the AC), otherwise there's a contradiction.
+\end_layout
+
+\begin_layout Subsection
+Competitive Firm
+\end_layout
+
+\begin_layout Standard
+Two key assumptions in the short-term: many buyers & many sellers; goods
+ offered are the same.
+ Thus, each agent is a 
+\series bold
+price taker
+\series default
+ - no 
+\series bold
+market power
+\series default
+.
+ 
+\end_layout
+
+\begin_layout Standard
+Rational firms seek to maximize profit, where profit is revenues minus total
+ costs, and revenues are market price times qunatity sold.
+ The quantity sold (produced) is decided by the firm so that profit is maximized
+ - 
+\series bold
+that's the key motivator for each decision
+\series default
+.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Marginal revenue 
+\series default
+- how much total revenue changes, when selling one more unit.
+ For competitive firm it's the price of the unit.
+ Another unit will be produced, as long as the marginal revenue exceeds
+ marginal cost.
+\end_layout
+
+\begin_layout Standard
+Optimal ouptut is when price equal to the marginal cost.
+\end_layout
+
+\begin_layout Subsection
+Porfit Maximization - Generalization
+\end_layout
+
+\begin_layout Standard
+Optimal output problem is maximizing 
+\begin_inset Formula $P\cdot X-TC(X)$
+\end_inset
+
+ i.e price times quantity, minus total cost.
+\end_layout
+
+\begin_layout Standard
+First-order condition:
+\begin_inset Formula 
+\[
+P=\frac{\partial TC(X)}{\partial X}=MC(X)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Second-order condition is 
+\begin_inset Formula $-MC'(X)<0$
+\end_inset
+
+, which means MC rises with output.
+\end_layout
+
+\end_body
+\end_document
