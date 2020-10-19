@@ -1,0 +1,427 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+\usepackage{indentfirst}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2.5cm
+\topmargin 2.5cm
+\rightmargin 2.5cm
+\bottommargin 2.5cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+202702 - Lecture 3
+\end_layout
+
+\begin_layout Author
+Leonid Genkin
+\end_layout
+
+\begin_layout Section
+Firm's Theory
+\end_layout
+
+\begin_layout Subsection
+Shutdown and Exit
+\end_layout
+
+\begin_layout Standard
+When optimal profit is negative (market price is low) - should the firm
+ shutdown/exit? In the long run - 
+\series bold
+yes
+\series default
+ (no fixed costs, only variable ones).
+ In the short run - 
+\series bold
+maybe
+\series default
+ (still paying fixed costs, can make things worse).
+\end_layout
+
+\begin_layout Standard
+Fifxed costs are 
+\series bold
+crucial
+\series default
+ for understanding how a business works and makes its decisions.
+\end_layout
+
+\begin_layout Standard
+In some cases one would prefer to open and have the business running, despist
+ anticipation of losses.
+ Keeping it open, the profit is: 
+\begin_inset Formula $P\cdot X-FC-VC$
+\end_inset
+
+, but when it's shut down it's 
+\begin_inset Formula $-FC$
+\end_inset
+
+, thus if 
+\begin_inset Formula $P\cdot X-VC>0$
+\end_inset
+
+, the business should be kept open.
+\end_layout
+
+\begin_layout Subsection
+Exercise
+\end_layout
+
+\begin_layout Standard
+A good market price is 8$, cost function is: 
+\begin_inset Formula $TC(X)=50+2x+0.25x^{2},\,x\geq0$
+\end_inset
+
+.
+ What is the profit? The firm loses, but it won't shutdown - that would
+ make it worse off.
+\end_layout
+
+\begin_layout Subsection
+Supply Curve
+\end_layout
+
+\begin_layout Standard
+Optimal output level is when marginal cost equals the price.
+ Thus, the marginal cost curve is the supply curve.
+ The marginal cost shows how many units the firm offers for each market
+ price.
+\end_layout
+
+\begin_layout Subsection
+Determinants of Supply
+\end_layout
+
+\begin_layout Itemize
+Price - positive correlation
+\end_layout
+
+\begin_layout Itemize
+Variable input prices - inverse correlation (MC curve moves upward)
+\end_layout
+
+\begin_layout Itemize
+Technology - a 
+\begin_inset Quotes eld
+\end_inset
+
+cost-saving
+\begin_inset Quotes erd
+\end_inset
+
+ innovation
+\end_layout
+
+\begin_layout Section
+Competitive Markets
+\end_layout
+
+\begin_layout Standard
+The combination of the previous two theories discussed (consumer's theory
+ & firm's theory) leads us to the market definition.
+ In competitive market, each buyer & seller is a 
+\begin_inset Quotes eld
+\end_inset
+
+price taker
+\begin_inset Quotes erd
+\end_inset
+
+, decisions are made only on how much to buy / sell.
+ There are other market types, for simplificaiton we only consider competitive
+ market with a single available good here.
+\end_layout
+
+\begin_layout Standard
+Market demand / supply is the sum of quantities demanded / supplies by all
+ consumers / firms at each market price.
+\end_layout
+
+\begin_layout Standard
+The short-run equilibrium combines supply & demand (might differ from the
+ long-run - because of the number of operating firms).
+ It is defined as the price, at which demand equals supply.
+ A higher price leads to a surplus, a lower one - to a shortage.
+ Eventually the equilibrium will be reached.
+\end_layout
+
+\begin_layout Standard
+Example: housing prices in Israel.
+ There is a similar rise in rent prices (at least, in the long-term).
+ There are many arguments on why it happens, and many efforts to lower it,
+ but at the end there is a very simple observation: the number of people
+ added each year to the demand side is substantially and systematically
+ higher than the supply side (new apartments), which leads to a shortage
+ (on average ~20 thousand per year).
+\end_layout
+
+\begin_layout Subsection
+Comparative Statics (D Shifters)
+\end_layout
+
+\begin_layout Standard
+Deals with the question: what can change the equilibrium? If the demand
+ curve shifts, a new eqilibrium is established
+\end_layout
+
+\begin_layout Standard
+For example, consider an increase in gasoline price leads to increase of
+ hybrid cars demand, as it is a substitute, thus some customers are 
+\begin_inset Quotes eld
+\end_inset
+
+redirected
+\begin_inset Quotes erd
+\end_inset
+
+ to it as an alternative.
+ The demand shift induced movement along the supply curve.
+\end_layout
+
+\begin_layout Subsection
+Comparative Statics (S Shifters)
+\end_layout
+
+\begin_layout Standard
+If the supply curve shifts, a new equilibrium is established.
+ For example, when many additional hybrid cars sellers enter the market,
+ the supply curve shifts right, and there is movement along the demand curve.
+\end_layout
+
+\begin_layout Subsection
+Long-run equilibrium
+\end_layout
+
+\begin_layout Standard
+In the long-run, firms are free to enter/exit the market (no fixed cost
+ 
+\begin_inset Quotes eld
+\end_inset
+
+barrier
+\begin_inset Quotes erd
+\end_inset
+
+ anymore).
+ We use 
+\begin_inset Quotes eld
+\end_inset
+
+exit
+\begin_inset Quotes erd
+\end_inset
+
+ for long-run and 
+\begin_inset Quotes eld
+\end_inset
+
+shutdown
+\begin_inset Quotes erd
+\end_inset
+
+ for the short-run.
+\end_layout
+
+\begin_layout Standard
+Thus, their number is not 
+\begin_inset Quotes eld
+\end_inset
+
+given
+\begin_inset Quotes erd
+\end_inset
+
+ (exogenous), but is an endogeous variable: positive (negative) profit leads
+ to new firms enter (some firms leave), supply shifts right (left), price
+ falls (rises) and profit falls (rises).
+\end_layout
+
+\begin_layout Standard
+The entry/exit process is complete, when firms earn zeo (economic) profit
+ (alternative accounting profit).
+\end_layout
+
+\begin_layout Standard
+In the long-run, 
+\series bold
+you can never outdo the alternative
+\series default
+ you have.
+ Zero profit implies: 
+\series bold
+price = average cost
+\series default
+.
+\end_layout
+
+\begin_layout Standard
+In an equilibrium, MC equals AC.
+\end_layout
+
+\begin_layout Standard
+In the short run, the equilibrium is only defined by 
+\begin_inset Formula $Q$
+\end_inset
+
+ (units number) and 
+\begin_inset Formula $P$
+\end_inset
+
+ (price).
+ In the long it's also 
+\begin_inset Formula $n$
+\end_inset
+
+ (firms number) and 
+\begin_inset Formula $q$
+\end_inset
+
+ (units produced by each firm).
+\end_layout
+
+\begin_layout Standard
+Notice that accounting profit = revenue - explicit cost.
+ Economic profit = revenue - explicit cost - implicit cost.
+ When the economic profit is 0, it means that accounting profit equals the
+ implicit cost.
+\end_layout
+
+\begin_layout Subsection
+Welfare Economics
+\end_layout
+
+\begin_layout Standard
+An outcome of a market is, basically, allocation of resources: who produces
+ / consumes and how much.
+\end_layout
+
+\begin_layout Standard
+Instead of asking what is the outcome and how do we reach it, we ask: is
+ that a good result? Can we do better?
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Consumer surplus
+\series default
+ measures 
+\begin_inset Quotes eld
+\end_inset
+
+how better off
+\begin_inset Quotes erd
+\end_inset
+
+ are consumers as a result of consuming the product.
+ It equals to benefit, minus the price.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Producer surplus
+\series default
+ measures the wellbeing of sellers: the price they charged, minus the producing
+ cost.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Total surplus
+\series default
+ is the sum of producers' & consumers' surpluses.
+\end_layout
+
+\begin_layout Standard
+Different market structures result in different allocations, thus, different
+ levels of surplus.
+\end_layout
+
+\begin_layout Standard
+Which market outcome maximizes everyone's surplus (efficiency)? - 
+\series bold
+First Welfare Theorem: Perfectly competitive markets lead to the highest
+ possible surplus.
+\end_layout
+
+\end_body
+\end_document
