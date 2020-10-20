@@ -1,0 +1,511 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+\usepackage{indentfirst}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2.5cm
+\topmargin 2.5cm
+\rightmargin 2.5cm
+\bottommargin 2.5cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+202702 - Lecture 4
+\end_layout
+
+\begin_layout Author
+Leonid Genkin
+\end_layout
+
+\begin_layout Section
+Welfare economics
+\end_layout
+
+\begin_layout Standard
+The supply / demand curves are results of profit / utility optimization
+ by producers / consumers.
+ The 
+\begin_inset Quotes eld
+\end_inset
+
+welfare
+\begin_inset Quotes erd
+\end_inset
+
+ is defined as the sum of the producers' & consumers' surplus.
+\end_layout
+
+\begin_layout Subsection
+Consumer Surplus
+\end_layout
+
+\begin_layout Standard
+In order to determine the consumer surplus, we place a 
+\begin_inset Quotes eld
+\end_inset
+
+price tag
+\begin_inset Quotes erd
+\end_inset
+
+ of some personal, subjective benefit the consumer has (value) of consuming
+ this product, and substract the market price from it.
+ The 
+\begin_inset Quotes eld
+\end_inset
+
+willingness to pay
+\begin_inset Quotes erd
+\end_inset
+
+ can be derived from the demand curve (if the good price was higher, it
+ would not have been bought).
+ Another way of looking: If 5 units are sold at price 50$, it means that
+ the person who bought the 5th unit is willing to pay at most 50$ (there's
+ no difference between considering an individual or aggregate demand in
+ this case).
+\end_layout
+
+\begin_layout Standard
+Thus, the consumer surplus is measured by the area between the demand curve
+ and the market price.
+ It is defined only for 
+\series bold
+active
+\series default
+ participants of the market (those who actually buy the goods).
+ If we combine all buyers, the total surplus is 
+\series bold
+the aggregate difference between the wilingness to pay and the market price
+\series default
+ (triangle area - integral).
+\end_layout
+
+\begin_layout Subsection
+Producer Surplus
+\end_layout
+
+\begin_layout Standard
+In a similar way, it is defined as the area between the supply curve and
+ the market price.
+ A competitive firm does not set the price, thus the minimum price level
+ at which it is ready to sell the good is its producing cost (the definition
+ of the supply curve for competitive market is market price = marginal cost).
+\end_layout
+
+\begin_layout Subsection
+Total Surplus
+\end_layout
+
+\begin_layout Standard
+The total social welfare is the sum of the 2 values above - the area between
+ the supply & demand curves (integral of price minus cost), which is the
+ gap between the benefit to the buyer and the cost to seller, across all
+ transactions.
+ A transaction is considered 
+\series bold
+efficient
+\series default
+, iff the benefit to the buyer exceed the cost to the seller.
+ Normaly inefficient transactions do not take place.
+ It leads us to understanding the reasoning behind the first welfare theorem:
+ 
+\series bold
+total surplus is maximized, since all and only efficient transactions are
+ carried out
+\series default
+.
+ A free market leads all producers & consumers to maximize their utility
+ / profit, which maximizes the total surplus.
+\end_layout
+
+\begin_layout Subsubsection
+Exercise
+\end_layout
+
+\begin_layout Standard
+Given 
+\begin_inset Formula $Q$
+\end_inset
+
+, is the market price relevant for determining the total surplus? - 
+\series bold
+No
+\series default
+, it just determines how the surplus is split between the parties.
+\end_layout
+
+\begin_layout Standard
+What will happen in any other market outcome (
+\begin_inset Formula $Q$
+\end_inset
+
+)? The surplus will necessarily be 
+\series bold
+lower
+\series default
+.
+ For example, if some restriction (i.e government) leads to less than equilibrium
+ amount of transactions performed, some surplus will be lost (higher quality
+ - negative surplus, subtracted from the equilibrium total surplus; lower
+ quality - surplus less than in equilibrium).
+\end_layout
+
+\begin_layout Standard
+Mathematically - If we define the social welfare function as 
+\begin_inset Formula $\int_{0}^{Q}(D-S)dQ$
+\end_inset
+
+, the maximum value will be reached at the equilibrium.
+\end_layout
+
+\begin_layout Section
+Imperfectly Competitive Markets
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Monopoly
+\series default
+ is a market with a sole producer fo a good which has no close substitutes.
+ It is the exact opposite of a perfect competition.
+ Why, despite a potential high profit, a monopoly can be sustainable and
+ is not a subject for competition? The main cause is usually 
+\series bold
+entry barriers
+\series default
+:
+\end_layout
+
+\begin_layout Itemize
+Owning a 
+\series bold
+scarce
+\series default
+ (limited) key resource (e.g parking lots)
+\end_layout
+
+\begin_layout Itemize
+Having 
+\series bold
+exclusive
+\series default
+ rights by law (patent / copyright - government might be interested, because
+ it motivates R&D)
+\end_layout
+
+\begin_layout Itemize
+Being 
+\series bold
+natural monopoly
+\series default
+ (huge starting costs - railway / electricity, and even then - usually these
+ markets are characterized as 
+\begin_inset Quotes eld
+\end_inset
+
+economies of scale
+\begin_inset Quotes erd
+\end_inset
+
+ - cost per unit gets lower as we produce more - which encourages mergers)
+\end_layout
+
+\begin_layout Standard
+A key point in understanding how a monopoly behaves, is revisiting marginal
+ revenue.
+ A competitive firm 
+\series bold
+has no market power
+\series default
+ - it is a 
+\begin_inset Quotes eld
+\end_inset
+
+price taker
+\begin_inset Quotes erd
+\end_inset
+
+.
+ A monopoly 
+\series bold
+has
+\series default
+ market power, it is a 
+\series bold
+price maker
+\series default
+.
+\end_layout
+
+\begin_layout Standard
+The demand curve perceived by a competitive firm is perfectly horizontal,
+ while the one preceived by a monopoly is downward sloping.
+ Subsequently, the marginal revenue is 
+\begin_inset Formula $P$
+\end_inset
+
+ for a competitive firm (it can't affect the market price):
+\begin_inset Formula 
+\[
+\frac{\partial(PQ)}{\partial Q}=P
+\]
+
+\end_inset
+
+But 
+\series bold
+not
+\series default
+ 
+\begin_inset Formula $P$
+\end_inset
+
+, because it 
+\series bold
+can
+\series default
+ affect the market price:
+\begin_inset Formula 
+\[
+\frac{\partial(P(Q)Q)}{\partial Q}=P'(Q)Q+P(Q)
+\]
+
+\end_inset
+
+Thus the marginal revenue is less than 
+\begin_inset Formula $P$
+\end_inset
+
+.
+ The terms above are called the 
+\series bold
+quantity
+\series default
+ (positive) and 
+\series bold
+price
+\series default
+ (negative) effects, respectively.
+ A competitive firm doesn't have a price effect, because it is a price taker.
+\end_layout
+
+\begin_layout Standard
+The marginal revenue curve, as a rule of thumb, will always cross the 
+\begin_inset Formula $X$
+\end_inset
+
+ axis halfway compared to the demand curve.
+\end_layout
+
+\begin_layout Standard
+The equilibrium is reached where 
+\begin_inset Formula $P(Q)Q-TC(Q)$
+\end_inset
+
+ has the max value (price times quantity, minus total cost).
+ Like any firm, proft maximization is them maginal revenue equals marginal
+ cost.
+\end_layout
+
+\begin_layout Standard
+Being a monopoly doesn't mean it can charge 
+\series bold
+any
+\series default
+ price (it will sell less).
+\end_layout
+
+\begin_layout Standard
+In an equilibrium, 
+\begin_inset Formula $P>MC$
+\end_inset
+
+ (price is higher than the marginal cost, unlike competitive market where
+ 
+\begin_inset Formula $P=MC$
+\end_inset
+
+) - 
+\series bold
+markup
+\series default
+, which manifests market power.
+ Monopoly 
+\series bold
+always 
+\series default
+sells less, at a higher price and has higher profit (it could have set the
+ competitive equilibrium if it had wished).
+\end_layout
+
+\begin_layout Standard
+Compared to the perfectly competitive market, there is a 
+\series bold
+deadweight loss
+\series default
+, because some efficient transactions are not carried out.
+\end_layout
+
+\begin_layout Standard
+Notice that for monopoly, MC doesn't have any 
+\begin_inset Quotes eld
+\end_inset
+
+special
+\begin_inset Quotes erd
+\end_inset
+
+ meaning, unlike the competitive market case - where it defines the suuply
+ curve.
+\end_layout
+
+\begin_layout Subsection
+Price Discrimination
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Price discrimination
+\series default
+ is selling the same good/service at different prices to different buyers.
+ If the monopoly somehow becomes aware of the different paying ability and
+ wilingness of different customers, it might exploit it to define different
+ prices accordingly.
+\end_layout
+
+\begin_layout Subsubsection
+Type I Discrimination
+\end_layout
+
+\begin_layout Standard
+The monopoly charges each buyer its max wilingness to pay - all total surplus
+ is gained by the monopoly, which produces the competitive (efficient!)
+ quantity.
+ Requires perfect information.
+\end_layout
+
+\begin_layout Subsubsection
+Type III Discrimination
+\end_layout
+
+\begin_layout Standard
+Dividing the customers to groups according to some observable trait, which
+ is indicative of their willingness to pay.
+ Analytically, this case is like 2 (or 
+\begin_inset Formula $n$
+\end_inset
+
+) markets, each has different 
+\begin_inset Formula $MR$
+\end_inset
+
+ function, but they all must be equal to 
+\begin_inset Formula $MC$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsubsection
+Type II Discrimination
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Everyone
+\series default
+ gets the same 
+\begin_inset Quotes eld
+\end_inset
+
+menu
+\begin_inset Quotes erd
+\end_inset
+
+, but it still separates buyers.
+ Everyone is given the option to choose (unlike the 2 cases above).
+ Example: 1 milk for 4$, three for 10$ (singles vs.
+ families) - selling on different points of the demand curve simultaneously.
+\end_layout
+
+\end_body
+\end_document
