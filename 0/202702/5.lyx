@@ -1,0 +1,545 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+\usepackage{indentfirst}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2.5cm
+\topmargin 2.5cm
+\rightmargin 2.5cm
+\bottommargin 2.5cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+202702 - Lecture 5
+\end_layout
+
+\begin_layout Author
+Leonid Genkin
+\end_layout
+
+\begin_layout Section
+Imperfectly Competitive Markets
+\end_layout
+
+\begin_layout Standard
+A monopoly is different from a competitive firm in the fact that it has
+ 
+\series bold
+market power
+\series default
+, thus it is a price 
+\series bold
+maker
+\series default
+ (and not a price 
+\series bold
+taker
+\series default
+).
+ Once the marginal cost & revenue are equated - the optimal level is found.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Deadweight loss 
+\series default
+- potential efficient transactions are not carried out, because the monopoly
+ charges more and sells less.
+\end_layout
+
+\begin_layout Standard
+A monopoly has ability to exploit its marke power, by extracting the maxium
+ price each customer is willing to pay.
+\end_layout
+
+\begin_layout Section
+Monopolistic Competition
+\end_layout
+
+\begin_layout Standard
+Perfect competition and monopoly are two extremes.
+ 
+\series bold
+Monopolistic competition
+\series default
+ is in between: many firms sell similar but no identical products (
+\begin_inset Quotes eld
+\end_inset
+
+substitutes
+\begin_inset Quotes erd
+\end_inset
+
+).
+ 
+\series bold
+Product differentiation
+\series default
+: by firms, branding (e.g apartmens, books, unlike gas).
+\end_layout
+
+\begin_layout Standard
+On the one hand, there is market power (monopoly-like), but on the other
+ hand - there is competition, because there are (imperfect) substitutes.
+ The existnce of the market power is derived from the uniqueness and differentia
+tion of the products.
+\end_layout
+
+\begin_layout Standard
+In the short-run, it is quite similar to any other monopoly.
+ As opposed to a regular monopoly, which faces 
+\begin_inset Quotes eld
+\end_inset
+
+market
+\begin_inset Quotes erd
+\end_inset
+
+ demand, a competitive monopoly faces only the direct exact demand of its
+ specific product.
+ Everything else is the same: Equating 
+\begin_inset Formula $MR$
+\end_inset
+
+ to 
+\begin_inset Formula $MC$
+\end_inset
+
+, finding the optimal Q, P and profit.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+The minimum of the 
+\begin_inset Formula $AC$
+\end_inset
+
+ curve is where it crosses the 
+\begin_inset Formula $MC$
+\end_inset
+
+ curve.
+\end_layout
+
+\begin_layout Standard
+Optimizing output doesn't guarantee a positive profit.
+ The rectangle between the price-quantity point and the average cost is
+ the total profit.
+ If the average cost is above the price, profit will be negative.
+\end_layout
+
+\begin_layout Standard
+In the long-run, a free market entry/exit is assumes, which must 
+\series bold
+push the profit of each firm to zero
+\series default
+.
+ Equilibrium conditions: 
+\begin_inset Formula $P=AC$
+\end_inset
+
+, 
+\begin_inset Formula $MR=MC$
+\end_inset
+
+.
+ 
+\begin_inset Formula $AC$
+\end_inset
+
+ must be tangent to the demand curve.
+ Otherwise, there could have been a (quantity) point where the charged price
+ (according to the demand curve) would be higher than the average cost,
+ which woul imply economic profict, contrary to the above onstraint.
+\end_layout
+
+\begin_layout Section
+Game Theory
+\end_layout
+
+\begin_layout Standard
+Modelling of 
+\series bold
+strategic interactions
+\series default
+: players understand that their actions have 
+\series bold
+effects
+\series default
+ on others, for example - duopoly (unlike monopoly or perfect competition).
+ A decision of other players is taken into account when 
+\begin_inset Quotes eld
+\end_inset
+
+my
+\begin_inset Quotes erd
+\end_inset
+
+ decision is taken.
+\end_layout
+
+\begin_layout Standard
+A game is composed of 
+\series bold
+players
+\series default
+, 
+\series bold
+strategies
+\series default
+ and the potential 
+\series bold
+payoffs
+\series default
+.
+ The simplest games are 
+\series bold
+simultaneous 2x2 games
+\series default
+: 2 playes, 2 possible actions for each one of them.
+\end_layout
+
+\begin_layout Subsection
+Prisoner's Dilemma
+\end_layout
+
+\begin_layout Standard
+2 banks have a dilemma of whether to launch an expensive marketing campaign.
+ If both don't advertise, each will have half of the market.
+ If both advertise - they get 
+\begin_inset Formula $30\%$
+\end_inset
+
+ each (20 is the cost of the campaign).
+ In case one bank advertise and its rival doesn't - the market is divided
+ 70%-10%.
+ Both banks will advertise.
+ 
+\begin_inset Quotes eld
+\end_inset
+
+Domino strategy
+\begin_inset Quotes erd
+\end_inset
+
+ - for 
+\series bold
+each
+\series default
+ option, each bank is better off if it advertises (one is preferable than
+ the other, 
+\series bold
+no matter
+\series default
+ what the rival chooses).
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Nash equilibrium
+\series default
+ is a strategies profile which gives best possible response to all others
+ (no one has a profitable deviation).
+\end_layout
+
+\begin_layout Subsection
+Coordination Game (Stag-Hare)
+\end_layout
+
+\begin_layout Standard
+There is no domino strategy, yet there are two NE: (stag, stag), (hare,
+ hare) and mixed one.
+ A refinement mechanism - choosing the more plausible outcome.
+ 
+\series bold
+Pareto dominance
+\series default
+ - all players understand that choosing (stag, stag) is better for all.
+ 
+\series bold
+Risk dominance
+\series default
+ - assigning equal probabilities to each rival outcome, thus choosing (stag,
+ stag) because of 
+\begin_inset Quotes eld
+\end_inset
+
+average outcome
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Hawk-Dove
+\end_layout
+
+\begin_layout Standard
+2 individuals who fight over the ownership on some asset (
+\begin_inset Formula $v$
+\end_inset
+
+).
+ There are 2 strategies to handle it: aggressively, or deal.
+ The fight has a cost (
+\begin_inset Formula $c$
+\end_inset
+
+), and assume 
+\begin_inset Formula $v/2<c$
+\end_inset
+
+.
+ There are two asymmetric NE: (dove, hawk), (hawk, dove).
+\end_layout
+
+\begin_layout Standard
+If 
+\begin_inset Formula $v/2>c$
+\end_inset
+
+, the game become the prisoner's dilemma game.
+ There is a third (mixed) strategy.
+ Pure strategy means choosing some specific option.
+ Mixed strategy means playing each action with some probability,
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Mixed Strategy Equilibrium
+\series default
+: Playing each action with probability, so that the rival is 
+\series bold
+indifferent
+\series default
+ between its actions - calculated by equating the expected outcomes.
+\end_layout
+
+\begin_layout Subsection
+Cournot Gane (Duopoly)
+\end_layout
+
+\begin_layout Standard
+Assume a demand curve defined by 
+\begin_inset Formula $P=12-Q$
+\end_inset
+
+.
+ 2 firms, 
+\begin_inset Formula $q_{1}+q_{2}=Q$
+\end_inset
+
+.
+ Assume that 
+\begin_inset Formula $TC_{1}=6+2q_{1}$
+\end_inset
+
+, 
+\begin_inset Formula $TC_{2}=4+4q_{2}$
+\end_inset
+
+.
+ Whatever the rival is doing, if my quantity increases, the total quantity
+ increases, thus the price decreases, which affects the profits of the rival
+ and its decisions.
+ First order condition (
+\begin_inset Formula $MC-MR=0$
+\end_inset
+
+) yields the 
+\series bold
+best response function
+\series default
+ for each firm.
+ NE is when BRs are to each other (2 equations, 2 variables).
+ Actions to crowd out rivals and become a monopoly can be logical in theory,
+ but are rare in reality (losses can't be accomodated by shareholders) and
+ can't be sustained for the long-term (once a firm becomes a monopoly, past
+ players can enter back).
+\end_layout
+
+\begin_layout Standard
+How is the equilibrium reached in the first place? The common standard answer
+ is: 
+\begin_inset Quotes eld
+\end_inset
+
+start anywhere, work from there
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection
+Sequential Games
+\end_layout
+
+\begin_layout Standard
+Play in turns, instead of playing simultaneously.
+ The 
+\series bold
+history
+\series default
+ is known.
+ The game is described using a 
+\series bold
+decision tree
+\series default
+.
+ For example - persuading small/big hedge funds to invest.
+ The big one requires more efforts to persuade.
+ The notion of success depends on the collaboration of 2 investors - if
+ each one of them approaches a different hedge fund, they will fail.
+ Each player's strategy set can include actions dependent on the history
+ (e.g to X/Y, and do same/opposite of the previous player).
+ There are several equilibriums here, though some of them are 
+\series bold
+unreliable
+\series default
+ (why would Megan play 
+\begin_inset Quotes eld
+\end_inset
+
+always S
+\begin_inset Quotes erd
+\end_inset
+
+ if Harry plays B and she knows it? - It's not a sensible promise, which
+ means an unpredictable model, that needs to be refined.
+ 
+\series bold
+Subgame Perfect NE
+\series default
+ - leave only those NE, where the NEs are 
+\series bold
+reliable
+\series default
+ (stick only to those strategies which will 
+\series bold
+always
+\series default
+ be implemented, by using 
+\series bold
+backwards induction
+\series default
+).
+\end_layout
+
+\begin_layout Standard
+the main idea in sequential game is that those who act second can make an
+ optimal decision for them, and those who play first can foresee it.
+\end_layout
+
+\begin_layout Subsection
+Stackelberg Game
+\end_layout
+
+\begin_layout Standard
+The dynamic version of the Cournot game.
+ The first firm choses how much to produce, then the second one observes
+ that and makes its choice.
+ The first firm 
+\series bold
+can foresee
+\series default
+ the reaction of the second one.
+ Using backward induction, the best response of the second firm is the same
+ as in Cournot Game.
+ The difference is that now we can 
+\series bold
+plug in
+\series default
+ that function in the first firm's first-order condition (because it 
+\series bold
+foresees
+\series default
+ the reaction).
+\end_layout
+
+\begin_layout Standard
+First-move advantage: the first firm outcrowds the second one.
+\end_layout
+
+\end_body
+\end_document
