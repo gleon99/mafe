@@ -1,0 +1,519 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+\usepackage{indentfirst}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2.5cm
+\topmargin 2.5cm
+\rightmargin 2.5cm
+\bottommargin 2.5cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+202702 - Lecture 6
+\end_layout
+
+\begin_layout Author
+Leonid Genkin
+\end_layout
+
+\begin_layout Section
+Informational Economics
+\end_layout
+
+\begin_layout Standard
+All models so far assumed 
+\series bold
+perfect information
+\series default
+.
+ Reality oftern entails imperfet and assymetric informations (one side is
+ more informed), which changes the entire dynamic of the game.
+ Informational economics deals with the outcomes of such situations.
+\end_layout
+
+\begin_layout Subsection
+Adverse Selection
+\end_layout
+
+\begin_layout Standard
+Many firms, with market value unuformly distributes between 20 and 100.
+ 
+\begin_inset Formula $EV=60$
+\end_inset
+
+.
+ The market value is 
+\series bold
+private
+\series default
+ information, unknown to investors.
+ Investors compete with each other, firms' owners go public iff they are
+ offered at least their market value.
+ An uninformed investor will offer 60 (the expected value).
+ Firms whose value 
+\begin_inset Formula $>60$
+\end_inset
+
+ will decline, those whose value is 
+\begin_inset Formula $<60$
+\end_inset
+
+ will accept.
+ Investors realize they face a market of firms whose value is in range 20-60
+ and change the offer to 40.
+ But then, firms with value 40-60 will exit, etc.
+ This process leads to a 
+\series bold
+complete market failure
+\series default
+ (only firms worth 20 will go public), efficient transactions are prevented
+ from taking place.
+\end_layout
+
+\begin_layout Subsubsection
+Exercise
+\end_layout
+
+\begin_layout Standard
+Assume a firm has a 
+\series bold
+private value
+\series default
+, which is 75% of its potential public value (
+\begin_inset Formula $v$
+\end_inset
+
+).
+ The offered price is 
+\begin_inset Formula $p$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Equilibrium conditions:
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $p$
+\end_inset
+
+ equals to the expected public value of firms that go public.
+\end_layout
+
+\begin_layout Itemize
+A firm goes public iff 
+\begin_inset Formula $p\geq v$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+This example is similar to a case when the seller and the buyer has different
+ values (prices).
+\end_layout
+
+\begin_layout Standard
+The main logic: If a particular firm accepts an offer, then any firm whose
+ value is less will accept it as well.
+\end_layout
+
+\begin_layout Standard
+Let 
+\begin_inset Formula $v^{*}$
+\end_inset
+
+ be the (public value of the) 
+\series bold
+cutoff frim
+\series default
+ - only below which firms go public.
+ From the first condition (the investors can't have nay profit/loss):
+\begin_inset Formula 
+\[
+p=\frac{20+v^{*}}{2}
+\]
+
+\end_inset
+
+Condition two:
+\begin_inset Formula 
+\[
+p=0.75v^{*}
+\]
+
+\end_inset
+
+2 conditions with 2 variables lead to solution 
+\begin_inset Formula $v^{*}=40,\,p=30$
+\end_inset
+
+.
+ Only the least valued firms go public - it is still a bad result, though
+ not as bad as the previous example.
+\end_layout
+
+\begin_layout Subsection
+Signaling
+\end_layout
+
+\begin_layout Standard
+Avderse selection is 
+\series bold
+bad.
+ 
+\series default
+Both sides has interst to convey information regarding the value of the
+ firms.
+ 
+\series bold
+Signaling
+\series default
+ is revealing private information 
+\series bold
+by the informed party
+\series default
+, to an uninformed party, in a credible manner.
+ For example, assume 2 types of firms: 
+\begin_inset Formula $H=200,\,L=20$
+\end_inset
+
+ with equal shares.
+ They can send an expert analysis report, acting as a 
+\series bold
+signal
+\series default
+ whether they are H-type or L-type, with some cost 
+\begin_inset Formula $c^{i},\,i\in\{H,L\}$
+\end_inset
+
+.
+ The signal is 
+\series bold
+imperfect
+\series default
+, L-type firms might be able to deceive.
+ The key assumption here is 
+\begin_inset Formula $c^{H}<c^{L}$
+\end_inset
+
+, because deception is expensive.
+\end_layout
+
+\begin_layout Standard
+The profit function for each firm is defined by:
+\begin_inset Formula 
+\[
+\pi=\left\{ \begin{array}{c}
+P(s)-c^{i}\\
+P(ns)
+\end{array}\right\} 
+\]
+
+\end_inset
+
+
+\begin_inset Formula $P(s)$
+\end_inset
+
+ is the price received when a signal is sent
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $P(ns)$
+\end_inset
+
+ is the price received when no signal is sent
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $c^{i}$
+\end_inset
+
+ is the cost of signaling
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Separating Equilibrium
+\series default
+: each firm type sends a different signal, thus an investor can identify
+ H or L, and reward respectively.
+\end_layout
+
+\begin_layout Standard
+Investor may believe the signal, then 
+\begin_inset Formula $P(s)=100,\,P(ns)=20$
+\end_inset
+
+.
+ In an equilibrium beliefs must be realized: 
+\begin_inset Formula $H$
+\end_inset
+
+ firms send a signel and get 100, 
+\begin_inset Formula $L$
+\end_inset
+
+ firms don't send a signal, and get 20.
+ For that to happen, 
+\begin_inset Formula $100-C^{L}<20<100-C^{H}$
+\end_inset
+
+, ensuring that 
+\begin_inset Formula $H$
+\end_inset
+
+ will signal and 
+\begin_inset Formula $L$
+\end_inset
+
+ won't:
+\begin_inset Formula 
+\[
+C^{H}<80<C^{L}
+\]
+
+\end_inset
+
+
+\begin_inset Formula $H$
+\end_inset
+
+ firms will be better off when signaling and 
+\begin_inset Formula $L$
+\end_inset
+
+ firms will be better off when not signaling, iff this condition is met
+ (separating equilibrium is perfeclty informative & efficient).
+\end_layout
+
+\begin_layout Standard
+What if 
+\begin_inset Formula $40<C^{H}<C^{L}<80$
+\end_inset
+
+?
+\end_layout
+
+\begin_layout Standard
+Investors may believe, that having a signal is indication of an 
+\begin_inset Formula $H$
+\end_inset
+
+ firm, but no signal is 
+\begin_inset Formula $50\%-50\%$
+\end_inset
+
+.
+ In an equilibrium, 
+\series bold
+beliefs are realized
+\series default
+: nobody signals (pooling equilibrium), so the probability of each firm
+ being 
+\begin_inset Formula $H$
+\end_inset
+
+ is indeed 50%.
+ For that to happen, there must hold: 
+\begin_inset Formula $100-c^{i}<60$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+What if 
+\begin_inset Formula $40>C^{L}$
+\end_inset
+
+? Assume the belief: a signal sent - the firm is 
+\begin_inset Formula $50\%$
+\end_inset
+
+ H type, no signal - firm is L type.
+ Then, 
+\begin_inset Formula $P(s)=60,\,P(ns)=20$
+\end_inset
+
+.
+ Everybody would signal (pooling equilibrium), which requirse 
+\begin_inset Formula $60-c^{i}>20$
+\end_inset
+
+ (signaling is better), which is indeed the case.
+ If everyone is doing the same, it doesn't give any information.
+ It is 
+\series bold
+the worst 
+\series default
+equilibrium: resources are wasted on signaling, without improving anything.
+\end_layout
+
+\begin_layout Standard
+The main thing about signaling is finding a way so that it brings to separation.
+\end_layout
+
+\begin_layout Subsection
+Screening
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Screening
+\series default
+ is an action 
+\series bold
+by the uninformed party
+\series default
+, to reveal the private information of an uninformed party, in a credible
+ manner (e.g health insurance company, buyer of a used car).
+\end_layout
+
+\begin_layout Standard
+Employers differentiate good/bad candidates by looking at schooling level.
+ Example: 1500$, 4000$, 5000$ per months for candidates with high school
+ / first /second degree.
+ That is somewhat similar to price discrimination.
+\end_layout
+
+\begin_layout Standard
+The line between screening and signaling might be blurry (go to IDC as a
+ singal? Or being screened by the market?)
+\end_layout
+
+\begin_layout Subsection
+Moral Hazard
+\end_layout
+
+\begin_layout Standard
+A situation when a person who makes decision that affects others, can behave
+ dishonestly or in any other undesirable manner: being uncarfeul when one
+ is insured, not putting effort into work because of job security.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Principal-agent
+\series default
+: the agemt performs a task on someone else's behalf (principal), for example
+ courporate manager on behalf of shareholders.
+\end_layout
+
+\begin_layout Standard
+Main challenges are inducing the agent to 
+\series bold
+participate
+\series default
+ in the activity, and supplying agent with 
+\series bold
+incentives
+\series default
+ to behave as desired.
+ It can be achieve, for example, by: 
+\series bold
+better monitoring
+\series default
+ (hidden cameras on child caretaker), 
+\series bold
+efficiency wages
+\series default
+ (but above equilibrium, increase penalty for shirking) and 
+\series bold
+efficient contracts
+\series default
+ (high, performance-based wage).
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Reservation wage
+\series default
+ - lowest acceptable wage.
+\end_layout
+
+\end_body
+\end_document
