@@ -124,7 +124,7 @@ Deadweight loss
 \end_layout
 
 \begin_layout Standard
-A monopoly has ability to exploit its marke power, by extracting the maxium
+A monopoly has ability to exploit its market power, by extracting the maxium
  price each customer is willing to pay.
 \end_layout
 
@@ -138,7 +138,7 @@ Perfect competition and monopoly are two extremes.
 \series bold
 Monopolistic competition
 \series default
- is in between: many firms sell similar but no identical products (
+ is in between: many firms sell similar but not identical products (
 \begin_inset Quotes eld
 \end_inset
 
@@ -151,14 +151,17 @@ substitutes
 \series bold
 Product differentiation
 \series default
-: by firms, branding (e.g apartmens, books, unlike gas).
+: by firms, branding (e.g apartments, books, unlike gas).
 \end_layout
 
 \begin_layout Standard
 On the one hand, there is market power (monopoly-like), but on the other
  hand - there is competition, because there are (imperfect) substitutes.
- The existnce of the market power is derived from the uniqueness and differentia
-tion of the products.
+ The existence of the market power is derived from the 
+\series bold
+uniqueness and differentiation
+\series default
+ of the products.
 \end_layout
 
 \begin_layout Standard
@@ -206,7 +209,7 @@ Optimizing output doesn't guarantee a positive profit.
 \end_layout
 
 \begin_layout Standard
-In the long-run, a free market entry/exit is assumes, which must 
+In the long-run, a free market entry/exit is assumed, which must 
 \series bold
 push the profit of each firm to zero
 \series default
@@ -227,7 +230,7 @@ push the profit of each firm to zero
  must be tangent to the demand curve.
  Otherwise, there could have been a (quantity) point where the charged price
  (according to the demand curve) would be higher than the average cost,
- which woul imply economic profict, contrary to the above onstraint.
+ which would imply economic profict, contrary to the above onstraint.
 \end_layout
 
 \begin_layout Section
@@ -472,7 +475,7 @@ decision tree
  The notion of success depends on the collaboration of 2 investors - if
  each one of them approaches a different hedge fund, they will fail.
  Each player's strategy set can include actions dependent on the history
- (e.g to X/Y, and do same/opposite of the previous player).
+ (e.g do X/Y, and do same/opposite of the previous player).
  There are several equilibriums here, though some of them are 
 \series bold
 unreliable
@@ -507,8 +510,12 @@ backwards induction
 \end_layout
 
 \begin_layout Standard
-the main idea in sequential game is that those who act second can make an
- optimal decision for them, and those who play first can foresee it.
+the main idea in sequential game is that 
+\series bold
+those who act second can make an optimal decision for them, and those who
+ play first can foresee it
+\series default
+.
 \end_layout
 
 \begin_layout Subsection

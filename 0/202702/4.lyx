@@ -93,7 +93,7 @@ Leonid Genkin
 \end_layout
 
 \begin_layout Section
-Welfare economics
+Welfare Economics
 \end_layout
 
 \begin_layout Standard
@@ -123,8 +123,8 @@ price tag
 \begin_inset Quotes erd
 \end_inset
 
- of some personal, subjective benefit the consumer has (value) of consuming
- this product, and substract the market price from it.
+ of some personal, subjective benefit the consumer has of consuming this
+ product, and substract the market price from it.
  The 
 \begin_inset Quotes eld
 \end_inset
@@ -135,7 +135,7 @@ willingness to pay
 
  can be derived from the demand curve (if the good price was higher, it
  would not have been bought).
- Another way of looking: If 5 units are sold at price 50$, it means that
+ Another way of looking at it: If 5 units are sold at 50$, it means that
  the person who bought the 5th unit is willing to pay at most 50$ (there's
  no difference between considering an individual or aggregate demand in
  this case).
@@ -165,7 +165,11 @@ In a similar way, it is defined as the area between the supply curve and
  the market price.
  A competitive firm does not set the price, thus the minimum price level
  at which it is ready to sell the good is its producing cost (the definition
- of the supply curve for competitive market is market price = marginal cost).
+ of the supply curve for competitive market is: 
+\series bold
+market price = marginal cost
+\series default
+).
 \end_layout
 
 \begin_layout Subsection
@@ -181,7 +185,7 @@ The total social welfare is the sum of the 2 values above - the area between
 \series bold
 efficient
 \series default
-, iff the benefit to the buyer exceed the cost to the seller.
+, iff the benefit to the buyer exceeds the cost to the seller.
  Normaly inefficient transactions do not take place.
  It leads us to understanding the reasoning behind the first welfare theorem:
  
@@ -221,9 +225,9 @@ lower
 \series default
 .
  For example, if some restriction (i.e government) leads to less than equilibrium
- amount of transactions performed, some surplus will be lost (higher quality
+ amount of transactions performed, some surplus will be lost (higher quantity
  - negative surplus, subtracted from the equilibrium total surplus; lower
- quality - surplus less than in equilibrium).
+ quantity - surplus less than in equilibrium).
 \end_layout
 
 \begin_layout Standard
@@ -243,7 +247,7 @@ Imperfectly Competitive Markets
 \series bold
 Monopoly
 \series default
- is a market with a sole producer fo a good which has no close substitutes.
+ is a market with a sole producer of a good which has no close substitutes.
  It is the exact opposite of a perfect competition.
  Why, despite a potential high profit, a monopoly can be sustainable and
  is not a subject for competition? The main cause is usually 
@@ -329,7 +333,7 @@ The demand curve perceived by a competitive firm is perfectly horizontal,
 
 \end_inset
 
-But 
+But for monopoly it is 
 \series bold
 not
 \series default
@@ -380,7 +384,7 @@ The equilibrium is reached where
 \end_inset
 
  has the max value (price times quantity, minus total cost).
- Like any firm, proft maximization is them maginal revenue equals marginal
+ Like any firm, proft maximization is when maginal revenue equals marginal
  cost.
 \end_layout
 

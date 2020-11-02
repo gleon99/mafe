@@ -102,7 +102,7 @@ All models so far assumed
 perfect information
 \series default
 .
- Reality oftern entails imperfet and assymetric informations (one side is
+ Reality oftern entails imperfet and asymmetric information (one side is
  more informed), which changes the entire dynamic of the game.
  Informational economics deals with the outcomes of such situations.
 \end_layout
@@ -112,7 +112,7 @@ Adverse Selection
 \end_layout
 
 \begin_layout Standard
-Many firms, with market value unuformly distributes between 20 and 100.
+Many firms, with market value unuformly distributed between 20 and 100.
  
 \begin_inset Formula $EV=60$
 \end_inset
@@ -206,7 +206,7 @@ Let
 cutoff frim
 \series default
  - only below which firms go public.
- From the first condition (the investors can't have nay profit/loss):
+ From the first condition (the investors can't have any profit/loss):
 \begin_inset Formula 
 \[
 p=\frac{20+v^{*}}{2}
@@ -241,7 +241,7 @@ Avderse selection is
 bad.
  
 \series default
-Both sides has interst to convey information regarding the value of the
+Both sides have interest to convey information regarding the value of the
  firms.
  
 \series bold
@@ -330,7 +330,7 @@ Investor may believe the signal, then
 \begin_inset Formula $H$
 \end_inset
 
- firms send a signel and get 100, 
+ firms send a signal and get 100, 
 \begin_inset Formula $L$
 \end_inset
 
@@ -417,7 +417,7 @@ What if
 \end_inset
 
 .
- Everybody would signal (pooling equilibrium), which requirse 
+ Everybody would signal (pooling equilibrium), which requires 
 \begin_inset Formula $60-c^{i}>20$
 \end_inset
 
@@ -453,8 +453,8 @@ by the uninformed party
 
 \begin_layout Standard
 Employers differentiate good/bad candidates by looking at schooling level.
- Example: 1500$, 4000$, 5000$ per months for candidates with high school
- / first /second degree.
+ Example: 1500$, 4000$, 5000$ per month for candidates with high school
+ / first / second degree.
  That is somewhat similar to price discrimination.
 \end_layout
 
@@ -478,8 +478,8 @@ A situation when a person who makes decision that affects others, can behave
 \series bold
 Principal-agent
 \series default
-: the agemt performs a task on someone else's behalf (principal), for example
- courporate manager on behalf of shareholders.
+: the agent performs a task on someone else's behalf (principal), for example
+ corporate manager on behalf of shareholders.
 \end_layout
 
 \begin_layout Standard

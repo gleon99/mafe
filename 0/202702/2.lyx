@@ -153,7 +153,7 @@ Firm's Theory
 \end_layout
 
 \begin_layout Description
-Inputs Rsources used n the production process (labor, equipment, etc)
+Inputs Resources used in the production process (labor, equipment, etc)
 \end_layout
 
 \begin_layout Description
@@ -192,7 +192,7 @@ Marginal
 \begin_inset space ~
 \end_inset
 
-Product Change in overral output level, when either input is marginally
+Product Change in overall output level, when either input is marginally
  changed (partial derivative with respect to labor/capital).
 \end_layout
 
@@ -340,7 +340,7 @@ Average follows the marginal
 \begin_inset Quotes erd
 \end_inset
 
- (MC influences the AC), otherwise there's a contradiction.
+ (MC influences the AC), otherwise there would have been a contradiction.
 \end_layout
 
 \begin_layout Subsection

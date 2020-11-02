@@ -115,7 +115,7 @@ maybe
 \end_layout
 
 \begin_layout Standard
-Fifxed costs are 
+Fixed costs are 
 \series bold
 crucial
 \series default
@@ -123,7 +123,7 @@ crucial
 \end_layout
 
 \begin_layout Standard
-In some cases one would prefer to open and have the business running, despist
+In some cases one would prefer to open and have the business running, despite
  anticipation of losses.
  Keeping it open, the profit is: 
 \begin_inset Formula $P\cdot X-FC-VC$
@@ -242,8 +242,9 @@ Deals with the question: what can change the equilibrium? If the demand
 \end_layout
 
 \begin_layout Standard
-For example, consider an increase in gasoline price leads to increase of
- hybrid cars demand, as it is a substitute, thus some customers are 
+For example, consider an increase in gasoline price, which leads to increase
+ of hybrid cars demand, as it is a substitute - thus some customers are
+ 
 \begin_inset Quotes eld
 \end_inset
 
@@ -314,8 +315,11 @@ given
 \end_layout
 
 \begin_layout Standard
-The entry/exit process is complete, when firms earn zeo (economic) profit
- (alternative accounting profit).
+The entry/exit process is complete, when firms earn zero (
+\series bold
+economic
+\series default
+) profit (alternative accounting profit).
 \end_layout
 
 \begin_layout Standard
@@ -345,7 +349,7 @@ In the short run, the equilibrium is only defined by
 \end_inset
 
  (price).
- In the long it's also 
+ In the long-run it's also 
 \begin_inset Formula $n$
 \end_inset
 
