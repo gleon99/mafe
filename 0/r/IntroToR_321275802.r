@@ -1,0 +1,10 @@
+# Part 1
+VWRet = c(0.931, −0.105, −0.470, −0.149, −0.218, 0.250, 1.171, −7.162)
+print(mode(VWRet))
+TrdDate = as.Date(c("2015.03.20", "2015.03.23", "2015.03.24", "2015.03.25", "2015.03.26", "2015.03.27", "2015.03.30", "2015.03.31"), format="%Y.%m.%d")
+print(class(TrdDate))
+df = data.frame(VWRet_DF = VWRet, TrdDate_DF = TrdDate)
+print(max(df$VWRet_DF))
+print(min(df$VWRet_DF))
+df$TrdDate_Weekday = weekdays(df$TrdDate_DF)
+print(df[which.max(df$VWRet), "TrdDate_Weekday"])

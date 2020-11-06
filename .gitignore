@@ -1,2 +1,4 @@
 *.pptx
 *garbage*
+*.lyx~
+*.ipynb
