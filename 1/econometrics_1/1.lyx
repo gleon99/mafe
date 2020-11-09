@@ -302,7 +302,483 @@ linear relation
 \begin_inset Formula $X$
 \end_inset
 
- appears only once in the regression (in any form).
+ appears only once in the regression (in any form), which implies that eaxh
+ extra unit of 
+\begin_inset Formula $X_{i}$
+\end_inset
+
+ has always the same effect on 
+\begin_inset Formula $Y$
+\end_inset
+
+, regardless of its value (
+\begin_inset Formula $\text{\ensuremath{\frac{\partial Y}{\partial X_{i}}=\beta_{i}} }$
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Standard
+The relation might be nonlinear, ans still be modeled by linear regression:
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $X$
+\end_inset
+
+ appears more than once, and 
+\begin_inset Formula $Y$
+\end_inset
+
+ is in a simple form:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+\series bold
+Quadratic terms
+\series default
+ (example with 
+\begin_inset Quotes eld
+\end_inset
+
+research publications number of a scientist, as a function of his age
+\begin_inset Quotes erd
+\end_inset
+
+ or 
+\begin_inset Quotes eld
+\end_inset
+
+number of cigarettes smoked, as function of age
+\begin_inset Quotes erd
+\end_inset
+
+) - the slope is determined by several 
+\begin_inset Formula $B_{i}$
+\end_inset
+
+'s 
+\series bold
+together
+\series default
+.
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Interaction terms
+\series default
+ - the effect on a variable depends on the value of another variable.
+ Assume the following model for the prices of apartments:
+\begin_inset Formula 
+\[
+PRICE=\beta_{0}+\beta_{1}\cdot SQRFT+\beta_{2}\cdot BDRMS+\beta_{3}\cdot SQRFT\cdot BDRMS+U
+\]
+
+\end_inset
+
+It is reasonable to assume that the efffect of apartment area on its price
+ depends on the 
+\series bold
+value 
+\series default
+of 
+\begin_inset Quotes eld
+\end_inset
+
+bedrooms number
+\begin_inset Quotes erd
+\end_inset
+
+, and vice versa (
+\begin_inset Formula $\beta_{3})$
+\end_inset
+
+, which is captured by a linear regression with interaction terms.
+ The partial derivative would be:
+\begin_inset Formula 
+\[
+\frac{\partial PRICE}{\partial SQRFT}=\beta_{1}+\beta_{3}\cdot BDRMS
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+If either 
+\begin_inset Formula $X$
+\end_inset
+
+ or 
+\begin_inset Formula $Y$
+\end_inset
+
+ is not it a simple form, we get a 
+\series bold
+logarithmic terms
+\series default
+:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+\series bold
+log-level
+\series default
+: one unit of 
+\begin_inset Formula $X_{i}$
+\end_inset
+
+ is associated with 
+\begin_inset Formula $\beta_{j}$
+\end_inset
+
+ units of 
+\begin_inset Formula $log(Y)$
+\end_inset
+
+ - 
+\begin_inset Quotes eld
+\end_inset
+
+increasing marginal effect
+\begin_inset Quotes erd
+\end_inset
+
+ (e.g return on education time)
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+level-log
+\series default
+: one unit of 
+\begin_inset Formula $log(X_{i})$
+\end_inset
+
+ is associated with 
+\begin_inset Formula $\beta_{j}$
+\end_inset
+
+ units of 
+\begin_inset Formula $Y$
+\end_inset
+
+ - 
+\begin_inset Quotes eld
+\end_inset
+
+diminishing marginal effect
+\begin_inset Quotes erd
+\end_inset
+
+ (e.g utility of a family by extra cars purchase)
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+log-log
+\series default
+: one unit of 
+\begin_inset Formula $log(X_{i})$
+\end_inset
+
+ is associated with 
+\begin_inset Formula $\beta_{j}$
+\end_inset
+
+ units of 
+\begin_inset Formula $log(Y)$
+\end_inset
+
+ - 
+\begin_inset Quotes eld
+\end_inset
+
+constant elasticity
+\begin_inset Quotes erd
+\end_inset
+
+ (linearly related, but only in logarithmic form)
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Even if 
+\series bold
+all individuals
+\series default
+ in the population are known, and 
+\series bold
+all
+\series default
+ values of 
+\begin_inset Formula $Y$
+\end_inset
+
+ are observed, the exact values of 
+\begin_inset Formula $\beta_{i}$
+\end_inset
+
+ still cannot be known: (1) all values of 
+\begin_inset Formula $U$
+\end_inset
+
+ cannot be observed, and (2) a system with 
+\begin_inset Formula $n+p+1$
+\end_inset
+
+ unknowns and 
+\begin_inset Formula $n$
+\end_inset
+
+ observations is possible.
+\end_layout
+
+\begin_layout Standard
+Consider for example:
+\begin_inset Formula 
+\[
+Ret=\beta_{0}+\beta_{1}\cdot BTM+\beta_{2}\cdot size+u
+\]
+
+\end_inset
+
+ There are 3 equations, and 6 uknowns for (3 for 
+\begin_inset Formula $\beta_{i}$
+\end_inset
+
+ and 3 for 
+\begin_inset Formula $u_{i}$
+\end_inset
+
+), thus no exact solutions are possible for 
+\begin_inset Formula $\beta_{i}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Thus, the goal is to construct 
+\series bold
+good
+\series default
+ estimators, use them to 
+\series bold
+predict
+\series default
+ and 
+\series bold
+test
+\series default
+ hypotheses.
+ To achieve it, an assumption has to be made regarding the relation between
+ the unobservable values of 
+\begin_inset Formula $U$
+\end_inset
+
+, to the explanatory 
+\begin_inset Formula $X_{i}$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $E(U)=0$
+\end_inset
+
+ which means 
+\begin_inset Formula $U$
+\end_inset
+
+ has zero mean (not too restrictive) - means 
+\begin_inset Formula $U$
+\end_inset
+
+ is orthogonal to 
+\begin_inset Formula $X_{i}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $E(U|X_{1}=x_{i,1},X_{2}=x_{i,2},\ldots,X_{p}=x_{i,p})=E(U)$
+\end_inset
+
+ - a crucial & restrictive assumption, which implies that 
+\begin_inset Formula $U$
+\end_inset
+
+ is uncorrelated to 
+\begin_inset Formula $X_{i}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+It allows us to account the effects of 
+\begin_inset Formula $X_{i}$
+\end_inset
+
+ on the expected value of 
+\begin_inset Formula $Y$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Consider an example - a wage is modeled as a function of education and IQ.
+ Motivation is an unobserved variable, which must have an expected value
+ of 0 among the whole population (there is a 
+\series bold
+hidden bias
+\series default
+ - cannot ever determine, whether it is true)
+\end_layout
+
+\begin_layout Standard
+Implying from these 2 assumptions, consider the 
+\series bold
+simple 
+\series default
+linear regression (SLR) model:
+\begin_inset Formula 
+\[
+Y=\beta_{0}+\beta_{1}X+U
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+We obtain estimators for 
+\begin_inset Formula $E(Y\}X)=\beta_{0}+\beta_{1}X$
+\end_inset
+
+ which is a linear function of 
+\series bold
+expected values
+\series default
+ of 
+\begin_inset Formula $X$
+\end_inset
+
+, so a 1 unit of 
+\begin_inset Formula $X$
+\end_inset
+
+ is associated with 
+\begin_inset Formula $\beta_{1}$
+\end_inset
+
+ units of (conditional) 
+\series bold
+expected
+\series default
+ value of 
+\begin_inset Formula $Y$
+\end_inset
+
+ i.e:
+\begin_inset Formula 
+\[
+\beta_{1}=\frac{\partial E(Y|X)}{\partial X}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Consider:
+\begin_inset Formula 
+\[
+WAGE=\beta_{0}+\beta_{1}\cdot EDUC+u,\,\beta_{0}=2500,\,\beta_{1}=320
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Then we can conclude that 
+\begin_inset Formula $E[WAGE|EDUC]=2500+320\cdot EDUC$
+\end_inset
+
+ , but 
+\series bold
+not
+\series default
+ that 
+\begin_inset Formula $WAGE_{i}=2500+320\cdot EDUC_{i}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Speaking in terms of 
+\series bold
+average
+\series default
+ - we can't say 
+\begin_inset Quotes eld
+\end_inset
+
+
+\series bold
+every
+\series default
+ worker has a wage ...
+\begin_inset Quotes erd
+\end_inset
+
+, but rather that 
+\begin_inset Quotes eld
+\end_inset
+
+the 
+\series bold
+average
+\series default
+ wage among all workers is ...
+\begin_inset Quotes erd
+\end_inset
+
+.
+ Whatever we do, we always estimate averages.
+\end_layout
+
+\begin_layout Standard
+As a homerwork Read module 1[A,B,C,D].
+ Familiarize with coefficients.
+ Next session - briefly wrap up 2 assumptions & continue with obtaining
+ the datas.
 \end_layout
 
 \end_body

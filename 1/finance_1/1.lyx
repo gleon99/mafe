@@ -1,0 +1,572 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+\usepackage{indentfirst}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2.5cm
+\topmargin 2.5cm
+\rightmargin 2.5cm
+\bottommargin 2.5cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Finance1 - Lecture 1
+\end_layout
+
+\begin_layout Author
+Leonid Genkin
+\end_layout
+
+\begin_layout Section
+Discounted Cash Flow Valuation
+\end_layout
+
+\begin_layout Standard
+When talking about finance, we are going to talk fomr a perspective of the
+ 
+\series bold
+financial manager
+\series default
+.
+ The financial manager manages the cash flow by raising funds, handling
+ investment & cash form operations, etc.
+ All these decisions can be divided to 
+\series bold
+financing decisions
+\series default
+ (where to take money from?) and 
+\series bold
+investment decisions
+\series default
+ (how much to invest, and in what assets? - capital budgeting).
+\end_layout
+
+\begin_layout Standard
+This course focuses mostly on the investment decision (in Finance II we'll
+ talk about financing).
+\end_layout
+
+\begin_layout Standard
+Our goal is to undesrtand how to make investment decisions, based on the
+ concept of 
+\series bold
+value
+\series default
+ that is placed on prospective profits.
+ Profits may vary by time and uncertainity.
+ We will develop tools for evaluating profits, which differ on these 2 dimension
+s.
+ These tools are extremely important, because the directly affect buying/selling
+ decisions.
+\end_layout
+
+\begin_layout Standard
+Valuation can never be discussed without mentioning markets - the value
+ of any asset or project is determined, after all, by the ability to find
+ a buyer for it.
+\end_layout
+
+\begin_layout Standard
+Analysis relies on assumptions that there 
+\series bold
+are 
+\series default
+always market sfor exchanging money between (1) present & future, and (2)
+ risky & riskless cash flows.
+ Thus, any valuation is done 
+\series bold
+relative
+\series default
+ to the alternatives.
+\end_layout
+
+\begin_layout Standard
+For the basic analysis, we assume away uncertainity (all future profts are
+ certain), and come to the basic insight that a dollar paid today is worth
+ more than a dollar paid tomorrow.
+\end_layout
+
+\begin_layout Standard
+In the spimlest example, if the bank pays 6%, I would prefer (A) getting
+ 1$ today (which would yield 1.06$ in a year) rather than (B) getting a 1$
+ in a year.
+\end_layout
+
+\begin_layout Standard
+The 
+\series bold
+future value
+\series default
+ (
+\begin_inset Formula $FV$
+\end_inset
+
+) in a year is given by:
+\begin_inset Formula 
+\[
+FP=P+rP=P(1+r)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+which can be generalized to 
+\begin_inset Formula $N$
+\end_inset
+
+ years:
+\begin_inset Formula 
+\[
+FV=P(1+r)^{N}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+(Excel exercise 1)
+\end_layout
+
+\begin_layout Standard
+The 
+\series bold
+present value
+\series default
+ (
+\begin_inset Formula $PV$
+\end_inset
+
+) is the amount that needs to be put away today, to guarantee a certain
+ amount (1$) in the future.
+ Using the 
+\begin_inset Formula $FV$
+\end_inset
+
+ concept, putting away 
+\begin_inset Formula $\frac{1}{1+r}$
+\end_inset
+
+ today yields 1$ in a year.
+ According to this, the 
+\begin_inset Formula $PV$
+\end_inset
+
+ of getting 1$ next year (
+\begin_inset Formula $PV_{B}$
+\end_inset
+
+) is 
+\begin_inset Formula $\sim0.94\$$
+\end_inset
+
+ , unlike the 
+\begin_inset Formula $PV$
+\end_inset
+
+ of getting 1$ today (
+\begin_inset Formula $PV_{A}$
+\end_inset
+
+) which is obivously 1$.
+ Comparing of plans A&B can be done either by present or future value.
+\end_layout
+
+\begin_layout Standard
+The 
+\begin_inset Formula $PV$
+\end_inset
+
+ logic can be easily generalized to any number of years:
+\begin_inset Formula 
+\[
+PV=\frac{FV}{(1+r)^{N}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+(Excel exercise 2)
+\end_layout
+
+\begin_layout Standard
+There are 2 possible interpretations od present value: (1) How much to put
+ away, and (2) the 
+\series bold
+market value
+\series default
+ of a future cash flow.
+\end_layout
+
+\begin_layout Subsection
+Terminology
+\end_layout
+
+\begin_layout Description
+Discounting Taking present values
+\end_layout
+
+\begin_layout Description
+Interest
+\begin_inset space ~
+\end_inset
+
+rate The interest that can be earned on alternative investments (=discount
+ rate)
+\end_layout
+
+\begin_layout Description
+NPV Net Present Value - the PV of future cash flow, net of the initial investmen
+t
+\end_layout
+
+\begin_layout Standard
+Finding the 
+\begin_inset Formula $FV$
+\end_inset
+
+ (
+\begin_inset Formula $PV$
+\end_inset
+
+) of a stream of future cash flows is done by adding them up.
+\end_layout
+
+\begin_layout Standard
+(Excel exercise 3)
+\end_layout
+
+\begin_layout Subsection
+Annuinity
+\end_layout
+
+\begin_layout Standard
+A special case of cash flows, when the flows are identical each year (period).
+ Many examples in real life.
+\end_layout
+
+\begin_layout Standard
+Application 1: Find the FV of a set of equal cash flows that occur each
+ year, starting at the end of this year.
+ By applying the addition principle, we get the sum of a geometric series:
+\begin_inset Formula 
+\[
+FV=C\frac{(1+r)^{N}-1}{r}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+(Excel exercise 4)
+\end_layout
+
+\begin_layout Standard
+Excel FV formula also allows to define 
+\begin_inset Formula $PV$
+\end_inset
+
+ and type parameters.
+\end_layout
+
+\begin_layout Standard
+Application 2: Find an annuinity, which will yield a specific amount of
+ money in the future.
+ Given 
+\begin_inset Formula $FV$
+\end_inset
+
+, 
+\begin_inset Formula $r$
+\end_inset
+
+ and 
+\begin_inset Formula $N$
+\end_inset
+
+ we can simply inverse the formula.
+\end_layout
+
+\begin_layout Standard
+(Excel exercise 5)
+\end_layout
+
+\begin_layout Standard
+Excel formula 
+\begin_inset Formula $PMT$
+\end_inset
+
+ provides the periodic payment required to get a particular 
+\begin_inset Formula $FV$
+\end_inset
+
+ or 
+\begin_inset Formula $PV$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Application 3: Find the 
+\series bold
+present
+\series default
+ value of a set of equal cash flows - using the geometric series equation
+ again we get:
+\begin_inset Formula 
+\[
+PV=\frac{C}{v}(1-\frac{1}{(1+r)^{N}})
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+(Excel exercise 6)
+\end_layout
+
+\begin_layout Standard
+The 
+\begin_inset Formula $PV$
+\end_inset
+
+ excel formula can be used instead of the manual calculation.
+\end_layout
+
+\begin_layout Standard
+Application 4: Find the annuinity, that has a given present value.
+ This is 
+\series bold
+extremely
+\series default
+ useful formula, as it is widely used in loans given by banks.
+ The formula is a tweak on the previous one, just with solving for 
+\begin_inset Formula $C$
+\end_inset
+
+ instead of 
+\begin_inset Formula $PV$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+(Excel exercise 7)
+\end_layout
+
+\begin_layout Subsection
+Amortization Table
+\end_layout
+
+\begin_layout Standard
+The interest paid at the end of year 1 equals the interest rate times the
+ beginning balance in year 1.
+ The principal is the total payment, minus the interest portion.
+ etc...
+\end_layout
+
+\begin_layout Subsection
+Perpetuity
+\end_layout
+
+\begin_layout Standard
+A set of equal payments paid forever.
+ The 
+\begin_inset Formula $PV$
+\end_inset
+
+ of a yearly payment 
+\begin_inset Formula $C$
+\end_inset
+
+ is given by 
+\begin_inset Formula $PV=C/r$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Arbitrage argument: Given an amount of 
+\begin_inset Formula $C/r$
+\end_inset
+
+ and wishing to generate a constant payment of 
+\begin_inset Formula $C$
+\end_inset
+
+ every year, one would invest and yield 
+\begin_inset Formula $C/r\cdot r=C$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+To demonstrate how the value of perpetuity approximates the value of a long-live
+n annuinity, compare perpetuity and 30-year annuinity.
+\end_layout
+
+\begin_layout Standard
+(Excel exercise 8)
+\end_layout
+
+\begin_layout Standard
+A 
+\series bold
+growing perpetuity
+\series default
+ can provide an approximation of tha value of a growing company (dividends)
+ - that is especially true for startups in 
+\begin_inset Quotes eld
+\end_inset
+
+the new economy
+\begin_inset Quotes erd
+\end_inset
+
+, which derive most of their value from their growth potential.
+\end_layout
+
+\begin_layout Standard
+If 
+\begin_inset Formula $C_{1}$
+\end_inset
+
+ is the cash flow at the end of this year, then 
+\begin_inset Formula 
+\[
+C_{2}=C_{1}(1+g)
+\]
+
+\end_inset
+
+etc...
+\end_layout
+
+\begin_layout Standard
+Then, the present value is given by:
+\begin_inset Formula 
+\[
+PV=\frac{C}{r-g}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+(Excel exercise 9)
+\end_layout
+
+\begin_layout Standard
+For the next week, there's a 
+\begin_inset Quotes eld
+\end_inset
+
+summary assignment
+\begin_inset Quotes erd
+\end_inset
+
+ in the slides (
+\begin_inset Quotes eld
+\end_inset
+
+class exercise 10
+\begin_inset Quotes erd
+\end_inset
+
+).
+\end_layout
+
+\end_body
+\end_document
