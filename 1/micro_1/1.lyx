@@ -1,0 +1,270 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+\usepackage{indentfirst}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2.5cm
+\topmargin 2.5cm
+\rightmargin 2.5cm
+\bottommargin 2.5cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Microeconomics 1 - Lecture 1
+\end_layout
+
+\begin_layout Author
+Leonid Genkin
+\end_layout
+
+\begin_layout Section
+Is Economics a Science?
+\end_layout
+
+\begin_layout Standard
+There are 3 big issues with Economics, which are particulary emphasized
+ at times of crises:
+\end_layout
+
+\begin_layout Itemize
+It does not predict well
+\end_layout
+
+\begin_layout Itemize
+All its assumptions are wrong
+\end_layout
+
+\begin_layout Itemize
+It isn't done in good faith
+\end_layout
+
+\begin_layout Subsection
+Economics does not predict?
+\end_layout
+
+\begin_layout Standard
+No one is really able to predict: large and complex systems are hardly predictab
+le.
+ Consider chaos theory, where a small change in input might result in big
+ output change (aka 
+\begin_inset Quotes eld
+\end_inset
+
+The Butterfly Effect
+\begin_inset Quotes erd
+\end_inset
+
+).
+ The global economy, or the geopolitical system falls under this criteria.
+\end_layout
+
+\begin_layout Standard
+Specifically in the social sciences there are two additional complications
+ (unlike exact sciences): (1) the basic rules are unavailable (no 
+\begin_inset Quotes eld
+\end_inset
+
+equations
+\begin_inset Quotes erd
+\end_inset
+
+ or axioms), and (2) the systems are self-reflecting (dealing with people).
+\end_layout
+
+\begin_layout Standard
+In addition, economics actually does predict.
+ Quantitative results tend to be quite good on supply-demand (markets),
+ auctions amd matchings, and there are qualitative results as well.
+ The question of 
+\begin_inset Quotes eld
+\end_inset
+
+what exact phenomenon is being studied
+\begin_inset Quotes erd
+\end_inset
+
+ is very crucial in economic research.
+\end_layout
+
+\begin_layout Standard
+It is much easier to predict when many independent and isolated experiments
+ can be performed on a small system.
+\end_layout
+
+\begin_layout Standard
+After all, maybe it's not all about prediction? Who needs to predict at
+ all? Economics can do a lot of good to the society, even without predicting
+ - for example, even with critique reasoning.
+\end_layout
+
+\begin_layout Subsection
+All assumptions are wrong
+\end_layout
+
+\begin_layout Standard
+It might be correct, yet it does not contradict the robustness of economic
+ findings and their relevance to economic decisions.
+\end_layout
+
+\begin_layout Section
+The Ultimatum Game
+\end_layout
+
+\begin_layout Standard
+A 100$ sum is shared between 2 players, the first one offers a way to divide
+ the sum and the second one chooses whether to accept that.
+ The backward induction theory assumes that everyone is rational, and common
+ knowledge in rationality (multiple levels of belief), which leads to the
+ solution 99:1.
+ It assumes that payments are only monetary (there is no other 
+\begin_inset Quotes eld
+\end_inset
+
+utility
+\begin_inset Quotes erd
+\end_inset
+
+) which is not precisely true.
+\end_layout
+
+\begin_layout Standard
+In the 
+\begin_inset Quotes eld
+\end_inset
+
+dictator
+\begin_inset Quotes erd
+\end_inset
+
+ game (only player 1 decides), turns out that people do leave some portion
+ for the second player (to be 
+\begin_inset Quotes eld
+\end_inset
+
+fair
+\begin_inset Quotes erd
+\end_inset
+
+, or out of fear, etc) - see also: Danny Kahneman, Vernon Smith, Amos Tversky.
+\end_layout
+
+\begin_layout Standard
+There are 
+\series bold
+emotional payoffs
+\series default
+, the question is: is it 
+\series bold
+rational
+\series default
+ to respond to emotions? See also: 
+\begin_inset Quotes eld
+\end_inset
+
+The Accidental Mind
+\begin_inset Quotes erd
+\end_inset
+
+ by David Linden.
+\end_layout
+
+\begin_layout Standard
+Back to the ultimatum game, emotional payoffs should not be overstated.
+ If they were in 
+\series bold
+millions
+\series default
+ dollars, acceptance of low offers would likely be much higher.
+\end_layout
+
+\begin_layout Standard
+Reconsidering the 
+\begin_inset Quotes eld
+\end_inset
+
+dictator game
+\begin_inset Quotes erd
+\end_inset
+
+, we should be careful when making conclusions from economic models - not
+ everything that works in an experiment would automatically transfer to
+ the real life.
+\end_layout
+
+\end_body
+\end_document
