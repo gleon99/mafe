@@ -427,6 +427,8 @@ C_{t}\left[1+\frac{1}{1+r}+\frac{1}{(1+r)^{2}}+\cdots\right]=PV_{t}(Y+T)+(1+r)B_
 \end_inset
 
 
+\series bold
+
 \begin_inset Formula 
 \[
 C_{t}=\frac{r}{1+r}[PV_{t}(Y+T)+(1+r)B_{t}]=Y_{t}^{P}+rB_{t}
@@ -438,8 +440,12 @@ C_{t}=\frac{r}{1+r}[PV_{t}(Y+T)+(1+r)B_{t}]=Y_{t}^{P}+rB_{t}
 \end_layout
 
 \begin_layout Standard
+
+\series bold
 The optimal consumption is to consume the interest on future income, plus
- the interest on previouvs savings.
+ the interest on previous savings
+\series default
+.
 \end_layout
 
 \begin_layout Standard
