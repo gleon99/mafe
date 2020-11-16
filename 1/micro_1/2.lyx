@@ -1,0 +1,948 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+\usepackage{indentfirst}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2.5cm
+\topmargin 2.5cm
+\rightmargin 2.5cm
+\bottommargin 2.5cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Microeconomics 1 - Lecture 2
+\end_layout
+
+\begin_layout Author
+Leonid Genkin
+\end_layout
+
+\begin_layout Section
+Is Economics a Science? - Continued
+\end_layout
+
+\begin_layout Subsection
+Not done in good faith
+\end_layout
+
+\begin_layout Standard
+Can science be 
+\begin_inset Quotes eld
+\end_inset
+
+objective
+\begin_inset Quotes erd
+\end_inset
+
+? Can we 
+\series bold
+trust
+\series default
+ the 
+\begin_inset Quotes eld
+\end_inset
+
+truths
+\begin_inset Quotes erd
+\end_inset
+
+ that economists have established? 
+\begin_inset Quotes eld
+\end_inset
+
+If I know that you know that...
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Science cannot be objective, by definition.
+ When economists pretend to be very scientific, it is worth asking: 
+\begin_inset Quotes eld
+\end_inset
+
+do they have something to gain from it? How many economists who 
+\series bold
+believe
+\series default
+ in the free market, also 
+\series bold
+benefit
+\series default
+ from it? Example with Michel Faucault: society decides what is normal,
+ as there is no such thing as 
+\begin_inset Quotes eld
+\end_inset
+
+perfect objectivity
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Consider the example with traffic: everyone want to leave just a minute
+ before the traffic, but that's impossible.
+\end_layout
+
+\begin_layout Standard
+Shouldn't we be more suspicious? Probably, yes.
+ We can try to be more objective, but it is a 
+\series bold
+direction
+\series default
+, not a 
+\series bold
+place
+\series default
+.There is a distinction between 
+\series bold
+positive
+\series default
+ (
+\begin_inset Quotes eld
+\end_inset
+
+is
+\begin_inset Quotes erd
+\end_inset
+
+) social science and 
+\series bold
+normative 
+\series default
+(
+\begin_inset Quotes eld
+\end_inset
+
+ought
+\begin_inset Quotes erd
+\end_inset
+
+).
+ In physics, normative science is considered science fiction, but in social
+ science it makes sense.
+\end_layout
+
+\begin_layout Standard
+How do we judge theories? Positive theories can be judged by how close to
+ reality they are.
+ A good normative theory is one that describes the society we 
+\series bold
+want
+\series default
+ to be (it doesn't have to describe the reality as it currently is).
+ Normative is 
+\series bold
+the second-order positive
+\series default
+.
+\end_layout
+
+\begin_layout Standard
+It is important to distinguish 
+\series bold
+positive
+\series default
+ from 
+\series bold
+normative
+\series default
+ - the theories might nevert be totally objective (positive), but it doesn't
+ mean we should not try (normative).
+\end_layout
+
+\begin_layout Section
+Utility Maximization
+\end_layout
+
+\begin_layout Subsection
+Who Maximizes Utility?
+\end_layout
+
+\begin_layout Standard
+Households and firms 
+\series bold
+behave
+\series default
+ as if they were maximizing utility (in relality - it doesn't mean that
+ they always do).
+ In order to talk about utility maximization, we nees to 
+\series bold
+measure
+\series default
+ it, by looking at 
+\series bold
+choices
+\series default
+ of agents (which represents 
+\begin_inset Quotes eld
+\end_inset
+
+revealed preferences
+\begin_inset Quotes erd
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Standard
+The question about utility maximization is 
+\series bold
+not
+\series default
+ about 
+\begin_inset Quotes eld
+\end_inset
+
+who calculates and figures out the most efficient utility
+\begin_inset Quotes erd
+\end_inset
+
+, but that 
+\begin_inset Quotes eld
+\end_inset
+
+people can be 
+\series bold
+described
+\series default
+ by the pattern of utility maximization
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+The 
+\begin_inset Quotes eld
+\end_inset
+
+observables
+\begin_inset Quotes erd
+\end_inset
+
+ are the 
+\series bold
+choices
+\series default
+.
+ Ther are many ways to think about choices: (1) between pairs or sets, (2)
+ deterministic or stochastic (in reality might often be stochastic), (3)
+ is sets: all sets? Only budget sets?
+\end_layout
+
+\begin_layout Subsection
+Utility Representation
+\end_layout
+
+\begin_layout Standard
+Consider:
+\end_layout
+
+\begin_layout Description
+\begin_inset Formula $X$
+\end_inset
+
+ The set of alternativs
+\end_layout
+
+\begin_layout Description
+\begin_inset Formula $R\subset X\times X$
+\end_inset
+
+ A binary relation
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $R$
+\end_inset
+
+ is reflexive, symmetric, transitive and ocmplete
+\end_layout
+
+\begin_layout Standard
+For a relation 
+\begin_inset Formula $\succcurlyeq$
+\end_inset
+
+ on 
+\begin_inset Formula $X$
+\end_inset
+
+ and a function 
+\begin_inset Formula $u:X\rightarrow(-\infty,\infty)$
+\end_inset
+
+, 
+\begin_inset Formula $u$
+\end_inset
+
+ 
+\series bold
+represents
+\series default
+ 
+\begin_inset Formula $\succcurlyeq$
+\end_inset
+
+ iff:
+\begin_inset Formula 
+\[
+x\succcurlyeq\Leftrightarrow u(x)\geq u(y)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The relation 
+\begin_inset Formula $\succcurlyeq$
+\end_inset
+
+ on a 
+\series bold
+finite
+\series default
+ set 
+\begin_inset Formula $X$
+\end_inset
+
+ is somplete & transitivem iff there exists a utility function that represents
+ 
+\begin_inset Formula $\succcurlyeq$
+\end_inset
+
+.
+ It doesn't mean that customers 
+\begin_inset Quotes eld
+\end_inset
+
+use excel spreadsheets
+\begin_inset Quotes erd
+\end_inset
+
+ to calculate and make decisions - it only means that their behavior 
+\series bold
+can be described
+\series default
+ by this theory.
+\end_layout
+
+\begin_layout Subsection
+Pareto Domination
+\end_layout
+
+\begin_layout Standard
+Basically, it means 
+\series bold
+unanimity
+\series default
+ (at least one has a strict preference).
+ Transitivity seems obvious, but completeness is utopian.
+\end_layout
+
+\begin_layout Standard
+Condorcet showed that even if 
+\series bold
+all
+\series default
+ individuals have complete & transitive preferences, the 
+\series bold
+majority
+\series default
+ vote as a society 
+\series bold
+might not be transitive
+\series default
+ (Condorcet's Paradox).
+ It demonstrates, that making decisions in a society is inherently problematic.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Logical Positivism
+\series default
+ claims that theoretical terms have to be defined by observation, it was
+ refined by evonomists to say that a theory can never be verified but only
+ refuted.
+\end_layout
+
+\begin_layout Subsection
+Marginal Utility
+\end_layout
+
+\begin_layout Standard
+It took humanity quite a long to get to these conceptc.
+ Adam Smith's claim was that price and utility have nothing in common.
+ According to him, the price is determined solely by the cost of production.
+ Even Richardo at 1870 believed in that.
+ Examples: water (cannot live without it, costs nothing) vs.
+ diamonds (very expensive, can live without them).
+\end_layout
+
+\begin_layout Standard
+It was only around ~1870s that 4 independent people (
+\begin_inset Quotes eld
+\end_inset
+
+the marginalist revolution
+\begin_inset Quotes erd
+\end_inset
+
+).
+ figured out the notion of 
+\series bold
+marginal
+\series default
+ utility (don't look at the overall utility, but at the derivative).
+ The reason that water costs nothing is that extra glass of water doesn't
+ give any utility (you already have enough).
+ 
+\end_layout
+
+\begin_layout Standard
+There is a normative interpretation to utility function: 
+\begin_inset Quotes eld
+\end_inset
+
+would you 
+\series bold
+like
+\series default
+ the utility function to be comlete/transitive?
+\begin_inset Quotes erd
+\end_inset
+
+ - many would say yes.
+\end_layout
+
+\begin_layout Subsection
+Uniqueness
+\end_layout
+
+\begin_layout Standard
+Is the utility unique?
+\begin_inset Formula $x\succcurlyeq y$
+\end_inset
+
+ iff 
+\begin_inset Formula $u(x)\geq u(y)$
+\end_inset
+
+ allows 
+\begin_inset Formula $v(x)=10u(x)$
+\end_inset
+
+ - changing the 
+\series bold
+unit of measurement
+\series default
+.
+ Shifting the zero is also possible (as in temperature).
+ But, for 
+\begin_inset Formula $x\succcurlyeq y\Leftrightarrow u(x)\geq u(y)$
+\end_inset
+
+ to hold, a totaly diferent function can be used (e.g 
+\begin_inset Formula $v(x)=u^{3}(x)$
+\end_inset
+
+ or 
+\begin_inset Formula $v(x)=log(u(x))$
+\end_inset
+
+ which means that 
+\begin_inset Formula $u(x)$
+\end_inset
+
+ is only an 
+\series bold
+ordinal
+\series default
+.
+\end_layout
+
+\begin_layout Subsection
+Continuity
+\end_layout
+
+\begin_layout Standard
+A relation 
+\begin_inset Formula $\succcurlyeq$
+\end_inset
+
+ is complete, transtive and continuous, if there exists a 
+\series bold
+continuous
+\series default
+ function which represents it.
+\end_layout
+
+\begin_layout Section
+Consumer Theory
+\end_layout
+
+\begin_layout Subsection
+Basic Concepts
+\end_layout
+
+\begin_layout Standard
+A basic distinction msut be made between what we 
+\series bold
+can
+\series default
+ do and what we 
+\series bold
+want
+\series default
+ to do (they are logically independent).
+\end_layout
+
+\begin_layout Standard
+Aesop's fox said that he didn't want the grapes he couldn't get.
+ Marx: 
+\begin_inset Quotes eld
+\end_inset
+
+I refuse to join any club that whould habe me for a member
+\begin_inset Quotes erd
+\end_inset
+
+.
+ Both cases have the 
+\begin_inset Quotes eld
+\end_inset
+
+rationality sin
+\begin_inset Quotes erd
+\end_inset
+
+: they mix what they want with what they can do.
+ From a psychological point of view, the fox is healthier (at least he doesn't
+ want something he is unable to get).
+\end_layout
+
+\begin_layout Standard
+We 
+\series bold
+can
+\series default
+ choose particular quantities of goods, depending on their price and the
+ 
+\series bold
+budget constraint
+\series default
+.
+ If prices are 
+\begin_inset Formula $p_{x},p_{y}$
+\end_inset
+
+ and the income is 
+\begin_inset Formula $I$
+\end_inset
+
+, the constraint is given by: 
+\begin_inset Formula $p_{x}x+p_{y}y\leq I$
+\end_inset
+
+.
+ This is the simplest model (more complicated cases might include discountingm,
+ discrete points, etc).
+\end_layout
+
+\begin_layout Standard
+The objective function is 
+\series bold
+maximization of utility
+\series default
+, subject to the budget constaint.
+ Thus, the question is: which points in the feasible set have the highest
+ 
+\begin_inset Formula $U$
+\end_inset
+
+ values?
+\end_layout
+
+\begin_layout Subsection
+Indifference Curves
+\end_layout
+
+\begin_layout Standard
+Instead of describing the actual level of the utility function (it might
+ not be possible, and not needed at all, as it is only an ordinal) - we
+ only describe bundles which have the same utility level, by connecting
+ points with equal utlity.
+ Points along an IC are equally desirable, while higher ICs are more desirable.
+\end_layout
+
+\begin_layout Subsection
+Optimization
+\end_layout
+
+\begin_layout Standard
+The goal is to match the ICs with the feasible set, to find the highest
+ affordable IC.
+ It is found by equality of slopes (IC shall be 
+\series bold
+tangent
+\series default
+ to the feasible set), using the 
+\series bold
+marginality condition
+\series default
+.
+\end_layout
+
+\begin_layout Subsection
+The Marginality Condifion
+\end_layout
+
+\begin_layout Standard
+The budget line must be tangent to the IC, otherwise there would be a contradict
+ion (i.e a higher IC is affordable.
+\end_layout
+
+\begin_layout Standard
+The slope of the budget constraint:
+\begin_inset Formula 
+\[
+p_{x}x+p_{y}y=I\Rightarrow\frac{b}{a}=\frac{p_{x}}{p_{y}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+A 
+\begin_inset Quotes eld
+\end_inset
+
+long
+\begin_inset Quotes erd
+\end_inset
+
+ way to calculate it: how many 
+\begin_inset Formula $y$
+\end_inset
+
+ need to be given up to gain extra 
+\begin_inset Formula $x$
+\end_inset
+
+ and remain on the same line:
+\begin_inset Formula 
+\[
+p_{x}(x+a)+p_{y}(y-b)=I
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The indifference curve is not a linear, thus its slope calculation is more
+ subtle.
+ What matters here is the partial derivatives:
+\begin_inset Formula 
+\[
+U(x,y)=c
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+U(x+a,y-b)=c\Rightarrow U_{x}a-U_{y}b\cong0\Rightarrow\frac{b}{a}\cong\frac{U_{x}}{U_{y}}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+U(x+a,y-b)=U(x,y)+aU_{x}=bU_{y}+c(a,b)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The idea above is the same as with approximation of a single-argument function
+ (Calculus I).
+ In summary, the point of equality of slopes is to be found (algebraically),
+ which is the point where functions are tangent (on terms of geometry):
+\begin_inset Formula 
+\[
+\frac{U_{x}}{U_{y}}=\frac{p_{x}}{p_{y}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+That's the point of intersection between the 
+\series bold
+market
+\series default
+ (
+\begin_inset Quotes eld
+\end_inset
+
+what I can
+\begin_inset Quotes erd
+\end_inset
+
+) and 
+\series bold
+personal preferences
+\series default
+ (
+\begin_inset Quotes eld
+\end_inset
+
+what I want
+\begin_inset Quotes erd
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Standard
+Rearranging the terms leads to another condition:
+\begin_inset Formula 
+\[
+\frac{U_{x}}{p_{x}}=\frac{U_{y}}{p_{y}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In both sides, psychology and economics are mixed (psychology in the numerator,
+ economics in the denominator).
+\end_layout
+
+\begin_layout Standard
+The economic meaning of the marginality condition: a 1$ gives the same utility
+ in buying 
+\begin_inset Formula $x$
+\end_inset
+
+ or 
+\begin_inset Formula $y$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection
+Example - linear utility
+\end_layout
+
+\begin_layout Standard
+Budget constraint: 
+\begin_inset Formula $15x+3y\leq60$
+\end_inset
+
+, utility given by: 
+\begin_inset Formula $U(x,y)=6x+y$
+\end_inset
+
+.
+ For a linear utility function, corner solutions will not be exceptional.
+ There is no unique solution: 
+\begin_inset Formula $\frac{p_{x}}{p_{y}}=6$
+\end_inset
+
+ - the chosen bundle could be anywhere.
+\end_layout
+
+\begin_layout Subsection
+Marginal Utility
+\end_layout
+
+\begin_layout Standard
+In the above examples, the marginal utilities were 
+\series bold
+constant
+\series default
+.
+ In reality, marginal utilities are usually assumed to be in inverse proportion
+ to the amount of good we already have:
+\begin_inset Formula 
+\[
+u'(x)=c\cdot\frac{1}{x}\Rightarrow u(x)=c\cdot log(x)+d
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Cobb-Douglas preference (utility function):
+\begin_inset Formula 
+\[
+U(x,y)=alog(x)+blog(y)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+When 
+\begin_inset Formula $a=b=1$
+\end_inset
+
+ we get: 
+\begin_inset Formula $U(x,y)=log(xy)$
+\end_inset
+
+ .
+ Indifference curves become 
+\series bold
+less steep
+\series default
+ (when going from 
+\series bold
+left to right
+\series default
+).
+ The slope is the same along any ray from 𝑥 the origin (homothetic preferences)
+ - but it is different between different rays.
+\end_layout
+
+\begin_layout Standard
+Optimal solution for Cobb-Douglas preferences:
+\begin_inset Formula 
+\[
+U(x,y)=alog(x)+blog(y)\Rightarrow\frac{U_{x}}{U_{y}}=\frac{ay}{bx}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+To find 
+\begin_inset Formula $(x,y)$
+\end_inset
+
+ where 
+\begin_inset Formula $p_{x}x+p_{y}=O$
+\end_inset
+
+ and 
+\begin_inset Formula $\frac{U_{x}}{U_{y}}=\frac{p_{x}}{p_{y}},$
+\end_inset
+
+we get:
+\begin_inset Formula 
+\[
+\frac{p_{x}x}{o_{y}y}=\frac{a}{b}\Rightarrow E_{x}=\frac{a}{a+b}I,\,E_{y}=\frac{b}{a+b}I
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
