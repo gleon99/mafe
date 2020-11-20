@@ -1,0 +1,648 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+\usepackage{indentfirst}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2.5cm
+\topmargin 2.5cm
+\rightmargin 2.5cm
+\bottommargin 2.5cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Macroeconomics 1 - Lecture 2
+\end_layout
+
+\begin_layout Author
+Leonid Genkin
+\end_layout
+
+\begin_layout Section
+Homework 1 Solution
+\end_layout
+
+\begin_layout Subsection
+Question 1
+\end_layout
+
+\begin_layout Standard
+
+\backslash
+The key to the solution is 
+\begin_inset Formula $\Delta C=\Delta Y^{P}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+To find out the addition in the permanent income (
+\begin_inset Formula $\Delta Y^{P}$
+\end_inset
+
+), use the present value of the additional income, multiplied by the marignal
+ propensity to consume.
+\end_layout
+
+\begin_layout Subsection
+Question 2
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $C_{t+2}$
+\end_inset
+
+ is already at the long-run consumpiton level, and can't change much relatively
+ to the level before
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Formula $r_{t+1}$
+\end_inset
+
+ goes down.
+ Thus, the result is 
+\begin_inset Formula $C_{t}\uparrow$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Section
+Open and Closed Economies
+\end_layout
+
+\begin_layout Standard
+There is a (theoretical) constrast between a 
+\series bold
+small open 
+\series default
+economy, and 
+\series bold
+a
+\series default
+ 
+\series bold
+closed
+\series default
+ one:
+\end_layout
+
+\begin_layout Itemize
+In a (one-good real) small open economy, there is perfect capital ombility,
+ thus the interest rate is 
+\series bold
+exogenous
+\series default
+.The balance of payments is mainly intertemporal.
+ This model fits representation of a household.
+\end_layout
+
+\begin_layout Itemize
+A closed economy: saving and borrowing is only internally possible.
+ The interest rate is then 
+\series bold
+endogenous
+\series default
+.
+\end_layout
+
+\begin_layout Subsection
+The One-Good Real Small Open Economy
+\end_layout
+
+\begin_layout Standard
+A 
+\series bold
+perfect
+\series default
+ capital mobility is assumed (
+\begin_inset Formula $r_{1}=r=r^{*}$
+\end_inset
+
+), where 
+\begin_inset Formula $r^{*}$
+\end_inset
+
+ is the world real interest rate (UIP).
+ Same as for households, the income is given by:
+\begin_inset Formula 
+\[
+Income=Y_{t}+T_{t}
+\]
+
+\end_inset
+
+Where 
+\begin_inset Formula $T_{t}$
+\end_inset
+
+ represent transfers from abroad.
+ The current budget constraint is:
+\begin_inset Formula 
+\[
+Y_{t}-C_{t}+rB_{t}+T_{t}=B_{t+1}-B_{t}+\Delta R
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+\begin_inset Formula $C_{t}$
+\end_inset
+
+ Government Spending
+\end_layout
+
+\begin_layout Description
+\begin_inset Formula $rB_{t}$
+\end_inset
+
+ Net Factor Payments
+\end_layout
+
+\begin_layout Description
+\begin_inset Formula $T_{t}$
+\end_inset
+
+ Net Tansfers
+\end_layout
+
+\begin_layout Description
+\begin_inset Formula $Y_{t}-C_{t}$
+\end_inset
+
+ (
+\begin_inset Formula $EX_{t}-IM_{t}$
+\end_inset
+
+ - Net Exports)
+\end_layout
+
+\begin_layout Description
+\begin_inset Formula $\Delta R$
+\end_inset
+
+ Central Bank Reserves
+\end_layout
+
+\begin_layout Standard
+Which means: saving is the increase in foreign assets.
+\end_layout
+
+\begin_layout Standard
+For simplicity, we temporarily assume 
+\begin_inset Formula $\Delta R=0$
+\end_inset
+
+, which yields:
+\begin_inset Formula 
+\[
+CA_{t}=B_{t+1}-B_{t}=F_{t}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+(current accoutn balance = saving abroad = net financial outflow).
+\end_layout
+
+\begin_layout Standard
+From the consumption discussion (with 
+\begin_inset Formula $T=0$
+\end_inset
+
+):
+\begin_inset Formula 
+\[
+C_{t}=\frac{r}{1+r}PV_{t}(Y)+rB_{t}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Economy Shocks
+\end_layout
+
+\begin_layout Standard
+To better understand a model, it is always good to 
+\series bold
+shock
+\series default
+ it and see the reaction.
+ Consider a 
+\series bold
+temporary
+\series default
+ deviation in 
+\begin_inset Formula $Y$
+\end_inset
+
+.
+ Output can't be stored:
+\begin_inset Formula 
+\[
+Y_{t}=Y(1+a_{t})
+\]
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+Then the optimal consumption will be:
+\begin_inset Formula 
+\[
+C_{t}=\frac{r}{1+r}\left[1+a_{t}+\frac{1}{1+r}+\frac{1}{(1+r)^{2}}+\cdots\right]Y+rB_{t}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+C_{t}=Y+\frac{r}{1+r}a_{t}Y+rB_{t}
+\]
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+Same as in lecture 1, the 
+\series bold
+marginal propensity to consume
+\series default
+ is used to address the extra income.
+\end_layout
+
+\begin_layout Standard
+CA can now be computed for this case:
+\begin_inset Formula 
+\[
+CA_{t}=Y_{t}+rB_{t}-C_{t}\Rightarrow CA_{t}=\frac{1}{1+t}a_{t}Y
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+That is the 
+\series bold
+permanent income hypothesis
+\series default
+ for the whole economy.
+ Given a temporary deviation in the output from its normal level, the consumptio
+n is smoothed according to the marginal propensity to consume.
+ Everything that was said regarding the individuals- is true for a whole
+ economy as well.
+\end_layout
+
+\begin_layout Standard
+If the shock is permanent, what would happen to the CA? All the additional
+ income wil lbe consumed, thus 
+\begin_inset Formula $\Delta CA=0$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Those who save are pessimistic, while those who borrow are optimistic
+\series default
+.
+\end_layout
+
+\begin_layout Standard
+The sign of the CA represents output vs.
+ uses of output
+\end_layout
+
+\begin_layout Subsection
+Case study: COVID-19 - Supply or demand shock?
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+CA_{t}=Y_{y}+rB_{t}-C_{t}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+There is a decline in 
+\begin_inset Formula $C$
+\end_inset
+
+, but 
+\series bold
+not
+\series default
+ because of a decline in 
+\begin_inset Formula $Y$
+\end_inset
+
+, thus 
+\begin_inset Formula $CA_{t}$
+\end_inset
+
+ increases (?)
+\end_layout
+
+\begin_layout Subsection
+The Closed Economy Model
+\end_layout
+
+\begin_layout Standard
+In an open economy, imbalance between supply and demand is possible - which
+ is not true for a closed economy, where supply and demand must always be
+ in an equilibrium (examples: North Korea, The World).
+\end_layout
+
+\begin_layout Standard
+In this model, the interest rate is 
+\series bold
+endogenous
+\series default
+, and might deviate form 
+\begin_inset Formula $\rho$
+\end_inset
+
+.
+ Now a specific utility function is required.
+ Assuming:
+\begin_inset Formula 
+\[
+U(C_{t},z_{t})=(1+z_{t})lnC_{t}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Where 
+\begin_inset Formula $z$
+\end_inset
+
+ is the schock to utility and marginal utility.
+\end_layout
+
+\begin_layout Standard
+On the supply side - output is exogenous and 
+\series bold
+can't be stored
+\series default
+.
+ Same as with open economy:
+\begin_inset Formula 
+\[
+Y_{t}=T(1+a_{t})
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Where 
+\begin_inset Formula $a_{t}$
+\end_inset
+
+ is the production shock, and 
+\begin_inset Formula $Y$
+\end_inset
+
+ is the normal output.
+\end_layout
+
+\begin_layout Standard
+Output always equals income (in a closed economy - in an open one there
+ is also 
+\begin_inset Formula $rB_{t}$
+\end_inset
+
+ and 
+\begin_inset Formula $T_{t}$
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Standard
+Euler equations are:
+\begin_inset Formula 
+\[
+\frac{1+z_{t}}{C_{t}}=\frac{1}{1+\rho}\left(\frac{1+z_{t+1}}{C_{t+1}}\right)(1+r_{t})
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\frac{1+z_{t+1}}{C_{t+1}}=\frac{1}{1+\rho}\left(\frac{1+z_{t+2}}{C_{1+2}}\right)(1+r_{t+1})
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The question is: how a shock affets 
+\begin_inset Formula $r_{t}$
+\end_inset
+
+? The intuition for the answer is: supply-demand for funds.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $a_{t}>0$
+\end_inset
+
+ increases saving, thus 
+\begin_inset Formula $r_{t}\downarrow$
+\end_inset
+
+ (by permanent income hypothesis - production increases income, people try
+ to save it).
+ 
+\begin_inset Quotes eld
+\end_inset
+
+This period is good
+\begin_inset Quotes erd
+\end_inset
+
+, everyone goes to the bank, the bank pays less.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $z_{t}>0$
+\end_inset
+
+ increases borrowing, leading to 
+\begin_inset Formula $r_{t}\uparrow$
+\end_inset
+
+ (everyone wants to borrow, there is not enough money to borrow, interest
+ rate goes up).
+\end_layout
+
+\begin_layout Standard
+In an equilibrium output can't be stored, thus: 
+\begin_inset Formula $C_{t}=Y(1+a_{t})$
+\end_inset
+
+.
+ Knowing the quantities, we can find the prices and determine the effect
+ on 
+\begin_inset Formula $r_{t}$
+\end_inset
+
+.
+\begin_inset Formula 
+\[
+\frac{1+z_{t}}{Y(1+a_{t})}=\frac{1}{1+\rho}\left(\frac{1+z_{t+1}}{Y(1+a_{t+1}}\right)(1+r_{t})\Rightarrow1+r_{t}=(1+\rho)\frac{(1+z_{t})(1+a_{t+1})}{(1+a_{t})(1+z_{t+1})}
+\]
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+What happens to the interest rate if the income and the consumption shocks
+ are equals? - They cancel out (intuition: borrowing and saving effects
+ are equal in size 
+\begin_inset Formula $\Rightarrow r_{t}=\rho$
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Standard
+Important notice: future and current shocks of the same type have opposite
+ effects (why?).
+ For example, higher 
+\begin_inset Formula $z_{t}$
+\end_inset
+
+ - higher consumption 
+\series bold
+today
+\series default
+.
+ Higher 
+\begin_inset Formula $z_{t+1}$
+\end_inset
+
+ - better to save.
+\end_layout
+
+\begin_layout Standard
+Homework will be with submission until the next Thursday.
+\end_layout
+
+\end_body
+\end_document
