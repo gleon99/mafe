@@ -1,0 +1,345 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+\usepackage{indentfirst}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2.5cm
+\topmargin 2.5cm
+\rightmargin 2.5cm
+\bottommargin 2.5cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Financial Accounting 1 - Lecture 2
+\end_layout
+
+\begin_layout Author
+Leonid Genkin
+\end_layout
+
+\begin_layout Section
+Financial Statements
+\end_layout
+
+\begin_layout Standard
+The accounting equations has economic resource on the left, and claims to
+ these resources on the right.
+ Consider an example with car: it is an 
+\series bold
+asset
+\series default
+, but buying it with a loan creates a 
+\series bold
+claim
+\series default
+ on it (by the bank).
+\begin_inset Formula 
+\[
+Economic\,Resources\,=\,Claims\,to\,Economic\,Resources
+\]
+
+\end_inset
+
+Or:
+\begin_inset Formula 
+\[
+Assets\,=\,Liabilities\,+\,Stockholders'\,Equity
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+The Balance Sheet - Assets
+\end_layout
+
+\begin_layout Standard
+Assets are economic 
+\series bold
+resources
+\series default
+, which have probable future benefits and are obtained or controlled by
+ an entity as a result of past events.
+\end_layout
+
+\begin_layout Standard
+Examples of current assets include: current assets (cash, accounts), property
+ and equipments (land, building), investments and intangible assets.
+\end_layout
+
+\begin_layout Subsection
+The Balance Sheet - Liabilities
+\end_layout
+
+\begin_layout Standard
+Claims by creditors (economic obligations) against the assets of a company,
+ which have to be met in th efuture.
+ They are classified in terms of due date (current / non-current liabilities).
+ The creditors have priority over the owners.
+\end_layout
+
+\begin_layout Standard
+Stockholders' equity represents the claims of the owners againts the assets
+ (e.g common stock, retained earning which are not paid as dividends).
+\end_layout
+
+\begin_layout Subsection
+The Statement of Shareholders' Equity
+\end_layout
+
+\begin_layout Standard
+What causes equity to change over time?
+\end_layout
+
+\begin_layout Enumerate
+Getting more money from shareholders (by issuing stock).
+\end_layout
+
+\begin_layout Enumerate
+More income (net loss).
+\end_layout
+
+\begin_layout Enumerate
+Giving back dividends (a negative effect).
+\end_layout
+
+\begin_layout Subsection
+The Income Statement
+\end_layout
+
+\begin_layout Standard
+It is important to distinguish between revenues and cash.
+ A loan is an example of having cash without revenue (issuing shares - another
+ example).
+\end_layout
+
+\begin_layout Standard
+In order for revenue to appear in the income statement, it needs to be 
+\series bold
+earned
+\series default
+ (having it in cash is not enough and is not the crucial aspect).
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Revenues
+\series default
+ are inflow of assets or settlements of liabilities (sales, interest).
+ Cause increase in net income.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Expenses
+\series default
+ are outflows or counsumption of assets (i.e consuming a resource for generating
+ revenue).
+ Paying a liability is not an expense.
+ Example of expenses: cost of sold goods, salary, rent, utilities, depreciation.
+ Cause decrease in net income.
+\end_layout
+
+\begin_layout Standard
+Accrual accounting - account for what 
+\series bold
+happened
+\series default
+ and not for cash transactions.
+ Net income = 
+\begin_inset Quotes eld
+\end_inset
+
+profit
+\begin_inset Quotes erd
+\end_inset
+
+ (from the revenue).
+\end_layout
+
+\begin_layout Subsection
+The Statement of Cash Flows
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Operating activities
+\series default
+: aquisition & sale of company products & services.
+ Collections from sales & resnt.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Investing activities
+\series default
+: purchase & sell of company investments & investment securitirs.
+ Land, building, equipment
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Financing activities
+\series default
+: relationship with shareholders & debt holders, dividend payment.
+\end_layout
+
+\begin_layout Subsection
+Relationship among the Financial Statements
+\end_layout
+
+\begin_layout Standard
+The 
+\series bold
+statement of cash flows
+\series default
+ describes the difference in 
+\series bold
+cash assets
+\series default
+ between the beginning and the ending balance sheets (but not only in cash
+ - also changes in assets and in liabilities).
+\end_layout
+
+\begin_layout Standard
+The 
+\series bold
+statement of stockholders' equity
+\series default
+ describes the difference in 
+\series bold
+equity
+\series default
+ between the baginning and ending equity.
+\end_layout
+
+\begin_layout Standard
+Equity comes from 2 main sources: (1) 
+\begin_inset Quotes eld
+\end_inset
+
+common stock
+\begin_inset Quotes erd
+\end_inset
+
+ / shared capital (paid in capital) + (2) retained earnings (earned in the
+ past and didn't pay dividends yet).
+\end_layout
+
+\begin_layout Standard
+Between the beginning and the end of a period, there might be: revenues
+ and expenses (which define the net income).
+\end_layout
+
+\begin_layout Subsubsection
+Exercise
+\end_layout
+
+\begin_layout Standard
+Use the following formulas to solve for missing items:
+\begin_inset Formula 
+\[
+A=L+SE
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+SE_{Begin}+Issue+NI-Div=SE_{End}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Fot the next time: homework!
+\end_layout
+
+\end_body
+\end_document
