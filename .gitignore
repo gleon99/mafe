@@ -3,3 +3,7 @@
 *.lyx~
 *.ipynb
 *.pdf
+*.zip
+*.html
+*.lyx#
+*.log

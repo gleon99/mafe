@@ -101,8 +101,6 @@ Question 1
 \end_layout
 
 \begin_layout Standard
-
-\backslash
 The key to the solution is 
 \begin_inset Formula $\Delta C=\Delta Y^{P}$
 \end_inset
@@ -285,7 +283,7 @@ CA_{t}=B_{t+1}-B_{t}=F_{t}
 \end_layout
 
 \begin_layout Standard
-(current accoutn balance = saving abroad = net financial outflow).
+(current account balance = saving abroad = net financial outflow).
 \end_layout
 
 \begin_layout Standard
@@ -385,13 +383,13 @@ permanent income hypothesis
  for the whole economy.
  Given a temporary deviation in the output from its normal level, the consumptio
 n is smoothed according to the marginal propensity to consume.
- Everything that was said regarding the individuals- is true for a whole
+ Everything that was said regarding the individuals is true for a whole
  economy as well.
 \end_layout
 
 \begin_layout Standard
 If the shock is permanent, what would happen to the CA? All the additional
- income wil lbe consumed, thus 
+ income will be consumed, thus 
 \begin_inset Formula $\Delta CA=0$
 \end_inset
 
@@ -408,7 +406,7 @@ Those who save are pessimistic, while those who borrow are optimistic
 
 \begin_layout Standard
 The sign of the CA represents output vs.
- uses of output
+ uses of output.
 \end_layout
 
 \begin_layout Subsection
@@ -603,7 +601,7 @@ In an equilibrium output can't be stored, thus:
 .
 \begin_inset Formula 
 \[
-\frac{1+z_{t}}{Y(1+a_{t})}=\frac{1}{1+\rho}\left(\frac{1+z_{t+1}}{Y(1+a_{t+1}}\right)(1+r_{t})\Rightarrow1+r_{t}=(1+\rho)\frac{(1+z_{t})(1+a_{t+1})}{(1+a_{t})(1+z_{t+1})}
+\frac{1+z_{t}}{Y(1+a_{t})}=\frac{1}{1+\rho}\left(\frac{1+z_{t+1}}{Y(1+a_{t+1})}\right)(1+r_{t})\Rightarrow1+r_{t}=(1+\rho)\frac{(1+z_{t})(1+a_{t+1})}{(1+a_{t})(1+z_{t+1})}
 \]
 
 \end_inset

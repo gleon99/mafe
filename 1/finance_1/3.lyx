@@ -1,0 +1,665 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+\usepackage{indentfirst}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2.5cm
+\topmargin 2.5cm
+\rightmargin 2.5cm
+\bottommargin 2.5cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Finance1 - Lecture 3
+\end_layout
+
+\begin_layout Author
+Leonid Genkin
+\end_layout
+
+\begin_layout Section
+Value Creation in Corporations
+\end_layout
+
+\begin_layout Standard
+The quesiton here is: what is the investment criteria? Where should we invest?
+ Generally, the answer is; an investment shall be made, if the return of
+ capital is higher than the cost of capital.
+ This criteria is equivalent to investine in projects with a positive NPV.
+\end_layout
+
+\begin_layout Standard
+The most important factor is determining the difference between return on
+ invested capital, and the opportunity cost.
+ Growth can happen 
+\series bold
+only
+\series default
+ when reinvestment.
+\end_layout
+
+\begin_layout Section
+Stock Valuation
+\end_layout
+
+\begin_layout Standard
+The price of a stock is the present value of its dividends.
+ If 
+\begin_inset Formula $P_{0}$
+\end_inset
+
+ is today's price, 
+\begin_inset Formula $P_{1}$
+\end_inset
+
+ is the expected price in a year and 
+\begin_inset Formula $Div_{1}$
+\end_inset
+
+ is the expected dividend, by discounting to present:
+\begin_inset Formula 
+\[
+P_{o}=\frac{DIV+P_{1}}{1+r}\Rightarrow r=\frac{Div_{1}+P_{1}-P_{0}}{P_{o}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Where 
+\begin_inset Formula $r$
+\end_inset
+
+ is the return on the investment.
+\end_layout
+
+\begin_layout Description
+\begin_inset Formula $\frac{Div_{1}}{P_{0}}$
+\end_inset
+
+ Dividend yield
+\end_layout
+
+\begin_layout Description
+\begin_inset Formula $\frac{P_{1}-P_{0}}{P_{0}}$
+\end_inset
+
+ Capital gain
+\end_layout
+
+\begin_layout Standard
+This model might be not suitable for growth companies, but it is the general
+ fundamental method for understanding where value comes from (even if not
+ useful for valuation).
+\end_layout
+
+\begin_layout Standard
+If the firm goes on forever, we get a perpetuity.
+ But in case the firm eventually liquidates, 
+\begin_inset Formula $P_{n}$
+\end_inset
+
+ is important
+\end_layout
+
+\begin_layout Subsection
+Special Cases
+\end_layout
+
+\begin_layout Subsubsection
+Constant Dividends
+\end_layout
+
+\begin_layout Standard
+Suppose the company doesn't ever grow.
+ Then the dividens are a perpetuity:
+\begin_inset Formula 
+\[
+Div_{1}=Div_{2}=\cdots=Div_{\infty}=D
+\]
+
+\end_inset
+
+Then:
+\begin_inset Formula 
+\[
+P_{0}=\frac{D}{r}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+The Gordon Model
+\end_layout
+
+\begin_layout Standard
+Dividends grow at a constant rate 
+\begin_inset Formula $g$
+\end_inset
+
+ indefinitely:
+\begin_inset Formula 
+\[
+P_{0}=\frac{Div_{1}}{r-g}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In practice, earnings are divided between retained earnings and dividends.
+\end_layout
+
+\begin_layout Description
+Plowback
+\begin_inset space ~
+\end_inset
+
+ratio Proportion of earnings retained (plowed back) into the firm (
+\begin_inset Formula $b$
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Description
+Payout
+\begin_inset space ~
+\end_inset
+
+ratio Proportion of earnings paid out as dividends (
+\begin_inset Formula $1-b$
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The firm manager reinvests some of the capital.
+ Total earnings in period 
+\begin_inset Formula $t$
+\end_inset
+
+ are the return on invested capital, times the invested capital:
+\begin_inset Formula 
+\[
+E_{t}=ROIC\times IC_{t}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Thus the growth in 
+\begin_inset Formula $IC$
+\end_inset
+
+ is:
+\begin_inset Formula 
+\[
+IC_{t+1}=IC_{t}+b\times E_{t}=IC_{t}+b\times ROIC\times IC_{t}=IC_{t}\times(1+b\times ROIC)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Stock price grows at a constant rate.
+ The more capital is kept in the firm - the faster is the growth.
+\end_layout
+
+\begin_layout Standard
+If it is known that the capital grows at a constant rate, it is then also
+ known that the earnings also grow.
+ But, if earnings grow at a constant rate - the same is true for dividends
+ (as they are a constant proportion of the earnings).
+ This, in turn, means that the price of the firm grows at a constant rate.
+\end_layout
+
+\begin_layout Standard
+The growth of the firm:
+\begin_inset Formula 
+\[
+g=b\times ROIC
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Then, the value of the firm is given by:
+\begin_inset Formula 
+\[
+P_{0}=\frac{DIV_{1}}{r-g}=\frac{E_{1}(1-b)}{r-b\times ROIC}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The growth is determined by investment opportunities (ROIC) and reinvestment
+ polivy (plowback ratio 
+\begin_inset Formula $b$
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Standard
+In the special case of zero growth (
+\begin_inset Formula $b=0$
+\end_inset
+
+):
+\begin_inset Formula 
+\[
+P_{0}=\frac{E_{1}}{r}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Another view on the value of the company: it can be decomposed into:
+\begin_inset Formula 
+\[
+P_{0}=\frac{E_{1}}{r}+PVGO
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+(
+\begin_inset Formula $PVGO$
+\end_inset
+
+ is present-value growth opportunities).
+ Assume there is no plow-back and no future reinvestments.
+ The extra value from not giving the money back to the shareholders, but
+ only creating future value with it.
+\end_layout
+
+\begin_layout Subsection
+Example case 1 : stock prices without reinvestment
+\end_layout
+
+\begin_layout Standard
+Recalling the 
+\begin_inset Formula $ROIC=12\%$
+\end_inset
+
+ and 
+\begin_inset Formula $IC=\$100$
+\end_inset
+
+, with 
+\begin_inset Formula $100\%$
+\end_inset
+
+ apyout ratio the value of the equity is given by:
+\begin_inset Formula 
+\[
+p_{0}=\frac{E_{1}}{r}=120\$
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Example case 2: Reinvestment of 60%
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+Div_{1}=(1-b)E_{1}=0.4*\$12M=\$4.80M
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Because of the plowback, IC, earnings and dividends grow by:
+\begin_inset Formula 
+\[
+g=b*ROIC=0.6*12\%
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Thus:
+\begin_inset Formula 
+\[
+P_{0}=\frac{Div_{1}}{r-t}=\$171.43M
+\]
+
+\end_inset
+
+And:
+\begin_inset Formula 
+\[
+PVGO=\$171.43M-\$120M=\$51.43M
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In companies that do not grow much, most of the value comes from earnings.
+\end_layout
+
+\begin_layout Standard
+If the payout ratio is reduced - PVGO increases.
+\end_layout
+
+\begin_layout Standard
+PVGO is positive, if and only if, the return is higher than capital cost
+ for investors:
+\begin_inset Formula 
+\[
+PVGO>0\Leftrightarrow ROIC>r
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+An important conclusion: growth and creation of value are very different
+ things!
+\end_layout
+
+\begin_layout Standard
+Shouldn't CFO listen to investors? There is an issue of 
+\series bold
+availability of markets
+\series default
+ for moving capital between the present and the future.
+ The investors will make their decisions, our goal is only to create value
+ and provide them with alternatives.
+ (Challenge question: CFOs don't need to know the risk preference of the
+ investors)
+\end_layout
+
+\begin_layout Subsection
+Earnings-Price Rations, Growth Opportunities
+\end_layout
+
+\begin_layout Standard
+The price-earnings multipler of a firm gives an insight into whether the
+ stock value is too high/low.
+ The basic formula from above, reshuffled:
+\begin_inset Formula 
+\[
+\frac{E_{1}}{P_{0}}=r\times\left[1-\frac{PVGO}{P_{0}}\right]
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Stable firms will usually have e/p ration close to the market capitalization
+ rate, growing firms will have a lower ratio.
+\end_layout
+
+\begin_layout Standard
+The gordon model is less useful when the generated cash is not paid by dividends.
+\end_layout
+
+\begin_layout Standard
+* Watch the recorded lecture with 2 other methods of evaluating companies.
+\end_layout
+
+\begin_layout Section
+Investment Evaluation
+\end_layout
+
+\begin_layout Standard
+The goal of the investment decision is to maximize the current value of
+ the shareholders' wealth.
+ We will use the free cash flow method.
+\end_layout
+
+\begin_layout Standard
+Recalling the chart from lecture 1, the connection between financing decision
+ and investment decision is the 
+\series bold
+cost of capital
+\series default
+.
+ When people invest in a firm, they expecte to get higher return than in
+ the market.
+\end_layout
+
+\begin_layout Standard
+The evaluation is done in 3 steps: forecast all cash flows, estimate the
+ opportunity cost, evauluation (DCF - NPV).
+\end_layout
+
+\begin_layout Standard
+The forecast is done by estimating all relevant after-tax expected cash
+ flows.
+ It is important the the cash flows be 
+\series bold
+relevant
+\series default
+ and 
+\series bold
+after-tax
+\series default
+ (cash into pocket).
+ There is clearly an uncertainity issue, thus past observations are used
+ as guesses for future performance (projections might be fed by marketing
+ teams, focus groups, etc).
+\end_layout
+
+\begin_layout Standard
+There are 10 important rules in estimating cash flow:
+\end_layout
+
+\begin_layout Enumerate
+Depreciation is not a cash flow, but it affects taxation.
+ The earnings have depreciation (that's how accounting works), and it needs
+ to be taken into accounts.
+\end_layout
+
+\begin_layout Enumerate
+Capital investments can't be ignored (e.g fixed assets).
+\end_layout
+
+\begin_layout Enumerate
+Investment in working capital (the amount needed in the firm to be able
+ to generate future cash flow - e.g buying inventory, cash register; buffer
+ for unexpected expenses) - only include changes in 
+\series bold
+operating
+\series default
+ working capital, which is usually positive.
+\end_layout
+
+\begin_layout Enumerate
+Separate investment & financing decisions - evaluate as if entirely equity
+ financed.
+ The total value of the assets of the project needs to be evaluated.
+\end_layout
+
+\begin_layout Enumerate
+Estimate flows on an 
+\series bold
+incremental
+\series default
+ basis (forget sunk costs! They must not affect an investment decision).
+ 
+\series bold
+Include
+\series default
+ all extermalities (side-effects of the projects, which might not directly
+ affect this projects, but may affect other projects - e.g sales increase/decreas
+e of another project of the firm).
+\end_layout
+
+\begin_layout Enumerate
+Opportunity costs cannot be ignored (assets that we rely on, and maybe didn't
+ pay for - that might be used elsewhere).
+\end_layout
+
+\begin_layout Enumerate
+Do not forget continuing value (residual / terminal value): 
+\series bold
+liquidation value
+\series default
+ - estimate proceeds from the sale of assets; 
+\series bold
+perpetual growth
+\series default
+ - asseme cash flows grow at a constant rate.
+ The longer cash flow is estimated - the less error is expected.
+\end_layout
+
+\begin_layout Enumerate
+Inflation (will be addressed later).
+\end_layout
+
+\begin_layout Enumerate
+Overhead costs.
+ Do we need to take them into account? - 
+\series bold
+It depends
+\series default
+ on whether these costs are incremental (do we pay gurads more as a result
+ of the project?).
+\end_layout
+
+\begin_layout Enumerate
+Include other relevant off-balance sheet items.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The accounting rules take depreciation into account (for tax purposes),
+ but after reducing it we need to add it back.
+\end_layout
+
+\end_body
+\end_document
