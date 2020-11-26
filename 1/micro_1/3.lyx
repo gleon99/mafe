@@ -1,0 +1,550 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+\usepackage{indentfirst}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2.5cm
+\topmargin 2.5cm
+\rightmargin 2.5cm
+\bottommargin 2.5cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Microeconomics 1 - Lecture 3
+\end_layout
+
+\begin_layout Author
+Leonid Genkin
+\end_layout
+
+\begin_layout Section
+Consumer Theory: Lagrange Multipliers
+\end_layout
+
+\begin_layout Standard
+The 
+\begin_inset Quotes eld
+\end_inset
+
+real
+\begin_inset Quotes erd
+\end_inset
+
+ problem is maximizing 
+\begin_inset Formula $U(x,y)$
+\end_inset
+
+, under the constraint of the budget line.
+ Lagrange multipliers: 
+\begin_inset Quotes eld
+\end_inset
+
+simplify our lives
+\begin_inset Quotes erd
+\end_inset
+
+ - convert it to a problem without constraints.
+ Assume 
+\begin_inset Formula $U$
+\end_inset
+
+ monotonicity and ignore the non-negativity constraints.
+ The new problem is maximizing:
+\begin_inset Formula 
+\[
+Max_{x,y}U(x,y)\,\,\,\,s.t\,\,p_{x}+p_{x}x+p_{y}y=I
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Lagrange's idea is to build the constraint 
+\series bold
+into
+\series default
+ the utility function, 
+\series bold
+as if
+\series default
+ it can be violated (in the optimal solution it won't be anyway).
+ If 
+\begin_inset Formula $\lambda$
+\end_inset
+
+ is the 
+\series bold
+cost
+\series default
+ of violating the constraint (a new variable), the problem is transformed
+ to maximizing
+\begin_inset Formula 
+\[
+{\cal L}(x,y,\lambda)=U(x,y)-\lambda[p_{x}x+p_{y}y-I]
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+To find the max point, all derivatives are taken and set to zero:
+\begin_inset Formula 
+\[
+\frac{\partial{\cal L}}{\partial x}=U_{x}-\lambda p_{x}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{\partial{\cal L}}{\partial y}=U_{y}-\lambda p_{y}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{\partial{\cal L}}{\partial\lambda}=-[p_{x}x+p_{y}y-I]
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Extracting 
+\begin_inset Formula $\lambda$
+\end_inset
+
+ from the equations yields:
+\begin_inset Formula 
+\[
+\lambda=\frac{U_{x}}{p_{x}},\,\,\,\,\lambda=\frac{U_{y}}{p_{y}}\,\,\,\,(marginality\,condition)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+It actually doesn't play any role in the final solution, and after merging
+ the equations we get to the previous result.
+\end_layout
+
+\begin_layout Subsection
+Ordinality
+\end_layout
+
+\begin_layout Standard
+The utility function is 
+\series bold
+ordinal
+\series default
+ - there is no meaning in a particular function and its values.
+ Any monotone transformation is equally good enough, and we shall only discuss
+ properties shared by all such transformations.
+\end_layout
+
+\begin_layout Standard
+For example, 
+\begin_inset Formula $U(x,y)=log(x)+log(y)$
+\end_inset
+
+ can't be told from 
+\begin_inset Formula $Y(x,y)=xy$
+\end_inset
+
+ or 
+\begin_inset Formula $5xy$
+\end_inset
+
+, etc.
+ Generally speaking - if 
+\begin_inset Formula $f$
+\end_inset
+
+ is monotonically increasing and 
+\begin_inset Formula $V(x,y)=f(U(x,y))$
+\end_inset
+
+, then 
+\begin_inset Formula 
+\[
+\frac{V_{x}}{V_{y}}=\frac{U_{x}}{U_{y}}
+\]
+
+\end_inset
+
+ holds.
+\end_layout
+
+\begin_layout Standard
+The marginality condition does not depend on the particular transformation,
+ and there is another way of looking at it:
+\begin_inset Formula 
+\[
+\frac{U_{x}}{p_{x}}=\frac{U_{y}}{p_{y}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes eld
+\end_inset
+
+How much utility do I get from $1 spend on 
+\begin_inset Formula $X$
+\end_inset
+
+ or on 
+\begin_inset Formula $Y$
+\end_inset
+
+?
+\begin_inset Quotes erd
+\end_inset
+
+ The values on both sides can change, but it doesn't matter whether they
+ are equal (inequality is meaningful).
+ Therefore, various utility functions describe the same preferences, and
+ can be freely switched between.
+ Do not attach any meaning to the particular numeric values.
+ For that reason, there is no sense in comparing utility between different
+ people.
+\end_layout
+
+\begin_layout Subsection
+Monotonicity
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+More is preferred to less
+\series default
+.
+ Utility cannot decrease when the amount of goods increases i.e 
+\begin_inset Formula 
+\[
+x\geq x',\,\,y\geq y'\Rightarrow U(x,y)\geq U(x',y')
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+While in the past it used to be a very simple & obvious statement (
+\begin_inset Quotes eld
+\end_inset
+
+if you don't like it - throw it away
+\begin_inset Quotes erd
+\end_inset
+
+), it is not the situation today (environment, recycling, implications of
+ throwing garbage).
+ Even emotional problem might arise (carbon emission information on flights).
+\end_layout
+
+\begin_layout Standard
+Basic monotonicity implies that the consumer can reach 
+\series bold
+satiation
+\series default
+ - more quantity doesn't give more utility (
+\begin_inset Quotes eld
+\end_inset
+
+luckily, reaching a nirvana
+\begin_inset Quotes erd
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Standard
+The 
+\series bold
+first welfare theorem
+\series default
+: a general equilibrium yields Pareto-optimal allocations.
+ Pareto optimality is 
+\series bold
+not
+\series default
+ about justice or fairness.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Efficient
+\series default
+ sounds as if only the amount of production matters, but it is not the case.
+
+\series bold
+ Optimal
+\series default
+ suggests being 
+\begin_inset Quotes eld
+\end_inset
+
+the best
+\begin_inset Quotes erd
+\end_inset
+
+, while actually it only means that there is nothing better.
+\end_layout
+
+\begin_layout Standard
+Pareto optimality/efficiency is a desirable property, and any allocation
+ that is the result of a general equilibrium has it - but a consumer who
+ reaches stiation might destroy it.
+\end_layout
+
+\begin_layout Standard
+There is a notion of 
+\series bold
+strict monotonicity
+\series default
+ (
+\begin_inset Formula $U$
+\end_inset
+
+ is strictly increasing, satisfies basic monotonicity as well) and 
+\series bold
+weak monotonicity
+\series default
+ (more realistic condition - may be satiation in some goods).
+\end_layout
+
+\begin_layout Subsection
+Convexity
+\end_layout
+
+\begin_layout Standard
+There are complex constraints, and the marginality condition doesn't always
+ help (for example: movie selection - price, duration).
+\end_layout
+
+\begin_layout Subsubsection
+AND
+\end_layout
+
+\begin_layout Standard
+Consider a situation when 2 budget constraints have to be satistied simultaneous
+ly: 
+\begin_inset Formula $40x+100y\leq400,\,120x+60y\leq60$
+\end_inset
+
+.
+ Maximizing the utility function (CD 
+\begin_inset Formula $V(x,y)=x^{0.3}y^{0.7}$
+\end_inset
+
+) yields a solution which satisfies both constraints - thus, no problem.
+\end_layout
+
+\begin_layout Standard
+But if the preferences were different (consider another utility function
+ 
+\begin_inset Formula $V(x,y)=x^{0.8}y^{0.2}$
+\end_inset
+
+) - the tangency point might be outside.
+ In such case we can try to look for tangency with the other budget constraint.
+\end_layout
+
+\begin_layout Standard
+This method might not always work - tangency point can still be oustide
+ the affordable range, meaning the consumer is still 
+\begin_inset Quotes eld
+\end_inset
+
+unhappy
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+We can't find a tangent line, but there is a 
+\series bold
+separation
+\series default
+.
+ If no tangency is in the range - look for the extreme points.
+\end_layout
+
+\begin_layout Subsubsection
+OR
+\end_layout
+
+\begin_layout Standard
+Consider an example - 
+\begin_inset Formula $I=200,\,\,p_{x}=p_{y}=1$
+\end_inset
+
+ and a discount on 
+\begin_inset Formula $x$
+\end_inset
+
+ for large quantities.
+ The budget set is non-convex.
+ There are several tangency points.
+ They need to be compared, together with the intersection points.
+\end_layout
+
+\begin_layout Subsubsection
+Convexity
+\end_layout
+
+\begin_layout Standard
+A set is 
+\series bold
+convex
+\series default
+ iff for every two point in it, the interval connecting them also belongs
+ to the set.
+ The classic budget set, as well as 
+\series bold
+intersections
+\series default
+ of such sets - are always convex.
+ That is not necessarily tru about 
+\series bold
+union
+\series default
+ of convex sets.
+ A non-convex budget set can be problematic - as the marginality condition
+ is no longer sufficient for optiomality.
+\end_layout
+
+\begin_layout Standard
+When dealing with non-convex preferences (increasing marginal utility),
+ the tangency point might actually be 
+\series bold
+the worst
+\series default
+ point on the line.
+\end_layout
+
+\begin_layout Standard
+The 
+\begin_inset Quotes eld
+\end_inset
+
+better than
+\begin_inset Quotes erd
+\end_inset
+
+ sets are convex.
+ To tell whether preferences are convex, ICs need to be drawn and slopes
+ along the curve have to be compared.
+ In the special case when a utility function is a sum of 2 convex utility
+ functions, it is ocnvex as well.
+\end_layout
+
+\begin_layout Standard
+Convexity simplifies prediction, but also makes the optimization story more
+ likely.
+ Small improvements lead to an optimal solution.
+\end_layout
+
+\end_body
+\end_document
