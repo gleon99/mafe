@@ -870,7 +870,7 @@ Acquisitions
 \begin_layout Standard
 Multiples are often used by firms to evaluate acquisitions.
  In addition to finding similar firms, comparison of similar transaction
- shal ltake place.
+ shall take place.
  Instead, a 
 \begin_inset Quotes eld
 \end_inset
@@ -893,19 +893,30 @@ The goal of the investment decision is to maximize the current value of
 \end_layout
 
 \begin_layout Standard
-Recaling the chart from lecture 1, the connection between financing decision
+Recalling the chart from lecture 1, the connection between financing decision
  and investment decision is the 
 \series bold
 cost of capital
 \series default
 .
- When people invest in a firm, they expecte to get higher return than in
+ When people invest in a firm, they expect to get higher return than in
  the market.
 \end_layout
 
 \begin_layout Standard
-The evaluation is done in 3 steps: forecast all cash flows, estimate the
- opportunity cost, evauluation (DCF - NPV).
+The evaluation is done in 3 steps: 
+\series bold
+forecast
+\series default
+ all cash flows, 
+\series bold
+estimate
+\series default
+ the opportunity cost, 
+\series bold
+evauluation
+\series default
+ (DCF - NPV).
 \end_layout
 
 \begin_layout Subsection
@@ -915,7 +926,7 @@ Forecast
 \begin_layout Standard
 The forecast is done by estimating all relevant after-tax expected cash
  flows.
- It is important the the cash flows be 
+ It is important that the cash flows be 
 \series bold
 relevant
 \series default
@@ -923,7 +934,15 @@ relevant
 \series bold
 after-tax
 \series default
- (cash into pocket).
+ (
+\begin_inset Quotes eld
+\end_inset
+
+cash into pocket
+\begin_inset Quotes erd
+\end_inset
+
+).
  There is clearly an uncertainity issue, thus past observations are used
  as guesses for future performance (projections might be fed by marketing
  teams, focus groups, etc).
@@ -934,19 +953,31 @@ There are 10 important rules in estimating cash flow:
 \end_layout
 
 \begin_layout Enumerate
-Depreciation is not a cash flow, but it affects taxation.
+
+\series bold
+Depreciation
+\series default
+ is not a cash flow, but it affects taxation.
  The earnings have depreciation (that's how accounting works), and it needs
- to be taken into accounts.
+ to be taken into account.
 \end_layout
 
 \begin_layout Enumerate
-Capital investments can't be ignored (e.g fixed assets).
+
+\series bold
+Capital investments
+\series default
+ can't be ignored (e.g fixed assets).
 \end_layout
 
 \begin_layout Enumerate
-Investment in working capital (the amount needed in the firm to be able
- to generate future cash flow - e.g buying inventory, cash register; buffer
- for unexpected expenses) - only include changes in 
+
+\series bold
+Investment in working capital
+\series default
+ (the amount needed in the firm to be able to generate future cash flow
+ - e.g buying inventory, cash register; buffer for unexpected expenses) -
+ only include changes in 
 \series bold
 operating
 \series default
@@ -954,8 +985,15 @@ operating
 \end_layout
 
 \begin_layout Enumerate
-Separate investment & financing decisions - evaluate as if entirely equity
- financed.
+Separate 
+\series bold
+investment
+\series default
+ & 
+\series bold
+financing
+\series default
+ decisions - evaluate as if entirely equity financed.
  The total value of the assets of the project needs to be evaluated.
 \end_layout
 
@@ -970,15 +1008,19 @@ incremental
 \series bold
 Include
 \series default
- all extermalities (side-effects of the projects, which might not directly
- affect this projects, but may affect other projects - e.g sales increase/decreas
-e of another project of the firm) and consider the strategy of the competitors.
+ all externalities (side-effects of the projects, which might not directly
+ affect this project, but may affect other projects - e.g sales increase/decrease
+ of another project of the firm) and consider the strategy of the competitors.
 \end_layout
 
 \begin_layout Enumerate
-Opportunity costs cannot be ignored (assets that we rely on, and maybe didn't
- pay for - that might be used elsewhere).
- What other uses could there resources be put to? The cost of everything
+
+\series bold
+Opportunity costs
+\series default
+ cannot be ignored (assets that we rely on, and maybe didn't pay for - that
+ might be used elsewhere).
+ What other uses could these resources be put to? The cost of everything
  is a foregone opportunity of an alternative.
 \end_layout
 
@@ -1002,16 +1044,31 @@ Liquidation value
 \series bold
 Perpetual growth
 \series default
- - asseme cash flows grow at a constant rate.
+ - assume cash flows grow at a constant rate.
  The longer cash flow is estimated - the less error is expected.
 \end_layout
 
 \end_deeper
 \begin_layout Enumerate
-Inflation must be handled in a consistent manner (will be addressed later).
+
+\series bold
+Inflation
+\series default
+ must be handled in a 
+\series bold
+consistent
+\series default
+ manner (will be addressed later).
  Discount nominal/real cash flows with the corresponding cost of capital.
- A common mistake is to discount real cash flow with nominal discount rate
- (
+ A common mistake is to discount 
+\series bold
+real
+\series default
+ cash flow with 
+\series bold
+nominal
+\series default
+ discount rate (
 \begin_inset Formula $nominal\,rate\approx real\,rate+inflation$
 \end_inset
 
@@ -1019,17 +1076,25 @@ Inflation must be handled in a consistent manner (will be addressed later).
 \end_layout
 
 \begin_layout Enumerate
-Overhead costs.
+
+\series bold
+Overhead
+\series default
+ costs.
  Do we need to take them into account? - 
 \series bold
 It depends
 \series default
- on whether these costs are incremental (do we pay gurads more as a result
+ on whether these costs are incremental (do we pay guards more as a result
  of the project?).
 \end_layout
 
 \begin_layout Enumerate
-Include other relevant off-balance sheet items.
+Include other relevant 
+\series bold
+off-balance
+\series default
+ sheet items.
 \end_layout
 
 \begin_layout Standard
