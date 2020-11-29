@@ -100,7 +100,7 @@ Value Creation in Corporations
 The quesiton here is: what is the investment criteria? Where should we invest?
  Generally, the answer is; an investment shall be made, if the return of
  capital is higher than the cost of capital.
- This criteria is equivalent to investine in projects with a positive NPV.
+ This criteria is equivalent to investing in projects with a positive NPV.
 \end_layout
 
 \begin_layout Standard
@@ -398,7 +398,7 @@ Recalling the
 \begin_inset Formula $100\%$
 \end_inset
 
- apyout ratio the value of the equity is given by:
+ payout ratio the value of the equity is given by:
 \begin_inset Formula 
 \[
 p_{0}=\frac{E_{1}}{r}=120\$
@@ -655,14 +655,14 @@ relative
 \end_layout
 
 \begin_layout Standard
-It is important the both the numerator and the denominator should be 
+It is important that both the numerator and the denominator should be 
 \series bold
 to the same claimholders
 \series default
 .
  For example: the net income belongs to the equity holders, thus the price
  of the equity shall be evaluated, while earnings before interest&taxes
- belong salso to debt holders.
+ belong also to debt holders.
 \end_layout
 
 \begin_layout Standard
@@ -804,8 +804,8 @@ Advantages of the multiples method:
 \end_layout
 
 \begin_layout Itemize
-It is quick & convenient (don't demand deep understanding - there are even
- automatic platforms)
+It is quick & convenient (doesn't demand deep understanding - there are
+ even automatic platforms)
 \end_layout
 
 \begin_layout Itemize
@@ -840,7 +840,7 @@ Black box
 \end_layout
 
 \begin_layout Itemize
-Based on market prices: inefficient markets lead to wrong banchmarks
+Based on market prices: inefficient markets lead to wrong benchmarks
 \end_layout
 
 \begin_layout Itemize
