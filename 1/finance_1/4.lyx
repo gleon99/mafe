@@ -1,0 +1,397 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+\usepackage{indentfirst}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2.5cm
+\topmargin 2.5cm
+\rightmargin 2.5cm
+\bottommargin 2.5cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Finance1 - Lecture 4
+\end_layout
+
+\begin_layout Author
+Leonid Genkin
+\end_layout
+
+\begin_layout Standard
+In addition to reading WSJ, there is one more information source worth mentionin
+g.
+ By regulation, each publibly traded company is required to publish some
+ information which may be relevant to investors..
+ In the U.S it's EDGAR (SEC), in Israel it's the ISA.
+ One can get there by simply Googling.
+ 8-K - 
+\begin_inset Quotes eld
+\end_inset
+
+immediate release report
+\begin_inset Quotes erd
+\end_inset
+
+ of a new information (e.g 
+\begin_inset Quotes eld
+\end_inset
+
+A CEO was fired).
+ Need to by released 
+\series bold
+immediately
+\series default
+ (by law).
+\end_layout
+
+\begin_layout Standard
+In the final project - each one is going to get some publicly traded U.S
+ company and analyze it.
+ There will be questions on it (bonds, earning, valuation).
+\end_layout
+
+\begin_layout Section
+Valuation - Continued
+\end_layout
+
+\begin_layout Standard
+In order to decide whether to invest in a project, an NPV calculation must
+ be performed.
+ It is easy when the numbers (cash flows) are known, but sometimes that
+ is not the case - then an income statement has to be done.
+\end_layout
+
+\begin_layout Subsection
+Valuation - Exercise
+\end_layout
+
+\begin_layout Standard
+(Excel exercise - Project Valuation)
+\end_layout
+
+\begin_layout Standard
+An important remark regarding 
+\series bold
+inflation
+\series default
+: In 99% of the cases, we deal with 
+\series bold
+nominal
+\series default
+ numbers.
+ Today the inflation is anyway very low.
+ Actually, it doen't matter too much whether we make calculations with or
+ without inflation, as long as 
+\series bold
+it is consistent
+\series default
+ throughout the calculation.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Capital gain
+\series default
+ on the final sale occurs because the book value is 0 (by depreciation)
+ but the real value is positive.
+ It is calculated by the diference between the base (book value) and the
+ price actually paid.
+\end_layout
+
+\begin_layout Subsection
+Top-Down approach
+\end_layout
+
+\begin_layout Standard
+The technique showed in the above exercise represents a 
+\begin_inset Quotes eld
+\end_inset
+
+bottom-up
+\begin_inset Quotes erd
+\end_inset
+
+ approach - starting from the net income, and working our way to get to
+ the cash flows.
+\end_layout
+
+\begin_layout Standard
+An alternative approach is calculating 
+\begin_inset Quotes eld
+\end_inset
+
+top-down
+\begin_inset Quotes erd
+\end_inset
+
+: start with the operating cash flows and add only the relevant cash items.
+ Both approaches are equivalent, but the latter one is more useful when
+ there is a need to consider only a single relevant change and its impact
+ on the FCF.
+\end_layout
+
+\begin_layout Standard
+For example, in the bottom-up approach we wrote:
+\begin_inset Formula 
+\[
+CF=NI+Dep\,\,(+other...)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Which can be rewritten as:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+CF=(Sales-Costs-Dep)\times(1-T)+Dep
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Or:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+CF=Sales\times(1-T)-Costs\times(1-T)+Dep\times T
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+This equation is a top-down form, which allows 
+\series bold
+separation
+\series default
+ and 
+\series bold
+isolation 
+\series default
+of items.The cash flows are after-tax revenues, minus after-tax costs, plus
+ the 
+\series bold
+tax shield
+\series default
+.
+ The last item is called 
+\begin_inset Quotes eld
+\end_inset
+
+Depreciation tax shield
+\begin_inset Quotes erd
+\end_inset
+
+ (if there is going to be a depreciation - is net effect is less taxes).
+\end_layout
+
+\begin_layout Standard
+(Excel exercise - 
+\begin_inset Quotes eld
+\end_inset
+
+Buy vs.
+ Make
+\begin_inset Quotes erd
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Section
+Treasury Bonds and Treasury Bills
+\end_layout
+
+\begin_layout Standard
+The US government issues bonds to finance its national debt.
+ There are 4 types of securities: bills, notes, bonds and inflation-protected
+ securities.
+\end_layout
+
+\begin_layout Subsection
+Treasury Bills
+\end_layout
+
+\begin_layout Standard
+Obligations to pay a particular amount (par) at the maturity date - which
+ comes in a one year, ar less.
+ No interest is paid prior to the maturity date.
+ The bills are sold by a single-auction held weekly.
+ The price today is at a discount (compared to the par).
+ That discount is expressed in the yield, given by:
+\begin_inset Formula 
+\[
+yield=\frac{value-price}{value}\times\frac{360}{days\,till\,maturity}\times100\%
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Buying bonds from the government is the 
+\series bold
+primary market
+\series default
+, and buying from other people is 
+\series bold
+secondary
+\series default
+ 
+\series bold
+market
+\series default
+.
+\end_layout
+
+\begin_layout Standard
+In WSJ the prices for available bonds can be seen in a table.
+ 
+\series bold
+Asked price
+\series default
+ - at what price the investors would be willing to sell.
+ 
+\series bold
+Bid price
+\series default
+ - if I have bonda and what to sell them, what price would I get (likely
+ lower).
+ The difference have many reasons (some market makers are needed) and also
+ reflects the risks associated with uncertainity and liquidity.
+ The yields seen there are extremely low, which corresponds to the COVID
+ crysis and the attempts of CBs to stimuate the economy by lowering the
+ interest rates.
+\end_layout
+
+\begin_layout Subsection
+Treasury Notes & Treasury Bonds
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Treasury
+\series default
+ 
+\series bold
+notes
+\series default
+ mature in 2-10 years and give a 
+\series bold
+coupon payment
+\series default
+ every six months, with a par value (denomonation) of 
+\begin_inset Formula $\$1,000$
+\end_inset
+
+.
+ On the secondary market, quoted at percentage of par.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Treasury bonds
+\series default
+ have the longest maturity (20-30 years), with a coupon payment every six
+ months as well.
+ Their rate is 
+\series bold
+annual
+\series default
+, and the coupon rate is half of it.
+\end_layout
+
+\end_body
+\end_document

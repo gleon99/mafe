@@ -1,0 +1,1025 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+\usepackage{indentfirst}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2.5cm
+\topmargin 2.5cm
+\rightmargin 2.5cm
+\bottommargin 2.5cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Econometrics 1 - Lecture 4
+\end_layout
+
+\begin_layout Author
+Leonid Genkin
+\end_layout
+
+\begin_layout Section
+Multiple regression analysis (MLR) - Continued
+\end_layout
+
+\begin_layout Subsection
+Accuracy of MLR Models
+\end_layout
+
+\begin_layout Standard
+In the previous lecture we discussed the accuracy of MLR models and properties
+ of 
+\begin_inset Formula $R^{2}$
+\end_inset
+
+.
+ The meaning of 
+\begin_inset Formula $R^{2}$
+\end_inset
+
+ is the correlation of 
+\begin_inset Formula $Y$
+\end_inset
+
+and 
+\begin_inset Formula $\hat{Y}$
+\end_inset
+
+, thus the name.
+ Relying too much on 
+\begin_inset Formula $R^{2}$
+\end_inset
+
+ can lead to nonsensical models (this is its downside).
+ In addition, a low 
+\begin_inset Formula $R^{2}$
+\end_inset
+
+ doesn't mean that the model is bad - it depends on the goal of the model.
+\end_layout
+
+\begin_layout Standard
+A low value of 
+\begin_inset Formula $R^{2}$
+\end_inset
+
+ might indicate that:
+\end_layout
+
+\begin_layout Itemize
+MLR doesn't comprise some factors which affect 
+\begin_inset Formula $Y$
+\end_inset
+
+ (unobserved / omitted factors), which does not necessarily indicate biasedness
+ of 
+\begin_inset Formula $\hat{\beta_{j}}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $Var(U)$
+\end_inset
+
+ is large, relative to 
+\begin_inset Formula $Var(Y)$
+\end_inset
+
+ i.e inherently there is a significant variation in the population of interest
+ - sometimes can be 
+\begin_inset Quotes eld
+\end_inset
+
+fixed
+\begin_inset Quotes erd
+\end_inset
+
+ by increasing the sample
+\end_layout
+
+\begin_layout Itemize
+It is hard to 
+\series bold
+predict individual
+\series default
+ outcomes using the MLR model.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Another issue with 
+\begin_inset Formula $R^{2}$
+\end_inset
+
+ is that it (almost) 
+\series bold
+never decreases
+\series default
+, when adding new variables to the model (i.e if a single variable explains
+ 10% of the variance, two variables will explain 
+\series bold
+at least
+\series default
+ 10%).
+ It makes 
+\begin_inset Formula $R^{2}$
+\end_inset
+
+ a poor tool to decide regarding the addition of variables to the model,
+ and leads to an alternative - an 
+\series bold
+adjusted
+\series default
+ 
+\begin_inset Formula $R^{2}$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+R_{a}^{2}=1-\frac{SSR.(n-p-1)}{SST/(n-1)}=1=\frac{n-1}{n-p-1}(1-R^{2})
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+As there is a penalty for adding new variables, 
+\begin_inset Formula $R_{a}^{2}$
+\end_inset
+
+ 
+\series bold
+can
+\series default
+ decrease when variables are added, thus it cannot be interpreted as the
+ proportion of total variation explaind by the 
+\begin_inset Quotes eld
+\end_inset
+
+regression line
+\begin_inset Quotes erd
+\end_inset
+
+.
+ For small number of observations and large number of independent variable,
+ the difference between 
+\begin_inset Formula $R^{2}$
+\end_inset
+
+ and 
+\begin_inset Formula $R_{a}^{2}$
+\end_inset
+
+ can be very significant.
+ More than that, for small 
+\begin_inset Formula $R^{2}$
+\end_inset
+
+ and small 
+\begin_inset Formula $n-p-1$
+\end_inset
+
+, 
+\begin_inset Formula $R_{a}^{2}$
+\end_inset
+
+ can even be negative (it would imply that a constant model is a better
+ explanation than the current set of variables).
+\end_layout
+
+\begin_layout Standard
+Unlike 
+\begin_inset Formula $R^{2}$
+\end_inset
+
+, 
+\begin_inset Formula $R_{a}^{2}$
+\end_inset
+
+ 
+\series bold
+can
+\series default
+ be used to compare accuracy of different MLR models - but it is important
+ to notice that it 
+\series bold
+cannot
+\series default
+ be used to compare models with different dependent variables - because
+ 
+\begin_inset Formula $R_{a}^{2}$
+\end_inset
+
+'s are base on estimates of squared correlations 
+\series bold
+as they appear in the model
+\series default
+.
+ They can only be used when the dependent variables are in the same functional
+ form.
+ A possible solution is to define 
+\begin_inset Quotes eld
+\end_inset
+
+pseudo
+\begin_inset Quotes erd
+\end_inset
+
+ 
+\begin_inset Formula $R^{2}$
+\end_inset
+
+'s with the fitted values of 
+\begin_inset Formula $Y$
+\end_inset
+
+ (in its simple form) - in order to compare 
+\begin_inset Quotes eld
+\end_inset
+
+apples to apples
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+When both the dependent variables and the p's are different, neither 
+\begin_inset Formula $R^{2}$
+\end_inset
+
+'s nor 
+\begin_inset Formula $R_{a}^{2}$
+\end_inset
+
+'s can be used.
+ A possible solution it to use pseudo-
+\begin_inset Formula $R^{2}$
+\end_inset
+
+'s, and using them find pseudo-
+\begin_inset Formula $R_{a}^{2}$
+\end_inset
+
+'s i.e:
+\begin_inset Formula 
+\[
+R_{a}^{2,p}=1-\frac{n-1}{n-p-1}(1-R^{2,p})
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In summary:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="3" columns="3">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Same dependent variable
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Different dependent variable
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Same p's
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $R^{2}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $R^{2,p}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Different p's
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $R_{a}^{2}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $R_{a}^{2,p}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+OLS estimators in MLR
+\end_layout
+
+\begin_layout Standard
+Recalling - the fitted data represent the 
+\series bold
+average
+\series default
+ (expected) values.
+ More specifically, using 
+\series bold
+population parameters
+\series default
+ which are 
+\series bold
+unknown
+\series default
+ constants
+\series bold
+ 
+\series default
+and 
+\series bold
+estimators
+\series default
+, we came up with 
+\series bold
+estimators
+\series default
+ - RVs with 
+\series bold
+own
+\series default
+ RVs.
+ Thus, different samples will produce different estimators.
+\end_layout
+
+\begin_layout Standard
+Yet, there are 
+\series bold
+desired finite sample
+\series default
+ properties of OLS estimators: 
+\series bold
+unbiasesness
+\series default
+ (i.e 
+\begin_inset Formula $E(\hat{\beta})-\beta)$
+\end_inset
+
+ and 
+\series bold
+efficiency 
+\series default
+(accuracy / smallest variance).
+ In other words, we want the estimators to deliver, on average, the true
+ value.
+\end_layout
+
+\begin_layout Subsubsection
+Unbiasedness
+\end_layout
+
+\begin_layout Standard
+In order for the estimators to be unbiased, the folloiwng assumptions have
+ to be satisfied:
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Linearity
+\series default
+: the model is linear in parameters
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Random
+\series default
+ sampling
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Feasibility
+\series default
+ of estimation
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Variation in samples
+\end_layout
+
+\begin_layout Itemize
+More observations than data points
+\end_layout
+
+\begin_layout Itemize
+Don't include perfectly collinear independent variables
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\series bold
+Zero
+\series default
+ conditional mean (
+\begin_inset Formula $E[U|X...]=0$
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Efficiency
+\end_layout
+
+\begin_layout Standard
+Efficiency implies another assumption: 
+\series bold
+homoskedasticity
+\series default
+: given 
+\series bold
+any
+\series default
+ values of the indeoendent variables, 
+\begin_inset Formula $U$
+\end_inset
+
+ has the 
+\series bold
+same variance
+\series default
+.
+ In simpler words, it means that the level (value) of the independent variable
+ doesn't affect the level of variance.
+\end_layout
+
+\begin_layout Subsection
+Deriving Variances of OLS Estimators
+\end_layout
+
+\begin_layout Standard
+Only 
+\begin_inset Formula $\hat{\beta_{j}},\,\,j=1,\ldots,,p$
+\end_inset
+
+ variances will be derived (
+\begin_inset Formula $\hat{\beta}_{0}$
+\end_inset
+
+ and 
+\begin_inset Formula $\hat{E}[Y|X_{1},\ldots,X_{p}]$
+\end_inset
+
+ and covariances - in matrix form).
+\end_layout
+
+\begin_layout Standard
+First, introduce an 
+\series bold
+alternative method
+\series default
+ for obtaining the estimators, then rewrite them as funcitons of the population
+ parameters, and finally use the new formulas to get the variance.
+\end_layout
+
+\begin_layout Standard
+Regress 
+\begin_inset Formula $X_{j}$
+\end_inset
+
+ on all other independent variables and obtain the resoduals fomr this MLR
+ model:
+\begin_inset Formula 
+\[
+X_{j}=\delta_{0}+\delta_{1}X_{1}+\cdots+\delta_{p-1}X_{p-1}+V_{j}\Rightarrow\hat{V_{j}}=X_{j}-\hat{\delta_{0}}-\hat{\delta_{1}}X_{1}-\ldots-\hat{\delta_{p-1}}X_{p-1}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+i.e in the first step we obtain the 
+\series bold
+residual
+\series default
+, where one of the 
+\series bold
+independent
+\series default
+ variable is treated as a 
+\series bold
+dependent
+\series default
+ on all other variables.
+\end_layout
+
+\begin_layout Standard
+Regressing 
+\begin_inset Formula $Y$
+\end_inset
+
+ on the residuals from this model:
+\begin_inset Formula 
+\[
+Y=\gamma_{0}+\beta_{k}\hat{V}_{j}+U_{j}\Rightarrow\hat{\beta}_{j}=\frac{\hat{Cov}(\hat{V_{j}},Y)}{\hat{Var}(\hat{V}_{j})}=\frac{\sum_{i=1}^{n}\hat{V}_{i,j}Y_{i}}{\sum_{i=1}^{n}\hat{V_{i,j}}}=\frac{\sum_{i=1}^{n}(\hat{V}_{i,j}-\bar{\hat{V}_{j}})(Y_{i}-\bar{Y})\frac{1}{n-1}}{\sum_{i=1}^{n}(\hat{V_{i,j}}-\bar{\hat{V}_{j}})\frac{1}{n-1}}=
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\frac{\sum_{i=1}^{n}\hat{V}_{i,j}Y_{i}-\sum_{i=1}^{n}\hat{V_{i,j}}M-\bar{Y}}{\sum_{i=1}^{n}\hat{V}_{i,j}^{2}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Another way to think of regression is - that by 
+\begin_inset Quotes eld
+\end_inset
+
+controlling
+\begin_inset Quotes erd
+\end_inset
+
+ the indeoendent variables, we 
+\begin_inset Quotes eld
+\end_inset
+
+partial out
+\begin_inset Quotes erd
+\end_inset
+
+ the residual.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\hat{\beta j}$
+\end_inset
+
+'s can be written as:
+\begin_inset Formula 
+\[
+\hat{\beta_{j}}=\frac{\sum_{i=1}^{n}\hat{V}_{i,j}Y_{i}}{\sum_{i=1}^{n}\hat{V_{i,j}}}=\frac{\sum_{i=1}^{n}\hat{V_{i,j}(\beta_{0}+\beta_{1}X_{i,1}+\cdots+\beta_{j}X_{i,j}+\cdots+\beta_{p}X_{i,p}U_{i})}}{\sum_{i=1}^{n}\hat{V_{i,j}}^{2}}=
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+=\frac{\beta_{0}\sum_{i=1}^{n}\hat{V_{i,j}}+\beta_{1}\sum_{i=1}^{n}\hat{V_{i,j}}X_{i,1}+\cdots+\beta_{j}\sum_{i=1}^{n}\hat{V_{i,j}}X_{i,j}+\cdots+\beta_{p}\sum_{i=1}^{n}\hat{V_{i,j}}X_{i,p}+\sum_{i=1}^{n}\hat{V_{i,j}}U_{i}}{\sum_{i=1}^{n}\hat{V}_{i,j}^{2}}=\beta_{j}+\frac{\sum_{i=1}^{n}\hat{V}_{i,j}U_{i}}{\sum_{i=1}^{n}\hat{V_{i,j}^{2}}}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+X_{i,j}=\hat{\delta_{0}}+\hat{\delta_{1}}X_{i,j}+\cdots+\hat{\delta_{p-1}}X_{i,p-1}+\hat{V_{i,j}}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\hat{V_{i,j}}X_{i,j}=\hat{V_{i,j}}(\hat{\delta_{0}}+\hat{\delta_{1}}X_{i,1}+\cdots+\hat{\delta_{p-1}}X_{i,p-1}+\hat{V}_{i,j})
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+We can see that 
+\begin_inset Formula $\hat{\beta_{j}}$
+\end_inset
+
+ is the actual 
+\begin_inset Formula $\beta_{j}$
+\end_inset
+
+, with the sum of the residuals.
+ Conditional on 
+\begin_inset Formula $\hat{V_{j}}s$
+\end_inset
+
+ values, the randomness in 
+\begin_inset Formula $\hat{\beta_{j}}$
+\end_inset
+
+'s is due to 
+\series bold
+errors
+\series default
+ in the sample (which are generally different from 0).
+\begin_inset Formula 
+\[
+\hat{\beta_{0}}=\bar{Y}-\hat{\beta_{1}}\bar{X_{1}}-\cdots-\hat{\beta_{p}}\bar{X}_{p}=\beta_{0}+\beta_{1}\bar{X_{1}}+\cdots+\beta_{p}\bar{X_{p}}+\bar{U}-\hat{\beta_{1}}\bar{X_{1}}-\cdots-\hat{\beta_{p}}\bar{X_{p}}=
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+=\beta_{0}+(\beta_{1}-\hat{\beta_{1}})\bar{X_{1}}+\cdots+(\beta_{p}-\hat{\beta_{p}})X_{p}+\bar{U}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Recalling that 
+\begin_inset Formula 
+\[
+\hat{\beta_{j}}=\beta_{j}+\frac{\sum_{i=1}^{n}\hat{V_{i,j}}U_{i}}{\sum_{i=1}^{n}\hat{V_{i,j}^{2}}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Let 
+\begin_inset Formula $X=\{X_{1,1},\cdots,X_{1,p};\cdots;X_{n,1}\cdots,X_{n,p}\}$
+\end_inset
+
+ be the sample outcomes on all the independent variables.
+ Then:
+\begin_inset Formula 
+\[
+Var(\hat{\beta_{j}}|X)=Var\left(\beta_{j}+\frac{\sum_{i=1}^{n}\hat{V_{i,j}}U_{i}|X}{\sum_{i=1}^{n}\hat{V_{i,j}^{2}}}\right)=\left(\frac{1}{\sum_{i=1}^{n}}\right)^{2}\cdot Var(\sum_{i=1}^{n}\hat{V_{i,j}}U_{i}|X)=
+\]
+
+\end_inset
+
+ 
+\begin_inset Formula 
+\[
+=\left(\frac{1}{\sum_{i=1}^{n}\hat{V_{i,j}^{2}}}\right)^{2}\cdot\sum_{i=1}^{n}\hat{V_{i,j}^{2}}\cdot Var(U_{i}|X)=\frac{Var(U_{i}|X)}{\sum_{i=1}^{n}\hat{V_{i,j}^{2}}}=\frac{\sigma^{2}U}{\sum_{i=1}^{n}\hat{V_{i,j}^{2}}}=
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\frac{\sigma^{2}U}{SSR(X_{j})}=\frac{\sigma^{2}U}{SST(X_{j})(1-R_{X_{j}}^{2})}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\sum_{i=1}^{n}\hat{V_{i,j}^{2}}=SSR(X_{j})\,from\,regressing\,X_{j}\,on\,X_{_{-j}}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+R_{X_{j}}^{2}=1-\frac{SSR(X_{j})}{SST(X_{j})}\,where\,SST(X_{j})=\sum_{i=n}^{n}(X_{i,j}-\bar{X_{j}})^{2}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+We can conclude that the more the independent variables are orthogonal,
+ the better will the result be.
+\end_layout
+
+\begin_layout Standard
+Variances of 
+\begin_inset Formula $\hat{\beta_{j}}$
+\end_inset
+
+'s are functions of the varianve of errors 
+\begin_inset Formula $U$
+\end_inset
+
+ (which are, unfortunately, unobservable).
+ What can be observed is only the 
+\series bold
+estimates
+\series default
+ of 
+\begin_inset Formula $\hat{U_{i}}$
+\end_inset
+
+'s (OLS residuals).
+\end_layout
+
+\begin_layout Standard
+To get an 
+\series bold
+unbiased
+\series default
+ estimator, a 
+\series bold
+degrees-of-freedom adjustment
+\series default
+ must be made:
+\begin_inset Formula 
+\[
+\hat{\sigma_{U}^{2}}=\hat{Var}(U)=\hat{E}(U^{2})=\frac{\sum_{i=1}^{n}\hat{u_{i}^{2}}}{n-p-1}=\frac{SSR}{n-p-1}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+(We 
+\series bold
+scale
+\series default
+ by 
+\begin_inset Formula $n-p-1$
+\end_inset
+
+ and not by 
+\begin_inset Formula $n$
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Biased
+\series default
+ but consistent estimator:
+\begin_inset Formula 
+\[
+\hat{\sigma_{U}}=\sqrt{\hat{Var}(U)}=\sqrt{\hat{E}(U^{2})}=\sqrt{\frac{\sum_{i=1}^{n}\hat{u_{i}}^{2}}{n-p-1}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Under the above assumptions (1-5) we can tell that the variance of the estimator
+ is given by:
+\begin_inset Formula 
+\[
+\hat{Var}(\hat{\beta_{j}}|X)=\frac{\hat{\sigma_{U}^{2}}}{SST(X_{j})(1-R_{X_{j}}^{2})}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+And the standard error:
+\begin_inset Formula 
+\[
+SE(\hat{\beta_{j}}|X)=\frac{\hat{\sigma_{U}^{2}}}{\sqrt{SST(X_{j}})(1-R_{X_{J}}^{2})}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+VIF_{j}=\frac{1}{(1-R_{X_{j}}^{2})}
+\]
+
+\end_inset
+
+Generally, if 
+\begin_inset Formula $VIF>10$
+\end_inset
+
+ - 
+\begin_inset Quotes eld
+\end_inset
+
+drop the variable
+\begin_inset Quotes erd
+\end_inset
+
+, as it probably just causes mess.
+ When 
+\begin_inset Formula $5\leq VIF\leq10$
+\end_inset
+
+ - it is OK and can be used.
+ If 
+\begin_inset Formula $VIF<5$
+\end_inset
+
+, it is a 
+\series bold
+good
+\series default
+ variable.
+ All that means the variable itself, not the log variable.
+\end_layout
+
+\end_body
+\end_document
