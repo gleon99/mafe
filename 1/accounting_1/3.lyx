@@ -1,0 +1,377 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+\usepackage{indentfirst}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2.5cm
+\topmargin 2.5cm
+\rightmargin 2.5cm
+\bottommargin 2.5cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Financial Accounting 1 - Lecture 3
+\end_layout
+
+\begin_layout Author
+Leonid Genkin
+\end_layout
+
+\begin_layout Section
+Financial Statemets - Continued
+\end_layout
+
+\begin_layout Standard
+Can there be a business scenario, when a company has losses and pays dividends,
+ and it is legal & ethical? Directors would need to consider, whether this
+ loss means future losses as well.
+ Probably they will stop dividends to protect debt holders.
+\end_layout
+
+\begin_layout Standard
+Example: IDB (paid dividends, didn't ensure there would be enough money
+ to pay debt holders).
+ The directors who approved that dividend were from families who enjoyed
+ the dividend coming to them, which lead to a lawsuit.
+ As a result, some of the dividend were settled and paid back immediately.
+\end_layout
+
+\begin_layout Standard
+When considering dividends payment, the board of directors shall consider
+ all stakeholders and the future ability of the firm to pay its debts.
+\end_layout
+
+\begin_layout Standard
+Home Exercise - to be completed for next time.
+\end_layout
+
+\begin_layout Section
+Example: The ABC Company
+\end_layout
+
+\begin_layout Standard
+On May 1st the firm has $0 in cash.
+ How can it find funds for the next month? Shareholders / bank loan? Should
+ a bank give them a loan? The concern about the company is that it might
+ not be able to pay that loan, without taking yet another loan (it only
+ carse about growth, not cash).
+\end_layout
+
+\begin_layout Standard
+Analyzing the balance of the firm in different months, we can see that it
+ leads to producing increasing amounts of widgets (in order to accomodate
+ future transactions), even before the actual sales.
+\end_layout
+
+\begin_layout Standard
+The balance sheet 
+\series bold
+must 
+\series default
+be balanced - everything that is not a liability 
+\series bold
+is an asset
+\series default
+.
+ The equity increases between January and February, because of 
+\series bold
+net income
+\series default
+.
+\end_layout
+
+\begin_layout Standard
+It is important to distinguish expenses from payments.
+ Only the actual amount 
+\series bold
+used
+\series default
+ has to be accounted in expenses, the remaining can be in inventory.
+ That is the main point of this example: we are matching revenues with examples.
+ We show in the income statement the resources 
+\series bold
+used
+\series default
+ and not what was 
+\series bold
+paid for
+\series default
+.
+\end_layout
+
+\begin_layout Standard
+The name of the expense is cost of goods 
+\series bold
+sold
+\series default
+ (not 
+\begin_inset Quotes eld
+\end_inset
+
+manufactured
+\begin_inset Quotes erd
+\end_inset
+
+).
+ For every sold widget, a $1 revenue is recorded and $0.75 expense.
+ It doesn't matter, whether the payment comes in the present or in the future
+ - the cost for generating the $1 income is at the present (accrual accounting).
+\end_layout
+
+\begin_layout Standard
+Consider an example: one bought huge amounts of toilet paper at the beginning
+ of the COVID pandemic.
+ Is that an asset? - 
+\series bold
+Yes
+\series default
+.
+\end_layout
+
+\begin_layout Standard
+It is very important to distinguish equity and cash, which are two different
+ things.
+ A change in equity can occur because of net income, issue of stock or dividend
+ payment.
+\end_layout
+
+\begin_layout Standard
+After preparing the statments of the firm, we can clearly see 
+\series bold
+competing
+\series default
+ measures (decreasing cash, increasing profitability).
+ According to the trend of the cash needs of the company, it is 3 months
+ from becoming cash positive and 
+\series bold
+bringing
+\series default
+ cash, thus it will probably be able to pay the loan.
+\end_layout
+
+\begin_layout Standard
+Based on accrual accounting, 
+\series bold
+profitability is more appropriate measure
+\series default
+.
+\end_layout
+
+\begin_layout Standard
+As sales increase by a constant amount, it gradually becomes smaller percentage.
+\end_layout
+
+\begin_layout Standard
+What policies can (shall) be changed by the firm? Holding a single month
+ an inventory is a reasonable policy.
+ The firm can try to change the price and see the effect on the demand.
+ How can the firm arrange for earlier cash inflows? - Offer a cash discount
+ (still provide credit to customers, otherwise they might go to competitors).
+ In addition to that, in the long-run we would expect a decrease in the
+ manufcaturing cost per unit (economies of scale).
+\end_layout
+
+\begin_layout Section
+Income Measurement
+\end_layout
+
+\begin_layout Standard
+Spending cash today does not make it an expense.
+ The correct question to ask is: would that spending allow generating revenues
+ 
+\series bold
+today
+\series default
+, or 
+\series bold
+in the next period
+\series default
+? Only in the first case it should be considered as expense (revenue recognition
+ & matching).
+ Manufactured goods which were not sold are 
+\series bold
+inventory
+\series default
+ (an asset).
+ Recall from above - 
+\series bold
+spending
+\series default
+ money on toilet paper is not an expense, only consumption is.
+\end_layout
+
+\begin_layout Section
+Mechanics of Accounting
+\end_layout
+
+\begin_layout Subsection
+Accrual vs.
+ Cash Basis
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Cash-based
+\series default
+ accounting records cash transactions and uses them as performance indications.
+ Revenues / expenses are recorded when cash is received / paid.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Accrual accounting
+\series default
+ is more correct way - recording revenues when 
+\series bold
+earned
+\series default
+ and expenses when 
+\series bold
+incurred
+\series default
+.
+
+\series bold
+ 
+\series default
+In practice, all publibly traded companies use this method to reflect their
+ performance.
+\end_layout
+
+\begin_layout Subsection
+Accrual Accounting
+\end_layout
+
+\begin_layout Standard
+The first step in the process is analyzing transactions.
+ Previously we seen the various components of the financial statements -
+ now it will be shown how they change as a result of transactions.
+\end_layout
+
+\begin_layout Standard
+Shareholders' equity consists of 
+\series bold
+contributed capital
+\series default
+ +
+\series bold
+ retained earnings
+\series default
+.
+ Retained earnings change as result of 
+\series bold
+net income
+\series default
+ (
+\series bold
+revenues
+\series default
+ minus 
+\series bold
+expenses
+\series default
+) and 
+\series bold
+dividenvs
+\series default
+.
+\end_layout
+
+\begin_layout Standard
+The goal is to go over different transactions and reflect their effect on
+ the company financial statements.
+\end_layout
+
+\begin_layout Standard
+Double entry bookkeeping: balance needs always to be kept and every transaction
+ must change 2 items (on both sides of the balance).
+\end_layout
+
+\begin_layout Standard
+(Class exercise - spreadsheet).
+\end_layout
+
+\begin_layout Standard
+For next lecture - review these notes, ABC company and read materials from
+ the email.
+\end_layout
+
+\end_body
+\end_document

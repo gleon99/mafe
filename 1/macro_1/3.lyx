@@ -213,7 +213,7 @@ The balance of payments - in terms of the goreign good.
 
 \begin_layout Standard
 Excess exports are net financial outflows + change in centeral bank reserves.
- Initially assuming there is not CB intervention - current account equals
+ Initially assuming there is no CB intervention - current account equals
  excess exports, which equals net financial outflows.
 \end_layout
 
@@ -360,7 +360,7 @@ r^{*}+\frac{\hat{\epsilon}}{\epsilon}-1
 \end_inset
 
 ).
- The decision on which bond to invest in is based on comparint 
+ The decision on which bond to invest in is based on comparing 
 \begin_inset Formula $r$
 \end_inset
 
@@ -396,7 +396,11 @@ There is an
 \begin_inset Quotes eld
 \end_inset
 
-expectataion| of a particular 
+expectataion
+\begin_inset Quotes erd
+\end_inset
+
+ of a particular 
 \begin_inset Formula $\hat{\epsilon}$
 \end_inset
 
@@ -437,15 +441,16 @@ F\left(\begin{array}{c}
 \end_layout
 
 \begin_layout Standard
-It represents the willingness of people to buy foreign bonds (relative d
+It represents the willingness of people to buy foreign bonds (relative to
+ the domestic bonds).
 \end_layout
 
 \begin_layout Standard
 As 
-\begin_inset Formula $\epsilon$
+\begin_inset Formula $\hat{\epsilon}$
 \end_inset
 
- increases, there is larger capital gain, and more demand for fporeign bonds.
+ increases, there is larger capital gain, and more demand for foreign bonds.
  The location of the 
 \begin_inset Formula $F$
 \end_inset
@@ -506,7 +511,10 @@ CA\left(\begin{array}{c}
 \end{array},\begin{array}{c}
 X^{ex}\\
 (+)
-\end{array},X^{im}\right)=F\left(\begin{array}{c}
+\end{array},\begin{array}{c}
+X^{im}\\
+(-)
+\end{array}\right)=F\left(\begin{array}{c}
 \epsilon\\
 (-)
 \end{array},\begin{array}{c}
@@ -663,7 +671,7 @@ Purchases of foreign bonds (
 \begin_inset Formula $B^{*})$
 \end_inset
 
-by the CB are denoted 
+ by the CB are denoted 
 \begin_inset Formula $\Delta R$
 \end_inset
 

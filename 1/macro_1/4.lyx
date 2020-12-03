@@ -1,0 +1,1018 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+\usepackage{indentfirst}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2.5cm
+\topmargin 2.5cm
+\rightmargin 2.5cm
+\bottommargin 2.5cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Macroeconomics 1 - Lecture 4
+\end_layout
+
+\begin_layout Author
+Leonid Genkin
+\end_layout
+
+\begin_layout Section
+Homework 3 Solution
+\end_layout
+
+\begin_layout Subsection
+Question 1
+\end_layout
+
+\begin_layout Standard
+First we'll analyze the case when this increase is 
+\series bold
+temporary
+\series default
+, as it is a simpler case.
+ The new exports shift the 
+\begin_inset Formula $CA$
+\end_inset
+
+ curvse to the right, by 
+\begin_inset Formula $X^{ex}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Invidivuals in the economy receive payments for the export (in foreign bonds).
+ The movement of 
+\begin_inset Formula $\epsilon$
+\end_inset
+
+ downwards increases the return on foreign bonds (as there is expectation
+ that it will increase back).
+ The final result is:
+\begin_inset Formula 
+\[
+\epsilon\downarrow,\,IM\uparrow,\,EX^{a}\downarrow,\,CA\uparrow,\,F\uparrow
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Imports increase because they 
+\begin_inset Quotes eld
+\end_inset
+
+become cheaper
+\begin_inset Quotes erd
+\end_inset
+
+.
+ Other exports decrease because of the lower exchange rate.
+\end_layout
+
+\begin_layout Standard
+In case the change is 
+\series bold
+permanent
+\series default
+ - now financial investors know that, and expect the real exchange rate
+ to go down permanently.
+ Thus, the 
+\begin_inset Formula $F$
+\end_inset
+
+ curve shifts to the left.
+ Why? - Investors know that the return on the foreign bonds goes down, thus
+ they reduce the demand, which increases the demand for domestic bonds.
+ 
+\begin_inset Formula $CA$
+\end_inset
+
+ anf 
+\begin_inset Formula $F$
+\end_inset
+
+ don't change, 
+\begin_inset Formula $\epsilon\downarrow,\,EX^{a}\downarrow$
+\end_inset
+
+ even more.
+ 
+\begin_inset Formula $IM\uparrow$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection
+Question 2
+\end_layout
+
+\begin_layout Standard
+There are 2 possible answers:
+\end_layout
+
+\begin_layout Enumerate
+As the change is temporary, households desire to save most of it (in foreign
+ bonds), which shifts the 
+\begin_inset Formula $F$
+\end_inset
+
+ curve to the right.
+\end_layout
+
+\begin_layout Enumerate
+Another possible effect is increase in demand for imports, which shifts
+ the 
+\begin_inset Formula $CA$
+\end_inset
+
+ curve to the left.
+\end_layout
+
+\begin_layout Subsection
+Question 3
+\end_layout
+
+\begin_layout Enumerate
+A permanent increase in income doesn't affect saving - no change in model.
+\end_layout
+
+\begin_layout Enumerate
+Imports demand increase (higher income) - 
+\begin_inset Formula $\epsilon\uparrow,\,EX\uparrow,\,IM\downarrow$
+\end_inset
+
+.
+ 
+\begin_inset Formula $CA$
+\end_inset
+
+ and 
+\begin_inset Formula $F$
+\end_inset
+
+ doesn't change.
+\end_layout
+
+\begin_layout Section
+Economic Activity, Inflation and Monetary Policy in a Closed Economy
+\end_layout
+
+\begin_layout Standard
+As we're discussing a closed economy - which represents a simple model,
+ we do not consider exhange rate at the moment, dealing wiht only 3 variables.
+\end_layout
+
+\begin_layout Standard
+The model is based on the new Keynesian model - prices are assumed to be
+ somewhat 
+\series bold
+sluggish
+\series default
+.
+ The CB determintes the interest rate, to generate stability.
+\end_layout
+
+\begin_layout Standard
+The model includes: 
+\series bold
+households
+\series default
+ (consumption / savings decision), 
+\series bold
+firms
+\series default
+ (price adjustment, supply side) and 
+\series bold
+central bank
+\series default
+ (determines the interest rate.
+\end_layout
+
+\begin_layout Standard
+The model considers 3 variables, 3 shocks and 3 equations: The Euler equation
+ (from consumption discussion), the Phillips equaiton (monopolistic competition
+ with price changes) and the Taylor rule equation (empirical description
+ of the central bank interest rate decision logic).
+\end_layout
+
+\begin_layout Standard
+In an equilibrium, output equals consumption.
+ Responses of the variables will be analyzed intuitively, graphically and
+ algebraically.
+\end_layout
+
+\begin_layout Subsection
+Households
+\end_layout
+
+\begin_layout Standard
+The supply decision is not important - it is always possible to hire workers.
+ We use the utility function:
+\begin_inset Formula 
+\[
+U(C_{t},L_{t})=(1+z_{t})ln(C_{t})
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Uncertainity is introduced (
+\begin_inset Formula $E_{t}$
+\end_inset
+
+ - expected value of something in the future, taken at time 
+\begin_inset Formula $t$
+\end_inset
+
+).
+ 
+\begin_inset Formula $z_{t}$
+\end_inset
+
+ - purely temporary shock, thus:
+\begin_inset Formula 
+\[
+E_{t}(z_{t+1})=0
+\]
+
+\end_inset
+
+ 
+\begin_inset Quotes eld
+\end_inset
+
+If 
+\begin_inset Formula $z_{t}\neq0$
+\end_inset
+
+ at the moment, it gives no information regarding its value at 
+\begin_inset Formula $t+1$
+\end_inset
+
+
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+The Euler equation with uncertainity:
+\begin_inset Formula 
+\[
+\frac{1+z_{t}}{C_{t}}=\frac{1}{1+\rho}E_{t}\left[\frac{1+z_{t+1}}{C_{t+1}}(1+r_{t})\right]
+\]
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+The househould decides how much to consume, based on the 
+\series bold
+expectations
+\series default
+ of the future.
+ 
+\begin_inset Formula $r_{t}$
+\end_inset
+
+ in the future is unknown, thus it is inside the 
+\begin_inset Quotes eld
+\end_inset
+
+expectation
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Description
+\begin_inset Formula $I_{t}$
+\end_inset
+
+ Nominal interest rate between 
+\begin_inset Formula $t$
+\end_inset
+
+ and 
+\begin_inset Formula $t+1$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+\begin_inset Formula $\pi_{t+1}=ln\left(\frac{P_{t+1}}{P_{t}}\right)=ln(P_{t+1})-ln(P_{t})\approx\frac{P_{t+1}-P_{t}}{P_{t}}$
+\end_inset
+
+ Inflation rate between 
+\begin_inset Formula $t$
+\end_inset
+
+ and 
+\begin_inset Formula $t+1$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+The real interest rate is thus given by:
+\begin_inset Formula 
+\[
+1+r_{t}=E_{t}\left[\frac{1+I_{t}}{1+\pi_{t+1}}\right]
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Substituting in the Euler equation:
+\begin_inset Formula 
+\[
+\frac{1+z_{t}}{C_{t}}=\frac{1}{1+\rho}E_{t}\left[\left(\frac{1+z_{t+1}}{C_{t+1}}\right)\left(\frac{1+I_{t}}{1+\pi_{t+1}}\right)\right]
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+And using the approximation (linearization), which is usually done in the
+ new Keynseian literature:
+\begin_inset Formula 
+\[
+E_{t}\left[\frac{1}{C_{t+1}}\right]\approx\frac{1}{E_{t}C_{t+1}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Plugging in the Euler equation:
+\begin_inset Formula 
+\[
+\frac{1+z_{t}}{C_{t}}=\frac{1}{1+\rho}\left(\frac{1+z_{t+1}}{E_{t}C_{t+1}}\right)\left(\frac{1+I_{t}}{1+E_{t}\pi_{t+1}}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Taking 
+\begin_inset Formula $log$
+\end_inset
+
+ and using 
+\begin_inset Formula $ln$
+\end_inset
+
+ approximation for small values (see note [1]):
+\begin_inset Formula 
+\[
+ln(C_{t})=\rho+ln(E_{t}C_{t+1})-(I_{t}-E_{t}\pi_{t+1})+z_{t}^{2}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Expressing the equation in this form give better insight on the relation
+ between the consumption and the independent variables.
+ In steady state (
+\begin_inset Formula $\pi=0$
+\end_inset
+
+) - 
+\begin_inset Quotes eld
+\end_inset
+
+nothing happens, and nothing will ever happen
+\begin_inset Quotes erd
+\end_inset
+
+, this equation becomes:
+\begin_inset Formula 
+\[
+ln(C)=\rho+ln(C)-I
+\]
+
+\end_inset
+
+which means 
+\begin_inset Formula $I=r=\rho$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Defining 
+\begin_inset Formula $c_{t}$
+\end_inset
+
+ and 
+\begin_inset Formula $i_{t}$
+\end_inset
+
+ for 
+\begin_inset Formula $\%$
+\end_inset
+
+ points deviations and subtracting the equation for 
+\begin_inset Formula $ln(C)$
+\end_inset
+
+ from the equation for 
+\begin_inset Formula $ln(C_{t})$
+\end_inset
+
+ we get:
+\begin_inset Formula 
+\[
+c_{t}=E_{t}c_{t+1}-(i_{t}-E_{t}\pi_{t+1})+z_{t}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The above equation is basically the Euler equation, after 2 transformation:
+ taking 
+\begin_inset Formula $log$
+\end_inset
+
+, and using steady state values.
+ Why doing so, and moving to an equation with percentages? - Because it
+ can be applied to many economies (the size does not matter).
+\end_layout
+
+\begin_layout Subsection
+The Firm
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $C_{t}$
+\end_inset
+
+ is 
+\series bold
+total
+\series default
+ consumption, aggregated of goods 
+\begin_inset Formula $C_{jt}$
+\end_inset
+
+.
+ Each 
+\begin_inset Formula $j$
+\end_inset
+
+ represents a 
+\series bold
+monopolistic
+\series default
+ firm, producing a good with the price 
+\begin_inset Formula $P_{jt}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+According to the new Keynesian model - a firm 
+\series bold
+cannot
+\series default
+ change the price every period.
+ It supplies 
+\begin_inset Formula $X_{jt}$
+\end_inset
+
+ demanded at 
+\begin_inset Formula $P_{jt}$
+\end_inset
+
+, set previously.
+\end_layout
+
+\begin_layout Standard
+(If the prices could be always changed - the model would go away, as there
+ would have been price flexibility, instead of rigidity).
+\end_layout
+
+\begin_layout Standard
+Inflation is determined by the firms who 
+\series bold
+can
+\series default
+ change prices at 
+\begin_inset Formula $t$
+\end_inset
+
+:
+\begin_inset Formula 
+\[
+\pi_{t}=p_{t}-p_{t-1}=\frac{1}{1+\rho}E_{t}\pi_{t+1}+\kappa x_{t}+u_{t},\,\,\kappa>0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\kappa$
+\end_inset
+
+ gives the reaction of prices to demand changes (it reflects the degree
+ of price flexibility / slugishness).
+ 
+\begin_inset Formula $u_{t}$
+\end_inset
+
+ resembles a (negative) supplys shock - reducing supply.
+ The expected inflation is in the equation, becuase firms know that in the
+ future they might not be able to set prices.
+ This is the 
+\begin_inset Quotes eld
+\end_inset
+
+Phillips Curve
+\begin_inset Quotes erd
+\end_inset
+
+, which relates the inflation to output.
+\end_layout
+
+\begin_layout Subsection
+The Central Bank
+\end_layout
+
+\begin_layout Standard
+The central bank determines the interest rate (monetary policy).
+ It can mstly be desctibed by the 
+\begin_inset Quotes eld
+\end_inset
+
+Taylor Rule
+\begin_inset Quotes erd
+\end_inset
+
+:
+\begin_inset Formula 
+\[
+i_{t}=\phi_{\pi}\pi_{t}+\phi_{x}x_{t}+v_{t},\,\,\,\,\phi_{\pi}>1,\,\,\phi_{x}>0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The bank 
+\series bold
+increases 
+\series default
+the interest rate when the inflation 
+\series bold
+goes up
+\series default
+ and when there is high demand.
+ Taylor found that 
+\begin_inset Formula $\phi_{\pi}=1.5$
+\end_inset
+
+ and 
+\begin_inset Formula $\phi_{x}=0.5$
+\end_inset
+
+.
+ It is important that 
+\begin_inset Formula $\phi_{\pi}>1$
+\end_inset
+
+, because for the real rate to go up, interest rate must increase 
+\series bold
+more
+\series default
+ than inflation.
+\end_layout
+
+\begin_layout Standard
+Why increase the interest rate? Why not just let the economy grow indefinitely?
+ - To control growth rate and inflation (avoid sharp increases / declines)
+ and produce 
+\series bold
+stability
+\series default
+.
+\end_layout
+
+\begin_layout Subsection
+Equilibrium
+\end_layout
+
+\begin_layout Standard
+The output can only be used for consumption, thus 
+\begin_inset Formula $c_{t}=x_{t}$
+\end_inset
+
+.
+ Thus the equilibrium is:
+\begin_inset Formula 
+\[
+x_{t}=E_{t}x_{t+1}-(i_{t}-E_{t}\pi_{t+1})+z_{t}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\pi_{t}=\frac{1}{1+\rho}E_{t}\pi_{t+1}+\kappa x_{t}+u_{t}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+i_{t}=\phi_{\pi}\pi_{t}+\phi_{x}x_{t}+v_{t}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The first equation is also known as the 
+\begin_inset Quotes eld
+\end_inset
+
+IS-LM model
+\begin_inset Quotes erd
+\end_inset
+
+ equation.
+\end_layout
+
+\begin_layout Subsection
+Aggregate Demand-Supply
+\end_layout
+
+\begin_layout Standard
+Define 
+\begin_inset Formula $\hat{x_{t+1}}=E_{t}(x_{t+1})$
+\end_inset
+
+ and consider a graph with 
+\begin_inset Formula $p_{r}$
+\end_inset
+
+ and 
+\begin_inset Formula $x_{t}$
+\end_inset
+
+ axes.
+ The aggregate supply is the Phillips curve (upward sloping):
+\begin_inset Formula 
+\[
+p_{t}-p_{t-1}=\frac{1}{1+\rho}\hat{\pi_{t+1}}+\kappa x_{t}+u_{t}\Rightarrow=p_{t}=\frac{1}{1+\rho}\hat{\pi_{t+1}}+\kappa x_{t}+u_{t}+p_{t-1}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The demand is the Euler equation (vertical):
+\begin_inset Formula 
+\[
+x_{t}=\hat{x_{t+1}}-(i_{t}-\hat{\pi_{t+1}})+z_{t}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Consider a demand shock: it might lead to inflation (movement of the demand
+ curve to the right), by increasing the interest rate the shock is kept
+ under control.
+\end_layout
+
+\begin_layout Subsection
+Shock analysis - example
+\end_layout
+
+\begin_layout Standard
+Consider a steady state:
+\begin_inset Formula 
+\[
+\pi=x=i=z=u=v=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+By rational expectations, given 
+\begin_inset Formula $E_{t}(z_{t+1})=E_{t}(u_{t+1})=E_{t}(v_{t+1})=0$
+\end_inset
+
+, the shocks are expected to affect only in the current period:
+\begin_inset Formula 
+\[
+E_{t}(x_{t+1})=E_{t}(\pi_{t+1})=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $p$
+\end_inset
+
+ can be anything, thus we can assume 
+\begin_inset Formula $P_{t-1}=1\,p_{t-1}=0$
+\end_inset
+
+ (simplifies 
+\begin_inset Formula $log$
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Standard
+Substituting into the model equations yields:
+\begin_inset Formula 
+\[
+p_{t}=\kappa x_{t}+\frac{1}{1+\rho}\hat{\pi_{t+1}}+p_{t-1}+u_{t}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+x_{t}=\hat{x_{t+1}}-(i_{t}-\hat{\pi_{t+1}})+z_{t}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Using the Taylor rule we get:
+\begin_inset Formula 
+\[
+p_{t}=\kappa x_{t}+u_{t}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+x_{t}=-i_{t}+z_{t}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+i_{t}=\phi_{\pi}p_{t}+\phi_{x}x_{t}+v_{t}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+(3 equations in 3 unknowns - can be analytically solved).
+\end_layout
+
+\begin_layout Subsubsection
+Demand Shocks
+\end_layout
+
+\begin_layout Standard
+The equations are:
+\begin_inset Formula 
+\[
+p_{t}=\kappa x_{t}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+x_{t}=-i_{t}+z_{t}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+i_{t}=\phi_{\pi}p_{t}+\phi_{x}x_{t}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+(the demand curve shifts to the right, reaction by the CB).
+\end_layout
+
+\begin_layout Standard
+Now, substituting Taylor rule into the demand curve:
+\begin_inset Formula 
+\[
+x_{t}=-\phi_{\pi}p_{t}-\phi_{x}x_{t}+z_{t}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+p_{t}=-\frac{1+\phi_{x}}{\phi_{\pi}}x_{t}+\frac{1}{\phi_{\pi}}z_{t}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+By equating supply to demand:
+\begin_inset Formula 
+\[
+\kappa x_{t}=-\frac{1+\phi_{x}}{\phi_{\pi}}x_{t}+\frac{1}{\phi_{\pi}}z_{t}\Rightarrow x_{t}=\frac{1}{\kappa\phi_{\pi}+1+\phi_{x}}z_{t}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Solving for the price level:
+\begin_inset Formula 
+\[
+p_{t}=\frac{\kappa}{\kappa\phi_{\pi}+1+\phi_{x}}z_{t}
+\]
+
+\end_inset
+
+ Using Taylor rule, the central bank's reaction will be to increase the
+ interest rate:
+\begin_inset Formula 
+\[
+i_{t}=\frac{\kappa\phi_{\pi}+\phi_{x}}{\kappa\phi_{\pi}+\phi_{x}+1}z_{t}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+What should be the intervention of the central bank to fully cancel out
+ the shock? The stronger its intervention, the less deviation will be.
+ But in order for it to be 0, 
+\begin_inset Formula $\phi_{x}$
+\end_inset
+
+ has to reach infinitiy, thus some deviation will always be.
+\end_layout
+
+\begin_layout Standard
+The higher 
+\begin_inset Formula $\phi_{\pi}$
+\end_inset
+
+ and 
+\begin_inset Formula $\phi_{x}$
+\end_inset
+
+ - the higher will be the reaction of the central bank.
+\end_layout
+
+\end_body
+\end_document

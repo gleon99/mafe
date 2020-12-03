@@ -1,0 +1,838 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+\usepackage{indentfirst}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2.5cm
+\topmargin 2.5cm
+\rightmargin 2.5cm
+\bottommargin 2.5cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Microeconomics 1 - Lecture 4
+\end_layout
+
+\begin_layout Author
+Leonid Genkin
+\end_layout
+
+\begin_layout Section
+Consumer Theory: Comparative Statics / Sensitivity Analysis
+\end_layout
+
+\begin_layout Subsection
+Changes in Income
+\end_layout
+
+\begin_layout Standard
+When talking about how consumers (not consciously) solve the consumption
+ problem, we rely on the households attempting to maximize utility, and
+ usually convex utility functions.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+ICC
+\series default
+ is the income-consumption curve (in the consumption bundle space) - income
+ is not represented.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Engel
+\series default
+ curve is in the income-good (quantity) space - other goods are not represented
+ - focuses on a particular product.
+\end_layout
+
+\begin_layout Standard
+Another way to think of it - a 3-dimensional graph, with 2 goods being the
+ 
+\begin_inset Formula $X,Y$
+\end_inset
+
+ axes and the income being the 
+\begin_inset Formula $Z$
+\end_inset
+
+ axis.
+ Each point represents an affordable consumption bundle, given some level
+ of income.
+\end_layout
+
+\begin_layout Standard
+The ICC curve is the projection of that graph so that optimal bundles are
+ seen as a curve.
+ The Engel curve is another projection, that shows the relation between
+ income and one of the good.
+\end_layout
+
+\begin_layout Subsection
+ICC for CD Preferences
+\end_layout
+
+\begin_layout Standard
+The ICC curve is a ray from the origin.
+ Using a Cobb-Douglas utility function, the optimal spendings on 
+\begin_inset Formula $x$
+\end_inset
+
+ and 
+\begin_inset Formula $y$
+\end_inset
+
+ are given by 
+\begin_inset Formula $a\frac{1}{p_{x}}I$
+\end_inset
+
+ and 
+\begin_inset Formula $(1-a)\frac{1}{p_{y}}I$
+\end_inset
+
+ thus the slope is
+\begin_inset Formula 
+\[
+\frac{y}{x}=\frac{1-a}{a}=\frac{p_{x}}{p_{y}}
+\]
+
+\end_inset
+
+Perferences are 
+\series bold
+homothetic
+\series default
+ - slopes of the IC's are equal along each single ray.
+\end_layout
+
+\begin_layout Subsection
+Engel Curve
+\end_layout
+
+\begin_layout Standard
+Considering the optimal solution, this curve focuses on the demand of some
+ particular good and its change as income changes.
+\end_layout
+
+\begin_layout Subsection
+Income Elasticity
+\end_layout
+
+\begin_layout Standard
+The degree of responsiveness of the demand, as the result of change in income.
+ The partial derivatie 
+\begin_inset Formula $\frac{\partial x}{\partial I}$
+\end_inset
+
+ depends on the unit of measurement, thus isnot very meaningful (change
+ of the unit would affect it).
+ In order to clean it, we divide (normalize) it
+\begin_inset Formula 
+\[
+\eta_{xI}=\frac{\frac{\parallel x}{\partial I}}{\frac{x}{I}}=\frac{\frac{a}{p_{x}}}{\frac{a}{p_{x}}}=1
+\]
+
+\end_inset
+
+
+\begin_inset Formula $\eta_{xI}\equiv1$
+\end_inset
+
+ iff the demand for 
+\begin_inset Formula $x$
+\end_inset
+
+ is a linear function of income.
+\end_layout
+
+\begin_layout Standard
+A constant elasciticy example: when 
+\begin_inset Formula $z=aw^{c}$
+\end_inset
+
+:
+\begin_inset Formula 
+\[
+\eta_{z,w}=\frac{acw^{c-1}}{aw^{c-1}}=c
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Goods can be distinguished according to their elasticity:
+\end_layout
+
+\begin_layout Description
+\begin_inset Formula $\eta_{x,I}>0$
+\end_inset
+
+ A
+\series bold
+ normal
+\series default
+ good (the more income you have - the more of it you buy)
+\end_layout
+
+\begin_layout Description
+\begin_inset Formula $\eta_{x,I}=0$
+\end_inset
+
+
+\series bold
+ 
+\series default
+A 
+\series bold
+neutral
+\series default
+ good
+\end_layout
+
+\begin_layout Description
+\begin_inset Formula $\eta_{x,I}<0$
+\end_inset
+
+ An 
+\series bold
+inferior 
+\series default
+good.
+ The consumption decreases as the income increases, 
+\series bold
+in a certain range
+\series default
+.
+ Why 
+\begin_inset Quotes eld
+\end_inset
+
+in a certain range
+\begin_inset Quotes erd
+\end_inset
+
+ - there must be a solution for zero income and it can't be negative (the
+ consumption level has first to increase as the income increases, so that
+ it has where to decrease from).
+\end_layout
+
+\begin_layout Standard
+It is possible to further distinct goods with positive elasticity:
+\end_layout
+
+\begin_layout Description
+\begin_inset Formula $\eta_{x,I}>1$
+\end_inset
+
+ A 
+\series bold
+luxur
+\series default
+y good - not only that the consumption increases when income increases,
+ but the 
+\series bold
+portion of income
+\series default
+ which is devoted to thers goods 
+\series bold
+increases
+\end_layout
+
+\begin_layout Description
+\begin_inset Formula $\eta_{x,I}=1$
+\end_inset
+
+ A 
+\series bold
+proportional
+\series default
+ good - as income increases, 
+\series bold
+the same
+\series default
+ portion of income is used to consume it
+\end_layout
+
+\begin_layout Description
+\begin_inset Formula $\eta_{x,I}<1$
+\end_inset
+
+ An 
+\series bold
+essential
+\series default
+ good
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+For CD preference function, we found out that the elasticity equals 1 -
+ meaning that a 1% increase in income will result in 1% increase of expenditure
+ on a good.
+ That makes sense, as when ahving two goods with one of them having elasticity
+ of 1 - the other one must have this elasticity as well (can be shown algebrical
+ly).
+\end_layout
+
+\begin_layout Standard
+More generally - the 
+\series bold
+weighted avergage
+\series default
+ of the elasticities of the goods must always be 1 ( e.gall goods cannot
+ be luxury goods).
+\end_layout
+
+\begin_layout Section
+Consumer Theory: Changes in Price
+\end_layout
+
+\begin_layout Standard
+When the price of a good changes, the lines depicting the budget constraint
+ change (slope is changed, because axis intersection given by 
+\begin_inset Formula $I/p$
+\end_inset
+
+ moves to a new point).
+ Several graphs are used to explore this change:
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+PCC (Price Consumption Curve)
+\series default
+ - in the 
+\series bold
+bundles
+\series default
+ space (no representation of price).
+ A flat line (moving across various consumption bundles by changing a price
+ of one good, when the income and the other price are fixed).
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Demand curve
+\series default
+ - shows the 
+\series bold
+price-quantity 
+\series default
+relation (no representation of the other goods).
+ Defines the demand for the good at each given price, and allows to find
+ out the optimization point of price times quantitiy (revenue maximization
+ for a monopoly).
+ When elasticity is 1, the resulting plot line is a hyperbola.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Cross demand curve
+\end_layout
+
+\begin_layout Standard
+The the demand curve is generally downward sloping.
+ Consider a price increase: the budget line becomes 
+\series bold
+tighter
+\series default
+, and its slope changes (because the 
+\series bold
+price ratio
+\series default
+ has changed).
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Income
+\series default
+ and 
+\series bold
+substitution
+\series default
+ effects: when a price rises, the consumer 
+\begin_inset Quotes eld
+\end_inset
+
+becomes poorer
+\begin_inset Quotes erd
+\end_inset
+
+.
+ Consider an example: a price of 
+\begin_inset Formula $X$
+\end_inset
+
+ increases, but the consuemr gets extra money for having the same amount
+ of 
+\begin_inset Formula $X$
+\end_inset
+
+ he used to have.
+ He 
+\series bold
+would not
+\series default
+ do it, becuase the new budget constraint has another slope, leading to
+ a choice with lower amount of 
+\begin_inset Formula $X$
+\end_inset
+
+ (
+\series bold
+Slutsky
+\series default
+ compensation) - as he is now allowed to consume 
+\series bold
+other
+\series default
+ bundles (some of them give them 
+\series bold
+more utility
+\series default
+).
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Hicks
+\series default
+ compensation: bring the customer to the same 
+\series bold
+indifference curve
+\series default
+ i.e only give enough money to make him able to consume bundles that correspond
+ to the same utility he used to have, before the price raise.
+ Hicks compensation is more fair, but is much more complicated to implement
+ in practice (requires knowledge & calculations).
+\end_layout
+
+\begin_layout Standard
+The 
+\series bold
+substitition effect
+\series default
+ can never be positive: price increase won't make a consumer want to buy
+ more of it.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Income effect
+\series default
+: when a price increases, the result is the same as if the income decreased.
+ The income effect is negative / zero / positive, depends on whether the
+ good is normal / neutral / inferior.
+ 
+\end_layout
+
+\begin_layout Standard
+For a 
+\series bold
+normal
+\series default
+ good, the income and substitution effects are in the 
+\series bold
+same
+\series default
+ direction.
+ For 
+\series bold
+inferior
+\series default
+ goods, they act in 
+\series bold
+opposit
+\series default
+ directions.
+ The substitution effect was empirically shown to be usually stronger.
+ Giffen goods must not be confused with 
+\series bold
+uncertainity
+\series default
+ regarding quality, or with 
+\series bold
+conspicious consumption
+\series default
+.
+\end_layout
+
+\begin_layout Section
+Endowments
+\end_layout
+
+\begin_layout Standard
+There is no 
+\begin_inset Quotes eld
+\end_inset
+
+income
+\begin_inset Quotes erd
+\end_inset
+
+ in a general equilibrium, but only an 
+\series bold
+initial endowment
+\series default
+.
+\end_layout
+
+\begin_layout Standard
+Defining 
+\begin_inset Formula $\hat{x},\hat{y}$
+\end_inset
+
+ as initial endowments of good 1 and 2, the budget constraint can be rewritten:
+\begin_inset Formula 
+\[
+I=p_{x}x+p_{y}y=p_{x}\hat{x}+p_{y}\hat{y}\Rightarrow p_{x}(x-\hat{x})=p_{y}(\hat{y}-y)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Graphically, it means that we are given a particular point on the budget
+ constraint line.
+ In order to optimize, a consumer might pick another bundle 
+\begin_inset Formula $(x,y)$
+\end_inset
+
+ such that 
+\begin_inset Formula $x<\hat{x}$
+\end_inset
+
+ and 
+\begin_inset Formula $y>\hat{y}$
+\end_inset
+
+.
+ Would she then prefer to trade 
+\begin_inset Formula $x$
+\end_inset
+
+ for 
+\begin_inset Formula $y$
+\end_inset
+
+, or the opposite? 
+\series bold
+Depends
+\series default
+ on the 
+\series bold
+preferences
+\series default
+ (slope of the IC curve).
+ For any given budget it is possible to find preferences for both cases.
+\end_layout
+
+\begin_layout Standard
+Also, given preferences - 
+\series bold
+typically
+\series default
+ prices can be found for both options as well.
+\end_layout
+
+\begin_layout Subsection
+Example
+\end_layout
+
+\begin_layout Standard
+Define: 
+\begin_inset Formula $\hat{x}=10,\,\hat{y}=10,\,U(x,y)=2log(x)+log(y)$
+\end_inset
+
+ and the prices are 
+\begin_inset Formula $p_{x}=3,\,p_{y}=1$
+\end_inset
+
+ meaning 
+\begin_inset Formula $x$
+\end_inset
+
+ is (relatively) expensive.
+ Then:
+\begin_inset Formula 
+\[
+I=30+10=40\Rightarrow x=8.88,\,y=13.33
+\]
+
+\end_inset
+
+Supply extra units of 
+\begin_inset Formula $x$
+\end_inset
+
+ (
+\begin_inset Formula $10-8.88=1.11$
+\end_inset
+
+) and demand 
+\begin_inset Formula $y$
+\end_inset
+
+ (
+\begin_inset Formula $13.33-10=3.33$
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Section
+Markets and Equilibria
+\end_layout
+
+\begin_layout Standard
+We assume that there is no production, everyone is a price-taker and there
+ are many (2 - can be generalized) consumers.
+\end_layout
+
+\begin_layout Standard
+Given two consumers and their preferences functions, we can put them in
+ 
+\series bold
+Edgeworth's box
+\series default
+ - a graphical representation of the preferences of both of them on a single
+ plane.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Pareto domination
+\series default
+ - there is a domination of some allocation over another one iff the utility
+ of both consumers in the first one is 
+\series bold
+at least
+\series default
+ as good as in the second one, and the utility of at least one of them is
+ 
+\series bold
+strictly
+\series default
+ better.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Pareto Optimality / Efficiency
+\series default
+ - an allocation is Pareto-optimal if there is no feasible allocation which
+ as Pareto dominance over it.
+\end_layout
+
+\begin_layout Standard
+Considering the Edgeworth's box - the optimal allocation is at the points
+ where the indifference curves are tangent.
+ Several Pareto-efficient allocations might exist.
+ They are connected by a 
+\series bold
+contract curve
+\series default
+.
+\end_layout
+
+\begin_layout Standard
+The 
+\series bold
+utility frontier
+\series default
+ corresponds to all 
+\series bold
+Pareto optimal
+\series default
+ allocations.
+ Notice that Pareto domination is incomplete, as it doesn't provide a means
+ to compare 
+\series bold
+any
+\series default
+ two allocations (
+\begin_inset Quotes eld
+\end_inset
+
+order relation
+\begin_inset Quotes erd
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Equilibrium
+\series default
+ is a list of prices, such that when 
+\series bold
+everyone
+\series default
+ responds optimally to them - markets 
+\series bold
+clear
+\series default
+ (no excess demand, excess supply only for zero-price).
+ In general there are also 
+\series bold
+firms
+\series default
+ which take part in the market by demanding labor, supplying output and
+ dividing profit - but first an equilibrium 
+\series bold
+without firms
+\series default
+ will be considered.
+\end_layout
+
+\begin_layout Standard
+Existence theorem: (under certain assumptions) 
+\series bold
+there exists at least one competitive equilibrium
+\series default
+.
+\end_layout
+
+\begin_layout Standard
+In the 2x2 case it can me (misleadingly) graphically shown by plotting the
+ budget lines and tilting them with price changes.
+ An important property: at equilibrium both ICs are tangent to the same
+ line, thus 
+\series bold
+to each other
+\series default
+.
+\end_layout
+
+\begin_layout Standard
+The first welfare theorem:
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+All competitive equilibria defina Pareto optimal allocations
+\end_layout
+
+\begin_layout Standard
+The intuition behind it is that 
+\series bold
+prices convey information
+\series default
+ - they allow 
+\series bold
+decentralized communication
+\series default
+ between agents.
+\end_layout
+
+\begin_layout Standard
+Decentralization is essential, because it would be extremely hard for a
+ single player to solve the whole problem of the economy and find the equilibriu
+a.
+ An enormous amount of misinformation would have been involved, while in
+ the decentralized case there is no risk of deception, because everyone
+ solves a small bit of the puzzle.
+\end_layout
+
+\end_body
+\end_document
