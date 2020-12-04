@@ -1,0 +1,658 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+\usepackage{indentfirst}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2.5cm
+\topmargin 2.5cm
+\rightmargin 2.5cm
+\bottommargin 2.5cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Financial Accounting 1 - Lecture 4
+\end_layout
+
+\begin_layout Author
+Leonid Genkin
+\end_layout
+
+\begin_layout Section
+Home Exercise
+\end_layout
+
+\begin_layout Standard
+The 
+\series bold
+paid in capital
+\series default
+ represents the portion received from stock holders.
+ That number didn't change - meaning the issue of stock was 0.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Net income
+\series default
+ is $50 (revenues minus expenses).
+ Thus, the 
+\series bold
+retained earnings
+\series default
+ at the beginning are $90 (
+\begin_inset Formula $RE_{begin}+NI-dividends=RE_{end}).$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Total assets
+\series default
+ are them $235, and 
+\series bold
+total liabilities
+\series default
+ at the end are $90 (by subtracting liabilities from assets).
+\end_layout
+
+\begin_layout Section
+Debits and Credits
+\end_layout
+
+\begin_layout Standard
+The double booking account method is good for detecting errors and highlighting
+ the essence of accounting, nut a significant drawback is that this method
+ can be very messy when scaling to large number of accounts and transactions.
+\end_layout
+
+\begin_layout Standard
+An alternative method is by introducing 
+\series bold
+debit
+\series default
+ and 
+\series bold
+credit
+\series default
+ accounting.
+ Debit (dr) abd credit are entries to the left/right hand side of an account
+ (respectively).
+\end_layout
+
+\begin_layout Standard
+Based on the accunting equation, we can increase/decrease accounts based
+ on transaction classification, using 3 question:
+\end_layout
+
+\begin_layout Enumerate
+What 
+\series bold
+accounts
+\series default
+ are affected? 
+\end_layout
+
+\begin_layout Enumerate
+What is the 
+\series bold
+direction
+\series default
+ of the effect?
+\end_layout
+
+\begin_layout Enumerate
+What is the 
+\series bold
+amount
+\series default
+?
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Assets
+\series default
+ increase with 
+\series bold
+debit
+\series default
+, while
+\series bold
+ liabilities and equities
+\series default
+ increase with 
+\series bold
+credit
+\series default
+:
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="3" columns="3">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Assets Accounts
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Liabilities & Shareholders' Equity Accounts
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Increase
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Left Debit
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Right Credit
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Decrease
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Right Credit
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Left Debit
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Summarizing the impact of transactions is done using 
+\series bold
+T-accounts
+\series default
+.
+\end_layout
+
+\begin_layout Standard
+The debit/credit are 
+\series bold
+always
+\series default
+ located at the left/right, respectively, but their 
+\series bold
+context
+\series default
+ is different: for 
+\series bold
+assets
+\series default
+, an 
+\series bold
+increase 
+\series default
+is on the 
+\series bold
+left
+\series default
+, while for 
+\series bold
+liabilities and shareholders' equity
+\series default
+ the 
+\series bold
+increase
+\series default
+ is on the 
+\series bold
+right
+\series default
+.
+\end_layout
+
+\begin_layout Standard
+The equity is usually broken down to 2 components: paid-in cpaital / common
+ stock (the portion got form shareholders), and retained earnings (the earned
+ portion).
+ Retained earnings can be further divided to dividends, expenses and revenues.
+ 
+\series bold
+Revenues
+\series default
+ increase with 
+\series bold
+credit
+\series default
+, while 
+\series bold
+dividends and expenses
+\series default
+ increase with 
+\series bold
+debit
+\series default
+.
+\end_layout
+
+\begin_layout Standard
+Transactions recording is done nby 
+\series bold
+journal entries
+\series default
+.
+
+\series bold
+ 
+\series default
+Each entry must include at least one credit and and least one debit.
+ Debits and credits must sum up to be equal.
+\end_layout
+
+\begin_layout Standard
+(Class Exercise).
+ Notice that a journal entry can contain items both from balance sheet and
+ the income statement.
+\end_layout
+
+\begin_layout Standard
+After determining the journal entries, we 
+\series bold
+post
+\series default
+
+\begin_inset space ~
+\end_inset
+
+them to the accout in order to calcualte the final number, which will appear
+ at the statements (it can be debit/credit).
+\end_layout
+
+\begin_layout Section
+Exercise - Patterson Corporation
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+APIC
+\series default
+ (additional paid-in capital) is a 
+\begin_inset Quotes eld
+\end_inset
+
+plug number
+\begin_inset Quotes erd
+\end_inset
+
+, used to balance the equation.
+\end_layout
+
+\begin_layout Standard
+The financial statement 
+\series bold
+does not communicate value
+\series default
+.
+ It only describes the 
+\series bold
+transactions
+\series default
+ needed to find out the value.
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Issue shares for cash
+\series default
+: Assets (Dr.
+ Cash +210,000) = SE (Cr.
+ CS +150,000, Cr.
+ APIC 60,000).
+ Notice here the distinction between the market value and the par value
+ (APIC).
+ The par value is 
+\series bold
+not important
+\series default
+ when buying shares, but only the market value is.
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Issue CS in exchange for land
+\series default
+: Assets (Dr.
+ Buildings +220,000, Dr.
+ Land +80,000, Dr.
+ Equipment +92,000) = SE (Cr.
+ Common Stock +280,000, CR.
+ APIC +112,000).
+ The shares number is multiplied by market value to get the value of issuing.
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Issue shares for a patent
+\series default
+: Assets (Dr.
+ Patent +28,000) = SE (Cr.
+ Common Stock +20,000, Cr.
+ APIC +8,000).
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Inventory purchase
+\series default
+: Assets (Dr.
+ Inventory +75,000) = L (Cr.
+ AP +75,000).
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Equipment acquisition
+\series default
+: Assets (Dr.
+ Equipment +5,400, Cr.
+ Cash -5,400).
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Payment for equipment delivery
+\series default
+: Assets (Dr.
+ Equipment +350, Cr.
+ Cash -350).
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Returns Inventory
+\series default
+: Assets (Cr.
+ Inventory -800) = L (Dr.
+ AP -800).
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Rental Payment
+\series default
+: Assets (Dr.
+ Prepaid Expenses +1,400, Cr.
+ Cash -1,400).
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Merchandise Payment
+\series default
+: Assets (Cr.
+ Cash -58,200, Cr.
+ Inventory -1,800) = L (Dr.
+ AP -60,000).
+ Notice that because of the discount, the 
+\series bold
+inventory is decreased
+\series default
+.
+ The profit (of the possible higher selling price) is only when 
+\series bold
+selling
+\series default
+ the asset.
+ Thus, at the 
+\series bold
+current moment 
+\series default
+the discount does not translate to asset increase.
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Obtain insurance policy
+\series default
+: there is no entry, as there is no transaction in the present.
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Receive advance for contract
+\series default
+: Assets (Dr.
+ Cash +4,500) = L (Cr.
+ Unearned revenues +4,500).
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Warehouse acquisition
+\series default
+: Assets (Dr.
+ Buildings +60,000, Cr.
+ Cash -7,000) = L (Cr.
+ Mortgage Payable +53,000).
+ Notice that at the moment we do not owe any interest, and no need to account
+ it.
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Return defective inventory
+\series default
+: Assets (Dr.
+ Receivables from supplier +1,455, Cr.
+ Inventory -1,455).
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Shares purchase
+\series default
+: Assets (Dr.
+ Marketable securities +95,500, Cr.
+ Cash -95,000).
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The debits and credits are only a technical concept.
+ The important thing is to come up to the essence of transactions and get
+ to a single, objective truth value.
+\end_layout
+
+\begin_layout Standard
+Next week there will be a quiz (20 minutes).
+ Watch the recording on moodle (part 2; adjusting entries won't be in the
+ quiz) and solve the exercise (balance sheet).
+\end_layout
+
+\end_body
+\end_document
