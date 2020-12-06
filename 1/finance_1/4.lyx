@@ -292,7 +292,53 @@ Treasury Bonds and Treasury Bills
 \end_layout
 
 \begin_layout Standard
-The US government issues bonds to finance its national debt.
+Bons are akin to a 
+\begin_inset Quotes eld
+\end_inset
+
+loan
+\begin_inset Quotes erd
+\end_inset
+
+ that one gives to a corporation or a government.
+ We focuse here on ther U.S government bonds.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Primary issuance
+\series default
+ is done by the institution (to the 
+\series bold
+primary market
+\series default
+)., then they can be traded on the 
+\series bold
+secondary market
+\series default
+.
+\end_layout
+
+\begin_layout Standard
+Bonds have some structure: in general they have 
+\series bold
+par value
+\series default
+ - paid at the maturity date, and 
+\series bold
+coupons
+\series default
+ which are paid at particular intervals.
+ The prices are quoted in 
+\series bold
+percentage
+\series default
+ of the par.
+\end_layout
+
+\begin_layout Standard
+The U.S government issues bonds to finance its national debt.
  There are 4 types of securities: bills, notes, bonds and inflation-protected
  securities.
 \end_layout
@@ -303,7 +349,7 @@ Treasury Bills
 
 \begin_layout Standard
 Obligations to pay a particular amount (par) at the maturity date - which
- comes in a one year, ar less.
+ comes in a one year, or less.
  No interest is paid prior to the maturity date.
  The bills are sold by a single-auction held weekly.
  The price today is at a discount (compared to the par).
@@ -319,22 +365,6 @@ yield=\frac{value-price}{value}\times\frac{360}{days\,till\,maturity}\times100\%
 \end_layout
 
 \begin_layout Standard
-Buying bonds from the government is the 
-\series bold
-primary market
-\series default
-, and buying from other people is 
-\series bold
-secondary
-\series default
- 
-\series bold
-market
-\series default
-.
-\end_layout
-
-\begin_layout Standard
 In WSJ the prices for available bonds can be seen in a table.
  
 \series bold
@@ -345,10 +375,10 @@ Asked price
 \series bold
 Bid price
 \series default
- - if I have bonda and what to sell them, what price would I get (likely
+ - if I have bonds and wish to sell them, what price would I get (likely
  lower).
- The difference have many reasons (some market makers are needed) and also
- reflects the risks associated with uncertainity and liquidity.
+ The difference has many reasons (some market makers are needed) and reflects
+ the risks associated with uncertainity and liquidity.
  The yields seen there are extremely low, which corresponds to the COVID
  crysis and the attempts of CBs to stimuate the economy by lowering the
  interest rates.
@@ -371,7 +401,7 @@ notes
 \series bold
 coupon payment
 \series default
- every six months, with a par value (denomonation) of 
+ every six months, with a par value (denomination) of 
 \begin_inset Formula $\$1,000$
 \end_inset
 
@@ -391,6 +421,382 @@ Treasury bonds
 annual
 \series default
 , and the coupon rate is half of it.
+\end_layout
+
+\begin_layout Subsection
+TIPS (Treasury Inflation Protected Securities)
+\end_layout
+
+\begin_layout Standard
+Indexed to inflation, to protect investors from the negative effects (consumer
+ price index), available with 5-/10-/30- year maturities.
+ The interest is paid semiannually.
+ Adjustment for inflaiton is done through the par (interest is paid on the
+ adjusted value).
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+The various bonds are announced according to a specific dates schedule,
+ and investors (pension funds) compete over them in an auction.
+\end_layout
+
+\begin_layout Standard
+The price of the bonds is determined by discounting the cash flow, and comparin
+ it to the alternatives.
+ People 
+\begin_inset Quotes eld
+\end_inset
+
+will look aorund
+\begin_inset Quotes erd
+\end_inset
+
+ and check other options they have.
+ Thus, beyond understanding the bonds mechanism itself - the convey an important
+ information about the market (i.e 
+\begin_inset Quotes eld
+\end_inset
+
+What is the time value of money, that people are willing to accept?
+\begin_inset Quotes erd
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Subsection
+Yield to Maturity
+\end_layout
+
+\begin_layout Standard
+The discount rate on the payments, that equates the present value of the
+ payments to the price (the IRR of the bond):
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+0=NPV=-P+\sum_{i=1}^{n}\frac{C_{i}}{(1+y)^{i}}+\frac{F_{n}}{(1+y)^{n}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $IRR$
+\end_inset
+
+ and 
+\begin_inset Formula $RATE$
+\end_inset
+
+ macros in Excel are useful for these calculations.
+\end_layout
+
+\begin_layout Standard
+(Excel exercise)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $YIELD$
+\end_inset
+
+ is a more sophisticated formula (out of scope), allows calculation inbetween
+ coupons.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $YTM$
+\end_inset
+
+ is the 
+\series bold
+weighted average
+\series default
+ annual return on the investment.
+ It will usually give the same outcome as NPV (higher NPV implies higher
+ yield) It implicitly assumes same discount rate for all cash flows (with
+ different maturity dates) - that might not be the case.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Yield curve
+\series default
+ is the relation between the maturity date, and the YTM.
+\end_layout
+
+\begin_layout Standard
+It can be observed that there is a shift in the yield curve (both for the
+ short-term and the long-term) over the years.
+ COVID-19 and the Fed reaction to it (rate decrease - incentive to provide
+ cheaper loans) are some of the reasons behind it.
+ It usually only affects short-term bonds.
+ The bank and treasuries rates are interdependent, as they are somewhat
+ substitutes.
+ Another reason is supply & demand for cash / loans / investment.
+\end_layout
+
+\begin_layout Standard
+The yield curve is 
+\series bold
+upward sloping
+\series default
+ because of risk aversion (fluctuation in the long-run) and supply&demand.
+ On top of that, it might be related to expectations.
+ The long-term is usually more stable, while the short-term rates are much
+ more dynamic according to what the market believes (example: COVID-19 
+\begin_inset Quotes eld
+\end_inset
+
+temporary shock
+\begin_inset Quotes erd
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Subsection
+Treasury Strips
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+S
+\series default
+eparate 
+\series bold
+T
+\series default
+rading of 
+\series bold
+r
+\series default
+egistered 
+\series bold
+I
+\series default
+nterest and 
+\series bold
+P
+\series default
+rincipal of 
+\series bold
+S
+\series default
+ecurities allows investors to trade the interest and the principal components
+ separately.
+ They are popular among investors who wish to get a known payment at a specific
+ date.
+ These 
+\begin_inset Quotes eld
+\end_inset
+
+zero-coupon
+\begin_inset Quotes erd
+\end_inset
+
+ securities are not sold directly, but only through financial institutions
+ and brokers.
+\end_layout
+
+\begin_layout Standard
+Strips are quoted at a discount to par, and their yield to maturity is calculate
+d simply by discounting the rate.
+ 
+\series bold
+Spot rate
+\series default
+ - a rate from 
+\begin_inset Formula $t=0$
+\end_inset
+
+ to a specific furute point in time.
+\end_layout
+
+\begin_layout Standard
+Strips can be 
+\series bold
+combined
+\series default
+ to create a cash flow similar to that of a bond.
+ Their price should match the price of the bond (in an equilibrium), otherwise
+ an 
+\series bold
+arbitrage 
+\series default
+would have been possible.
+ It is therefore possible to calculate the price of a strip from the price
+ of a bond, or vice-versa (algebraically, by solving appropriate equations).
+\end_layout
+
+\begin_layout Standard
+An allternative technique is to use the 
+\series bold
+Discount Factor
+\series default
+:
+\begin_inset Formula 
+\[
+DF_{1}=\frac{1}{(1+r_{t})^{t}}
+\]
+
+\end_inset
+
+If 
+\begin_inset Formula $[P]$
+\end_inset
+
+ is the vector of bond prices for maturities 
+\begin_inset Formula $1\ldots n$
+\end_inset
+
+ and 
+\begin_inset Formula $[C]$
+\end_inset
+
+ is the matrix of 
+\begin_inset Formula $n$
+\end_inset
+
+ streams of cash flows, then the discount factor is given by:
+\begin_inset Formula 
+\[
+[P]=[C]DF\Rightarrow DF=[C]^{-1}[P]
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Matrix calculations are done using Excel.
+ 
+\begin_inset Formula $MINVERSE$
+\end_inset
+
+ is used for matrix inversion.
+ 
+\begin_inset Formula $MMULT$
+\end_inset
+
+ - matrix multiplication.
+\end_layout
+
+\begin_layout Subsection
+Arbitrage
+\end_layout
+
+\begin_layout Standard
+Arbitrage is an investment strategy in the market, that allows profit gain,
+ and does not cost anyrhing.
+ It is 
+\series bold
+the strongest force
+\series default
+ in the determination of prices of various financial instruments.
+ It forces similar cash flows to be priced in a similar way.
+ For example:
+\begin_inset Formula 
+\[
+DF_{0}<DF_{1}<\ldots<DF_{t}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Otherwise, there would have been an arbitrage opportunity (borrow the money
+ to repay a debt).
+\end_layout
+
+\begin_layout Standard
+Whenever there is an arbitrage opportunity, everyone 
+\begin_inset Quotes eld
+\end_inset
+
+jumps
+\begin_inset Quotes erd
+\end_inset
+
+ on it, and the natural forces of supply and demand lead to a neq equilibrium.
+ For example, given prices of several strips/T-bills, we can construct a
+ single 
+\begin_inset Quotes eld
+\end_inset
+
+syntetic
+\begin_inset Quotes erd
+\end_inset
+
+ bond which is equivalent to all them together, and compare its price to
+ the original bond price.
+ The arbitraege opportunity can be exploited by 
+\series bold
+shorting
+\series default
+ (borrow, use the money in the market.
+ An 
+\series bold
+arbitrage table
+\series default
+ describes the required strategy and the relevant cash flows.
+\end_layout
+
+\begin_layout Subsection
+Shorting
+\end_layout
+
+\begin_layout Standard
+Generally it is not possible to short a bond directly through a broker in
+ the same way as trading.
+ Shorting is done by 
+\series bold
+borrowing
+\series default
+ the instrument from someone (thourhg a broker).
+ In reality the cost of the transaction is not zero.
+\end_layout
+
+\begin_layout Subsection
+Duration and Volatility
+\end_layout
+
+\begin_layout Standard
+Investors are exposed to fluctuations in the yields, which can be caused
+ by various macroeconomic reasons.
+\end_layout
+
+\begin_layout Standard
+The price can change if the discount rate changes, which might worry investors.
+\end_layout
+
+\begin_layout Standard
+How strongly is a portfolio affected by these changes? The longer the 
+\series bold
+maturity
+\series default
+ period of the bond, the more it is affected by a change of the interest
+ rate (higher 
+\series bold
+volatility
+\series default
+).
 \end_layout
 
 \end_body
