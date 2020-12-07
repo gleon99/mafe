@@ -1,0 +1,1197 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+\usepackage{indentfirst}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2.5cm
+\topmargin 2.5cm
+\rightmargin 2.5cm
+\bottommargin 2.5cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Econometrics 1 - Lecture 5
+\end_layout
+
+\begin_layout Author
+Leonid Genkin
+\end_layout
+
+\begin_layout Standard
+In module 1 we dealt with predicting / estimating values.
+ We dealt with impact of a change in one independent variable on the dependent
+ one.
+ We didn't deal with the quesiton: 
+\begin_inset Quotes eld
+\end_inset
+
+What is the 
+\series bold
+range
+\series default
+ of values, that represent the effect of am independent variable on the
+ dependent one?
+\begin_inset Quotes erd
+\end_inset
+
+ That will be the topic of module 2, in addition to hypothesis testing.
+\end_layout
+
+\begin_layout Section
+Interval Estimation and Hypothesis Testing in MLR
+\end_layout
+
+\begin_layout Standard
+The goal is to construct 
+\series bold
+interval estimators
+\series default
+ and to test hypotheses about the estimators and the expected value.
+ The p.d.fs of OLS estimators are needed.
+\end_layout
+
+\begin_layout Standard
+Recalling:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\hat{\beta_{0}}=\beta_{0}+\sum_{i=1}^{p}(\beta_{i}-\hat{\beta_{i}})\bar{x_{i}}+\bar{u}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Different samples yield different values for 
+\begin_inset Formula $\hat{\beta}_{0}$
+\end_inset
+
+ because of 
+\begin_inset Formula $\bar{u}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\hat{\beta_{j}}=\hat{\beta_{j}}+\frac{\sum_{i=1}^{n}\hat{v_{i,j}}u_{i}}{\sum_{i=1}^{n}v_{i,j}^{2}}
+\]
+
+\end_inset
+
+Where 
+\begin_inset Formula $\hat{v_{i,j}}$
+\end_inset
+
+s are the OLS residuals.
+\begin_inset Formula 
+\[
+\hat{Y}=\hat{E}[Y|X_{1},\cdots,X_{p}]=\hat{\beta_{0}}+\sum_{i=1}^{p}\hat{\beta_{i}}x_{i}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+There are 2 approaches for constructing the intervals:
+\end_layout
+
+\begin_layout Itemize
+The 
+\begin_inset Quotes eld
+\end_inset
+
+classical
+\begin_inset Quotes erd
+\end_inset
+
+ / parametric / naïve approach: 
+\series bold
+assume
+\series default
+ the 
+\begin_inset Formula $U$
+\end_inset
+
+s are 
+\series bold
+normally
+\series default
+ distributes.
+ Use 
+\series bold
+exact 
+\series default
+/ 
+\series bold
+asymptotic
+\series default
+ p.d.f.s of OLS estimators (will be used in this module).
+\end_layout
+
+\begin_layout Itemize
+Resampling (
+\begin_inset Quotes eld
+\end_inset
+
+modern
+\begin_inset Quotes erd
+\end_inset
+
+) approach: Do not make any assumptions, used 
+\series bold
+bootstrap sampling
+\series default
+ p.d.f.s of the estimators (will be addressed in module 5).
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+The Classical Approach: Exact p.d.f.s
+\end_layout
+
+\begin_layout Standard
+An assumption is added to the previously discussed ones (which form the
+ basis for MLR models): 
+\series bold
+normality
+\series default
+.
+ The error is 
+\series bold
+independent
+\series default
+ of 
+\begin_inset Formula $X_{1},\ldots,X_{p}$
+\end_inset
+
+ and is 
+\series bold
+normally
+\series default
+ distributes.
+ It is much stronget than any of the previous assumptions.
+ All these assumptions together are called the 
+\series bold
+classical linear model (CLM)
+\series default
+ assumptions.
+\end_layout
+
+\begin_layout Standard
+Under these assumptions (see also module 2A):
+\begin_inset Formula 
+\[
+\hat{\beta_{j}}\sim N(\beta_{j},Var(\hat{\beta_{j}}))\Rightarrow\frac{\hat{\beta_{j}}-\beta_{j}}{SD(\hat{\beta_{j}})}\sim N(0,1)\Rightarrow\frac{\hat{\beta_{j}}-\beta_{j}}{SE(\hat{\beta_{j}})}\sim t_{n-p-1}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The question on whether this is a reasonable assumption is out of scope
+ at the moment, and will be addressed in module 5.
+\end_layout
+
+\begin_layout Standard
+Any 
+\series bold
+linear combination
+\series default
+ of the estimators is normally distributed as well:
+\begin_inset Formula 
+\[
+\hat{Y}\sim N(\beta_{0}+\sum_{i=1}^{p}\beta_{p}x_{p},Var(\hat{Y}))\Rightarrow\frac{\hat{Y}-(\beta_{0}+\sum_{i=1}^{p}\beta_{p}x_{p})}{SD(\hat{Y})}\sim N(0,1)\Rightarrow\frac{\hat{Y}-(\beta_{0}+\sum_{i=1}^{p}\beta_{p}x_{p})}{SE(\hat{Y})}\sim t_{n-p-1}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+The Classical Approach: Asymptotic p.d.f.s
+\end_layout
+
+\begin_layout Standard
+As 
+\begin_inset Formula $n$
+\end_inset
+
+ approaches infinity, the normality assumption is not really needed.
+ Instead, it can be assumed that
+\begin_inset Formula 
+\[
+\frac{\hat{\beta_{j}}-\beta_{j}}{SD(\hat{\beta_{j}})}\rightarrow N(0,1);\,\,\,\,\frac{\hat{\beta_{j}}-\beta_{j}}{SE(\hat{\beta_{j}})}\rightarrow N(0,1)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The errors do not have to be normal, only this ratio has to satisfy the
+ normality condition (module 5).
+\end_layout
+
+\begin_layout Standard
+Even if there is no access to the SD but only to the SE, it is applicable.
+\end_layout
+
+\begin_layout Standard
+Because 
+\begin_inset Formula $t_{n-p-1}\rightarrow N(0,1)$
+\end_inset
+
+, it is legitimate to state:
+\begin_inset Formula 
+\[
+\frac{\hat{\beta_{j}}-\beta_{j}}{SE(\hat{\beta_{j}})}\rightarrow t_{n-p-1}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In case 
+\begin_inset Formula $n$
+\end_inset
+
+ is not very large, the p.d.f might be a 
+\series bold
+poor
+\series default
+ approximation (if 
+\begin_inset Formula $U$
+\end_inset
+
+ is not normally distributes).
+ There are no general prescriptions on how big the sample size should be.
+ The 
+\series bold
+same
+\series default
+ is true regarding 
+\begin_inset Formula $\hat{Y}$
+\end_inset
+
+ and 
+\begin_inset Formula $E[Y|X_{1},\ldots,X_{P}]$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection
+Interval Estimators
+\end_layout
+
+\begin_layout Subsubsection
+Two-Tailed
+\end_layout
+
+\begin_layout Standard
+Equipped with this model, construction of interval estimators can now be
+ made:
+\begin_inset Formula 
+\[
+P(t_{n-p-1,\alpha/2}\leq\frac{\hat{\beta_{j}}-\beta_{j}}{SE(\hat{\beta_{j}})}\leq t_{n-p-1,1-\alpha/2})=1-\alpha
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+where 
+\begin_inset Formula $0\leq\alpha\leq1$
+\end_inset
+
+, 
+\begin_inset Formula $t_{n-p-1},\alpha$
+\end_inset
+
+ is the 
+\begin_inset Formula $\alpha$
+\end_inset
+
+ quantile, or 
+\begin_inset Formula $100\alpha\%$
+\end_inset
+
+ percentile in 
+\begin_inset Formula $t_{n-p-1}$
+\end_inset
+
+ p.d.f.
+ Rewriting:
+\begin_inset Formula 
+\[
+P(\hat{\beta_{j}}-t_{n-p-1,1-\alpha/2}\cdot SE(\hat{\beta_{j}})\leq\beta_{j}\leq\hat{\beta_{j}}-t_{n-p-1,\alpha/2}\cdot SE(\hat{\beta_{j}}))=1-\alpha
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Then, 
+\begin_inset Formula $[\hat{\beta_{j}}-t_{n-p-1,1-\alpha/2}\cdot SE(\hat{\beta_{j}}),\hat{\beta_{j}}-t_{n-p-1,\alpha/2}\cdot SE(\hat{\beta_{j}})]$
+\end_inset
+
+ is the 
+\series bold
+two-tailed
+\series default
+ 
+\begin_inset Formula $100\cdot(1-\alpha)\%$
+\end_inset
+
+ interval estimator for 
+\begin_inset Formula $\beta_{j}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsubsection
+Right-Tailed
+\end_layout
+
+\begin_layout Standard
+Sometimes a 
+\series bold
+right-tailed
+\series default
+ interval estimator is needed.
+ Using the fact:
+\begin_inset Formula 
+\[
+P(-\infty\leq\frac{\hat{\beta_{j}}-\beta_{j}}{SE(\hat{\beta_{j})}}\leq t_{n-p-1,1-\alpha})=1-\alpha
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Rewriting:
+\begin_inset Formula 
+\[
+P(\hat{\beta_{j}}-t_{n-p-1,1-\alpha}\cdot SE(\hat{\beta_{j}})\leq\beta_{j}\leq\infty)=1-\alpha
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Then, 
+\begin_inset Formula $[\hat{\beta_{j}}-t_{n-p-1,1-\alpha}\cdot SE(\hat{\beta_{j}}),\infty]$
+\end_inset
+
+ is the 
+\series bold
+right-tailed
+\series default
+ 
+\begin_inset Formula $100\cdot(1-\alpha)\%$
+\end_inset
+
+ interval estimator for 
+\begin_inset Formula $\beta_{j}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsubsection
+Left-Tailed
+\end_layout
+
+\begin_layout Standard
+Is a symmetric manner:
+\begin_inset Formula 
+\[
+P(t_{n-p-1,\alpha}\leq\frac{\hat{\beta_{j}}-\beta_{j}}{SE(\hat{\beta_{j})}}\leq\infty)=1-\alpha
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Rewriting:
+\begin_inset Formula 
+\[
+P(-\infty\leq\beta_{j}\leq\hat{\beta_{j}}-t_{n-p-1,\alpha}\cdot SE(\hat{\beta_{j}}))=1-\alpha
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Then, 
+\begin_inset Formula $[-\infty,\hat{\beta_{j}}-t_{n-p-1,\alpha}\cdot SE(\hat{\beta_{j})}]$
+\end_inset
+
+ is the 
+\series bold
+left-tailed
+\series default
+ 
+\begin_inset Formula $100\cdot(1-\alpha)\%$
+\end_inset
+
+ interval estimator for 
+\begin_inset Formula $\beta_{j}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection
+Application in R
+\end_layout
+
+\begin_layout Standard
+For getting the interval estimators, knowing the 
+\series bold
+formulas
+\series default
+ of the variances of 
+\begin_inset Formula $\hat{\beta_{j}}$
+\end_inset
+
+ is required.
+ Interval estimators for 
+\begin_inset Formula $\beta_{j}$
+\end_inset
+
+ are functions of 
+\begin_inset Formula $SE(\hat{\beta_{j}})$
+\end_inset
+
+.
+ Interval estimators for 
+\begin_inset Formula $E[Y|X_{1},\ldots,X_{p}]$
+\end_inset
+
+ are functions of 
+\begin_inset Formula $SE(\hat{Y}$
+\end_inset
+
+) - which also requires knowledge of the 
+\series bold
+covariances
+\series default
+.
+\end_layout
+
+\begin_layout Standard
+How fo these formulas look like, under the 5 MLR assumptions?
+\series bold
+ - 
+\series default
+MLR analysis in matrix form (Module 2B - relax homoskedasticity and introduce
+ hemoskedasticity).
+\end_layout
+
+\begin_layout Standard
+Fortunately, R is able to do it for us, nevertheless it is important to
+ know where do these formulas come from.
+\end_layout
+
+\begin_layout Subsection
+Interval Estimators for 
+\begin_inset Formula $\beta_{j}$
+\end_inset
+
+s
+\end_layout
+
+\begin_layout Standard
+There are 2 possible approaches: use the formulas, or apply the 
+\begin_inset Formula $confint()$
+\end_inset
+
+ method to an 
+\begin_inset Formula $lm$
+\end_inset
+
+ object.
+\end_layout
+
+\begin_layout Subsection
+Interval Estimators for 
+\begin_inset Formula $E[Y|X_{1},\ldots,X_{P}]$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The 
+\series bold
+regression approach
+\series default
+: estimate a regression, whose intercept reflects 
+\begin_inset Formula $E[Y|X_{1},\ldots,X_{p}]$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+We need to estimate:
+\begin_inset Formula 
+\[
+\theta_{o}=E[Y|X_{1}=x_{*,1},\ldots,X_{p}=x_{*,p}]=\beta_{0}+\sum_{i=1}^{p}\beta_{i}x_{*,i}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Let 
+\begin_inset Formula $\beta_{0}=\theta_{0}-\sum_{i=1}^{p}\beta_{i}x_{*,i}$
+\end_inset
+
+ and plug it in:
+\begin_inset Formula 
+\[
+Y=\theta_{0}+\sum_{i=1}^{p}\beta_{i}(X_{i}-x_{*,i})
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Two types of values are distinguished: 
+\series bold
+mean
+\series default
+ (expected) value of 
+\begin_inset Formula $Y$
+\end_inset
+
+ given sample values (that what was done so far) and 
+\series bold
+specific
+\series default
+ (next) value of 
+\begin_inset Formula $Y$
+\end_inset
+
+ given values taken by the sample.
+ In both cases, the 
+\series bold
+point estimate
+\series default
+ is given by the 
+\series bold
+estimator
+\series default
+.
+\end_layout
+
+\begin_layout Standard
+However, 
+\series bold
+interval estimators 
+\series default
+require different SEs.
+ Predicted 
+\series bold
+mean
+\series default
+ value:
+\begin_inset Formula 
+\[
+[\hat{Y}-t_{n-p-1,1-\alpha/2}\cdot SE(\hat{Y}),\hat{Y}-t_{n-p-1,\alpha/2}\cdot SE(\hat{Y})]
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Predicted 
+\series bold
+specific
+\series default
+ value (we add the variance of the residuals to 
+\begin_inset Formula $\hat{Y}$
+\end_inset
+
+):
+\begin_inset Formula 
+\[
+[\hat{Y}-t_{n-p-1,1-\alpha/2}\cdot SE(\hat{Y}+\hat{u}),\hat{Y}-t_{n-p-1,\alpha/2}\cdot SE(\hat{Y}+\hat{u})]
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Hypothesis Testing
+\end_layout
+
+\begin_layout Standard
+Essentially it is just a 
+\begin_inset Quotes eld
+\end_inset
+
+modification
+\begin_inset Quotes erd
+\end_inset
+
+ of the already covered interval estimation.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Tabular
+<lyxtabular version="3" rows="4" columns="3">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $H_{0}$
+\end_inset
+
+ (the null hypothesis)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $H_{1}$
+\end_inset
+
+ (the alternative hypothesis)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+In R (refers to 
+\begin_inset Formula $H_{1}$
+\end_inset
+
+)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\beta_{j}=c_{j}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\beta_{j}\neq c_{j}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Quotes eld
+\end_inset
+
+two.sided
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\beta_{j}\leq c_{j}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\beta_{j}>c_{j}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Quotes eld
+\end_inset
+
+greater
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\beta_{j}\geq c_{j}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\beta_{j}<c_{j}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Quotes eld
+\end_inset
+
+less
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The 
+\series bold
+test statistic
+\series default
+ is:
+\begin_inset Formula 
+\[
+T=\frac{\hat{\beta_{j}}-\beta_{j}}{SE(\hat{\beta_{j}})}\sim t_{n-p-1}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Where: 
+\begin_inset Formula $n$
+\end_inset
+
+ is the observations number, 
+\begin_inset Formula $p$
+\end_inset
+
+ is the number of independent variables and 
+\begin_inset Formula $U\sim N(0,\sigma_{U}^{2})$
+\end_inset
+
+ with unknown 
+\begin_inset Formula $\sigma_{U}^{2}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Recalling, as 
+\begin_inset Formula $n$
+\end_inset
+
+ approaches 
+\begin_inset Formula $\infty$
+\end_inset
+
+, 
+\begin_inset Formula $t_{n-p-1}\rightarrow N(0,1)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection
+t-tests about a single population parameter
+\end_layout
+
+\begin_layout Subsubsection
+Two-sided tests
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Reject
+\series default
+ 
+\begin_inset Formula $H_{0}:\beta_{j}=c_{j}$
+\end_inset
+
+ in favor of 
+\begin_inset Formula $H_{1}:\beta_{j}\neq c_{j}$
+\end_inset
+
+ for sample values of the test statistic (
+\begin_inset Formula $t=\frac{\hat{\beta_{j}}-c_{j}}{SE(\hat{\beta_{j}})}$
+\end_inset
+
+) which satisfy 
+\series bold
+either
+\series default
+ of:
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $P(T\geq t)+P(T\leq-t)=pvalue\leq\alpha$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $t\leq t_{n-p-1m,\alpha/2}\,\,or\,\,t\geq t_{n-p-1,1-\alpha/2}$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $c_{j}$
+\end_inset
+
+ is 
+\series bold
+not
+\series default
+ included in the two-tailed interval estimate for 
+\begin_inset Formula $\beta_{j}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Right-sided tests
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Reject
+\series default
+ 
+\begin_inset Formula $H_{0}:\beta_{j}\leq c_{j}$
+\end_inset
+
+ in favor of 
+\begin_inset Formula $H_{1}:\beta_{j}>c_{j}$
+\end_inset
+
+ for sample values of the test statistic (
+\begin_inset Formula $t=\frac{\hat{\beta_{j}}-c_{j}}{SE(\hat{\beta_{j}})}$
+\end_inset
+
+) which satisfy 
+\series bold
+either
+\series default
+ of:
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $P(T\geq t)=pvalue\leq\alpha$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $t\geq t_{n-p-1}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $c_{j}$
+\end_inset
+
+ is 
+\series bold
+not
+\series default
+ included in the right-tailed interval estimate for 
+\begin_inset Formula $\beta_{j}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Left-sided tests
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Reject
+\series default
+ 
+\begin_inset Formula $H_{0}:\beta_{j}\geq c_{j}$
+\end_inset
+
+ in favor of 
+\begin_inset Formula $H_{1}:\beta_{j}<c_{j}$
+\end_inset
+
+ for sample values of the test statistic (
+\begin_inset Formula $t=\frac{\hat{\beta_{j}}-c_{j}}{SE(\hat{\beta_{j}})}$
+\end_inset
+
+) which satisfy 
+\series bold
+either
+\series default
+ of:
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $P(T\leq t)=pvalue\leq\alpha$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $t\leq t_{n-p-1,1-\alpha}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $c_{j}$
+\end_inset
+
+ is 
+\series bold
+not
+\series default
+ included in the left-tailed interval estimate for 
+\begin_inset Formula $\beta_{j}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Application in R - see module 2C.
+\end_layout
+
+\end_body
+\end_document

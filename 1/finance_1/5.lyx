@@ -1,0 +1,811 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+\usepackage{indentfirst}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2.5cm
+\topmargin 2.5cm
+\rightmargin 2.5cm
+\bottommargin 2.5cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Finance1 - Lecture 5
+\end_layout
+
+\begin_layout Author
+Leonid Genkin
+\end_layout
+
+\begin_layout Section
+Evaluation of Risky Projects and CAPM
+\end_layout
+
+\begin_layout Standard
+Understanding and evaluating investments as we have done in until now assumes
+ the existence of market of cash flows.
+ The origin of the 
+\series bold
+discount rate
+\series default
+ was not explained so far.
+ A financial asset can be compared to an asset with similar maturity and
+ risk.
+\end_layout
+
+\begin_layout Standard
+The goal, therefore, is to develop the relationship between the risk and
+ the return value, in order to evaluate risky projects.
+\end_layout
+
+\begin_layout Standard
+When evaluating risky investments, two adjustments are made:
+\end_layout
+
+\begin_layout Enumerate
+Estimating 
+\series bold
+cost of capital 
+\series default
+accounting both for time value and risk.
+\end_layout
+
+\begin_layout Enumerate
+Estimating 
+\series bold
+expected cash flows
+\series default
+ from a project.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+The Cost of Capital
+\end_layout
+
+\begin_layout Standard
+The cost of capital measures the 
+\series bold
+expected return
+\series default
+ that could have been earned, if invested in projects 
+\series bold
+with similar risk
+\series default
+, while recognizing the 
+\series bold
+forgone opportunities
+\series default
+ (opportunity costs).
+\end_layout
+
+\begin_layout Subsection
+Risk and Return
+\end_layout
+
+\begin_layout Standard
+The rate of return 
+\begin_inset Formula $r_{E}$
+\end_inset
+
+ compensated for 
+\series bold
+time value of money
+\series default
+ (
+\begin_inset Quotes eld
+\end_inset
+
+riskless
+\begin_inset Quotes erd
+\end_inset
+
+ rate of return 
+\begin_inset Formula $r_{t}$
+\end_inset
+
+) + 
+\series bold
+risk
+\series default
+ (risk premium, depending on the risk level).
+ Thus, to move forward it is needed to 
+\series bold
+define
+\series default
+ the risk, and 
+\series bold
+associate
+\series default
+ a risk premium to different levels of risk.
+\end_layout
+
+\begin_layout Standard
+There are two main types of risk in the economy:
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Specific Risk
+\series default
+: affects a 
+\series bold
+particular
+\series default
+ company (competition, production faliure).
+ Might be reduced by diversification.
+ It should be reflected in the forecasted FCFs, but 
+\series bold
+not
+\series default
+ in the discount rate.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Systematic Risk
+\series default
+: affects 
+\series bold
+all
+\series default
+ companies and cannot be reduced (inflation, political instability, Federal
+ Reserve, economic cycle).
+ It 
+\series bold
+should
+\series default
+ be reflected in FCFs 
+\series bold
+and
+\series default
+ in capital costs.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Risk Measurement
+\end_layout
+
+\begin_layout Standard
+Possible future values are typically described in terms of the 
+\series bold
+probability distribution
+\series default
+ of the likelihood of possible outcomes.
+ This concept is rather theoretical, as usually this distribution is not
+ observed in reality.
+\end_layout
+
+\begin_layout Standard
+In theory: look at the possible rated of return and the possibility of each
+ one, find out the 
+\series bold
+expected return
+\series default
+ and the 
+\series bold
+variance
+\series default
+.
+ The standard deviation is called 
+\series bold
+volatility
+\series default
+ in the finance jargon.
+\end_layout
+
+\begin_layout Standard
+Using the SD to measure uncertainity is advantageous, because:
+\end_layout
+
+\begin_layout Itemize
+It measures how spreadout is the realized rate of return around its expectation
+\end_layout
+
+\begin_layout Itemize
+Differences around the mean are squared, thus large ones are more significant
+\end_layout
+
+\begin_layout Itemize
+SD and the expected rate of return are in the same unit of measure.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Measuring expected returns and volatility
+\end_layout
+
+\begin_layout Standard
+In reality, the p.d.f is not observed.
+ Insted, we can only observe 
+\series bold
+historical
+\series default
+ series of returns and use them to estimate the expected returns and their
+ volatility.
+ It assumes that 
+\series bold
+historical levels
+\series default
+ and variation are 
+\series bold
+expected in the future
+\series default
+, and that the 
+\series bold
+returns are independent 
+\series default
+(from each other).
+\end_layout
+
+\begin_layout Standard
+Given a historical series of stock returns 
+\begin_inset Formula $r_{1},\ldots,r_{T}$
+\end_inset
+
+ we can calculate the estimated expected return and volatility of the return
+ (Excel formulae: 
+\begin_inset Formula $AVERAGE,\,STDDEV.S$
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Standard
+It is important to be consistent in the chosen return interval (daily /
+ monthly, etc).
+\end_layout
+
+\begin_layout Standard
+(Excel exercise)
+\end_layout
+
+\begin_layout Subsection
+Risk and Return
+\end_layout
+
+\begin_layout Standard
+Our goal is to develop a theory that relates risk and expected return, based
+ on 2 assumptions:
+\end_layout
+
+\begin_layout Enumerate
+Investors are
+\series bold
+ greedy
+\series default
+ (a.e.b.e, higher rate of return is better)
+\end_layout
+
+\begin_layout Enumerate
+Investors are 
+\series bold
+risk averse
+\series default
+ (a.e.b.e, lower risk is better)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Therefore investors must be 
+\series bold
+compensated
+\series default
+ for bearing a risk, by a higher rate of return.
+\end_layout
+
+\begin_layout Subsection
+Diversification
+\end_layout
+
+\begin_layout Standard
+All the discussion of risk and return is centered around 
+\series bold
+portfolios
+\series default
+, because of a good reason:
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Don't put all your eggs in one basket!
+\end_layout
+
+\begin_layout Standard
+One shall never buy a single stock - diversification implies that the risk
+ of a single security is much higher than that of a portoflio.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+On average
+\series default
+, one does not get a higher return on a single stock compared to a portfolio.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Diversification
+\series default
+ 
+\begin_inset Quotes eld
+\end_inset
+
+wipes out
+\begin_inset Quotes erd
+\end_inset
+
+ risk and cancels fluctuations (some etocks go up, some ones go down, and
+ they might cancel each other).
+\end_layout
+
+\begin_layout Standard
+Consider an example with a simple economy of 3 stocks:
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="7" columns="4">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+State of the economy
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Boom
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Normal
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Recession
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Bank
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+30
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+30
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-10
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Stock Broker
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+30
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+10
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-10
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Collection Agency
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-10
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+10
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+30
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Portfolios
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+50% in bank, 50% in broker
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+30
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+10
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-10
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+50% in bank, 50% in collection agency
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+10
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+10
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+10
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+The average return of both portfolios is the same (10%), but the fluctuation
+ in the second one is 0.
+ The first portfolio securities are 
+\series bold
+perfectly correlated
+\series default
+, while in the second one they are 
+\series bold
+perfectly negatively correlated
+\series default
+.
+\end_layout
+
+\begin_layout Standard
+The general rule is: the more two securities move together - the less risk
+ can be wiped out (diversified) by holding a portfolio, and vice-versa.
+\end_layout
+
+\begin_layout Subsection
+Correlation
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Correlation coefficient
+\series default
+, 
+\begin_inset Formula $\rho_{ab}$
+\end_inset
+
+, is the extent to which two securities move together.
+ It is a statistical measure, between -1 and 1.
+\end_layout
+
+\begin_layout Standard
+The correlation is given by the covariance, divided by the standard deviation
+ (volatility):
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\rho_{ab}=\frac{\sigma_{ab}}{\sigma_{a}\sigma_{b}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The formula can be rewritten:
+\begin_inset Formula 
+\[
+\sigma^{2}(x_{a}a+x_{b}b)=x_{a}^{2}\sigma_{a}^{2}+x_{b}^{2}\sigma_{b}^{2}+2x_{a}x_{b}\rho_{ab}\sigma_{a}\sigma_{b}
+\]
+
+\end_inset
+
+It can be seen that a variance in each security introduces variance of the
+ whole portfolio, but the last term might be negative (when 
+\begin_inset Formula $\rho_{ab}<0$
+\end_inset
+
+) and cancel out some of that variance.
+\end_layout
+
+\begin_layout Standard
+Excel example - shows that Cocal Cola and Pepsi have high correlation, while
+ Tesla & Pepsi have negative (close to 0) correlation.
+\end_layout
+
+\end_body
+\end_document
