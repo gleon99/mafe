@@ -1,0 +1,766 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+\usepackage{indentfirst}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2.5cm
+\topmargin 2.5cm
+\rightmargin 2.5cm
+\bottommargin 2.5cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Macroeconomics 1 - Lecture 5
+\end_layout
+
+\begin_layout Author
+Leonid Genkin
+\end_layout
+
+\begin_layout Section
+Homework 4 Solution
+\end_layout
+
+\begin_layout Subsection
+Question 1
+\end_layout
+
+\begin_layout Standard
+The supply curve shifts to the left (upwards) and inflation goes up.
+ If the CB doesn't intervene - no change in output.
+\end_layout
+
+\begin_layout Standard
+As the interest rate goes up (the CB resists inflation), demand curve might
+ move to the left - the demand declines, which is a 
+\begin_inset Quotes eld
+\end_inset
+
+cost
+\begin_inset Quotes erd
+\end_inset
+
+ for fighting the inflation.
+\end_layout
+
+\begin_layout Subsection
+Quesiton 2
+\end_layout
+
+\begin_layout Standard
+After defining lagged values and substituting into the equations of model,
+ we plug Talyor rule in the demand equation:
+\begin_inset Formula 
+\[
+x_{t}=-\frac{-\phi_{\pi}}{\kappa\phi_{\pi}+1+\phi_{x}}u_{t};\,\,p_{t}=\frac{1+\phi_{x}}{\kappa\phi_{\pi}+1+\phi_{x}}u_{t}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+How can we see that the price goes up, but 
+\series bold
+by less 
+\series default
+than the increase without CB intervention? In the graph it is seen by the
+ new intersecion point.
+ Algebraically, the reason is that 
+\begin_inset Formula $\frac{1+\phi_{x}}{\kappa\phi_{\pi}+1+\phi_{x}}<1$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection
+Question 3
+\end_layout
+
+\begin_layout Standard
+The reaction of the interest rate is stronger as 
+\begin_inset Formula $\phi_{\pi}\uparrow$
+\end_inset
+
+ and weaker as 
+\begin_inset Formula $\phi_{x}\uparrow$
+\end_inset
+
+.
+ 
+\begin_inset Formula $\phi_{\pi}$
+\end_inset
+
+ can be described as 
+\begin_inset Quotes eld
+\end_inset
+
+a degree to which the CB dislikes inflation
+\begin_inset Quotes erd
+\end_inset
+
+, and 
+\begin_inset Formula $\phi_{x}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Open Economy: Economic Activity, Inflation, Exchange Rate and Monetary Policy
+\end_layout
+
+\begin_layout Standard
+In this part we make a significant jump towards reality and describing real
+ economies, although we are still very far from it.
+\end_layout
+
+\begin_layout Standard
+We expand the previous model by opening it to the rest of the world, with
+ the following properties:
+\end_layout
+
+\begin_layout Itemize
+The domestic economy is 
+\series bold
+
+\begin_inset Quotes eld
+\end_inset
+
+small
+\begin_inset Quotes erd
+\end_inset
+
+
+\series default
+ (relative to the rest of the worls, thus the would interest rate and the
+ price of goods are 
+\series bold
+exogenous
+\end_layout
+
+\begin_layout Itemize
+There are 
+\series bold
+free capital flows
+\series default
+ to/form abroad
+\end_layout
+
+\begin_layout Itemize
+The exchange rate is 
+\series bold
+flexible
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+\begin_inset Formula $e_{t}$
+\end_inset
+
+ (log of the) nominal exhange rate
+\end_layout
+
+\begin_layout Description
+\begin_inset Formula $e_{t}+p_{t}^{*}$
+\end_inset
+
+ (log of the) nominal price of foreign good in the domestic market
+\end_layout
+
+\begin_layout Description
+\begin_inset Formula $e_{t}+p_{t}^{*}-p_{t}$
+\end_inset
+
+ (log of the) relative price of the foreign good
+\end_layout
+
+\begin_layout Description
+\begin_inset Formula $ln\left(\frac{E_{t}P_{t}^{Y}}{P_{t}}\right)$
+\end_inset
+
+ The real exchange rate
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Similar to the previous model, nominal exchange rates need to be distinguished
+ from prices.
+\end_layout
+
+\begin_layout Standard
+The new demand function (the IS curve) now includes this relative price:
+\begin_inset Formula 
+\[
+x_{t}=\hat{x}_{t+1}-(i_{t}-\hat{\pi_{t+1}})+\vartheta(e_{t}+p_{t}^{*}-p_{t})+z_{t},\,\,\vartheta>0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The more expensive is the foreign good relative to the domestic one - the
+ more demand will be for the domestic good, and vice-versa.
+\end_layout
+
+\begin_layout Standard
+At a steady state, 
+\begin_inset Formula $e+p^{*}-p=0$
+\end_inset
+
+, thus 
+\begin_inset Formula $e_{t}+p_{t}^{*}-p_{t}$
+\end_inset
+
+ is a deviation from it.
+\end_layout
+
+\begin_layout Standard
+Phillips & Taylor equations remain the same:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\pi_{t}=\frac{1}{1+\rho}\hat{\pi}_{t+1}+\kappa x_{t}+u_{t}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+i_{t}=\phi_{\pi}\pi_{t}+\phi_{x}x_{t}+v_{t}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Now that a new unknown is introduced, another equation is needed.
+ The 
+\series bold
+uncovered interest parity
+\series default
+ (UIP) is given by:
+\begin_inset Formula 
+\[
+i_{t}=i_{t}^{*}+\hat{e}_{t+1}-e_{t}+f_{t}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+where 
+\begin_inset Formula $f_{t}$
+\end_inset
+
+ represents the difference between the domestic risk premium on financial
+ invetsment and the foreign one, and can be rewritten as:
+\begin_inset Formula 
+\[
+e_{t}=i_{t}^{*}+\hat{e}_{t+1}-i_{t}+f_{t}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+When 
+\begin_inset Formula $\hat{e}$
+\end_inset
+
+ goes up, it means that foreign bonds have higher return (in domestic currency
+ terms).
+\end_layout
+
+\begin_layout Standard
+For computations real numbers will be used (in case the result is ambiguous):
+\begin_inset Formula 
+\[
+\frac{1}{1+\rho}=0.99;\,\,\kappa=0.65;\,\,\vartheta=0.3;\,\,\phi_{\pi}=1;\,\,\phi_{x}=0.5
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Aggregate Representation of the Model
+\end_layout
+
+\begin_layout Standard
+As with closed economy, the graph is 
+\begin_inset Formula $p_{t}$
+\end_inset
+
+ vs.
+ 
+\begin_inset Formula $x$
+\end_inset
+
+.
+ From the Phillips curve, the supply is an upward sloping function:
+\begin_inset Formula 
+\[
+(S)\,\,p_{t}=\kappa x_{t}+\frac{1}{1+\rho}\hat{\pi}_{t+1}+p_{t-1}+u_{t}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+On the demand curve, there is an inverse relation between the quantity demanded
+ and the price - negative slope curve (more like a usual supply-demand model,
+ but not exactly the same):
+\begin_inset Formula 
+\[
+(D)\,\,p_{t}=-\frac{1}{\vartheta}x_{t}-\frac{1}{\vartheta}i_{t}+e_{t}+\frac{1}{\vartheta}\hat{x}_{t+1}+\frac{1}{\vartheta}\hat{\pi}_{t+1}+p_{t}^{*}+\frac{1}{\vartheta}z_{t}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+An increase in the interest rate shifts it to the left, while an increase
+ in the exchange rate shifts it to the right.
+\end_layout
+
+\begin_layout Subsection
+Shocks Analysis
+\end_layout
+
+\begin_layout Standard
+Solving the equilibrium is similar to the closed economy, with 2 additional
+ steps:
+\end_layout
+
+\begin_layout Enumerate
+The UIP needs to be incorporated in the supplt/demand equations
+\end_layout
+
+\begin_layout Enumerate
+The exchange rate (
+\begin_inset Formula $e_{t}$
+\end_inset
+
+) needs to be calculated.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Shocks Analysis - Example
+\end_layout
+
+\begin_layout Enumerate
+Start with a steady state:
+\begin_inset Formula 
+\[
+\pi=x=i=z=u=v=f=0
+\]
+
+\end_inset
+
+(similar to the closed economy case).
+ Adding the foreign variables, we assume 
+\begin_inset Formula $p_{t}^{*}=i_{t}^{*}=0$
+\end_inset
+
+.
+ In the steady state, 
+\begin_inset Formula $p=e$
+\end_inset
+
+ must hold.
+\end_layout
+
+\begin_layout Enumerate
+Expectations are for the shocks to be temporary, thus the expected next
+ period values are the steady state values:
+\begin_inset Formula 
+\[
+\hat{x}_{t+1}=\hat{\pi}_{t+1}=0
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\hat{e}_{t+1}=\hat{p}_{t+1}
+\]
+
+\end_inset
+
+But as 
+\begin_inset Formula $\hat{p}_{t+1}=p_{t}$
+\end_inset
+
+, 
+\begin_inset Formula $\hat{e}_{t+1}=p_{t}$
+\end_inset
+
+ (we expect that the nominal exchange rate will be equal to the current
+ price).
+\end_layout
+
+\begin_layout Enumerate
+Values of lagged variables are irrelevant and can be assumed to equal 0.
+\end_layout
+
+\begin_layout Enumerate
+Include steps (2) and (3) in the equations:
+\begin_inset Formula 
+\[
+(S)\,\,p_{t}=\kappa x_{t}+\frac{1}{1+\rho}\hat{\pi}_{t+1}+p_{t-1}+u_{t}=\kappa x_{t}+u_{t}
+\]
+
+\end_inset
+
+(an upward curve, with a shock setting its location).
+\begin_inset Formula 
+\[
+(D)\,\,p_{t}=-\frac{1}{\vartheta}x_{t}-\frac{1}{\vartheta}i_{t}+e_{t}+\frac{1}{\vartheta}\hat{x}_{t+1}+\frac{1}{\vartheta}\hat{\pi}_{t+1}+p_{t}^{*}+\frac{1}{\vartheta}z_{t}=-\frac{1}{\vartheta}x_{t}-\frac{1}{\vartheta}i_{t}+e_{t}+\frac{1}{\vartheta}z_{t}
+\]
+
+\end_inset
+
+The demand depends 
+\series bold
+negatively
+\series default
+ on the interest rate, and 
+\series bold
+positively
+\series default
+ on the exchange rate.
+\begin_inset Formula 
+\[
+(UIP)\,\,e_{t}=\hat{e}_{t+1}-i_{t}+f_{t}=p_{t}-i_{t}+f_{t}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+(T)\,\,i_{t}=\phi_{\pi}\pi_{t}+\phi_{x}x_{t}+v_{t}
+\]
+
+\end_inset
+
+In case of a demand shock only, the equations become:
+\begin_inset Formula 
+\[
+(S)\,\,p_{t}=\kappa x_{t}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+(D)\,\,p_{t}=-\frac{1}{\vartheta}x_{t}-\frac{1}{\vartheta}i_{t}+e_{t}+\frac{1}{\vartheta}z_{t}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+(UIP)\,\,e_{t}=p_{t}-i_{t}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+(T)\,\,i_{t}=\phi_{\pi}\pi_{t}+\phi_{x}x_{t}
+\]
+
+\end_inset
+
+Intuitive graph analysis: demand curve shifts to the right, 
+\begin_inset Formula $z_{t}\uparrow$
+\end_inset
+
+ thus 
+\begin_inset Formula $p_{t}$
+\end_inset
+
+ and 
+\begin_inset Formula $x_{t}$
+\end_inset
+
+ increase.
+ Then:
+\begin_inset Formula 
+\[
+i_{t}\uparrow=\phi_{\pi}p_{t}\uparrow+\phi_{x}x_{t}\uparrow
+\]
+
+\end_inset
+
+and the demand curve shitft (partially) back to the left.
+ It is impossible to determine the effect on the nominal exchange rate.
+ Given that the price of the domestic good is in the denominator of the
+ exchange root, 
+\begin_inset Formula $e_{t}$
+\end_inset
+
+ will 
+\series bold
+probably
+\series default
+ go down (foreign goods become cheaper in terms of relative goods).
+ Up to this point everything is similar to a closed economy model, except
+ the downward sloping demand curve.
+ Regarding the real exchange rate (
+\begin_inset Formula $e_{t}$
+\end_inset
+
+) ? - TBD.
+\end_layout
+
+\begin_layout Enumerate
+Substituting 
+\begin_inset Formula $e_{t}=p_{t}-i_{t}$
+\end_inset
+
+ from the 
+\begin_inset Formula $UIP$
+\end_inset
+
+ into the demand equation:
+\begin_inset Formula 
+\[
+(D)\,\,p_{t}==-\frac{1}{\vartheta}x_{t}-\frac{1}{\vartheta}i_{t}+p_{t}-i_{t}+\frac{1}{\vartheta}z_{t}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+(D)\,\,x_{t}=-(1+\vartheta)i_{t}+z_{t}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Substituting 
+\begin_inset Formula $i_{t}=\phi_{\pi}p_{t}+\phi_{x}x_{t}$
+\end_inset
+
+ form Taylor rule to the demand equation:
+\begin_inset Formula 
+\[
+(D)\,\,x_{t}=-(1+\vartheta)\phi_{\pi}p_{t}-(1+\vartheta)\phi_{x}x_{t}+z_{t}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+p_{t}=-\frac{1+(1+\vartheta)\phi_{x}}{(1+\vartheta)\phi_{\pi}}+\frac{1}{(1+\vartheta)\phi_{\pi}}z_{t}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Equilibrium output and inflation (equating supply to demand):
+\begin_inset Formula 
+\[
+\kappa x_{t}=-\frac{1+(1+\vartheta)\phi_{x}}{(1+\vartheta)\phi_{\pi}}x_{t}+\frac{1}{(1+\vartheta)\phi_{\pi}}z_{t}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+x_{t}=\frac{1}{\kappa(1+\vartheta)\phi_{\pi}+1+(1+\vartheta)\phi_{x}}z_{t}
+\]
+
+\end_inset
+
+The coefficient is 
+\series bold
+positive
+\series default
+ - it would be very surprising to get an opposite result (i.e production
+ decrease as a result of demand shock).
+ Before proceeding to the final solution, a note about monetary policy:
+ the stronger its reaction, the smaller will be the effect of the demand
+ shock on output.
+ The same is true regarding prices (the new level will be closer to the
+ original one).
+\begin_inset Newline newline
+\end_inset
+
+Obtaining the price level by the supply curve:
+\begin_inset Formula 
+\[
+p_{t}=\kappa x_{t}=\frac{\kappa}{\kappa(1+\vartheta)\phi_{\pi}+1+(1+\vartheta)\phi_{x}}z_{t}
+\]
+
+\end_inset
+
+(positive coefficient as well).
+\end_layout
+
+\begin_layout Enumerate
+Substituting into Taylor rule, to get the interest rate:
+\begin_inset Formula 
+\[
+i_{t}=\frac{\phi_{\pi}\kappa+\phi_{x}}{\kappa(1+\vartheta)\phi_{\pi}+1+(1+\vartheta)\phi_{x}}z_{t}
+\]
+
+\end_inset
+
+(the coefficient is positive).
+\end_layout
+
+\begin_layout Enumerate
+Finally, the exchange rate is given by the UIP equation:
+\begin_inset Formula 
+\[
+e_{t}=\frac{(1-\phi_{\pi})\kappa-\phi_{x}}{\kappa(1+\vartheta)\phi_{\pi}+1+(1+\vartheta)\phi_{x}}z_{t}
+\]
+
+\end_inset
+
+As 
+\begin_inset Formula $\phi_{\pi}>1$
+\end_inset
+
+, the coefficient is 
+\series bold
+negative
+\series default
+.
+ The 
+\series bold
+real
+\series default
+ exchange rate goes down as well.
+\end_layout
+
+\end_body
+\end_document
