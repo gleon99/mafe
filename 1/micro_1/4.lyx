@@ -804,34 +804,7 @@ to each other
 \end_layout
 
 \begin_layout Standard
-The first welfare theorem:
-\end_layout
 
-\begin_layout Standard
-
-\series bold
-All competitive equilibria defina Pareto optimal allocations
-\end_layout
-
-\begin_layout Standard
-The intuition behind it is that 
-\series bold
-prices convey information
-\series default
- - they allow 
-\series bold
-decentralized communication
-\series default
- between agents.
-\end_layout
-
-\begin_layout Standard
-Decentralization is essential, because it would be extremely hard for a
- single player to solve the whole problem of the economy and find the equilibriu
-a.
- An enormous amount of misinformation would have been involved, while in
- the decentralized case there is no risk of deception, because everyone
- solves a small bit of the puzzle.
 \end_layout
 
 \end_body

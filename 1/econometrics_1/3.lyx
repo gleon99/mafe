@@ -827,7 +827,7 @@ goodness of fit
 \begin_inset Quotes erd
 \end_inset
 
- (the ration between the 
+ (the ratio between the 
 \series bold
 explained
 \series default
@@ -862,7 +862,7 @@ Properties of
 \begin_inset Formula $R^{2}$
 \end_inset
 
- is very useful: mathmatically it can be shown that it is the correlation
+ is very useful: mathematically it can be shown that it is the correlation
  between 
 \begin_inset Formula $Y$
 \end_inset

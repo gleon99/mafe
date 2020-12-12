@@ -805,6 +805,74 @@ It can be seen that a variance in each security introduces variance of the
 \begin_layout Standard
 Excel example - shows that Cocal Cola and Pepsi have high correlation, while
  Tesla & Pepsi have negative (close to 0) correlation.
+ An interesting result is that although Tesla stock is very fluctuating,
+ adding a Pepsi stock to portfolio would 
+\series bold
+reduce
+\series default
+ the fluctuations.
+\end_layout
+
+\begin_layout Standard
+We have seen that 
+\series bold
+even with a positive correlation
+\series default
+, holding a portfolio is better than having individual stocks.
+\end_layout
+
+\begin_layout Standard
+Suppose all stocks in the market have the same return - holding many of
+ them still 
+\series bold
+reduces fluctuations
+\series default
+.
+ It can be generalized to 
+\begin_inset Formula $n$
+\end_inset
+
+ stocks: if 
+\begin_inset Formula $X$
+\end_inset
+
+ is the vector of the proportions of each stock in the portfolio and 
+\begin_inset Formula $\Sigma$
+\end_inset
+
+ is the matrix of covariances (where 
+\begin_inset Formula $\sigma_{ik}^{2}$
+\end_inset
+
+ is the covariance of the 
+\begin_inset Formula $i$
+\end_inset
+
+-th and the 
+\begin_inset Formula $k$
+\end_inset
+
+-th stock), then:
+\begin_inset Formula 
+\[
+\sigma_{p}^{2}=X^{T}\Sigma X
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Or in the non-matrix form:
+\begin_inset Formula 
+\[
+\sigma_{p}^{2}=\sum_{i=1}^{n}x_{i}^{2}\sigma_{i}^{2}+\sum_{i=1}^{n}\sum_{j=1,j\neq1}^{n}x_{i}x_{j}\sigma_{ij}
+\]
+
+\end_inset
+
+
 \end_layout
 
 \end_body
