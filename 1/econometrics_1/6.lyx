@@ -1,0 +1,784 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+\usepackage{indentfirst}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2.5cm
+\topmargin 2.5cm
+\rightmargin 2.5cm
+\bottommargin 2.5cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Econometrics 1 - Lecture 6
+\end_layout
+
+\begin_layout Author
+Leonid Genkin
+\end_layout
+
+\begin_layout Section
+Hypothesis Testing - Several Parameters
+\end_layout
+
+\begin_layout Standard
+In some cases there is an interest in testing hypotheses of several popluation
+ parameters.
+ 2 types can be relevant:
+\end_layout
+
+\begin_layout Itemize
+An attempt to provide an answer regarding the 
+\series bold
+relation
+\series default
+ between the parameters (
+\begin_inset Quotes eld
+\end_inset
+
+single linear combination
+\begin_inset Quotes erd
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Itemize
+Joint hypotheses tests (
+\begin_inset Quotes eld
+\end_inset
+
+exclusion restrictions
+\begin_inset Quotes erd
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Single linear combination
+\end_layout
+
+\begin_layout Standard
+One common set of tests in MLR, which involve the 
+\begin_inset Formula $\beta_{j}\,\,=|\leq|\geq\,\,c\beta_{k}+k$
+\end_inset
+
+ expression for the null hypothesys (
+\begin_inset Formula $H_{0}$
+\end_inset
+
+) and the oppositve expression as 
+\begin_inset Formula $H_{1}$
+\end_inset
+
+.
+ The test statistic is then:
+\begin_inset Formula 
+\[
+t=\frac{(\hat{\beta}_{j}-c\hat{\beta}_{k})-(\beta_{j}-c\beta_{k})}{SE(\hat{\beta_{j}}-c\hat{\beta}_{k})}\sim t_{n-p-1}
+\]
+
+\end_inset
+
+(the second term is the value of the null hypothesis).
+ 
+\begin_inset Formula $n$
+\end_inset
+
+ is the number of observarions, 
+\begin_inset Formula $p$
+\end_inset
+
+ is the number of independent bariables in the MLR model.
+ 
+\begin_inset Formula $U\sim N(0,\sigma_{u}^{2})$
+\end_inset
+
+ but 
+\begin_inset Formula $\sigma$
+\end_inset
+
+ si unknown.
+\end_layout
+
+\begin_layout Standard
+One approach is to compute the sample value of the test statistic:
+\begin_inset Formula 
+\[
+t=\frac{(\hat{\beta}_{1}-20\hat{\beta}_{2})-0}{\sqrt{\hat{Var}(\hat{\beta_{1}})+20^{2}Var(\hat{\beta}_{2})-2\cdot1\cdot20\hat{Cov}(\hat{\beta_{1}},\hat{\beta}_{2}})}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The challenge here is 
+\series bold
+finding out the covariance
+\series default
+ (can use the 
+\begin_inset Formula $vcov()$
+\end_inset
+
+ method).
+\end_layout
+
+\begin_layout Standard
+After calculating 
+\begin_inset Formula $t$
+\end_inset
+
+, we check the probability to 
+\begin_inset Quotes eld
+\end_inset
+
+be on the left/right
+\begin_inset Quotes erd
+\end_inset
+
+ of it: 
+\begin_inset Formula $2(1-p_{t}(...))$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+An alternative approach is to use 
+\begin_inset Formula $linearHypothesis()$
+\end_inset
+
+ method from the 
+\series bold
+car
+\series default
+ package.
+\end_layout
+
+\begin_layout Subsection
+Multiple linear restrictions
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Exclusion restrictions
+\series default
+: the goal is to test whether a 
+\series bold
+set 
+\series default
+of independent vartiables 
+\series bold
+jointly
+\series default
+ has no partial effect on the dependent variable e.g
+\begin_inset Formula $\beta_{2}=\beta_{3}=0$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+General linear restrictions
+\series default
+: conduct a joint hypothesis tests e.g 
+\begin_inset Formula $\beta_{1}=1,\,\beta_{2}=3,\,\beta_{3}=0$
+\end_inset
+
+ or that is false.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+F-test
+\end_layout
+
+\begin_layout Standard
+The test statistic is:
+\begin_inset Formula 
+\[
+F_{STAT}=\frac{(SSR_{r}-SST_{ur})/q}{SSR_{ur}/(n-p-1)}\sim F_{q,n-p-1}
+\]
+
+\end_inset
+
+where 
+\begin_inset Formula $SSR_{r}$
+\end_inset
+
+ and 
+\begin_inset Formula $SSR_{ur}$
+\end_inset
+
+ are the sum of squared residuals of the (un)restricted model, 
+\begin_inset Formula $q$
+\end_inset
+
+ is the number of restrictions, 
+\begin_inset Formula $p$
+\end_inset
+
+ is the number of independent variables, 
+\begin_inset Formula $n$
+\end_inset
+
+ is the number of observarions and 
+\begin_inset Formula $n-p-1$
+\end_inset
+
+ is the denominator degrees of freedom.
+ The hypothesis is rejected for 
+\begin_inset Formula $F$
+\end_inset
+
+ that satisfy either 
+\begin_inset Formula $P(F_{STAT}>F)=pvalue\leq\alpha$
+\end_inset
+
+ or 
+\begin_inset Formula $F>F_{q,n-p-1,1-\alpha}$
+\end_inset
+
+.
+ F-test assumes normality! There is no approximation for it.
+\end_layout
+
+\begin_layout Subsection
+Chi-square test
+\end_layout
+
+\begin_layout Standard
+As 
+\begin_inset Formula $n\rightarrow\infty$
+\end_inset
+
+ 
+\series bold
+without
+\series default
+ any assumptions on 
+\begin_inset Formula $U$
+\end_inset
+
+ we can use the test with the statistic:
+\begin_inset Formula 
+\[
+V=\frac{(SSR_{r}-SSR_{ur})}{SSR_{ur}/(n-p-1)}\longrightarrow X_{q}^{2}
+\]
+
+\end_inset
+
+The hypothesis is rejected of 
+\begin_inset Formula $v$
+\end_inset
+
+ that satisfy either 
+\begin_inset Formula $P(V>v)=pvalue\leq\alpha$
+\end_inset
+
+ or 
+\begin_inset Formula $V>X_{q,1-\alpha}^{2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Heteroskedasticity
+\end_layout
+
+\begin_layout Standard
+Until now we assumed that the variance is constant (
+\series bold
+homoskedasticity
+\series default
+).
+ We need to adjust and allow the errors to be 
+\series bold
+different
+\series default
+.
+ Heteroskedasticity does not cause bias or inconsistency in the estimators.
+ The estimators of variances and standard errors are 
+\series bold
+biased 
+\series default
+and no longer valid for ocnstructing interval estimators and hypotheses
+ testing, and it cannot be solved by using a larger sample.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Heteroskedasticity-robust
+\series default
+ estimators of varianbes and standard errors are introduced, to allow 
+\series bold
+robust inference
+\series default
+.
+\end_layout
+
+\begin_layout Standard
+Recalling the MLR model,
+\begin_inset Formula 
+\[
+\hat{\beta}_{j}=\beta_{j}+\frac{\sum_{i=1}^{n}\hat{V}_{i,j}U_{i}}{\sum_{i=1}^{n}\hat{V}_{i,j}^{2}}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+Var(\hat{\beta}_{j}|X)=Var\left(\beta_{j}+\frac{\sum_{i=1}^{n}\hat{V}_{i,j}U_{i}}{\sum_{i=1}^{n}\hat{V}_{i,j}^{2}}|X\right)=\left(\frac{1}{\sum_{i=1}^{n}\hat{V}_{i,j}^{2}}\right)^{2}\sum_{i=1}^{n}\hat{V}_{i,j}^{2}Var(U_{i}|X)=
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In homoskedasticity case:
+\begin_inset Formula 
+\[
+=\frac{\sigma_{U}^{2}}{SSR_{X_{j}}}=\frac{\sigma_{U}^{2}}{SST_{X_{j}}(1-R_{X_{j}}^{2})}
+\]
+
+\end_inset
+
+In heteroskedasticity case we get (
+\series bold
+not
+\series default
+ assuming that the variance is constant):
+\begin_inset Formula 
+\[
+...=\frac{\sum_{i=1}^{n}\hat{V}_{i,j}^{2}\sigma_{U_{i}}^{2}}{SSR_{X_{j}}^{2}}=\frac{\sum_{i=1}^{n}\hat{V_{i,j}}^{2}\sigma_{U_{i}}^{2}}{SST_{X_{j}}^{2}(1-R_{X_{j}}^{2})^{2}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+More generally, the variance is given by:
+\begin_inset Formula 
+\[
+Var(\hat{\beta}|X)=Var[(X^{X}X)^{-1}X^{T}Y|X]=Var[(X^{T}X)^{-1}X^{T}(X\beta+U)|X]=
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+Var[(X^{T}X)^{-1}X^{T}U|X]=(X^{T}X)^{-1}X^{T}Var(U|X)X(X^{T}X)^{-1}
+\]
+
+\end_inset
+
+Recalling, variance of a constant matrix 
+\begin_inset Formula $M$
+\end_inset
+
+ times a random vector 
+\begin_inset Formula $X$
+\end_inset
+
+ is given by 
+\begin_inset Formula $M\cdot Var(X)\cdot M^{T}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Under homoskedasticity we could assume:
+\begin_inset Formula 
+\[
+Var(U|X)=E(U\cdot U^{T})=\left[\begin{array}{ccc}
+\sigma_{U}^{2} & \cdots & 0\\
+\vdots & \ddots & \vdots\\
+0 & \cdots & \sigma_{U}^{2}
+\end{array}\right]=\sigma_{U}^{2}\cdot I_{n}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+Var(\hat{\beta}|X)=(X^{T}X)^{-1}X^{T}\sigma_{U}^{2}I_{n}X(X^{T}X)^{-1}=\sigma_{U}^{2}(X^{T}X)^{-1}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+However, under heteroskedasticity we cannot assume that:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+Var(U|X)=E(U\cdot U^{T}|X)=\left[\begin{array}{ccc}
+\sigma_{U_{1}}^{2} & \cdots & 0\\
+\vdots & \ddots & \vdots\\
+0 & \cdots & \sigma_{U_{n}}^{2}
+\end{array}\right]=\Omega
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+Var(\hat{\beta}|X)=(X^{T}X)^{-1}X^{T}\Omega X(X^{T}X)^{-1}\Rightarrow\Omega=diag(\hat{\sigma}_{U_{1}}^{2},\cdots,\hat{\sigma}_{U_{n}}^{2})=?
+\]
+
+\end_inset
+
+The problem is that the variances of 
+\begin_inset Formula $\hat{\beta_{j}}$
+\end_inset
+
+ are 
+\series bold
+functions
+\series default
+ of the variances of the errors 
+\begin_inset Formula $U_{i}$
+\end_inset
+
+ (
+\begin_inset Formula $\sigma_{U}^{2}$
+\end_inset
+
+ or 
+\begin_inset Formula $\sigma_{U_{t}}^{2}$
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Standard
+Under homoskedasticity we could write:
+\begin_inset Formula 
+\[
+\hat{Var}(\hat{\beta}|X)=\hat{\sigma}_{U}^{2}(X^{T}X)^{-1}\Rightarrow\hat{\sigma}_{U}^{2}=\frac{\hat{U}^{T}U}{n-p-1}=\frac{\sum_{i=1}^{n}\hat{U}_{i}^{2}}{n-p-1}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+But under 
+\series bold
+heteroskedasticity 
+\series default
+it 
+\series bold
+cannot 
+\series default
+be collapsed.
+\end_layout
+
+\begin_layout Standard
+The question is: 
+\series bold
+how can we estimate this diagonal
+\series default
+? The most commom methods are:
+\begin_inset Formula 
+\[
+HC0:\,\,\hat{\sigma}_{U_{i}}^{2}=\hat{U}_{i}^{2}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+HC1:\,\,\hat{\sigma}_{U_{i}}^{2}=\frac{n}{n-p-1}\hat{U}_{i}^{2}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+HC2:\,\,\hat{\sigma}_{U_{i}}^{2}=\frac{1}{1-h_{i}}\hat{U}_{i}^{2}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+HC3:\,\,\hat{\sigma}_{U_{i}}^{2}=\frac{1}{(1-h_{i})^{2}}\hat{U}_{i}^{2}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+HC4:\,\,\hat{\sigma}_{U_{i}}^{2}=\frac{1}{(1-h_{i})^{\delta_{i}}\hat{U}_{i}^{2}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The common practice is to use 
+\begin_inset Formula $HC0$
+\end_inset
+
+.
+ When dealing with a very small sample, other method may fit.
+\end_layout
+
+\begin_layout Standard
+Normality of the errors (or large 
+\begin_inset Formula $n$
+\end_inset
+
+) is still assumed:
+\begin_inset Formula 
+\[
+U|X_{1},\ldots,X_{p}\sim N(0,\sigma_{U}^{2}(X_{1},\ldots,X_{p}))
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Application in 
+\begin_inset Formula $R$
+\end_inset
+
+ is done by using the 
+\begin_inset Formula $sandwich$
+\end_inset
+
+ package.
+\end_layout
+
+\begin_layout Subsection
+Common tests for heteroskedasticity
+\end_layout
+
+\begin_layout Subsubsection
+The Breush-Pagan test
+\begin_inset Formula 
+\[
+H_{0}:Var(u|x_{1},\ldots x_{k})=\sigma^{2}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+H_{0}:E(u^{2}|x_{1},\ldots x_{k})=E(u^{2})=\sigma^{2}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The hypothesis is that the errors are constant.
+ Test it, and if rejected - use robust standard errors.
+\end_layout
+
+\begin_layout Subsubsection
+The White test
+\end_layout
+
+\begin_layout Standard
+Esitmate the model, and run the regression in the equation:
+\begin_inset Formula 
+\[
+\hat{u}^{2}=\delta_{0}+\delta_{1}\hat{y}+\delta_{2}\hat{y}^{2}+error
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Test that hypothesis, and if rejected - use robust errors.
+\end_layout
+
+\begin_layout Subsection
+Interval estimation
+\end_layout
+
+\begin_layout Standard
+In financial datasets it is possible that the conditional:
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Variance
+\series default
+ is not constant (heteroskedasticity of the 
+\begin_inset Formula $U$
+\end_inset
+
+s)
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Covariance
+\series default
+ is different from 0 (cross-sectional correlation among 
+\begin_inset Formula $U$
+\end_inset
+
+s).
+\end_layout
+
+\begin_layout Standard
+A leading approach to estimate errors which are not only heteroskedastic
+ but also corss-sectionally correlated relies on 
+\series bold
+clustering
+\series default
+ the errors (along some cross-sectional dimension - i.e grouping them).
+\end_layout
+
+\begin_layout Standard
+Application in 
+\begin_inset Formula $R$
+\end_inset
+
+ is done using the 
+\begin_inset Formula $felm()$
+\end_inset
+
+ function form the 
+\begin_inset Formula $lfe$
+\end_inset
+
+ package.
+\end_layout
+
+\begin_layout Standard
+The homework will be until the beginning of the second mini-semester.
+ 
+\end_layout
+
+\end_body
+\end_document

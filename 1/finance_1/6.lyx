@@ -1,0 +1,441 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+\usepackage{indentfirst}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2.5cm
+\topmargin 2.5cm
+\rightmargin 2.5cm
+\bottommargin 2.5cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Finance 1 - Lecture 6
+\end_layout
+
+\begin_layout Author
+Leonid Genkin
+\end_layout
+
+\begin_layout Section
+The Final Project
+\end_layout
+
+\begin_layout Standard
+Any platform can be used to find the relevant information.
+ The source of information must be mentioned.
+ Information on bonds might be harder to find.
+ FINRA contracted with morningstar.com - the information is available there.
+\end_layout
+
+\begin_layout Section
+Evaluation of Risky Projects and CAPM - Continued
+\end_layout
+
+\begin_layout Subsection
+Diversification
+\end_layout
+
+\begin_layout Standard
+In the last lecture we established the 
+\series bold
+covariance
+\series default
+ as the extent to which 2 stocks move together and generalized it to the
+ covariance matrix of multiple stocks in order to calculate its SD.
+\end_layout
+
+\begin_layout Standard
+A particularly intersting case is a portfolio which consists of each stock,
+ weighed equally (
+\begin_inset Formula $x_{i}=1/n$
+\end_inset
+
+).
+ Then we get:
+\begin_inset Formula 
+\[
+\sigma_{o}^{2}=\sum_{i=1}^{n}\left(\frac{1}{n}\right)^{2}\sigma_{i}^{2}+\sum_{i=1}^{n}\sum_{j=1,i\neq j}^{n}\left(\frac{1}{n}\right)^{2}\sigma_{ij}=\frac{1}{n}\bar{\sigma}^{2}+\frac{n-1}{n}\bar{\sigma_{ij}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+where:
+\begin_inset Formula 
+\[
+\bar{\sigma}^{2}=\frac{1}{n}\sum_{i=1}^{n}\sigma_{i}^{2},\,\,\bar{\sigma_{ij}}=\frac{\sum_{i=1}^{n}\sum_{j=1,i\neq j}^{n}\sigma_{ij}}{n(n-1)}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+It is a very important result.
+ When having an enough diversified portfolio, we do not care about the volatilit
+y of each individual stock, as they cancel each other.
+\end_layout
+
+\begin_layout Standard
+When considering adding a stock to a portfolio, its volatility is not a
+ reason to not add it.
+ What is relevant is its 
+\series bold
+covariance
+\series default
+ with the rest of the stocks.
+ As 
+\begin_inset Formula $n\rightarrow\infty$
+\end_inset
+
+, the portfolio variance converges to the average covariance:
+\begin_inset Formula 
+\[
+\sigma_{p}^{2}\rightarrow\bar{\sigma_{ij}}=\bar{COV}(r_{i},r_{j})
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Consider the special case when the investments are totally uncorrelated:
+ then we end up with no risk at all.
+\end_layout
+
+\begin_layout Standard
+If everyone knows about that, a price tag can be put on that portfolio.
+ The equilibrium will be when everyone owes portfolio (no single stocks
+ ownership).
+ The question is, therefore: what discount rate should be on it?
+\end_layout
+
+\begin_layout Standard
+Variance is important if and only if a single stock is considered.
+ When 
+\begin_inset Formula $n>30$
+\end_inset
+
+ ans securities are chosen randomly, a portfolio can be considered well-diversif
+ied.
+\end_layout
+
+\begin_layout Subsection
+Risk of individual securities
+\end_layout
+
+\begin_layout Standard
+Investors hold diversified portfolios, because of risk aversion.
+ Actually, the SD measure the total risk 
+\series bold
+in isolation
+\series default
+, and is no the relevant measure of risk of a security.
+\end_layout
+
+\begin_layout Standard
+Thus another measure is needed - how much risk a single asset contributes
+ to the market portfolio (the portfolio of 
+\series bold
+every security in the market
+\series default
+).
+\end_layout
+
+\begin_layout Standard
+Consider the market portfolio with the variance 
+\begin_inset Formula $\sigma_{m}^{2}$
+\end_inset
+
+.
+ Replacing a tiny amount from it with another security i in a very small
+ proportion 
+\begin_inset Formula $\alpha_{i}$
+\end_inset
+
+, the variance will be:
+\begin_inset Formula 
+\[
+\sigma_{p}^{2}=(1-\alpha_{i})^{2}\sigma_{m}^{2}+\alpha_{i}^{2}\sigma_{i}^{2}+2(1-\alpha_{i})\alpha_{i}\sigma_{mi}\approx\sigma_{m}^{2}+2\alpha_{i}(\sigma_{mi}-\sigma_{m}^{2})
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In covariance is 0, one should get the risk rate.
+\end_layout
+
+\begin_layout Standard
+The change in the variance as the result of adding the security is given
+ by:
+\begin_inset Formula 
+\[
+2\alpha_{i}(\sigma_{mi}-\sigma_{m}^{2})
+\]
+
+\end_inset
+
+which means that the added risk is the difference between the portion taken
+ away form the market portfolio.
+ Normalization is done in order to obation a measure of 
+\series bold
+risk per unit
+\series default
+, :
+\begin_inset Formula 
+\[
+2\alpha_{i}\left(\frac{\sigma_{mi}}{\sigma_{m}^{2}}-1\right)
+\]
+
+\end_inset
+
+Thus, the measure for the risk of (adding) a security is:
+\begin_inset Formula 
+\[
+\beta_{i}=\frac{\sigma_{mi}}{\sigma_{m}^{2}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The risk premium for an asset is its 
+\begin_inset Formula $\beta_{i}$
+\end_inset
+
+ times the market risk premium.
+ The 
+\series bold
+market
+\series default
+ risk premium is the expected rate of return on the market, minus the riskless
+ rate of return: 
+\begin_inset Formula $r_{m}-r_{f}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+r_{i}=r_{t}+\beta_{i}\times(r_{m}-r_{f})
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+CAPM Estimation
+\end_layout
+
+\begin_layout Standard
+The expected market risk premium, 
+\begin_inset Formula $r_{m}-r_{f}$
+\end_inset
+
+ can be estimated by looking at historical data.
+ Longer data providesmore accurate statistic, but might be less predictive.
+ Books usually recommend 
+\begin_inset Formula $5.5\%-7\%$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+In order to incorporate systematic and specific risks in DCF valuations,
+ we need to valvulate value as the expected cash flow, divided by the cost
+ of capital.
+\end_layout
+
+\begin_layout Subsection
+Portfolio Theory - The Efficient Frontier
+\end_layout
+
+\begin_layout Standard
+Consider 2 stocks with 
+\begin_inset Formula $r_{a}=10\%,\,r_{b}=20\%,\,\sigma_{a}=20\%,\,\sigma_{b}=40\%$
+\end_inset
+
+..
+ Which combination would be the best choice, given the correlation between
+ them? Tweaking various proportions of the stocks in the portfolio, when
+ the correlation is 
+\begin_inset Formula $-1$
+\end_inset
+
+ it is possible to construct a portfolio that yields 
+\begin_inset Formula $SD=0$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Now, consider adding a third stock, which is not perfecty correlated - we
+ can improve the portfolio even more.
+\end_layout
+
+\begin_layout Standard
+The 
+\series bold
+efficient frontier
+\series default
+ represents the best achievable risk-return tradeoff by holding a portfolio
+ of 
+\series bold
+risky assets
+\series default
+.
+\end_layout
+
+\begin_layout Standard
+Most single assets will be on that frontier.
+\end_layout
+
+\begin_layout Standard
+An 
+\series bold
+efficient portfolio
+\series default
+ is one that leads to an expected return and 
+\begin_inset Formula $SD$
+\end_inset
+
+ on the frontier.
+\end_layout
+
+\begin_layout Standard
+Suppose there is access to riskless security i.e treasury bonds - can we
+ improve the portfolio by adding them?
+\end_layout
+
+\begin_layout Standard
+It allows to achieve a better risk-return relation.
+ If everyone holds the market portfolio, it must be 
+\series bold
+the equilibrium
+\series default
+, so that is the 
+\series bold
+marjet portfolio
+\series default
+.
+ In practice, people do not have much inside information and tend to pick
+ from the 
+\series bold
+tangent menu
+\series default
+.
+ The 
+\series bold
+capital market line (CML)
+\series default
+ equation give the best frontier:
+\begin_inset Formula 
+\[
+r_{p}=r_{f}+\frac{r_{m}-r_{f}}{\sigma_{m}}\sigma_{p}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Given different secuirities, it is possible to find the best portfolio.
+ It has nothing to do with th equilibrium.
+ If everyone does it - it will end up being the market portfolio.
+\end_layout
+
+\end_body
+\end_document
