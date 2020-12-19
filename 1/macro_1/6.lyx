@@ -1,0 +1,334 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+\usepackage{indentfirst}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2.5cm
+\topmargin 2.5cm
+\rightmargin 2.5cm
+\bottommargin 2.5cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Macroeconomics 1 - Lecture 6
+\end_layout
+
+\begin_layout Author
+Leonid Genkin
+\end_layout
+
+\begin_layout Section
+Homework 5 Solution
+\end_layout
+
+\begin_layout Subsection
+Question 1
+\end_layout
+
+\begin_layout Standard
+The domestic good become more scarce (there is less production), hence their
+ relative oruce increases.
+\end_layout
+
+\begin_layout Standard
+The effect of 
+\begin_inset Formula $u$
+\end_inset
+
+ in the open economy is stronger than in the closed economy case, because
+ people have 
+\series bold
+alternatives
+\series default
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\phi_{\pi}$
+\end_inset
+
+ can be defined as the 
+\begin_inset Quotes eld
+\end_inset
+
+sensitivity to the domestic price
+\begin_inset Quotes erd
+\end_inset
+
+, while 
+\begin_inset Formula $\phi_{x}$
+\end_inset
+
+ is the sensitivity to the economy output.
+ 
+\begin_inset Formula $\kappa$
+\end_inset
+
+ is a coefficient in the supply curve, which measures by how much firms
+ increase prices when the demand increases by 1%.
+ It reflects the marginal cost of the firms, and the number of firms who
+ are able to change their prices.
+\end_layout
+
+\begin_layout Subsection
+Question 2
+\end_layout
+
+\begin_layout Standard
+The intuition is that investors will take money from the places where the
+ interest rate has decreased, and shift them to other economies (where it
+ is still at the same level).
+ Domestic goods beomc more expensive, thus they are less demanded.
+\end_layout
+
+\begin_layout Standard
+From the CB perspective: the obvious solution is to reduce the interest
+ rate by the same amount as the shock, yet, surprisingly, there is a better
+ answer - decrease the interest rate by a coefficient less than 1.
+\end_layout
+
+\begin_layout Subsection
+Question 3
+\end_layout
+
+\begin_layout Section
+Shocks to the Risk Premium
+\end_layout
+
+\begin_layout Standard
+Recalling, the UIP is the return on domestic bonds, compared to the return
+ on foreign bonds in terms of the domestic currency, 
+\series bold
+plus a premium
+\series default
+:
+\begin_inset Formula 
+\[
+i_{t}=i_{t}^{*}+\hat{e}_{t+1}-e_{t}+f_{t}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $f_{t}$
+\end_inset
+
+ is the difference between the domestic risk premium and the foreign one.
+ It may be caused by the government or a policy of the CB (e.g bonds selling
+ to purchase foreign exchange - addressed in the 
+\begin_inset Quotes eld
+\end_inset
+
+two goods model
+\begin_inset Quotes erd
+\end_inset
+
+ discussion).
+\end_layout
+
+\begin_layout Standard
+It the CB sells bonds, the public needs to be willing to absorb and accept
+ these bonds.
+ The payment for them comes in the form of a higher interest rate, which
+ is required by the market.
+\end_layout
+
+\begin_layout Standard
+Solution of the model for this shock is done by rewriting the above equation
+ as:
+\begin_inset Formula 
+\[
+i_{t}=i_{t}^{*}+f_{t}+\hat{e}_{t+1}-e_{t}
+\]
+
+\end_inset
+
+A positive shock to 
+\begin_inset Formula $f_{t}$
+\end_inset
+
+ has the same effect as shock to 
+\begin_inset Formula $i_{t}^{*}$
+\end_inset
+
+: increasing 
+\begin_inset Formula $f_{t}$
+\end_inset
+
+, while holding 
+\begin_inset Formula $i_{t}$
+\end_inset
+
+ constant means that 
+\begin_inset Formula $e_{t}$
+\end_inset
+
+ must increase.
+\end_layout
+
+\begin_layout Section
+A Country in the Euro Zone 
+\end_layout
+
+\begin_layout Standard
+What happens in an ecnomy in the Euro zone, when the exchange rate is fixed,
+ and monetary policy cannot be conducted?
+\end_layout
+
+\begin_layout Standard
+There is no Taylor rule in this model.
+ Consider, for example, a demand shock 
+\begin_inset Formula $z_{t}$
+\end_inset
+
+.
+ Assuming 
+\begin_inset Formula $i_{t}^{*}=0$
+\end_inset
+
+, the equations are:
+\begin_inset Formula 
+\[
+(S)\,\,p_{t}=\kappa x_{t}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+(D)\,\,p_{t}=-\frac{1}{\vartheta}x_{t}-\frac{1}{\vartheta}i_{t}+\frac{1}{\vartheta}z_{t}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+(IP)\,\,i_{t}=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Solving the model and substituting the numerical values yields:
+\begin_inset Formula 
+\[
+x_{t}=\left(\frac{1}{\kappa\vartheta+1}\right)z_{t}=0.836z_{t}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+p_{t}=\left(\frac{\kappa}{\kappa\vartheta+1}\right)z_{1}=0.544z_{t}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In the standard open economy the results were:
+\begin_inset Formula 
+\[
+x_{t}=0.343z_{t};\,\,p_{t}=0.223z_{t}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Thus, an interesting conclusion is that such county is more unstable, and
+ susceptible to demand shocks.
+ The reason is that such country is unable to stabilize via monetary policy
+ or exchange rate.
+\end_layout
+
+\end_body
+\end_document

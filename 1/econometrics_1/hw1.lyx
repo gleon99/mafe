@@ -1,0 +1,698 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+\usepackage{indentfirst}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2.5cm
+\topmargin 2.5cm
+\rightmargin 2.5cm
+\bottommargin 2.5cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Econometrics 1 - Homework 1
+\end_layout
+
+\begin_layout Author
+Leonid Genkin
+\end_layout
+
+\begin_layout Section*
+Question 1
+\end_layout
+
+\begin_layout Subsection*
+(1)
+\end_layout
+
+\begin_layout Standard
+The coefficients estimates, 
+\begin_inset Formula $R^{2}$
+\end_inset
+
+ and adjusted 
+\begin_inset Formula $R^{2}$
+\end_inset
+
+ are:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename hw1q1p1.jpg
+	scale 80
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+We learn from the estimates that:
+\end_layout
+
+\begin_layout Itemize
+A 1% increase in size causes a -0.14% decrease in average monthly return.
+\end_layout
+
+\begin_layout Itemize
+A 1% increase in BTM or BTM causes a 0.148% increase in average monthly return.
+\end_layout
+
+\begin_layout Itemize
+Having a negative ETP adds 0.424% to the average monthly return.
+\end_layout
+
+\begin_layout Itemize
+A 1% increase in ETP decreases the average monthly return by 2.235%.
+\end_layout
+
+\begin_layout Itemize
+The accuracy of the model is low.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+(2)
+\end_layout
+
+\begin_layout Standard
+The coefficients estimates, 
+\begin_inset Formula $R^{2}$
+\end_inset
+
+ and adjusted 
+\begin_inset Formula $R^{2}$
+\end_inset
+
+ are:
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\begin_inset Graphics
+	filename hw1q1p2.jpg
+	scale 80
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+We can see that 
+\begin_inset Formula $R^{2}$
+\end_inset
+
+ is the same as in part (1), and adjusted 
+\begin_inset Formula $R^{2}$
+\end_inset
+
+ is even less - which implies that this model is 
+\series bold
+less accurate
+\series default
+.
+\end_layout
+
+\begin_layout Subsection*
+(3)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="4" columns="2">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Predicted mean value
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Number of firms 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1.41107
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+939
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.6569181
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1244
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1.080885 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1067
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+It is unclear from the question what exactly 
+\begin_inset Quotes eld
+\end_inset
+
+How many firms meet this criterion
+\begin_inset Quotes erd
+\end_inset
+
+ means (critetion of independent variables values? or of future stock returns?),
+ thus is is assumed that the meaning is the latter one, as it makes more
+ sense from an analytical point of view.
+\end_layout
+
+\begin_layout Standard
+The conclusion is that it is better to invest in 
+\series bold
+small
+\series default
+ companies with 
+\series bold
+high BTM 
+\series default
+ratio and 
+\series bold
+high ETP
+\series default
+ ratio.
+\end_layout
+
+\begin_layout Standard
+Using the other interpretation of the question (how many firms meet the
+ criterion of having 
+\series bold
+their exact value match
+\series default
+ the required values) is obviously 0 (as shown in R code - no firms fulfill
+ even the first condition), because a sample cannot perfeclty match the
+ average 
+\begin_inset Quotes eld
+\end_inset
+
+by coincidence
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection*
+(4)
+\end_layout
+
+\begin_layout Standard
+-
+\end_layout
+
+\begin_layout Subsection*
+(5)
+\end_layout
+
+\begin_layout Standard
+The resulting model yields even lower value of adjusted 
+\begin_inset Formula $R^{2}$
+\end_inset
+
+, which implies it is worse:
+\end_layout
+
+\begin_layout Subsubsection*
+(i)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename hw1q1p5.jpg
+	scale 80
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+(ii)
+\end_layout
+
+\begin_layout Standard
+The resulting model does not improve 
+\begin_inset Formula $R^{2}$
+\end_inset
+
+ as well:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename hw1q1p5a.jpg
+	scale 80
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+(iii)
+\end_layout
+
+\begin_layout Standard
+The VIFs are:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+log(Size):1.050509;\,\,\,\,log(BTM):1.054069,\,\,\,\,OACC:1.004485
+\]
+
+\end_inset
+
+which means that these variable have low multicolinearity and are appropriate
+ for the model.
+\end_layout
+
+\begin_layout Subsection*
+(6)
+\end_layout
+
+\begin_layout Standard
+The results are:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename hw1q1p6.jpg
+	scale 80
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The standard error values are 
+\begin_inset Formula $0.05784$
+\end_inset
+
+ (for size) and 
+\begin_inset Formula $0.13500$
+\end_inset
+
+ (for BTM).
+ We learn from this estimates that the precision is quite good.
+\end_layout
+
+\begin_layout Subsection*
+(7)
+\end_layout
+
+\begin_layout Standard
+The results are:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename hw1q1p7.jpg
+	scale 80
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+It can be clearly seen that there is indeed a significant interaction effect
+ between the stock exchange and BTM.
+\end_layout
+
+\begin_layout Subsection*
+(8)
+\end_layout
+
+\begin_layout Subsubsection*
+1.
+\end_layout
+
+\begin_layout Standard
+MLR.3 says that there should not be (perfect) collinearity between the independen
+t variables.
+ As our model tries to confirm that exact hypothesis, it might be that it
+ does include collinear variables.
+ In such case the model is supposed to go through the origin, thus an intercept
+ is not needed.
+ This model might be worse for 
+\series bold
+predicting
+\series default
+ values, but it is good enough for the specific purpose of 
+\series bold
+veifying collinearity
+\series default
+.
+\end_layout
+
+\begin_layout Subsubsection*
+2.
+\end_layout
+
+\begin_layout Standard
+If the estimation was done with an intercept, it might have lead to an incorrect
+ result regarding the collinearity conclusion.
+\end_layout
+
+\begin_layout Subsubsection*
+3.
+\end_layout
+
+\begin_layout Standard
+The equation in (7) indeed lacks an intercept, it is obvious from its algebric
+ form (when plugging all values set to 0, the estimated result must be 0).
+\end_layout
+
+\begin_layout Standard
+The fitting of the values obviously 
+\begin_inset Quotes eld
+\end_inset
+
+needs
+\begin_inset Quotes erd
+\end_inset
+
+ an intercept (although in reality it is meaningless to have data points
+ with all values equal to 0, this intercept will 
+\begin_inset Quotes eld
+\end_inset
+
+absorbs
+\begin_inset Quotes erd
+\end_inset
+
+ all errors ensuring the 
+\begin_inset Formula $E[U]=0$
+\end_inset
+
+), but we force fitting without it in order to check collinearity, thus
+ the fit has 
+\begin_inset Formula $E[U]\neq0$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Section*
+Question 2
+\end_layout
+
+\begin_layout Subsection*
+(1)
+\end_layout
+
+\begin_layout Description
+\begin_inset Formula $\beta_{0}$
+\end_inset
+
+ The intercept.
+ It measures the average expected value of 
+\begin_inset Formula $log(SALARY)$
+\end_inset
+
+ when all sample value equal 0 (i.e a CEO who hasn't attended college, 
+\begin_inset Formula $log(SALES)=log(PROFITS)=0$
+\end_inset
+
+, CEO tenure is 0).
+ In other words, the average expected salary for such case is given by 
+\begin_inset Formula $exp(\beta_{0})$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+\begin_inset Formula $\beta_{1}$
+\end_inset
+
+ Mesaure of by how many % (on average - expected value) the CEO salary increases
+ if she attended college (dummy variable)
+\end_layout
+
+\begin_layout Description
+\begin_inset Formula $\beta_{2}$
+\end_inset
+
+ Measure of by how many % (on average - expected value) the CEO salary increases
+ when 1990 firm sales increase by %
+\end_layout
+
+\begin_layout Description
+\begin_inset Formula $\beta_{3}$
+\end_inset
+
+ Measure of by how many % (on average - expected value) the CEO salary increases
+ when 1990 firm sales increase by %
+\end_layout
+
+\begin_layout Description
+\begin_inset Formula $\beta_{4}$
+\end_inset
+
+ Measure of by how many % (on average - expected value) the CEO salary increases
+ for each year of the CEO tenure
+\end_layout
+
+\begin_layout Description
+\begin_inset Formula $\beta_{5}$
+\end_inset
+
+ Measure of by how many % (on average - expected value) the CEO salary increases
+ for each year of the squared CEO tenure
+\end_layout
+
+\begin_layout Subsection*
+(2)
+\end_layout
+
+\begin_layout Standard
+There is no meaning in applying 
+\begin_inset Formula $log$
+\end_inset
+
+ on negative values, thus they are removed.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename hw1q2p2.jpg
+	scale 80
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+(3)
+\end_layout
+
+\begin_layout Standard
+Using MOM, the estimated salary is 915 ($ thousands).
+\end_layout
+
+\begin_layout Subsection*
+(4)
+\end_layout
+
+\begin_layout Standard
+The intuitive answer would be that this model is less accurate.
+ We would expect to see a 
+\begin_inset Formula $log$
+\end_inset
+
+ variable as the dependent varibale.
+\end_layout
+
+\begin_layout Standard
+The pseudo 
+\begin_inset Formula $R^{2}$
+\end_inset
+
+ value of the model using equation 1 is 
+\begin_inset Formula $0.289$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+The 
+\begin_inset Formula $R^{2}$
+\end_inset
+
+ value using equation 2 is 
+\begin_inset Formula $0.2301$
+\end_inset
+
+, and indeed in provides a worse model.
+\end_layout
+
+\end_body
+\end_document

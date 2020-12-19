@@ -1,0 +1,559 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+\usepackage{indentfirst}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2.5cm
+\topmargin 2.5cm
+\rightmargin 2.5cm
+\bottommargin 2.5cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Financial Accounting 1 - Lecture 6
+\end_layout
+
+\begin_layout Author
+Leonid Genkin
+\end_layout
+
+\begin_layout Section
+\begin_inset Quotes eld
+\end_inset
+
+The Numbers Game
+\begin_inset Quotes erd
+\end_inset
+
+ - Earnings Management - Continued
+\end_layout
+
+\begin_layout Subsection
+Common Earning Management Practices
+\end_layout
+
+\begin_layout Subsubsection
+Creative Aquisition Accounting
+\end_layout
+
+\begin_layout Standard
+When acquiring an R&D company, part of the price will be for projects which
+ do not pefrom at the moment (but are supposed to in the future).
+\end_layout
+
+\begin_layout Standard
+When buying a company, we buy the performing projects, its infrastructure,
+ but also 
+\begin_inset Quotes eld
+\end_inset
+
+in-process R&D
+\begin_inset Quotes erd
+\end_inset
+
+.
+ When allocating some of the cost for that, it will initially appear as
+ an 
+\series bold
+asset
+\series default
+ in the B/S.
+ As time goes by, this asset is consumed and 
+\begin_inset Quotes eld
+\end_inset
+
+converted
+\begin_inset Quotes erd
+\end_inset
+
+ to income.
+\end_layout
+
+\begin_layout Standard
+Unlike that, when doing our 
+\series bold
+own
+\series default
+ R/D - it is considered an 
+\begin_inset Quotes eld
+\end_inset
+
+expense
+\begin_inset Quotes erd
+\end_inset
+
+ and usually cannot be listed as an 
+\begin_inset Quotes eld
+\end_inset
+
+asset
+\begin_inset Quotes erd
+\end_inset
+
+, because of accounting conservatism (rules say to do so, because of uncertainit
+y regarding whether it will bring future revenue).
+\end_layout
+
+\begin_layout Standard
+When applying the 
+\begin_inset Quotes eld
+\end_inset
+
+creative acquisition technique
+\begin_inset Quotes erd
+\end_inset
+
+ - in year 1 the earnings will be worse, but expenses can be written off
+ as 
+\begin_inset Quotes eld
+\end_inset
+
+acquisition costs
+\begin_inset Quotes erd
+\end_inset
+
+.
+ But afterwards the performance will be better in this option.
+\end_layout
+
+\begin_layout Standard
+Example with Gilead Sciences: GAAP numbers show loss, while non-GAAP presents
+ net income (they exclude the one-time costs).
+\end_layout
+
+\begin_layout Standard
+Companies have been doing it for a long time - enjoy one-time write-off
+ and increased future income, but at the moment this practice is not allowed
+ anymore.
+\end_layout
+
+\begin_layout Subsubsection
+Premature Recognition of Revenue
+\end_layout
+
+\begin_layout Standard
+Most of what we did so far was to delay income (report higher income in
+ the future).
+ Now we will go the other way round.
+\end_layout
+
+\begin_layout Standard
+An example with Xerox: the contracts are in form of 
+\series bold
+lease
+\series default
+.
+ Signing a contract with a large corporation to install and maintain copy
+ machines in all its branches.
+ From accounting perspective, some of that money will be recorded as revenue,
+ and the remaining part is unearned revenue.
+ As time passes, it becomes revenue.
+ A crucial part here is that the contract includes 
+\series bold
+future
+\series default
+ components.
+ Taking it to the extreme, one can get the cash and record the whole amount
+ as a revenue.
+ In this way, instead of spreading it over time, it can be immediately recognize
+d.
+ It is 
+\series bold
+illegal
+\series default
+ (Xerox paid the largest financial fraud penalty ever).
+\end_layout
+
+\begin_layout Standard
+In Q1 '97 Xerox performed slightly above market expectations, which lead
+ to even higherer expectations for the future, thus they started 
+\begin_inset Quotes eld
+\end_inset
+
+making up
+\begin_inset Quotes erd
+\end_inset
+
+ earnings.
+ From the manager's perspective the incentive is that they are judged on
+ a short-term basis.
+ Yet from accounting perspective, it obviously cannot be done forever (
+\begin_inset Quotes eld
+\end_inset
+
+burning up
+\begin_inset Quotes erd
+\end_inset
+
+ future abilities).
+\end_layout
+
+\begin_layout Standard
+From the firm perspective: as black and white printing declined, Xerox suffered.
+ They were sure that color printing would be the next big thing, and prepared
+ for that technologically.
+ Expecting a large profit in the future, they didn't want to disappoint
+ investors.
+ The problem was that these revenues never came.
+ Xerox could not 
+\begin_inset Quotes eld
+\end_inset
+
+clear
+\begin_inset Quotes erd
+\end_inset
+
+ it, because the stock price would fall, thus they got 
+\begin_inset Quotes eld
+\end_inset
+
+stuck
+\begin_inset Quotes erd
+\end_inset
+
+ with this practice.
+\end_layout
+
+\begin_layout Standard
+This accounting scheme allowed Xerox to meet Wall Street's earnings targets.
+ The stock price was kept artificially high, and executives cashed huge
+ performance-based bonuses.
+\end_layout
+
+\begin_layout Standard
+Notice that the cash was not an issue here, but the accounting.
+\end_layout
+
+\begin_layout Subsubsection
+Capitalizing Normal Operating Costs
+\end_layout
+
+\begin_layout Standard
+Costs incurred today which will benefit 
+\series bold
+only today
+\series default
+ are 
+\series bold
+expenses
+\series default
+.
+ But, if they are assumed to 
+\series bold
+yield revenues
+\series default
+ in the next 5 years - they can be written initially as an 
+\series bold
+asset
+\series default
+ (capitalizing it), and then taken down every year (using it) - for example,
+ a big spending on building the company brand.
+\end_layout
+
+\begin_layout Standard
+Consider the AOL case with capitalization of its advertising costs.
+ It was using a statement created for another industry (DMAC - deferred
+ membership acquisition costs, intended for catalog companies).
+ As accounting for 
+\begin_inset Quotes eld
+\end_inset
+
+brand name
+\begin_inset Quotes erd
+\end_inset
+
+ is impossible, they needed to use another name.
+\end_layout
+
+\begin_layout Standard
+The incentive for AOL was 
+\series bold
+overstating operating performance
+\series default
+.
+\end_layout
+
+\begin_layout Section
+Using Financial Statements Information
+\end_layout
+
+\begin_layout Standard
+Financial statements information is used for 2 fundamental goals: assist
+ investors & creditors influence and monitor business decision and help
+ to predict a company's future earnings & cash flows.
+\end_layout
+
+\begin_layout Subsection
+Book Value vs.
+ True Value
+\end_layout
+
+\begin_layout Standard
+There might be a difference between the two, for several reasons:
+\end_layout
+
+\begin_layout Itemize
+Company's prospects within its business environment
+\end_layout
+
+\begin_layout Itemize
+Limitation of the statements: they not capture some current and historical
+ factors such as inflation, HR
+\end_layout
+
+\begin_layout Itemize
+Management bias (choosing accounting methods that look better)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Starting with the book value and making adjustments for these factors provides
+ the true value.
+\end_layout
+
+\begin_layout Subsection
+Financial Statements Analysis
+\end_layout
+
+\begin_layout Standard
+The FSA is important, as financial statements are very complex and hardly
+ comparable across firms.
+\end_layout
+
+\begin_layout Standard
+It is a 5 step process: 
+\series bold
+identifying
+\series default
+ economic charasteristics of the industry, 
+\series bold
+assessing
+\series default
+ financial statement, 
+\series bold
+analyzing
+\series default
+, preparing 
+\series bold
+forecast
+\series default
+ and 
+\series bold
+valuing
+\series default
+ the firm.
+\end_layout
+
+\begin_layout Standard
+The goal is using accounting data in order to analyze risk and profitability
+ of a company.
+\end_layout
+
+\begin_layout Standard
+The tools in use for the analysis are common-size financial statements,
+ percentage change statements and financial statements ratios.
+\end_layout
+
+\begin_layout Subsection
+Common-Size Statements
+\end_layout
+
+\begin_layout Standard
+Common-size financial statement means using 
+\series bold
+percentage ratios
+\series default
+ and not absolute values (in ths B/S or the I/S).
+ It allows comparison across different firms in the industry
+\end_layout
+
+\begin_layout Standard
+Consider an example with a B/S where the revenue increases, but the net
+ income 
+\series bold
+percentage
+\series default
+ (of the revenue) decreases.
+ 
+\end_layout
+
+\begin_layout Subsection
+Profitability Ratios
+\end_layout
+
+\begin_layout Standard
+Profitability ratios are designed to measure earnings power of a firm.
+ They are calculated by comparing the net income to other financial activity
+ of a firm, in order to assess its performance.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Return on equity (ROE)
+\series default
+ is net income, divided by the average shareholders' equity.
+ It provides a measure of the 
+\series bold
+effectiveness
+\series default
+ of capital management.
+ The net income is a periodic number, which comes from the I/S.
+ The SSE comes from the B/S which is a point in time.
+\end_layout
+
+\begin_layout Standard
+The problem is dividing a periodic number by a 
+\begin_inset Quotes eld
+\end_inset
+
+point in time
+\begin_inset Quotes erd
+\end_inset
+
+ figure.
+ It is solved by measuring the average SSE (using 2 periodic numbers).
+\end_layout
+
+\begin_layout Standard
+Company's value is impacted mainly by the operating activity.
+\end_layout
+
+\begin_layout Subsection
+B/S Reformulation
+\end_layout
+
+\begin_layout Standard
+The ROE can be divided to operating return and non-operating return.
+\end_layout
+
+\begin_layout Standard
+Reformulating the B/S is rewriting it in a functional way (operating vs.
+ financing): net operating assets = net financial obligations + common sharehold
+ers' equity (
+\begin_inset Quotes eld
+\end_inset
+
+moving
+\begin_inset Quotes erd
+\end_inset
+
+ some parts to the other part of the equation).
+\end_layout
+
+\begin_layout Standard
+The moment we have identified financial assets & liabilities - everything
+ else is 
+\begin_inset Quotes eld
+\end_inset
+
+operating
+\begin_inset Quotes erd
+\end_inset
+
+.
+ Financial liabilities minus financial assets give the 
+\series bold
+net financial obligation
+\series default
+.
+\end_layout
+
+\begin_layout Subsection
+I/S Reformulation
+\end_layout
+
+\begin_layout Standard
+The main issue with the income statement is that the tax expense belongs
+ to both the operating part and the financial part.
+ The issue is: how to take that expense and split it between these 2 parts?
+ Some assumption has to be made: calculation of the 
+\series bold
+average tax percentage rate
+\series default
+ (take the income tax expense, divided by income before tax).
+\end_layout
+
+\end_body
+\end_document

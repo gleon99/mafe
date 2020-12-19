@@ -1,0 +1,812 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+\usepackage{indentfirst}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2.5cm
+\topmargin 2.5cm
+\rightmargin 2.5cm
+\bottommargin 2.5cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Macroeconomics 1 - Homework 5
+\end_layout
+
+\begin_layout Author
+Leonid Genkin
+\end_layout
+
+\begin_layout Section*
+Question 1
+\end_layout
+
+\begin_layout Subsection*
+a.
+\end_layout
+
+\begin_layout Standard
+Intuitively, we would expect the supply curve to shift to the left.
+ Without CB intervention, the price would rise and the output will decrease.
+\end_layout
+
+\begin_layout Subsection*
+b.
+\end_layout
+
+\begin_layout Subsubsection*
+(1)
+\end_layout
+
+\begin_layout Standard
+Start in a steady state: 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\pi=x=i=u=v=f=p_{t}^{*}=i_{t}^{*}=z=0;\,\,e-p=0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+(2)
+\end_layout
+
+\begin_layout Standard
+A positive shock in 
+\begin_inset Formula $u_{t}$
+\end_inset
+
+ is introduced.
+ The shock affects only the current period, thus the expected values in
+ the next period are the steady state values:
+\begin_inset Formula 
+\[
+\hat{x}_{t+1}=\hat{\pi}_{t+1}=0;\,\,\hat{e}_{t+1}=\hat{p}_{t+1}=p_{t}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+(3)
+\end_layout
+
+\begin_layout Standard
+The values of the lagged values are irrelevant, assume 
+\begin_inset Formula $p_{t-1}=e_{t-1}=0$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsubsection*
+(4)
+\end_layout
+
+\begin_layout Standard
+Substitute (2) and (3) in the equations of the model:
+\begin_inset Formula 
+\[
+(S)\,\,p_{t}=\kappa x_{t}+u_{t}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+(D)\,\,x_{t}=-i_{t}+\vartheta(e_{t}-p_{t})
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+(TR)\,\,i_{t}=\phi_{\pi}p_{t}+\phi_{x}x_{t}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+(UIP)\,\,e_{t}=\hat{e}_{t+1}-i_{t}+f_{t}=p_{t}-i_{t}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+(5)
+\end_layout
+
+\begin_layout Standard
+Substitute UIP into the demand equation:
+\begin_inset Formula 
+\[
+(D)\,\,x_{t}=-i_{t}+\vartheta(p_{t}-i_{t}-p_{t})=-(1+\vartheta)i
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+(6)
+\end_layout
+
+\begin_layout Standard
+Substitute Taylor rule into the demand equation:
+\begin_inset Formula 
+\[
+x_{t}=-(1+\vartheta)i=-(1+\vartheta)(\phi_{\pi}p_{t}+\phi_{x}x_{t});\,\,p_{t}=-\frac{1+(1+\vartheta)\phi_{x}}{(1+\vartheta)\phi_{\pi}}x_{t}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+(7)
+\end_layout
+
+\begin_layout Standard
+Find the equilibrium values by equating supply to demand:
+\begin_inset Formula 
+\[
+\kappa x_{t}+u_{t}=-\frac{1+(1+\vartheta)\phi_{x}}{(1+\vartheta)\phi_{\pi}}x_{t}\Rightarrow\left(\kappa+\frac{1+(1+\vartheta)\phi_{x}}{(1+\vartheta)\phi_{\pi}}\right)x_{t}=-u_{t}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+x_{t}=\frac{-u_{t}}{\kappa+\frac{1+(1+\vartheta)\phi_{x}}{(1+\vartheta)\phi_{\pi}}}=\frac{-u_{t}}{\frac{1+(1+\vartheta)\phi_{x}+(1+\vartheta)\phi_{\pi}\kappa}{(1+\vartheta)\phi_{\pi}}}=
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\frac{-(1+\vartheta)\phi_{\pi}u_{t}}{1+(1+\vartheta)\phi_{x}+(1+\vartheta)\phi_{\pi}\kappa}<0
+\]
+
+\end_inset
+
+Thus there is a negative effect on the output.
+\end_layout
+
+\begin_layout Standard
+We can now find out the price level using the supply curve:
+\begin_inset Formula 
+\[
+p_{t}=\kappa x_{t}+u_{t}=\frac{-(1+\vartheta)\phi_{\pi}\kappa+1+(1+\vartheta)\phi_{x}+(1+\vartheta)\phi_{\pi}\kappa}{1+(1+\vartheta)\phi_{x}+(1+\vartheta)\phi_{\pi}\kappa}u_{t}=\frac{1+(1+\vartheta)\phi_{x}}{1+(1+\vartheta)\phi_{x}+(1+\vartheta)\phi_{\pi}\kappa}u_{t}>0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+(8)
+\end_layout
+
+\begin_layout Standard
+Find the interest rate by substituting into Taylor rule:
+\begin_inset Formula 
+\[
+i_{t}=\phi_{\pi}\frac{1+(1+\vartheta)\phi_{x}}{1+(1+\vartheta)\phi_{x}+(1+\vartheta)\phi_{\pi}\kappa}u_{t}+\phi_{x}\frac{-(1+\vartheta)\phi_{\pi}u_{t}}{1+(1+\vartheta)\phi_{x}+(1+\vartheta)\phi_{\pi}\kappa}=
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\frac{\phi_{\pi}(1+(1+\vartheta)\phi_{x})u_{t}-(1+\vartheta)\phi_{x}\phi_{\pi}u_{t}}{1+(1+\vartheta)\phi_{x}+(1+\vartheta)\phi_{\pi}\kappa}=\frac{\phi_{\pi}u_{t}}{1+(1+\vartheta)\phi_{x}+(1+\vartheta)\phi_{\pi}\kappa}>0
+\]
+
+\end_inset
+
+Thus the interest rate goes up.
+\end_layout
+
+\begin_layout Subsubsection*
+(9)
+\end_layout
+
+\begin_layout Standard
+The exchange rate is given by:
+\begin_inset Formula 
+\[
+e_{t}=\frac{1+(1+\vartheta)\phi_{x}}{1+(1+\vartheta)\phi_{x}+(1+\vartheta)\phi_{\pi}\kappa}u_{t}-\frac{\phi_{\pi}u_{t}}{1+(1+\vartheta)\phi_{x}+(1+\vartheta)\phi_{\pi}\kappa}=
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\frac{(1+(1+\vartheta)\phi_{x}-\phi_{\pi})u_{t}}{1+(1+\vartheta)\phi_{x}+(1+\vartheta)\phi_{\pi}\kappa}
+\]
+
+\end_inset
+
+Assuming 
+\begin_inset Formula $\vartheta=0.3,\,\,\phi_{x}=0.5,\,\,\phi_{\pi}=1.5$
+\end_inset
+
+ we can conclude:
+\begin_inset Formula 
+\[
+e_{t}=\frac{1+1.3\cdot0.5-1.5}{(+)}u_{t}>0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Thus the effect on the exchange rate is positive.
+\end_layout
+
+\begin_layout Subsection*
+c.
+\end_layout
+
+\begin_layout Standard
+It can be seen from the equations that a higher value of 
+\begin_inset Formula $\phi_{x}$
+\end_inset
+
+: decreases the impact level (of the shock) on the output, increases the
+ impact on price level, decreases the impact on the interest rate and decreases
+ the impact on the exchange rate.
+\end_layout
+
+\begin_layout Standard
+A higher value of 
+\begin_inset Formula $\phi_{\pi}$
+\end_inset
+
+: increases the impact level on the output (i.e the output will decrease
+ by more), decreases the impact on price level, increases the impact on
+ the interest rate and increases the impact on the exchange rate.
+\end_layout
+
+\begin_layout Section*
+Question 2
+\end_layout
+
+\begin_layout Subsection*
+a.
+\end_layout
+
+\begin_layout Standard
+Intuitively, we would assume a decline in the world interest rate to lead
+ to a decrease in the exchange rate (by the UIP equation), which is likely
+ to impact the demand on domestic good, and shift the demand curve to the
+ left.
+ Wihtout CB intervention, price level and production output will decrease
+ (movement along the supply curve).
+\end_layout
+
+\begin_layout Subsection*
+b.
+\end_layout
+
+\begin_layout Subsubsection*
+(1)
+\end_layout
+
+\begin_layout Standard
+Start in a steady state: 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\pi=x=i=u=v=f=p_{t}^{*}=i_{t}^{*}=z=0;\,\,e-p=0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+(2)
+\end_layout
+
+\begin_layout Standard
+A negative shock in 
+\begin_inset Formula $i_{t}^{*}$
+\end_inset
+
+ is introduced.
+ The shock affects only the current period, thus the expected values in
+ the next period are the steady state values:
+\begin_inset Formula 
+\[
+\hat{x}_{t+1}=\hat{\pi}_{t+1}=0;\,\,\hat{e}_{t+1}=\hat{p}_{t+1}=p_{t}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+(3)
+\end_layout
+
+\begin_layout Standard
+The values of the lagged values are irrelevant, assume 
+\begin_inset Formula $p_{t-1}=e_{t-1}=0$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsubsection*
+(4)
+\end_layout
+
+\begin_layout Standard
+Substitute (2) and (3) in the equations of the model:
+\begin_inset Formula 
+\[
+(S)\,\,p_{t}=\kappa x_{t}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+(D)\,\,x_{t}=-i_{t}+\vartheta(e_{t}-p_{t})
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+(TR)\,\,i_{t}=\phi_{\pi}p_{t}+\phi_{x}x_{t}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+(UIP)\,\,e_{t}=i_{t}^{*}+\hat{e}_{t+1}-i_{t}+f_{t}=i_{t}^{*}+p_{t}-i_{t}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+(5)
+\end_layout
+
+\begin_layout Standard
+Substitute UIP into the demand equation:
+\begin_inset Formula 
+\[
+(D)\,\,x_{t}=-i_{t}+\vartheta(i_{t}^{*}+p_{t}-i_{t}-p_{t})=-(1+\vartheta)i+i_{t}^{*}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+(6)
+\end_layout
+
+\begin_layout Standard
+Substitute Taylor rule into the demand equation:
+\begin_inset Formula 
+\[
+x_{t}=-(1+\vartheta)i+i_{t}^{*}=-(1+\vartheta)(\phi_{\pi}p_{t}+\phi_{x}x_{t})+i_{t}^{*};\,\,p_{t}=-\frac{(1+(1+\vartheta)\phi_{x})x_{t}-i_{t}^{*}}{(1+\vartheta)\phi_{\pi}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+(7)
+\end_layout
+
+\begin_layout Standard
+Find the equilibrium values by equating supply to demand:
+\begin_inset Formula 
+\[
+\kappa x_{t}=-\frac{(1+(1+\vartheta)\phi_{x})x_{t}-i_{t}^{*}}{(1+\vartheta)\phi_{\pi}}\Rightarrow x_{t}=\frac{i_{t}^{*}}{\kappa(1+\vartheta)\phi_{\pi}+1+(1+\vartheta)\phi_{x}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Thus there is a negative effect on the output (the numerator is negative,
+ while the denominator is positive).
+\end_layout
+
+\begin_layout Standard
+The new price level is:
+\begin_inset Formula 
+\[
+\frac{\kappa i_{t}^{*}}{\kappa(1+\vartheta)\phi_{\pi}+1+(1+\vartheta)\phi_{x}}<0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+which is negative as well.
+\end_layout
+
+\begin_layout Subsubsection*
+(8)
+\end_layout
+
+\begin_layout Standard
+Find the interest rate by substituting into Taylor rule:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+i_{t}=\phi_{\pi}p_{t}+\phi_{x}x_{t}=\phi_{\pi}\frac{\kappa i_{t}^{*}}{\kappa(1+\vartheta)\phi_{\pi}+1+(1+\vartheta)\phi_{x}}+\phi_{x}\frac{i_{t}^{*}}{\kappa(1+\vartheta)\phi_{\pi}+1+(1+\vartheta)\phi_{x}}=
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+=\frac{i_{t}^{*}(\phi_{\pi}\kappa+\phi_{x})}{\kappa(1+\vartheta)\phi_{\pi}+1+(1+\vartheta)\phi_{x}}=\frac{(-)(+)}{(+)}<0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+thus the interest rate decreases.
+\end_layout
+
+\begin_layout Subsubsection*
+(9)
+\end_layout
+
+\begin_layout Standard
+The exchange rate is given by:
+\begin_inset Formula 
+\[
+e_{t}=\frac{\kappa i_{t}^{*}}{\kappa(1+\vartheta)\phi_{\pi}+1+(1+\vartheta)\phi_{x}}-\frac{i_{t}^{*}(\phi_{\pi}\kappa+\phi_{x})}{\kappa(1+\vartheta)\phi_{\pi}+1+(1+\vartheta)\phi_{x}}=
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Assuming 
+\begin_inset Formula $\kappa=0.65,\,\,\phi_{x}=0.5,\,\,\phi_{\pi}=1.5$
+\end_inset
+
+:
+\begin_inset Formula 
+\[
+=\frac{i_{t}^{*}(\kappa(1-\phi_{\pi})-\phi_{x})}{\kappa(1+\vartheta)\phi_{\pi}+1+(1+\vartheta)\phi_{x}}=\frac{(-)(-)}{(+)}>0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Thus the exchange rate increases.
+\end_layout
+
+\begin_layout Subsection*
+c.
+\end_layout
+
+\begin_layout Standard
+It can be seen from the equations that a higher value of 
+\begin_inset Formula $\phi_{x}$
+\end_inset
+
+: decreases the impact level (of the shock) on the output, decreases the
+ impact on price level, increases the impact on the interest rate and increases
+ the impact on the exchange rate.
+\end_layout
+
+\begin_layout Standard
+A higher value of 
+\begin_inset Formula $\phi_{\pi}$
+\end_inset
+
+: decreases the impact level on the output, decreases the impact on price
+ level, increases the impact on the interest rate and increases the impact
+ on the exchange rate.
+\end_layout
+
+\begin_layout Section*
+Question 3
+\end_layout
+
+\begin_layout Subsection*
+a.
+\end_layout
+
+\begin_layout Standard
+We assume that a negative demand shock is introduced, with no change in
+ the interest rate in the present and in the future remaining.
+\end_layout
+
+\begin_layout Standard
+The demand curve shifts to the left, and there is no opposite force of the
+ interest change decrease which could partially decrease the impact of the
+ shock.
+\end_layout
+
+\begin_layout Subsection*
+b.
+\end_layout
+
+\begin_layout Subsubsection*
+(1)
+\end_layout
+
+\begin_layout Standard
+Start in a steady state: 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\pi=x=i=u=v=f=p_{t}^{*}=i_{t}^{*}=z=0;\,\,e-p=0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+(2)
+\end_layout
+
+\begin_layout Standard
+A shock in 
+\begin_inset Formula $z_{t}$
+\end_inset
+
+ is introduced.
+ The shock affects only the current period, thus the expected values in
+ the next period are the steady state values:
+\begin_inset Formula 
+\[
+\hat{x}_{t+1}=\hat{\pi}_{t+1}=0;\,\,\hat{e}_{t+1}=\hat{p}_{t+1}=p_{t}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+(3)
+\end_layout
+
+\begin_layout Standard
+The values of the lagged values are irrelevant, assume 
+\begin_inset Formula $p_{t-1}=e_{t-1}=0$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsubsection*
+(4)
+\end_layout
+
+\begin_layout Standard
+Substitute (2) and (3) in the equations of the model:
+\begin_inset Formula 
+\[
+(S)\,\,p_{t}=\kappa x_{t}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+(D)\,\,p_{t}=-\frac{1}{\vartheta}x_{t}+e_{t}+\frac{1}{\vartheta}z_{t}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+(TR)\,\,i_{t}=\phi_{\pi}p_{t}+\phi_{x}x_{t}=0
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+(UIP)\,\,e_{t}=p_{t}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+(5)
+\end_layout
+
+\begin_layout Standard
+Substitute UIP into the demand equation:
+\begin_inset Formula 
+\[
+(D)\,\,\,p_{t}=-\frac{1}{\vartheta}x_{t}+p_{t}+\frac{1}{\vartheta}z_{t}\Rightarrow x_{t}=z_{t}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Thus the production output decreases.
+\end_layout
+
+\begin_layout Subsubsection*
+(6)
+\end_layout
+
+\begin_layout Standard
+Substitution of the Taylor rule into the demand equation is not needed,
+ it is already reduced to the simplest form.
+\end_layout
+
+\begin_layout Subsubsection*
+(7)
+\end_layout
+
+\begin_layout Standard
+Find the equilibrium values.
+ The nterest rate is 0 by the definition of the question, 
+\begin_inset Formula $x$
+\end_inset
+
+ has been already calculated above.
+ The price level and the exchange rate are:
+\begin_inset Formula 
+\[
+e_{t}=p_{t}=\kappa x_{t}=\kappa z_{t}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+which is negative.
+\end_layout
+
+\end_body
+\end_document

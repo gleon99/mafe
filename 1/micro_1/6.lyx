@@ -1,0 +1,845 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+\usepackage{indentfirst}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2.5cm
+\topmargin 2.5cm
+\rightmargin 2.5cm
+\bottommargin 2.5cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Microeconomics 1 - Lecture 6
+\end_layout
+
+\begin_layout Author
+Leonid Genkin
+\end_layout
+
+\begin_layout Section
+Preferences under Risk and Uncertainity
+\end_layout
+
+\begin_layout Standard
+There is a lot of uncertainity in markets.
+ One of the things they enable us to do is to share uncertainity.
+\end_layout
+
+\begin_layout Standard
+Uncertainity has been around since the earliest days of the history.
+ People were thinking of it in a way very similar to how they do it today.
+\end_layout
+
+\begin_layout Standard
+There was no formal model of dealing with uncertainity until not a long
+ ago.
+ The 
+\series bold
+expected utility maximization
+\series default
+ model has its roots in Pascal's Waget (1670), and became dominant with
+ von-Meumann & Morgenstern (1947).
+\end_layout
+
+\begin_layout Standard
+Pascal adressed the notion of the expected outcome (
+\begin_inset Quotes eld
+\end_inset
+
+weighed mean
+\begin_inset Quotes erd
+\end_inset
+
+) in the question of what would be a fair end of a game.
+\end_layout
+
+\begin_layout Standard
+The expected utility can be represented in a decision matrix - consider
+ an example with religion.
+ The things we do not have control over (e.g 
+\begin_inset Quotes eld
+\end_inset
+
+does god exist?
+\begin_inset Quotes erd
+\end_inset
+
+) are put in a columns, and the possible choices (
+\begin_inset Quotes eld
+\end_inset
+
+whether to be a believer?
+\begin_inset Quotes erd
+\end_inset
+
+) are in rows of a table, which represente possible outcomes in terms of
+ utility, with their respective probabilities.
+\end_layout
+
+\begin_layout Standard
+The St.
+ Petersburg Paradox shows a situation where people are only willing to pay
+ a low price for a game which has infinite expected yield in terms of value.
+ Bernoulli solution: people do not maximize expect 
+\series bold
+value
+\series default
+, but only expected 
+\series bold
+utility
+\series default
+.
+ As it is a 
+\series bold
+logarithimic
+\series default
+ function, it finally converges to a finite value.
+\end_layout
+
+\begin_layout Standard
+People try to maximize the 
+\series bold
+expectation
+\series default
+ of the 
+\series bold
+utility
+\series default
+:
+\begin_inset Formula 
+\[
+E[U(X)]=p_{1}u(x_{1}+p_{2}u(x_{2})+\cdot+p_{n}u(x_{n})
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Betting - Example
+\end_layout
+
+\begin_layout Standard
+Consider starting with wealth given 
+\begin_inset Formula $W$
+\end_inset
+
+ and being given a 
+\begin_inset Formula $50\%$
+\end_inset
+
+ bet with 
+\begin_inset Formula $+/-100$
+\end_inset
+
+ yield.
+ It is a 
+\series bold
+fair
+\series default
+ bet, as 
+\begin_inset Formula $E(X)=0$
+\end_inset
+
+ which is equivalent to 
+\begin_inset Formula $E(W+X)=W$
+\end_inset
+
+ (on average, nothing is lost or gained in the bet, compared to the current
+ wealth).
+\end_layout
+
+\begin_layout Standard
+Maximizing the expected 
+\series bold
+value
+\series default
+ maximization, one would be indifferent between taking or not taking the
+ bet.
+ But, attempting maximizing utility with a 
+\series bold
+concave
+\series default
+ utility function, we find out that the expected outcome of the bet is actually
+ 
+\series bold
+negative
+\series default
+, meaning the a risk aversion person woul be better off not taking the bet.
+\begin_inset Formula 
+\[
+Eu(W+X)\leq u(W)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The uncertainty regarding the outcome in terms of wealth translates to an
+ utility outcome uncertainity.
+\end_layout
+
+\begin_layout Standard
+Risk aversion is formally defined in terms of behavior: for 
+\series bold
+any
+\series default
+ fair bet and 
+\series bold
+any
+\series default
+ wealth level, 
+\begin_inset Formula $W$
+\end_inset
+
+ is 
+\series bold
+at least
+\series default
+ as good as 
+\begin_inset Formula $W+X$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+In vase of a 
+\begin_inset Quotes eld
+\end_inset
+
+risk loving
+\begin_inset Quotes erd
+\end_inset
+
+ person the opposite is true, and in terms of the expected utility maximization
+ it is translated to the the utility graph is 
+\series bold
+convex
+\series default
+.
+\end_layout
+
+\begin_layout Subsection
+Insurance Problem
+\end_layout
+
+\begin_layout Standard
+Consider a car worth 100,000 which can be stolen with probability 
+\begin_inset Formula $1\%$
+\end_inset
+
+ and an insurance premium being 2000.
+\end_layout
+
+\begin_layout Standard
+From expected 
+\series bold
+value
+\series default
+ maximization perspective, one shall not insure the cat:
+\begin_inset Formula 
+\[
+0.99\cdot100000+0.01\cdot0=99000>98000
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In real life there is a 
+\begin_inset Quotes eld
+\end_inset
+
+moral hazard
+\begin_inset Quotes erd
+\end_inset
+
+ problem: if I but the insurance, in some sense I'm not the one responsible
+ for the car, thus I make decisions which put the insurance company at risk.
+\end_layout
+
+\begin_layout Standard
+It is very hard for the insurance company to assess that risk, thus usually
+ a 
+\series bold
+deductible
+\series default
+ is introduced.
+\end_layout
+
+\begin_layout Standard
+In reality peope do buy insurance, and the reason in that they maximize
+ utility and not value (even although the expected value is negative).
+\end_layout
+
+\begin_layout Standard
+The premium is always greater than the expected loss (otherwise insurance
+ companies wouldn't make any profit).
+ The difference between a single agent and an insurance company lies in
+ the 
+\series bold
+law of large numbers
+\series default
+: If 
+\begin_inset Formula $X_{i}$
+\end_inset
+
+ are indentically and independently distributed and 
+\begin_inset Formula $\bar{X}_{n}=\frac{1}{n}\sum_{i=1}^{n}X_{i}$
+\end_inset
+
+ (the average value), then:
+\begin_inset Formula 
+\[
+\bar{X}_{n}\rightarrow\mu=E(X_{i})
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The 3 assumptions are 
+\series bold
+important
+\series default
+:
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Identicality
+\series default
+ (averse selecion in insurance example with healty/old people.
+ Firms 
+\begin_inset Quotes eld
+\end_inset
+
+separate
+\begin_inset Quotes erd
+\end_inset
+
+ the market and price the premium accordingly, attempting people in 
+\begin_inset Quotes eld
+\end_inset
+
+equal risk bins
+\begin_inset Quotes erd
+\end_inset
+
+, and not to mix together substantially different risks)
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Independence
+\end_layout
+
+\begin_layout Subsection
+Gambling and State Lottery
+\end_layout
+
+\begin_layout Standard
+It offers us a gamble with 
+\series bold
+negative
+\series default
+ expectation - how can we know that? It is profitable (for the state).
+ A risk averse agent, or even a risk neutral one, won't buy it.
+\end_layout
+
+\begin_layout Standard
+Thus - how is it possible that people keep buyins lottery tickets 
+\series bold
+and
+\series default
+ insure they cars? The answer is psychology, people are irrational and don't
+ take into account the law of big numbers.
+\end_layout
+
+\begin_layout Standard
+People are not suitable for dealing with small numbers and statistical data,
+ and distinguishing between (different) very small probability values.
+\end_layout
+
+\begin_layout Subsection
+Consumer's Problem - revisited
+\end_layout
+
+\begin_layout Standard
+The betting example can be analyzed similarly to what was done with time
+ periods - consider 2 states of the world, and the wealth of the consumer
+ in each option.
+ It is represented by a point on the 
+\begin_inset Quotes eld
+\end_inset
+
+head-tail
+\begin_inset Quotes erd
+\end_inset
+
+ plane.
+ The middle point is the same one as in 
+\begin_inset Quotes eld
+\end_inset
+
+no bet
+\begin_inset Quotes erd
+\end_inset
+
+ case, which means the bet is 
+\series bold
+fair
+\series default
+.
+\end_layout
+
+\begin_layout Standard
+Preferences might not be linear (C.D - convex) - in such case, the middle
+ (
+\begin_inset Quotes eld
+\end_inset
+
+no bet
+\begin_inset Quotes erd
+\end_inset
+
+) point lies on a higher indifference curve.
+ It perfectly fits with the expected utility function (the utility of the
+ average is higher than the 
+\begin_inset Quotes eld
+\end_inset
+
+average utility
+\begin_inset Quotes erd
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Standard
+The budget constrait depends on what the market lets us do.
+\end_layout
+
+\begin_layout Subsection
+The Insurance Problem - revisited
+\end_layout
+
+\begin_layout Standard
+The insurance problem can be analyzed in a manner similar to the bet problem
+ (
+\begin_inset Quotes eld
+\end_inset
+
+financial product purchase
+\begin_inset Quotes erd
+\end_inset
+
+).
+ The 
+\begin_inset Quotes eld
+\end_inset
+
+endowment
+\begin_inset Quotes erd
+\end_inset
+
+ 
+\begin_inset Formula $W$
+\end_inset
+
+ is the wealth apart from car.
+ The 
+\begin_inset Formula $x$
+\end_inset
+
+ axis represents the case when the car is not stolen, and the 
+\begin_inset Formula $y$
+\end_inset
+
+ axis is for when the car is stolen.
+\end_layout
+
+\begin_layout Standard
+The black line represents 
+\begin_inset Quotes eld
+\end_inset
+
+certainity
+\begin_inset Quotes erd
+\end_inset
+
+ cases.
+\end_layout
+
+\begin_layout Standard
+After finding out the budget line, and taking into account the preferences,
+ we can calculate the solution (whether to insure).
+\end_layout
+
+\begin_layout Standard
+The insurance might not be full - it is represented by the fact that the
+ indifference curve is steeper than the budget constraint at the point of
+ full insurance (insurance company need to make profits).
+\end_layout
+
+\begin_layout Standard
+With the expected utility 
+\begin_inset Formula 
+\[
+U(x,y)=pu(x)+(1-p)u(y)
+\]
+
+\end_inset
+
+so that (
+\begin_inset Formula $x=y$
+\end_inset
+
+):
+\begin_inset Formula 
+\[
+\frac{U_{x}}{U_{y}}=\frac{pu'(x)}{(1-p)u'(y)}=\frac{p}{1-p}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\frac{p}{1-p}$
+\end_inset
+
+ is also called the 
+\series bold
+odds ratio
+\series default
+.
+ The slopes of all the indifference curves along the certainity line are
+ 
+\series bold
+the same
+\series default
+.
+\end_layout
+
+\begin_layout Subsection
+Financial Markets
+\end_layout
+
+\begin_layout Standard
+How much is one willing to pay for a particular financial asset (expect
+ to be worth in the market) ? Consider an example: 
+\begin_inset Formula $(1,0)$
+\end_inset
+
+ - an asset thet pays 1 in state 1 and 0 in state 2 costs 
+\begin_inset Formula $b$
+\end_inset
+
+.
+ 
+\begin_inset Formula $(0,1)$
+\end_inset
+
+ - n asset thet pays 1 in state 1 and 0 in state 2 costs 
+\begin_inset Formula $c$
+\end_inset
+
+.
+ Given 
+\begin_inset Formula $0\leq b,c\leq1$
+\end_inset
+
+, 
+\begin_inset Formula $b+c=1$
+\end_inset
+
+ must be true.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+No arbitrage
+\series default
+ condition means that if 
+\begin_inset Formula $b=0.4$
+\end_inset
+
+ and 
+\begin_inset Formula $c=0.5$
+\end_inset
+
+ one could make a sure profit by buying them for 
+\begin_inset Formula $0.9$
+\end_inset
+
+ both and having 1.
+ The opposite is true as well: if 
+\begin_inset Formula $b=0.6$
+\end_inset
+
+ and 
+\begin_inset Formula $c=0.5$
+\end_inset
+
+, one could sell them both for 
+\begin_inset Formula $1.1$
+\end_inset
+
+ and make a sure gain.
+\end_layout
+
+\begin_layout Standard
+The no arbitrage theorem claims that in a perfect market, there are 
+\series bold
+no arbitrage opportunities
+\series default
+ iff there is a probability, such that each asset is valued by its expectation.
+\end_layout
+
+\begin_layout Standard
+Given the budget:
+\begin_inset Formula 
+\[
+ux+(1-\pi)y=\pi C+(1-\pi)D
+\]
+
+\end_inset
+
+and attempting to maximize:
+\begin_inset Formula 
+\[
+plog(x)+(1-p)log(y)
+\]
+
+\end_inset
+
+the sokution is:
+\begin_inset Formula 
+\[
+x^{*}=p\frac{1}{\pi}[\pi C+(1-\pi D]
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+y^{*}=(1-p)\frac{1}{1-\pi}[\pi C+(1-\pi)D]
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+WIll the agent buy / sell the asset?
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+x^{*}=p\frac{1}{\pi}[\pi C+(1-\pi D]>C
+\]
+
+\end_inset
+
+It depends on how the probability 
+\begin_inset Formula $p$
+\end_inset
+
+ compares with 
+\begin_inset Formula $\pi$
+\end_inset
+
+, and on how 
+\begin_inset Formula $C$
+\end_inset
+
+ compares with 
+\begin_inset Formula $D$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\pi<p$
+\end_inset
+
+ means that the market puts less value on the asset than the consumer (then
+ she would 
+\begin_inset Quotes eld
+\end_inset
+
+jump in
+\begin_inset Quotes erd
+\end_inset
+
+ and bet against the market).
+\end_layout
+
+\begin_layout Standard
+We conclude that there are 2 basic reasons for people to trade: they think
+ the market is wrong (
+\begin_inset Quotes eld
+\end_inset
+
+beat the market
+\begin_inset Quotes erd
+\end_inset
+
+) and smooth consumption (facing uncertainity).
+\end_layout
+
+\begin_layout Subsection
+Equilibrium in Financial Markets
+\end_layout
+
+\begin_layout Standard
+Consider and example of agents with uncertain endowments.
+ Will there be the equilibrium price? - Calculate by finding the net demand
+ of each agent.
+ Then make sure the 
+\begin_inset Formula $\pi$
+\end_inset
+
+ is such that they are equal (in a 
+\begin_inset Formula $n$
+\end_inset
+
+- agents market, 
+\begin_inset Formula $n-1$
+\end_inset
+
+ need to clear).
+ It can only work if 
+\begin_inset Formula $p=\pi$
+\end_inset
+
+.
+ Bot agents agree on the price (trying to smooth consumption).
+\end_layout
+
+\begin_layout Standard
+The agents can also disagree and have equal endowments.
+ But, because of different probabilities the slopes of the indifference
+ curves are different - thus the initial point is not Pareto optimal.
+ The equilibrium would be obtained at a price such that when adding up net
+ demands, the result will be 0.
+ Then, 
+\begin_inset Formula $\pi$
+\end_inset
+
+ will be the 
+\begin_inset Quotes eld
+\end_inset
+
+average belief
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Financial merkets serve as a means to 
+\series bold
+smooth
+\series default
+ across different states of the world, periods of time various endowments,
+ time-preferences and even generations.
+\end_layout
+
+\end_body
+\end_document
