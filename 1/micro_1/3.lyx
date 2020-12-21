@@ -284,7 +284,7 @@ The marginality condition does not depend on the particular transformation,
 \begin_inset Quotes eld
 \end_inset
 
-How much utility do I get from $1 spend on 
+How much utility do I get from $1 spent on 
 \begin_inset Formula $X$
 \end_inset
 
@@ -337,7 +337,7 @@ if you don't like it - throw it away
 
 ), it is not the situation today (environment, recycling, implications of
  throwing garbage).
- Even emotional problem might arise (carbon emission information on flights).
+ Even emotional problems might arise (carbon emission information on flights).
 \end_layout
 
 \begin_layout Standard
@@ -476,7 +476,7 @@ OR
 \end_layout
 
 \begin_layout Standard
-Consider an example - 
+Consider an example: 
 \begin_inset Formula $I=200,\,\,p_{x}=p_{y}=1$
 \end_inset
 
@@ -491,7 +491,7 @@ Consider an example -
 \end_layout
 
 \begin_layout Subsubsection
-Convexity
+Convex sets
 \end_layout
 
 \begin_layout Standard
@@ -537,7 +537,7 @@ better than
  To tell whether preferences are convex, ICs need to be drawn and slopes
  along the curve have to be compared.
  In the special case when a utility function is a sum of 2 convex utility
- functions, it is ocnvex as well.
+ functions, it is convex as well.
 \end_layout
 
 \begin_layout Standard

@@ -108,7 +108,7 @@ Uncertainity has been around since the earliest days of the history.
 
 \begin_layout Standard
 There was no formal model of dealing with uncertainity until not a long
- ago.
+ time ago.
  The 
 \series bold
 expected utility maximization
@@ -118,7 +118,7 @@ expected utility maximization
 \end_layout
 
 \begin_layout Standard
-Pascal adressed the notion of the expected outcome (
+Pascal addressed the notion of the expected outcome (
 \begin_inset Quotes eld
 \end_inset
 
@@ -148,7 +148,7 @@ whether to be a believer?
 \begin_inset Quotes erd
 \end_inset
 
-) are in rows of a table, which represente possible outcomes in terms of
+) are in rows of a table, which represents possible outcomes in terms of
  utility, with their respective probabilities.
 \end_layout
 
@@ -184,7 +184,7 @@ utility
 :
 \begin_inset Formula 
 \[
-E[U(X)]=p_{1}u(x_{1}+p_{2}u(x_{2})+\cdot+p_{n}u(x_{n})
+E[U(X)]=p_{1}u(x_{1})+p_{2}u(x_{2})+\cdots+p_{n}u(x_{n})
 \]
 
 \end_inset
@@ -233,7 +233,7 @@ value
 \series default
  maximization, one would be indifferent between taking or not taking the
  bet.
- But, attempting maximizing utility with a 
+ But, attempting to maximize utility with a 
 \series bold
 concave
 \series default
@@ -242,7 +242,7 @@ concave
 \series bold
 negative
 \series default
-, meaning the a risk aversion person woul be better off not taking the bet.
+, meaning that a risk averse person would be better off not taking the bet.
 \begin_inset Formula 
 \[
 Eu(W+X)\leq u(W)
@@ -316,7 +316,7 @@ From expected
 \series bold
 value
 \series default
- maximization perspective, one shall not insure the cat:
+ maximization perspective, one shall not insure the car:
 \begin_inset Formula 
 \[
 0.99\cdot100000+0.01\cdot0=99000>98000
@@ -336,7 +336,7 @@ moral hazard
 \begin_inset Quotes erd
 \end_inset
 
- problem: if I but the insurance, in some sense I'm not the one responsible
+ problem: if I buy the insurance, in some sense I'm not the one responsible
  for the car, thus I make decisions which put the insurance company at risk.
 \end_layout
 
@@ -350,7 +350,7 @@ deductible
 \end_layout
 
 \begin_layout Standard
-In reality peope do buy insurance, and the reason in that they maximize
+In reality peope do buy insurance, and the reason is that they maximize
  utility and not value (even although the expected value is negative).
 \end_layout
 
@@ -418,6 +418,18 @@ equal risk bins
 
 \series bold
 Independence
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Large
+\series default
+ 
+\begin_inset Formula $n$
+\end_inset
+
+ 
 \end_layout
 
 \begin_layout Subsection
@@ -628,7 +640,7 @@ How much is one willing to pay for a particular financial asset (expect
 \begin_inset Formula $(0,1)$
 \end_inset
 
- - n asset thet pays 1 in state 1 and 0 in state 2 costs 
+ - an asset that pays 1 in state 1 and 0 in state 2 costs 
 \begin_inset Formula $c$
 \end_inset
 
@@ -702,7 +714,7 @@ plog(x)+(1-p)log(y)
 
 \end_inset
 
-the sokution is:
+the solution is:
 \begin_inset Formula 
 \[
 x^{*}=p\frac{1}{\pi}[\pi C+(1-\pi D]

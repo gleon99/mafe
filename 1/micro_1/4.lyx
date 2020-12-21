@@ -202,12 +202,12 @@ The degree of responsiveness of the demand, as the result of change in income.
 \begin_inset Formula $\frac{\partial x}{\partial I}$
 \end_inset
 
- depends on the unit of measurement, thus isnot very meaningful (change
+ depends on the unit of measurement, thus is not very meaningful (change
  of the unit would affect it).
  In order to clean it, we divide (normalize) it
 \begin_inset Formula 
 \[
-\eta_{xI}=\frac{\frac{\parallel x}{\partial I}}{\frac{x}{I}}=\frac{\frac{a}{p_{x}}}{\frac{a}{p_{x}}}=1
+\eta_{xI}=\frac{\frac{x}{\partial I}}{\frac{x}{I}}=\frac{\frac{a}{p_{x}}}{\frac{a}{p_{x}}}=1
 \]
 
 \end_inset
@@ -291,7 +291,7 @@ in a certain range
 \begin_inset Quotes erd
 \end_inset
 
- - there must be a solution for zero income and it can't be negative (the
+? - There must be a solution for zero income and it can't be negative (the
  consumption level has first to increase as the income increases, so that
  it has where to decrease from).
 \end_layout
@@ -306,14 +306,14 @@ It is possible to further distinct goods with positive elasticity:
 
  A 
 \series bold
-luxur
+luxury
 \series default
-y good - not only that the consumption increases when income increases,
- but the 
+ good - not only that the consumption increases when income increases, but
+ the 
 \series bold
 portion of income
 \series default
- which is devoted to thers goods 
+ which is devoted to other goods 
 \series bold
 increases
 \end_layout
@@ -355,9 +355,9 @@ essential
 For CD preference function, we found out that the elasticity equals 1 -
  meaning that a 1% increase in income will result in 1% increase of expenditure
  on a good.
- That makes sense, as when ahving two goods with one of them having elasticity
- of 1 - the other one must have this elasticity as well (can be shown algebrical
-ly).
+ That makes sense, as when there are only two goods with one of them having
+ elasticity of 1 - the other one must have this elasticity as well (can
+ be shown algebrically).
 \end_layout
 
 \begin_layout Standard
@@ -365,7 +365,7 @@ More generally - the
 \series bold
 weighted avergage
 \series default
- of the elasticities of the goods must always be 1 ( e.gall goods cannot
+ of the elasticities of the goods must always be 1 (e.g all goods cannot
  be luxury goods).
 \end_layout
 
@@ -420,7 +420,7 @@ Cross demand curve
 \end_layout
 
 \begin_layout Standard
-The the demand curve is generally downward sloping.
+The demand curve is generally downward sloping.
  Consider a price increase: the budget line becomes 
 \series bold
 tighter
@@ -454,7 +454,7 @@ becomes poorer
 \begin_inset Formula $X$
 \end_inset
 
- increases, but the consuemr gets extra money for having the same amount
+ increases, but the consumer gets extra money for having the same amount
  of 
 \begin_inset Formula $X$
 \end_inset
@@ -535,7 +535,7 @@ inferior
 \series default
  goods, they act in 
 \series bold
-opposit
+opposite
 \series default
  directions.
  The substitution effect was empirically shown to be usually stronger.
@@ -610,9 +610,9 @@ Graphically, it means that we are given a particular point on the budget
 \begin_inset Formula $y$
 \end_inset
 
-, or the opposite? 
+, or the opposite? It
 \series bold
-Depends
+ depends
 \series default
  on the 
 \series bold
@@ -793,7 +793,7 @@ there exists at least one competitive equilibrium
 \end_layout
 
 \begin_layout Standard
-In the 2x2 case it can me (misleadingly) graphically shown by plotting the
+In the 2x2 case it can be (misleadingly) graphically shown by plotting the
  budget lines and tilting them with price changes.
  An important property: at equilibrium both ICs are tangent to the same
  line, thus 
@@ -801,10 +801,6 @@ In the 2x2 case it can me (misleadingly) graphically shown by plotting the
 to each other
 \series default
 .
-\end_layout
-
-\begin_layout Standard
-
 \end_layout
 
 \end_body

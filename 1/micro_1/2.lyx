@@ -159,7 +159,7 @@ perfect objectivity
 \end_layout
 
 \begin_layout Standard
-Consider the example with traffic: everyone want to leave just a minute
+Consider the example with traffic: everyone wants to leave just a minute
  before the traffic, but that's impossible.
 \end_layout
 
@@ -173,7 +173,8 @@ direction
 \series bold
 place
 \series default
-.There is a distinction between 
+.
+ There is a distinction between 
 \series bold
 positive
 \series default
@@ -226,7 +227,7 @@ positive
 \series bold
 normative
 \series default
- - the theories might nevert be totally objective (positive), but it doesn't
+ - the theories might never be totally objective (positive), but it doesn't
  mean we should not try (normative).
 \end_layout
 
@@ -306,9 +307,9 @@ observables
 choices
 \series default
 .
- Ther are many ways to think about choices: (1) between pairs or sets, (2)
- deterministic or stochastic (in reality might often be stochastic), (3)
- is sets: all sets? Only budget sets?
+ There are many ways to think about choices: (1) between pairs or out of
+ sets, (2) deterministic or stochastic (in reality might often be stochastic),
+ (3) Sets: all sets? Only budget sets?
 \end_layout
 
 \begin_layout Subsection
@@ -389,7 +390,7 @@ finite
 \begin_inset Formula $X$
 \end_inset
 
- is somplete & transitivem iff there exists a utility function that represents
+ is complete & transitives iff there exists a utility function that represents
  
 \begin_inset Formula $\succcurlyeq$
 \end_inset
@@ -455,7 +456,7 @@ Marginal Utility
 \end_layout
 
 \begin_layout Standard
-It took humanity quite a long to get to these conceptc.
+It took humanity quite a long to get to these concepts.
  Adam Smith's claim was that price and utility have nothing in common.
  According to him, the price is determined solely by the cost of production.
  Even Richardo at 1870 believed in that.
@@ -492,7 +493,7 @@ would you
 \series bold
 like
 \series default
- the utility function to be comlete/transitive?
+ the utility function to be complete/transitive?
 \begin_inset Quotes erd
 \end_inset
 
@@ -504,7 +505,7 @@ Uniqueness
 \end_layout
 
 \begin_layout Standard
-Is the utility unique?
+Is the utility unique? 
 \begin_inset Formula $x\succcurlyeq y$
 \end_inset
 
@@ -526,7 +527,7 @@ unit of measurement
 \begin_inset Formula $x\succcurlyeq y\Leftrightarrow u(x)\geq u(y)$
 \end_inset
 
- to hold, a totaly diferent function can be used (e.g 
+ to hold, a totally different function can be used (e.g 
 \begin_inset Formula $v(x)=u^{3}(x)$
 \end_inset
 
@@ -587,7 +588,7 @@ Aesop's fox said that he didn't want the grapes he couldn't get.
 \begin_inset Quotes eld
 \end_inset
 
-I refuse to join any club that whould habe me for a member
+I refuse to join any club that whould haהe me as a member
 \begin_inset Quotes erd
 \end_inset
 
@@ -629,7 +630,7 @@ budget constraint
 \end_inset
 
 .
- This is the simplest model (more complicated cases might include discountingm,
+ This is the simplest model (more complicated cases might include discounting,
  discrete points, etc).
 \end_layout
 
@@ -683,7 +684,7 @@ The Marginality Condifion
 
 \begin_layout Standard
 The budget line must be tangent to the IC, otherwise there would be a contradict
-ion (i.e a higher IC is affordable.
+ion (i.e a higher IC is affordable).
 \end_layout
 
 \begin_layout Standard
@@ -727,7 +728,7 @@ p_{x}(x+a)+p_{y}(y-b)=I
 \end_layout
 
 \begin_layout Standard
-The indifference curve is not a linear, thus its slope calculation is more
+The indifference curve is not linear, thus its slope calculation is more
  subtle.
  What matters here is the partial derivatives:
 \begin_inset Formula 
@@ -748,7 +749,7 @@ U(x+a,y-b)=c\Rightarrow U_{x}a-U_{y}b\cong0\Rightarrow\frac{b}{a}\cong\frac{U_{x
 
 \begin_inset Formula 
 \[
-U(x+a,y-b)=U(x,y)+aU_{x}=bU_{y}+c(a,b)
+U(x+a,y-b)=U(x,y)+aU_{x}-bU_{y}+c(a,b)
 \]
 
 \end_inset

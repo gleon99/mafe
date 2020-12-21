@@ -127,7 +127,7 @@ Dynamic stability
 \series default
  - a point is dynamically stable, when a small change in the input values
  does not result in a big change in the output result.
- In order words - this is a measure of whether dynamic forces will push
+ In other words - this is a measure of whether dynamic forces will push
  the state back towards the equilibrium, far away from it or neither
 \end_layout
 
@@ -165,8 +165,8 @@ single
 \series bold
 Market forces
 \series default
- push the state back towards it (thus it had dynamic stability), and a small
- error in initial condition doesn't cause big error in the result (robustness).
+ push the state back towards it (thus it has dynamic stability), and a small
+ error in initial conditions doesn't cause big error in the result (robustness).
 \end_layout
 
 \begin_layout Subsection
@@ -226,7 +226,7 @@ Explicit
 
 \begin_deeper
 \begin_layout Itemize
-Optimization (each agetn tries to do for her best)
+Optimization (each agent tries to do for her best)
 \end_layout
 
 \begin_layout Itemize
@@ -283,7 +283,7 @@ No externalities involved
 \begin_layout Standard
 Thus, the conceptual message of this theorem might be incorrect if any of
  the above assumptions does not hold.
- Moreover, that concaptual message is 
+ Moreover, that conceptual message is 
 \series bold
 limited
 \series default
@@ -291,7 +291,7 @@ limited
 \series bold
 only
 \series default
- existenct is guaranteed).
+ existence is guaranteed).
 \end_layout
 
 \begin_layout Standard
@@ -374,10 +374,6 @@ Without financial market, given an income
  it is the only possible consumption set.
  But if saving/borrowing are possible, every 
 \begin_inset Formula $\$1$
-\end_inset
-
- 
-\begin_inset space ~
 \end_inset
 
  today can be converted to 
@@ -538,14 +534,33 @@ U_{A}=log(c_{0})+\delta log(c_{1}),\,\,U_{B}=log(d_{0})+\mu log(d_{1})
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula 
-\[
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
 Equilibrium
-\]
-
-\end_inset
-
-should be at 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ should be at 
 \begin_inset Formula $r$
 \end_inset
 
