@@ -367,7 +367,7 @@ What happens to
 \begin_inset Formula $C_{t}$
 \end_inset
 
- if the real interest rate changes? It goes down.
+ if the real interest rate increases? It goes down.
 \end_layout
 
 \begin_layout Subsection
@@ -375,7 +375,7 @@ The Permanent-Income Hypothesis
 \end_layout
 
 \begin_layout Standard
-Milton Friedman, rephrase in a modern version: Money spending is consistend
+Milton Friedman, rephrase in a modern version: Money spending is consistent
  with the expected long-term income.
 \end_layout
 
@@ -493,7 +493,7 @@ If it increases temporary by
 \begin_inset Formula $\Theta$
 \end_inset
 
-, the effect on consumption would be: 
+, the effect on the consumption would be: 
 \begin_inset Formula $\frac{r}{1+r}\Theta$
 \end_inset
 

@@ -101,8 +101,8 @@ Question 1
 \end_layout
 
 \begin_layout Standard
-The domestic good become more scarce (there is less production), hence their
- relative oruce increases.
+The domestic goods become more scarce (there is less production), hence
+ their relative price increases.
 \end_layout
 
 \begin_layout Standard
@@ -153,17 +153,17 @@ Question 2
 The intuition is that investors will take money from the places where the
  interest rate has decreased, and shift them to other economies (where it
  is still at the same level).
- Domestic goods beomc more expensive, thus they are less demanded.
+ Domestic goods become more expensive, thus they are less demanded.
 \end_layout
 
 \begin_layout Standard
 From the CB perspective: the obvious solution is to reduce the interest
  rate by the same amount as the shock, yet, surprisingly, there is a better
- answer - decrease the interest rate by a coefficient less than 1.
-\end_layout
-
-\begin_layout Subsection
-Question 3
+ answer - decrease the interest rate by a coefficient 
+\series bold
+less than 1
+\series default
+.
 \end_layout
 
 \begin_layout Section
@@ -205,7 +205,10 @@ two goods model
 \end_layout
 
 \begin_layout Standard
-It the CB sells bonds, the public needs to be willing to absorb and accept
+It the CB sells bonds, the public needs to be willing to 
+\series bold
+absorb and accept
+\series default
  these bonds.
  The payment for them comes in the form of a higher interest rate, which
  is required by the market.
@@ -225,7 +228,7 @@ A positive shock to
 \begin_inset Formula $f_{t}$
 \end_inset
 
- has the same effect as shock to 
+ has the same effect as a shock to 
 \begin_inset Formula $i_{t}^{*}$
 \end_inset
 

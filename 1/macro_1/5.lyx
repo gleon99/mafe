@@ -179,7 +179,15 @@ a degree to which the CB dislikes inflation
 \begin_inset Formula $\phi_{x}$
 \end_inset
 
+ is the 
+\begin_inset Quotes eld
+\end_inset
 
+degree to which the CB dislikes changes in output
+\begin_inset Quotes erd
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Section
@@ -209,7 +217,7 @@ small
 
 
 \series default
- (relative to the rest of the worls, thus the would interest rate and the
+ (relative to the rest of the world), thus the would interest rate and the
  price of goods are 
 \series bold
 exogenous
@@ -272,7 +280,7 @@ flexible
 \end_layout
 
 \begin_layout Standard
-Similar to the previous model, nominal exchange rates need to be distinguished
+Similarly to the previous model, nominal exchange rates need to be distinguished
  from prices.
 \end_layout
 
@@ -525,7 +533,7 @@ Include steps (2) and (3) in the equations:
 
 \end_inset
 
-(an upward curve, with a shock setting its location).
+(an upward curve, sloping with a shock setting its location).
 \begin_inset Formula 
 \[
 (D)\,\,p_{t}=-\frac{1}{\vartheta}x_{t}-\frac{1}{\vartheta}i_{t}+e_{t}+\frac{1}{\vartheta}\hat{x}_{t+1}+\frac{1}{\vartheta}\hat{\pi}_{t+1}+p_{t}^{*}+\frac{1}{\vartheta}z_{t}=-\frac{1}{\vartheta}x_{t}-\frac{1}{\vartheta}i_{t}+e_{t}+\frac{1}{\vartheta}z_{t}
@@ -610,7 +618,7 @@ i_{t}\uparrow=\phi_{\pi}p_{t}\uparrow+\phi_{x}x_{t}\uparrow
 
 \end_inset
 
-and the demand curve shitft (partially) back to the left.
+and the demand curve shifts (partially) back to the left.
  It is impossible to determine the effect on the nominal exchange rate.
  Given that the price of the domestic good is in the denominator of the
  exchange root, 

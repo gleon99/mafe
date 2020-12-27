@@ -163,12 +163,13 @@ closed
 \end_layout
 
 \begin_layout Itemize
-In a (one-good real) small open economy, there is perfect capital ombility,
+In a (one-good real) small open economy, there is perfect capital mobility,
  thus the interest rate is 
 \series bold
 exogenous
 \series default
-.The balance of payments is mainly intertemporal.
+.
+ The balance of payments is mainly intertemporal.
  This model fits representation of a household.
 \end_layout
 
@@ -211,7 +212,7 @@ Where
 \begin_inset Formula $T_{t}$
 \end_inset
 
- represent transfers from abroad.
+ represents transfers from abroad.
  The current budget constraint is:
 \begin_inset Formula 
 \[
@@ -441,7 +442,7 @@ not
 \begin_inset Formula $CA_{t}$
 \end_inset
 
- increases (?)
+ increases.
 \end_layout
 
 \begin_layout Subsection

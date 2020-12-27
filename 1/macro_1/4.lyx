@@ -110,7 +110,7 @@ temporary
 \begin_inset Formula $CA$
 \end_inset
 
- curvse to the right, by 
+ curve to the right, by 
 \begin_inset Formula $X^{ex}$
 \end_inset
 
@@ -161,7 +161,7 @@ permanent
 \end_inset
 
  curve shifts to the left.
- Why? - Investors know that the return on the foreign bonds goes down, thus
+ Why? - investors know that the return on the foreign bonds goes down, thus
  they reduce the demand, which increases the demand for domestic bonds.
  
 \begin_inset Formula $CA$
@@ -239,8 +239,9 @@ Economic Activity, Inflation and Monetary Policy in a Closed Economy
 \end_layout
 
 \begin_layout Standard
-As we're discussing a closed economy - which represents a simple model,
- we do not consider exсhange rate at the moment, dealing witр only 3 variables.
+As we are currently discussing a closed economy - which represents a simple
+ model, we do not consider exсhange rate at the moment, dealing with only
+ 3 variables.
 \end_layout
 
 \begin_layout Standard
@@ -266,7 +267,7 @@ firms
 \series bold
 central bank
 \series default
- (determines the interest rate.
+ (determines the interest rate).
 \end_layout
 
 \begin_layout Standard
@@ -461,7 +462,7 @@ Taking
 \begin_inset Formula $ln$
 \end_inset
 
- approximation for small values (see note [1]):
+ approximation for small values:
 \begin_inset Formula 
 \[
 ln(C_{t})=\rho+ln(E_{t}C_{t+1})-(I_{t}-E_{t}\pi_{t+1})+z_{t}^{2}
@@ -541,8 +542,8 @@ The above equation is basically the Euler equation, after 2 transformations:
 \end_inset
 
 , and using steady state values.
- Why doing so, and moving to an equation with percentages? - Because it
- can be applied to many economies (the size does not matter).
+ Why doing so, and moving to an equation with percentages? Because it can
+ be applied to many economies (the size does not matter).
 \end_layout
 
 \begin_layout Subsection
@@ -553,7 +554,7 @@ The Firm
 \begin_inset Formula $C_{t}$
 \end_inset
 
- is 
+ is the 
 \series bold
 total
 \series default
@@ -600,7 +601,7 @@ cannot
 \end_layout
 
 \begin_layout Standard
-Inflation is determined by the firms who 
+The inflation is determined by the firms who 
 \series bold
 can
 \series default
@@ -623,13 +624,13 @@ can
 \begin_inset Formula $\kappa$
 \end_inset
 
- gives the reaction of prices to demand changes (it reflects the degree
- of price flexibility / slugishness).
+ captures the reaction of the prices to demand changes (it reflects the
+ degree of price flexibility / slugishness).
  
 \begin_inset Formula $u_{t}$
 \end_inset
 
- resembles a (negative) supplys shock - reducing supply.
+ resembles a (negative) supply shock (reduction).
  The expected inflation is in the equation, becuase firms know that in the
  future they might not be able to set prices.
  This is the 
@@ -649,7 +650,7 @@ The Central Bank
 
 \begin_layout Standard
 The central bank determines the interest rate (monetary policy).
- It can mstly be desctibed by the 
+ It can mostly be described by the 
 \begin_inset Quotes eld
 \end_inset
 
@@ -700,8 +701,11 @@ more
 
 \begin_layout Standard
 Why increase the interest rate? Why not just let the economy grow indefinitely?
- - To control growth rate and inflation (avoid sharp increases / declines)
- and produce 
+ - 
+\series bold
+In order to control growth rate and inflation
+\series default
+ (avoid sharp increases / declines) and produce 
 \series bold
 stability
 \series default
@@ -718,7 +722,7 @@ The output can only be used for consumption, thus
 \end_inset
 
 .
- Thus the equilibrium is:
+ Therefore the equilibrium is:
 \begin_inset Formula 
 \[
 x_{t}=E_{t}x_{t+1}-(i_{t}-E_{t}\pi_{t+1})+z_{t}
@@ -763,7 +767,7 @@ Aggregate Demand and Supply
 
 \begin_layout Standard
 Define 
-\begin_inset Formula $\hat{x_{t+1}}=E_{t}(x_{t+1})$
+\begin_inset Formula $\hat{x}_{t+1}=E_{t}(x_{t+1})$
 \end_inset
 
  and consider a graph with 
@@ -800,7 +804,7 @@ x_{t}=\hat{x_{t+1}}-(i_{t}-\hat{\pi_{t+1}})+z_{t}
 
 \begin_layout Standard
 Consider a demand shock: it might lead to inflation (movement of the demand
- curve to the right), by increasing the interest rate the shock is kept
+ curve to the right), but by increasing the interest rate the shock is kept
  under control.
 \end_layout
 
@@ -825,7 +829,7 @@ By rational expectations, given
 \begin_inset Formula $E_{t}(z_{t+1})=E_{t}(u_{t+1})=E_{t}(v_{t+1})=0$
 \end_inset
 
-, the shocks are expected to affect only in the current period:
+, the shocks are expected to affect only the current period:
 \begin_inset Formula 
 \[
 E_{t}(x_{t+1})=E_{t}(\pi_{t+1})=0
@@ -900,7 +904,7 @@ i_{t}=\phi_{\pi}p_{t}+\phi_{x}x_{t}+v_{t}
 \end_layout
 
 \begin_layout Standard
-(3 equations in 3 unknowns - can be analytically solved).
+3 equations with 3 unknowns - can be analytically solved.
 \end_layout
 
 \begin_layout Subsubsection
@@ -980,8 +984,7 @@ p_{t}=\frac{\kappa}{\kappa\phi_{\pi}+1+\phi_{x}}z_{t}
 
 \end_inset
 
- Using Taylor rule, the central bank's reaction will be to increase the
- interest rate:
+ Using Taylor rule, the CB reaction will be to increase the interest rate:
 \begin_inset Formula 
 \[
 i_{t}=\frac{\kappa\phi_{\pi}+\phi_{x}}{\kappa\phi_{\pi}+\phi_{x}+1}z_{t}
@@ -999,7 +1002,7 @@ What should be the intervention of the central bank to fully cancel out
 \begin_inset Formula $\phi_{x}$
 \end_inset
 
- has to reach infinitiy, thus some deviation will always be.
+ has to reach infinitiy, thus there will always be some deviation.
 \end_layout
 
 \begin_layout Standard
