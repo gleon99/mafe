@@ -207,7 +207,7 @@ Risk of individual securities
 
 \begin_layout Standard
 Investors hold diversified portfolios, because of risk aversion.
- Actually, the SD measure the total risk 
+ Actually, the SD measures the total risk 
 \series bold
 in isolation
 \series default
@@ -215,7 +215,10 @@ in isolation
 \end_layout
 
 \begin_layout Standard
-Thus another measure is needed - how much risk a single asset contributes
+Thus another measure is needed - how much risk 
+\series bold
+a single asset contributes
+\series default
  to the market portfolio (the portfolio of 
 \series bold
 every security in the market
@@ -261,11 +264,11 @@ The change in the variance as the result of adding the security is given
 
 which means that the added risk is the difference between the portion taken
  away form the market portfolio.
- Normalization is done in order to obation a measure of 
+ Normalization is done in order to obtain a measure of 
 \series bold
 risk per unit
 \series default
-, :
+:
 \begin_inset Formula 
 \[
 2\alpha_{i}\left(\frac{\sigma_{mi}}{\sigma_{m}^{2}}-1\right)
@@ -333,7 +336,7 @@ The expected market risk premium,
 
 \begin_layout Standard
 In order to incorporate systematic and specific risks in DCF valuations,
- we need to valvulate value as the expected cash flow, divided by the cost
+ we need to calculate value as the expected cash flow, divided by the cost
  of capital.
 \end_layout
 
@@ -405,9 +408,9 @@ It allows to achieve a better risk-return relation.
 \series bold
 the equilibrium
 \series default
-, so that is the 
+, so that it is the 
 \series bold
-marjet portfolio
+market portfolio
 \series default
 .
  In practice, people do not have much inside information and tend to pick
@@ -420,7 +423,7 @@ tangent menu
 \series bold
 capital market line (CML)
 \series default
- equation give the best frontier:
+ equation gives the best frontier:
 \begin_inset Formula 
 \[
 r_{p}=r_{f}+\frac{r_{m}-r_{f}}{\sigma_{m}}\sigma_{p}
@@ -433,7 +436,7 @@ r_{p}=r_{f}+\frac{r_{m}-r_{f}}{\sigma_{m}}\sigma_{p}
 
 \begin_layout Standard
 Given different secuirities, it is possible to find the best portfolio.
- It has nothing to do with th equilibrium.
+ It has nothing to do with the equilibrium.
  If everyone does it - it will end up being the market portfolio.
 \end_layout
 
