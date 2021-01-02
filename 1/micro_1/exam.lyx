@@ -1,0 +1,461 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+\usepackage{indentfirst}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2.5cm
+\topmargin 2.5cm
+\rightmargin 2.5cm
+\bottommargin 2.5cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Microeconomics 1 - Exam
+\end_layout
+
+\begin_layout Author
+Leonid Genkin
+\end_layout
+
+\begin_layout Section*
+Question 1
+\end_layout
+
+\begin_layout Subsection*
+1.
+\end_layout
+
+\begin_layout Standard
+The contract curve connects all points which are a Pareto efficient equilibrium.
+ At each point on it, the indifference curves of each agent are tangent
+ to each other.
+\end_layout
+
+\begin_layout Standard
+The slope of agent A indifference curve is given by:
+\begin_inset Formula 
+\[
+\frac{\frac{\partial u_{A}(x,y)}{\partial x}}{\frac{\partial u_{A}(x,y)}{\partial y}}=\frac{\frac{\alpha_{1}}{x}}{\alpha_{2}}=\frac{\alpha_{1}}{\alpha_{2}x}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Similarly, for agent B:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{\frac{\partial u_{B}(x,y)}{\partial x}}{\frac{\partial u_{B}(x,y)}{\partial y}}=\frac{\frac{\beta_{1}}{x}}{\beta_{2}}=\frac{\beta_{1}}{\beta_{2}x}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Equating the above:
+\begin_inset Formula 
+\[
+\frac{\alpha_{1}}{\alpha_{2}x_{A}}=\frac{\beta_{1}}{\beta_{2}x_{B}}\Rightarrow\frac{x_{A}}{x_{B}}=\frac{\alpha_{1}\beta_{2}}{\alpha_{2}\beta_{1}}
+\]
+
+\end_inset
+
+Using 
+\begin_inset Formula $x_{A}+x_{B}=C$
+\end_inset
+
+ and substituting we conclude:
+\begin_inset Formula 
+\[
+\begin{cases}
+x_{A}= & \frac{\alpha_{1}\beta_{2}}{\alpha_{1}\beta_{2}+\alpha_{2}\beta_{1}}C\\
+x_{B}= & \frac{\alpha_{2}\beta_{1}}{\alpha_{1}\beta_{2}+\alpha_{2}\beta_{1}}C
+\end{cases}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+which is basically another way of telling that 
+\begin_inset Formula $x_{A}=\gamma C$
+\end_inset
+
+ and 
+\begin_inset Formula $x_{B}=(1-\gamma)C$
+\end_inset
+
+ for some 
+\begin_inset Formula $0\leq\gamma\leq1$
+\end_inset
+
+.
+ Thus the contract curve yields a 
+\series bold
+vertical segment 
+\series default
+that connects 
+\begin_inset Formula $(\frac{\alpha_{1}\beta_{2}}{\alpha_{1}\beta_{2}+\alpha_{2}\beta_{1}}C,0)$
+\end_inset
+
+ and 
+\begin_inset Formula $(\frac{\alpha_{1}\beta_{2}}{\alpha_{1}\beta_{2}+\alpha_{2}\beta_{1}}C,D)$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+In addition to that, the segments that connect 
+\begin_inset Formula $(0,0)$
+\end_inset
+
+ with 
+\begin_inset Formula $(\frac{\alpha_{1}\beta_{2}}{\alpha_{1}\beta_{2}+\alpha_{2}\beta_{1}}C,0$
+\end_inset
+
+) and 
+\begin_inset Formula $(\frac{\alpha_{1}\beta_{2}}{\alpha_{1}\beta_{2}+\alpha_{2}\beta_{1}}C,D$
+\end_inset
+
+) with 
+\begin_inset Formula $(C,D)$
+\end_inset
+
+ belong to the contract curve as well.
+ It can be explained by the fact that each point on these segments is an
+ equilibrium which cannot be optimized anymore (improvement could have only
+ be done by moving outside the Edgeworth box, which is obviously impossible).
+\end_layout
+
+\begin_layout Subsection*
+2.
+\end_layout
+
+\begin_layout Standard
+The vertical segment can be explained intuitively by the fact the the slope
+ of the indifference curve of each agent does not depend on the value of
+ 
+\begin_inset Formula $y$
+\end_inset
+
+ at all.
+\end_layout
+
+\begin_layout Standard
+The marginal utility for 
+\begin_inset Formula $x$
+\end_inset
+
+ is decreasing for each agent, with the marginal utility for 
+\begin_inset Formula $y$
+\end_inset
+
+ being fixed.
+ Reducing agent A allocation from 
+\begin_inset Formula $\frac{\alpha_{1}\beta_{2}}{\alpha_{1}\beta_{2}+\alpha_{2}\beta_{1}}C$
+\end_inset
+
+ to a lower value would bring him to a point where his marginal utility
+ from 
+\begin_inset Formula $x$
+\end_inset
+
+ relative to 
+\begin_inset Formula $y$
+\end_inset
+
+ is higher than that of agent 
+\begin_inset Formula $B$
+\end_inset
+
+, which requires allocating 
+\series bold
+all
+\series default
+ the available 
+\begin_inset Formula $Y$
+\end_inset
+
+ to agent B, and vice versa.
+\end_layout
+
+\begin_layout Subsection*
+3.
+\end_layout
+
+\begin_layout Standard
+The initial endowments for the agents are 
+\begin_inset Formula $pC$
+\end_inset
+
+ and 
+\begin_inset Formula $(1-p)D$
+\end_inset
+
+, respectively.
+ The demanded quantity by agent A is the point on the budget line where
+ the slope equals to the indifference curve slope:
+\begin_inset Formula 
+\[
+\frac{\alpha_{1}}{\alpha_{2}x_{A}}=\frac{p}{1-p}\Rightarrow x_{A}=\frac{\alpha_{1}(1-p)}{\alpha_{2}p};\,\,y_{A}=\frac{pC}{1-p}-\frac{\alpha_{1}}{\alpha_{2}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Similarly for agent B it is 
+\begin_inset Formula $\left(\frac{\beta_{1}(1-p)}{\beta_{2}p},\frac{pD}{1-p}-\frac{\beta_{1}}{\beta_{2}}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Adding up to get 
+\begin_inset Formula $x_{A}+x_{B}=C$
+\end_inset
+
+:
+\begin_inset Formula 
+\[
+\frac{\alpha_{1}(1-p)}{\alpha_{2}p}+\frac{\beta_{1}(1-p)}{\beta_{2}p}=C
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\frac{1-p}{p}\left(\frac{\alpha_{1}}{\alpha_{2}}+\frac{\beta_{1}}{\beta_{2}}\right)=C\Rightarrow\frac{1}{p}=\frac{C}{\frac{\alpha_{1}}{\alpha_{2}}+\frac{\beta_{1}}{\beta_{2}}}+1=\frac{\alpha_{2}\beta_{2}C+\alpha_{1}\beta_{2}+\beta_{1}\alpha_{2}}{\alpha_{1}\beta_{2}+\beta_{1}\alpha_{2}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+And finally:
+\begin_inset Formula 
+\[
+p=\frac{\alpha_{1}\beta_{2}+\beta_{1}\alpha_{2}}{\alpha_{2}\beta_{2}C+\alpha_{1}\beta_{2}+\beta_{1}\alpha_{2}}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+1-p=\frac{\alpha_{2}\beta_{2}C}{\alpha_{2}\beta_{2}C+\alpha_{1}\beta_{2}+\beta_{1}\alpha_{2}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+An interesting observation is that 
+\begin_inset Formula $D$
+\end_inset
+
+ is not part of the price at all - which makes sense, as the amount of 
+\begin_inset Formula $y$
+\end_inset
+
+ has no impact on the marginal utility of each agent.
+\end_layout
+
+\begin_layout Subsection*
+4.
+\end_layout
+
+\begin_layout Standard
+The equilibrium allocation is given by:
+\begin_inset Formula 
+\[
+x_{A}=\frac{\alpha_{1}(1-p)}{\alpha_{2}p}=\frac{\alpha_{1}\alpha_{2}\beta_{2}C}{\alpha_{2}(\alpha_{1}\beta_{2}+\beta_{1}\alpha_{2})}=\frac{\alpha_{1}\beta_{2}}{\alpha_{1}\beta_{2}+\alpha_{2}\beta_{1}}C
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+y_{A}=\frac{pC}{1-p}-\frac{\alpha_{1}}{\alpha_{2}}=\frac{(\alpha_{1}\beta_{2}+\beta_{1}\alpha_{2})C}{\alpha_{2}\beta_{2}C}-\frac{\alpha_{1}}{\alpha_{2}}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+x_{B}=\frac{\beta_{1}(1-p)}{\beta_{2}p}=\frac{\beta_{1}\alpha_{2}\beta_{2}C}{\beta_{2}(\alpha_{1}\beta_{2}+\beta_{1}\alpha_{2})}=\frac{\beta_{1}\alpha_{2}C}{\alpha_{1}\beta_{2}+\beta_{1}\alpha_{2}}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+y_{B}=\frac{pC}{1-p}-\frac{\beta_{1}}{\beta_{2}}=\frac{(\alpha_{1}\beta_{2}+\beta_{1}\alpha_{2})C}{\alpha_{2}\beta_{2}C}-\frac{\beta_{1}}{\beta_{2}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+which is clearly on the contract curve (
+\begin_inset Formula $x$
+\end_inset
+
+ values match those found in part (1), and 
+\begin_inset Formula $y$
+\end_inset
+
+ values doesn't matter at all).
+\end_layout
+
+\begin_layout Subsection*
+5.
+\end_layout
+
+\begin_layout Standard
+Yes - for other values of 
+\begin_inset Formula $p$
+\end_inset
+
+, 
+\begin_inset Formula $x_{A}+x_{B}$
+\end_inset
+
+ won't hold.
+\end_layout
+
+\begin_layout Subsection*
+6.
+\end_layout
+
+\begin_layout Standard
+The non-standard feature of this model (when applying it to financial markets)
+ is having different utility functions for the different possible states.
+ The common model would be:
+\begin_inset Formula 
+\[
+U(x,y)=pu_{!}(x)+(1-p)u_{2}(y)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+with 
+\begin_inset Formula $u_{1}\equiv u_{2}$
+\end_inset
+
+ being the same function, which is not the case here, as 
+\begin_inset Formula $u_{1}(x)=\alpha_{1}log(x)$
+\end_inset
+
+ while 
+\begin_inset Formula $u_{2}(y)=\alpha_{2}y$
+\end_inset
+
+.
+\end_layout
+
+\end_body
+\end_document

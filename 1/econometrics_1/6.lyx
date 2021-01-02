@@ -674,7 +674,7 @@ Common tests for heteroskedasticity
 \end_layout
 
 \begin_layout Subsubsection
-The Breush-Pagan test
+The Breusch-Pagan test
 \begin_inset Formula 
 \[
 H_{0}:Var(u|x_{1},\ldots x_{k})=\sigma^{2}
