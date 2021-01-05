@@ -1,0 +1,1150 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+\usepackage{indentfirst}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2.5cm
+\topmargin 2.5cm
+\rightmargin 2.5cm
+\bottommargin 2.5cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Econometrics 2 - Lecture 1
+\end_layout
+
+\begin_layout Author
+Leonid Genkin
+\end_layout
+
+\begin_layout Section
+Limited Dependent Variable (LDV)
+\end_layout
+
+\begin_layout Standard
+A dependent variable with a 
+\series bold
+substantially restricted
+\series default
+ values range:
+\end_layout
+
+\begin_layout Itemize
+A binary variable which reflects a 
+\series bold
+qualitative
+\series default
+ event
+\end_layout
+
+\begin_layout Itemize
+A 
+\series bold
+count variable
+\series default
+ (non-negative integer values)
+\end_layout
+
+\begin_layout Itemize
+A 
+\series bold
+corner solution
+\series default
+ variable (continuous over a range but with pileup)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+When 
+\begin_inset Formula $Y$
+\end_inset
+
+ is discrete and takes a small number of values, there is no sense in terating
+ it as a countinuos variable.
+ This module will deal with developing models which can handle such variable.
+ It is important to notice that 
+\series bold
+not all 
+\series default
+LDS need special treatment (many different values - special model is rarely
+ necessary).
+\end_layout
+
+\begin_layout Section
+Linear Probability Model
+\end_layout
+
+\begin_layout Standard
+Consider an MLR model with a binary dependent variable.
+ As it can take only two values, 
+\begin_inset Formula $\beta_{j}$
+\end_inset
+
+ 
+\series bold
+cannot
+\series default
+ be interpreted as the difference in 
+\begin_inset Formula $Y$
+\end_inset
+
+ given one unit increase in 
+\begin_inset Formula $X_{j}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Suppose that the zero conditional mean assumption holds.
+ Then:
+\begin_inset Formula 
+\[
+E[Y|X_{1},\ldots,X_{p}]=\beta_{0}+\beta_{1}X_{1}+\cdots+\beta_{p}X_{p}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+But, as 
+\begin_inset Formula $Y$
+\end_inset
+
+ can only take one of two values:
+\begin_inset Formula 
+\[
+E[Y|X_{1},\ldots X_{p}]=P[Y=1|X_{1},\ldots,X_{p}]
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+If we insist on estimating the model using OLS or MOM and keeping 
+\begin_inset Formula $Y$
+\end_inset
+
+ as the dependent model, we will actually estimate:
+\begin_inset Formula 
+\[
+P[Y=1|X_{1},\ldots X_{p}]=\beta_{0}+\beta_{1}X_{1}+\cdots+\beta_{p}X_{p}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+This is the 
+\series bold
+LPM 
+\series default
+(linear probability model).
+ Within the ocntext of econometrics terminology, this probability is called
+ the 
+\series bold
+response probability
+\series default
+, or the 
+\series bold
+probability of success
+\series default
+.
+ Then:
+\begin_inset Formula 
+\[
+P[Y=0|X_{1},\ldots X_{p}]=1-(\beta_{0}+\beta_{1}X_{1}+\cdots+\beta_{p}X_{p})
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Each 
+\begin_inset Formula $\beta_{j}$
+\end_inset
+
+ measures the difference in the probability of success, when 
+\begin_inset Formula $X_{j}$
+\end_inset
+
+ increases by one unit, a.e.b.e.
+\end_layout
+
+\begin_layout Standard
+Rewriting the model as 
+\begin_inset Formula $\hat{Y}=\hat{\beta}_{0}+\hat{\beta}_{1}X_{1}+\cdots+\hat{\beta}_{p}X_{p}$
+\end_inset
+
+, then 
+\begin_inset Formula 
+\[
+\hat{Y}=\hat{E}[Y|X_{1},\ldots,X_{p}]=\hat{P}[Y=1|X_{1},\cdots,X_{p}]
+\]
+
+\end_inset
+
+ is the estimated probability of success (the 
+\begin_inset Quotes eld
+\end_inset
+
+fitted value
+\begin_inset Quotes erd
+\end_inset
+
+).
+\begin_inset Formula $\hat{\beta}_{0}$
+\end_inset
+
+ is the estimated probability of success when each 
+\begin_inset Formula $X_{j}$
+\end_inset
+
+ is 0.
+ In order to correctly interpret an LPM, the notion of 
+\begin_inset Quotes eld
+\end_inset
+
+success
+\begin_inset Quotes erd
+\end_inset
+
+ needs to be explained
+\end_layout
+
+\begin_layout Subsection
+Example
+\end_layout
+
+\begin_layout Standard
+Consider the impact of various factors (children number, husband, education)
+ on the binary variable of participation in labor force of women.
+ Predicting zero-one outcomes can be done by defining a predicted value
+ as 1 or 0, if the success probability is greater than or less than 0.5,
+ respectively.
+\end_layout
+
+\begin_layout Standard
+Evaluating the accuracy of the model can be done by checking the 
+\begin_inset Quotes eld
+\end_inset
+
+true positives/negatives
+\begin_inset Quotes erd
+\end_inset
+
+ rate (
+\begin_inset Formula $\%$
+\end_inset
+
+ correctly predicted for 
+\begin_inset Formula $Y_{i}=1$
+\end_inset
+
+ or 
+\begin_inset Formula $0$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Another method for accuracy check is the 
+\series bold
+overall
+\series default
+ correctly predicted rate (both 0 and 1 values are taken into account)
+\end_layout
+
+\begin_layout Subsection
+LPM Shortcomings
+\end_layout
+
+\begin_layout Enumerate
+For certain combinations of 
+\begin_inset Formula $X_{j}$
+\end_inset
+
+ values, the estimated success probabilities might be 
+\begin_inset Formula $<0$
+\end_inset
+
+ or 
+\begin_inset Formula $>1$
+\end_inset
+
+ (it works well for values 
+\series bold
+near the averages
+\series default
+ in the sample).
+\end_layout
+
+\begin_layout Enumerate
+A probability cannot be linarly related to the independent variables for
+ all possible values (e.g a change in the independent variable can introcude
+ a >1 change in the probability)
+\end_layout
+
+\begin_layout Enumerate
+Due to the binary nature of 
+\begin_inset Formula $Y$
+\end_inset
+
+, the model violates the assumption of homoskedasticity:
+\begin_inset Formula 
+\[
+Var[U|X_{1},\ldots,X_{p}]=Var[Y|X_{1},\ldots,X_{p}]
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+Var[Y|X_{1},\ldots,X_{p}]=E[Y|X_{1},\ldots,X_{p}-E[Y|X_{1},\ldots X_{p}]]^{2}=
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+E[Y^{2}|X_{1},\ldots,X_{p}]-[E[Y|X_{1},\ldots,X_{p}]]^{2}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+E[Y^{2}|X_{1},\ldots,X_{p}]=1^{2}\cdot P[Y=1|X_{1},\ldots,X_{p}]+0^{2}\cdot P[Y=0|X_{1},\ldots,X_{p}]=P[Y=1|X_{1},\ldots,X_{p}]
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Thus:
+\begin_inset Formula 
+\[
+Var[Y|X_{1},\ldots,X_{p}]=P[Y=1|X_{1},\ldots,X_{p}]-[P[Y=1|X_{1},\ldots,X_{p}]]^{2}=
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+=P[Y=1|X_{1},\ldots,X_{p}][1-P[Y=1|X_{1},\ldots X_{p}]]=Var[U|X_{1},\ldots X_{p}]
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Logit and Probit Methods
+\end_layout
+
+\begin_layout Standard
+To overcome the LPM limitations, consider binary response models of the
+ form:
+\begin_inset Formula 
+\[
+P(Y=1|X_{1},\ldots,X_{p})=G(\beta_{0}+\beta_{1}X_{1}+\cdots+\beta_{p}X_{p})
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Where 
+\begin_inset Formula $G(\cdot)$
+\end_inset
+
+ is a function that takes on values strictly between 0 and 1 - which ensures
+ that the 
+\series bold
+estimated 
+\series default
+response probabilities are in 
+\begin_inset Formula $[0,1]$
+\end_inset
+
+.
+ The most common nonlinear 
+\begin_inset Formula $G(\cdot)$
+\end_inset
+
+ functions are:
+\end_layout
+
+\begin_layout Itemize
+The c.d.f of a standard logistic RV (
+\begin_inset Quotes eld
+\end_inset
+
+the Logit model
+\begin_inset Quotes erd
+\end_inset
+
+):
+\begin_inset Formula 
+\[
+G(z)=\frac{1}{1+e^{-z}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+The c.d.f of a standard normal RV (
+\begin_inset Quotes eld
+\end_inset
+
+the Probit model
+\begin_inset Quotes erd
+\end_inset
+
+):
+\begin_inset Formula 
+\[
+G(z)=\frac{1}{\sqrt{2\pi}}\int_{-\infty}^{\infty}e^{\frac{-t^{2}}{2}}dt=\Phi(z)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Both c.d.f.s are increasing functions, which increase most quickly at 
+\begin_inset Formula $z=0$
+\end_inset
+
+, and approach 0 or 1 as 
+\begin_inset Formula $z$
+\end_inset
+
+ approaches 
+\begin_inset Formula $\pm\infty$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Both models assume that the zero conditional mean holds.
+ The logit model the standard 
+\series bold
+logistic
+\series default
+ distribution, and the probit model as standard 
+\series bold
+normal
+\series default
+ distribution.
+\end_layout
+
+\begin_layout Standard
+The logit model:
+\begin_inset Formula 
+\[
+P(Y=1|X_{1},\ldots,X_{p})=\frac{exp(\beta_{0}+\beta_{1}X_{1}+\cdots+\beta_{p}X_{p})}{1+exp(\beta_{0}+\beta_{1}X_{1}+\cdots+\beta_{p}X_{p})}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+i.e the c.d.f.
+ of a standard 
+\series bold
+logistic
+\series default
+ RV at 
+\begin_inset Formula $\beta_{0}+\beta_{1}X_{1}+\cdots+\beta_{p}X_{p}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+The probit model:
+\begin_inset Formula 
+\[
+P(Y=1|X_{1},\ldots,X_{p})=\frac{1}{\sqrt{2\pi}}\int_{-\infty}^{\beta_{0}+\beta_{1}X_{1}+\cdots+\beta_{p}X_{p}}exp(-\frac{t^{2}}{2})dt=\Phi(\beta_{0}+\beta_{1}X_{1}+\cdots+\beta_{p}X_{p})
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+i.e the c.d.f.
+ of a standard 
+\series bold
+normal
+\series default
+ RV at 
+\begin_inset Formula $\beta_{0}+\beta_{1}X_{1}+\cdots+\beta_{p}X_{p}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection
+Logit and Probit coefficients
+\end_layout
+
+\begin_layout Standard
+The 
+\series bold
+direction
+\series default
+ of the effect of 
+\begin_inset Formula $X_{j}$
+\end_inset
+
+ on 
+\begin_inset Formula $P$
+\end_inset
+
+ is the 
+\series bold
+same
+\series default
+ in all models.
+\end_layout
+
+\begin_layout Standard
+The 
+\series bold
+magnitude
+\series default
+ is harder to interpret, and usually not especially useful.
+ In the logit model 
+\begin_inset Formula $\beta_{j}$
+\end_inset
+
+ is the partial effect of 
+\begin_inset Formula $X_{j}$
+\end_inset
+
+ on the 
+\series bold
+log odds
+\series default
+ of 
+\begin_inset Formula $Y=1$
+\end_inset
+
+ i.e a.e.b.e:
+\end_layout
+
+\begin_layout Enumerate
+A single unit increase in 
+\begin_inset Formula $X_{j}$
+\end_inset
+
+ leads to approximately 
+\begin_inset Formula $100\beta_{j}\%$
+\end_inset
+
+ difference in the odds of 
+\begin_inset Formula $Y=1$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+The 
+\series bold
+odds
+\series default
+ (
+\begin_inset Formula $Y=1$
+\end_inset
+
+ is 
+\begin_inset Formula $exp(\beta_{j})$
+\end_inset
+
+ 
+\series bold
+as likely
+\series default
+ as 
+\begin_inset Formula $Y=0$
+\end_inset
+
+) when 
+\begin_inset Formula $X_{j}$
+\end_inset
+
+ increases by a single unit.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In the logit model, 
+\begin_inset Formula $\beta_{j}$
+\end_inset
+
+ is the partial effect of 
+\begin_inset Formula $X_{j}$
+\end_inset
+
+ on the z-score of 
+\begin_inset Formula $P(Y=1|X_{1},\ldots,X_{p})$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsubsection
+Example 1
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+P[Y=1|X_{1},\ldots,X_{p}]=\frac{exp(\beta_{0}+\beta_{1}X_{1}+\cdots+\beta_{p}X_{p})}{1+exp(\beta_{0}+\beta_{1}X_{1}+\cdots+\beta_{p}X_{p})}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+1-P[Y=1|X_{1},\ldots,X_{p}]=\frac{1}{1+exp(\beta_{0}+\beta_{1}X_{1}+\cdots+\beta_{p}X_{p})}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\frac{P[Y=1|X_{1},\ldots,X_{p}]}{1-P[Y=1|X_{1},\ldots,X_{p}]}=exp(\beta_{0}+\beta_{1}X_{1}+\cdots+\beta_{p}X_{p})
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+log\left(\frac{P[Y=1|X_{1},\ldots,X_{p}]}{1-P[Y=1|X_{1},\ldots,X_{p}]}\right)=\beta_{0}+\beta_{1}X_{1}+\cdots+\beta_{p}X_{p}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+This is the exactly same log-level model introduced in module A, with the
+ only difference being that here we deal with 
+\series bold
+the 
+\begin_inset Quotes eld
+\end_inset
+
+odds
+\begin_inset Quotes erd
+\end_inset
+
+
+\series default
+.
+\end_layout
+
+\begin_layout Subsubsection
+Example 2
+\end_layout
+
+\begin_layout Standard
+Having the following model:
+\begin_inset Formula 
+\[
+P[BKRPT=1|LEV,\ldots,SIZE]=G(\beta_{0}+\beta_{1}LEV+\cdots+\beta_{p}SIZE)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $G(\cdot)$
+\end_inset
+
+ is a c.d.f of a standard 
+\series bold
+logistic
+\series default
+ RV.
+ 
+\begin_inset Formula $\hat{\beta}_{1}=0.2$
+\end_inset
+
+ means that when leverage increases by 1 unit, 
+\begin_inset Formula $log$
+\end_inset
+
+ odds of 
+\begin_inset Formula $BKRPT=1$
+\end_inset
+
+, i.e
+\begin_inset Formula 
+\[
+log\left(\frac{P[BKRPT=1|LEV,\ldots,SIZE]}{P[BKRPT=0|LEV,\ldots,SIZE]}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+change by 0.2.
+\end_layout
+
+\begin_layout Standard
+When leverage goes up by 1 unit, the odds of bankrupcy being 1 changes by
+ approximately 20% (or exactly - by 
+\begin_inset Formula $e^{0.2}-1)\cdot100\%=22.14\%$
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Standard
+In additioin to that, bankrupcy is 
+\begin_inset Formula $e^{0.2}=1.221$
+\end_inset
+
+ times as likely when leverage increases by 1 unit.
+\end_layout
+
+\begin_layout Subsubsection
+Example 3
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+P(BKRPT=1|LEV,\ldots,SIZE)=G(\beta_{0}+\beta_{1}LEV+\cdots+\beta_{p}SIZE)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $G(\cdot)$
+\end_inset
+
+ is the c.d.f of a standard 
+\series bold
+normal
+\series default
+ RV.
+ 
+\begin_inset Formula $\hat{\beta}_{2}=0.2$
+\end_inset
+
+ means that when leverage increases by a single unit, the z-score, i.e 
+\begin_inset Formula 
+\[
+\frac{P[BKRPT=1|LEV,\ldots,SIZE]-P[BKRPT=1]}{SD(P[BKRPT=1])}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+changes by 0.2.
+\end_layout
+
+\begin_layout Standard
+When leverage goes up by 1 unit, the probability for bankrupcy is 0.2 standard
+ deviations above the mean bankrupcy probability.
+\end_layout
+
+\begin_layout Subsection
+Partial effects
+\end_layout
+
+\begin_layout Standard
+The partial effect of 
+\begin_inset Formula $X_{j}$
+\end_inset
+
+ is given by the scaled logit/probit coefficient, which is obtained by taking
+ the partial derivative:
+\begin_inset Formula 
+\[
+\frac{\partial P(Y=1|X_{1},\ldots,X_{p})}{\partial X_{j}}=g(\beta_{0}+\beta_{1}X_{1}+\cdots+\beta_{p}X_{p})\cdot\beta_{j}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+where 
+\begin_inset Formula $g(z)$
+\end_inset
+
+ is the p.d.f of a standard logistic/normal RV.
+\end_layout
+
+\begin_layout Standard
+For example:
+\begin_inset Formula 
+\[
+P(Y=1|X_{1},X_{2},X_{3})=G(\beta_{0}+\beta_{1}X_{1}+\beta_{2}X_{2}^{2}+\beta_{3}log(X_{2})+\beta_{4}X_{3})
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Then the partial effect of 
+\begin_inset Formula $X_{1}$
+\end_inset
+
+ is:
+\begin_inset Formula 
+\[
+\frac{\partial P(Y=1|X_{1},X_{2},X_{3})}{\partial X_{1}}=g(\beta_{0}+\beta_{1}X_{1}+\beta_{2}X_{2}^{2}+\beta_{3}log(X_{2})+\beta_{4}X_{3})\cdot(\beta_{1}+2\beta_{2}X_{1})
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The partial effect of 
+\begin_inset Formula $X_{2}$
+\end_inset
+
+ is:
+\begin_inset Formula 
+\[
+\frac{\partial P(Y=1|X_{1},X_{2},X_{3})}{\partial X_{2}}=g(\beta_{0}+\beta_{1}X_{1}+\beta_{2}X_{2}^{2}+\beta_{3}log(X_{2})+\beta_{4}X_{3})\cdot\left(\frac{\beta_{3}}{X_{2}}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The partial effect of 
+\begin_inset Formula $X_{j}$
+\end_inset
+
+ going from 
+\begin_inset Formula $c_{j}$
+\end_inset
+
+ to 
+\begin_inset Formula $c_{j}+1$
+\end_inset
+
+ is given by the difference:
+\begin_inset Formula 
+\[
+G(\beta_{0}+\beta_{1}X_{1}+\cdots\beta_{j}(c_{j}+1)+\cdots+\beta_{p}X_{p})-G(\beta_{0}+\beta_{1}X_{1}+\cdots\beta_{j}c_{j}+\cdots+\beta_{p}X_{p})
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+where 
+\begin_inset Formula $G(z)$
+\end_inset
+
+ is the c.d.f og the standard logistic/normal RV.
+\end_layout
+
+\begin_layout Subsubsection
+Example 1
+\end_layout
+
+\begin_layout Standard
+Suppose 
+\begin_inset Formula $G(z)$
+\end_inset
+
+ is a c.d.f of a standard 
+\series bold
+logistic
+\series default
+ RV:
+\begin_inset Formula 
+\[
+G(z)=\frac{e^{z}}{1+e^{z}}=\frac{1}{1+e^{-z}}=\frac{exp(\beta_{0}+\beta_{1}X_{1}+\cdots+\beta_{p}X_{p})}{1+exp(\beta_{0}+\beta_{1}X_{1}+\cdots+\beta_{p}X_{p})}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+This ratio can be found very easily in R (see appendix slides - 
+\begin_inset Formula $plogis$
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Standard
+Then:
+\begin_inset Formula 
+\[
+g(z)=\frac{1\cdot e^{z}(1+e^{z})-e^{z}\cdot1\cdot e^{z}}{(1+e^{z})^{2}}=\frac{e^{z}}{(1+e^{z})^{2}}=\frac{exp(\beta_{0}+\beta_{1}X_{1}+\cdots+\beta_{p}X_{p})}{(1+exp(\beta_{0}+\beta_{1}X_{1}+\cdots+\beta_{p}X_{p}))^{2}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In R this ratio is calculated using 
+\begin_inset Formula $dlogis$
+\end_inset
+
+ (
+\begin_inset Formula $d$
+\end_inset
+
+ for 
+\series bold
+density
+\series default
+).
+\end_layout
+
+\begin_layout Subsubsection
+Example 2
+\end_layout
+
+\begin_layout Standard
+Suppose 
+\begin_inset Formula $G(z)$
+\end_inset
+
+ is a c.d.f of a standard 
+\series bold
+normal
+\series default
+ RV:
+\begin_inset Formula 
+\[
+G(z)=\frac{1}{\sqrt{2\pi}}\int_{-\infty}^{\infty}e^{-\frac{t^{2}}{2}}dt
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+g(z)=\frac{1}{\sqrt{2\pi}}exp\left(-\frac{z^{2}}{2}\right)=\frac{1}{\sqrt{2\pi}}exp\left(\frac{-(\beta_{0}+\beta_{1}X_{1}+\cdots+\beta_{p}X_{p})}{2}\right)^{2}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Estimators of 
+\begin_inset Formula $\beta_{j}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Because of the nonlinear nature, MOM and OLS are not applicable.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Maximum likelihood estimation (MLE)
+\series default
+ - supposed the p.d.f of 
+\begin_inset Formula $Y|X_{1},\ldots,X_{p}$
+\end_inset
+
+is known.
+ Then:
+\begin_inset Formula 
+\[
+f(Y|X_{1},\ldots X_{p})=[G(\beta_{0}+\beta_{1}X_{1}+\cdots+\beta_{p}X_{p})]^{Y}[1-G(\beta_{0}+\beta_{1}X_{1}+\cdots+\beta_{p}X_{p})^{1-Y}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Note:
+\begin_inset Formula 
+\[
+E(Y|X_{1},\ldots,X_{p})=1\cdot G(\cdot)+0\cdot[1-G(\cdot)]
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+P(Y=1|X_{1},\ldots,X_{p})=G(\cdot)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

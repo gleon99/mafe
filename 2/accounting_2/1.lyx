@@ -1,0 +1,219 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+\usepackage{indentfirst}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2.5cm
+\topmargin 2.5cm
+\rightmargin 2.5cm
+\bottommargin 2.5cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Financial Accounting 2 - Lecture 1
+\end_layout
+
+\begin_layout Author
+Leonid Genkin
+\end_layout
+
+\begin_layout Section
+Ratio and Profitability Analysis
+\end_layout
+
+\begin_layout Standard
+FS #12 belongs to Fortis, as it matches the business model of a bank.
+ A bank works by taking deposits from the public and using it to provide
+ loans to other.
+ It acts as an agent, which stands between the depositors and the borrowers.
+ The large liabilities (payables) represent the deposits people have made,
+ and the receivables are the loans that were given.
+ The operating revenues of a bank is the interest it charges.
+ The operating cost is the expense paid to the depositing customers.
+ There is no inventory, and high intercorporate investment rate.
+\end_layout
+
+\begin_layout Standard
+Looking at the numbers as a percentage of the revenue allows to normalize
+ them, independent of the size of each firm.
+ Banks do not typically own property (rent the office space), but they invest
+ a lot in the information systems (it provides them competitive advantage).
+\end_layout
+
+\begin_layout Standard
+If many borrowers fail to pay, equity decreases.
+ If there are many such borrowers, lenders would take their money out.
+\end_layout
+
+\begin_layout Standard
+Firms can be divided to high - (#2, #9) and low-intensity (#3, #5) R&D.
+ Number #2 is Sun.
+ Given the fact that Sun outsources big parts of its operation, it is assumed
+ to have less PP&E.
+ Also, technological companies usually don't hold big inventory (products
+ constantly change and become obsolete), unlike pharmaceutical companies
+ (they are even sometimes requested to keep a ceratin inventory amount).
+ The selling expense for #9 (Roche) is lower
+\end_layout
+
+\begin_layout Standard
+The low-intensity R&D firms are Toyota and Nestle.
+ Telco firms, in most cases, would prefer to buy solutions form technological
+ companies rather than make them up.
+ #3 is Nestle and #5 is Toyota.
+ Toyota granting credit to customers results in higher receivables.
+ Intercorporate investment are typical in Asia (consortium of companies
+ - e.g Hyundai).
+ In case of Toyota - it invests also in some of its suppliers.
+\end_layout
+
+\begin_layout Standard
+Nestle is an expensive brand, and usually cheaper alternatives (
+\begin_inset Quotes eld
+\end_inset
+
+supermarket brand
+\begin_inset Quotes erd
+\end_inset
+
+) can be found (not in Israel).
+ Sometimes they are even manufactured in the same way.
+ Why do people buy the more expensive brand? - Convinced by marketing.
+ Thus, Nestle has high selling and administrative expense, compared to Toyota
+ (which needs to only market one brand).
+\end_layout
+
+\begin_layout Standard
+#7 cannot is Interpublic Group.
+ It has no inventory.
+ As it is a service company, they do not have a lot of PP&E.
+ The A/R and current liabilities are high.
+ In order to get a deeper understanding of the A/R figure, we look at the
+ A/R 
+\series bold
+turnover ratio
+\series default
+.
+ In case of firm #7 it is given by:
+\begin_inset Formula 
+\[
+\frac{100\%}{81.1\%}=1.23\Rightarrow Days=\frac{365}{1.23}=\sim297\,days
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+An interesting observation is that firms with zero/low inventory have high
+ PP&E.
+ Distinguishing between them and matching correcly is tricky.
+\end_layout
+
+\begin_layout Standard
+Dividing the PP&E cost by the depreciation expense, we can estimate its
+ effective life span.
+ Power companies typically come up with a long-term business plan.
+ #10 is Deutsche Telekom, and #8 is Accor (not all hotels are owned by them).
+ Telecommunications is capital intensive industry
+\end_layout
+
+\begin_layout Standard
+#6 is Arbed-Acier.
+ Is has big inventory (having so for food copmany won't make sense) and
+ high PP&E number (which implies a manufacturing firm).
+\end_layout
+
+\begin_layout Standard
+#1 is Carrefour and #4 is Marks & Spencer.
+ As they have their own credit cards, they have higher A/R and PP&E (investment
+ in stores).
+ Carrefour has lower profit margin (they sell 
+\begin_inset Quotes eld
+\end_inset
+
+everything
+\begin_inset Quotes erd
+\end_inset
+
+ and people buy more) and spend less on customer service.
+\end_layout
+
+\end_body
+\end_document
