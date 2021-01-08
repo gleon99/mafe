@@ -1,0 +1,324 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+\usepackage{indentfirst}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2.5cm
+\topmargin 2.5cm
+\rightmargin 2.5cm
+\bottommargin 2.5cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Financial Accounting 2 - Tutorial 1
+\end_layout
+
+\begin_layout Author
+Leonid Genkin
+\end_layout
+
+\begin_layout Section
+Reformulation
+\end_layout
+
+\begin_layout Standard
+Reformulating is done in order to evaluate a company, both in its financial
+ and operational states, by breaking the financial statements into 2 parts
+ (NOA, NFO).
+\end_layout
+
+\begin_layout Standard
+Economically, a leased proprety creates an operational liability.
+\end_layout
+
+\begin_layout Section
+Profitability Analysis
+\end_layout
+
+\begin_layout Standard
+Profitability analysis is done in 3 levels:
+\end_layout
+
+\begin_layout Itemize
+ROE
+\end_layout
+
+\begin_layout Itemize
+NOPM & NOAT
+\end_layout
+
+\begin_layout Itemize
+Breakdown of the above drivers
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+It provides insight on how the company generates its profits, and why they
+ change.
+\end_layout
+
+\begin_layout Subsection
+Level 1
+\end_layout
+
+\begin_layout Standard
+ROE - How much profit (return) was the company able to generate, given its
+ book value:
+\begin_inset Formula 
+\[
+ROE=\frac{NI}{Avg.BV}
+\]
+
+\end_inset
+
+ It doesn't give much information from an operational perspective, because
+ it doesn't separate operational & financial aspects: we don't know how
+ much of the income is really from the main business, and how much equity
+ is composed of real equity vs.
+ loans.
+\end_layout
+
+\begin_layout Standard
+An alternative way to look at the ROE is:
+\begin_inset Formula 
+\[
+ROE_{t}=RNOA+FLEV\times[RNOA-NFR]
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Where 
+\begin_inset Formula $RNOA$
+\end_inset
+
+ is the return on 
+\series bold
+net
+\series default
+ operating assets (
+\begin_inset Quotes eld
+\end_inset
+
+net profit just from operations
+\begin_inset Quotes erd
+\end_inset
+
+):
+\begin_inset Formula 
+\[
+RNOA=\frac{NOPAT}{Avg.NOA}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Some companies use 
+\series bold
+leverage
+\series default
+ in order to upgrade their return (their is limit on how equity can be brought):
+\begin_inset Formula 
+\[
+FLEV=\frac{Avg.NFO}{Avg.Equity}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Which can be roughly described as 
+\begin_inset Quotes eld
+\end_inset
+
+the percentage of loans, from the whole equity of the company
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $NFR$
+\end_inset
+
+ is the net cost of borrowing:
+\begin_inset Formula 
+\[
+NFR=\frac{NFE}{Avf.NFO}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+An early stage company (start-up) usually won't have too high leverage,
+ before being able to establish a positive 
+\begin_inset Formula $RNOA$
+\end_inset
+
+ (this is not recommended - it would negatively impact the overall return).
+\end_layout
+
+\begin_layout Standard
+In constrast, a stable business might comfortably increase its leverage,
+ in case there is a good enoguh spread (between the 
+\begin_inset Formula $RNOA$
+\end_inset
+
+ and 
+\begin_inset Formula $NFR$
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $ROCE$
+\end_inset
+
+ is the ratio between net income and the average equity (total assets -
+ current liabilities).
+\end_layout
+
+\begin_layout Subsection
+Level 2
+\end_layout
+
+\begin_layout Standard
+Calculation of 
+\begin_inset Formula $RNOA$
+\end_inset
+
+ (return on net operating assets) by the formula:
+\begin_inset Formula 
+\[
+RNOA=NOPM\times NOAT
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Where:
+\begin_inset Formula 
+\[
+NOPM=\frac{NOPAT}{SALSE}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+is the profit margin (profit per sales), and
+\begin_inset Formula 
+\[
+NOAT=\frac{SALES}{Avg.NOA}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+is the net operating asset turnover.
+\end_layout
+
+\end_body
+\end_document

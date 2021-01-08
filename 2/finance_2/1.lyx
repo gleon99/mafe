@@ -1,0 +1,263 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+\usepackage{indentfirst}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2.5cm
+\topmargin 2.5cm
+\rightmargin 2.5cm
+\bottommargin 2.5cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Finance 2 - Lecture 1
+\end_layout
+
+\begin_layout Author
+Leonid Genkin
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Investment
+\series default
+ decisions (whether to invest in a particular project) must be distinguished
+ from 
+\series bold
+financing
+\series default
+ decisions (how to finance it).
+\end_layout
+
+\begin_layout Standard
+Recall from finance 1: the 
+\series bold
+present value
+\series default
+ of a project is the sum of the future cash flows, discounted to the present.
+ 
+\series bold
+Depreciation
+\series default
+ - an accounting method of allocating the cost of an asset over its useful
+ life.
+ 
+\series bold
+Working capital
+\series default
+ - money that has to be put aside in order to allow business operations
+ (cash register, inventory, credit to customers / from suppliers).
+\end_layout
+
+\begin_layout Standard
+The revenue minus COGS (cost of goods sold) and depreciation gives EBIT
+ (earnings before interest & tax).
+ After subtracting taxes we gen NOPAT (net operating income after tax).
+ Adding back the depreciation and subtracting the working capital, we finally
+ get the 
+\series bold
+free cash flow
+\series default
+ (FCF).
+\end_layout
+
+\begin_layout Standard
+The 
+\series bold
+incremental
+\series default
+ CF of the project is the CF of the firm with it, compared to the CF without
+ it.
+\end_layout
+
+\begin_layout Standard
+Taxes consist of 2 types:
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Operating taxes
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+In case there is positive profit, tax on the profit, NOPAT equals 1 - tax
+ rate
+\end_layout
+
+\begin_layout Itemize
+When there is negative profit:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+If there are other profitable segments - this (negative) project results
+ in the reduction of taxes paid on the on the segments.
+\end_layout
+
+\begin_layout Itemize
+If there are no other profitable segments (new company), the total tax is
+ 0, but the taxes authority would open a 
+\begin_inset Quotes eld
+\end_inset
+
+credit account
+\begin_inset Quotes erd
+\end_inset
+
+ which reduces future taxes.
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Itemize
+
+\series bold
+Capital gain tax
+\series default
+: Consider selling a machine.
+ The book value is the historical price, minus accumulated depreciation.
+ Ccpital gain is the selling price minus book value.
+ The liability on capital gain is the capital gain times the capital gain
+ tax rate.
+ Then, the CF from selling the machine the capital gain, minus the tax.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The meaning of the 
+\series bold
+interest rate
+\series default
+ is the 
+\series bold
+alternative
+\series default
+.
+\end_layout
+
+\begin_layout Standard
+There are 2 types of risks for any project/firm: systematic (market) risk
+ and specific risk.
+ Only the former one gets compensation in the market.
+\end_layout
+
+\begin_layout Standard
+The goal is to diversify most of the money.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+NPV=-I_{o}+\sum_{n=1}^{N}\frac{E(CF_{n})}{(1+E(r))^{n}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+PV=\sum_{n=1}^{N}\frac{E(CF_{n})}{(1+E(r))^{n}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Under the assumption that all investment is 
+\series bold
+equity
+\series default
+ investment (no debt)
+\end_layout
+
+\end_body
+\end_document
