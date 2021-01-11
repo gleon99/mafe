@@ -1110,7 +1110,7 @@ Because of the nonlinear nature, MOM and OLS are not applicable.
 \series bold
 Maximum likelihood estimation (MLE)
 \series default
- - supposed the p.d.f of 
+ - suppose the p.d.f of 
 \begin_inset Formula $Y|X_{1},\ldots,X_{p}$
 \end_inset
 

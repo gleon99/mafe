@@ -1,0 +1,620 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+\usepackage{indentfirst}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2.5cm
+\topmargin 2.5cm
+\rightmargin 2.5cm
+\bottommargin 2.5cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Financial Accounting 2 - Lecture 2
+\end_layout
+
+\begin_layout Author
+Leonid Genkin
+\end_layout
+
+\begin_layout Section
+Profitability Analysis - Level 1
+\end_layout
+
+\begin_layout Subsection
+ROE
+\end_layout
+
+\begin_layout Standard
+The goal is to be able to 
+\begin_inset Quotes eld
+\end_inset
+
+say something more
+\begin_inset Quotes erd
+\end_inset
+
+ about the ROE, which is given by:
+\begin_inset Formula 
+\[
+ROE=\frac{NI}{Avg.SSE}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+and measures the 
+\series bold
+effectiveness
+\series default
+ at managing the shareholders' capital.
+\end_layout
+
+\begin_layout Standard
+Considering 
+\begin_inset Formula $NOA=NFO=CSE$
+\end_inset
+
+ and 
+\begin_inset Formula $NOPAT-NFE=NI$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection
+RNOA
+\end_layout
+
+\begin_layout Standard
+The 
+\series bold
+operating return
+\series default
+ (RNOA) is the ratio between 
+\begin_inset Formula $NOPAT$
+\end_inset
+
+ and 
+\begin_inset Formula $NOA$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection
+NFR
+\end_layout
+
+\begin_layout Standard
+The 
+\series bold
+net financial rate
+\series default
+ (NFR) is 
+\begin_inset Quotes eld
+\end_inset
+
+how much the firm pays for debt
+\begin_inset Quotes erd
+\end_inset
+
+:
+\begin_inset Formula 
+\[
+NFR=\frac{NFE}{Avg.NFO}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+When financial assets are higher than the financial pbligations, the 
+\begin_inset Formula $NFO$
+\end_inset
+
+ is negative.
+\end_layout
+
+\begin_layout Subsection
+Financial Leverage
+\end_layout
+
+\begin_layout Standard
+There are various methods of calculating risk.
+ One of them is by taking the ration between the financing sources of a
+ corporation (debt vs.
+ equity).
+ The more debt it has - the riskier it is.
+\end_layout
+
+\begin_layout Subsection
+ROE - Components
+\end_layout
+
+\begin_layout Standard
+ROE can be seen as a combination of 2 components:
+\begin_inset Formula 
+\[
+ROE=RNOA+FLEV\times SPREAD
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+ROE=Operating\,return+Nonoperating\,return
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Where the spread is 
+\begin_inset Formula $RNOA-NFR$
+\end_inset
+
+ (the return on non-operating assets, minus the financing cost).
+\end_layout
+
+\begin_layout Standard
+Usually, the values of a company is impacted mainly by its operating activities.
+\end_layout
+
+\begin_layout Standard
+Financial leverage can be a good thing, when the spread is positive.
+ It can also go the other way round, and when the spread is negative - leverage
+ decreases the ROE.
+ Such companies suffer from an ROE that is worse than their 
+\begin_inset Formula $NROA$
+\end_inset
+
+ (e.g Microsoft, Apple - the more they fo on keeping thei cash, the worse
+ is their return to shareholders).
+ In other words - if we separate such company to independent 
+\begin_inset Quotes eld
+\end_inset
+
+operations
+\begin_inset Quotes erd
+\end_inset
+
+ and 
+\begin_inset Quotes eld
+\end_inset
+
+financial
+\begin_inset Quotes erd
+\end_inset
+
+ parts and invest only in the first one - we'd be better off.
+\end_layout
+
+\begin_layout Subsection
+Profitability Analysis - Level 2
+\end_layout
+
+\begin_layout Standard
+The 
+\begin_inset Formula $RNOA$
+\end_inset
+
+ can be decomposed to:
+\begin_inset Formula 
+\[
+RNOA=\frac{NOPAT}{Sales}\times\frac{Sales}{Avg.NOA}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The first term is the profit margin (
+\begin_inset Formula $NOPM$
+\end_inset
+
+) - how much operating profit the company earns from each sales dollar.
+\end_layout
+
+\begin_layout Standard
+The second term is the asset turnover (
+\begin_inset Formula $NOAT$
+\end_inset
+
+) - the productivity of the company's net operating assets *the sales level
+ realized from each dollar of assets).
+\end_layout
+
+\begin_layout Standard
+The advantage from breaking down the 
+\begin_inset Formula $RNOA$
+\end_inset
+
+ to 2 components is that it allows to compare companies with similar 
+\begin_inset Formula $RNOA$
+\end_inset
+
+ figures, but with different strategies to make them.
+\end_layout
+
+\begin_layout Standard
+As an example, consider Wal-Mart vs.
+ May.
+ The former one has lower profit margin, which is compenstaed by higher
+ asset turnover (
+\begin_inset Quotes eld
+\end_inset
+
+cost leadership strategy
+\begin_inset Quotes erd
+\end_inset
+
+).
+ May has a higher profit margin with a lower asset turnover (
+\begin_inset Quotes eld
+\end_inset
+
+product differentiation strategy
+\begin_inset Quotes erd
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Standard
+Generalizing, it is possible to compare put various industries on the asset
+ turnover - profit margit graph and compare them.
+ The retail/food segment operates on a very high efficiency and low profit
+ margin (hard competition).
+ The utilities industries are at the other extreme, with high profit margin
+ and low asset turnover (they can raise the price, unless regulated).
+\end_layout
+
+\begin_layout Standard
+There are no industries with both high profit margin and asset turnover,
+ as it would attrace competitors.
+ If there were industries with low profit margin and low asset turnover
+ - firms would exit the business, until prices go up to another equilibrium.
+\end_layout
+
+\begin_layout Subsection
+Leverage Illustration
+\end_layout
+
+\begin_layout Standard
+Consider 2 companies, each has $1000 financing by SSE, firm A is unleveraged
+ and firm B has $1000 debt at 7%.
+ In case they make both 
+\begin_inset Formula $RNOA=10\%$
+\end_inset
+
+, the second firm is better off (
+\begin_inset Formula $NI$
+\end_inset
+
+ is 130 vs.
+ 100, 
+\begin_inset Formula $ROE$
+\end_inset
+
+ is 13% vs 10%).
+ But if the make 
+\begin_inset Formula $RNOA=2\%$
+\end_inset
+
+, the first firm is better off (having 
+\begin_inset Formula $NI$
+\end_inset
+
+ 20 vs.
+ -30, thus 
+\begin_inset Formula $ROE$
+\end_inset
+
+ is 2% vs.
+ -1%).
+\end_layout
+
+\begin_layout Standard
+If a firm is leveraged and makes less then the interest it pays - it decreases
+ its ROE.
+\end_layout
+
+\begin_layout Subsection
+Level 3
+\end_layout
+
+\begin_layout Standard
+We now further decompose the 
+\begin_inset Formula $NOPM$
+\end_inset
+
+ and 
+\begin_inset Formula $NOAT$
+\end_inset
+
+, to find out what drives the sales:
+\begin_inset Formula 
+\[
+ROE=\frac{NI}{Assets}\times\frac{Assets}{Equity}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Where:
+\begin_inset Formula 
+\[
+ROA=\frac{NI}{Assets};\,\,Leverage=\frac{Assets}{Equity}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+ROE=\frac{NI}{Sales}\times\frac{Sales}{Assets}\times\frac{Assets}{Equity}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+(
+\begin_inset Formula $ROE$
+\end_inset
+
+ equals profit margin times asset turnover times leverage.
+\end_layout
+
+\begin_layout Standard
+Cosnder a situation when a firm borrows money in order to pay dividends
+ - its ROE increases
+\end_layout
+
+\begin_layout Subsection
+Summary
+\end_layout
+
+\begin_layout Standard
+Financial accounting is useful for 2 main purposes: business monitoring
+ by investors and creditors, and future earnings prediciton.
+\end_layout
+
+\begin_layout Standard
+Book value can be different from market value, because:
+\end_layout
+
+\begin_layout Itemize
+Accounting looks back, and doesn't tell anything about the future
+\end_layout
+
+\begin_layout Itemize
+Biased - prepared by the management, which tries to look good
+\end_layout
+
+\begin_layout Itemize
+Many information is not in the books (HR, inflation)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Thus, in chase of the true value, one has to adjust the book value for the
+ business environment, unrecorded events and management bias.
+\end_layout
+
+\begin_layout Subsubsection
+Strategy and characteristics identification
+\end_layout
+
+\begin_layout Standard
+The difference of this M.A program compared to MBA is that there is lots
+ of economics & finance information here, but less about strategy.
+ A suggestion might be to invest time in learning more about identifiying
+ characteristics & strategies of various industries.
+\end_layout
+
+\begin_layout Subsubsection
+Financial Statements Quality Assessment
+\end_layout
+
+\begin_layout Standard
+The 
+\begin_inset Quotes eld
+\end_inset
+
+high quality earnings
+\begin_inset Quotes erd
+\end_inset
+
+ term might imply different meanings:
+\end_layout
+
+\begin_layout Itemize
+From an accounting/regulator perspective, high-quality earnings are those
+ which farily represent the economic performance of the firm.
+\end_layout
+
+\begin_layout Itemize
+From the analysts perpsective - these are earnings sustainable or derived
+ from core operations.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+When we report numbers, we can take acitons that can impact those numbers.
+ For example: delaying an R&D project improves income.
+\end_layout
+
+\begin_layout Section
+Receivables & Revenue Recognition
+\end_layout
+
+\begin_layout Standard
+In thie chapter we stress the interaction between some items on ths B/S
+ and the I/S and how receivables, revenues and operating expenses influence
+ each other
+\end_layout
+
+\begin_layout Subsection
+Revenue Recognition
+\end_layout
+
+\begin_layout Standard
+Revenue recognition refers to when and how much revenues are shown in the
+ I/S.
+\end_layout
+
+\begin_layout Standard
+Under IFRS: when there is a probable flow of economic benefits to the company,
+ with the risk and rewards transferred to the buyer and there is no involvment
+ or control of the seller.
+ Under US GAAP: earned, realized and reliably measured.
+\end_layout
+
+\begin_layout Subsection
+A/R - Uncollectible Accounts
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes eld
+\end_inset
+
+Bad debts
+\begin_inset Quotes erd
+\end_inset
+
+ - receivables which are uncollectible, because debtors are unable or unwilling
+ to apy them.
+ Can be recorder in 2 ways:
+\end_layout
+
+\begin_layout Itemize
+Specific / direct write-off method.
+ Under this method we wait until we know that the customer won't pay, then
+ we write-off this account form the books (put a 
+\begin_inset Quotes eld
+\end_inset
+
+bad debts expense
+\begin_inset Quotes erd
+\end_inset
+
+ in the I/S).
+ It makes the I/S inaccurate, as the matching of periods between the revenues
+ and expenses is lost.
+ In addition to that, it incorrectly values the asset (A/R) - they are overvalue
+d
+\end_layout
+
+\begin_layout Itemize
+(which is not allowed), and the allowance method.
+\end_layout
+
+\end_body
+\end_document

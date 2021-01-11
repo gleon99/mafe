@@ -1,0 +1,521 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+\usepackage{indentfirst}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2.5cm
+\topmargin 2.5cm
+\rightmargin 2.5cm
+\bottommargin 2.5cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Econometrics 2 - Lecture 2
+\end_layout
+
+\begin_layout Author
+Leonid Genkin
+\end_layout
+
+\begin_layout Section
+Limited Dependent Variable
+\end_layout
+
+\begin_layout Standard
+Recalling: one of the most common ways in which a dependent variable is
+ limited - is taking a value from 
+\begin_inset Formula $\{0,1\}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+There are some problems which arise from that model: a fitted value might
+ be not in the range 
+\begin_inset Formula $[0,1]$
+\end_inset
+
+, it can't be linearly related for all possible values of the independent
+ variables, and it might violate the homoskedasticity assumption.
+\end_layout
+
+\begin_layout Subsection
+MLE
+\end_layout
+
+\begin_layout Standard
+The maximum likelihood estimation attempts to maximize the goodness of fit
+ of the model.
+ The log-likelihood function for a particular observation 
+\begin_inset Formula $i$
+\end_inset
+
+ is:
+\begin_inset Formula 
+\[
+i_{i}(\beta_{0},\ldots,\beta_{p})=y_{i}log[G(x_{i}^{T}\beta)]+(1-y_{I})log[1-G(x_{i}^{T}\beta)]
+\]
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+where:
+\begin_inset Formula 
+\[
+x_{i}^{T}=[x_{i,0\,}\cdots\,x_{i,p}],\,\,\beta=\left[\begin{array}{c}
+\beta_{_{0}}\\
+\vdots\\
+\beta_{p}
+\end{array}\right]
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+For a sample, the function is:
+\begin_inset Formula 
+\[
+L(\beta_{0},\ldots,\beta_{p})=\sum_{i=1}^{n}l_{i}(\beta_{0,}\ldots,\beta_{p})
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The MLE are those that 
+\series bold
+maximize
+\series default
+ this log-likelihood function.
+ If 
+\begin_inset Formula $G(\cdot)$
+\end_inset
+
+ is the standart logit/probit c.d.f, then they are called the logit/probit
+ estimators.
+\end_layout
+
+\begin_layout Subsection
+Interval Estimation, Hypothesis Testing
+\end_layout
+
+\begin_layout Standard
+MLE provides 
+\series bold
+consistent
+\series default
+ and 
+\series bold
+asymptotically normal
+\series default
+ estimators.
+ Using standard errors of the MLE estimators, it is possible to construct
+ interval estimators and conduct tests about a single population parameter,
+ or a linear combination os parameters.
+\end_layout
+
+\begin_layout Subsection
+Application in R
+\end_layout
+
+\begin_layout Standard
+Education and labor force participation:
+\begin_inset Formula 
+\[
+INLK=\beta_{0}+\beta_{1}NWIFEINC+\beta_{2}EDUC+\beta_{3}EXPER+\beta_{4}EXPER^{2}+\beta_{5}AGE+\beta_{6}KIDSLT6+\beta_{7}KIDSGE6+U
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The estimation is done using 
+\begin_inset Formula $glm()$
+\end_inset
+
+ funciton in 
+\begin_inset Formula $R$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+The estimates for LPM/logit/probit fits are different, as they represent
+ different things.
+ Yet they tell a consistent story: their signs are same across all fits,
+ and the same variables are statistically significant in each model.
+\end_layout
+
+\begin_layout Standard
+The 
+\series bold
+estimate
+\series default
+ shows the 
+\begin_inset Formula $\hat{\beta}_{j}$
+\end_inset
+
+ coefficients - e.g, the 
+\begin_inset Formula $EDUC$
+\end_inset
+
+ logit coefficient estimates that, AEBE:
+\end_layout
+
+\begin_layout Itemize
+A single year increase in 
+\begin_inset Formula $EDUC$
+\end_inset
+
+ results in the odds of 
+\begin_inset Formula $INLF=1$
+\end_inset
+
+ increase by 
+\begin_inset Formula $100\cdot[exp(0.2212)-1]\%=24.75\%$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $INLF=1$
+\end_inset
+
+ is 
+\begin_inset Formula $exp(0.2212)=1.2475$
+\end_inset
+
+ times as likely when 
+\begin_inset Formula $EDUC$
+\end_inset
+
+ increases by 1 year
+\end_layout
+
+\begin_layout Itemize
+A single year increase in 
+\begin_inset Formula $ECUS$
+\end_inset
+
+ increases the odds of 
+\begin_inset Formula $INLF=1$
+\end_inset
+
+ by approximately 
+\begin_inset Formula $22.12\%$
+\end_inset
+
+ (
+\begin_inset Formula $100\cdot\beta\%$
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The z value reflects 
+\begin_inset Formula $\frac{\hat{\beta}_{j}-0}{SE(\hat{\beta}_{j})}$
+\end_inset
+
+ and is used to test 
+\begin_inset Formula $H_{0}:\beta_{j=0}$
+\end_inset
+
+ vs.
+ 
+\begin_inset Formula $H_{1}:\beta_{j}\neq0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The 
+\begin_inset Formula $Pr(>|z|)$
+\end_inset
+
+ shows the two-tailed p-value for testing 
+\begin_inset Formula $H_{0}:\beta_{j}=0$
+\end_inset
+
+ vs.
+ 
+\begin_inset Formula $H_{1}:\beta_{j}\neq0$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Probabilities can be estimated by the 
+\begin_inset Formula $predict()$
+\end_inset
+
+ method.
+\end_layout
+
+\begin_layout Standard
+The 
+\series bold
+scale 
+\series default
+of the response vlaue:
+\begin_inset Formula 
+\[
+\hat{P}(Y=1|X_{1},\ldots,X_{p})=G(\hat{\beta}_{0}+\hat{\beta}_{1}X_{1}+\cdots+\hat{\beta}_{p}X_{p})
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+which is the c.d.f of standard logistic/normal distribution.
+\end_layout
+
+\begin_layout Standard
+Estimating the probabilities can be done using 
+\begin_inset Formula $fitted.values$
+\end_inset
+
+ and the 
+\begin_inset Formula $predict()$
+\end_inset
+
+ method.
+\end_layout
+
+\begin_layout Standard
+The partial effect of each independent variable can be computed using 2
+ approaches: replace each explanatory variable with its sample average,
+ ot average the individual partial effects across the sample.
+\end_layout
+
+\begin_layout Standard
+In the first approach, we try to come up with the average (
+\begin_inset Quotes eld
+\end_inset
+
+representative
+\begin_inset Quotes erd
+\end_inset
+
+) sample, while in the second one we instead compute for each given combination,
+ and only then take the average.
+\end_layout
+
+\begin_layout Standard
+Goodness-of-fit can be measured by 3 options:
+\end_layout
+
+\begin_layout Enumerate
+Same as with LPM, ocmpute percentage of the correctly predicted measures.
+ Define 
+\begin_inset Formula $\tilde{y}_{i}=1$
+\end_inset
+
+ if 
+\begin_inset Formula $G(\hat{\beta}_{0}+\hat{\beta}_{1}X_{i,1}+\cdots+\hat{\beta}_{p}X_{i,p})\geq0.t$
+\end_inset
+
+ and 
+\begin_inset Formula $\tilde{y_{i}}=0$
+\end_inset
+
+ otherwise.
+ Then, compute the percentage of times that:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+\begin_inset Formula $\tilde{y}_{i}=y_{i}=1$
+\end_inset
+
+ across observations with 
+\begin_inset Formula $y_{i}=1$
+\end_inset
+
+ (
+\begin_inset Quotes eld
+\end_inset
+
+the % correctly predicted for 
+\begin_inset Formula $y_{i}=1$
+\end_inset
+
+
+\begin_inset Quotes erd
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $\tilde{y}_{i}=y_{o}=0$
+\end_inset
+
+ across observations with 
+\begin_inset Formula $y_{i}=0$
+\end_inset
+
+ (
+\begin_inset Quotes eld
+\end_inset
+
+the % correctly predicted for 
+\begin_inset Formula $y_{i}=0$
+\end_inset
+
+
+\begin_inset Quotes erd
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $\tilde{y}_{i}=y_{i}=1$
+\end_inset
+
+ or 
+\begin_inset Formula $\tilde{y}_{i}=y_{i}=0$
+\end_inset
+
+ across all observations (
+\begin_inset Quotes eld
+\end_inset
+
+the 
+\series bold
+overall
+\series default
+ % correctly predicted
+\begin_inset Quotes erd
+\end_inset
+
+).
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Compute the McFadden version of pseudo 
+\begin_inset Formula $R^{2}$
+\end_inset
+
+:
+\begin_inset Formula 
+\[
+1-\frac{Lur(\beta_{0},\beta_{1},\ldots,\beta_{p})}{Lr(\beta_{0})}
+\]
+
+\end_inset
+
+ where 
+\begin_inset Formula $Lur(\beta_{0},\beta_{1},\ldots,\beta_{p})$
+\end_inset
+
+ is the log-likelihood value for the estimated model, and 
+\begin_inset Formula $Lr$
+\end_inset
+
+ is the log-likelihood value for the model with only an intercept.
+\end_layout
+
+\end_body
+\end_document
