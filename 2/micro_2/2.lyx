@@ -1,0 +1,546 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+\usepackage{indentfirst}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2.5cm
+\topmargin 2.5cm
+\rightmargin 2.5cm
+\bottommargin 2.5cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Microeconomics 2 - Lecture 2
+\end_layout
+
+\begin_layout Author
+Leonid Genkin
+\end_layout
+
+\begin_layout Section
+Strategic Form Games
+\end_layout
+
+\begin_layout Standard
+Recalling from the previous lecture, a game is fully described by the set
+ of players, set of available actions and the payoff function for each player.
+\end_layout
+
+\begin_layout Subsection
+Elimination of Dominated Strategies
+\end_layout
+
+\begin_layout Standard
+A 
+\series bold
+dominated strategy
+\series default
+ is something that is worse than an alternative that a player can play,
+ 
+\series bold
+regardless
+\series default
+ of how the other players play.
+ A reasonable and rational player should not play dominated strategy.
+ One can iteratively eliminate dominated strategies (which can't be played),
+ in order to find the best response strategy.
+\end_layout
+
+\begin_layout Standard
+As a strategy is undominated iff it is a best-response strategy, the order
+ of the elimination doesn't matter.
+\end_layout
+
+\begin_layout Standard
+In mixed strategies it is much more difficult to recognize domination, compared
+ to pure strategies, as there are more possibilities to be considered.
+\end_layout
+
+\begin_layout Subsection
+Cournot Competition
+\end_layout
+
+\begin_layout Standard
+Consider a competition where 2 firms produce a quantity (
+\begin_inset Formula $q_{1},q_{2}$
+\end_inset
+
+), and the market price is 
+\begin_inset Formula $max\{1-q_{1}-q_{2},0\}$
+\end_inset
+
+.
+ The unique outcome that survives elimination is: 
+\begin_inset Formula $q_{1}=1/3$
+\end_inset
+
+, by 2 claims, which lead to the (symmetric) conclution that given a particular
+ 
+\begin_inset Formula $q_{i}$
+\end_inset
+
+, the best response would be 
+\begin_inset Formula $\frac{1-q_{i}}{2}$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Itemize
+If the other competitor is aggressive, better be timid
+\end_layout
+
+\begin_layout Itemize
+If the other competitior is timid, be aggressive
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+which can be shown by plotting 
+\begin_inset Formula $\pi_{1}(q_{1},q_{2})$
+\end_inset
+
+ and finding the maximum.
+\end_layout
+
+\begin_layout Subsection
+Iterative Elimination - Hotelling
+\end_layout
+
+\begin_layout Standard
+Consider a finite interval (
+\begin_inset Quotes eld
+\end_inset
+
+a beach
+\begin_inset Quotes erd
+\end_inset
+
+) and ice-cream sellers who decide where to reside on that interval.
+ Assume people are uniformly distributed across the interval.
+ They go to the nearest ice-cream service, then go back to their place and
+ eat there.
+ The utility from eating the ice-cream depends on the distance (cost of
+ walking twice, including the melted ice-cream).
+\end_layout
+
+\begin_layout Standard
+The question is: given this model regarding the people behavior, where do
+ we expect the sellers to be located, and what prices will they charge?
+ This problem can also be applies to political parties and voters.
+ By elimination, we get convergence to the middle point (Black's theorem),
+ which states that in political competition, politicians will advocate the
+ policy that is preferred by the median voter.
+\end_layout
+
+\begin_layout Standard
+Would successive elimination 
+\series bold
+always
+\series default
+ produce reasonable results? Consider the game:
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Tabular
+<lyxtabular version="3" rows="3" columns="3">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+L
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+R
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+U
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3,4
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2,5
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+D
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2,1000000
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0,-100000
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+The game will converge to 
+\begin_inset Formula $(2,5)$
+\end_inset
+
+, although it is unreasonable for player 2 to play 
+\begin_inset Formula $R$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Quotes eld
+\end_inset
+
+The beauty contest
+\begin_inset Quotes erd
+\end_inset
+
+ game
+\end_layout
+
+\begin_layout Standard
+There are 
+\begin_inset Formula $N$
+\end_inset
+
+ players, each one chooses a natural number between 1 and 100.
+ The one whose choice was closest to 
+\begin_inset Formula $2/3$
+\end_inset
+
+ is the winner, all others lose.
+ The only possible surviving strategy is to choose 1.
+ It is helpful to recall the fact that a strategy is dominated iff it is
+ 
+\series bold
+never 
+\series default
+the best response.
+ 100 is dominated [by which strategy?], then 99, etc.
+ until all numbers are eliminated.
+\end_layout
+
+\begin_layout Subsection
+Domination by weakly dominated strategies
+\end_layout
+
+\begin_layout Standard
+Consider:
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Tabular
+<lyxtabular version="3" rows="3" columns="3">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+L
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+R
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+U
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1,1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0,0
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+D
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0,0
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0,0
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+A rational row won't play 
+\begin_inset Quotes eld
+\end_inset
+
+D
+\begin_inset Quotes erd
+\end_inset
+
+, but it can't be produced by elimination of dominated strategies, because
+ there are no dominated strategies here.
+\end_layout
+
+\begin_layout Standard
+There is a weaker concept of weakly dominated strategies (
+\begin_inset Formula $\geq$
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Standard
+Eliminating in different orders might produce different outcomes.
+\end_layout
+
+\begin_layout Section
+Nash Equilibrium
+\end_layout
+
+\begin_layout Standard
+So far we considered reasonable ways of playing a game, dominated and dominating
+ strategies and their elimination.
+ Nash equilibrium is an 
+\series bold
+equilibrium
+\series default
+ (a profile of strategies that has a property, that everyone's strategy
+ is a best-response strategy to everyone else's stratgy - i.e there is no
+ reason for deviation).
+ It has been established as a best prediction of how games would be played
+ (which is, in fact, not always right).
+\end_layout
+
+\begin_layout Standard
+Homework: exercises 2-7.
+\end_layout
+
+\end_body
+\end_document

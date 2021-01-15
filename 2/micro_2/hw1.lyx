@@ -1,0 +1,293 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+\usepackage{indentfirst}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2.5cm
+\topmargin 2.5cm
+\rightmargin 2.5cm
+\bottommargin 2.5cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Microeconomics 2 - Homework 1
+\end_layout
+
+\begin_layout Author
+Leonid Genkin
+\end_layout
+
+\begin_layout Section*
+Question 1
+\end_layout
+
+\begin_layout Quotation
+What 
+\begin_inset Quotes eld
+\end_inset
+
+real life scenarios
+\begin_inset Quotes erd
+\end_inset
+
+ have the same structure as the Prisoners' Dilemma?
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+A (roughly) real-life scenario can be as follows: consider a situation,
+ when on a border between 2 countries (we can instead say 
+\begin_inset Quotes eld
+\end_inset
+
+tribes
+\begin_inset Quotes erd
+\end_inset
+
+ in historical context or even 
+\begin_inset Quotes eld
+\end_inset
+
+neighboring houses
+\begin_inset Quotes erd
+\end_inset
+
+) there is a demilitarized zone which is used by civil population of both
+ countries, for living and agriculture - assume the utiliy of each country
+ (from using the DMZ land) in such case is 3, as long as they peacefully
+ coexist.
+\end_layout
+
+\begin_layout Standard
+Each country faces a decision of whether to fight the other one using armed
+ forces, in order to fully conquer that piece of land for its sole usage.
+ If the other country wasn't prepared for the war (chose the 
+\begin_inset Quotes eld
+\end_inset
+
+don't fight
+\begin_inset Quotes erd
+\end_inset
+
+ action), the utility of the winning country will be 4.
+ That's higher that the utility of a single country in the 
+\begin_inset Quotes eld
+\end_inset
+
+both countries don't fight
+\begin_inset Quotes erd
+\end_inset
+
+ case, but lower than the sum of 2 countries' utilities (which is 6 - assume
+ the war leads to deaths and financial losses, and some of the land gets
+ devastated because of the war - thus in the bottom line it reduces the
+ final utility).
+ The losing country loses its portion of the DMZ land - thus its utility
+ is 0.
+\end_layout
+
+\begin_layout Standard
+In case both countries decide to fight, the resulting utility is 1 for each
+ of them - assume that after a long and expensive war with many deaths they
+ come to an armistice, with no changes in the land occupation (both countries
+ continue to occupy it), but considering the negative effect of the war,
+ the utility of each country is now only 1.
+\end_layout
+
+\begin_layout Standard
+Describing this game in a strategic form we get the same table as for the
+ Prisoners' Dilemma in class:
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="3" columns="3">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Don't Fight
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Fight
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Don't Fight
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3,3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0,4
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Fight
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4,0
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1,1
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

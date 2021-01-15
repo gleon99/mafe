@@ -1,0 +1,379 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+\usepackage{indentfirst}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2.5cm
+\topmargin 2.5cm
+\rightmargin 2.5cm
+\bottommargin 2.5cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Microeconomics 2 - Lecture 1
+\end_layout
+
+\begin_layout Author
+Leonid Genkin
+\end_layout
+
+\begin_layout Section
+Introduction
+\end_layout
+
+\begin_layout Standard
+When talking about 
+\series bold
+game theory
+\series default
+, usually people mean 
+\series bold
+non-cooperative
+\series default
+ game theory.
+ It studies how people fail to cooperate by anakyzing strategic situsations.
+ Cooperative game theory will be out of the scope of this course.
+\end_layout
+
+\begin_layout Standard
+There are 2 ways of thinking about games: 
+\series bold
+strategic
+\series default
+ (normal form) games and 
+\series bold
+extensive
+\series default
+ form games.
+ The former ones can be described using matrices, and the latter ones -
+ using trees.
+\end_layout
+
+\begin_layout Standard
+The form of representation is a matter of convenience, they are equivalent.
+\end_layout
+
+\begin_layout Standard
+Game theory is more a 
+\series bold
+language
+\series default
+ than a theory.
+ It gives vocabulary and conventions useful for describing strategic situations.
+ It does not impose any restrictions on behavior.
+\end_layout
+
+\begin_layout Section
+Strategic Form Games
+\end_layout
+
+\begin_layout Standard
+A game is a mathematical object (a triplet) 
+\begin_inset Formula $G=\{N,A,u\}$
+\end_inset
+
+ where 
+\begin_inset Formula $N=\{1,\ldots,n\}$
+\end_inset
+
+ is the players set (can be infinite), 
+\begin_inset Formula $A=A_{1}\times\cdots\times A_{n}$
+\end_inset
+
+ defines the set of actions available to each player and 
+\begin_inset Formula $u=\{u_{1},\ldots,u_{n}\}$
+\end_inset
+
+ with 
+\begin_inset Formula $u_{i}:A_{1}\times\cdots\times A_{n}\rightarrow\mathbb{R}$
+\end_inset
+
+ is the payoff function for each player.
+\end_layout
+
+\begin_layout Standard
+The difference between an action and a 
+\series bold
+strategy
+\series default
+ is that a strategy is 
+\begin_inset Quotes eld
+\end_inset
+
+a lottery
+\begin_inset Quotes erd
+\end_inset
+
+ over actions.
+ When the choice consists only of a single actions, it is called 
+\series bold
+pure strategy
+\series default
+.
+\end_layout
+
+\begin_layout Standard
+There is no notion of time in the game, the players pick their strategies
+ 
+\begin_inset Quotes eld
+\end_inset
+
+simultaneously
+\begin_inset Quotes erd
+\end_inset
+
+ (without knowledge on the strategies of other players).
+ In theory, any strategic situation can be described by such model, which
+ is quite remarkable.
+\end_layout
+
+\begin_layout Standard
+A 
+\begin_inset Formula $2\times2$
+\end_inset
+
+ game has 2 players and 2 possible actions for each one of them.
+ By convention, the left number in each cell represents the payoff of the
+ row player, which is usually called the 
+\begin_inset Quotes eld
+\end_inset
+
+Player 1
+\begin_inset Quotes erd
+\end_inset
+
+, and the right number is the payoff of the column player (
+\begin_inset Quotes eld
+\end_inset
+
+Player 2
+\begin_inset Quotes erd
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Standard
+This entire course in devoted to the question: how should reasonable people
+ play? What is a sensible way of playing a particular game? Even though
+ there is no 
+\begin_inset Quotes eld
+\end_inset
+
+right
+\begin_inset Quotes erd
+\end_inset
+
+ and 
+\begin_inset Quotes eld
+\end_inset
+
+wrong
+\begin_inset Quotes erd
+\end_inset
+
+, there is some justification for each behavior.
+\end_layout
+
+\begin_layout Subsection
+Example
+\end_layout
+
+\begin_layout Standard
+Consider number-guessing game with 
+\begin_inset Formula $N$
+\end_inset
+
+ players guessing numbers between 1 and 100, and the one whose guess was
+ the closest to 
+\begin_inset Formula $2/3$
+\end_inset
+
+ of the average, gets a prize.
+ K-level rationality theory assumes that people vary in their rationality
+ levels.
+ Level 2 plays the best response to level 3.
+ Level 3 plays the best response to level 2, and so on.
+\end_layout
+
+\begin_layout Standard
+In its second version, level 3 plays best response on some belif in the
+ range of level 2, which is more flexible.
+\end_layout
+
+\begin_layout Standard
+Playing random (level 0), the choice would be 50.
+ Level 1 would be best response to it (33), level 2 results in 22, etc.
+\end_layout
+
+\begin_layout Standard
+In judgments of beauty, it is not some objective criteria, but is based
+ on what other people think of it.
+\end_layout
+
+\begin_layout Standard
+Level 1 - 
+\begin_inset Quotes eld
+\end_inset
+
+someone who has a good understanding of the analysts
+\begin_inset Quotes erd
+\end_inset
+
+, level 2 - 
+\begin_inset Quotes eld
+\end_inset
+
+someone who analyzes the analysts of level 1
+\begin_inset Quotes erd
+\end_inset
+
+, etc.
+\end_layout
+
+\begin_layout Standard
+In practice, one does not usually need to go beyond level 3 in order to
+ win.
+\end_layout
+
+\begin_layout Subsection
+Prisoners' Dilemma
+\end_layout
+
+\begin_layout Standard
+The game is 
+\begin_inset Quotes eld
+\end_inset
+
+symmetric
+\begin_inset Quotes erd
+\end_inset
+
+ in the sense that each player is better off, if playing 
+\begin_inset Formula $D$
+\end_inset
+
+ (no matter what is the decision of the other player).
+ A rational behaviot produces inefficient outcome.
+\end_layout
+
+\begin_layout Standard
+The 
+\begin_inset Quotes eld
+\end_inset
+
+Golden balls
+\begin_inset Quotes erd
+\end_inset
+
+ (split or steal) game is somewhat similar to it.
+ The 
+\begin_inset Quotes eld
+\end_inset
+
+trick
+\begin_inset Quotes erd
+\end_inset
+
+ of cheating can work only once (example with the king Salomon).
+\end_layout
+
+\begin_layout Standard
+The reason that this game is so important - is that it directly relates
+ to the 
+\series bold
+First Welfare Theorem in economics
+\series default
+.
+\end_layout
+
+\begin_layout Standard
+Payment and payoff are different things and has to be distinguished.
+ Payoff is 
+\series bold
+utility
+\series default
+.
+\end_layout
+
+\begin_layout Standard
+HW: Exercise 1
+\end_layout
+
+\end_body
+\end_document

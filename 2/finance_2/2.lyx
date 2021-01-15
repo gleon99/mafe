@@ -1,0 +1,978 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+\usepackage{indentfirst}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2.5cm
+\topmargin 2.5cm
+\rightmargin 2.5cm
+\bottommargin 2.5cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Finance 2 - Lecture 2
+\end_layout
+
+\begin_layout Author
+Leonid Genkin
+\end_layout
+
+\begin_layout Section
+Capital Structure
+\end_layout
+
+\begin_layout Standard
+We will start with discussing perfect markets, then gradually add noises,
+ until we reach the non-perfect market discussion.
+\end_layout
+
+\begin_layout Subsection
+CFO Decisions
+\end_layout
+
+\begin_layout Standard
+In general, the CFO stands between real assets (machine, land) which produce
+ the profits, and the financial markets (stocks and bonds).
+ She gets the 
+\series bold
+information
+\series default
+ from the financial markets and uses it in order to make 
+\series bold
+decisions
+\series default
+ on the real assets:
+\end_layout
+
+\begin_layout Enumerate
+The 
+\series bold
+investment
+\series default
+ decision (capital budgeting): which projects should the firm take? Maximizing
+ the shareholder value is done using the NPV (take all proejcts with positive
+ NPV).
+\end_layout
+
+\begin_layout Enumerate
+The 
+\series bold
+funding
+\series default
+ decision (capital structure): how should a firm fund its projects? Internally
+ / through debt / equity / borrowing from the government.
+\end_layout
+
+\begin_layout Enumerate
+The 
+\series bold
+dividend
+\series default
+ decision (payout policy): What is done with the money earned form the projects?
+ Returning to shareholders (dividend / stock repurchase) / keeping in the
+ firm.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Until now we assumed all investments are by equity, through in reality debt
+ is used a lot.
+ The 
+\series bold
+capital structure
+\series default
+ describes the breakdown of debt and equity that is used.
+\end_layout
+
+\begin_layout Subsection
+The Economic Balance Sheet
+\end_layout
+
+\begin_layout Standard
+The 
+\series bold
+economic
+\series default
+ balance sheet of the company can be described as a reformulation of the
+ accounting balance sheet (all variables are 
+\series bold
+market value
+\series default
+):
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Tabular
+<lyxtabular version="3" rows="6" columns="2">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Assets
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Funding Sources
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
++ Inventory
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
++ Short-term liabilities
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
++ A/R
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
++ Long-term liabilities
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+- A/P
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+- Cash & cash equivalents
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Goodwill
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Equity
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Investments
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+(Example with Microsoft: they never paid dividends, as they had originally
+ started as a strart-up company and invested their cash).
+\end_layout
+
+\begin_layout Subsection
+Terminology
+\end_layout
+
+\begin_layout Description
+Unlevered
+\begin_inset space ~
+\end_inset
+
+firm All equity firm (no debt)
+\end_layout
+
+\begin_layout Description
+Levered
+\begin_inset space ~
+\end_inset
+
+firm A firm which uses 
+\series bold
+debt
+\series default
+ to finance its operations
+\end_layout
+
+\begin_layout Description
+Equity The 
+\series bold
+market value
+\series default
+ of the firm's shares
+\end_layout
+
+\begin_layout Description
+Debt The 
+\series bold
+market value
+\series default
+ of the firm's debt
+\end_layout
+
+\begin_layout Description
+The
+\begin_inset space ~
+\end_inset
+
+firm's
+\begin_inset space ~
+\end_inset
+
+value There are 2 ways to look at it, using the B/S: the value of the firm's
+ operations (assets), or the value of the firm's financial sources (equity
+ + debt)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In many cases the debt is not traded, and it is hard to estimate its market
+ value, yet it is possible to use its book value (unless there is a specific
+ reason to assume it can't be used).
+\end_layout
+
+\begin_layout Subsection
+Claim on the Firm Assets
+\end_layout
+
+\begin_layout Standard
+Debt and equity can be considered as the right to claim the firm's 
+\series bold
+incomes
+\series default
+: debt holders have claims to the interest payments (and capital at maturity),
+ while equity holders have claims to the 
+\series bold
+residual
+\series default
+ income, 
+\series bold
+after
+\series default
+ the interest payment.
+\end_layout
+
+\begin_layout Standard
+If there is not enough income to pay the debt, the equity holders get nothing.
+\end_layout
+
+\begin_layout Standard
+Similarly, debt holders are the first to have claims on the firm's assets,
+ and equity holders are the residual claimants.
+ In case the firm's value is less than the debt, the debt holders might
+ take over the firm.
+\end_layout
+
+\begin_layout Standard
+Debt holders can never receive more than their debt, regardless of the firm's
+ income (their cash flow is 
+\series bold
+bounded
+\series default
+).
+ Equity holders might receive nothing (depending on the firm's income),
+ but as it grows - their cash flow is 
+\series bold
+unbounded
+\series default
+.
+\end_layout
+
+\begin_layout Subsection
+Capital Structure - Market Data
+\end_layout
+
+\begin_layout Standard
+In real market data, we can observe the market capitalization (which is
+ the stock price times the number of outstanding shares).
+\end_layout
+
+\begin_layout Standard
+The 
+\series bold
+interest coverage ratio 
+\series default
+is calculated by dividing the EBIT (operating income) by the interest expense.
+ Throught this course, we make an assumption of a perpetual debt (can be
+ always refinanced).
+\end_layout
+
+\begin_layout Standard
+The 
+\series bold
+short-term debt
+\series default
+ (to be paid in the next 12 months) is distinguished from the 
+\series bold
+long-term debt
+\series default
+.
+ Subtracting the cash from the total debt, we come to the 
+\series bold
+net debt 
+\series default
+(it is possible to pay some of the debt using cash), which is the relevant
+ figure when considering a firm's debt.
+\end_layout
+
+\begin_layout Standard
+The 
+\series bold
+enterprise value (EV)
+\series default
+ is 
+\begin_inset Quotes eld
+\end_inset
+
+how moch money is needed to buy the firm?
+\begin_inset Quotes erd
+\end_inset
+
+, which is equity plus debt minus cash (as it can be used to cover for the
+ debt - alternatively, it is the equity plus net debt).
+\end_layout
+
+\begin_layout Standard
+How should a firm finance its capex? Consider an example with MI: Looking
+ at the YTM vs.
+ bond term graph, we can see that the YTM increases as the bond term increases.
+ The bond's cost of debt is 0.56%-5.13%, and the spread (compared to the relevant
+ treasury bond) is 1-1.5%, thus the cost of debt is 3.5%-4%, which is less
+ than the equity cost, thus MI should finance using debt.
+\end_layout
+
+\begin_layout Subsection
+Equity vs.
+ Debt Financing
+\end_layout
+
+\begin_layout Standard
+Assume a firm is considering the following investment opportunity: invest
+ $800 today which will generate either $1400 or $900, depending on the economy
+ (both options are equally likely).
+\end_layout
+
+\begin_layout Standard
+Suppose the risk-rate is 5%, and a 10% premium is demanded on top of the
+ risk-free rate.
+\end_layout
+
+\begin_layout Standard
+The expected cash flow is 1150 (mean), thus the 
+\begin_inset Formula $NPV$
+\end_inset
+
+ is:
+\begin_inset Formula 
+\[
+NPV=-800+\frac{1150}{1+15\%}=200
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Unlevered Firm
+\end_layout
+
+\begin_layout Standard
+The value of the project is the present value of its future cash flows,
+ which is 1000.
+ If the firm is all-equity, how much would it be willing to pay for the
+ project? The expected return to the shareholders is the same as the firm's
+ return.
+\end_layout
+
+\begin_layout Subsubsection
+Levered Firm
+\end_layout
+
+\begin_layout Standard
+Suppose the investment is financed using debt ($500 with the expected return
+ being 
+\begin_inset Formula $r_{p}=5\%$
+\end_inset
+
+, notice that 
+\begin_inset Formula $r_{p}\neq YTM$
+\end_inset
+
+) - the projects cash flow will always be enough to pay the debt).
+ Then, 
+\begin_inset Formula $\beta_{D}=0$
+\end_inset
+
+ and the rest of the finance comes from equity.
+\end_layout
+
+\begin_layout Standard
+Compared to the unlevered case, there is more risk to shareholders.
+ The expected return on the assets is the same, though the expected return
+ on equity is higher.
+ There is no risk of default - leverage increases the systematic risk, thus
+ the expected return of the equity holders.
+ 
+\begin_inset Formula $\beta$
+\end_inset
+
+ is now higher, as the investment is riskier.
+ Debt is not 
+\begin_inset Quotes eld
+\end_inset
+
+bad
+\begin_inset Quotes erd
+\end_inset
+
+, it only increases both risk and the expected return.
+\end_layout
+
+\begin_layout Subsection
+Modigliani and Miller Model
+\end_layout
+
+\begin_layout Standard
+A 
+\series bold
+perfect market
+\series default
+ assumes: the firm operates forever, generating a constant (not-growing)
+ CF.
+ It doens't invest in positive (or negative) 
+\begin_inset Formula $NPV$
+\end_inset
+
+ projects and distributes all its cash flow to debt and equity holders.
+ Also, we assume a perfect market with symmetric information, no transaction
+ costs, no taxes and no bankrupcy costs.
+\end_layout
+
+\begin_layout Description
+\begin_inset Formula $r_{D}$
+\end_inset
+
+ The required return on the debt of the firm
+\end_layout
+
+\begin_layout Description
+\begin_inset Formula $r_{U}$
+\end_inset
+
+ The required return on equity in an unlevered firm
+\end_layout
+
+\begin_layout Description
+\begin_inset Formula $r_{E}$
+\end_inset
+
+ The required return on the firm's equity in a levered firm
+\end_layout
+
+\begin_layout Description
+\begin_inset Formula $WACC$
+\end_inset
+
+ Weighted average cost of capital of the firm:
+\begin_inset Formula 
+\[
+WACC=\frac{D}{E+D}r_{D}+\frac{E}{E+D}r_{E}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The periodic payments for all participants are:
+\end_layout
+
+\begin_layout Itemize
+Cash flow: 
+\begin_inset Formula $CF$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Debt holders: 
+\begin_inset Formula $r_{D}\times D$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Equity holders: 
+\begin_inset Formula $CF-r_{D}\times D$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Assuming perpetuity, the firm's market value is:
+\begin_inset Formula 
+\[
+V=A=\frac{CF}{r_{U}}=\frac{CF}{WACC}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The debt market value:
+\begin_inset Formula 
+\[
+D=\frac{r_{D}\times D}{r_{D}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+And the equity market value:
+\begin_inset Formula 
+\[
+E=\frac{CF-r_{D}\times D}{r_{E}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In a levered firm, 
+\begin_inset Formula $V_{L}=E+D$
+\end_inset
+
+ and in an unlevered firm: 
+\begin_inset Formula $V_{U}=E$
+\end_inset
+
+ .
+\end_layout
+
+\begin_layout Subsubsection
+M&M Proposition I
+\end_layout
+
+\begin_layout Standard
+In a perfect market 
+\begin_inset Formula $V_{U}=V_{L}$
+\end_inset
+
+ holds (the capital structure is not significant), by the following argument:
+ If the total CF generated by assets equals the total CF paid out to all
+ security holders - by the law of one price, securities and assets must
+ have the same market value.
+\end_layout
+
+\begin_layout Subsubsection
+No Arbitrage Principle
+\end_layout
+
+\begin_layout Standard
+Consider two firms with the exact same projects.
+ If A is an all equity firm with a market value of $1000, and firm B has
+ $525 debt and $480 equity - there is an arbitrage opportunity from buying
+ firm B and short selling A's equity.
+\end_layout
+
+\begin_layout Subsubsection
+Homemade Leverage
+\end_layout
+
+\begin_layout Standard
+In a perfect market, the investor can construct the capital structure she
+ wants, no matter what is the capital structure of the firm (
+\begin_inset Quotes eld
+\end_inset
+
+homemade leverage
+\begin_inset Quotes erd
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Standard
+In practice it is done by 
+\series bold
+replicating
+\series default
+ the payoff of a leveraged firm, by leveraging her own portfolio.
+\end_layout
+
+\begin_layout Standard
+The investor won't pay more for (un)leveraged firm, because one can do it
+ on herself.
+\end_layout
+
+\begin_layout Subsubsection
+M&M Proposition I - Discussion
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $r_{A}=r_{U}$
+\end_inset
+
+ for every firm in a specific industry, thus:
+\begin_inset Formula 
+\[
+\frac{CF}{r_{U}}=V_{U}=V_{L}=\frac{CF}{WACC}\Rightarrow WACC=r_{U}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Thus, for example, if some firm has twice bigger cash flow than the other
+ one - its value should be twice as well (simplifying assumption - ignoring
+ economies of scale).
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $WACC$
+\end_inset
+
+ can be calculated in another way, using 
+\begin_inset Formula $\beta$
+\end_inset
+
+:
+\begin_inset Formula 
+\[
+\beta_{A}=\beta_{U}=\frac{D}{E+D}\times\beta_{D}+\frac{E}{E+D}\times\beta_{E}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+M&M Proposition I - Example
+\end_layout
+
+\begin_layout Standard
+Consider two coffee producers: SB and DD.
+ SB is all-equity with annual operating profit of $100 and 10% ROA.
+ DD is financed with equity and debt has profit of $300, perpetual debt
+ of 1000 with 
+\begin_inset Formula $r_{D}=5\%$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+The ROA of DD, assuming returns in the industry are the same is 10%.
+ Thus:
+\begin_inset Formula 
+\[
+V_{U}(SB)=\frac{CF(SB)}{r_{U}}=1000\Rightarrow V_{U}(DD)=3V_{U}(SB)=3000
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+or:
+\begin_inset Formula 
+\[
+V_{U}(DD)=300/0.1=3000
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Thus:
+\begin_inset Formula 
+\[
+V_{L}(DD)=V_{U}(DD)=3000
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In order to calculate the ROE of DD, first find out the equity:
+\begin_inset Formula 
+\[
+E=V-D=2000
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Then:
+\begin_inset Formula 
+\[
+WACC(DD)=r_{U}=10\%
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Thus:
+\begin_inset Formula 
+\[
+WACC(DD)=\frac{2}{3}r_{E}+\frac{0.05}{3}=r_{U}=0.1\Rightarrow r_{E}=0.125
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+M&M Proposition II
+\end_layout
+
+\begin_layout Standard
+The cost of capital of levered equity increases with the debt-equity ratio
+ of the firm:
+\begin_inset Formula 
+\[
+r_{E}=r_{U}+\frac{D}{E}(r_{U}-r_{D})
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In other words, the levered equity return equals the unlevered return plus
+ a premium.
+ This is true for 
+\begin_inset Formula $\beta$
+\end_inset
+
+ as well:
+\begin_inset Formula 
+\[
+\beta_{E}=\beta_{U}+\frac{D}{E}\times(\beta_{U}-\beta_{D})
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Change in Capital Structure
+\end_layout
+
+\begin_layout Standard
+A firm can change its capital structure by issuing debt, additional equity,
+ sitributing cash to equity holders, or a combination thereof.
+ Historically, today more money is distributed through share repurchase
+ than in the past.
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_body
+\end_document
