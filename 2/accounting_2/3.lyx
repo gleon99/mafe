@@ -1,0 +1,497 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+\usepackage{indentfirst}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2.5cm
+\topmargin 2.5cm
+\rightmargin 2.5cm
+\bottommargin 2.5cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Financial Accounting 2 - Lecture 3
+\end_layout
+
+\begin_layout Author
+Leonid Genkin
+\end_layout
+
+\begin_layout Section
+Receivables & Revenue Recognition
+\end_layout
+
+\begin_layout Standard
+Recalling from the previous lecture: the direct method imposes a problem,
+ as it does not achieve matching and incorrectly values assets.
+\end_layout
+
+\begin_layout Subsection
+The Allowance Method
+\end_layout
+
+\begin_layout Standard
+This method creates an 
+\begin_inset Quotes eld
+\end_inset
+
+allowance
+\begin_inset Quotes erd
+\end_inset
+
+, that reduces the B/S number.
+ The accounting policy regarding the receivables is usually described in
+ the 
+\begin_inset Quotes eld
+\end_inset
+
+notes
+\begin_inset Quotes erd
+\end_inset
+
+ section.
+ 
+\begin_inset Quotes eld
+\end_inset
+
+Provision for doubtful trade receivables
+\begin_inset Quotes erd
+\end_inset
+
+ is used when it is 
+\begin_inset Quotes eld
+\end_inset
+
+likely that a loss will be incurred
+\begin_inset Quotes erd
+\end_inset
+
+.
+ Charges (expenses) are recognized for such case, under 
+\begin_inset Quotes eld
+\end_inset
+
+Marketing & Sales
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+The allowance method estimates the uncollectible amounts and matches them
+ with the corresponsing revenue.
+\end_layout
+
+\begin_layout Standard
+It requires an 
+\series bold
+estimate 
+\series default
+of those amounts and a 
+\series bold
+contra account
+\series default
+ - 
+\begin_inset Quotes eld
+\end_inset
+
+allowance for uncollectible/doubtful accounts
+\begin_inset Quotes erd
+\end_inset
+
+ which is deducted from the A/R.
+\end_layout
+
+\begin_layout Standard
+Whenever it is 
+\series bold
+known
+\series default
+ that a money won't be received for a transaction, it is written off.
+ The allowance is debited and the A/R is credited.
+ Prior to that, an 
+\series bold
+estimate 
+\series default
+is debited (
+\begin_inset Quotes eld
+\end_inset
+
+bad / uncollectible debts
+\begin_inset Quotes erd
+\end_inset
+
+) in the I/S and credited in the allowance account.
+ The B/S is only changed
+\end_layout
+
+\begin_layout Subsection
+Bad Debt Recoveries
+\end_layout
+
+\begin_layout Standard
+Sometimes accounts are collected after they have been written off - then
+ it needs to be reversed (credit the allowance and debit the A/R).
+\end_layout
+
+\begin_layout Subsection
+Estimation of Bad Debts
+\end_layout
+
+\begin_layout Standard
+There are two methods:
+\end_layout
+
+\begin_layout Subsubsection
+Percentage of sales (the sales revenue approach)
+\end_layout
+
+\begin_layout Standard
+Multiply the sales by some predetermined percentage and find out the bad
+ debt exesnse.
+ It can be thinked of as 
+\begin_inset Quotes eld
+\end_inset
+
+creating matching on the I/S
+\begin_inset Quotes erd
+\end_inset
+
+.
+ This method is considered less accurate, thus accounting rules tend to
+ avoid it.
+\end_layout
+
+\begin_layout Subsubsection
+Aging of A/R or percentage of the A/R (the gross A/R approach)
+\end_layout
+
+\begin_layout Standard
+Multiply the ending A/R by some predetermined percentage and find out the
+ allowance.
+\end_layout
+
+\begin_layout Standard
+In order to provide more accurate estimate, it makes sense to not treat
+ all receivables in the same manner, but rather use an 
+\begin_inset Quotes eld
+\end_inset
+
+aging schedule
+\begin_inset Quotes erd
+\end_inset
+
+ which means that a debt is treated differently, depending on how long is
+ it overdue.
+\end_layout
+
+\begin_layout Subsection
+Ratios
+\end_layout
+
+\begin_layout Subsubsection
+Current ratio
+\end_layout
+
+\begin_layout Standard
+This ratio designed to explore the ability to collect receivables.
+ Current ratio is assets divided by liabilities.
+ The higher the number is - the less risky the company is.
+ In this ratio there is a trade-off between risk and efficiency.
+ A higher number means less risk, but also less efficiency.
+ A decent current ratio today is 1 ot a bit more.
+\end_layout
+
+\begin_layout Standard
+Consider an example: having 0.8 at the end of the year, and one of the loan
+ has a covenant which requires it to be 0.82 or above.
+ By lowering the ADA it is possible to tweak that ratio, which can also
+ be done by taking another loan.
+ Companies constantly do is, as it is the responsibility of the finance
+ department to ensure that the company does not violate debt covenance,
+ and it is completely legal.
+\end_layout
+
+\begin_layout Subsubsection
+Quick Ratio
+\end_layout
+
+\begin_layout Standard
+The quick ratio is the sum of cash, marketable securities and the A/R, divided
+ by the current liabilities and is somewhat similar to the current ratio.
+\end_layout
+
+\begin_layout Subsubsection
+A/R Turnover
+\end_layout
+
+\begin_layout Standard
+The sales divided by the average A/R provide the A/R turnover.
+ It measures how effective a firm is in collecting debts.
+\end_layout
+
+\begin_layout Subsubsection
+Days of receivables
+\end_layout
+
+\begin_layout Standard
+How many days it takes for the firm to collect its cash.
+\end_layout
+
+\begin_layout Standard
+Consider an example with a firm whose ratio increases from 29-30 days to
+ 32.
+ It might be an indication of having difficulties collecting debts.
+ If a company is forces to give more credit, it means that it is harder
+ for it to sell, which can be a sign of slowing down economical activity.
+ The only way to avoid being asked that question is to (legally) manipulate
+ the numbers, and bring it back down to 30.
+ It can be done by using a financial institution, which buys the A/R and
+ gives cash.
+\end_layout
+
+\begin_layout Subsection
+Sales Abusement
+\end_layout
+
+\begin_layout Standard
+There are some important questions which might indicate an abuses:
+\end_layout
+
+\begin_layout Itemize
+Is the company negotiationg financing based on receivables?
+\end_layout
+
+\begin_layout Itemize
+Have they grown significantly?
+\end_layout
+
+\begin_layout Itemize
+Have they increased faster than sales?
+\end_layout
+
+\begin_layout Itemize
+Is the ratio of credit sales to cash sales growing?
+\end_layout
+
+\begin_layout Itemize
+Has cash decreased (compared to sales and receivables)?
+\end_layout
+
+\begin_layout Itemize
+Has the cost of sales fallen (profitability ratio)? How does the company
+ do that? Is it more efficient, or raised prices for the customers? A company
+ might 
+\begin_inset Quotes eld
+\end_inset
+
+inflate sales
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+Have shipping costs dropped (compared with sales)? It can be because of
+ making up sales - they won't have shipping costs associated.
+\end_layout
+
+\begin_layout Itemize
+Has A/R turnover slowed?
+\end_layout
+
+\begin_layout Itemize
+Unusually large sales toward the end of the period + substantial sales reversed
+ in the first period.
+\end_layout
+
+\begin_layout Section
+Inventory & COGS
+\end_layout
+
+\begin_layout Standard
+The cost of goods sold and the inventories are very significant items in
+ the B/S, and there is a big amount of discretion on how to handle them.
+\end_layout
+
+\begin_layout Standard
+This flexibility can affect the quality of earnings and make two similar
+ companies appear to be very different.
+\end_layout
+
+\begin_layout Subsection
+Inventories
+\end_layout
+
+\begin_layout Standard
+Accounting for inventories affects income measurement by assigning the acquisiti
+on cost as expenses.
+ The basic equation is:
+\begin_inset Formula 
+\[
+Beginning\,Inventory+Additions-Withdrawals=Ending\,Inventory
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The equation is very simple, whien done in 
+\series bold
+units
+\series default
+ but significantly complicates when done in 
+\series bold
+currency
+\series default
+, because prices constantly change.
+\end_layout
+
+\begin_layout Subsubsection
+Inventory Terminology
+\end_layout
+
+\begin_layout Standard
+Inventory means a stock of goods that a firm 
+\series bold
+owns
+\series default
+ and holds 
+\series bold
+for sale
+\series default
+ (or processing) as part of 
+\series bold
+ordinary
+\series default
+ business operations.
+ For example: merchandise, finished goods, raw materials, work-in-process.
+\end_layout
+
+\begin_layout Subsection
+Inventory Issues
+\end_layout
+
+\begin_layout Subsubsection
+What items to include?
+\end_layout
+
+\begin_layout Standard
+Generally, an inventory is something that is 
+\series bold
+held for sale
+\series default
+ and 
+\series bold
+is owned
+\series default
+.
+ COnsignments: belong to consignor, ownership is not based on physical possessio
+n.
+\end_layout
+
+\begin_layout Standard
+Goods are in transit are not in possession of 
+\series bold
+any
+\series default
+ of the sides.
+ The decision of when the goods change ownership (FOB - 
+\begin_inset Quotes eld
+\end_inset
+
+free on board
+\begin_inset Quotes erd
+\end_inset
+
+) has to be agreed between the parties.
+ For example: FOB shipping point (belongs to the purchaser while in transit),
+ FOB destination (belongs to the seller while in transit).
+ These terms are also important for revenue recognition.
+\end_layout
+
+\begin_layout Standard
+Next week quiz: adjusting entries, reformulation, ratios detective exercise.
+\end_layout
+
+\end_body
+\end_document
