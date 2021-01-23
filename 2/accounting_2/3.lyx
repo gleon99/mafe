@@ -415,7 +415,7 @@ Beginning\,Inventory+Additions-Withdrawals=Ending\,Inventory
 \end_layout
 
 \begin_layout Standard
-The equation is very simple, whien done in 
+The equation is very simple, when done in 
 \series bold
 units
 \series default
@@ -465,12 +465,12 @@ held for sale
 is owned
 \series default
 .
- COnsignments: belong to consignor, ownership is not based on physical possessio
+ Consignments: belong to consignor, ownership is not based on physical possessio
 n.
 \end_layout
 
 \begin_layout Standard
-Goods are in transit are not in possession of 
+Goods in transit are not in possession of 
 \series bold
 any
 \series default
@@ -490,7 +490,7 @@ free on board
 \end_layout
 
 \begin_layout Standard
-Next week quiz: adjusting entries, reformulation, ratios detective exercise.
+Next week quiz: adjusting entries, reformulation, ratios (detective exercise).
 \end_layout
 
 \end_body
