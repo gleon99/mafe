@@ -1,0 +1,1067 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+\usepackage{indentfirst}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2.5cm
+\topmargin 2.5cm
+\rightmargin 2.5cm
+\bottommargin 2.5cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Finance 2 - Lecture 3
+\end_layout
+
+\begin_layout Author
+Leonid Genkin
+\end_layout
+
+\begin_layout Section
+Capital Structure in Perfect Markets - Continued
+\end_layout
+
+\begin_layout Subsection
+Change in the firm's structure
+\end_layout
+
+\begin_layout Subsubsection
+Issuing Debt
+\end_layout
+
+\begin_layout Standard
+Suppose a firm has the following capital structure: assets = 1000, debt
+ = 200, equity = 800 with 
+\begin_inset Formula $r_{D}=5\%$
+\end_inset
+
+ and 
+\begin_inset Formula $r_{E}=20\%$
+\end_inset
+
+.
+ The WACC is:
+\begin_inset Formula 
+\[
+wacc=\frac{200}{1000}\cdot0.05+\frac{800}{1000}\cdot0.2=0.17
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+If the firm issues additional $100 of debt and distributes it to repurchase
+ its shared, how many shared will be repurchased?
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+P=\frac{800}{1000}\Rightarrow\Delta N=\frac{100}{0.8}=125
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Thus there are 875 shares left (the price remained the same).
+\end_layout
+
+\begin_layout Standard
+The new 
+\begin_inset Formula $r_{E}$
+\end_inset
+
+ is then:
+\begin_inset Formula 
+\[
+r_{E}=0.17+\frac{300}{700}(0.17-0.05)=22.14\%
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The new capital structure is riskier for the shareholders, thus 
+\begin_inset Formula $r_{E}$
+\end_inset
+
+ is no higher, compared to the previous 20%.
+\end_layout
+
+\begin_layout Standard
+As more debt is taken, the standard deviation of returns is increasing,
+ thus there is more risk, which demands more return.
+\end_layout
+
+\begin_layout Subsubsection
+Dividend Payment
+\end_layout
+
+\begin_layout Standard
+If the firm issues $100 and pays dividends, the new 
+\begin_inset Formula $r_{E}$
+\end_inset
+
+ remains the same (
+\begin_inset Formula $22.14\%$
+\end_inset
+
+) but the share price changes:
+\begin_inset Formula 
+\[
+N=1000;\,\,E=700;\,\,P_{NEW}=\frac{700}{1000}=0.7
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Every shareholder received a dividend of 0.1 per share:
+\begin_inset Formula 
+\[
+DIV=\frac{100}{1000}=0.1
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Debt for investing
+\end_layout
+
+\begin_layout Standard
+Suppose the firm issues $100 debt for investing in the firm's opeartion
+ (NPV=0 project).
+ The new 
+\begin_inset Formula $r_{E}$
+\end_inset
+
+ is:
+\begin_inset Formula 
+\[
+0.17+\frac{300}{800}(0.17-0.05)=21.5\%
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Consider now a situation when the project's NPV is 50.
+ If the investment is financed with debt:
+\begin_inset Formula 
+\[
+V=1000+100+50
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+D=200+100
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+E=800+50
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The shareholders receive the profit from the project.
+ If the investmend is financed using equity, 
+\begin_inset Formula $D=200$
+\end_inset
+
+ and 
+\begin_inset Formula $E=950$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+As the firm 
+\series bold
+announces
+\series default
+ the project, the share price goes up by 50 (assuming the market agrees
+ with the company about the NPV) - even before the transaciton is done.
+ If the firm regrets the announcement, the next time no one will believe
+ it.
+ The price went up and it is now:
+\begin_inset Formula 
+\[
+P_{new}=\frac{850}{1000}=0.85
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The firm issues additional shares for the 
+\series bold
+new price
+\series default
+.
+ The price now reflects the expected payments.
+ After issuing the stocks, the new equity is 950.
+\end_layout
+
+\begin_layout Subsection
+Summary
+\end_layout
+
+\begin_layout Standard
+M&M can be interpreted in the following way: with 
+\series bold
+perfect
+\series default
+ capital markets, financial transactions neither add nor destroy value,
+ but only repackage the risk (and return).
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $WACC$
+\end_inset
+
+ remains the same, the trade-off is only between 
+\begin_inset Formula $r_{E}$
+\end_inset
+
+ and 
+\begin_inset Formula $r_{D}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+This, transactions that appear to be a good deal may be exploiting some
+ market imperfections.
+\end_layout
+
+\begin_layout Section
+The Effect of Debt and Taxes
+\end_layout
+
+\begin_layout Subsection
+Corporate Taxes
+\end_layout
+
+\begin_layout Standard
+In a 
+\begin_inset Quotes eld
+\end_inset
+
+perfect world
+\begin_inset Quotes erd
+\end_inset
+
+, transations neither add nor destroy value.
+ Gradually adding imperfections, we first discuss taxes and their impact
+ on the optimal capital structure of the firm.
+\end_layout
+
+\begin_layout Description
+\begin_inset Formula $EBIT$
+\end_inset
+
+ Operating income (OI)
+\end_layout
+
+\begin_layout Description
+\begin_inset Formula $t_{c}$
+\end_inset
+
+ Corporate tax
+\end_layout
+
+\begin_layout Description
+\begin_inset Formula $CF$
+\end_inset
+
+ The firm's operating cash flow
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+CF=(1-t_{c})\cdot EBIT
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In a world without corporate tax, 
+\begin_inset Formula $CF=EBIT$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Description
+\begin_inset Formula $r_{U}$
+\end_inset
+
+ The expected return of the shareholders in an unleverd firm
+\begin_inset Formula 
+\[
+\frac{(1-t_{c})\cdot EBIT}{r_{U}}=V_{U}=E_{U}\Rightarrow r_{U}=\frac{(1-t_{c})\cdot EBIT}{V_{U}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+\begin_inset Formula $WACC$
+\end_inset
+
+ Weighted average cost of capital
+\begin_inset Formula 
+\[
+\frac{(1-t_{c})\cdot EBIT}{WACC}=V_{L}\Rightarrow WACC=\frac{(1-t_{c})\cdot EBIT}{V_{L}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In a world with taxes, 
+\begin_inset Formula $WACC\neq r_{U}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsubsection
+Unlevered Firm
+\end_layout
+
+\begin_layout Standard
+Consider an unlevered firm with $100 OI, 
+\begin_inset Formula $r_{U}=10\%$
+\end_inset
+
+ and corporate tax rate 40%.
+ The value of the firm is given by:
+\begin_inset Formula 
+\[
+V_{U}=\frac{\$100\cdot(1-40\%)}{10\%}=600
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Is a world without taxes it would be 
+\begin_inset Formula $\$1000$
+\end_inset
+
+.
+ The government can now be considered as a claimholder
+\end_layout
+
+\begin_layout Standard
+The unlevered firm's periodic cash flow is divided between 2 claimants:
+ 
+\series bold
+the government
+\series default
+ (taxes are paid on all profits: 
+\begin_inset Formula $t_{c}\cdot EBIT$
+\end_inset
+
+) and 
+\series bold
+shareholders
+\series default
+ (who are the residual claimants: 
+\begin_inset Formula $(1-t_{c})\cdot EBIT$
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Standard
+The decrease (compared to the case without taxes) is due to the taxes -
+ as if the government is a 
+\begin_inset Quotes eld
+\end_inset
+
+partner
+\begin_inset Quotes erd
+\end_inset
+
+ is the firm.
+\end_layout
+
+\begin_layout Subsubsection
+Levered Firm
+\end_layout
+
+\begin_layout Standard
+Consider now a situation when a firm is levered.
+ Given a perpetual annual EBIT of $100, $300 debt (market value), 
+\begin_inset Formula $r_{P}=5\%$
+\end_inset
+
+, corporate tax of 
+\begin_inset Formula $40\%$
+\end_inset
+
+ and 
+\begin_inset Formula $r_{U}=10\%$
+\end_inset
+
+, there are now 
+\series bold
+3
+\series default
+ claimants.
+\end_layout
+
+\begin_layout Standard
+The debt holders are the first in line (they get the 
+\series bold
+interest payments
+\series default
+ first, 
+\series bold
+not the capital payments 
+\series default
+- debt can be recycled).
+\end_layout
+
+\begin_layout Standard
+The government has the second priority (tax payments), and the shareholders
+ are the last ones.
+\end_layout
+
+\begin_layout Standard
+The debt holders' claims are 
+\begin_inset Formula $r_{D}\cdot D=5\%\cdot300=15$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+The government gets the corporate tax: 
+\begin_inset Formula $(100-5\%\cdot300)\cdot40\%=34$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+The shareholders are the residual claimants.
+ They receive:
+\begin_inset Formula 
+\[
+EBIT-r_{D}\cdot D-(EBIT-r_{D}\cdot D)\cdot t_{c}=(EBIT-r_{D}\cdot D)\cdot(1-t_{c})
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Value of Levered Firm vs.
+ Unlevered Firm
+\end_layout
+
+\begin_layout Standard
+As an investor, one can be a debt holder or an equity holder.
+\end_layout
+
+\begin_layout Standard
+In an unlevered firm there are only debt holders, who have the periodi cash
+ flow:
+\begin_inset Formula 
+\[
+EBIT\cdot(1-t_{c})=60
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In a levered firm there are both debt holders and shareholders:
+\begin_inset Formula 
+\[
+r_{D}\cdot D+(EBIT-r_{D}\cdot D)\cdot(1-t_{c})=EBIT\cdot(1-t_{c})+r_{D}\cdot D\cdot t_{c}=60+6
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+A levered company is worth more: 
+\begin_inset Formula $V_{L}>V_{U}$
+\end_inset
+
+.
+ The difference between the cash flows is the 
+\series bold
+interest tax shield
+\series default
+: 
+\begin_inset Formula $r_{D}\cdot D\cdot t_{c}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+The company, thus the shareholders, gain from this tax shield, beacuse by
+ paying the interest the firm 
+\begin_inset Quotes eld
+\end_inset
+
+shields
+\begin_inset Quotes erd
+\end_inset
+
+ its earnings from taxes.
+\end_layout
+
+\begin_layout Standard
+The present value of the tax shield is:
+\begin_inset Formula 
+\[
+PV=\frac{r_{D}\cdot D\cdot t_{c}}{r_{D}}=t_{C}\cdot D
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The M&M.1 proposition with corporate tax: the relation between the value
+ of 2 similar firms (levered / unlevered) is:
+\begin_inset Formula 
+\[
+V_{L}=V_{U}+PV(Interest\,Tax\,Shield)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Assuming 
+\series bold
+permanent debt
+\series default
+:
+\begin_inset Formula 
+\[
+V_{L}=V_{U}+t_{c}\cdot D
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Discussion
+\end_layout
+
+\begin_layout Standard
+Homemade leverage is not available in a world with taxes: the firm receives
+ tax benefits due to interest payments, but private investors can't get
+ it.
+ They cannot 
+\series bold
+replicate the cash flow of a corporation
+\series default
+.
+\end_layout
+
+\begin_layout Subsubsection
+The Value of the Levered Firm
+\end_layout
+
+\begin_layout Standard
+How come a levered firm is worth more than the unlevered one? - the government
+ 
+\begin_inset Quotes eld
+\end_inset
+
+claim
+\begin_inset Quotes erd
+\end_inset
+
+ in the firm is decreasing with leverage.
+\end_layout
+
+\begin_layout Subsubsection
+WACC with Corporate Taxes
+\end_layout
+
+\begin_layout Standard
+The 
+\begin_inset Formula $WACC$
+\end_inset
+
+ in presence of corporate taxes is given by:
+\begin_inset Formula 
+\[
+WACC=\frac{D}{E+D}r_{D}\times(1-t_{c})+\frac{E}{E+D}r_{E}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $r_{E}$
+\end_inset
+
+ calculation:
+\begin_inset Formula 
+\[
+E_{L}=\frac{(EBIT-r_{D}\cdot D)\cdot(1-t_{c})}{r_{E}}\Rightarrow r_{E}=\frac{(EBIT-r_{D}\cdot D)\cdot(1-t_{c})}{E_{L}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+which is different than 
+\begin_inset Formula $r_{U}$
+\end_inset
+
+, because shareholders need to be compenstaed.
+ In a world with corporate taxes, shareholders are 
+\series bold
+less compensated
+\series default
+ for taking more risk.
+ The economic explanation is that without taxes one can make leverage on
+ herself, unlike a world with taxation - where a corporation is required.
+\end_layout
+
+\begin_layout Standard
+Assuming a [er[etuity:
+\begin_inset Formula 
+\[
+r_{E}=r_{U}+\frac{D}{E}(r_{U}-r_{D})\cdot(1-t_{c})
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+A Change in Capital Structure
+\end_layout
+
+\begin_layout Standard
+Consider 2 firms which operate in the same industry.
+ Firm A is an all equity firm aith an annual $180 profit, 
+\begin_inset Formula $r_{U}(A)=12\%$
+\end_inset
+
+.
+ Firm B has perpetual debt of $1000, annual profit of $720, 
+\begin_inset Formula $r_{D}=r_{f}=5\%$
+\end_inset
+
+.
+ The corporate tax is 40%.
+ 
+\end_layout
+
+\begin_layout Standard
+The value of firm B can't be immediately calculated, because the 
+\begin_inset Formula $WACC$
+\end_inset
+
+ is unknown.
+\begin_inset Formula 
+\[
+V_{U}(A)=\frac{180\cdot(1-40\%)}{0.12}=900
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+If firm B was an all-equity firm, its value was 4 times higher than that
+ of firm A:
+\begin_inset Formula 
+\[
+V_{U}(B)=4\cdot V_{U}(A)=3600
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Then:
+\begin_inset Formula 
+\[
+V_{L}(B)=V_{U}(B)+t_{c}\cdot D=3600+1000\cdot40\%=4000
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The equity value of firm B is:
+\begin_inset Formula 
+\[
+E(B)=V_{L}(B)-D=4000-1000=3000
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The 
+\begin_inset Formula $r_{E}$
+\end_inset
+
+ of firm B is:
+\begin_inset Formula 
+\[
+r_{E}=r_{U}+\frac{D}{E}(r_{U}-r_{D})\cdot(1-t_{c})=0.12+\frac{1000}{3000}(0.12-0.05)\cdot(1-0.4)=13.4\%
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The 
+\begin_inset Formula $WACC$
+\end_inset
+
+ is given by:
+\begin_inset Formula 
+\[
+WACC(B)=\frac{3000}{4000}\cdot0.134+\frac{1000}{4000}\cdot0.05\cdot(1-40\%)=0.108
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+which is lower then 
+\begin_inset Formula $r_{U}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Suppose now that firm B issues $1000 debt in order to repurchase shares.
+ Assume the debt risk doesn't change.
+\end_layout
+
+\begin_layout Standard
+As the firm announces it, its value after the announcement is higher by
+ 
+\begin_inset Formula $t_{c}\cdot\Delta D$
+\end_inset
+
+.
+ The value of the equity increases as well (the equity holders received
+ the whole value of the tax shield).
+\end_layout
+
+\begin_layout Standard
+The value of the firm increases by the additional debt.
+ After the announcement, everything becomes technical (the whole economic
+ effect is at the announcement).
+\end_layout
+
+\begin_layout Standard
+The equity of the firm is now lower ($2400 compared to $3000).
+ The shareholders didn't lose from the transaction.
+ Are they really better off? - There is no straightforward answer.
+\end_layout
+
+\begin_layout Standard
+Although the value went up, the shares left in the compamny are now riskier.
+ The new 
+\begin_inset Formula $r_{E}$
+\end_inset
+
+ is higher.
+\end_layout
+
+\begin_layout Standard
+The 
+\begin_inset Formula $WACC$
+\end_inset
+
+ of the firm after the transaction is lower.
+\end_layout
+
+\begin_layout Subsection
+Personal Taxes
+\end_layout
+
+\begin_layout Standard
+After the firm pays corporate taxes, the private investor pays her personal
+ taxes (debt holders pay taxes on interest payments, equity holders pay
+ taxes on dividends and capital gain).
+\end_layout
+
+\begin_layout Standard
+These taxes affect the value of equity and the debt, because they affect
+ the motivation of people, thus the price they are willing to pay.
+ They have the potential to offset the tax benefits of leverage.
+\end_layout
+
+\begin_layout Standard
+If 
+\begin_inset Formula $\tau_{c},\tau_{i},\tau_{e}$
+\end_inset
+
+ are the rorporate tax, tax on interest and the tax on equity income (respective
+ly), then after-tax investor cash flows resulting from a $1 in EBIT are
+ 
+\begin_inset Formula $\$(1-\tau_{i})$
+\end_inset
+
+ for debt holders and 
+\begin_inset Formula $\$(1-\tau_{c})(1-\tau_{e})$
+\end_inset
+
+ for share holders
+\end_layout
+
+\begin_layout Subsubsection
+Effective Tax Advantage
+\end_layout
+
+\begin_layout Standard
+If the firm pays 
+\begin_inset Formula $(1-\tau^{*})$
+\end_inset
+
+ in interest, debt holders would receive the same amount as equity holders
+ would receive, if it paid $1 in profit to equity holders:
+\begin_inset Formula 
+\[
+\$(1-\tau^{*})(1-\tau_{i})=\$1\cdot(1-\tau_{c})(1-\tau_{e})
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\tau^{*}=\frac{(1-\tau_{i})-(1-\tau_{c})(1-\tau_{e})}{1-\tau_{i}}=1-\frac{(1-\tau_{c})(1-\tau_{e})}{1-\tau_{i}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+For the sake of the example, suppose there are no personal taxes.
+ Thus, the tax advantage is 
+\begin_inset Formula $\tau_{c}$
+\end_inset
+
+.
+ When 
+\begin_inset Formula $\tau_{i}>\tau_{e}$
+\end_inset
+
+ (which is usually the case):
+\begin_inset Formula 
+\[
+\frac{1-\tau_{e}}{1-\tau_{i}}>1
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Thus, 
+\begin_inset Formula $\tau^{*}<\tau_{c}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+With personal taxes and permanent debt, the value of a leveraged firm is:
+\begin_inset Formula 
+\[
+V_{L}=V_{U}+\tau^{*}\cdot D
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Personal taxes reduce the benefit of a tax shield (yet these benefits still
+ exits).
+\end_layout
+
+\begin_layout Subsubsection
+Optimal Capital Structure
+\end_layout
+
+\begin_layout Standard
+Is debt better than equity? More leverage provide more tax shield, thus
+ every firm would want the higher leverage possible.
+\end_layout
+
+\end_body
+\end_document

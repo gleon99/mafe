@@ -1,0 +1,2082 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+\usepackage{indentfirst}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2.5cm
+\topmargin 2.5cm
+\rightmargin 2.5cm
+\bottommargin 2.5cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Microeconomics 2 - Homework 2
+\end_layout
+
+\begin_layout Author
+Leonid Genkin
+\end_layout
+
+\begin_layout Section*
+Question 2
+\end_layout
+
+\begin_layout Standard
+Consider the following game:
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Tabular
+<lyxtabular version="3" rows="5" columns="5">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $L$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $CL$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $CR$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $R$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $U$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $3,3$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $3,1$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $3,-2$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $3,6$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $MU$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $1,3$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $6,6$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $1,12$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $6,1$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $MD$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $-2,3$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $12,1$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $-2,2$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $12,6$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $D$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $6,3$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $1,6$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $6,12$
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $1,1$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+For player A, 
+\begin_inset Formula $U$
+\end_inset
+
+ is not strictly dominated by either of 
+\begin_inset Formula $MU$
+\end_inset
+
+, 
+\begin_inset Formula $MD$
+\end_inset
+
+ or 
+\begin_inset Formula $D$
+\end_inset
+
+, because 
+\begin_inset Formula $1<3$
+\end_inset
+
+, 
+\begin_inset Formula $-2<3$
+\end_inset
+
+ and 
+\begin_inset Formula $1<3$
+\end_inset
+
+, respectively.
+ But it is dominated by the mixed strategy 
+\begin_inset Formula $MU+D$
+\end_inset
+
+, as 
+\begin_inset Formula $3<\frac{1+6}{2}=3.5$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+After eliminating 
+\begin_inset Formula $U$
+\end_inset
+
+, 
+\begin_inset Formula $MU$
+\end_inset
+
+ is not dominated by 
+\begin_inset Formula $MD$
+\end_inset
+
+ (because 
+\begin_inset Formula $-2<1$
+\end_inset
+
+) and is not dominated by 
+\begin_inset Formula $D$
+\end_inset
+
+ (because 
+\begin_inset Formula $1<6$
+\end_inset
+
+), but is dominated by 
+\begin_inset Formula $MD+D$
+\end_inset
+
+, as:
+\begin_inset Formula 
+\[
+1<\frac{6-2}{2}=4;\,\,6<\frac{12+1}{2}=6.5
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+By the same logic, 
+\begin_inset Formula $L$
+\end_inset
+
+ and 
+\begin_inset Formula $CL$
+\end_inset
+
+ are eliminated symmetrically, yielding the game:
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Tabular
+<lyxtabular version="3" rows="3" columns="3">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $CR$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $R$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $MD$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $-2,2$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $12,6$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $D$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $6,12$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $1,1$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+which doesn't have a single outcome.
+\end_layout
+
+\begin_layout Section*
+Question 3
+\end_layout
+
+\begin_layout Standard
+Intuitively, we would assume the outcome is similar to the example, where
+ it is 
+\begin_inset Formula $a_{i}=1/2$
+\end_inset
+
+ for each player.
+ Let us check this intuition, starting with 
+\begin_inset Formula $m=4$
+\end_inset
+
+.
+ There are 3 players, the action set is 
+\begin_inset Formula $A_{i}=\{0,1/4,1/2,3/4,1\}$
+\end_inset
+
+ and the payoff is given by:
+\begin_inset Formula 
+\[
+u_{i}(a_{i},a_{j},a_{k})=\begin{cases}
+1/3 & a_{i}=a_{j}=a_{k}\\
+a_{i}+\frac{a_{j}-a_{i}}{2}=\frac{a_{i}+a_{j}}{2} & a_{i}<a_{j}<a_{k}\\
+a_{i}+\frac{a_{j}-a_{i}}{3}=\frac{2a_{i}+a_{j}}{2} & a_{i}<a_{j}=a_{k}\\
+\frac{a_{i}}{2}+\frac{a_{k}-a_{i}}{2}=\frac{a_{k}}{2} & a_{i}=a_{j}<a_{k}\\
+\frac{1-a_{i}}{2}+\frac{a_{i}-a_{k}}{2}=\frac{1-a_{k}}{2} & a_{i}=a_{k}>a_{k}\\
+1-a_{i}+\frac{a_{i}-a_{j}}{3}=1-\frac{2a_{i}+a_{j}}{3} & a_{i}>a_{j}=a_{k}\\
+1-a_{i}+\frac{a_{i}-a_{j}}{2}=1-\frac{a_{i}+a_{j}}{2} & a_{i}>a_{j}>a_{k}\\
+\frac{a_{k}-a_{i}}{2}+\frac{a_{i}-a_{j}}{2}=\frac{a_{k}-a_{j}}{2} & a_{j}<a_{i}<a_{k}
+\end{cases}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Compare choosing 
+\begin_inset Formula $1$
+\end_inset
+
+ vs.
+ 
+\begin_inset Formula $3/4$
+\end_inset
+
+ in each case:
+\end_layout
+
+\begin_layout Enumerate
+No difference in this case.
+\end_layout
+
+\begin_layout Enumerate
+Case is impossible (both 
+\begin_inset Formula $a_{j}\leq1$
+\end_inset
+
+ and 
+\begin_inset Formula $1=a_{i}<a_{j}$
+\end_inset
+
+ cannot hold).
+\end_layout
+
+\begin_layout Enumerate
+Case is impossible.
+\end_layout
+
+\begin_layout Enumerate
+No difference in this case.
+\end_layout
+
+\begin_layout Enumerate
+No difference in this case.
+\end_layout
+
+\begin_layout Enumerate
+Smaller 
+\begin_inset Formula $a_{i}$
+\end_inset
+
+ is better, as it yields higher payoff.
+\end_layout
+
+\begin_layout Enumerate
+Smaller 
+\begin_inset Formula $a_{i}$
+\end_inset
+
+ is better, as it yields higher payoff.
+\end_layout
+
+\begin_layout Enumerate
+No difference in this case.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Thus, 
+\begin_inset Formula $1$
+\end_inset
+
+ is dominated by 
+\begin_inset Formula $3/4$
+\end_inset
+
+ and it can be symmetrically shown that 
+\begin_inset Formula $1/4$
+\end_inset
+
+ dominates 
+\begin_inset Formula $0$
+\end_inset
+
+ (there is no difference in cases 6 and 7, and in cases 2 and 3 higher 
+\begin_inset Formula $a_{i}$
+\end_inset
+
+ gives better result).
+\end_layout
+
+\begin_layout Standard
+By the same logic we can eliminate 
+\begin_inset Formula $3/4$
+\end_inset
+
+ and 
+\begin_inset Formula $1/4$
+\end_inset
+
+ (only after 
+\begin_inset Formula $1$
+\end_inset
+
+ and 
+\begin_inset Formula $0$
+\end_inset
+
+ are eliminated), thus finally all players converge to 
+\begin_inset Formula $a_{i}=1/2$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+For 
+\begin_inset Formula $m=8$
+\end_inset
+
+ the result would be the same.
+\end_layout
+
+\begin_layout Section*
+Question 4
+\end_layout
+
+\begin_layout Standard
+Start with 
+\begin_inset Formula $A_{i}=\{1,\ldots,M\}$
+\end_inset
+
+.
+ As 
+\begin_inset Formula $M$
+\end_inset
+
+ is the largest number in the set, in cannot be an estimate of the 
+\begin_inset Formula $2/3$
+\end_inset
+
+ of the average answer.
+ Thus, playing 
+\begin_inset Formula $M$
+\end_inset
+
+ is a dominated strategy, for example by playing 
+\begin_inset Formula $M-1$
+\end_inset
+
+ - no matter what the average answer will be, it is guaranteed that 
+\begin_inset Formula $M-1$
+\end_inset
+
+ is a better estimate of the 
+\begin_inset Formula $2/3$
+\end_inset
+
+ of the average answer, than 
+\begin_inset Formula $M$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Now that 
+\begin_inset Formula $M$
+\end_inset
+
+ is eliminated and it is known that no player will play 
+\begin_inset Formula $M$
+\end_inset
+
+, the new effective set of actions is 
+\begin_inset Formula $A_{i}'=\{1,\ldots,M-1\}$
+\end_inset
+
+.
+ By the same logic as above, as 
+\begin_inset Formula $M-1$
+\end_inset
+
+ is the largest number in the possible set, it must be eliminated as well,
+ leading to 
+\begin_inset Formula $A_{i}''=\{1,\ldots,M-2\}$
+\end_inset
+
+.
+ This process iteratively continues, until a set with only a single possible
+ action 
+\begin_inset Formula $A_{i}^{*}=\{1\}$
+\end_inset
+
+ is obtained.
+\end_layout
+
+\begin_layout Section*
+Question 5
+\end_layout
+
+\begin_layout Standard
+Consider two bidders, with the first valuing the object for sale at 
+\begin_inset Formula $v_{1}$
+\end_inset
+
+ and 
+\begin_inset Formula $v_{2}$
+\end_inset
+
+ respectively, and without loss of generality assume 
+\begin_inset Formula $v_{1}>v_{2}$
+\end_inset
+
+.
+ Bidder 1 has no rational reason for bidding any number 
+\begin_inset Formula $v_{1}$
+\end_inset
+
+, in the same manner bidder 2 won't bid above 
+\begin_inset Formula $v_{2}$
+\end_inset
+
+ (as such bids can only provide them negative or zero utility, and are dominated
+).
+ Then, the game is reduced to a form similar to example (9) in the lecture
+ notes, and by the same reasoning of eliminating dominated strategies we
+ can conclude that the only remaining bids are 
+\begin_inset Formula $v_{2}$
+\end_inset
+
+ for 1 and 
+\begin_inset Formula $v_{2}-1$
+\end_inset
+
+ for 2.
+\end_layout
+
+\begin_layout Section*
+Question 6
+\end_layout
+
+\begin_layout Standard
+The possible outcomes can be roughly described as:
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="9" columns="7">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0pt">
+<column alignment="center" valignment="top" width="0pt">
+<column alignment="center" valignment="top" width="0pt">
+<column alignment="center" valignment="top" width="0pt">
+<column alignment="center" valignment="top" width="0pt">
+<column alignment="center" valignment="top" width="0pt">
+<column alignment="center" valignment="top" width="0pt">
+<row bottomspace="0.2cm">
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $1$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\cdots$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $v_{2}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\cdots$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $u_{2}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row bottomspace="0.2cm">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\left(\frac{v_{1}}{2},\frac{v_{2}}{2}\right)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0,v_{2}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\cdots$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0,v_{2}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\cdots$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0,u_{2}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row bottomspace="0.2cm">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $1$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $v_{1},0$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\left(\frac{v_{1}-1}{2},\frac{v_{2}-2}{2}\right)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\cdots$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0,v_{2}-1$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\cdots$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0,u_{2}-1$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row bottomspace="0.2cm">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\vdots$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\vdots$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\vdots$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\ddots$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\vdots$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\vdots$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\vdots$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row bottomspace="0.2cm">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $v_{2}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $v_{1},0$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $v_{1}-1,0$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\cdots$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\left(\frac{v_{1}-v_{2}}{2},0\right)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\cdots$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0,v_{2}-u_{2}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row bottomspace="0.2cm">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\vdots$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\vdots$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\vdots$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\ddots$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\vdots$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\ddots$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\vdots$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row bottomspace="0.2cm">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $v_{1}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $v_{1},0$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $v_{1}-1,0$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\cdots$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $v_{1}-v_{2},0$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\cdots$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0,v_{2}-u_{2}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row bottomspace="0.2cm">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\vdots$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\vdots$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\vdots$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\cdots$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\vdots$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\ddots$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\vdots$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row bottomspace="0.2cm">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $u_{1}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $v_{1},0$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $v_{1}-1,0$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\cdots$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $v_{1}-v_{2},0$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\cdots$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\ldots$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+where 
+\begin_inset Formula $(\,)$
+\end_inset
+
+ represents a tie (
+\begin_inset Formula $50\%$
+\end_inset
+
+ probability outcome), 
+\begin_inset Formula $v_{1}$
+\end_inset
+
+ and 
+\begin_inset Formula $v_{2}$
+\end_inset
+
+ are the valuations of both bidders, and 
+\begin_inset Formula $u_{1}$
+\end_inset
+
+ and 
+\begin_inset Formula $u_{2}$
+\end_inset
+
+ are some high bids.
+ Without loss of generality, assume 
+\begin_inset Formula $v_{1}>v_{2}.$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+Consider bidder 1.
+ Bidding 
+\begin_inset Formula $v_{1}$
+\end_inset
+
+ dominates bidding any lower 
+\begin_inset Formula $u_{1}$
+\end_inset
+
+ such that 
+\begin_inset Formula $0\leq u_{1}<v_{1}$
+\end_inset
+
+, for each case of the second bidder's bid 
+\begin_inset Formula $u_{2}$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $u_{2}>v_{1}$
+\end_inset
+
+: the first bidder gets 0 anyway.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $u_{2}=v_{1}$
+\end_inset
+
+: the first bidder has 
+\begin_inset Formula $50\%$
+\end_inset
+
+ probability of winning if she bids 
+\begin_inset Formula $v_{1}$
+\end_inset
+
+ and gets 0 if she bids 
+\begin_inset Formula $u_{1}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $u_{1}<u_{2}<v_{1}$
+\end_inset
+
+: the first bidder wins if she bids 
+\begin_inset Formula $v_{1}$
+\end_inset
+
+ and loses if she bids 
+\begin_inset Formula $u_{1}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $u_{1}=u_{2}<v_{1}$
+\end_inset
+
+: the first bidder wins if she bids 
+\begin_inset Formula $v_{1}$
+\end_inset
+
+, but has only 
+\begin_inset Formula $50\%$
+\end_inset
+
+ probability of winning if she bids 
+\begin_inset Formula $u_{1}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $u_{2}<u_{1}$
+\end_inset
+
+: the first bidder wins anyway (the payoff is 
+\begin_inset Formula $v_{1}-u_{2}$
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Standard
+Also, bidding 
+\begin_inset Formula $v_{1}$
+\end_inset
+
+ dominates bidding any higher 
+\begin_inset Formula $u_{1}$
+\end_inset
+
+ such that 
+\begin_inset Formula $u_{1}>v_{1}$
+\end_inset
+
+, for each case of the second bidder's bid 
+\begin_inset Formula $u_{2}$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $0\leq u_{2}<v_{1}:$
+\end_inset
+
+ the first bidder wins anyway (the payoff is 
+\begin_inset Formula $v_{1}-u_{2}$
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $u_{2}=v_{1}$
+\end_inset
+
+: the first bidder gets 0 if she bids 0 (there is a tie: with 50% probability
+ the bidder either gets nothing, or buys for 
+\begin_inset Formula $v_{1}$
+\end_inset
+
+ and the payoff is 
+\begin_inset Formula $v_{1}-v_{1}=0$
+\end_inset
+
+), but has negative payoff (
+\begin_inset Formula $v_{1}-u_{1})$
+\end_inset
+
+ if she bids 
+\begin_inset Formula $u_{1}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $v_{1}<u_{2}<u_{1}$
+\end_inset
+
+: the first bidder gets 0 if she bids 
+\begin_inset Formula $v_{1}$
+\end_inset
+
+, but has negfative payoff (
+\begin_inset Formula $v_{1}-u_{1}$
+\end_inset
+
+) if she bids 
+\begin_inset Formula $u_{1}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $u_{2}=u_{1}$
+\end_inset
+
+: the first bidder gets 0 with probability 50% if she bids 
+\begin_inset Formula $v_{1}$
+\end_inset
+
+, ot gets a negative payoff (
+\begin_inset Formula $v_{1}-u_{1}$
+\end_inset
+
+) if she bids 
+\begin_inset Formula $u_{1}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $u_{2}>u_{1}$
+\end_inset
+
+: the first bidder gets 0 anyway.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In summary, we have shown that the bset strategy for bidder 1 is to bid
+ 
+\begin_inset Formula $v_{1}$
+\end_inset
+
+, and by the same reasoning it can be shown that bidding 
+\begin_inset Formula $v_{2}$
+\end_inset
+
+ is the best strategy for bidder 2.
+ The strategies are 
+\series bold
+weakly
+\series default
+ dominated, as in some cases there is no difference between playing different
+ strategies.
+ As truth telling is the best strategy, the bidder with the higher valuation
+ will win.
+\end_layout
+
+\begin_layout Standard
+Taking known values into account, both bidders might make bids lower than
+ their estimate, by elimination of higher bids - then the winning player
+ will pay less.
+\end_layout
+
+\begin_layout Section*
+Question 7
+\end_layout
+
+\begin_layout Standard
+Iterative elimination of dominated strategies is done by the same logic
+ as in question 4, until only 
+\begin_inset Formula $\{0,1\}$
+\end_inset
+
+ are left.
+\end_layout
+
+\begin_layout Standard
+Playing 
+\begin_inset Formula $0$
+\end_inset
+
+ can possibly lead to winning the game if and only if 
+\begin_inset Formula $0$
+\end_inset
+
+ is closer to the 
+\begin_inset Formula $\frac{2}{3}$
+\end_inset
+
+ of the average than 
+\begin_inset Formula $1$
+\end_inset
+
+, i.e if 
+\begin_inset Formula $\frac{2}{3}$
+\end_inset
+
+ of the average is 
+\begin_inset Formula $\leq\frac{1}{2}$
+\end_inset
+
+, in other words it happens when the average is 
+\begin_inset Formula $\leq\frac{3}{4}$
+\end_inset
+
+, which occurs if at least 
+\begin_inset Formula $\frac{1}{4}$
+\end_inset
+
+ of the players choose 0.
+ Playing 
+\begin_inset Formula $1$
+\end_inset
+
+ in such case is a guaranteed loss.
+\end_layout
+
+\begin_layout Standard
+Symmetrically, playing 
+\begin_inset Formula $1$
+\end_inset
+
+ is a dominating strategy if and only if the average is 
+\begin_inset Formula $\geq\frac{3}{4}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+It is not possible to further distinguish between strategies of playing
+ 0 and 1 without any additional prior knowledge of the other players' moves
+ - thus there are two surviving strategies in this situation.
+\end_layout
+
+\end_body
+\end_document
