@@ -1,0 +1,1119 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+\usepackage{indentfirst}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2.5cm
+\topmargin 2.5cm
+\rightmargin 2.5cm
+\bottommargin 2.5cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Econometrics 2 - Homework 1
+\end_layout
+
+\begin_layout Author
+Leonid Genkin
+\end_layout
+
+\begin_layout Section*
+Question 1
+\end_layout
+
+\begin_layout Subsection*
+(2)
+\end_layout
+
+\begin_layout Standard
+Total men participated in the program: 185.
+\end_layout
+
+\begin_layout Subsection*
+(3)
+\end_layout
+
+\begin_layout Standard
+The longest period anyone particiapted in the program is 2 years (the whole
+ length of the program).
+\end_layout
+
+\begin_layout Subsection*
+(4)
+\end_layout
+
+\begin_layout Standard
+The summaries of the models are:
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename hw1q1p4a.jpg
+	scale 80
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Graphics
+	filename hw1q1p4b.jpg
+	scale 80
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Graphics
+	filename hw1q1p4c.jpg
+	scale 80
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+The 
+\begin_inset Formula $TRAIN$
+\end_inset
+
+ coefficient estimates vary between 
+\begin_inset Formula $-0.112$
+\end_inset
+
+ down to 
+\begin_inset Formula $-0.553$
+\end_inset
+
+, which means that participating in the training program decreases by roughly
+ 
+\begin_inset Formula $11-55\%$
+\end_inset
+
+ (depending on the chosen model) the probability of being unemployed in
+ 1978.
+ 
+\begin_inset Formula $TRAIN$
+\end_inset
+
+ is consistently statistically significant in all three estimations, as
+ it has a small 
+\begin_inset Formula $p$
+\end_inset
+
+ value (around 
+\begin_inset Formula $0.1$
+\end_inset
+
+) and one asterisk (
+\begin_inset Formula $*$
+\end_inset
+
+) significance code.
+ It doesn't make sense to compare the 
+\begin_inset Formula $LPM$
+\end_inset
+
+ coefficient estimate on 
+\begin_inset Formula $TRAIN$
+\end_inset
+
+ with those of the Logit and Probit models, because in the former models
+ there is a function 
+\begin_inset Formula $G(\cdot)$
+\end_inset
+
+ which maps the linear regression values to 
+\begin_inset Formula $[0,1]$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+The 
+\begin_inset Formula $EDUC$
+\end_inset
+
+ coefficient esitmates vary between 
+\begin_inset Formula $-0.0018905$
+\end_inset
+
+ up to 
+\begin_inset Formula $1.442\cdot10^{-4}$
+\end_inset
+
+.
+ In all 3 models it has a consistently high 
+\begin_inset Formula $p$
+\end_inset
+
+ value (
+\begin_inset Formula $95\%-97\%$
+\end_inset
+
+), meaning the variable has little statistical significance.
+ An interesting observation is having a potisive estimate only in the 
+\begin_inset Formula $LPM$
+\end_inset
+
+ model and negative estimates in the latter models, though in all models
+ the absolute value is very small and close to 0.
+ It doesn't make sense to 
+\begin_inset Quotes eld
+\end_inset
+
+compare
+\begin_inset Quotes erd
+\end_inset
+
+ the values of 
+\begin_inset Formula $EDUC$
+\end_inset
+
+ between the models as well, but as they are all close to 0 and have little
+ significance, we can say that they roughly behave in the same way in each
+ model, leading to the conclusion that number of years of education doesn't
+ have a significant impact on the cahnges of being unemployed in 1978.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+(5)
+\end_layout
+
+\begin_layout Itemize
+The partial effect at the average (PEA) of 
+\begin_inset Formula $TRAIN$
+\end_inset
+
+ on 
+\begin_inset Formula $UNEM78$
+\end_inset
+
+ is 
+\begin_inset Formula $-0.112$
+\end_inset
+
+ in the Logit model and 
+\begin_inset Formula $-0.078$
+\end_inset
+
+ in the Probit model.
+ The average partial effect (APE) is 
+\begin_inset Formula $-0.111$
+\end_inset
+
+ in the Logit model and 
+\begin_inset Formula $-0.768$
+\end_inset
+
+ in the Probit model.
+ 
+\end_layout
+
+\begin_layout Itemize
+The partial effect at the average (PEA) of 
+\begin_inset Formula $EDUC$
+\end_inset
+
+ on 
+\begin_inset Formula $UNEM78$
+\end_inset
+
+ us 
+\begin_inset Formula $0.208$
+\end_inset
+
+ in the Logit model and 
+\begin_inset Formula $0.233$
+\end_inset
+
+ in the Probit model.
+ The average partial effect (APE) is 
+\begin_inset Formula $0.203$
+\end_inset
+
+ in the Logit model and 
+\begin_inset Formula $0.229$
+\end_inset
+
+ in the Probit model.
+\end_layout
+
+\begin_layout Itemize
+The 
+\begin_inset Formula $APE$
+\end_inset
+
+ can be compared with the coefficients in the 
+\begin_inset Formula $LPM$
+\end_inset
+
+ model, because essentially they have the same unerlying meaning in all
+ models, unlike the 
+\begin_inset Formula $PEA$
+\end_inset
+
+ - as it only addresses the effect on the average and it is different, depending
+ on the model.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+(6)
+\end_layout
+
+\begin_layout Standard
+The probabilities of being unemployed all of 1978 by model and percentiles
+ are:
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+\begin_inset Tabular
+<lyxtabular version="3" rows="8" columns="4">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Percentile
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+LPM
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Logit
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Probit
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Minimum
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $-0.009$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0.066$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0.055$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $5\%$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\begin_inset Formula $0.109$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0.12$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0.118$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $25\%$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0.243$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0.238$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0.237$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $50\%$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0.298$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0.293$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0.296$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $75\%$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0.409$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0.417$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0.415$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $95\%$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0.41$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0.418$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0.419$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Maximum
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0.412$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0.423$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0.43$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+An interesting observation is that the highest fitted value in all models
+ is around 
+\begin_inset Formula $0.4$
+\end_inset
+
+, not even close to 
+\begin_inset Formula $1$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection*
+(7)
+\end_layout
+
+\begin_layout Standard
+The probabilities by model are:
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Tabular
+<lyxtabular version="3" rows="2" columns="3">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+LPM
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Logit
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Probit
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0.085$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0.107$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0.106$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+(8)
+\end_layout
+
+\begin_layout Standard
+Using a percentage measurement, all 3 models give the exact same result:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename hw1q1p8.jpg
+	scale 80
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Thus, comparing by this method - none of the models is particularly better
+ or worse than the other one.
+\end_layout
+
+\begin_layout Standard
+Using the McFadden version of pseudo-
+\begin_inset Formula $R^{2}$
+\end_inset
+
+, the results are:
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Tabular
+<lyxtabular version="3" rows="2" columns="3">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+LPM
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Logit
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Probit
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0.0366$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0.0412$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0.0416$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+which implies that Probit model is the best one (in terms of goodness-of-fit).
+\end_layout
+
+\begin_layout Subsection*
+(9)
+\end_layout
+
+\begin_layout Standard
+Given all the findings until now it seems that Probit model is the most
+ useful.
+ It is more precise than Logit, and using LPM is generally discouraged for
+ a binary variable.
+ In addition to that, it has good indicators, as can be seen in its summary
+ (question 1.4).
+\end_layout
+
+\begin_layout Subsection*
+(10)
+\end_layout
+
+\begin_layout Standard
+Testing the hypothesis that the coefficients for 
+\begin_inset Formula $BLACK$
+\end_inset
+
+, 
+\begin_inset Formula $HISP$
+\end_inset
+
+ and 
+\begin_inset Formula $MARRIED$
+\end_inset
+
+ are 0 in Logit and Probit models using LR test and Wald test, very low
+ values are obtained for 
+\begin_inset Formula $Pr(>\chi^{2})$
+\end_inset
+
+ (in the range 
+\begin_inset Formula $0.0021$
+\end_inset
+
+ - 
+\begin_inset Formula $0.0081$
+\end_inset
+
+) which implies that the abovementioned variables are significant in explaining
+ the 
+\begin_inset Formula $UNEM78$
+\end_inset
+
+ dependent variable.
+\end_layout
+
+\begin_layout Subsection*
+(11)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename hw1q1p11.jpg
+	scale 80
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+The 
+\begin_inset Formula $\%$
+\end_inset
+
+ correctly predicted positive is 
+\begin_inset Formula $61.3\%$
+\end_inset
+
+, correctly predicted negative are 
+\begin_inset Formula $57.5\%$
+\end_inset
+
+ and overall correctly predicted ratio is 
+\begin_inset Formula $58.7\%$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+This approach performs better, because it provides some information on the
+ models (compared to the approach in question 1.8).
+\end_layout
+
+\end_body
+\end_document

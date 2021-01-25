@@ -465,11 +465,13 @@ held for sale
 is owned
 \series default
 .
- Consignments: belong to consignor, ownership is not based on physical possessio
-n.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
+Consignments: belong to consignor, ownership is not based on physical possession.
+\end_layout
+
+\begin_layout Itemize
 Goods in transit are not in possession of 
 \series bold
 any

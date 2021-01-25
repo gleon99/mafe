@@ -1,0 +1,832 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+\usepackage{indentfirst}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2.5cm
+\topmargin 2.5cm
+\rightmargin 2.5cm
+\bottommargin 2.5cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Econometrics 2 - Lecture 4
+\end_layout
+
+\begin_layout Author
+Leonid Genkin
+\end_layout
+
+\begin_layout Section
+Time Series Analysis - Continued
+\end_layout
+
+\begin_layout Subsection
+Binary explanatory variables
+\end_layout
+
+\begin_layout Standard
+In TS regression, an indicative variable indicates whether or not an event
+ has occurred (unlike a cross-sectional data set where it is used to divide
+ to groups), for example 
+\begin_inset Quotes eld
+\end_inset
+
+whether a Democrat or a Republican is the president of the U.S).
+\end_layout
+
+\begin_layout Standard
+Binary 
+\series bold
+explanatory variables
+\series default
+ are the key component in an 
+\begin_inset Quotes eld
+\end_inset
+
+event study
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+For example, a simple version is used to study the impact of a particular
+ event on the value of affected companies is:
+\begin_inset Formula 
+\[
+R_{t}^{f}=\beta_{0}+\beta_{1}R_{t}^{m}+\beta_{2}D_{t}+U_{t}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+with 
+\begin_inset Formula $R_{t}^{f}$
+\end_inset
+
+ being the stock return for firm 
+\begin_inset Formula $f$
+\end_inset
+
+ during 
+\begin_inset Formula $t$
+\end_inset
+
+, 
+\begin_inset Formula $R_{t}^{m}$
+\end_inset
+
+ is the market return, and 
+\begin_inset Formula $D_{t}$
+\end_inset
+
+ is a dummy variable indicating whether the event occurred.
+\end_layout
+
+\begin_layout Standard
+Multiple dummy variables can be used (e.g the event is imposition of a new
+ regulation: 
+\begin_inset Formula $DB_{t}$
+\end_inset
+
+ and 
+\begin_inset Formula $DA_{t}$
+\end_inset
+
+ for the weeks before and after the regulation - then 
+\begin_inset Formula $DB_{t}$
+\end_inset
+
+ might detect the presence of inside nformation).
+\end_layout
+
+\begin_layout Subsection
+Example: Eveny Study Analysis
+\end_layout
+
+\begin_layout Standard
+To study the effects of anti-dumping filings by U.S chemical producers on
+ imports, use the following model:
+\begin_inset Formula 
+\[
+log(CHNIMP_{t})=\beta_{0}+\beta_{1}log(CHEMPI_{t})+\beta_{2}log(GAS_{t})+\beta_{3}log(RTWEX_{t})+
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\beta_{4}BEFILE6_{t}+\beta_{5}AFFILE6_{t}+\beta_{6}AFDEC6_{t}+U_{t}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+where:
+\end_layout
+
+\begin_layout Description
+\begin_inset Formula $CHNIMP_{t}$
+\end_inset
+
+ Volume of barium chloride imports form China
+\end_layout
+
+\begin_layout Description
+\begin_inset Formula $CHEMPI_{t}$
+\end_inset
+
+ Index of chemical production
+\end_layout
+
+\begin_layout Description
+\begin_inset Formula $GAS_{t}$
+\end_inset
+
+ Volume of gasoline production
+\end_layout
+
+\begin_layout Description
+\begin_inset Formula $RTWEX_{t}$
+\end_inset
+
+ The exhange rate
+\end_layout
+
+\begin_layout Description
+\begin_inset Formula $BEFILE6_{t},AFFILE6_{t},AFDEC6_{t}$
+\end_inset
+
+ are dummy variables which represents 
+\begin_inset Quotes eld
+\end_inset
+
+before filing
+\begin_inset Quotes erd
+\end_inset
+
+, 
+\begin_inset Quotes eld
+\end_inset
+
+after filing
+\begin_inset Quotes erd
+\end_inset
+
+ and 
+\begin_inset Quotes eld
+\end_inset
+
+after the ITC decision
+\begin_inset Quotes erd
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $BEFILE6$
+\end_inset
+
+ and 
+\begin_inset Formula $AFFILE6$
+\end_inset
+
+ are statistically insignificant, while 
+\begin_inset Formula $AFDEC6$
+\end_inset
+
+ is statistically significant.
+ The approximate change due to the ITC decision is 
+\begin_inset Formula $-56.5\%$
+\end_inset
+
+.
+ The conclusion is that imports were impacted by the decision itself, but
+ not by the expectations (the filing period).
+ The exact impact is given by:
+\begin_inset Formula 
+\[
+100\cdot(exp(-0.565)-1)\%\approx-43.2\%
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Trends in TS data
+\end_layout
+
+\begin_layout Standard
+Many economic TS have a tendency over time (e.g labor productivity, general
+ fertility rate, housing prices, the global warming).
+ In order to draw 
+\series bold
+causal
+\series default
+ inference, a 
+\series bold
+time trend
+\series default
+ must be recognized.
+ Two processes might be correlated due to some unobserved trending factors
+ (
+\begin_inset Quotes eld
+\end_inset
+
+spurious relation
+\begin_inset Quotes erd
+\end_inset
+
+), which must be controlled for.
+\end_layout
+
+\begin_layout Standard
+There are several popular methods to capture trending behavior:
+\end_layout
+
+\begin_layout Itemize
+A 
+\series bold
+linear
+\series default
+ time trend: 
+\begin_inset Formula 
+\[
+Y_{t}=\beta_{0}+\beta_{1}t+U_{t}
+\]
+
+\end_inset
+
+Then, 
+\begin_inset Formula $\beta_{1}=\Delta Y_{t}=Y_{t}-Y_{t-1}$
+\end_inset
+
+ is (a.e.b.e) the change in 
+\begin_inset Formula $Y_{t}$
+\end_inset
+
+ due to 
+\series bold
+passage of time
+\series default
+, as the average value of 
+\begin_inset Formula $Y$
+\end_inset
+
+ can be considered to be 
+\begin_inset Quotes eld
+\end_inset
+
+linear function of time
+\begin_inset Quotes erd
+\end_inset
+
+.
+\begin_inset Formula 
+\[
+Y_{t}=\beta_{0}+\beta_{1}t+U_{t}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+E[Y_{t}]=\beta_{0}+\beta_{1}t\Rightarrow E[U_{t}]=0,\,Var[U_{t}]=\sigma_{U}^{2}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+An 
+\series bold
+exponential
+\series default
+ time trend:
+\begin_inset Formula 
+\[
+log(Y_{t})=\beta_{0}+\beta_{1}t+U_{t}
+\]
+
+\end_inset
+
+In this case, 
+\begin_inset Formula $\beta_{1}=\Delta log(Y_{t})\approx\frac{Y_{t}-Y_{t-1}}{Y_{t-1}}$
+\end_inset
+
+ is (a.e.b.e) the 
+\series bold
+growth rate
+\series default
+ in 
+\begin_inset Formula $Y_{t}$
+\end_inset
+
+, as the average growth rate of 
+\begin_inset Formula $Y_{t}$
+\end_inset
+
+ is constant over time.
+\begin_inset Formula 
+\[
+Y_{t}=exp(\beta_{0}+\beta_{1}t+U_{t})
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+log(Y_{t})=\beta_{0}+\beta_{1}t+U_{t}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+E[log(Y_{t})]=\beta_{0}+\beta_{1}t
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+A 
+\series bold
+quadratic 
+\series default
+time trend:
+\begin_inset Formula 
+\[
+Y_{t}=\beta_{0}+\beta_{1}t+\beta_{2}t^{2}+U_{t}
+\]
+
+\end_inset
+
+Such trend captures a 
+\begin_inset Quotes eld
+\end_inset
+
+hump
+\begin_inset Quotes erd
+\end_inset
+
+ shape with a increase up to some point, followed by a decrease, for example:
+ productivity of a particular worker, number of cigarettes consumed in a
+ country by its development level.
+\begin_inset Formula 
+\[
+\frac{\Delta Y_{t}}{\Delta t}\approx\beta_{1}+2\beta_{2}t
+\]
+
+\end_inset
+
+The change in 
+\begin_inset Formula $Y_{t}$
+\end_inset
+
+ due to the passage of time is (a.e.b.e) increasing if 
+\begin_inset Formula $\beta_{1},\beta_{2}>0$
+\end_inset
+
+ and has a hump shape if 
+\begin_inset Formula $\beta_{1}>0$
+\end_inset
+
+ and 
+\begin_inset Formula $\beta_{2}<0$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Adding a time trend eliminates the spurious regression problem.
+ A time trend might have unobserved trending factors that affect 
+\begin_inset Formula $Y_{t}$
+\end_inset
+
+, which are also correlated with the explanatory variables.
+ For example, consider:
+\begin_inset Formula 
+\[
+Y_{t}=\beta_{0}+\beta_{1}X_{t,1}+\beta_{2}X_{t,2}+\beta_{3}t+U_{t}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+fits the MLR framework with 
+\begin_inset Formula $X_{t,3}=t$
+\end_inset
+
+.
+ 
+\begin_inset Formula $Y_{t}$
+\end_inset
+
+ may be growing or shrinking over time for unrelated reasons.
+ Omitting 
+\begin_inset Formula $t$
+\end_inset
+
+ will yield biased 
+\begin_inset Formula $\beta_{1}$
+\end_inset
+
+ and 
+\begin_inset Formula $\beta_{2}$
+\end_inset
+
+ estimates, especially if the explanatory variables are themselves trending.
+\end_layout
+
+\begin_layout Standard
+If it is known that there is a time trend in the data and it is not controlled
+ for, the estimators will be biased.
+ Example with stocks: returns are used rather than prices or market value
+\end_layout
+
+\begin_layout Subsection
+Example: Adding a time trend to a regression
+\end_layout
+
+\begin_layout Standard
+To study the effects of the housing price index on housing investment in
+ the U.S, 2 models can be used:
+\begin_inset Formula 
+\[
+log(INVPC_{t})=\beta_{0}+\beta_{1}log(PRICE_{t})+U_{t}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+log(INVPC_{t})=\beta_{0}+\beta_{1}log(PRICE_{t})+\beta_{2}t+U_{t}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $log()$
+\end_inset
+
+ is used in order to capture elasticity (% of change).
+\end_layout
+
+\begin_layout Description
+\begin_inset Formula $INVPC_{t}$
+\end_inset
+
+ is the housing investment
+\end_layout
+
+\begin_layout Description
+\begin_inset Formula $PRICE_{t}$
+\end_inset
+
+ is a housing price index
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\beta_{1}$
+\end_inset
+
+ (a.e.b.e) measures the elasticity of per-capita investment.
+\end_layout
+
+\begin_layout Standard
+In the first model there is a significant relation between the price index
+ and the investment, but after introducing control for the time trend in
+ the second one, it is eliminated.
+ The reason is that the time trend is statistically significant.
+ 
+\begin_inset Formula $\hat{\beta_{2}}=0.01$
+\end_inset
+
+, meaning that on average there is 
+\begin_inset Formula $\sim1\%$
+\end_inset
+
+ increase in the dependent variable per year.
+\end_layout
+
+\begin_layout Standard
+The first model shows a spurious relation between the investment and the
+ price index.
+\end_layout
+
+\begin_layout Standard
+It is possible that adding a time trend will make an explanatory variable
+ more significant.
+\end_layout
+
+\begin_layout Subsection
+Detrending
+\end_layout
+
+\begin_layout Standard
+Controlling for a time trend in a regression is analagous to estimation
+ without a time trend but with a 
+\series bold
+detrended variable
+\series default
+ instead.
+ Consider:
+\begin_inset Formula 
+\[
+Y_{t}=\beta_{0}+\beta_{1}X_{t,1}+\cdots+\beta_{p-1}X_{t,p-1}+\beta_{p}t+U_{t}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+An alternative way to obtain the estimators is to:
+\end_layout
+
+\begin_layout Enumerate
+Regress each of 
+\begin_inset Formula $Y,X_{t,1},\ldots,X_{t,p-1}$
+\end_inset
+
+ on a constant and the time trand and save the residuals e.g
+\begin_inset Formula 
+\[
+Y_{t}=\alpha_{0}+\alpha_{1,t}+\psi_{t}\Rightarrow\ddot{Y_{t}}=Y_{t}-\hat{\alpha_{0}}+\hat{\alpha}_{1}t
+\]
+
+\end_inset
+
+where 
+\begin_inset Formula $\ddot{Y}_{t}$
+\end_inset
+
+ is a linearly 
+\series bold
+detrended
+\series default
+ version of 
+\begin_inset Formula $Y_{t}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+Run the regression.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $R^{2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $R^{2}$
+\end_inset
+
+ are often very high, especially compared to cross-sectional data models,
+ caused by a mistake of not adjusting them.
+\end_layout
+
+\begin_layout Standard
+TS data often come in aggregate form, which are easier to explain than individua
+l points, but the 
+\begin_inset Formula $R^{2}$
+\end_inset
+
+ and 
+\begin_inset Formula $R_{a}^{2}$
+\end_inset
+
+ can be artificially high if the dependent variable is trending.
+\end_layout
+
+\begin_layout Standard
+The more evident a trend is, the higher is the impact on 
+\begin_inset Formula $R^{2}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+When the dependent variable has a polynomical trend, a suitable measure
+ of goodness-of-fit is 
+\begin_inset Formula $R^{2}$
+\end_inset
+
+ with a detrended version of the dependent variable.
+ To obtain an appropriate measure of goodness-of-fit, first regress 
+\begin_inset Formula $Y_{t}$
+\end_inset
+
+ on 
+\begin_inset Formula $t$
+\end_inset
+
+ and obtain the residuals, then regress them on 
+\begin_inset Formula $X_{t,1},\ldots,X_{t,p-1}$
+\end_inset
+
+ and 
+\begin_inset Formula $t$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Seasonality
+\end_layout
+
+\begin_layout Standard
+A TS might exhibit 
+\series bold
+seasonality
+\series default
+ e.g the 
+\begin_inset Quotes eld
+\end_inset
+
+day of the week effect
+\begin_inset Quotes erd
+\end_inset
+
+, housing starts (summer vs.
+ winter).
+ 
+\begin_inset Formula $E[Y_{t}]$
+\end_inset
+
+ is allowed to differ between periods, in addition to the trending behavior.
+ Not all data display seasonal patterns.
+\end_layout
+
+\begin_layout Standard
+Generally, seasonality can be captured by assigning a dummy explanatory
+ variable to each period.
+\end_layout
+
+\begin_layout Standard
+For example: 
+\begin_inset Formula $\delta_{1}FEB_{t}+\delta_{2}MAR_{t}$
+\end_inset
+
+ for months.
+ If there is no seasonality, all 
+\begin_inset Formula $\delta_{j}$
+\end_inset
+
+ will be 0 (by hypothesis testing).
+ In most cases, there is no interest in the seasonality per se, but rather
+ in controlling for it.
+\end_layout
+
+\begin_layout Subsection
+Deseasonalized interpretation
+\end_layout
+
+\begin_layout Standard
+Estimation of a TS regression with seasonal dummies is equivalent to estimation
+ 
+\series bold
+without
+\series default
+ seasonal dummies, but with 
+\series bold
+deseasonalized
+\series default
+ variabled instead.
+\end_layout
+
+\end_body
+\end_document
