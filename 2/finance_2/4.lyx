@@ -1,0 +1,466 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+\usepackage{indentfirst}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2.5cm
+\topmargin 2.5cm
+\rightmargin 2.5cm
+\bottommargin 2.5cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Finance 2 - Lecture 4
+\end_layout
+
+\begin_layout Author
+Leonid Genkin
+\end_layout
+
+\begin_layout Section
+Problem Set 1 Solution
+\end_layout
+
+\begin_layout Subsection
+Question 3
+\end_layout
+
+\begin_layout Standard
+The annual tax shield depends only on the paid interest rate and not on
+ the risk-free rate.
+ The total present value depends on the risk-free rate, as it represents
+ an alternative, thus its change has impact on the PV (like a change in
+ YTM of a bond).
+\end_layout
+
+\begin_layout Section
+Financial Distress and Managerial Incentives
+\end_layout
+
+\begin_layout Standard
+As 
+\begin_inset Formula $V_{L}=V_{U}+PV(TS)$
+\end_inset
+
+, the value of a leveraged firm increases with debt.
+ Yet in reality firms do not tend to have too much debt.
+ One reason is that too much debt might lead to bankruptcy.
+\end_layout
+
+\begin_layout Subsection
+Financial Distress vs.
+ Economic Distress
+\end_layout
+
+\begin_layout Standard
+A 
+\series bold
+financial distress
+\series default
+ occures when a firm has difficulty meeting its debt obligations.
+ A 
+\series bold
+default
+\series default
+ is when a firm fails to make the required interest or principal payments.
+ Debt holders can claim rights on the assets of the firm and might even
+ take legal ownership (through bankruptcy)
+\end_layout
+
+\begin_layout Standard
+An 
+\series bold
+economic distress
+\series default
+ is when the firm's continuation value is lower than its liquidation value,
+ i.e its value as an ongoing business is lower that the market values of
+ all its assets.
+ Such company would be better off if it liquidates (considering the alternative).
+\end_layout
+
+\begin_layout Standard
+A financial distress can exist without economic distress (you owe and don't
+ pay back, but still have assets with market value).
+\end_layout
+
+\begin_layout Subsection
+Financial Distress and Bankruptcy
+\end_layout
+
+\begin_layout Standard
+The possible responses of a firm to a financial distress:
+\end_layout
+
+\begin_layout Itemize
+Raise money - by issuing new debt or equity.
+\end_layout
+
+\begin_layout Itemize
+Reorganize assets (sale assets / business units).
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Quotes eld
+\end_inset
+
+Work-out
+\begin_inset Quotes erd
+\end_inset
+
+ - re-negotiate terms with debt holders.
+\end_layout
+
+\begin_layout Itemize
+Reorganization (chapter 11) - through a plan which must be approved by creditors
+ and shareholders.
+\end_layout
+
+\begin_layout Itemize
+Liquidation (chapter 7) - a trustee is appointed to liquidate the assets.
+ Debt holders' interest payments are prioritized, but not the principal
+ payment.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Default and Bankruptcy in a Perfect Market
+\end_layout
+
+\begin_layout Standard
+Default, by itself, is not necessarily a problem.
+ Consider a pharmaceutical company which focuses on innovation and is in
+ process of developing a new drug.
+ Being in the last stage of the FDA process, they anticipate the final decision
+ by the end of the year.
+ There are 2 possible scenarios: the firm will be worth $450M or $240M,
+ according to whether the FDA approves the drug.
+\end_layout
+
+\begin_layout Standard
+2 alternative capital structures are considered: all-equity financing, or
+ use $300M debt which matures at the end of the year.
+\end_layout
+
+\begin_layout Standard
+In the first secnario, the value of the firm is $450M.
+ If it doesn't have $300M in cash by the end of the year, it will be in
+ a financial distress (can't meet its debt obligations), but won't be forced
+ to default.
+ It can raise money by a new loan / equity.
+\end_layout
+
+\begin_layout Standard
+In the second scenario, the firm's value is $240M, equity holders get nothing
+ and the creditors become the only shareholders.
+\end_layout
+
+\begin_layout Standard
+In a perfect capital market, if the liquidation value is higher than the
+ total assets value, there is economic distress in 
+\series bold
+any
+\series default
+ capital structure.
+ Investors are 
+\series bold
+not
+\series default
+ worse off because of leverage.
+ Thus, bankruptcy by itself doesn't reduce the value to investors (
+\begin_inset Quotes eld
+\end_inset
+
+it is not the problem
+\begin_inset Quotes erd
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Subsection
+Efficient Liquidation
+\end_layout
+
+\begin_layout Standard
+Suppose the investors require 
+\begin_inset Formula $6.5\%$
+\end_inset
+
+ on the debt.
+ At the issuance day, the pay:
+\begin_inset Formula 
+\[
+D=\frac{0.5(300+240)}{1+6.5\%}=253.52
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The return will be $300M (18.33%) in case of success and $240M (-5.33%) in
+ case of failure.
+\end_layout
+
+\begin_layout Standard
+If the FDA doesn't approve the drug, the firm will suffer form 
+\series bold
+economic distress
+\series default
+ (liquidation value higher than the continuation value).
+\end_layout
+
+\begin_layout Standard
+Is is efficient to liquidate a firm when the PV of future cash flows in
+ case of contiunation is below the cash flow from selling off all the assets.
+\end_layout
+
+\begin_layout Standard
+At time of the bankruptcy, the bond holders benefit from the efficient liquidati
+on.
+ However, as both parites know it - different terms are expected (
+\begin_inset Quotes eld
+\end_inset
+
+there are no free lunches
+\begin_inset Quotes erd
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Standard
+Anticipating it, the investors will be willing to provide the funds at a
+ lower payment in the good scenario.
+ Thus, due to the efficient liquidation, 
+\series bold
+shareholders
+\series default
+ gain profit, as it allows the firm to issue debt at better terms.
+\end_layout
+
+\begin_layout Subsection
+Bankruptcy Costs
+\end_layout
+
+\begin_layout Standard
+In perfect markets, bankruptcy risk is not a disadvantage - it only shifts
+ the ownership from the equity holders to the debt holders.
+ It is not a realistic description of bankruptcy, as there are costs of
+ bankruptcy:
+\end_layout
+
+\begin_layout Itemize
+Direct costs - they reduce the value of the assets, which reduce the available
+ money to the investors.
+ They can be 3%-4%, but might be as high as 20%, depending on the firm's
+ situation.
+ They can be mitigated by 
+\begin_inset Quotes eld
+\end_inset
+
+working out
+\begin_inset Quotes erd
+\end_inset
+
+ - find a solution without going to the court, or by a 
+\begin_inset Quotes eld
+\end_inset
+
+prepackaged bankruptcy
+\begin_inset Quotes erd
+\end_inset
+
+ - chapter 11 (reorganization).
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Administrative costs: fees to legal experts, accountants, auctioneers, etc.
+\end_layout
+
+\begin_layout Itemize
+Extra cost for creditors: they can anticipate the bankruptcy costs, thus
+ give lower value to the shareholders.
+\end_layout
+
+\begin_layout Itemize
+Opportunity cost of management time: instead of running the company, the
+ management will focus on the debt, instead of positive CF projects, and
+ perhaps even find another job.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Indirect costs
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Loss of customers
+\end_layout
+
+\begin_layout Itemize
+Loss of suppliers
+\end_layout
+
+\begin_layout Itemize
+Loss of employees
+\end_layout
+
+\begin_layout Itemize
+Loss of receivables
+\end_layout
+
+\begin_layout Itemize
+Fire sale of assets
+\end_layout
+
+\begin_layout Itemize
+Inefficient liquidation (selling too early/late)
+\end_layout
+
+\begin_layout Itemize
+Forgone investment opportunities (a firm that faces bankrupcy won't look
+ for new projects)
+\end_layout
+
+\begin_layout Itemize
+Costs to creditors
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Financial Distress Costs and Firm Value
+\end_layout
+
+\begin_layout Standard
+Continuing the pharmaceutical firm example, if it fails to receive the FDA
+ approval, it will be forced into bankruptcy.
+ Assume the financial distress costs are estimated to $60 million.
+ They lower the total value of the firm, and debtholders are those who bear
+ them.
+\end_layout
+
+\begin_layout Standard
+But, as creditors can anticipate it, initially they pay less for the debt,
+ thus the difference is in fact paid by the 
+\series bold
+shareholders
+\series default
+.
+\end_layout
+
+\begin_layout Subsection
+Optimal Capital Structure
+\end_layout
+
+\begin_layout Standard
+The 
+\series bold
+trade-off theory
+\series default
+ states that the firm chooses its capital structure by trading off the benefits
+ of the tax shield vs.
+ the costs of financial distress and agency costs.
+\end_layout
+
+\begin_layout Standard
+The present value of the expected bankruptcy costs is determined by the
+ probability of a bankruptcy event and its magnitude.
+ It helps to explain the debt level and use of leverage by firms.
+ For example: airlines (low financial distress costs) vs.
+ pharmaceutical firms (high costs).
+\end_layout
+
+\end_body
+\end_document

@@ -1,0 +1,451 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+\usepackage{indentfirst}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2.5cm
+\topmargin 2.5cm
+\rightmargin 2.5cm
+\bottommargin 2.5cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Microeconomics 2 - Lecture 4
+\end_layout
+
+\begin_layout Author
+Leonid Genkin
+\end_layout
+
+\begin_layout Section
+Strategic Form Games
+\end_layout
+
+\begin_layout Subsection
+Rock-Paper-Scissors
+\end_layout
+
+\begin_layout Standard
+The game is symmetrical and no pure strategy NE exists.
+\end_layout
+
+\begin_layout Standard
+Peope are irrational by their nature, and biased.
+ A winner will tend to play the same hand again and a loser will tend to
+ change its hand.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes eld
+\end_inset
+
+Hot-hand fallacy
+\begin_inset Quotes erd
+\end_inset
+
+: in basketball, players are perceived to have a 
+\begin_inset Quotes eld
+\end_inset
+
+hot hand
+\begin_inset Quotes erd
+\end_inset
+
+ during a game (if they managed to score 2-3 in a row it gives an impression
+ that the ball should be passed to them).
+\end_layout
+
+\begin_layout Standard
+People's intuition is that the probability to score after a 
+\begin_inset Quotes eld
+\end_inset
+
+throw
+\begin_inset Quotes erd
+\end_inset
+
+ is higher then the unconditional probability:
+\begin_inset Formula 
+\[
+Pr(H|H)>Pr(H)>P(H|M)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Analyzing data from real games, the conclusion is that the probability tis
+ exactly the same, thus there is no such thing as a 
+\begin_inset Quotes eld
+\end_inset
+
+hot hand
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection
+The Case of Kitty Genovese
+\end_layout
+
+\begin_layout Standard
+A woman was murdered in New York City.
+ 38 neighbors witnessed it, but no one called the police.
+ A model for this situation is a game with 
+\begin_inset Formula $n$
+\end_inset
+
+ players, a personal cost of 
+\begin_inset Quotes eld
+\end_inset
+
+fighting the dragon
+\begin_inset Quotes erd
+\end_inset
+
+ is 1 and the personal utility if someone else does it is 
+\begin_inset Formula $x>1$
+\end_inset
+
+.
+ With pure strategy NE are when a single player 
+\begin_inset Quotes eld
+\end_inset
+
+fights
+\begin_inset Quotes erd
+\end_inset
+
+, but it is implausible without prior coordination.
+\end_layout
+
+\begin_layout Standard
+There is a mixed-strategy BE: each player fights with some probability 
+\begin_inset Formula $p$
+\end_inset
+
+, which makes them 
+\series bold
+indifferent
+\series default
+.
+\end_layout
+
+\begin_layout Standard
+The payoff in case of fighting is 
+\begin_inset Formula $x-1$
+\end_inset
+
+, and in case of not fighting is:
+\begin_inset Formula 
+\[
+x\cdot(1-(1-p)^{n-1})
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Indifference requires:
+\begin_inset Formula 
+\[
+x-1=x\cdot(1-(1-p)^{n-1})\Rightarrow p=1-\left(\frac{1}{x}\right)^{\frac{1}{n-1}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The chances that 
+\series bold
+someone
+\series default
+ will call the police are:
+\begin_inset Formula 
+\[
+1-\left(\frac{1}{x}\right)^{\frac{n}{n-1}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+which is 
+\begin_inset Formula $1$
+\end_inset
+
+ when 
+\begin_inset Formula $n=1$
+\end_inset
+
+ and converges to 
+\begin_inset Formula $1-\frac{1}{x}$
+\end_inset
+
+ as 
+\begin_inset Formula $n\rightarrow\infty$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection
+Mixed-strategy equilibria interpretation
+\end_layout
+
+\begin_layout Standard
+Mixed strategies can be interpreted in 3 ways:
+\end_layout
+
+\begin_layout Itemize
+A player 
+\series bold
+actually mixing
+\series default
+ from the possible moves
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Uncertainity
+\series default
+ of a player about the other one
+\end_layout
+
+\begin_layout Itemize
+Proportion of a 
+\series bold
+population
+\series default
+ which plays a particular way
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Existence of NE
+\end_layout
+
+\begin_layout Standard
+What makes some predictions more plausible than others? For a prediction
+ to be 
+\series bold
+good
+\series default
+, it has to exist for every game.
+ It can be shown that evey finite game has a NE equilibrium (possibly a
+ mixed one).
+ The proof is made using the Kakutani's fixed point theorem , applied to
+ the best response function of each player.
+\end_layout
+
+\begin_layout Section
+Extensive-Form Games
+\end_layout
+
+\begin_layout Standard
+An alternative way to describe games is by using a tree structure.
+ The game is represented by a tree, a set of players, map of the nodes to
+ players who move on them and a map of paths to their payoffs.
+\end_layout
+
+\begin_layout Standard
+Such form is usually easier than strategic-form game, and the additional
+ information in the tree structure helps selecting among the different NE.
+\end_layout
+
+\begin_layout Subsection
+Backwards Induction
+\end_layout
+
+\begin_layout Standard
+The 
+\begin_inset Quotes eld
+\end_inset
+
+obvious
+\begin_inset Quotes erd
+\end_inset
+
+ solution for finite-length perfect-information games is starting at the
+ end and working backwards.
+ This approach doesn't provide a solution in case of indifference of a player.
+\end_layout
+
+\begin_layout Subsection
+Stackelberg Competition
+\end_layout
+
+\begin_layout Standard
+Suppose 2 firms need to choose quantities with production costs equal zero
+ and demand 
+\begin_inset Formula $P(q_{1},q_{2})=1-q_{1}-q_{2}$
+\end_inset
+
+, and firm 1 plays first.
+ Attempting to maximize its utility, the first firm would choose 
+\begin_inset Formula 
+\[
+q_{1}^{*}=\frac{1}{2}
+\]
+
+\end_inset
+
+ as the second firm will choose 
+\begin_inset Formula $\frac{1-q_{1}}{2}$
+\end_inset
+
+ (maximizing the utility function 
+\begin_inset Formula $q_{2}(1-q_{1}-q_{2})$
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Subsection
+Take-it-or-leave-it
+\end_layout
+
+\begin_layout Standard
+Two players divide $4 in integer units, with the first one proposing a division
+ and the second one accepting or rejecting it (for both).
+\end_layout
+
+\begin_layout Standard
+Player 1 expects player 2 to accept any division, thus it will give player
+ 2 the lowest possible amount.
+ In case 0 can be chosen - there are 2 possible outcomes (player 2 is indifferen
+t).
+\end_layout
+
+\begin_layout Standard
+If the game is continuous, player 2 will accept any positive offer and be
+ indifferent with an offer of zero, which is considered as the solution
+ in such case.
+\end_layout
+
+\begin_layout Standard
+Consider now a situation when the players alternate in making offers, with
+ each period discounted by 
+\begin_inset Formula $\delta$
+\end_inset
+
+ (e.g a 
+\begin_inset Quotes eld
+\end_inset
+
+melting ice-cream
+\begin_inset Quotes erd
+\end_inset
+
+) and the opportunity can disappeat with probability 
+\begin_inset Formula $1-\delta$
+\end_inset
+
+.
+ The person who makes the offer will win, in the second round.
+\end_layout
+
+\begin_layout Subsection
+Zermello's Theorm
+\end_layout
+
+\begin_layout Standard
+Chess game can be described by a finite tree.
+ By applying backwards induction it can be shown that chess, being a perfect-inf
+ormation game, has a winning strategy for the white or the black player.
+\end_layout
+
+\end_body
+\end_document

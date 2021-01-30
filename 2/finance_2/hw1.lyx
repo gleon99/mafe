@@ -1,0 +1,692 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+\usepackage{indentfirst}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2.5cm
+\topmargin 2.5cm
+\rightmargin 2.5cm
+\bottommargin 2.5cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Finance 2 - Homework 1
+\end_layout
+
+\begin_layout Author
+Leonid Genkin, Roman Bar German, Aviel Bernstein
+\end_layout
+
+\begin_layout Section*
+Question 1
+\end_layout
+
+\begin_layout Subsection*
+a.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes eld
+\end_inset
+
+Rain
+\begin_inset Quotes erd
+\end_inset
+
+ has 2 million shares traded for $10 each and no debt, thus its value is
+ 
+\begin_inset Formula $2M\cdot\$10=\$20M$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Both firms pay all their FCF as dividends and the profit of 
+\begin_inset Quotes eld
+\end_inset
+
+Bow
+\begin_inset Quotes erd
+\end_inset
+
+ is twice, thus its equity is 
+\begin_inset Formula $2\cdot\$20M=\$40M$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Adding 
+\begin_inset Formula $\$29M$
+\end_inset
+
+ of debt we conclude that the total value of Bow is:
+\begin_inset Formula 
+\[
+\$29M+\$40M=\$69M
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+b.
+\end_layout
+
+\begin_layout Standard
+According to (a), Bow's stock price should be 
+\begin_inset Formula $\$40M/2M=\$20$
+\end_inset
+
+.
+ If Bow's stock is trading at 
+\begin_inset Formula $\$10$
+\end_inset
+
+ per share, it is 
+\series bold
+underpriced
+\series default
+.
+\end_layout
+
+\begin_layout Subsection*
+c.
+\end_layout
+
+\begin_layout Standard
+The arbitrage opportunity can be exploited by shorting 
+\begin_inset Quotes eld
+\end_inset
+
+Rain
+\begin_inset Quotes erd
+\end_inset
+
+ share, purchasing 
+\begin_inset Quotes eld
+\end_inset
+
+Bow
+\begin_inset Quotes erd
+\end_inset
+
+ share and dividing its cash flows between (1) replicating the cash flows
+ of 
+\begin_inset Quotes eld
+\end_inset
+
+Rain
+\begin_inset Quotes erd
+\end_inset
+
+ for its shareholder and (2) riskless profit.
+\end_layout
+
+\begin_layout Section*
+Question 2
+\end_layout
+
+\begin_layout Standard
+The chosen firm is PepsiCo Inc.
+ (PEP)
+\end_layout
+
+\begin_layout Subsection*
+a.
+\end_layout
+
+\begin_layout Standard
+Total debt is 
+\begin_inset Formula $44.57B$
+\end_inset
+
+, the equity is 
+\begin_inset Formula $13.6B$
+\end_inset
+
+.
+\begin_inset Formula 
+\[
+\frac{D}{E+D}=\frac{44.57}{13.6+44.57}=0.766
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\frac{E}{E+D}=\frac{13.6}{13.6+44.57}=0.234
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Given YTM of 20 year bonds 
+\begin_inset Formula $1.61\%$
+\end_inset
+
+, the firm's beta is 0.57 and 
+\begin_inset Formula $r_{E}=5.05\%$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+The interest expense is 
+\begin_inset Formula $\$1.233B$
+\end_inset
+
+ and the net debt is 
+\begin_inset Formula $\$26.559B$
+\end_inset
+
+, thus the average interest paid is:
+\begin_inset Formula 
+\[
+\frac{1.233}{26.559}=4.643\%
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+WACC=\frac{D}{E+D}r_{D}+\frac{E}{E+D}r_{E}=0.766\cdot4.643\%+0.234\cdot5.05\%=4.738\%
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+b.
+\end_layout
+
+\begin_layout Standard
+The implied tax rate is the tax provision, divided by the pretax income:
+\begin_inset Formula 
+\[
+\frac{1859}{8756}=21.23\%
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The interest tax shield is:
+\begin_inset Formula 
+\[
+r_{D}\cdot D\cdot t_{c}=\$1.223B\cdot21.23\%=\$0.26B
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+Question 3
+\end_layout
+
+\begin_layout Subsection*
+a.
+\end_layout
+
+\begin_layout Standard
+The annual tax shield is:
+\begin_inset Formula 
+\[
+r_{D}\cdot D\cdot t_{c}=6\%\cdot\$100M\cdot40\%=\$2.4M
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+b.
+\end_layout
+
+\begin_layout Standard
+The total present value of the tax shield is:
+\begin_inset Formula 
+\[
+t_{c}\cdot D=\$100M\cdot40\%=\$40M
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+c.
+\end_layout
+
+\begin_layout Standard
+The value of the firm is the sum of its equity and debt, and the present
+ value of the tax shield:
+\begin_inset Formula 
+\[
+\$300M+\$100M+\$40M=\$440M
+\]
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection*
+d.
+\end_layout
+
+\begin_layout Standard
+The annual tax shield is:
+\begin_inset Formula 
+\[
+r_{D}\cdot D\cdot t_{c}=5\%\cdot\$100M\cdot40\%=\$2M
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The total present value of the tax shield and the value of the firm don't
+ change, as they do not depend on 
+\begin_inset Formula $r_{D}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Section*
+Question 4
+\end_layout
+
+\begin_layout Subsection*
+a.
+\end_layout
+
+\begin_layout Standard
+The value of 
+\begin_inset Quotes eld
+\end_inset
+
+Stark
+\begin_inset Quotes erd
+\end_inset
+
+, being an all-equity firm is:
+\begin_inset Formula 
+\[
+V_{U}=\frac{CF\cdot(1-t_{c})}{r_{U}}=\frac{\$120K\cdot60\%}{12\%}=\$0.6M
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+b.
+\end_layout
+
+\begin_layout Standard
+The value of 
+\begin_inset Quotes eld
+\end_inset
+
+Lannister
+\begin_inset Quotes erd
+\end_inset
+
+ is:
+\begin_inset Formula 
+\[
+V_{L}=V_{U}+D\cdot t_{c}=\frac{CF\cdot(1-t_{c})}{r_{U}}+D\cdot t_{c}=\frac{\$240K\cdot60\%}{12\%}+\$500K\cdot40\%
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+=\$1.2M+\$0.2M=\$1.4M
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+c.
+\end_layout
+
+\begin_layout Standard
+The equity of 
+\begin_inset Quotes eld
+\end_inset
+
+Lannister
+\begin_inset Quotes erd
+\end_inset
+
+ is the value minus debt:
+\begin_inset Formula 
+\[
+\$1.4M-\$0.5M=\$0.9M
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Thus the stock price is
+\begin_inset Formula 
+\[
+\$0.9M/1M=\$0.9
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+d.
+\begin_inset Formula 
+\[
+r_{E}=r_{U}+\frac{D}{E}(r_{U}-r_{D})(1-t_{c})=14.33\%
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+e.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+WACC=\frac{\$0.5M}{\$1.4M}\cdot5\%\cdot60\%+\frac{\$0.9M}{\$1.4M}\cdot14.333\%=10.286\%
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+f.
+\end_layout
+
+\begin_layout Standard
+The value with the calculated cost of capital is:
+\begin_inset Formula 
+\[
+V_{L}=\frac{\$0.24M\cdot60\%}{10.286\%}=\$1.4M
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+Question 5
+\end_layout
+
+\begin_layout Subsection*
+a.
+\end_layout
+
+\begin_layout Standard
+The market value of the firm is the share price times outstanding shares
+ number:
+\begin_inset Formula 
+\[
+\$10\cdot20M=\$200M
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+b.
+\end_layout
+
+\begin_layout Standard
+The total value after the announcement is 
+\begin_inset Formula $\$200M+\$100M\cdot35\%=\$235M$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+The new equity value is 
+\begin_inset Formula $\$235M$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection*
+c.
+\end_layout
+
+\begin_layout Standard
+The total value is the sum of the equity and the debt: 
+\begin_inset Formula 
+\[
+\$235M+\$100M=\$335M
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The equity value didn't change from (b).
+\end_layout
+
+\begin_layout Subsection*
+d.
+\end_layout
+
+\begin_layout Standard
+After repurchasing the shares, the value is:
+\begin_inset Formula 
+\[
+\$335M-\$100M=\$235M
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+e.
+\end_layout
+
+\begin_layout Standard
+The new equity value is:
+\begin_inset Formula 
+\[
+\$235M-\$100M=\$135M
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+f.
+\end_layout
+
+\begin_layout Standard
+The new stock price is:
+\begin_inset Formula 
+\[
+\frac{\$235M}{20M}=11.75\$
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+g.
+\end_layout
+
+\begin_layout Standard
+The firm repurchased 
+\begin_inset Formula $\frac{\$100M}{\$11.75}=8.51M$
+\end_inset
+
+ shares.
+\end_layout
+
+\begin_layout Section*
+Question 6
+\end_layout
+
+\begin_layout Subsection*
+a.
+\end_layout
+
+\begin_layout Standard
+The present value of the interest tax shield form the new debt is:
+\begin_inset Formula 
+\[
+\$100M\cdot35\%=\$35M
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+b.
+\end_layout
+
+\begin_layout Standard
+The value of the interest tax shield is:
+\begin_inset Formula 
+\[
+\left[1-\frac{(1-35\%)(1-20\%)}{1-40\%}\right]\cdot\$100M=13.33\%\cdot\$100M=\$13.33M
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
