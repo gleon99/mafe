@@ -1,0 +1,783 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+\usepackage{indentfirst}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2.5cm
+\topmargin 2.5cm
+\rightmargin 2.5cm
+\bottommargin 2.5cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Econometrics 2 - Lecture 5
+\end_layout
+
+\begin_layout Author
+Leonid Genkin
+\end_layout
+
+\begin_layout Section
+Time Series Analysis - Continued
+\end_layout
+
+\begin_layout Subsection
+Violation of the strict exogeneity assumption
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Zero conditional mean
+\series default
+ requires 
+\begin_inset Formula $U_{t}$
+\end_inset
+
+ to be 
+\series bold
+uncorrelated
+\series default
+ with 
+\series bold
+each
+\series default
+ explanatory variable in 
+\series bold
+every
+\series default
+ time period - only then the OLS estimators are unbiased.
+\end_layout
+
+\begin_layout Standard
+This assumption can fail for several reasons: a correlated omitted variable,
+ a measurement error, lagged dependent variables or a feedback from 
+\begin_inset Formula $Y_{t}$
+\end_inset
+
+ to future values of explanatory variables (strictly exogenous variables
+ can't react).
+\end_layout
+
+\begin_layout Subsection
+Asymptotic Properties
+\end_layout
+
+\begin_layout Enumerate
+Linearity and weak dependence of the data (the model is 
+\series bold
+linear
+\series default
+ in parameters and is 
+\series bold
+stationary
+\series default
+ and weakly dependent).
+\end_layout
+
+\begin_layout Enumerate
+Feasibility of the estimation
+\end_layout
+
+\begin_layout Enumerate
+Zero-conditional mean (contemporaneous exogeneity).
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The TS is 
+\series bold
+stationary
+\series default
+, iff 
+\begin_inset Formula $\{X_{t}:t=1,2,\ldots\}$
+\end_inset
+
+ for every collection of time indices 
+\begin_inset Formula $1\leq t_{1}<\cdot<t_{m}$
+\end_inset
+
+, the joint distribution of 
+\begin_inset Formula $(X_{t_{1}},\ldots,X_{t_{m}})$
+\end_inset
+
+ is the same as that of 
+\begin_inset Formula $(X_{t_{1}+h},\ldots X_{t_{m}+h})$
+\end_inset
+
+ for every 
+\begin_inset Formula $h\geq1$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Two common examples of weakly dependent TS:
+\end_layout
+
+\begin_layout Itemize
+A moving average 
+\begin_inset Formula $X_{t}=\lambda_{t}+\alpha_{1}\lambda_{t-1}$
+\end_inset
+
+ where 
+\begin_inset Formula $\lambda_{t}$
+\end_inset
+
+ are i.i.d (
+\begin_inset Formula $E[\lambda_{t}]=0$
+\end_inset
+
+).
+ Then 
+\begin_inset Formula $X_{t+1}=\lambda_{t+1}+\alpha_{1}\lambda_{t}$
+\end_inset
+
+ thus:
+\begin_inset Formula 
+\[
+Cov(X_{t},X_{t+1})=Cov(\lambda_{t}+\alpha_{1}\lambda_{t-1},\lambda_{t+1}+\alpha_{1}\lambda_{t})=\alpha_{1}Var(\lambda_{t})=\alpha_{1}\sigma_{\lambda}^{2}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+Var(X_{t})=Var(\lambda_{t}+\alpha_{1}\lambda_{t-1})=Var(\lambda_{t})+\alpha_{1}^{2}Var(\lambda_{t-1})+\alpha_{1}Cov(\lambda_{t},\lambda_{t-1})
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+Corr(X_{t},X_{t+1})=\frac{Cov(X_{t},X_{t+1})}{\sqrt{Vxr(X_{t})}\cdot\sqrt{Cat(X_{t+1})}}=
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+=\frac{\alpha_{1}\cdot\sigma_{\lambda}^{2}}{\sqrt{(1+\alpha_{1}^{2})\sigma_{\lambda^{2}}}\cdot\sqrt{(1+\alpha_{1}^{2})\sigma_{\lambda}^{2}}}=\frac{\alpha_{1}}{1+\alpha_{1}^{2}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+For example, 
+\begin_inset Formula $\alpha_{1}=1\Rightarrow0.5$
+\end_inset
+
+, 
+\begin_inset Formula $\alpha_{1}=0.5\Rightarrow0.4$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+An AR(1) process:
+\begin_inset Formula 
+\[
+Y_{t}=\rho_{1}\cdot Y_{t-1}+\lambda_{t}
+\]
+
+\end_inset
+
+with 
+\begin_inset Formula $|\rho_{1}|<1$
+\end_inset
+
+ is a stablte AR(1) process, leading to 
+\begin_inset Formula $Corr(Y_{t},Y_{t+h})=\rho_{1}^{h}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Highly Persistent TS
+\end_layout
+
+\begin_layout Standard
+Some TS are 
+\series bold
+not
+\series default
+ weakly dependent, for example TS that follow a unit root process (
+\begin_inset Formula $AR(1)$
+\end_inset
+
+ with 
+\begin_inset Formula $\rho_{1}=1$
+\end_inset
+
+):
+\end_layout
+
+\begin_layout Itemize
+A random walk (interest/inflation/unemployment rates): 
+\begin_inset Formula $Y_{t}=Y_{t-1}+\lambda_{t}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+A random walk with drift: 
+\begin_inset Formula $Y_{t}=\alpha_{0}+Y_{t-1}+\lambda_{t}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The usual inference rules are not valid, and the TS need to be 
+\series bold
+transformed
+\series default
+.
+\end_layout
+
+\begin_layout Standard
+Unit root processes are 
+\series bold
+difference-stationary
+\series default
+.
+ The first difference is 
+\series bold
+weakly dependent
+\series default
+.
+ Then:
+\begin_inset Formula 
+\[
+\Delta Y_{t}=\beta_{0}+\beta_{1}\Delta X_{t,1}+\cdots+\beta_{p}\Delta X_{t,p}+U_{t},\,\,t=1,\ldots,n
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+It also removes linear time trend and most of the serial correlation.
+\end_layout
+
+\begin_layout Standard
+In order to determine, whether a TS is an outcome of 
+\begin_inset Formula $I(1)$
+\end_inset
+
+ or 
+\begin_inset Formula $I(0)$
+\end_inset
+
+ process, one can use 
+\series bold
+formal tests
+\series default
+ (beyond the scope) or
+\series bold
+ informal tests
+\series default
+: for each 
+\begin_inset Formula $\{(Y_{t},X_{t,1},\ldots,X_{t,p}):\,\,t=1,2,\ldots\}$
+\end_inset
+
+ estimate an 
+\begin_inset Formula $AR(1)$
+\end_inset
+
+ model:
+\begin_inset Formula 
+\[
+Y_{t}=\alpha_{0}+\rho_{1}Y_{t-1}+\lambda_{t}
+\]
+
+\end_inset
+
+ to get 
+\begin_inset Formula $\hat{\rho}_{1}$
+\end_inset
+
+.
+ If 
+\begin_inset Formula $\hat{\rho}_{1}>0\,and\,sig.$
+\end_inset
+
+, first differencing is warranted.
+\end_layout
+
+\begin_layout Subsection
+Serial Correlation
+\end_layout
+
+\begin_layout Standard
+When there is a serial correlation in the errors, the OLS SE and the 
+\begin_inset Formula $t$
+\end_inset
+
+, 
+\begin_inset Formula $F$
+\end_inset
+
+ and the 
+\begin_inset Formula $\chi^{2}$
+\end_inset
+
+ statistics are 
+\series bold
+invlalid
+\series default
+.
+ Goodness-of-fit measures are valid, provided the data are stationary and
+ weakly dependent.
+ The 
+\begin_inset Formula $\hat{\beta}_{j}$
+\end_inset
+
+ estimators are unbiased / consistent if strict exogeneity / stationarity
+ & weak dependence hold.
+\end_layout
+
+\begin_layout Standard
+In order to test for serial correlation, assuming strict exogeneity, there
+ are:
+\end_layout
+
+\begin_layout Itemize
+The 
+\begin_inset Formula $t$
+\end_inset
+
+- test for 
+\begin_inset Formula $\rho_{1}$
+\end_inset
+
+ from 
+\begin_inset Formula $\hat{U}_{t}=\alpha_{0}+\rho_{1}\cdot\hat{U}_{t-1}+\lambda_{t},\,\,t=2,\ldots,T$
+\end_inset
+
+.
+ It is 
+\series bold
+invalid
+\series default
+ without strict exogeneity.
+\end_layout
+
+\begin_layout Itemize
+The Durbin-Watson test
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+For 
+\series bold
+any
+\series default
+ variables (even without exogeneity):
+\end_layout
+
+\begin_layout Itemize
+Test for 
+\begin_inset Formula $AR(1)$
+\end_inset
+
+: 
+\begin_inset Formula $t$
+\end_inset
+
+- test (which takes into accoutn the possibility of a feedback effect) for
+ 
+\begin_inset Formula $\rho_{1}$
+\end_inset
+
+ from
+\begin_inset Formula 
+\[
+\hat{U}_{t}=\alpha_{0}+\alpha_{1}\cdot X_{t,1}+\cdots+\alpha_{p}\cdot X_{t,p}+\rho_{1}\cdot\hat{U}_{t-1}+\lambda_{t},\,\,t=2,\ldots,T
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Test for 
+\begin_inset Formula $AR(2)$
+\end_inset
+
+: 
+\begin_inset Formula $F-$
+\end_inset
+
+ or 
+\begin_inset Formula $\chi_{2}^{2}$
+\end_inset
+
+-test for joint significance from
+\begin_inset Formula 
+\[
+\hat{U}_{t}=\alpha_{0}+\alpha_{1}\cdot X_{t,1}+\cdots+\alpha_{p}\cdot X_{t,p}+\rho_{1}\cdot\hat{U}_{t-1}+\rho_{2}\cdot\hat{U}_{t-2}+\lambda_{t},\,\,t=3,\ldots,T
+\]
+
+\end_inset
+
+they can be made robust to heteroskedasticity.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+HAC
+\end_layout
+
+\begin_layout Standard
+The serial correlation problem can be worse than heteroskedasticity, because
+ autocorrelation-robust S.E.s are also robust to heteroskedasticity, while
+ the oppositve is not true.
+ When there is a serial correlation, HAC (heteroskedasticity and autocorrelation
+ consistent) S.E.s must be used
+\begin_inset Formula 
+\[
+Var(\hat{\beta}|X)=(X^{T}X)^{-1}X^{T}Var(U|X)X(X^{T}X)^{-1}=
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+=\left(\frac{1}{n}X^{T}X\right)^{-1}\frac{1}{n}\cdot\frac{1}{n}X^{T}Var(U|X)X\left(\frac{1}{n}X^{T}X\right)^{-1}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\hat{\Phi}=\frac{1}{n}\sum_{i,j=1}^{n}\omega_{|i-j|}\hat{V}_{i}\hat{V}_{j}^{T}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+where
+\begin_inset Formula 
+\[
+\hat{V}_{i}=X_{i}\hat{U}_{i}=X_{i}(Y_{i}-X_{i}^{T}\hat{\beta})
+\]
+
+\end_inset
+
+ is a 
+\begin_inset Formula $(p+1)\times1$
+\end_inset
+
+ vector of scores, and 
+\begin_inset Formula 
+\[
+\omega_{|i-j|}=\omega_{l}\in\{\omega_{0},\ldots,\omega_{n-1}\}
+\]
+
+\end_inset
+
+ is a 
+\begin_inset Formula $n\times1$
+\end_inset
+
+ vectors of 
+\series bold
+weights
+\series default
+, which decrease as lag increases.
+ Then, 
+\begin_inset Formula $\hat{Var}(\hat{\beta}|X)_{HAC}$
+\end_inset
+
+ is computed by plugging 
+\begin_inset Formula $\Phi$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+There are various vectors of weights 
+\begin_inset Formula $\omega_{l}$
+\end_inset
+
+.
+ The most common approach in finance is the Newey and West (linearly decaying
+ weights).
+ Andrews method can be used when there is a large sample, in order to achieve
+ better randomization.
+\end_layout
+
+\begin_layout Standard
+HAC S.E.s can be obtained by the 
+\begin_inset Formula $vcovHAC()$
+\end_inset
+
+ function in the 
+\series bold
+sandwich
+\series default
+ package.
+ 
+\begin_inset Formula $coefci()$
+\end_inset
+
+ from 
+\begin_inset Formula $lmtest$
+\end_inset
+
+ can be used for interval estimates, and 
+\begin_inset Formula $coeftest()$
+\end_inset
+
+ and 
+\begin_inset Formula $linearHypothesis()$
+\end_inset
+
+ from 
+\begin_inset Formula $lmtest$
+\end_inset
+
+ and 
+\begin_inset Formula $car$
+\end_inset
+
+ are used for hypotheses tests.
+\end_layout
+
+\begin_layout Section
+Assessment of Normality and the Boostrap Approach
+\end_layout
+
+\begin_layout Subsection
+The Classical Approach
+\end_layout
+
+\begin_layout Standard
+In order to motivate the ideas of this module, we first need to look at
+ the classical approach and its restrictions.
+ Under the classical approach, either normality or a large sample must be
+ assumed.
+ Then, exact (or asymptotic) p.d.f.s are used in order to construct interval
+ estimators or to perform hypothesis testing.
+\end_layout
+
+\begin_layout Standard
+In many cases, normality does not exist or a large enough sample is not
+ available.
+ Also, sometimes estimates of complex constructs are needed (e.g 
+\begin_inset Formula $\frac{\beta_{1}}{\beta_{2}}$
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Standard
+Instead of assuming normality, relying on large samples or restricting analysis
+ to 
+\begin_inset Quotes eld
+\end_inset
+
+easy to analyze estimators
+\begin_inset Quotes erd
+\end_inset
+
+, it is possible to find the sampling distribution of a 
+\series bold
+consistent
+\series default
+ esitmator for any parameter (the bootstrap sampling algorithm) and use
+ it.
+\end_layout
+
+\begin_layout Subsection
+Assessment of Normality
+\end_layout
+
+\begin_layout Itemize
+A consistent estimator for the skewness:
+\begin_inset Formula 
+\[
+\hat{\gamma}(X)=\frac{\sum_{i=1}^{n}(X_{i}-\bar{X})^{3}/n}{S_{X}^{3}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+If 
+\begin_inset Formula $X\sim N(\cdot)$
+\end_inset
+
+, 
+\begin_inset Formula $\hat{\gamma}(X)\rightarrow0$
+\end_inset
+
+ (if there is normal distribution, there is now skewness).
+\end_layout
+
+\begin_layout Itemize
+A consistent estimator for the kurtosis:
+\begin_inset Formula 
+\[
+\hat{k}(X)=\frac{\sum_{i=1}^{n}(X_{i}-\bar{X})^{4}/n}{S_{X}^{3}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+If 
+\begin_inset Formula $X\sim N(\cdot)$
+\end_inset
+
+, 
+\begin_inset Formula $\hat{\gamma}(X)\rightarrow3$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+For example, in order to consturct the best portfolio, we would like to
+ have negative skewness and the lest kurtosis.
+\end_layout
+
+\end_body
+\end_document

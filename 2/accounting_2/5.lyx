@@ -1,0 +1,418 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+\usepackage{indentfirst}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2.5cm
+\topmargin 2.5cm
+\rightmargin 2.5cm
+\bottommargin 2.5cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Financial Accounting 2 - Lecture 5
+\end_layout
+
+\begin_layout Author
+Leonid Genkin
+\end_layout
+
+\begin_layout Section
+Inventory & COGS - Continued
+\end_layout
+
+\begin_layout Subsection
+Analyzing Errors
+\end_layout
+
+\begin_layout Standard
+Consdier the following situation: a firm underestimated the ending inventory
+ by $5000.
+ COGS is then -$5000, thus the NI is +$5000.
+\end_layout
+
+\begin_layout Standard
+At the beginning of year 2, the inventory is -$5000 and the dneing inventory
+ is overestimated by +$3000 - hte NI is overestimated by +$8000.
+\end_layout
+
+\begin_layout Standard
+Another way to look at it: at the end of year 2, assets are overestimated
+ by $3000, thus the retained earnings must be overestimated by the same
+ number.
+ As they were underestimated by 5000$ at the end of year 1, the difference
+ is +$8000.
+\end_layout
+
+\begin_layout Subsection
+Summary
+\end_layout
+
+\begin_layout Standard
+When comparing inventories it is important to verify firms use the same
+ policy for inventory accounting, otherwise it would not be comapring 
+\begin_inset Quotes eld
+\end_inset
+
+apples to apples
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Section
+Long Lived Assets
+\end_layout
+
+\begin_layout Standard
+Long lived assets consist of:
+\end_layout
+
+\begin_layout Itemize
+Tangible assets - have physical reality or substance (PP&E, vehicles)
+\end_layout
+
+\begin_layout Itemize
+Intangible assets - lack physical substance and derive their value frmo
+ intellectual property rights
+\end_layout
+
+\begin_layout Itemize
+Financial assets (investments)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Capitalize vs.
+ Expense
+\end_layout
+
+\begin_layout Standard
+When we 
+\begin_inset Quotes eld
+\end_inset
+
+expense
+\begin_inset Quotes erd
+\end_inset
+
+ something, the meaning is that it goes right to the I/S.
+ In decreases the net income.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes eld
+\end_inset
+
+Capitalizing
+\begin_inset Quotes erd
+\end_inset
+
+ something means adding it to the B/S.
+ It increases an asset, and is done when the paid cost owuld provide future
+ benefits.
+\end_layout
+
+\begin_layout Standard
+The general rule is that the costs to acquire and prepare the asset are
+ capitalized.
+ Costs which are not necessary (e.g interest expense) should not be added.
+\end_layout
+
+\begin_layout Standard
+Consider an example with a firm which purchases land for $10M to replace
+ its office building.
+ The land includes an old building.
+ A loan is taken, which values land at $9.5M and the building at $0.5M.
+\end_layout
+
+\begin_layout Standard
+The firm removes the old building, by paying $0.1M to a construciton company.
+ A $10.1M asset will appear on the B/S, because the cost of 
+\begin_inset Quotes eld
+\end_inset
+
+getting an empty lot
+\begin_inset Quotes erd
+\end_inset
+
+ is $10M + $0.1M.
+ Another way to look at it is that the seller would have asked $10.1M for
+ the empty lot (
+\begin_inset Quotes eld
+\end_inset
+
+the value is 
+\series bold
+for the buyer
+\series default
+
+\begin_inset Quotes erd
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Standard
+It is important to separate land and buildings, because buildings are depreciate
+d, unlike land (thouth land imprvements are depreciated).
+\end_layout
+
+\begin_layout Standard
+When there is an expenditure during the life of a fixed assets, a questiong
+ arises of whether to capitalize it.
+ Only improvements need to be capitalized, while repairs and maintenance
+ costs are expenses.
+\end_layout
+
+\begin_layout Standard
+In order to classify as an improvement, the expected useful life/output/quality
+ of the asset must improve, or future operating costs decrease
+\end_layout
+
+\begin_layout Subsection
+Depreciation (Cost Allocation)
+\end_layout
+
+\begin_layout Standard
+Depreciation is essentially a process of 
+\series bold
+allocating cost
+\series default
+ (and not valuation).
+\end_layout
+
+\begin_layout Standard
+The assets are used over time, in order to make revenues.
+ Those, an equivalent cost must appear on the I/S.
+ Depreciation decreases the carrying value of the asset.
+ For tangible / intangible assets / natural resources, 
+\begin_inset Quotes eld
+\end_inset
+
+depreciation
+\begin_inset Quotes erd
+\end_inset
+
+ / 
+\begin_inset Quotes eld
+\end_inset
+
+amortization
+\begin_inset Quotes erd
+\end_inset
+
+ / 
+\begin_inset Quotes eld
+\end_inset
+
+depletion
+\begin_inset Quotes erd
+\end_inset
+
+ are used.
+\end_layout
+
+\begin_layout Standard
+A depreciation AJE is done by debiting exense and crediting 
+\begin_inset Quotes eld
+\end_inset
+
+accumulated depreciation
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+The B/S presents the assets net of the accumulated depreciation.
+\end_layout
+
+\begin_layout Standard
+Consider 2 firms is the same industry, each has net assets of $27K, with
+ firm A having gross assets of $47K and firm B - $500K.
+ Firm B is larger and is older.
+ Firm B is probably close to investing in new assets (e.g 
+\begin_inset Quotes eld
+\end_inset
+
+El Al
+\begin_inset Quotes erd
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Standard
+Accumulated depreciation is subjective, and different companies can calculate
+ it differently.
+\end_layout
+
+\begin_layout Subsection
+Depreciation Methods
+\end_layout
+
+\begin_layout Standard
+Companies need to decide, which method (or their combination) to use.
+\end_layout
+
+\begin_layout Standard
+In addition to choosing the method, an assumption is to be made about the
+ residual (salvage) value of the asset - the amount it can be sold for at
+ the end of its useful life.
+ The depreciable value is the difference between the acquisition cost and
+ the estimated residual value.
+\end_layout
+
+\begin_layout Standard
+It is important that all depreciation techniques must yield the same residual
+ value at the end (otherwise the value would depend on the method, which
+ is impossible).
+\end_layout
+
+\begin_layout Standard
+The most popular methods are:
+\end_layout
+
+\begin_layout Itemize
+Straight-line depreciation - spread the depreciable value equally over the
+ useful life.
+ This method is very simple, unbiased, doesn't require assumptions and provides
+ forecast of the depreciation.
+ The disadvantage is missing the matching between the revenues and expenses.
+\end_layout
+
+\begin_layout Itemize
+Depreciation based on activity/units - better match the depreciation expense
+ to the revenues.
+ A depreciation rate per unit is determined, then multipled by actual usage.
+\end_layout
+
+\begin_layout Itemize
+Accelerated depreciation - writing off costs quicker than the straight-line
+ method.
+ Double-declining balance is its most popular way (doubling the straight-line
+ method, then multiplying by the beginning book value).
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Changes in Estimates
+\end_layout
+
+\begin_layout Standard
+The estimate used for depreciation calculations might change as time the
+ asset it used.
+ In such case, the change affects only future calculations (no retroactive
+ adjustment).
+ For example, extending the asset useful life decreases the depreciation
+ expense.
+ It should be asked, whether there is a real reason for this change (or
+ is it an earnings management).
+\end_layout
+
+\begin_layout Subsection
+Intangible Assets
+\end_layout
+
+\begin_layout Standard
+They are characterized by a lack of physical evidence and high uncertainity
+ regarding future benefits (which is a bigger issue).
+\end_layout
+
+\begin_layout Standard
+Their cost is amortized over the useful/legal life/40 years (whichever is
+ lower).
+\end_layout
+
+\end_body
+\end_document
