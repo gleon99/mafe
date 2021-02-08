@@ -1,0 +1,641 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+\usepackage{indentfirst}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2.5cm
+\topmargin 2.5cm
+\rightmargin 2.5cm
+\bottommargin 2.5cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Finance 2 - Lecture 5
+\end_layout
+
+\begin_layout Author
+Leonid Genkin
+\end_layout
+
+\begin_layout Section
+Problem Set 2 Solution
+\end_layout
+
+\begin_layout Subsection
+Question 2
+\end_layout
+
+\begin_layout Subsubsection*
+a.
+\end_layout
+
+\begin_layout Standard
+The maximum amount that debtholders can receive is 
+\begin_inset Formula $200-40=160$
+\end_inset
+
+ and they claim it.
+\end_layout
+
+\begin_layout Subsubsection*
+b.
+\end_layout
+
+\begin_layout Standard
+The market value of the equity is 200.
+ 
+\begin_inset Formula $80\%$
+\end_inset
+
+ of it goes to the original debtholders and 
+\begin_inset Formula $20\%$
+\end_inset
+
+ goes to the equity holders.
+\end_layout
+
+\begin_layout Subsubsection*
+c.
+\end_layout
+
+\begin_layout Standard
+The management have 
+\series bold
+no motivation
+\series default
+ to reduct bankruptcy costs, because then they will have to give debtholders
+ 90% of the firm
+\end_layout
+
+\begin_layout Subsubsection*
+d.
+\end_layout
+
+\begin_layout Standard
+The new value is 
+\begin_inset Formula $220$
+\end_inset
+
+, and the fraction is 
+\begin_inset Formula $\frac{180}{220}=81\%$
+\end_inset
+
+.
+ The shareholders have motivation to do it, ecause they now get more equity.
+\end_layout
+
+\begin_layout Section
+Equity Policy and Asymmetric Information
+\end_layout
+
+\begin_layout Subsection
+Raising Equity Capital
+\end_layout
+
+\begin_layout Standard
+Looking at the number of businesses in the U.S.
+ 71% of them are sole proprietorships, but by revenue - 84% are corporations.
+\end_layout
+
+\begin_layout Standard
+A business generally starts with the enterpreneurs' money (friends, family
+ etc).
+ Upon success, a company must seek other sources of capital.
+ For private firms the options are:
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Angel Investors
+\series default
+: individual investors who buy equity in small amount (~$200K).
+ They enter in the first seed.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Venture Capital Firm (VC)
+\series default
+: A limited partnership which invests in young firms, demanding a substantial
+ control (~1/3 of the seats in the board of directors).
+ A VC firm won't invest at once, bu rather in rounds.
+ They are usually a group of people with a lot of knowledge and connections
+ that can (usually) be trusted.
+ A successful VC would have ~10% success rate.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Private Equity Firms
+\series default
+: firms with a lot of money, which invest in order to 
+\begin_inset Quotes eld
+\end_inset
+
+take out
+\begin_inset Quotes erd
+\end_inset
+
+ the firm by buying the whole equity (LBO).
+ They are larger than VC and more focused on specific firms.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Institutional Investors
+\series default
+: pension funds, insurance companies, etc.
+ They may invest directly, or by becoming limited partners in VCs.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Corporate Investors
+\series default
+: they might invest not only for the financial return, but for corporate
+ strategic objectives (e.g Google, Facebook, etc).
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Outside sources usually provide capital in the following way:
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Preferred Stock
+\series default
+: is more related to bonds, as it gives a particular promise of a periodic
+ dividend.
+ The dividend is accumulated, and in case of dividends distribution (at
+ the end of the year) they have precedence over all other shareholders.
+ Upon liquidation they are the first in line (before other shareholders).
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Convertible Preferred Stock
+\series default
+: issued by young companies, with seniority in liquidation, but usually
+ without dividends.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Initial Public Offering
+\end_layout
+
+\begin_layout Standard
+IPO is the process of selling stock to the public for the first time.
+ After it, the firm's scotks are publibly traded.
+\end_layout
+
+\begin_layout Standard
+The reasons for the IPO are:
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Life-cycle
+\series default
+: firms need money to grow and expand, and by going public there is better
+ access to capital.
+ The VC and founding owners might cash out, and the firm retains control
+ after their exit.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Valuation
+\series default
+: firms benefit from market scrutiny (analysts, auditors).
+ One of the problems with private firms is that we do not know whether the
+ numbers they show are accurate.
+ With public firms there is more confidence.
+ The capital cost is reduced, as stocks are more liquid (investors require
+ lower cost of capital).
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Market timing
+\series default
+: equity is issued when market valuations are high - 
+\begin_inset Quotes eld
+\end_inset
+
+windows of opportunity
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+There are also costs of going public:
+\end_layout
+
+\begin_layout Itemize
+Direct costs: transaction costs - legal, accounting, fees.
+ 
+\end_layout
+
+\begin_layout Itemize
+Indirect costs:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Management time
+\end_layout
+
+\begin_layout Itemize
+Information disclosure (business plan, opportunities, financial data
+\end_layout
+
+\begin_layout Itemize
+Regular examination by the SEC
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Quotes eld
+\end_inset
+
+Leaving money on the table
+\begin_inset Quotes erd
+\end_inset
+
+ (underpricing)
+\end_layout
+
+\begin_layout Itemize
+The equity holders are more dispersed (monitoring management is more difficult).
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+The Underwriter
+\end_layout
+
+\begin_layout Standard
+The underwriter is an investment bank that manages the IPO.
+ In many cases it is also the market maker after the issue.
+\end_layout
+
+\begin_layout Subsubsection
+IPO Mechanism
+\end_layout
+
+\begin_layout Standard
+The final prospectus contains the details of the offering (shares offered,
+ offer price).
+ The spread between the market price of the share and the price the company
+ sells it to the underwriter is the spread (the profit of the underwriter).
+\end_layout
+
+\begin_layout Standard
+The valuation process consists of:
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Preliminary valuation
+\series default
+: the underwriter evaluates and comes up with a price range.
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Road Show
+\series default
+: senior management and the underwriters promote the company and explain
+ the rationale (mainly institutional investors).
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Book Building
+\series default
+: determining the offer price by asking 
+\begin_inset Quotes eld
+\end_inset
+
+if the price was X, how many stock would you buy?
+\begin_inset Quotes erd
+\end_inset
+
+ The underwriter and the firm decide on the price according to it.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Pricing and Risk Management
+\end_layout
+
+\begin_layout Standard
+The 
+\series bold
+spread
+\series default
+ is a fee paid by the firm to its underwriter (percentage of the issue price).
+\end_layout
+
+\begin_layout Standard
+The underwriter 
+\series bold
+guarantees
+\series default
+ to the company that it will buy all shares, which is a significant risk
+ (it might have to sell them at less than the offer price).
+\end_layout
+
+\begin_layout Standard
+The underwriter usually has an option of issuing additional shares at the
+ IPO price.
+\end_layout
+
+\begin_layout Subsubsection
+After the IPO
+\end_layout
+
+\begin_layout Standard
+The stocks are freely traded in the market.
+ Underwriter usually serves as a market maker, in order to increase the
+ liquidity of the stock (for ~1 year, until the company hires one).
+\end_layout
+
+\begin_layout Standard
+A 
+\series bold
+lockup period
+\series default
+ is a restriction that prevents existing shareholders from seling their
+ shares after an IPO.
+\end_layout
+
+\begin_layout Subsection
+IPO Puzzles
+\end_layout
+
+\begin_layout Subsubsection
+Underpricing
+\end_layout
+
+\begin_layout Standard
+Generally, on the first day after the IPO the price is going up (average
+ of 18%).
+ First-day returns are usually positive, and in many cases are above 50%.
+\end_layout
+
+\begin_layout Standard
+One of the reasons is asymmetric information.
+ Consider, for example, an IPO with 1 million outstanding shares.
+ The founder wishes to sell 75% of the equity, there are 1.5 million investors
+ with imilted wealth such that each one of them is able to buy only a single
+ share.
+ The allocation will be determined by the cumulative demand.
+\end_layout
+
+\begin_layout Standard
+If the market estimate the value of the firm to be $100M ot $200M with 50%
+ probability, the value will be $150M.
+\end_layout
+
+\begin_layout Standard
+In case of symmetric information (all investors have the same information
+ regarding the firm's value), every investor is willing to pay $150 per
+ share.
+ If the firm offers shares at $150, as there are 1.5 million investors competing
+ on 750,000 shares - the probability to participate in the IPO is 50%.
+\end_layout
+
+\begin_layout Standard
+In a scenario of asymmetric information (assume 500000 investors know the
+ true value of the firm), the issue price cannot be $150.
+ If it was $150, the informed investors would participate only if the true
+ value was $200M.
+ The uninformed investors particiapte as well, which leads to total demand
+ of 1.5 million shares, and the probability of participating is again 50%.
+ If the true value is $100 million, the informed investors won't participate,
+ the total demanl will be 1 million and the probability of participating
+ will be 75%.
+\end_layout
+
+\begin_layout Standard
+The expected profit of the uninformed investors is:
+\begin_inset Formula 
+\[
+0.5\cdot50\%\cdot(200-150)+0.5\cdot75\%\cdot(100-150)=-6.25
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Thus, on average the uninformed investors lose in the IPO (
+\begin_inset Quotes eld
+\end_inset
+
+the winner's curse
+\begin_inset Quotes erd
+\end_inset
+
+), and in order to make them participate in the IPO, the firm must set the
+ price below $150.
+\end_layout
+
+\begin_layout Standard
+The uninformed investors will participate when the expected profit is 0:
+\begin_inset Formula 
+\[
+0.5\cdot50\%\cdot(200-P_{IPO})+0.5\cdot75\%\cdot(100-P_{IPO})=-6.25\Rightarrow P_{IPO}=140
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The informed investors benefit from this phenomena, and the pre-IPO shreholders
+ lose from it.
+\end_layout
+
+\begin_layout Standard
+In the Israeli market this model indeed exists.
+\end_layout
+
+\begin_layout Standard
+There are several reasons for underpricing:
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Asymmetric information
+\series default
+: need to induce the uninformed investors to participate.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Underwriters
+\series default
+: they benefit from underpricing.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Litigation avoidance
+\series default
+: firms might get sued for not pricing correctly (someone might find something
+ which is not accurate enough).
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+The herding phenomena
+\series default
+: if investors estimate a strong/weak demand, they participate/avoid the
+ IPO, which leads to uversubscription/undersubscription.
+ Firms try to produce artificial herding.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_body
+\end_document

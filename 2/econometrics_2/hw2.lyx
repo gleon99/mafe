@@ -1,0 +1,595 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+\usepackage{indentfirst}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2.5cm
+\topmargin 2.5cm
+\rightmargin 2.5cm
+\bottommargin 2.5cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Econometrics 2 - Homework 2
+\end_layout
+
+\begin_layout Author
+Leonid Genkin
+\end_layout
+
+\begin_layout Section*
+Question 1
+\end_layout
+
+\begin_layout Subsection*
+(ii)
+\end_layout
+
+\begin_layout Standard
+The model summary is:
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Graphics
+	filename hw2q1p2.jpg
+	scale 70
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+1.
+\end_layout
+
+\begin_layout Standard
+The impact multipler of 
+\begin_inset Formula $PE$
+\end_inset
+
+ is 
+\begin_inset Formula $-0.016$
+\end_inset
+
+.
+ Testing with 5% level we get 
+\begin_inset Formula $Pr(>F)=0.94>0.05$
+\end_inset
+
+ thus the hypothesis can't be rejected, and the multiplier is insignificant.
+\end_layout
+
+\begin_layout Subsubsection*
+2.
+\end_layout
+
+\begin_layout Standard
+The estimated effect is -0.021.
+ It is not significantly different from 0.
+\end_layout
+
+\begin_layout Subsubsection*
+3.
+\end_layout
+
+\begin_layout Standard
+The MPL is 0.0167, which is not significantly different from 0.
+\end_layout
+
+\begin_layout Subsection*
+(iii)
+\end_layout
+
+\begin_layout Standard
+A 2-sided 95% interval estimate for the LPM is: 
+\begin_inset Formula $(-0.577,0.0911)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection*
+(iv)
+\end_layout
+
+\begin_layout Subsubsection*
+1.
+\end_layout
+
+\begin_layout Standard
+The models are:
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Graphics
+	filename hw2q1p4.jpg
+	scale 70
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+We learn that the PE estimate is now much more statisticlly significant.
+\end_layout
+
+\begin_layout Subsubsection*
+2.
+\end_layout
+
+\begin_layout Standard
+Based on the above, the last model (quadtratic time trend) provides the
+ best explanation of the variations in GFR.
+ 
+\begin_inset Formula $t$
+\end_inset
+
+, 
+\begin_inset Formula $t^{2}$
+\end_inset
+
+ and 
+\begin_inset Formula $PE$
+\end_inset
+
+ have the highest statistical significance in it, compared to other models.
+ As 
+\begin_inset Formula $\beta_{4}<0$
+\end_inset
+
+ and 
+\begin_inset Formula $\beta_{5}>0$
+\end_inset
+
+, the time trend has a 
+\begin_inset Quotes eld
+\end_inset
+
+hump
+\begin_inset Quotes erd
+\end_inset
+
+ shape.
+\end_layout
+
+\begin_layout Subsubsection*
+3.
+\end_layout
+
+\begin_layout Standard
+The 
+\begin_inset Formula $R^{2}$
+\end_inset
+
+ value provided by the 
+\begin_inset Formula $summary()$
+\end_inset
+
+ method is 0.706, which is misleadingly high.
+ An appropriate value is obtained by detrending and regressing the detrended
+ variable.
+ The result is 0.57, which is more realistic.
+\end_layout
+
+\begin_layout Section*
+Question 2
+\end_layout
+
+\begin_layout Subsection*
+(i)
+\end_layout
+
+\begin_layout Standard
+The belt law took effect on January 1986.
+\end_layout
+
+\begin_layout Standard
+The speed law is in effect starting May 1987.
+\end_layout
+
+\begin_layout Subsection*
+(ii)
+\end_layout
+
+\begin_layout Standard
+The summary of the model is:
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Graphics
+	filename hw2q2p2.jpg
+	scale 70
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Using linear hypothesis testing with F-test we conclude that there is seasonalit
+y.
+\end_layout
+
+\begin_layout Subsection*
+(iii)
+\end_layout
+
+\begin_layout Standard
+The coefficient estimate of 
+\begin_inset Formula $UNEM$
+\end_inset
+
+ is -0.0212, which doesn't make sense (more unemployment leads to less accidents).
+\end_layout
+
+\begin_layout Standard
+For 
+\begin_inset Formula $SPDLAW$
+\end_inset
+
+ the estimate is -0.053, meaning that an increase of the max allowed speed
+ decreased the accidents number.
+\end_layout
+
+\begin_layout Standard
+The 
+\begin_inset Formula $BELTLAW$
+\end_inset
+
+ estimate is 0.0954, meaning that the seatbelt law increased the number of
+ accidents.
+\end_layout
+
+\begin_layout Standard
+None of these estimates makes sense.
+\end_layout
+
+\begin_layout Subsection*
+(iv)
+\end_layout
+
+\begin_layout Standard
+The average mean is 88.5%, meaning almost all accidents are fatal, which
+ is weird.
+\end_layout
+
+\begin_layout Subsection*
+(v)
+\end_layout
+
+\begin_layout Standard
+The model now makes sense.
+ 
+\begin_inset Formula $BELTLAW$
+\end_inset
+
+ estimate is -0.029, meaning it decreased a bit the fatal accidents percentage.
+ 
+\begin_inset Formula $SPDLAW$
+\end_inset
+
+ estimate is 0.067, meaning that an increase in the speed limit has increased
+ the fatal accidents rate.
+ Their significance is now lower than in the previous model.
+\end_layout
+
+\begin_layout Subsection*
+(vi)
+\end_layout
+
+\begin_layout Standard
+The first-order autocorrelation coefficients for 
+\begin_inset Formula $PRCFAT$
+\end_inset
+
+ and 
+\begin_inset Formula $UNEM$
+\end_inset
+
+ are 0.709 and 0.957, respectively.
+ Both have very high level of significance, meaning that a unit root is
+ guaranteed for 
+\begin_inset Formula $UNEM$
+\end_inset
+
+, and highly likely for 
+\begin_inset Formula $PRCFAT$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection*
+(vii)
+\end_layout
+
+\begin_layout Standard
+In the new model the estimators are less statistically significant.
+ Some of them (
+\begin_inset Formula $SPDLAW$
+\end_inset
+
+, 
+\begin_inset Formula $BELTLAW$
+\end_inset
+
+) even changed their sign.
+\end_layout
+
+\begin_layout Subsection*
+(viii)
+\end_layout
+
+\begin_layout Standard
+This statement is not quite correct.
+ Applying first-difference only makes sense for first-order autocorrelated
+ data, in other situations it might make the model even worse and lead to
+ incorrect interpretation of the estimates.
+\end_layout
+
+\begin_layout Standard
+In addition to that, a second-order autocorrelation is not handled by such
+ 
+\begin_inset Quotes eld
+\end_inset
+
+strategy
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection*
+(ix)
+\end_layout
+
+\begin_layout Subsubsection*
+1.
+\end_layout
+
+\begin_layout Standard
+In the first model the errors are serially correlated:
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Graphics
+	filename hw2q2p9a.jpg
+	scale 70
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Strict exogeneity does not hold in this case.
+ One of the reasons - the month dummy variables are correlated with the
+ 
+\begin_inset Formula $WKENDS$
+\end_inset
+
+ variable.
+\end_layout
+
+\begin_layout Subsubsection*
+2.
+\end_layout
+
+\begin_layout Standard
+There is still a serial correlation, but to a smaller extent now:
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Graphics
+	filename hw2q2p9b.jpg
+	scale 70
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+(x)
+\end_layout
+
+\begin_layout Standard
+In the obtained results, the estimates for 
+\begin_inset Formula $SPDLAW$
+\end_inset
+
+ and 
+\begin_inset Formula $BELTLAW$
+\end_inset
+
+ are not significantly different from 0.
+ It can be seen that HAC SEs affects their significance, as in the previous
+ models they were observed to be more statistically significant.
+\end_layout
+
+\begin_layout Section*
+Question 3
+\end_layout
+
+\begin_layout Subsection*
+(i)
+\end_layout
+
+\begin_layout Standard
+According to the EMH, the null hypothesis would be that the returns in a
+ particular week do not depend on the returns of the previous week (in AR(1))
+ or on the returns of 2 preceding weeks (in AR(2)), representing an autoregressi
+ve model.
+\end_layout
+
+\begin_layout Standard
+If the EMH is true, null hypothesis won't be rejected.
+\end_layout
+
+\begin_layout Subsection*
+(ii)
+\end_layout
+
+\begin_layout Standard
+TS.3 does not hold, because there is a feedback effect of the 
+\begin_inset Formula $RET$
+\end_inset
+
+ variable (considering its real meaning - market returns).
+\end_layout
+
+\begin_layout Subsection*
+(v)
+\end_layout
+
+\begin_layout Standard
+Both null hypotheses are rejected using the F-test, meaning the expected
+ return depends on previous returns.
+\end_layout
+
+\begin_layout Subsection*
+(vi)
+\end_layout
+
+\begin_layout Standard
+The obtained 
+\begin_inset Formula $p$
+\end_inset
+
+-values are very small (
+\begin_inset Formula $10^{-8}$
+\end_inset
+
+ order of magnitude) in both models, meaning that homoskedasticity is rejected
+ in favor of heteroskedasticity.
+\end_layout
+
+\end_body
+\end_document
