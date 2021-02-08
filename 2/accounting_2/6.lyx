@@ -1,0 +1,521 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+\usepackage{indentfirst}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2.5cm
+\topmargin 2.5cm
+\rightmargin 2.5cm
+\bottommargin 2.5cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Financial Accounting 2 - Lecture 6
+\end_layout
+
+\begin_layout Author
+Leonid Genkin
+\end_layout
+
+\begin_layout Section
+Long Lived Assets - Continued
+\end_layout
+
+\begin_layout Subsection
+Goodwill
+\end_layout
+
+\begin_layout Standard
+In 2020, Waze was acquired by Google for $969M, $841 of which were for goodwill.
+ Any amount that cannot be specifically allocated to a particular asset
+ or liability acquired is 
+\begin_inset Quotes eld
+\end_inset
+
+goodwill
+\begin_inset Quotes erd
+\end_inset
+
+.
+ It is the difference between 
+\begin_inset Quotes eld
+\end_inset
+
+what we pay
+\begin_inset Quotes erd
+\end_inset
+
+ and the book value of 
+\begin_inset Quotes eld
+\end_inset
+
+what we acquired
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Only goodwill of an acquired company (and not self) is recognized.
+ It is not amortized, but is subject to annual impairment test and can be
+ (irreversibly) written off.
+\end_layout
+
+\begin_layout Subsection
+Impairment
+\end_layout
+
+\begin_layout Standard
+Impairment is done for all assets, but intangibles are much more sensitive
+ to it.
+ The test is applied to the smallest group of assets that have identifiable
+ cash flows, and impaired assets are written off.
+\end_layout
+
+\begin_layout Section
+Marketable Securities
+\end_layout
+
+\begin_layout Standard
+Different method asre used for accounting securities, depending on the percentag
+e of ownership in the investee:
+\end_layout
+
+\begin_layout Subsection
+<20% Ownership
+\end_layout
+
+\begin_layout Standard
+If <20% ownership is acquired, the 
+\series bold
+mark-to-market method
+\series default
+ is used.
+\end_layout
+
+\begin_layout Standard
+During the holding period, dividend is recorded in the I/S.
+ At the end of the account period, securities are revalued and an 
+\begin_inset Quotes eld
+\end_inset
+
+unrealized gain/loss
+\begin_inset Quotes erd
+\end_inset
+
+ is recorded, using the market value.
+\end_layout
+
+\begin_layout Standard
+For example, consider a $120K purchase of securities, which have increased
+ in value to $135K, then decreased to $115K and finally sold at $110K.
+\end_layout
+
+\begin_layout Standard
+In the first year cash is credited $120K and trading securities are debited
+ $120K.
+ When the securities increase in value, it is reflected in the I/S as an
+ 
+\begin_inset Quotes eld
+\end_inset
+
+unrealized gain
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+A decrease in value is shown as 
+\begin_inset Quotes eld
+\end_inset
+
+unrealized loss
+\begin_inset Quotes erd
+\end_inset
+
+, again on the I/S.
+ Only when the securities are sold, the actual loss (-$5K) is recognized
+ in the I/S and the cash is handled accordingly.
+\end_layout
+
+\begin_layout Standard
+The advantage in this method is that the B/S is more accurate.
+ The disadvantage is - that all gains and losses are shown, even though
+ they are unrealized, which creates noise.
+\end_layout
+
+\begin_layout Subsection
+20-50% Ownership
+\end_layout
+
+\begin_layout Standard
+This range represents significant influence on the firm.
+ There are certain decisions that cannot pass without us, and, being an
+ important investor - there is a big impact and a representation in the
+ board of directors.
+\end_layout
+
+\begin_layout Standard
+In this case, the 
+\series bold
+equity method
+\series default
+ is used, which represents a lasting relationship and recognizes the investor's
+ portion of income.
+\end_layout
+
+\begin_layout Standard
+In this method, a purchase is initially recorded as cost.
+ Cash dividenends are represented by a long-term investment asset.
+\end_layout
+
+\begin_layout Standard
+For example, a company purchases 30% of another firm for $400K.
+ That firm has $1M fair net assets.
+ It reports net income of $300K, distributing $100K as dividends.
+\end_layout
+
+\begin_layout Standard
+At the purchase, cash is credited and investment is debited.
+ Upon receiving dividends, dividend receivable are credited and cash is
+ debited.
+\end_layout
+
+\begin_layout Section
+Statement of Cash Flows
+\end_layout
+
+\begin_layout Standard
+The 
+\series bold
+direct method
+\series default
+ looks at the I/S and determines the associated inflow/outflow of cash for
+ each line.
+ The I/S amounts are adjusted for changes in the related accounts.
+ Each account is adjusted to reflect the actual cash amount.
+ This method is not normally seen when looking at a financial statement.
+ Instead, the 
+\series bold
+indirect method
+\series default
+ is more common.
+ It works differently and presents numbers is a different way, but leads
+ to the same resulting figures, by making some adjustmens.
+ It starts with the I/S, then adds depreciation (as it is a non-cash expense),
+ bringing it to a position as if there was no depreciation expense.
+\end_layout
+
+\begin_layout Standard
+After that, the changes in related assets & liabilities are accounted.
+ 
+\end_layout
+
+\begin_layout Subsection
+9-193-103 Case
+\end_layout
+
+\begin_layout Subsubsection*
+Question 1
+\end_layout
+
+\begin_layout Standard
+By default, 3 largest positive/negative numbers are considered.
+\end_layout
+
+\begin_layout Standard
+For Alpha company, the major sources of cash in 1989 are proceeds from long-term
+ debt, increase in short-term borrowing and proceeds from sellings assets.
+ The main uses are investment in depreciable assets and in capitalized software
+ and payments of long-term debt.
+\end_layout
+
+\begin_layout Standard
+The answer does not take into account the breakdown of operating activities.
+\end_layout
+
+\begin_layout Standard
+In 1990 the main sources are proceeds from selling assets & discountinued
+ operations and proceeds from long-term debt.
+ The cash uses are payments of long-term debt, decrease in short-term borrowing
+ and investment in depreciable assets.
+\end_layout
+
+\begin_layout Standard
+In 1990 the main sources are proceeds from disposal of assets, operating
+ activities and proceeds from long-term debt.
+\end_layout
+
+\begin_layout Subsubsection*
+Question 2
+\end_layout
+
+\begin_layout Standard
+In 1989, the NI is negative (loss from continuing operations).
+ The reasons for the difference with the net cash flow are depreciation
+ and restructuring.
+ In 1990 and 1991 the net cash flow is greater than the operational loss
+ as well.
+\end_layout
+
+\begin_layout Standard
+When looking at changes in working capital items, the 
+\begin_inset Formula $A=L+SE$
+\end_inset
+
+ equation can be alternatively seen as: 
+\begin_inset Formula $Cash+non\,cash\,assets=L+SE$
+\end_inset
+
+, therefore: 
+\begin_inset Formula $\Delta Cash=\Delta L+\Delta SE-\Delta NCA$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Thus, whenever there are positive numbers in chagnes of the A/R or the inventory
+ in the CFS - it means that the actual corresponding accounts 
+\series bold
+decrease
+\series default
+.
+\end_layout
+
+\begin_layout Standard
+A positive explanation for the observation might be that the firm is better
+ in receivables collection or being more efficient in managing the inventory.
+\end_layout
+
+\begin_layout Standard
+A negative explanation might be a decrease in sales.
+\end_layout
+
+\begin_layout Subsubsection*
+Question 3
+\end_layout
+
+\begin_layout Standard
+The firm does not generate enough cash to pay for its capital expenditures.
+\end_layout
+
+\begin_layout Subsubsection*
+Question 4
+\end_layout
+
+\begin_layout Standard
+The cash flow could not cover them both, as it did not cover even one of
+ them.
+\end_layout
+
+\begin_layout Subsubsection*
+Question 5
+\end_layout
+
+\begin_layout Standard
+-
+\end_layout
+
+\begin_layout Subsubsection*
+Question 6
+\end_layout
+
+\begin_layout Standard
+In 1989, the source of cash used by the firm for its capital expenditures
+ were proceeds from long-term debt.
+ In 1990, the firm financed its capital expenditures by selling discontinued
+ operations.
+ In 1991 it was sale of depreciable and other assets.
+\end_layout
+
+\begin_layout Subsubsection*
+Question 7
+\end_layout
+
+\begin_layout Standard
+Technically, this question is answered by going to the 
+\begin_inset Quotes eld
+\end_inset
+
+changes
+\begin_inset Quotes erd
+\end_inset
+
+ portsion of the SCF and summing the numbers.
+ Whether the working capital was a 
+\begin_inset Quotes eld
+\end_inset
+
+source
+\begin_inset Quotes erd
+\end_inset
+
+ or a 
+\begin_inset Quotes eld
+\end_inset
+
+user
+\begin_inset Quotes erd
+\end_inset
+
+ of cash is determined by looking at the sign of the sum.
+\end_layout
+
+\begin_layout Subsubsection*
+Questions 9-14
+\end_layout
+
+\begin_layout Standard
+There is no trend in the NI.
+ The cash flow from operations increases each year.
+ The capex decreases each year.
+ In 1989 the capex covers depreciation, unlike 1990-91.
+\end_layout
+
+\begin_layout Standard
+There is a negative trend in dividends.
+\end_layout
+
+\begin_layout Standard
+In 1989 the firm mainly borrows, but in 1990-1 it pays back.
+\end_layout
+
+\begin_layout Standard
+It is difficult to say whether there is a trend in the working capital.
+\end_layout
+
+\begin_layout Subsubsection*
+Conclusion
+\end_layout
+
+\begin_layout Standard
+The bad signs for this firm are:
+\end_layout
+
+\begin_layout Itemize
+Operating cash flow cannot cover the investments
+\end_layout
+
+\begin_layout Itemize
+Dividends have stopped
+\end_layout
+
+\begin_layout Itemize
+Assets are sold
+\end_layout
+
+\begin_layout Itemize
+Less investment in PP&E year after year
+\end_layout
+
+\begin_layout Itemize
+Loss each year
+\end_layout
+
+\begin_layout Itemize
+Restructuring each year
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The only thing that 
+\begin_inset Quotes eld
+\end_inset
+
+might
+\begin_inset Quotes erd
+\end_inset
+
+ look like a positive sign is the cash flow from operating activities.
+ In reality it is not, because it is last year receivables and inventories
+ are collected - it is not a sustainable source of cash, and when it is
+ done, the cash flow will be negative.
+\end_layout
+
+\end_body
+\end_document
