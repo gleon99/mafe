@@ -126,9 +126,16 @@ Working capital
 \end_layout
 
 \begin_layout Standard
-The revenue minus COGS (cost of goods sold) and depreciation gives EBIT
+The revenue minus COGS (cost of goods sold) and depreciation gives 
+\series bold
+EBIT
+\series default
  (earnings before interest & tax).
- After subtracting taxes we gen NOPAT (net operating income after tax).
+ After subtracting taxes we get the 
+\series bold
+NOPAT
+\series default
+ (net operating income after tax).
  Adding back the depreciation and subtracting the working capital, we finally
  get the 
 \series bold
@@ -158,12 +165,12 @@ Operating taxes
 
 \begin_deeper
 \begin_layout Itemize
-In case there is positive profit, tax on the profit, NOPAT equals 1 - tax
- rate
+In case there is a positive profit, the tax is on the profit: NOPAT equals
+ 1 - tax rate
 \end_layout
 
 \begin_layout Itemize
-When there is negative profit:
+When there is a negative profit:
 \end_layout
 
 \begin_deeper
@@ -197,7 +204,7 @@ Capital gain tax
  Ccpital gain is the selling price minus book value.
  The liability on capital gain is the capital gain times the capital gain
  tax rate.
- Then, the CF from selling the machine the capital gain, minus the tax.
+ Then, the CF from selling the machine is the capital gain, minus the tax.
 \end_layout
 
 \begin_layout Standard
@@ -256,7 +263,7 @@ Under the assumption that all investment is
 \series bold
 equity
 \series default
- investment (no debt)
+ investment (no debt).
 \end_layout
 
 \end_body
