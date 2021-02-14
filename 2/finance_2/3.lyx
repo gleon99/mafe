@@ -105,8 +105,8 @@ Issuing Debt
 \end_layout
 
 \begin_layout Standard
-Suppose a firm has the following capital structure: assets = 1000, debt
- = 200, equity = 800 with 
+Suppose a firm has the following capital structure: assets = $1000, debt
+ = $200, equity = $800 with 
 \begin_inset Formula $r_{D}=5\%$
 \end_inset
 
@@ -118,7 +118,7 @@ Suppose a firm has the following capital structure: assets = 1000, debt
  The WACC is:
 \begin_inset Formula 
 \[
-wacc=\frac{200}{1000}\cdot0.05+\frac{800}{1000}\cdot0.2=0.17
+wacc=\frac{\$200}{\$1000}\cdot0.05+\frac{\$800}{\$1000}\cdot0.2=0.17
 \]
 
 \end_inset
@@ -128,13 +128,13 @@ wacc=\frac{200}{1000}\cdot0.05+\frac{800}{1000}\cdot0.2=0.17
 
 \begin_layout Standard
 If the firm issues additional $100 of debt and distributes it to repurchase
- its shared, how many shared will be repurchased?
+ its shares, how many shares will be repurchased?
 \end_layout
 
 \begin_layout Standard
 \begin_inset Formula 
 \[
-P=\frac{800}{1000}\Rightarrow\Delta N=\frac{100}{0.8}=125
+P=\frac{\$800}{1000}\Rightarrow\Delta N=\frac{\$100}{\$0.8}=125
 \]
 
 \end_inset
@@ -143,7 +143,7 @@ P=\frac{800}{1000}\Rightarrow\Delta N=\frac{100}{0.8}=125
 \end_layout
 
 \begin_layout Standard
-Thus there are 875 shares left (the price remained the same).
+Thus there are 875 shares left (the price remains the same).
 \end_layout
 
 \begin_layout Standard
@@ -154,7 +154,7 @@ The new
  is then:
 \begin_inset Formula 
 \[
-r_{E}=0.17+\frac{300}{700}(0.17-0.05)=22.14\%
+r_{E}=0.17+\frac{\$300}{\$700}(0.17-0.05)=22.14\%
 \]
 
 \end_inset
@@ -167,7 +167,7 @@ The new capital structure is riskier for the shareholders, thus
 \begin_inset Formula $r_{E}$
 \end_inset
 
- is no higher, compared to the previous 20%.
+ is now higher, compared to the previous 20%.
 \end_layout
 
 \begin_layout Standard
@@ -191,7 +191,7 @@ If the firm issues $100 and pays dividends, the new
 ) but the share price changes:
 \begin_inset Formula 
 \[
-N=1000;\,\,E=700;\,\,P_{NEW}=\frac{700}{1000}=0.7
+N=1000;\,\,E=\$700;\,\,P_{NEW}=\frac{\$700}{1000}=\$0.7
 \]
 
 \end_inset
@@ -203,7 +203,7 @@ N=1000;\,\,E=700;\,\,P_{NEW}=\frac{700}{1000}=0.7
 Every shareholder received a dividend of 0.1 per share:
 \begin_inset Formula 
 \[
-DIV=\frac{100}{1000}=0.1
+DIV=\frac{\$100}{1000}=\$0.1
 \]
 
 \end_inset
@@ -225,7 +225,7 @@ Suppose the firm issues $100 debt for investing in the firm's opeartion
  is:
 \begin_inset Formula 
 \[
-0.17+\frac{300}{800}(0.17-0.05)=21.5\%
+0.17+\frac{\$300}{\$800}(0.17-0.05)=21.5\%
 \]
 
 \end_inset
@@ -238,7 +238,7 @@ Consider now a situation when the project's NPV is 50.
  If the investment is financed with debt:
 \begin_inset Formula 
 \[
-V=1000+100+50
+V=\$1000+\$100+\$50
 \]
 
 \end_inset
@@ -246,7 +246,7 @@ V=1000+100+50
 
 \begin_inset Formula 
 \[
-D=200+100
+D=\$200+\$100
 \]
 
 \end_inset
@@ -254,7 +254,7 @@ D=200+100
 
 \begin_inset Formula 
 \[
-E=800+50
+E=\$800+\$50
 \]
 
 \end_inset
@@ -264,12 +264,12 @@ E=800+50
 
 \begin_layout Standard
 The shareholders receive the profit from the project.
- If the investmend is financed using equity, 
-\begin_inset Formula $D=200$
+ If the investment is financed using equity, 
+\begin_inset Formula $D=\$200$
 \end_inset
 
  and 
-\begin_inset Formula $E=950$
+\begin_inset Formula $E=\$950$
 \end_inset
 
 .
@@ -280,14 +280,14 @@ As the firm
 \series bold
 announces
 \series default
- the project, the share price goes up by 50 (assuming the market agrees
+ the project, the share price goes up by $50 (assuming the market agrees
  with the company about the NPV) - even before the transaciton is done.
  If the firm regrets the announcement, the next time no one will believe
  it.
  The price went up and it is now:
 \begin_inset Formula 
 \[
-P_{new}=\frac{850}{1000}=0.85
+P_{new}=\frac{\$850}{1000}=\$0.85
 \]
 
 \end_inset
@@ -334,7 +334,7 @@ perfect
 \end_layout
 
 \begin_layout Standard
-This, transactions that appear to be a good deal may be exploiting some
+Thus, transactions that appear to be a good deal may be exploiting some
  market imperfections.
 \end_layout
 
@@ -411,7 +411,7 @@ In a world without corporate tax,
 \begin_inset Formula $r_{U}$
 \end_inset
 
- The expected return of the shareholders in an unleverd firm
+ The expected return of the shareholders in an unlevered firm
 \begin_inset Formula 
 \[
 \frac{(1-t_{c})\cdot EBIT}{r_{U}}=V_{U}=E_{U}\Rightarrow r_{U}=\frac{(1-t_{c})\cdot EBIT}{V_{U}}
@@ -465,7 +465,7 @@ Consider an unlevered firm with $100 OI,
  The value of the firm is given by:
 \begin_inset Formula 
 \[
-V_{U}=\frac{\$100\cdot(1-40\%)}{10\%}=600
+V_{U}=\frac{\$100\cdot(1-40\%)}{10\%}=\$600
 \]
 
 \end_inset
@@ -775,7 +775,7 @@ less compensated
 \end_layout
 
 \begin_layout Standard
-Assuming a [er[etuity:
+Assuming a perpetuity:
 \begin_inset Formula 
 \[
 r_{E}=r_{U}+\frac{D}{E}(r_{U}-r_{D})\cdot(1-t_{c})
@@ -814,7 +814,7 @@ The value of firm B can't be immediately calculated, because the
  is unknown.
 \begin_inset Formula 
 \[
-V_{U}(A)=\frac{180\cdot(1-40\%)}{0.12}=900
+V_{U}(A)=\frac{\$180\cdot(1-40\%)}{0.12}=\$900
 \]
 
 \end_inset
@@ -827,7 +827,7 @@ If firm B was an all-equity firm, its value was 4 times higher than that
  of firm A:
 \begin_inset Formula 
 \[
-V_{U}(B)=4\cdot V_{U}(A)=3600
+V_{U}(B)=4\cdot V_{U}(A)=\$3600
 \]
 
 \end_inset
@@ -839,7 +839,7 @@ V_{U}(B)=4\cdot V_{U}(A)=3600
 Then:
 \begin_inset Formula 
 \[
-V_{L}(B)=V_{U}(B)+t_{c}\cdot D=3600+1000\cdot40\%=4000
+V_{L}(B)=V_{U}(B)+t_{c}\cdot D=\$3600+\$1000\cdot40\%=\$4000
 \]
 
 \end_inset
@@ -851,7 +851,7 @@ V_{L}(B)=V_{U}(B)+t_{c}\cdot D=3600+1000\cdot40\%=4000
 The equity value of firm B is:
 \begin_inset Formula 
 \[
-E(B)=V_{L}(B)-D=4000-1000=3000
+E(B)=V_{L}(B)-D=\$4000-\$1000=\$3000
 \]
 
 \end_inset
@@ -867,7 +867,7 @@ The
  of firm B is:
 \begin_inset Formula 
 \[
-r_{E}=r_{U}+\frac{D}{E}(r_{U}-r_{D})\cdot(1-t_{c})=0.12+\frac{1000}{3000}(0.12-0.05)\cdot(1-0.4)=13.4\%
+r_{E}=r_{U}+\frac{D}{E}(r_{U}-r_{D})\cdot(1-t_{c})=0.12+\frac{\$1000}{\$3000}(0.12-0.05)\cdot(1-0.4)=13.4\%
 \]
 
 \end_inset
@@ -883,7 +883,7 @@ The
  is given by:
 \begin_inset Formula 
 \[
-WACC(B)=\frac{3000}{4000}\cdot0.134+\frac{1000}{4000}\cdot0.05\cdot(1-40\%)=0.108
+WACC(B)=\frac{\$3000}{\$4000}\cdot0.134+\frac{\$1000}{\$4000}\cdot0.05\cdot(1-40\%)=0.108
 \]
 
 \end_inset
@@ -892,7 +892,7 @@ WACC(B)=\frac{3000}{4000}\cdot0.134+\frac{1000}{4000}\cdot0.05\cdot(1-40\%)=0.10
 \end_layout
 
 \begin_layout Standard
-which is lower then 
+which is lower than 
 \begin_inset Formula $r_{U}$
 \end_inset
 
@@ -918,7 +918,11 @@ As the firm announces it, its value after the announcement is higher by
 \begin_layout Standard
 The value of the firm increases by the additional debt.
  After the announcement, everything becomes technical (the whole economic
- effect is at the announcement).
+ effect is 
+\series bold
+at the announcement
+\series default
+).
 \end_layout
 
 \begin_layout Standard
@@ -965,7 +969,7 @@ If
 \begin_inset Formula $\tau_{c},\tau_{i},\tau_{e}$
 \end_inset
 
- are the rorporate tax, tax on interest and the tax on equity income (respective
+ are the corporate tax, tax on interest and the tax on equity income (respective
 ly), then after-tax investor cash flows resulting from a $1 in EBIT are
  
 \begin_inset Formula $\$(1-\tau_{i})$
@@ -975,7 +979,7 @@ ly), then after-tax investor cash flows resulting from a $1 in EBIT are
 \begin_inset Formula $\$(1-\tau_{c})(1-\tau_{e})$
 \end_inset
 
- for share holders
+ for shareholders.
 \end_layout
 
 \begin_layout Subsubsection
@@ -1050,8 +1054,11 @@ V_{L}=V_{U}+\tau^{*}\cdot D
 \end_layout
 
 \begin_layout Standard
-Personal taxes reduce the benefit of a tax shield (yet these benefits still
- exits).
+
+\series bold
+Personal taxes reduce the benefit of a tax shield
+\series default
+ (yet these benefits still exist).
 \end_layout
 
 \begin_layout Subsubsection
@@ -1059,7 +1066,7 @@ Optimal Capital Structure
 \end_layout
 
 \begin_layout Standard
-Is debt better than equity? More leverage provide more tax shield, thus
+Is debt better than equity? More leverage provides more tax shield, thus
  every firm would want the higher leverage possible.
 \end_layout
 

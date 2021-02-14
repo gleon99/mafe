@@ -105,8 +105,8 @@ a.
 \end_layout
 
 \begin_layout Standard
-The maximum amount that debtholders can receive is 
-\begin_inset Formula $200-40=160$
+The maximum amount that the debtholders can receive is 
+\begin_inset Formula $\$200-\$40=\$160$
 \end_inset
 
  and they claim it.
@@ -117,7 +117,7 @@ b.
 \end_layout
 
 \begin_layout Standard
-The market value of the equity is 200.
+The market value of the equity is $200.
  
 \begin_inset Formula $80\%$
 \end_inset
@@ -138,7 +138,7 @@ The management have
 \series bold
 no motivation
 \series default
- to reduct bankruptcy costs, because then they will have to give debtholders
+ to reduce bankruptcy costs, because then they will have to give debtholders
  90% of the firm
 \end_layout
 
@@ -148,15 +148,15 @@ d.
 
 \begin_layout Standard
 The new value is 
-\begin_inset Formula $220$
+\begin_inset Formula $\$220$
 \end_inset
 
 , and the fraction is 
-\begin_inset Formula $\frac{180}{220}=81\%$
+\begin_inset Formula $\frac{\$180}{\$220}=81\%$
 \end_inset
 
 .
- The shareholders have motivation to do it, ecause they now get more equity.
+ The shareholders have motivation to do it, because they now get more equity.
 \end_layout
 
 \begin_layout Section
@@ -168,8 +168,8 @@ Raising Equity Capital
 \end_layout
 
 \begin_layout Standard
-Looking at the number of businesses in the U.S.
- 71% of them are sole proprietorships, but by revenue - 84% are corporations.
+Looking at the number of businesses in the U.S, 71% of them are sole proprietorsh
+ips, but by revenue - 84% are corporations.
 \end_layout
 
 \begin_layout Standard
@@ -195,7 +195,7 @@ Venture Capital Firm (VC)
 \series default
 : A limited partnership which invests in young firms, demanding a substantial
  control (~1/3 of the seats in the board of directors).
- A VC firm won't invest at once, bu rather in rounds.
+ A VC firm won't invest at once, but rather in rounds.
  They are usually a group of people with a lot of knowledge and connections
  that can (usually) be trusted.
  A successful VC would have ~10% success rate.
@@ -281,7 +281,7 @@ Initial Public Offering
 
 \begin_layout Standard
 IPO is the process of selling stock to the public for the first time.
- After it, the firm's scotks are publibly traded.
+ After it, the firm's stocks are publibly traded.
 \end_layout
 
 \begin_layout Standard
@@ -480,8 +480,8 @@ After the IPO
 
 \begin_layout Standard
 The stocks are freely traded in the market.
- Underwriter usually serves as a market maker, in order to increase the
- liquidity of the stock (for ~1 year, until the company hires one).
+ The underwriter usually serves as a market maker, in order to increase
+ the liquidity of the stock (for ~1 year, until the company hires one).
 \end_layout
 
 \begin_layout Standard
@@ -511,14 +511,14 @@ Generally, on the first day after the IPO the price is going up (average
 One of the reasons is asymmetric information.
  Consider, for example, an IPO with 1 million outstanding shares.
  The founder wishes to sell 75% of the equity, there are 1.5 million investors
- with imilted wealth such that each one of them is able to buy only a single
+ with limited wealth such that each one of them is able to buy only a single
  share.
  The allocation will be determined by the cumulative demand.
 \end_layout
 
 \begin_layout Standard
-If the market estimate the value of the firm to be $100M ot $200M with 50%
- probability, the value will be $150M.
+If the market estimates the value of the firm to be $100M ot $200M with
+ 50% probability, the value will be $150M.
 \end_layout
 
 \begin_layout Standard
@@ -545,7 +545,7 @@ In a scenario of asymmetric information (assume 500000 investors know the
 The expected profit of the uninformed investors is:
 \begin_inset Formula 
 \[
-0.5\cdot50\%\cdot(200-150)+0.5\cdot75\%\cdot(100-150)=-6.25
+0.5\cdot50\%\cdot(\$200-\$150)+0.5\cdot75\%\cdot(\$100-\$150)=-\$6.25
 \]
 
 \end_inset
@@ -570,7 +570,7 @@ the winner's curse
 The uninformed investors will participate when the expected profit is 0:
 \begin_inset Formula 
 \[
-0.5\cdot50\%\cdot(200-P_{IPO})+0.5\cdot75\%\cdot(100-P_{IPO})=-6.25\Rightarrow P_{IPO}=140
+0.5\cdot50\%\cdot(\$200-P_{IPO})+0.5\cdot75\%\cdot(\$100-P_{IPO})=0\Rightarrow P_{IPO}=\$140
 \]
 
 \end_inset

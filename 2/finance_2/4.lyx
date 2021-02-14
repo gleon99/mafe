@@ -147,7 +147,7 @@ An
 \series bold
 economic distress
 \series default
- is when the firm's continuation value is lower than its liquidation value,
+ is when a firm's continuation value is lower than its liquidation value,
  i.e its value as an ongoing business is lower that the market values of
  all its assets.
  Such company would be better off if it liquidates (considering the alternative).
@@ -163,22 +163,34 @@ Financial Distress and Bankruptcy
 \end_layout
 
 \begin_layout Standard
-The possible responses of a firm to a financial distress:
+The possible responses of a firm to a financial distress are:
 \end_layout
 
 \begin_layout Itemize
-Raise money - by issuing new debt or equity.
+
+\series bold
+Raise money
+\series default
+ - by issuing new debt or equity.
 \end_layout
 
 \begin_layout Itemize
-Reorganize assets (sale assets / business units).
+
+\series bold
+Reorganize assets
+\series default
+ (sale assets / business units).
 \end_layout
 
 \begin_layout Itemize
+
+\series bold
 \begin_inset Quotes eld
 \end_inset
 
 Work-out
+\series default
+
 \begin_inset Quotes erd
 \end_inset
 
@@ -186,12 +198,20 @@ Work-out
 \end_layout
 
 \begin_layout Itemize
-Reorganization (chapter 11) - through a plan which must be approved by creditors
- and shareholders.
+
+\series bold
+Reorganization
+\series default
+ (chapter 11) - through a plan which must be approved by creditors and sharehold
+ers.
 \end_layout
 
 \begin_layout Itemize
-Liquidation (chapter 7) - a trustee is appointed to liquidate the assets.
+
+\series bold
+Liquidation
+\series default
+ (chapter 7) - a trustee is appointed to liquidate the assets.
  Debt holders' interest payments are prioritized, but not the principal
  payment.
 \end_layout
@@ -268,10 +288,10 @@ Suppose the investors require
 \end_inset
 
  on the debt.
- At the issuance day, the pay:
+ At the issuance day, they pay:
 \begin_inset Formula 
 \[
-D=\frac{0.5(300+240)}{1+6.5\%}=253.52
+D=\frac{0.5(\$300+\$240)}{1+6.5\%}=\$253.52
 \]
 
 \end_inset
@@ -285,7 +305,7 @@ The return will be $300M (18.33%) in case of success and $240M (-5.33%) in
 \end_layout
 
 \begin_layout Standard
-If the FDA doesn't approve the drug, the firm will suffer form 
+If the FDA doesn't approve the drug, the firm will suffer from 
 \series bold
 economic distress
 \series default
@@ -294,7 +314,7 @@ economic distress
 
 \begin_layout Standard
 Is is efficient to liquidate a firm when the PV of future cash flows in
- case of contiunation is below the cash flow from selling off all the assets.
+ case of continuation is below the cash flow from selling off all the assets.
 \end_layout
 
 \begin_layout Standard

@@ -1,0 +1,679 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+\usepackage{indentfirst}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2.5cm
+\topmargin 2.5cm
+\rightmargin 2.5cm
+\bottommargin 2.5cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Finance 2 - Lecture 6
+\end_layout
+
+\begin_layout Author
+Leonid Genkin
+\end_layout
+
+\begin_layout Section
+Equity Policy and Asymmetric Information - Continued
+\end_layout
+
+\begin_layout Subsection
+IPO Puzzles - Continued
+\end_layout
+
+\begin_layout Subsection
+Cyclicality
+\end_layout
+
+\begin_layout Standard
+The number of the IPOs is cyclical.
+ When there are good conditions, there are many new issues, and vice versa.
+\end_layout
+
+\begin_layout Subsubsection
+IPO Costs
+\end_layout
+
+\begin_layout Standard
+The total cost of issuing stocks is higher than other securities (usual
+ fee around 7%).
+ The higher the proceed, the prices of issuing securities decrease.
+ But the price of an IPO, as a percentage, does not decrease.
+\end_layout
+
+\begin_layout Subsubsection
+Long-run Performance
+\end_layout
+
+\begin_layout Standard
+Although in the short-run shares of IPO usually perform very well, new firms
+ appear to perform relatively poorly in the long-run.
+\end_layout
+
+\begin_layout Standard
+It means that, compared to the alternatives, when investing in an IPO, the
+ CAR (
+\series bold
+cumulative average return
+\series default
+) is negative.
+\end_layout
+
+\begin_layout Subsection
+Seasoned Equity Offering (SEO)
+\end_layout
+
+\begin_layout Standard
+After a firm goes for an IPO and becomes traded, it may make another public
+ offering (SEO).
+ Many of the same steps as for IPO are followed, but the market price already
+ exists, thus there is no need in establishing a price.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Cash Offer
+\series default
+: the firm offers the new shares to investors
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Rights Offer
+\series default
+: New shares are offered only to existing shareholders (protects them from
+ underpricing)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+SEO is not expensive like IPO, but still has costs of about 5%.
+ Rights offers are generally cheaper.
+\end_layout
+
+\begin_layout Standard
+After an SEO, the price generally goes down.
+\end_layout
+
+\begin_layout Subsubsection
+Asymmetric Information in SEO
+\end_layout
+
+\begin_layout Standard
+Until now we assumed that everyone has the same information and that shares
+ are fairly priced.
+ In practice it might not always be accurate.
+\end_layout
+
+\begin_layout Standard
+Consdier the market for used cars and suppose there are 2 types of used
+ cars: a pearl (good condition, valued at $10K) and a lemon ( bad condition,
+ valued at $2K) with the probability being equal and the buyer being unable
+ to tell between them.
+\end_layout
+
+\begin_layout Standard
+The buyer will be willing to pay $6K and it does not depend on the seller
+ knowing the true condition.
+ Thus the seller would only offer lemons.
+\end_layout
+
+\begin_layout Standard
+The buyer, knowing that, will offer 
+\series bold
+only $2K
+\series default
+.
+\end_layout
+
+\begin_layout Standard
+This model can be applied to equity issuing.
+ Assume a firm issues new shares, and estimates two possible scenarios for
+ future value: high value (the firm is worth $1000) and low value ($800),
+ both being equally likely.
+\end_layout
+
+\begin_layout Standard
+The firm has 100 shares and can issue 10 to fund a new project.
+ The market prices the shares at $9.
+\end_layout
+
+\begin_layout Standard
+In the high value scenario, after the process the firm's true price is 
+\begin_inset Formula $\$1090$
+\end_inset
+
+ (100 shares for $10 each + 10 shares for $9), with the new share price
+ being $9.91, which makes 
+\series bold
+existing shareholders lose
+\series default
+.
+\end_layout
+
+\begin_layout Standard
+Thus, in the high value scenario the CFO 
+\series bold
+won't issue eqity
+\series default
+.
+\end_layout
+
+\begin_layout Standard
+In the low value scenario, the true value of the firm is $890 (100 shares
+ for $8 + 10 shares for $9), with the new share price of $8.09, thus the
+ CFO would want to issue equity.
+\end_layout
+
+\begin_layout Standard
+A firm that issues shares in such situation can be assumed to be a lemon,
+ thus its price will fall.
+ Therefore, the stock price declines at the announcement.
+ It rises before an announcement (the management waits for good news publication
+) and firms only tend to issue equity when asymmetry is minimized.
+\end_layout
+
+\begin_layout Standard
+If the firm uses internal funds or debt to finance a project, it acts as
+ a signal for investors, increasing the probability of it being a pearl
+ rather than a lemon.
+\end_layout
+
+\begin_layout Standard
+Thus, managers prefer to fund investments in a particular order: retained
+ earnings, debt, equity issuance.
+\end_layout
+
+\begin_layout Section
+Financing and Valuation
+\end_layout
+
+\begin_layout Standard
+Until today, investing and financing were discussed.
+\end_layout
+
+\begin_layout Standard
+The investing decision is made by looking at:
+\begin_inset Formula 
+\[
+NPV=-I_{0}+\sum_{n=1}^{N}\frac{E(CF_{n})}{(1+E(r))^{n}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The financing question (whether to use equity or debt) is answered by taking
+ into consideration the advantage of the tax shield vs.
+ the bankruptcy costs.
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $APV$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $APV$
+\end_inset
+
+ - adjusted present value, 
+\begin_inset Formula $FTE$
+\end_inset
+
+ - flow to equity.
+\end_layout
+
+\begin_layout Standard
+The value of a firm is given by:
+\begin_inset Formula 
+\[
+V_{L}=\frac{Operating\,CF}{WACC}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+which is equal to the 
+\begin_inset Formula $NPV$
+\end_inset
+
+.
+\begin_inset Formula 
+\[
+WACC=\frac{D}{V}\cdot r_{D}\cdot(1-t_{c})+\frac{E}{C}\cdot r_{E}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The effect of financing is in the 
+\begin_inset Formula $WACC$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $WACC$
+\end_inset
+
+ can 
+\series bold
+not
+\series default
+ be used for evaluating projects, where the project changes the 
+\begin_inset Formula $WACC$
+\end_inset
+
+, as it makes an assumption of equity-to-debt ratio remaining constant.
+\end_layout
+
+\begin_layout Standard
+These tools can be used together to valuate projects/firms and see the financing
+ effects of capital budgeting decisions.
+\end_layout
+
+\begin_layout Standard
+The value of the firm can be considered as:
+\begin_inset Formula 
+\[
+V_{L}=V_{U}+PV(financial\,effects)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+For example, the tax effect is:
+\begin_inset Formula 
+\[
+PV(FE)=\sum\frac{t_{c}\cdot r_{D}\cdot D}{(1+r_{D})^{n}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+We calculate a loan for an 
+\begin_inset Quotes eld
+\end_inset
+
+all-equity firm
+\begin_inset Quotes erd
+\end_inset
+
+, then adjust it to take into consideration the financial effect.
+ It gives the 
+\series bold
+flexibility
+\series default
+ of changing the debt.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+NPV_{L}=NPV_{U}+PV(FE)
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+r_{U}=r_{f}+\beta_{u}(E(r_{D})-r_{f})
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The only difference between the 
+\begin_inset Formula $PV$
+\end_inset
+
+ and the 
+\begin_inset Formula $NPV$
+\end_inset
+
+ is the investment.
+ The 
+\begin_inset Formula $APV$
+\end_inset
+
+ provides a more accurate valuation method that 
+\begin_inset Formula $WACC$
+\end_inset
+
+, at the cost of being much more difficult to use.
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $FTE$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+E=\frac{CF\,to\,equity}{r_{E}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The FCF to equity is the revenue, minus operating costs, interest and taxes,
+ plus depreciation minus capex to equity and change in working capital.
+\end_layout
+
+\begin_layout Standard
+The return is calculated based on:
+\begin_inset Formula 
+\[
+r_{E}=r_{U}+\frac{D}{E}(r_{U}-r_{D})(1-t_{c})
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The problem with this method is that we only calculate 
+\begin_inset Formula $E$
+\end_inset
+
+ (and not 
+\begin_inset Formula $D$
+\end_inset
+
+).
+ this method is needed when investing and caring only about equity and nothing
+ else.
+\end_layout
+
+\begin_layout Standard
+It takes into consideration financing.
+ It is only useful when having a small portion in a company.
+\end_layout
+
+\begin_layout Section
+Case Solution
+\end_layout
+
+\begin_layout Standard
+The sales of the firm consistently grow, NI steadily increases, EPS and
+ after-tax profit margin increase as well.
+\end_layout
+
+\begin_layout Standard
+The firm is a 
+\begin_inset Quotes eld
+\end_inset
+
+cash cow
+\begin_inset Quotes erd
+\end_inset
+
+ with almost no debt.
+\end_layout
+
+\begin_layout Standard
+The proposed solution is 70% leverage.
+ The total debt would be 
+\begin_inset Formula $\$13.9+\$863.7=\$878$
+\end_inset
+
+, the equity is 
+\begin_inset Formula $\$1473-\$1097=\$1254$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+The book vlaue of the firm is 
+\begin_inset Formula $\$878+\$375=\$1254$
+\end_inset
+
+ and the debt ratio is 
+\begin_inset Formula $\frac{\$877.6}{\$1253.7}=70\%$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+In terms of return: interset payment, EPS and ROE increase, while NI and
+ the number of shares decrease.
+\end_layout
+
+\begin_layout Standard
+As far as the risk is concerned, the 
+\begin_inset Formula $r_{D}$
+\end_inset
+
+, total debt, risk to lenders and shareholders and the debt-to-equity ratio
+ increase, while the cash decrease.
+ The rating might decrease.
+\end_layout
+
+\begin_layout Standard
+The tax payment decrease and the expected bankruptcy costs decrease.
+\end_layout
+
+\begin_layout Standard
+The amount repurchased is: 
+\begin_inset Formula $\$1096.7=\$863.7+\$233$
+\end_inset
+
+.
+ The value of the new tax shield is:
+\begin_inset Formula 
+\[
+(\$863+\$233)\cdot48\%=\$526.4
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The distributed cash of $233 generate tax shields (as it was invested in
+ bonds, subject to corporate taxes).
+ Using it for repurchase removes the tax liability.
+\end_layout
+
+\begin_layout Standard
+The value of the firm after the leverage announcement:
+\begin_inset Formula 
+\[
+V=V_{U}+t_{c}\cdot D=(\$4665+\$13.9)+\$526.4=\$5206.3
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The value of equity is:
+\begin_inset Formula 
+\[
+E=V-D=\$5206.3-\$13.9=\$5191.4
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+and this figure is used to calculate the price per share.
+\end_layout
+
+\begin_layout Standard
+The firm value after the transaction is:
+\begin_inset Formula 
+\[
+V_{L}=V-reduction\,in\,excess\,cash=\$5205.3-\$244=\$4972.3
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The new equity value uwill be:
+\begin_inset Formula 
+\[
+E_{L}=V_{L}-F=\$4972.3-(\$863.7+\$13.9)=\$4094.7
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The new share price is:
+\begin_inset Formula 
+\[
+P_{new}=\$4094.7/122.65=\$44.49
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The debt ratio by market value is now:
+\begin_inset Formula 
+\[
+\frac{D}{V_{L}}=\frac{\$877.6}{\$4972.3}=17.6\%
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In terms of interest coverage, under this alternative the ratio is 7.5.
+ Thus, even with this leverage ratio, the firm will probably get a AAA rating.
+\end_layout
+
+\end_body
+\end_document
