@@ -106,7 +106,7 @@ game theory
 non-cooperative
 \series default
  game theory.
- It studies how people fail to cooperate by anakyzing strategic situsations.
+ It studies how people fail to cooperate by analyzing strategic situsations.
  Cooperative game theory will be out of the scope of this course.
 \end_layout
 
@@ -180,7 +180,7 @@ a lottery
 \end_inset
 
  over actions.
- When the choice consists only of a single actions, it is called 
+ When the choice consists only of single actions, it is called 
 \series bold
 pure strategy
 \series default
@@ -217,7 +217,7 @@ Player 1
 \begin_inset Quotes erd
 \end_inset
 
-, and the right number is the payoff of the column player (
+ and the right number is the payoff of the column player (
 \begin_inset Quotes eld
 \end_inset
 
@@ -229,9 +229,12 @@ Player 2
 \end_layout
 
 \begin_layout Standard
-This entire course in devoted to the question: how should reasonable people
- play? What is a sensible way of playing a particular game? Even though
- there is no 
+This entire course in devoted to the question: 
+\series bold
+how should reasonable people play?
+\series default
+ What is a sensible way of playing a particular game? Even though there
+ is no 
 \begin_inset Quotes eld
 \end_inset
 
@@ -267,13 +270,13 @@ Consider number-guessing game with
  of the average, gets a prize.
  K-level rationality theory assumes that people vary in their rationality
  levels.
- Level 2 plays the best response to level 3.
+ Level 2 plays the best response to level 1.
  Level 3 plays the best response to level 2, and so on.
 \end_layout
 
 \begin_layout Standard
-In its second version, level 3 plays best response on some belif in the
- range of level 2, which is more flexible.
+In its second version, level 3 plays the best response on some belief in
+ the range of level 2, which is more flexible.
 \end_layout
 
 \begin_layout Standard
@@ -329,7 +332,7 @@ symmetric
 \end_inset
 
  (no matter what is the decision of the other player).
- A rational behaviot produces inefficient outcome.
+ A rational behavior produces inefficient outcome.
 \end_layout
 
 \begin_layout Standard
@@ -363,16 +366,12 @@ First Welfare Theorem in economics
 \end_layout
 
 \begin_layout Standard
-Payment and payoff are different things and has to be distinguished.
+Payment and payoff are different things and have to be distinguished.
  Payoff is 
 \series bold
 utility
 \series default
 .
-\end_layout
-
-\begin_layout Standard
-HW: Exercise 1
 \end_layout
 
 \end_body

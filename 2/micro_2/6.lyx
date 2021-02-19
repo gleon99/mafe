@@ -85,7 +85,7 @@
 \begin_body
 
 \begin_layout Title
-Microeconomics 2 - Lecture 2
+Microeconomics 2 - Lecture 6
 \end_layout
 
 \begin_layout Author
@@ -93,453 +93,452 @@ Leonid Genkin
 \end_layout
 
 \begin_layout Section
-Strategic Form Games
+Extnesive Form Games - Continued
 \end_layout
 
 \begin_layout Standard
-Recalling from the previous lecture, a game is fully described by the set
- of players, set of available actions and the payoff function for each player.
-\end_layout
-
-\begin_layout Subsection
-Elimination of Dominated Strategies
+Backward induction can only be applied in finite games, as it requires a
+ point to start from.
 \end_layout
 
 \begin_layout Standard
-A 
+The 
 \series bold
-dominated strategy
+subgame perfect equilibrium
 \series default
- is something that is worse than an alternative that a player can play,
- 
-\series bold
-regardless
-\series default
- of how the other players play.
- A reasonable and rational player should not play dominated strategy.
- One can iteratively eliminate dominated strategies (which can't be played),
- in order to find the best response strategy.
+ is a generalization of backward induction, for infinite games.
 \end_layout
 
 \begin_layout Standard
-As a strategy is undominated iff it is a best-response strategy, the order
- of the elimination doesn't matter.
-\end_layout
-
-\begin_layout Standard
-In mixed strategies it is much more difficult to recognize domination, compared
- to pure strategies, as there are more possibilities to be considered.
-\end_layout
-
-\begin_layout Subsection
-Cournot Competition
-\end_layout
-
-\begin_layout Standard
-Consider a competition where 2 firms produce a quantity (
-\begin_inset Formula $q_{1},q_{2}$
-\end_inset
-
-), and the market price is 
-\begin_inset Formula $max\{1-q_{1}-q_{2},0\}$
-\end_inset
-
-.
- The unique outcome that survives elimination is: 
-\begin_inset Formula $q_{1}=1/3$
-\end_inset
-
-, by 2 claims, which lead to the (symmetric) conclusion that given a particular
- 
-\begin_inset Formula $q_{i}$
-\end_inset
-
-, the best response would be 
-\begin_inset Formula $\frac{1-q_{i}}{2}$
-\end_inset
-
-:
-\end_layout
-
-\begin_layout Itemize
-If the other competitor is aggressive, better be timid
-\end_layout
-
-\begin_layout Itemize
-If the other competitior is timid, be aggressive
-\end_layout
-
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-which can be shown by plotting 
-\begin_inset Formula $\pi_{1}(q_{1},q_{2})$
-\end_inset
-
- and finding the maximum.
-\end_layout
-
-\begin_layout Subsection
-Iterative Elimination - Hotelling
-\end_layout
-
-\begin_layout Standard
-Consider a finite interval (
-\begin_inset Quotes eld
-\end_inset
-
-a beach
-\begin_inset Quotes erd
-\end_inset
-
-) and ice-cream sellers who decide where to reside on that interval.
- Assume people are uniformly distributed across the interval.
- They go to the nearest ice-cream service, then go back to their place and
- eat there.
- The utility from eating the ice-cream depends on the distance (cost of
- walking twice, including the melted ice-cream).
-\end_layout
-
-\begin_layout Standard
-The question is: given this model regarding the people behavior, where do
- we expect the sellers to be located, and what prices will they charge?
- This problem can also be applied to political parties and voters.
- By elimination, we get convergence to the middle point (Black's theorem),
- which states that in political competition, politicians will advocate the
- policy that is preferred by the median voter.
-\end_layout
-
-\begin_layout Standard
-Would successive elimination 
-\series bold
-always
-\series default
- produce reasonable results? Consider the game:
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Tabular
-<lyxtabular version="3" rows="3" columns="3">
-<features tabularvalignment="middle">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<row>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-L
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-R
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-U
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-3,4
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-2,5
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-D
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-2,1000000
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0,-100000
-\end_layout
-
-\end_inset
-</cell>
-</row>
-</lyxtabular>
-
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-The game will converge to 
-\begin_inset Formula $(2,5)$
-\end_inset
-
-, although it is unreasonable for player 2 to play 
-\begin_inset Formula $R$
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Subsection
-\begin_inset Quotes eld
-\end_inset
-
-The beauty contest
-\begin_inset Quotes erd
-\end_inset
-
- game
-\end_layout
-
-\begin_layout Standard
-There are 
-\begin_inset Formula $N$
-\end_inset
-
- players, each one chooses a natural number between 1 and 100.
- The one whose choice was closest to 
-\begin_inset Formula $2/3$
-\end_inset
-
- is the winner, all others lose.
- The only possible surviving strategy is to choose 1.
- It is helpful to recall the fact that a strategy is dominated iff it is
- 
-\series bold
-never 
-\series default
-the best response.
- 100 is dominated [by which strategy?], then 99, etc.
- until all numbers are eliminated.
-\end_layout
-
-\begin_layout Subsection
-Domination by weakly dominated strategies
-\end_layout
-
-\begin_layout Standard
-Consider:
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Tabular
-<lyxtabular version="3" rows="3" columns="3">
-<features tabularvalignment="middle">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<row>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-L
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-R
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-U
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-1,1
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0,0
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-D
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0,0
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0,0
-\end_layout
-
-\end_inset
-</cell>
-</row>
-</lyxtabular>
-
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-A rational row won't play 
-\begin_inset Quotes eld
-\end_inset
-
-D
-\begin_inset Quotes erd
-\end_inset
-
-, but it can't be produced by elimination of dominated strategies, because
- there are no dominated strategies here.
-\end_layout
-
-\begin_layout Standard
-There is a weaker concept of weakly dominated strategies (
-\begin_inset Formula $\geq$
-\end_inset
-
-).
-\end_layout
-
-\begin_layout Standard
-Eliminating in different orders might produce different outcomes.
+It is not always a correct prediction of how a game will be actually played
+ - it depends on the credibility of the players.
 \end_layout
 
 \begin_layout Section
-Nash Equilibrium
+Imperfect Information
 \end_layout
 
 \begin_layout Standard
-So far we considered reasonable ways of playing a game, dominated and dominating
- strategies and their elimination.
- Nash equilibrium is an 
+Sometimes there are situations when some players possess information about
+ the choices of others, but not the full information conveyed in the game
+ description.
+ Such games are described using 
 \series bold
-equilibrium
+information sets
 \series default
- (a profile of strategies that has a property, that everyone's strategy
- is a best-response strategy to everyone else's stratgy - i.e there is no
- reason for deviation).
- It has been established as a best prediction of how games would be played
- (which is, in fact, not always right).
+: nodes which are indistinguishable for some player.
 \end_layout
 
 \begin_layout Standard
-Homework: exercises 2-7.
+To be in an information set, nodes must have the same number of successor
+ nodes (otherwise they would be distinguishable).
+\end_layout
+
+\begin_layout Standard
+It can be shown that all games are equivalent to imperfect-information extensive
+ form games.
+ Every strategic form game can be rewritten (in multiple ways) as an extensive
+ form game, which in turn can be reformulated as an imperfect-information
+ game.
+\end_layout
+
+\begin_layout Standard
+A (pure / mixed) strategy in an imperfect-information game is defined in
+ the same way as in a perfect-information game.
+\end_layout
+
+\begin_layout Standard
+A subgame in an imperfect-information game starts with a singleton information
+ set, and cannot be intersected by information sets.
+\end_layout
+
+\begin_layout Standard
+Consider the following game: player 1 chooses whether to play 
+\begin_inset Quotes eld
+\end_inset
+
+left
+\begin_inset Quotes erd
+\end_inset
+
+ or 
+\begin_inset Quotes eld
+\end_inset
+
+right
+\begin_inset Quotes erd
+\end_inset
+
+ and depending on that there are 2 possible matrices for the continuation
+ of the game:
+\begin_inset Newline newline
+\end_inset
+
+Left:
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Tabular
+<lyxtabular version="3" rows="3" columns="3">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+A
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+B
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+U
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $(9,6)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $(0,0)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+D
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $(7,7)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $(6,9)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Right:
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Tabular
+<lyxtabular version="3" rows="3" columns="3">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+A'
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+B'
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+U'
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $(7.5,6)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $(-1.5,0)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+D'
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $(5.5,7)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $(4.5,9)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The payoffs are the same except that player 2 has payoffs lower by -1.5 in
+ the 
+\begin_inset Quotes eld
+\end_inset
+
+right
+\begin_inset Quotes erd
+\end_inset
+
+ option.
+\end_layout
+
+\begin_layout Standard
+There are 2 pure strategy NE: 
+\begin_inset Formula $(L,U,U')(A,A')\rightarrow(L,U,A)$
+\end_inset
+
+ and 
+\begin_inset Formula $(L,D,D')(B,B')\rightarrow(L,D,B)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Is it possible to come up with a subgame perfect NE, which would make the
+ players play 
+\begin_inset Formula $(L,U,A)$
+\end_inset
+
+? - Yes.
+\end_layout
+
+\begin_layout Standard
+Is it possible to get 
+\begin_inset Formula $(L,D,B)$
+\end_inset
+
+? - Yes, as well.
+\end_layout
+
+\begin_layout Standard
+For strategies 
+\begin_inset Formula $(R,D,U')(B,A')$
+\end_inset
+
+ the result will be 
+\begin_inset Formula $(R,U',A')$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Performing successive elimination of dominated strategies, the resulting
+ NE are those where the payoffs are 
+\begin_inset Formula $(9,6)$
+\end_inset
+
+ .
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $(A,B')\preceq(A,A')$
+\end_inset
+
+ appears to strictly dominate, but in fact there is only a weak domination.
+\end_layout
+
+\begin_layout Section
+Auctions
+\end_layout
+
+\begin_layout Standard
+In order to represent an imperfect-information game as a normal form game,
+ a 
+\series bold
+Bayesian games 
+\series default
+are introduced.
+ A 
+\begin_inset Quotes eld
+\end_inset
+
+nature
+\begin_inset Quotes erd
+\end_inset
+
+ player is added, which represents random exogenous factors.
+ It is a special player, as it has no preferences or payoffs.
+\end_layout
+
+\begin_layout Standard
+Assume an auction with a fixed number of bidders.
+ Each bidder knows his valuation, but not that of other bidders.
+ They are believed to be i.d.
+ by some 
+\begin_inset Formula $F$
+\end_inset
+
+.
+ The payoff to bidder 
+\begin_inset Formula $i$
+\end_inset
+
+ in case of winning and paying 
+\begin_inset Formula $p_{w}$
+\end_inset
+
+ is 
+\begin_inset Formula $v_{i}-p_{w}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+In a first-price auction the highest bidder wins the object and pays its
+ bid (random winner choice in case of a tie).
+\end_layout
+
+\begin_layout Standard
+In the last years a new model of auction was developed, which maximizes
+ the profit for the seller.
+ For example, radio spectrum auctions by governments.
 \end_layout
 
 \end_body

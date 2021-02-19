@@ -151,7 +151,7 @@ Pr(H|H)>Pr(H)>P(H|M)
 \end_layout
 
 \begin_layout Standard
-Analyzing data from real games, the conclusion is that the probability tis
+Analyzing data from real games, the conclusion is that the probability is
  exactly the same, thus there is no such thing as a 
 \begin_inset Quotes eld
 \end_inset
@@ -287,7 +287,7 @@ A player
 \series bold
 actually mixing
 \series default
- from the possible moves
+ the possible moves
 \end_layout
 
 \begin_layout Itemize
@@ -324,9 +324,8 @@ What makes some predictions more plausible than others? For a prediction
 good
 \series default
 , it has to exist for every game.
- It can be shown that evey finite game has a NE equilibrium (possibly a
- mixed one).
- The proof is made using the Kakutani's fixed point theorem , applied to
+ It can be shown that every finite game has a NE (possibly a mixed one).
+ The proof is made using the Kakutani's fixed point theorem, applied to
  the best response function of each player.
 \end_layout
 
@@ -429,7 +428,7 @@ melting ice-cream
 \begin_inset Quotes erd
 \end_inset
 
-) and the opportunity can disappeat with probability 
+) and the opportunity can disappear with probability 
 \begin_inset Formula $1-\delta$
 \end_inset
 

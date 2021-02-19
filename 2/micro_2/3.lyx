@@ -133,7 +133,7 @@ Battle of the Sexes
 A couple has to decide how to spend an evening.
  The options are something that stereotypically preferred by males (B) or
  females (O).
- The playeres can't coordinate.
+ The players can't coordinate.
 \begin_inset Newline newline
 \end_inset
 
@@ -723,13 +723,13 @@ zero-sum game
 \begin_inset Quotes eld
 \end_inset
 
-exterme form of conflict
+extreme form of conflict
 \begin_inset Quotes erd
 \end_inset
 
 ).
- In most cases the conflict is no that extreme, thus most of the games are
- not zero-sum.
+ In most cases the conflict is not that extreme, thus most of the games
+ are not zero-sum.
 \end_layout
 
 \begin_layout Standard
@@ -1721,7 +1721,7 @@ Mixed-Strategy Nash Equilibrium
 \begin_layout Standard
 As a pure Nash equilibrium might not exist, its definition can be extended
  to a mixed-strategy equilibrium.
- It can be shown that even veyr general conditions guarantee its existence.
+ It can be shown that even very general conditions guarantee its existence.
 \end_layout
 
 \begin_layout Subsection
@@ -1879,8 +1879,8 @@ Similarly,
 \end_inset
 
  is a Nash equilibrium of the game.
- The equilibrium is calculated by taking into account that player need to
- be 
+ The equilibrium is calculated by taking into account that players need
+ to be 
 \series bold
 indifferent
 \series default

@@ -111,7 +111,7 @@ The game of chess can be described by a finite tree.
 \begin_inset Formula $n\times n$
 \end_inset
 
- squares elimination game - start with eliminating everything but at 
+ squares elimination game - start with eliminating everything but an 
 \begin_inset Quotes eld
 \end_inset
 
@@ -127,7 +127,7 @@ The Centipede Game
 \end_layout
 
 \begin_layout Standard
-In the two-legged version, the game woud end at the first round with 
+In the two-legged version, the game would end at the first round with 
 \begin_inset Formula $(1,0)$
 \end_inset
 
@@ -359,7 +359,7 @@ This game has the property of self-similarity: the situation of player 1
 \end_layout
 
 \begin_layout Standard
-Looking at the payoffs, when player 1 becomes very paitent (
+Looking at the payoffs, when player 1 becomes very patient (
 \begin_inset Formula $\delta_{1}$
 \end_inset
 
