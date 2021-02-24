@@ -198,7 +198,7 @@ bad / uncollectible debts
 \end_inset
 
 ) in the I/S and credited in the allowance account.
- The B/S is only changed
+ 
 \end_layout
 
 \begin_layout Subsection
@@ -225,15 +225,6 @@ Percentage of sales (the sales revenue approach)
 \begin_layout Standard
 Multiply the sales by some predetermined percentage and find out the bad
  debt exesnse.
- It can be thinked of as 
-\begin_inset Quotes eld
-\end_inset
-
-creating matching on the I/S
-\begin_inset Quotes erd
-\end_inset
-
-.
  This method is considered less accurate, thus accounting rules tend to
  avoid it.
 \end_layout
@@ -489,10 +480,6 @@ free on board
  For example: FOB shipping point (belongs to the purchaser while in transit),
  FOB destination (belongs to the seller while in transit).
  These terms are also important for revenue recognition.
-\end_layout
-
-\begin_layout Standard
-Next week quiz: adjusting entries, reformulation, ratios (detective exercise).
 \end_layout
 
 \end_body

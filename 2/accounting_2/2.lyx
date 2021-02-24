@@ -130,7 +130,7 @@ effectiveness
 
 \begin_layout Standard
 Considering 
-\begin_inset Formula $NOA=NFO=CSE$
+\begin_inset Formula $NOA=NFO+CSE$
 \end_inset
 
  and 
@@ -189,7 +189,7 @@ NFR=\frac{NFE}{Avg.NFO}
 \end_layout
 
 \begin_layout Standard
-When financial assets are higher than the financial pbligations, the 
+When financial assets are higher than the financial obligations, the 
 \begin_inset Formula $NFO$
 \end_inset
 
@@ -202,8 +202,8 @@ Financial Leverage
 
 \begin_layout Standard
 There are various methods of calculating risk.
- One of them is by taking the ration between the financing sources of a
- corporation (debt vs.
+ One of them is by taking the ratio between the financing sources of a corporati
+on (debt vs.
  equity).
  The more debt it has - the riskier it is.
 \end_layout
@@ -237,11 +237,11 @@ Where the spread is
 \begin_inset Formula $RNOA-NFR$
 \end_inset
 
- (the return on non-operating assets, minus the financing cost).
+ (the return on net operating assets, minus the financing cost).
 \end_layout
 
 \begin_layout Standard
-Usually, the values of a company is impacted mainly by its operating activities.
+Usually, the values of a company are impacted mainly by its operating activities.
 \end_layout
 
 \begin_layout Standard
@@ -249,10 +249,10 @@ Financial leverage can be a good thing, when the spread is positive.
  It can also go the other way round, and when the spread is negative - leverage
  decreases the ROE.
  Such companies suffer from an ROE that is worse than their 
-\begin_inset Formula $NROA$
+\begin_inset Formula $RNOA$
 \end_inset
 
- (e.g Microsoft, Apple - the more they fo on keeping thei cash, the worse
+ (e.g Microsoft, Apple - the more they go on keeping their cash, the worse
  is their return to shareholders).
  In other words - if we separate such company to independent 
 \begin_inset Quotes eld
@@ -306,7 +306,7 @@ The second term is the asset turnover (
 \begin_inset Formula $NOAT$
 \end_inset
 
-) - the productivity of the company's net operating assets *the sales level
+) - the productivity of the company's net operating assets (the sales level
  realized from each dollar of assets).
 \end_layout
 
@@ -357,7 +357,7 @@ Generalizing, it is possible to put various industries on the asset turnover
 
 \begin_layout Standard
 There are no industries with both high profit margin and asset turnover,
- as it would attrace competitors.
+ as it would attract competitors.
  If there were industries with low profit margin and low asset turnover
  - firms would exit the business, until prices go up to another equilibrium.
 \end_layout
@@ -383,7 +383,7 @@ Consider 2 companies, each has $1000 financing by SSE, firm A is unleveraged
 \end_inset
 
  is 13% vs 10%).
- But if the make 
+ But if 
 \begin_inset Formula $RNOA=2\%$
 \end_inset
 
@@ -462,7 +462,7 @@ ROE=\frac{NI}{Sales}\times\frac{Sales}{Assets}\times\frac{Assets}{Equity}
 
 \begin_layout Standard
 Cosnder a situation when a firm borrows money in order to pay dividends
- - its ROE increases
+ - its ROE increases.
 \end_layout
 
 \begin_layout Subsection
@@ -556,9 +556,9 @@ Receivables & Revenue Recognition
 \end_layout
 
 \begin_layout Standard
-In thie chapter we stress the interaction between some items on ths B/S
+In this chapter we stress the interaction between some items on ths B/S
  and the I/S and how receivables, revenues and operating expenses influence
- each other
+ each other.
 \end_layout
 
 \begin_layout Subsection
@@ -590,12 +590,16 @@ Bad debts
 \end_inset
 
  - receivables which are uncollectible, because debtors are unable or unwilling
- to apy them.
- Can be recorder in 2 ways:
+ to pay them.
+ Can be recorded in 2 ways:
 \end_layout
 
 \begin_layout Itemize
-Specific / direct write-off method.
+
+\series bold
+Specific / direct write-off method
+\series default
+.
  Under this method we wait until we know that the customer won't pay, then
  we write-off this account form the books (put a 
 \begin_inset Quotes eld
@@ -609,11 +613,15 @@ bad debts expense
  It makes the I/S inaccurate, as the matching of periods between the revenues
  and expenses is lost.
  In addition to that, it incorrectly values the asset (A/R) - they are overvalue
-d
+d.
 \end_layout
 
 \begin_layout Itemize
-(which is not allowed), and the allowance method.
+The above method is generally not allowed, and the 
+\series bold
+allowance method 
+\series default
+is usually used instead.
 \end_layout
 
 \end_body

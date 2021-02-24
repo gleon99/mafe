@@ -140,8 +140,8 @@ resources
 \end_layout
 
 \begin_layout Standard
-Examples of current assets include: current assets (cash, accounts), property
- and equipments (land, building), investments and intangible assets.
+Examples of assets include: current assets (cash, accounts), property and
+ equipment (land, building), investments and intangible assets.
 \end_layout
 
 \begin_layout Subsection
@@ -150,14 +150,14 @@ The Balance Sheet - Liabilities
 
 \begin_layout Standard
 Claims by creditors (economic obligations) against the assets of a company,
- which have to be met in th efuture.
+ which have to be met in the future.
  They are classified in terms of due date (current / non-current liabilities).
  The creditors have priority over the owners.
 \end_layout
 
 \begin_layout Standard
 Stockholders' equity represents the claims of the owners againts the assets
- (e.g common stock, retained earning which are not paid as dividends).
+ (e.g common stock, retained earnings which are not paid as dividends).
 \end_layout
 
 \begin_layout Subsection
@@ -204,7 +204,7 @@ earned
 Revenues
 \series default
  are inflow of assets or settlements of liabilities (sales, interest).
- Cause increase in net income.
+ They cause an increase in net income.
 \end_layout
 
 \begin_layout Standard
@@ -246,7 +246,7 @@ The Statement of Cash Flows
 Operating activities
 \series default
 : aquisition & sale of company products & services.
- Collections from sales & resnt.
+ Collections from sales & rent.
 \end_layout
 
 \begin_layout Itemize
@@ -311,34 +311,6 @@ common stock
 \begin_layout Standard
 Between the beginning and the end of a period, there might be: revenues
  and expenses (which define the net income).
-\end_layout
-
-\begin_layout Subsubsection
-Exercise
-\end_layout
-
-\begin_layout Standard
-Use the following formulas to solve for missing items:
-\begin_inset Formula 
-\[
-A=L+SE
-\]
-
-\end_inset
-
-
-\begin_inset Formula 
-\[
-SE_{Begin}+Issue+NI-Div=SE_{End}
-\]
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-Fot the next time: homework!
 \end_layout
 
 \end_body

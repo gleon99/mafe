@@ -229,7 +229,7 @@ Double-declining-balance method
 The depreciation starts fast and declines afterwards:
 \begin_inset Formula 
 \[
-DDB=2\times
+DDB=2\times100\%/Life
 \]
 
 \end_inset
@@ -275,10 +275,6 @@ Depreciation\,expense=Depreciation\,rate\,per\,unit\times units\,made
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Standard
 
 \end_layout
 

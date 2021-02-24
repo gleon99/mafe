@@ -98,10 +98,10 @@ Financial Statements
 
 \begin_layout Standard
 There are 4 types of financial statements: balance sheet, income statement,
- shareholder's statement of equity, cash flow statement.
+ shareholders statement of equity, cash flow statement.
  Each company is obligated once a year to submit an annual report, which
  is usually a very long & bulky document.
- It containt the 4 financial statements (they are small segments in it).
+ It contains the 4 financial statements (they are small segments in it).
 \end_layout
 
 \begin_layout Subsection
@@ -176,7 +176,7 @@ cut
 \begin_inset Quotes erd
 \end_inset
 
- a single particular day, instead it represente 
+ a single particular day, instead it represents 
 \series bold
 the whole
 \series default
@@ -221,7 +221,7 @@ Net Income
 \begin_inset Quotes erd
 \end_inset
 
- a good performance indicator? Why not? Some companied are growth-oriented
+ a good performance indicator? Why not? Some companies are growth-oriented
  (may temporary have a negative income - start-ups).
 \end_layout
 
@@ -245,41 +245,7 @@ Cash Flow Statement
 
 \begin_layout Standard
 Describes the company's use & generation of cash, by dividing to 3 segments:
- operationg, investing & financing.
-\end_layout
-
-\begin_layout Subsection
-Class Practice
-\end_layout
-
-\begin_layout Subsubsection
-Question 1
-\end_layout
-
-\begin_layout Standard
-It is an asset, non-current asset.
- The worth of that bond is 800$.
-\end_layout
-
-\begin_layout Subsubsection
-Question 5
-\end_layout
-
-\begin_layout Standard
-There is no asset (haven't paid, and no control of the asset) and no liability
- (the company didn't 
-\begin_inset Quotes eld
-\end_inset
-
-receive
-\begin_inset Quotes erd
-\end_inset
-
- it yet - otherwise, it owuld have been a liability).
-\end_layout
-
-\begin_layout Standard
-Homework: questions similar to the class exercise.
+ operating, investing & financing.
 \end_layout
 
 \end_body

@@ -127,7 +127,7 @@ retained earnings
 \series bold
 Total assets
 \series default
- are them $235, and 
+ are then $235, and 
 \series bold
 total liabilities
 \series default
@@ -139,13 +139,13 @@ Debits and Credits
 \end_layout
 
 \begin_layout Standard
-The double booking account method is good for detecting errors and highlighting
- the essence of accounting, nut a significant drawback is that this method
+The double-entry accounting method is good for detecting errors and highlighting
+ the essence of accounting, but a significant drawback is that this method
  can be very messy when scaling to large number of accounts and transactions.
 \end_layout
 
 \begin_layout Standard
-An alternative method is by introducing 
+It can be simplified by introducing 
 \series bold
 debit
 \series default
@@ -154,13 +154,13 @@ debit
 credit
 \series default
  accounting.
- Debit (dr) abd credit are entries to the left/right hand side of an account
- (respectively).
+ Debit (Dr) and credit (Cr) are entries to the left/right hand side of an
+ account (respectively).
 \end_layout
 
 \begin_layout Standard
 Based on the accunting equation, we can increase/decrease accounts based
- on transaction classification, using 3 question:
+ on transaction classification, using 3 questions:
 \end_layout
 
 \begin_layout Enumerate
@@ -400,7 +400,7 @@ debit
 \end_layout
 
 \begin_layout Standard
-Transactions recording is done nby 
+Transaction recording is done by 
 \series bold
 journal entries
 \series default
@@ -414,9 +414,8 @@ Each entry must include at least one credit and and least one debit.
 \end_layout
 
 \begin_layout Standard
-(Class Exercise).
- Notice that a journal entry can contain items both from balance sheet and
- the income statement.
+Notice that a journal entry can contain items both from the balance sheet
+ and the income statement.
 \end_layout
 
 \begin_layout Standard
@@ -646,12 +645,6 @@ Shares purchase
 The debits and credits are only a technical concept.
  The important thing is to come up to the essence of transactions and get
  to a single, objective truth value.
-\end_layout
-
-\begin_layout Standard
-Next week there will be a quiz (20 minutes).
- Watch the recording on moodle (part 2; adjusting entries won't be in the
- quiz) and solve the exercise (balance sheet).
 \end_layout
 
 \end_body

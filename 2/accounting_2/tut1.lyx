@@ -204,7 +204,8 @@ Some companies use
 \series bold
 leverage
 \series default
- in order to upgrade their return (their is limit on how equity can be brought):
+ in order to upgrade their return (there is a limit on how equity can be
+ brought):
 \begin_inset Formula 
 \[
 FLEV=\frac{Avg.NFO}{Avg.Equity}
@@ -296,7 +297,7 @@ RNOA=NOPM\times NOAT
 Where:
 \begin_inset Formula 
 \[
-NOPM=\frac{NOPAT}{SALSE}
+NOPM=\frac{NOPAT}{SALES}
 \]
 
 \end_inset

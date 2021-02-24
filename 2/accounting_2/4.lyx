@@ -196,7 +196,7 @@ Periodic inventory system - compute the COGS periodically by relying on
 
 \begin_layout Standard
 In practice, most of the companies use the former option, but disabling
- the automatic numbers update (in order to maek it manually).
+ the automatic numbers update (in order to make it manually).
 \end_layout
 
 \begin_layout Subsubsection

@@ -118,8 +118,8 @@ information system
 \end_layout
 
 \begin_layout Standard
-Does a small business need accounting? - Yes, to make operations decisions?
- From CPA personal experience: small business tend to not care about financial
+Does a small business need accounting? - Yes, to make operations decisions.
+ From CPA personal experience: small businesses tend to not care about financial
  statements, but only about tax reduction.
  
 \begin_inset Quotes eld
@@ -146,7 +146,7 @@ economics of information
 \series bold
 demand
 \series default
- for information - meaning the needs comes from outside, and not from inside
+ for information - meaning the need comes from outside, and not from inside
  the organization).
 \end_layout
 
@@ -185,7 +185,11 @@ Investors & creditors analyze
 \series bold
 Decisions
 \series default
- are made based on these assesments.
+ are 
+\series bold
+made
+\series default
+ based on these assesments.
 \end_layout
 
 \begin_layout Enumerate
@@ -213,7 +217,7 @@ stay neutral
 \begin_layout Standard
 The basic bank decisions are: whether to approve a loan, how much to approve,
  and what will be the interest rate, the loan length (the loan structure),
- securities & guarantees, covenance (if rules are violated - load conditions
+ securities & guarantees, covenance (if rules are violated - loan conditions
  might change).
 \end_layout
 
@@ -232,20 +236,24 @@ complete a loop
 \begin_inset Quotes erd
 \end_inset
 
- (now often do we go from (4) to (1))? In most markets it's quartal intervals
+ (now often do we go from (4) to (1))? In most markets it's quarter intervals
  (3 months).
  Is that a good thing? Maybe a higher frequency of reporting is desirable?
  Donald Trump: 
 \begin_inset Quotes eld
 \end_inset
 
-Quarter reporting shall be stopped, let's go to a six month system.
+Quarter reporting shall be stopped, let's go to a six month system
+\begin_inset Quotes erd
+\end_inset
+
+.
  His idea was considered, then rejected.
  Bottom line - it is not completely clear what option is better.
 \end_layout
 
 \begin_layout Standard
-Why is it crucial to have so often 
+Why is it crucial to have so often a 
 \begin_inset Quotes eld
 \end_inset
 
@@ -280,8 +288,8 @@ past
 future
 \series default
  earnings.
- What is the connection between the expected future earnings and share price?
- 
+ What is the connection between the expected future earnings and the share
+ price? 
 \series bold
 Dividends
 \series default
@@ -307,12 +315,12 @@ Buyback
 .
  There are many companies which buy their own stock, by doing this they
  bring the stock price up.
- Why do it? (1) Signaling, (2) Stable dividends
+ Why do it? (1) Signaling, (2) Stable dividends.
 \end_layout
 
 \begin_layout Standard
 Charasteristics of accounting information: flexibility vs.
- uniformity, pcinriples vs.
+ uniformity, prinriples vs.
  rules, verifiability vs.
  relevance.
 \end_layout
@@ -383,7 +391,7 @@ given day
 \end_layout
 
 \begin_layout Itemize
-Ho well did the firm perform during 
+How well did the firm perform during 
 \series bold
 some period
 \series default
@@ -421,7 +429,7 @@ At the end of the day,
 the management
 \series default
  is legally reponsible for the financial statement.
- Though, the auditor might be sued by investore as well, in case of a failure
+ Though, the auditor might be sued by investors as well, in case of a failure
  in its duty, in an attempt to recover losses.
 \end_layout
 
@@ -455,7 +463,7 @@ other information
 \end_layout
 
 \begin_layout Standard
-At the end of the report it is explicitly notice again that the objectives
+At the end of the report it is explicitly noticed again that the objectives
  are to provide 
 \series bold
 reasonable assurance
@@ -478,22 +486,34 @@ The Financial Statement
 \begin_layout Standard
 An understanding of financial statements requires an understanding of the
  business activities: goals & strategies, financing & investments, operations.
- For example, if one discovers a future huge (unexpected) presonal income,
+ For example, if one discovers a future huge (unexpected) personal income,
  what would his actions be? - There are a lot of preparations for starting
  a business.
 \end_layout
 
 \begin_layout Standard
-Financing: Usually first VCs, only then banks (banks usually don't want
- to be the first ones who put money - except tech market today).
+
+\series bold
+Financing
+\series default
+: Usually first VCs, only then banks (banks usually don't want to be the
+ first ones who put money - except tech market today).
 \end_layout
 
 \begin_layout Standard
-Investments: Hiring & training people, buying machines & equipment, etc.
+
+\series bold
+Investments
+\series default
+: Hiring & training people, buying machines & equipment, etc.
 \end_layout
 
 \begin_layout Standard
-Operations: only after the previous stages are done, operations can be started.
+
+\series bold
+Operations
+\series default
+: Only after the previous stages are done, operations can be started.
 \end_layout
 
 \begin_layout Standard
@@ -538,15 +558,6 @@ who is a better manager?
 \end_inset
 
  might lead to yet another perspective on the situation.
-\end_layout
-
-\begin_layout Standard
-(Excel exercise).
-\end_layout
-
-\begin_layout Standard
-For next time: come up with a KPI to answer the quesiton, which time is
- better (use the correct numbers from the lecture).
 \end_layout
 
 \end_body
