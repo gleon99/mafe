@@ -405,7 +405,7 @@ Goodness-of-fit can be measured by 3 options:
 \end_layout
 
 \begin_layout Enumerate
-Same as with LPM, ocmpute percentage of the correctly predicted measures.
+Same as with LPM, compute percentage of the correctly predicted measures.
  Define 
 \begin_inset Formula $\tilde{y}_{i}=1$
 \end_inset

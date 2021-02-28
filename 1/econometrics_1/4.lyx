@@ -115,7 +115,7 @@ In the previous lecture we discussed the accuracy of MLR models and properties
 \begin_inset Formula $Y$
 \end_inset
 
-and 
+ and 
 \begin_inset Formula $\hat{Y}$
 \end_inset
 
@@ -249,7 +249,7 @@ regression line
 \end_inset
 
 .
- For small number of observations and large number of independent variable,
+ For small number of observations and large number of independent variables,
  the difference between 
 \begin_inset Formula $R^{2}$
 \end_inset
@@ -298,7 +298,7 @@ cannot
 \begin_inset Formula $R_{a}^{2}$
 \end_inset
 
-'s are base on estimates of squared correlations 
+'s are based on estimates of squared correlations 
 \series bold
 as they appear in the model
 \series default
@@ -617,7 +617,7 @@ homoskedasticity
 \series bold
 any
 \series default
- values of the indeoendent variables, 
+ values of the independent variables, 
 \begin_inset Formula $U$
 \end_inset
 
@@ -664,7 +664,7 @@ Regress
 \begin_inset Formula $X_{j}$
 \end_inset
 
- on all other independent variables and obtain the resoduals fomr this MLR
+ on all other independent variables and obtain the residuals from this MLR
  model:
 \begin_inset Formula 
 \[
@@ -725,7 +725,7 @@ controlling
 \begin_inset Quotes erd
 \end_inset
 
- the indeoendent variables, we 
+ the independent variables, we 
 \begin_inset Quotes eld
 \end_inset
 
@@ -743,7 +743,7 @@ partial out
 's can be written as:
 \begin_inset Formula 
 \[
-\hat{\beta_{j}}=\frac{\sum_{i=1}^{n}\hat{V}_{i,j}Y_{i}}{\sum_{i=1}^{n}\hat{V_{i,j}}}=\frac{\sum_{i=1}^{n}\hat{V_{i,j}(\beta_{0}+\beta_{1}X_{i,1}+\cdots+\beta_{j}X_{i,j}+\cdots+\beta_{p}X_{i,p}U_{i})}}{\sum_{i=1}^{n}\hat{V_{i,j}}^{2}}=
+\hat{\beta_{j}}=\frac{\sum_{i=1}^{n}\hat{V}_{i,j}Y_{i}}{\sum_{i=1}^{n}\hat{V_{i,j}}}=\frac{\sum_{i=1}^{n}\hat{V}_{i,j}(\beta_{0}+\beta_{1}X_{i,1}+\cdots+\beta_{j}X_{i,j}+\cdots+\beta_{p}X_{i,p}U_{i})}{\sum_{i=1}^{n}\hat{V_{i,j}}^{2}}=
 \]
 
 \end_inset
@@ -890,7 +890,7 @@ Variances of
 \begin_inset Formula $\hat{\beta_{j}}$
 \end_inset
 
-'s are functions of the varianve of errors 
+'s are functions of the variance of errors 
 \begin_inset Formula $U$
 \end_inset
 

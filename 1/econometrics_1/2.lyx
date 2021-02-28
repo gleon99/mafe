@@ -97,7 +97,7 @@ Multiple regression analysis (MLR) - Continued
 \end_layout
 
 \begin_layout Subsection
-Implication of the two assumptions
+Implications of the two assumptions
 \end_layout
 
 \begin_layout Standard
@@ -109,7 +109,7 @@ any
 \begin_inset Formula $X$
 \end_inset
 
-, the p.d.f or p.m.f og 
+, the p.d.f or p.m.f of 
 \begin_inset Formula $Y|x_{i}$
 \end_inset
 
@@ -118,7 +118,7 @@ any
 centered
 \series default
  about 
-\begin_inset Formula $E(Y|x_{I})$
+\begin_inset Formula $E(Y|x_{i})$
 \end_inset
 
 .
@@ -126,7 +126,7 @@ centered
 \begin_inset Formula $E(Y|x_{i})=\beta_{0}+\beta_{1}x_{i}$
 \end_inset
 
- cs.
+ vs.
  
 \begin_inset Formula $y_{i}=\beta_{0}+\beta_{1}w_{i}+u_{i}$
 \end_inset
@@ -179,7 +179,7 @@ The assumptions impose restrictions on the first & second raw moments of
 \end_inset
 
  equations.
- Population mments:
+ Population moments:
 \begin_inset Formula 
 \[
 E(U)=0,\,E(U\cdot X_{i})=0,\,1\leq i\leq p
@@ -245,7 +245,7 @@ In SLR model,
 
 \begin_inset Formula 
 \[
-\hat{\beta_{1}}=\frac{\sum_{i=1}^{n}(X_{i,1}-\bar{X_{1}})(Y_{i}-\bar{Y})}{\sum_{i=1}^{n}(X_{i,1}-\bar{X_{1}})^{2}}=\frac{Cov(X_{1},Y)}{Var(X)1}=\frac{Covr(X_{1},Y)\cdot SD(Y)}{SD(X_{1})}
+\hat{\beta_{1}}=\frac{\sum_{i=1}^{n}(X_{i,1}-\bar{X_{1}})(Y_{i}-\bar{Y})}{\sum_{i=1}^{n}(X_{i,1}-\bar{X_{1}})^{2}}=\frac{Cov(X_{1},Y)}{Var(X)}=\frac{Corr(X_{1},Y)\cdot SD(Y)}{SD(X_{1})}
 \]
 
 \end_inset
@@ -457,12 +457,6 @@ min\left\{ \sum_{i=1}^{n}\hat{U}_{i}^{2}=\sum_{i=1}^{n}(Y_{i}-\hat{\beta_{0}}-\h
 
 \begin_layout Standard
 The estimators calculated by OLS are equivalent to those found using MOM.
-\end_layout
-
-\begin_layout Standard
-(R example).
- At home: make sure that different models are understood, modules 1A-E +
- pages from textbook.
 \end_layout
 
 \end_body

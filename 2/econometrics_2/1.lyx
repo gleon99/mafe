@@ -227,7 +227,7 @@ This is the
 LPM 
 \series default
 (linear probability model).
- Within the ocntext of econometrics terminology, this probability is called
+ Within the context of econometrics terminology, this probability is called
  the 
 \series bold
 response probability
@@ -298,7 +298,7 @@ success
 \begin_inset Quotes erd
 \end_inset
 
- needs to be explained
+ needs to be explained.
 \end_layout
 
 \begin_layout Subsection
@@ -708,7 +708,7 @@ as likely
 \end_layout
 
 \begin_layout Standard
-In the logit model, 
+In the probit model, 
 \begin_inset Formula $\beta_{j}$
 \end_inset
 
@@ -832,8 +832,8 @@ change by 0.2.
 \end_layout
 
 \begin_layout Standard
-When leverage goes up by 1 unit, the odds of bankrupcy being 1 changes by
- approximately 20% (or exactly - by 
+When leverage goes up by 1 unit, the odds of bankruptcy being 1 changes
+ by approximately 20% (or exactly - by 
 \begin_inset Formula $e^{0.2}-1)\cdot100\%=22.14\%$
 \end_inset
 
@@ -841,7 +841,7 @@ When leverage goes up by 1 unit, the odds of bankrupcy being 1 changes by
 \end_layout
 
 \begin_layout Standard
-In additioin to that, bankrupcy is 
+In additioin to that, bankruptcy is 
 \begin_inset Formula $e^{0.2}=1.221$
 \end_inset
 
@@ -892,7 +892,7 @@ changes by 0.2.
 \end_layout
 
 \begin_layout Standard
-When leverage goes up by 1 unit, the probability for bankrupcy is 0.2 standard
+When leverage goes up by 1 unit, the probability for bankruptcy is 0.2 standard
  deviations above the mean bankrupcy probability.
 \end_layout
 

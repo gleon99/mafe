@@ -198,7 +198,7 @@ not correlated
 \begin_inset Formula $X_{i}$
 \end_inset
 
-
+)
 \end_layout
 
 \begin_layout Description
@@ -274,14 +274,14 @@ With sets of jointly distributed RVs (vectors of
 \begin_inset Formula $[x_{1,i},\ldots,x_{n,i}]$
 \end_inset
 
-
+).
 \end_layout
 
 \begin_layout Standard
 \begin_inset Formula $\beta_{i}$
 \end_inset
 
- coefficients are of primary interest, as it represents the 
+ coefficients are of primary interest, as they represent the 
 \series bold
 slope
 \series default
@@ -302,7 +302,7 @@ linear relation
 \begin_inset Formula $X$
 \end_inset
 
- appears only once in the regression (in any form), which implies that eaxh
+ appears only once in the regression (in any form), which implies that each
  extra unit of 
 \begin_inset Formula $X_{i}$
 \end_inset
@@ -675,7 +675,7 @@ Y=\beta_{0}+\beta_{1}X+U
 
 \begin_layout Standard
 We obtain estimators for 
-\begin_inset Formula $E(Y\}X)=\beta_{0}+\beta_{1}X$
+\begin_inset Formula $E(Y|X)=\beta_{0}+\beta_{1}X$
 \end_inset
 
  which is a linear function of 
@@ -775,10 +775,7 @@ average
 \end_layout
 
 \begin_layout Standard
-As a homerwork Read module 1[A,B,C,D].
- Familiarize with coefficients.
- Next session - briefly wrap up 2 assumptions & continue with obtaining
- the datas.
+
 \end_layout
 
 \end_body

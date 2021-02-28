@@ -107,7 +107,11 @@ In TS regression, an indicative variable indicates whether or not an event
 \begin_inset Quotes eld
 \end_inset
 
-whether a Democrat or a Republican is the president of the U.S).
+whether a Democrat or a Republican is the president of the U.S
+\begin_inset Quotes erd
+\end_inset
+
+).
 \end_layout
 
 \begin_layout Standard
@@ -127,8 +131,8 @@ event study
 \end_layout
 
 \begin_layout Standard
-For example, a simple version is used to study the impact of a particular
- event on the value of affected companies is:
+For example, a simple model is used to study the impact of a particular
+ event on the value of affected companies can be:
 \begin_inset Formula 
 \[
 R_{t}^{f}=\beta_{0}+\beta_{1}R_{t}^{m}+\beta_{2}D_{t}+U_{t}
@@ -633,7 +637,7 @@ The first model shows a spurious relation between the investment and the
 \end_layout
 
 \begin_layout Standard
-It is possible that adding a time trend will make an explanatory variable
+It is also possible that adding a time trend will make an explanatory variable
  more significant.
 \end_layout
 
@@ -739,8 +743,8 @@ The more evident a trend is, the higher is the impact on
 \end_layout
 
 \begin_layout Standard
-When the dependent variable has a polynomical trend, a suitable measure
- of goodness-of-fit is 
+When the dependent variable has a polynomial trend, a suitable measure of
+ goodness-of-fit is 
 \begin_inset Formula $R^{2}$
 \end_inset
 

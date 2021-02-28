@@ -142,7 +142,7 @@ FIN=1\Rightarrow\frac{d\hat{E}[SALARY|FIN=1,ROE]}{dROE}=\hat{\beta_{1}}
 \end_layout
 
 \begin_layout Standard
-A 1% increase in ROE results increases the average salary by 19.8 points.
+A 1% increase in ROE increases the average salary by 19.8 points.
 \end_layout
 
 \begin_layout Standard
@@ -255,7 +255,7 @@ In the first example the coefficient for ROE was smaller, in the second
 \begin_inset Formula $\hat{\beta_{3}}$
 \end_inset
 
-is called 
+ is called 
 \begin_inset Quotes eld
 \end_inset
 
@@ -519,7 +519,7 @@ Example 2: Wage and Education
 \end_layout
 
 \begin_layout Standard
-We study the impact of educationm experience and tenure on wage.
+We study the impact of education, experience and tenure on wage.
  The model is:
 \begin_inset Formula 
 \[
@@ -545,7 +545,7 @@ It can be seen that the distribution of the wage is high, thus
 \begin_inset Formula $\hat{\beta}_{1}=0.092$
 \end_inset
 
- means that all else being equal, and extra year of education gives average
+ means that, all else being equal, an extra year of education gives average
  wage increase of 
 \begin_inset Formula $9.20\%$
 \end_inset
@@ -555,7 +555,7 @@ It can be seen that the distribution of the wage is high, thus
 \begin_inset Formula $\hat{\beta_{2}}=0.0041$
 \end_inset
 
- means that a year pf experience yields an average 
+ means that a year of experience yields an average 
 \begin_inset Formula $0.41\%$
 \end_inset
 
@@ -563,8 +563,7 @@ It can be seen that the distribution of the wage is high, thus
 \end_layout
 
 \begin_layout Standard
-If we estimate with education only.
- i.e
+If we estimate with education only, i.e
 \begin_inset Formula 
 \[
 log(WAGE)=\beta_{0}+\beta_{1}EDUC+U
@@ -611,7 +610,7 @@ How to find the fitted value of
 \begin_inset Formula $Y$
 \end_inset
 
- when the dependent variable id 
+ when the dependent variable is 
 \begin_inset Formula $log(Y)$
 \end_inset
 
@@ -619,7 +618,7 @@ How to find the fitted value of
 \end_layout
 
 \begin_layout Standard
-First guess: exponentiate the fitted value leads to a problem of systematic
+First guess: exponentiating the fitted value leads to a problem of systematic
  underestimation.
  Consider the simple log-level model:
 \begin_inset Formula 
@@ -640,7 +639,7 @@ E[log(Y|X)]=\beta_{0}+\beta_{1}X\Rightarrow E[Y|X]=exp(\beta_{0}+\beta_{1}X)E[ex
 
 \begin_inset Formula 
 \[
-\hat{log(Y)}=\hat{E}[log(Y)|X]=\hat{\beta_{0}}+\hat{\beta_{1}}X\Rightarrow\hat{E}[Y|X]=exp(\hat{\beta_{0}+\hat{\beta_{1}}X)\hat{E}[exp(U)]}
+\hat{log(Y)}=\hat{E}[log(Y)|X]=\hat{\beta_{0}}+\hat{\beta_{1}}X\Rightarrow\hat{E}[Y|X]=exp(\hat{\beta}_{0}+\hat{\beta_{1}}X)\hat{E}[exp(U)])
 \]
 
 \end_inset
@@ -657,7 +656,7 @@ We assume that
 \end_layout
 
 \begin_layout Standard
-There are 3 methods to obtain a meaningful and consistent of 
+There are 3 methods to obtain a meaningful and consistent estimator of 
 \begin_inset Formula $E[exp(U)]\geq1$
 \end_inset
 
@@ -668,7 +667,7 @@ There are 3 methods to obtain a meaningful and consistent of
 MOM estimation:
 \begin_inset Formula 
 \[
-\frac{1}{n}\sum_{i=1}^{n}exp(\hat{U}_{i}),\,\hat{U_{i}}=log(Y_{i})=\hat{\beta_{0}}-\hat{\beta_{1}}X_{i}
+\frac{1}{n}\sum_{i=1}^{n}exp(\hat{U}_{i}),\,\hat{U_{i}}=log(Y_{i})-\hat{\beta_{0}}-\hat{\beta_{1}}X_{i}
 \]
 
 \end_inset
@@ -717,10 +716,6 @@ i.e estimator of
 \end_layout
 
 \begin_layout Standard
-(Example in Jupyter Notebook)
-\end_layout
-
-\begin_layout Standard
 Observing how the predicted results change using different methods provides
  important insight on the model.
 \end_layout
@@ -730,7 +725,7 @@ Accuracy of MLR Models
 \end_layout
 
 \begin_layout Standard
-How well does a given MLR model fit the date? The 
+How well does a given MLR model fit the data? The 
 \begin_inset Formula $R^{2}$
 \end_inset
 
@@ -740,7 +735,7 @@ How well does a given MLR model fit the date? The
 \begin_inset Formula $Y$
 \end_inset
 
- taht is explained by fitted values (OLS regression line):
+ that is explained by the fitted values (OLS regression line):
 \begin_inset Formula 
 \[
 Y=\hat{Y}+\hat{U}
@@ -774,7 +769,7 @@ Var(Y)=Var(\hat{Y}+\hat{U})=Var(\hat{Y})+Var(\hat{U})+2Cov(\hat{Y},\hat{U})
 \begin_layout Standard
 \begin_inset Formula 
 \[
-\hat{Cov}(\hat{Y},\hat{U})=\frac{\sum_{i=1}^{n}(\hat{Y}_{i}-\overline{\hat{Y}})(\hat{U_{i}-\overline{\hat{U}})}}{U-1}
+\hat{Cov}(\hat{Y},\hat{U})=\frac{\sum_{i=1}^{n}(\hat{Y}_{i}-\overline{\hat{Y}})(\hat{U}_{i}-\overline{\hat{U}})}{U-1}
 \]
 
 \end_inset

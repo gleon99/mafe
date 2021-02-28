@@ -175,7 +175,7 @@ stationary
 \end_inset
 
  for every collection of time indices 
-\begin_inset Formula $1\leq t_{1}<\cdot<t_{m}$
+\begin_inset Formula $1\leq t_{1}<\cdots<t_{m}$
 \end_inset
 
 , the joint distribution of 
@@ -405,9 +405,39 @@ Y_{t}=\alpha_{0}+\rho_{1}Y_{t-1}+\lambda_{t}
 
 .
  If 
-\begin_inset Formula $\hat{\rho}_{1}>0\,and\,sig.$
+\begin_inset Formula $\hat{\rho}_{1}>0$
 \end_inset
 
+ 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+and 
+\begin_inset Formula $\hat{\rho_{1}}$
+\end_inset
+
+ is statistically significant
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
 , first differencing is warranted.
 \end_layout
 
@@ -430,7 +460,7 @@ When there is a serial correlation in the errors, the OLS SE and the
 
  statistics are 
 \series bold
-invlalid
+invalid
 \series default
 .
  Goodness-of-fit measures are valid, provided the data are stationary and
@@ -497,7 +527,7 @@ Test for
 \begin_inset Formula $t$
 \end_inset
 
-- test (which takes into accoutn the possibility of a feedback effect) for
+- test (which takes into account the possibility of a feedback effect) for
  
 \begin_inset Formula $\rho_{1}$
 \end_inset
@@ -551,7 +581,7 @@ HAC
 \begin_layout Standard
 The serial correlation problem can be worse than heteroskedasticity, because
  autocorrelation-robust S.E.s are also robust to heteroskedasticity, while
- the oppositve is not true.
+ the opposite is not true.
  When there is a serial correlation, HAC (heteroskedasticity and autocorrelation
  consistent) S.E.s must be used
 \begin_inset Formula 

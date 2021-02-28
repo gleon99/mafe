@@ -198,11 +198,7 @@ Static TS regression modelss
 \series bold
 contemporaneously
 \series default
- (
-\begin_inset Formula $1=1,\ldots,T$
-\end_inset
-
-).
+.
 \end_layout
 
 \begin_layout Standard
@@ -1110,7 +1106,7 @@ Similarly to the static models, it doesn't matter whether the change is
  Using the third equation:
 \begin_inset Formula 
 \[
-\beta_{1}+\beta_{2}=Y_{t+1`}-Y_{t-1}
+\beta_{1}+\beta_{2}=Y_{t+1}-Y_{t-1}
 \]
 
 \end_inset
@@ -1172,9 +1168,9 @@ total (cumulative) effect
 
  represents the 
 \series bold
-immedi
+immediate
 \series default
-ate change in 
+ change in 
 \begin_inset Formula $y$
 \end_inset
 

@@ -161,7 +161,7 @@ Different samples yield different values for
 \end_inset
 
 Where 
-\begin_inset Formula $\hat{v_{i,j}}$
+\begin_inset Formula $\hat{v}_{i,j}$
 \end_inset
 
 s are the OLS residuals.
@@ -200,7 +200,7 @@ s are
 \series bold
 normally
 \series default
- distributes.
+ distributed.
  Use 
 \series bold
 exact 
@@ -258,8 +258,8 @@ independent
 \series bold
 normally
 \series default
- distributes.
- It is much stronget than any of the previous assumptions.
+ distributed.
+ It is much stronger than any of the previous assumptions.
  All these assumptions together are called the 
 \series bold
 classical linear model (CLM)
@@ -359,7 +359,7 @@ poor
 \begin_inset Formula $U$
 \end_inset
 
- is not normally distributes).
+ is not normally distributed).
  There are no general prescriptions on how big the sample size should be.
  The 
 \series bold
@@ -590,7 +590,7 @@ covariances
 \end_layout
 
 \begin_layout Standard
-How fo these formulas look like, under the 5 MLR assumptions?
+How do these formulas look like, under the 5 MLR assumptions?
 \series bold
  - 
 \series default
