@@ -1,0 +1,382 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+\usepackage{indentfirst}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2.5cm
+\topmargin 2.5cm
+\rightmargin 2.5cm
+\bottommargin 2.5cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Corporate Valuation - Lecture 1
+\end_layout
+
+\begin_layout Author
+Leonid Genkin
+\end_layout
+
+\begin_layout Section
+Adjusting the Balance Sheet
+\end_layout
+
+\begin_layout Subsection
+Introduction
+\end_layout
+
+\begin_layout Standard
+The final goal is to estimate the shareholders' value.
+ Generally speaking, when a company 
+\begin_inset Quotes eld
+\end_inset
+
+is traded at value X
+\begin_inset Quotes erd
+\end_inset
+
+, the 
+\series bold
+equity
+\series default
+ value is meant.
+ In finance, value usually doesn't mean equity value, but asset value.
+\end_layout
+
+\begin_layout Standard
+To estimate shareholders value, the whole firm value is estimated first,
+ then debt is taken into account.
+\end_layout
+
+\begin_layout Subsection
+Valuation Techniques
+\end_layout
+
+\begin_layout Standard
+Consider an example with valuating a house.
+ There are 3 approaches:
+\end_layout
+
+\begin_layout Itemize
+Cost (net asset value) - price of the land, construction, etc.
+\end_layout
+
+\begin_layout Itemize
+Market comparable - take a similar house and make adjustments.
+\end_layout
+
+\begin_layout Itemize
+DCF (discounted cash flow), 
+\begin_inset Quotes eld
+\end_inset
+
+income
+\begin_inset Quotes erd
+\end_inset
+
+ approach - consider
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The choice of a particular approach depends on the situation and the specific
+ economic story.
+ Enterprise value is the key variable in understanding the firm.
+ It is the value of the company's core business activities (PV of future
+ FCF).
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+There are 3 approaches to calculate it: the accounting (
+\begin_inset Quotes eld
+\end_inset
+
+capital
+\begin_inset Quotes erd
+\end_inset
+
+) approach, multiples approach and multiples method.
+\end_layout
+
+\begin_layout Subsection
+B/S Adjustment
+\end_layout
+
+\begin_layout Standard
+Assets are items that are expected to generate cash in the future.
+\end_layout
+
+\begin_layout Standard
+The assets can be divided to:
+\end_layout
+
+\begin_layout Itemize
+Operational assets
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Net fixed assets (PP&E, right-of-use, investment in subsidiaries)
+\end_layout
+
+\begin_layout Itemize
+Net working capital (e.g A/R, inventory, prepaid expenses.
+ It is there only because of timing issue - A/R vs.
+ A/P)
+\end_layout
+
+\begin_layout Itemize
+Intangible assets (IP, goodwill)
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Excess
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Excess financial assets (cash & equivalents)
+\end_layout
+
+\begin_layout Itemize
+Excess assets (e.g real estate investment)
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Notice that the accounting equation is assets = liabilities + equity, while
+ the M&M model is: value = debt + equity.
+\end_layout
+
+\begin_layout Standard
+The difference comes by adjusting the accounting B/S to the economic one.
+\end_layout
+
+\begin_layout Standard
+The liabilities consist of:
+\end_layout
+
+\begin_layout Itemize
+Operational liabilities (e.g A/P, deferred revenue, customer deposits)
+\end_layout
+
+\begin_layout Itemize
+Financial liabilities (loans, bonds, interest)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Given a certain liability, we can classify it as a financial liability if
+ it 
+\series bold
+carries an interest
+\series default
+.
+\end_layout
+
+\begin_layout Subsection
+The Accounting Approach
+\end_layout
+
+\begin_layout Standard
+2 adjustments are made to the accounting B/S to transform it:
+\end_layout
+
+\begin_layout Itemize
+Subtract the operational liabilities from the working capital to get the
+ net working capital.
+\end_layout
+
+\begin_layout Itemize
+Subtract the excess financial assets from the financial liabilities.
+ The logic is to assume that all the excess financial assets can pay the
+ liabilities.
+ It is a financial (not an economic) decision.
+ Even though usually all the cash & equivalents is used, a more advanced
+ approach is to first figure out how much of it is needed (e.g cash registry),
+ then split the 
+\begin_inset Quotes eld
+\end_inset
+
+cash
+\begin_inset Quotes erd
+\end_inset
+
+ asset.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Consider an example with a firm that has assets, liabilities and equity
+ equal to 100, 60 and 40 respectively.
+ What owning 90% of the firm means? Counterintuitively, having full control
+ of the firm, all assets are owned.
+ The equity of 40 is composed of 30 owned + 10 for non-controlling interest.
+\end_layout
+
+\begin_layout Subsection
+Example - TSLA analysis
+\end_layout
+
+\begin_layout Standard
+Each line in the B/S is first categorized, in order to calculate the total
+ values for each of the assets/liabilities subcategories.
+\end_layout
+
+\begin_layout Standard
+Patents are usually not included in the the B/S as intangible assets, unless
+ they were purchased.
+\end_layout
+
+\begin_layout Standard
+Non-controlling interest can be considered as a financial liability, as
+ failure to meet the obligations might end up with a bankruptcy.
+\end_layout
+
+\begin_layout Standard
+Finally, the economic balance sheet is calculated.
+\end_layout
+
+\begin_layout Standard
+Tesla have a 
+\series bold
+negative
+\series default
+ working capital - meaning they collect money form their customers, and
+ only later pay to the suppliers.
+\end_layout
+
+\begin_layout Standard
+There can be a difference between the book value and the market value.
+ The accounting value might represent the market value with a high or low
+ degree of precision (can be placed on a 
+\begin_inset Quotes eld
+\end_inset
+
+scale
+\begin_inset Quotes erd
+\end_inset
+
+ of 0%-100%).
+ The reason is that a company is no just a collection of assets, but also
+ enterpreneurship.
+ The market value takes into account the likelihood of the management making
+ efficient use of the firm's resources to extract cash, and find new positive
+ NPV projects.
+\end_layout
+
+\begin_layout Standard
+A high-tech company is an example of a company, for which the book value
+ is meaningless (almost no fixed assets).
+\end_layout
+
+\end_body
+\end_document
