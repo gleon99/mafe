@@ -1,0 +1,415 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+\usepackage{indentfirst}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2.5cm
+\topmargin 2.5cm
+\rightmargin 2.5cm
+\bottommargin 2.5cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Fixed Income Markets - Lecture 1
+\end_layout
+
+\begin_layout Author
+Leonid Genkin
+\end_layout
+
+\begin_layout Section
+Basic Concepts
+\end_layout
+
+\begin_layout Subsection
+Introduction
+\end_layout
+
+\begin_layout Standard
+In a fixed income security, the formula is fixed upfront.
+ It might be very simple, or complicated (depend on the BOI interest rate).
+ Its important feature is that it is 
+\series bold
+not subject to performance
+\series default
+.
+ It has the first priority in the cash flows (before the equity holders)
+ and lower risk.
+\end_layout
+
+\begin_layout Standard
+The amounts or the dates are not fixed, only the formula is.
+\end_layout
+
+\begin_layout Subsection
+Basid Definitions
+\end_layout
+
+\begin_layout Itemize
+Identification of the issuer (government / corporate / bank; might not be
+ so trivial in case of a group), the holders (not only their names but also
+ define who are the holders that can buy the bond - the rules might limit
+ to only foreign / institutional investors) and the trustee (represent the
+ interest of the issue holders).
+\end_layout
+
+\begin_layout Itemize
+Maturity (short / intermediate / long term) - change as time goes by; rebalancin
+g might be required to always hold a particular maturity
+\end_layout
+
+\begin_layout Itemize
+Par (principal/face/maturity) value
+\end_layout
+
+\begin_layout Itemize
+Price quotation (at discount / premium / par)
+\end_layout
+
+\begin_layout Itemize
+Full price is the agreed (clean) price + accured interest
+\end_layout
+
+\begin_layout Itemize
+Spot rate is the market price paid for buying the security
+\end_layout
+
+\begin_layout Itemize
+Par coupon and payment frequency
+\end_layout
+
+\begin_layout Itemize
+Par rate (interest rate on the par value)
+\end_layout
+
+\begin_layout Itemize
+Fixed vs.
+ floating (
+\begin_inset Quotes eld
+\end_inset
+
+variable
+\begin_inset Quotes erd
+\end_inset
+
+) rate bond: a coupon rate might rest according to some reference (possibly:
+ inverse, with cap/floor).
+\end_layout
+
+\begin_layout Itemize
+Zero-coupon bond: no interest payments, only at maturity (will be bought
+ at discount)
+\end_layout
+
+\begin_layout Itemize
+Deferred coupon bond: coupons are deferred for a specific period.
+\end_layout
+
+\begin_layout Itemize
+Cum-coupon / Ex-coupon: require the buyer to pay the seller accrued interest.
+\end_layout
+
+\begin_layout Itemize
+Amortization schedule: repayment of principal pre-maturity (some part goes
+ towards the interest, and a gradually increasing portion goes towards the
+ principal).
+ Bullet bonds have no amortization.
+\end_layout
+
+\begin_layout Itemize
+Annuity: equal payments at regular intervals.
+\end_layout
+
+\begin_layout Itemize
+Currency denomination: local / foreign.
+\end_layout
+
+\begin_layout Itemize
+Indexing: indexed to inflation rate (CPI) / exchange rate.
+\end_layout
+
+\begin_layout Itemize
+Covenants:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Affirmative (pay thev lender, pay taxes - preference over debt, reporting)
+\end_layout
+
+\begin_layout Itemize
+Negative (debt, dividend, ratios limitation)
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Collaterals: on assets and future cash flow.
+ A nonrecourse loan: the lender can look to the collaterals only in case
+ of delinquency.
+\end_layout
+
+\begin_layout Itemize
+Callable bond: the issuer can redeem at specific price/dates.
+\end_layout
+
+\begin_layout Itemize
+Puttable bond: the bondholder can redeem.
+\end_layout
+
+\begin_layout Itemize
+Convertible bond: can be converted by the bondholder to shares.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Regulation
+\end_layout
+
+\begin_layout Standard
+Fixed income markets are subject to commercial, customer protection, contract,
+ corporate laws.
+ In 2010 the following key points were adpoted: improving the transparency;
+ stability oversight council; tighting securitization rules; capital requirement
+s.
+\end_layout
+
+\begin_layout Standard
+There rules govern how a bond (or other security) can be traded.
+ HFT limitation (safeguard).
+\end_layout
+
+\begin_layout Standard
+MiFID II: improve corporate governanve; stronger investor protection; extend
+ transaction reporting and transparency.
+\end_layout
+
+\begin_layout Standard
+There are several regulators, most of them can be found in any country:
+ Banking supersvision (U.S: the Federal Reserve Bank), Insurance & Financial
+ Services supervision, Capital market supervision, Anti-trust supervision.
+\end_layout
+
+\begin_layout Subsection
+Fixed Income Market
+\end_layout
+
+\begin_layout Standard
+The U.S issues zero-coupon T-bills at discount (YTM), semiannual coupon bearing
+ T-note, T-bonds, TIPS.
+\end_layout
+
+\begin_layout Standard
+All treasuries are issued through a public bid and are traded through brokers
+ on the secondary market.
+ They are reinvestment, interest and inflation risk.
+\end_layout
+
+\begin_layout Standard
+The FI securities are federally-related institutions (implicit) or government-sp
+onsored enterprises (explicit).
+\end_layout
+
+\begin_layout Standard
+Municipal FI securities (towns / states) are generally less trusted than
+ the government (they cannot print money).
+\end_layout
+
+\begin_layout Standard
+Corporate FI securities consist of corporate bonds (secured / credit-enhanced),
+ notes and commercial papers.
+\end_layout
+
+\begin_layout Standard
+Israeli FI securities consist of: BOI bonds, capital market, shadow banking
+ (
+\begin_inset Quotes eld
+\end_inset
+
+credit
+\begin_inset Quotes erd
+\end_inset
+
+) and the banking system.
+ Some loans which hav epreviously been in the banking system, are now in
+ she shadow banking / capital market.
+\end_layout
+
+\begin_layout Subsection
+Collateralized Obligation
+\end_layout
+
+\begin_layout Standard
+The bank has expertise, facilities and access to customers.
+ It wants to sell off assets, to free up capital.
+ The individual assets are illiquid and risky.
+ By pooling them, it allows diversification of risk and improved predicatbility
+ of cash flow.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+SPV
+\series default
+ (Special Purpose Vehicle): Allows engineering the risk/yield/duration in
+ many ways.
+ All tranches usually receive interest payments over the entire life.
+ The principal payout is in the form of a 
+\begin_inset Quotes eld
+\end_inset
+
+waterfall
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection
+Interest Rates Interpretation
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Rate of return
+\series default
+ is the return required by an investor to accept an investment.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Discount rate 
+\series default
+is the time value of money (FCF discount).
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Opportunity cost
+\series default
+ is the rate foregone by choosing a particular investment.
+\end_layout
+
+\begin_layout Standard
+Thus, the nominal interest rate is the sum of: the real interest rate +
+ inflation + risk premium + liquidity premium + maturity premium.
+\end_layout
+
+\begin_layout Standard
+Usually the 
+\begin_inset Quotes eld
+\end_inset
+
+normal
+\begin_inset Quotes erd
+\end_inset
+
+ yield curve has an increasing shape (can be flat / inverted).
+\end_layout
+
+\begin_layout Standard
+The yield curve can make a 
+\series bold
+parallel
+\series default
+ shift (up / down) or a 
+\series bold
+twist
+\series default
+ shift (upward & flatten / downward & steepen).
+\end_layout
+
+\begin_layout Standard
+A 
+\series bold
+butterfly
+\series default
+ shift (negative / positive) is a change in curvature of the yield curve.
+\end_layout
+
+\end_body
+\end_document

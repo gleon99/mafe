@@ -1,0 +1,795 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+\usepackage{indentfirst}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2.5cm
+\topmargin 2.5cm
+\rightmargin 2.5cm
+\bottommargin 2.5cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Economic Growth - Lecture 1
+\end_layout
+
+\begin_layout Author
+Leonid Genkin
+\end_layout
+
+\begin_layout Standard
+The 
+\begin_inset Quotes eld
+\end_inset
+
+gapminder
+\begin_inset Quotes erd
+\end_inset
+
+ test: people tend to be pessimistic regarding the future, and even regarding
+ the present.
+ The fertility is decrasing around the world.
+ Most of the living children today have been vaccinated against some disease,
+ most of the world population has some access to elictricity.
+\end_layout
+
+\begin_layout Standard
+Extreme poverty is measured absolutely (people who live of less than 2$/day)
+ and not relatively (median income - like in rich countries).
+ The world today is much better than people think it is.
+ China is definitely not a poor country anymore, and even India is not as
+ poor as it used to be.
+\end_layout
+
+\begin_layout Section
+Introduction
+\end_layout
+
+\begin_layout Standard
+Asking an economist to describe the economic history in one picture, it
+ would be a graph of an income/capita vs.
+ time - not changing until the 19th century, when there was a change from
+ stagnation to a sustained economic growth.
+ We know that from (economic) historians - looking at books, analyzing wages,
+ real incomes, etc.
+ Once there are written records, we can make conclusions, though not very
+ accurately but quite precise, regarding the economy in the past.
+\end_layout
+
+\begin_layout Standard
+Going further back - archaeologists look at skeletons to learn about the
+ quality of life.
+\end_layout
+
+\begin_layout Standard
+The interesting thing is: looking up to the industrial revolution, the income
+ is quite stable (there are small fluctuations), but it converges to an
+ extreme poverty (>90% throughout most of history, <10% today), short life
+ expentancy, high child mortality.
+\end_layout
+
+\begin_layout Standard
+Sometimes, to answer questions about the difference between rich and poor
+ countries today - looking at our history is helpful.
+\end_layout
+
+\begin_layout Standard
+Looking back at the hunters-gatherers society - the had some innovations,
+ but they did not translate to an increase in qualty of life.
+ Despite being productive, people did not begin to live better.
+ Neither by introduction of farming, nor by domestication of some animals
+ - the quality of life did not increase, and income per capita did not go
+ up.
+ There are 3 fundamental questions in the theory of economic growth:
+\end_layout
+
+\begin_layout Enumerate
+What explains the experience of the last 200 years? What is the engine of
+ a sustained economic growth?
+\end_layout
+
+\begin_layout Enumerate
+Why, despite all productivity-increasing innovations, there is no increase
+ in income per capita?
+\end_layout
+
+\begin_layout Enumerate
+What explains the transition from stagnation to growth?
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Quotes eld
+\end_inset
+
+The great divergence
+\begin_inset Quotes erd
+\end_inset
+
+ - with the take-off from divergence to growth, some countries did not take
+ off, while other did.
+ The huge gap that opened.
+ What explains it? 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Suppose everyone in each country has the same income.
+ The world average would be $9909 (2009).
+ Singapore is the leaders, then the U.S, then Europe.
+ China, India and then the poorest countries in the would come afterwards.
+\end_layout
+
+\begin_layout Standard
+Only one quarter of the population of the would lives above the average.
+\end_layout
+
+\begin_layout Standard
+Looking at the inequality in the world and breaking it down to components,
+ we can see that most of the increase in world inequality is because of
+ the inequality between countries.
+ 200 years ago differences between countries were much smaller than they
+ are today.
+\end_layout
+
+\begin_layout Standard
+In the middle of the 20th century there is a drop in the inequality within
+ countries (an emergence of a middle class).
+\end_layout
+
+\begin_layout Standard
+Plotting life expectancy vs.
+ income per capita of countries we can see than there is a level-log relation
+ between them.
+\end_layout
+
+\begin_layout Standard
+Primary school enrollment rates improve very fast, being almost in 100%
+ in most countries around the world.
+ The gender (female-to-male) ratio is above 80% throughout the world today.
+\end_layout
+
+\begin_layout Standard
+The fact that the world is improving doesn't imply that we know the future.
+ Climate change is a significant threat on the world, and there are real
+ concerns related to it.
+\end_layout
+
+\begin_layout Subsection
+Rich Countries
+\end_layout
+
+\begin_layout Standard
+It is important to distinguish proximate vs.
+ ultimate causes.
+\end_layout
+
+\begin_layout Standard
+Proximate causes:
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Productivity and production factors
+\series default
+: in richer countries the workers are more productive and they have more
+ physical capital to work with.
+ There is a strong correlation between education and income per capita.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Efficiency
+\series default
+: the institutional framework (market economy vs, regulation), trade and
+ mobility restrictions, monopolies, financial system and government functioning
+ and many more differences that can explain why some countries are able
+ to produce more, given the same resources.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Institutions, culture and policy 
+\series default
+influence efficiency the most (property protection rights - from each other
+ and from the state, trust - a very important thing for economic growth).
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Ultimate causes:
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Diversity
+\series default
+: leads to inequality.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Geography (deep roots)
+\series default
+: land suitability, land locked countries, environmental countries (tropical
+ countries are generally poor).
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Sustained Growth
+\end_layout
+
+\begin_layout Standard
+A sustained economic growth is explained by an accumulation of productivity
+ factors and technological innovations.
+\end_layout
+
+\begin_layout Subsection
+Stagnation
+\end_layout
+
+\begin_layout Standard
+Why for tens of thousands of years people didn't become richer? The Malthusian
+ poverty trap (Thomas Malthus) states that population growth follows income
+ growth.
+ Inome per capita has a positive effect on population growth.
+\end_layout
+
+\begin_layout Standard
+The mechanism of the trap is that aggregate income grows, leading to population
+ growth, thus the income per capita doesn't grow.
+\end_layout
+
+\begin_layout Standard
+Malthus observed that low income leads to low fertility (positive check
+ and preventative check).
+\end_layout
+
+\begin_layout Standard
+Looking at the past - any innovation that increases productivity leads only
+ to an increase of population (the income per capita increase is only temporary).
+ Malthus predicted the same for the future - luckily, he was wrong, as humanity
+ has managed to escape the Malthusian poverty trap.
+\end_layout
+
+\begin_layout Subsection
+Escaping the Malthusian Trap
+\end_layout
+
+\begin_layout Standard
+As productive innovations accelerate, there is a rise in the demand for
+ skilled workers.
+ The world is changing, employers want workers that are able to read and
+ write and perform calculations.
+ People started to put more emphasis on the eduction of their children,
+ and states started to invest more in schools.
+\end_layout
+
+\begin_layout Standard
+The demographic transition: people stopped having as many children as 
+\begin_inset Quotes eld
+\end_inset
+
+the nature give
+\begin_inset Quotes erd
+\end_inset
+
+, and that is the key to escaping the trap.
+\end_layout
+
+\begin_layout Standard
+What are the reasons for it?
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Unified growth theory
+\series default
+:
+\series bold
+ 
+\series default
+More people imply more innovations.
+ There is a 
+\begin_inset Quotes eld
+\end_inset
+
+positive loop
+\begin_inset Quotes erd
+\end_inset
+
+ between education and innovation and demographic transition (better educated
+ people have more ideas).
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Random events
+\series default
+: the black death, enlightment, institutional reforms, market economy adoption,
+ etc.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The total fertility (babies per woman) has declined during the last 50 years
+ in most of the world, yet in Africa it did not decline that much.
+\end_layout
+
+\begin_layout Section
+The Solow Model
+\end_layout
+
+\begin_layout Standard
+The idea is to answer a very simple question.
+ We saw a correlation between physical capital and income per worker.
+ There is a positive feedback loop from capital to income, and back to capital.
+ It leads to the question: could that loop lead to a sustained economic
+ growth?
+\end_layout
+
+\begin_layout Standard
+The model assumes a constant technology and a discrete time measure with
+ production affected by labor and capital (
+\begin_inset Formula $L_{t}$
+\end_inset
+
+, 
+\begin_inset Formula $K_{t}$
+\end_inset
+
+) and a single good.
+\end_layout
+
+\begin_layout Standard
+Starting with some level of capital per worker, more capital today has a
+ positive effect on the capital 
+\begin_inset Quotes eld
+\end_inset
+
+tomorrow
+\begin_inset Quotes erd
+\end_inset
+
+, but there is also a nefgative effect of depreciation.
+ Will the economy necessarily converege? Can we ensure the positive effect
+ being stronger than the negative effect? - Analyze the model to answer
+ that.
+\end_layout
+
+\begin_layout Standard
+Assume the labor supply is given by:
+\begin_inset Formula 
+\[
+L_{t+1}=(1+n)L_{t}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The capital supply is:
+\begin_inset Formula 
+\[
+K_{t+1}=S_{t}+(1-\delta)K_{t}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Where 
+\begin_inset Formula $S_{t}$
+\end_inset
+
+ is aggregate saving and 
+\begin_inset Formula $\delta\in[0,1]$
+\end_inset
+
+ is the depreciation rate.
+\end_layout
+
+\begin_layout Standard
+We assume that 
+\begin_inset Formula $n+\delta>0$
+\end_inset
+
+: eventually the output of worker is deternined by the capital per worker.
+ Anything that has a negative effect on the numerator reduces it.
+ But the population growth might increase the denominator, which would reduce
+ the output as well.
+\end_layout
+
+\begin_layout Standard
+The output in period 
+\begin_inset Formula $t$
+\end_inset
+
+ is:
+\begin_inset Formula 
+\[
+Y_{t}=F(K_{t},L_{t})
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+We assume that the first derivatives are positive, and the second derivatives
+ are negative (diminishing marginal product).
+\end_layout
+
+\begin_layout Standard
+Assuming constant returns to scale:
+\begin_inset Formula 
+\[
+\lambda F(K_{t},L_{t})=F(\lambda K_{t},\lambda L_{t})
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+we can rewrite the function as:
+\begin_inset Formula 
+\[
+Y_{t}=L_{t}F(K_{t}/L_{t},1)\equiv L_{t}f(k_{t})
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Looking at different countries, it is very hard to find any link between
+ scale and productivity.
+\end_layout
+
+\begin_layout Standard
+On a micro level, there are economies of scale - but no at the aggregate
+ level.
+ There is no contradiction with having economies of scale within each factory/in
+dustry.
+\end_layout
+
+\begin_layout Standard
+Obviously, 
+\begin_inset Formula $f(0)=0$
+\end_inset
+
+ (there is no output without capital).
+ 
+\begin_inset Formula $f'(k_{t})>0$
+\end_inset
+
+ for any 
+\begin_inset Formula $k_{t}$
+\end_inset
+
+ and 
+\begin_inset Formula $f''(k_{t})<0$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+The output per capita as a function of capital per capita is a standard
+ production function (diminishing marginal product).
+\end_layout
+
+\begin_layout Standard
+Since it is a constant return to scale function, we can derive with respect
+ to 
+\begin_inset Formula $\lambda$
+\end_inset
+
+ and divide by 
+\begin_inset Formula $L_{t}$
+\end_inset
+
+, leading to the result:
+\begin_inset Formula 
+\[
+f(k_{t})-f'(k_{t})k_{t}=F_{L}>0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+which is the competitive wage per worker (the output he produces, net of
+ the capital he uses).
+\end_layout
+
+\begin_layout Standard
+Since 
+\begin_inset Formula $F(K_{t},L_{t})=F_{K}K_{t}+F_{L}L_{t}$
+\end_inset
+
+, differentiating with respect to 
+\begin_inset Formula $L_{t}$
+\end_inset
+
+, we find out that 
+\begin_inset Formula $F_{KL}>0$
+\end_inset
+
+.
+ It means that the two factors of productions are 
+\series bold
+complementary
+\series default
+.
+\end_layout
+
+\begin_layout Standard
+The aggregate saving is: 
+\begin_inset Formula 
+\[
+S_{t}=sY_{t},\,\,s\in[0,1]
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+(Saving is considered as a 
+\begin_inset Quotes eld
+\end_inset
+
+mechanical
+\begin_inset Quotes erd
+\end_inset
+
+ process, without any decision involved).
+\end_layout
+
+\begin_layout Standard
+Capital accumulation occurs by:
+\begin_inset Formula 
+\[
+K_{t+1}=S_{t}+(1-\delta)K_{t}=sL_{t}f(k_{t})+(1-\delta)K_{t}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+By definition, 
+\begin_inset Formula 
+\[
+k_{t+1}=\frac{K_{t+1}}{L_{t+1}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Substituting 
+\begin_inset Formula $K_{t+1}$
+\end_inset
+
+:
+\begin_inset Formula 
+\[
+k_{t+1}=\frac{sf(k_{t})+(1-\delta)k_{t}}{1+n}\equiv\phi(k_{t})
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The capital (per worker) equals: (the savings per worker, plus the previous
+ capital, net of depreciation), divided by the growth rate of the population
+ (which dilutes the accumulation of the fators of production).
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\phi(k_{t})$
+\end_inset
+
+ uniquely determines 
+\begin_inset Formula $K_{t+1}$
+\end_inset
+
+, thus having a given 
+\begin_inset Formula $K_{0}$
+\end_inset
+
+, all future values are known.
+\end_layout
+
+\begin_layout Standard
+The properties of 
+\begin_inset Formula $\phi$
+\end_inset
+
+ (derivatives) are similar to those of 
+\begin_inset Formula $f$
+\end_inset
+
+.
+ Notice that:
+\begin_inset Formula 
+\[
+lim_{k_{t}\rightarrow\infty}\phi'(k_{t})=\frac{1-\delta}{1+n}\in[0,1)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The economy grows if and only if the 
+\begin_inset Formula $\phi(k_{t})$
+\end_inset
+
+ function graph lies above the 
+\begin_inset Formula $45^{\circ}$
+\end_inset
+
+ line.
+\end_layout
+
+\begin_layout Standard
+Whenever the economy starts, it would always converge, and sustainable growth
+ can't be maintained by the positive feedback loop described above.
+\end_layout
+
+\begin_layout Standard
+Economically we learn from this model that there is no growth in the steady
+ state possible.
+ More than capital accumulation is needed (e.g innovation, human capital).
+ A steady state would be:
+\begin_inset Formula 
+\[
+\bar{k}=\phi(\bar{k})=\frac{sf(\bar{k})+(1-\delta)\bar{k}}{1+n}\Rightarrow(n+\delta)\bar{k}=sf(\bar{k})
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In the steady state, the capital per worker equals the effective depreciation
+ (taking into account the population growth).
+\end_layout
+
+\begin_layout Standard
+There are 2 steady states: 0 (which is unstable) and a stable 
+\begin_inset Formula $\bar{k}>0$
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
