@@ -1,0 +1,396 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+\usepackage{indentfirst}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2.5cm
+\topmargin 2.5cm
+\rightmargin 2.5cm
+\bottommargin 2.5cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Investments - Lecture 1
+\end_layout
+
+\begin_layout Author
+Leonid Genkin
+\end_layout
+
+\begin_layout Standard
+Decisions which affect the future need to be taken today under uncertainity.
+\end_layout
+
+\begin_layout Section
+Introduction
+\end_layout
+
+\begin_layout Subsection
+Fundamental Concepts
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Primary markets
+\series default
+ provide capital to copmanies, cities, countries, individuals for project
+ they want to push, by investors.
+ That is the fundamental nature of capitalism, which has been proven by
+ experience that, opposed to planned economy, is more efficient.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Secondary markets
+\series default
+ provide:
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Liquidity
+\series default
+ (some investors want to liquidate their position and sell it, others might
+ be willing to invest), for example the stock exchange which allows money
+ to flow.
+ People need access to money from time to time, and things sometimes change.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Transparency
+\series default
+: integrity is promoted, lying companies are punished and there is control,
+ in order to prevent fake news, and not keep investors away.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The market participants include:
+\end_layout
+
+\begin_layout Itemize
+Dealers, market makers, brokers.
+ Market makers hopefully try to earn the spread of the ask price being higher
+ than the bid price.
+\end_layout
+
+\begin_layout Itemize
+Individuals
+\end_layout
+
+\begin_layout Itemize
+Institutions
+\end_layout
+
+\begin_layout Itemize
+Hedge funds (usually are more sophisticated)
+\end_layout
+
+\begin_layout Itemize
+Private equity: are similar to hedge funds, but they buy companies and take
+ interest in them.
+\end_layout
+
+\begin_layout Itemize
+Governments & CBs: raise money by issuing bonds
+\end_layout
+
+\begin_layout Itemize
+Corporates
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Investment Strategies
+\end_layout
+
+\begin_layout Itemize
+Directional long/short - by performing a fundamental analysis.
+\end_layout
+
+\begin_layout Itemize
+Arbitrage - an example with ebay vs.
+ amazon (drop shipping).
+\end_layout
+
+\begin_layout Itemize
+Value / relative value - Assume some company would perform better than another
+ one.
+\end_layout
+
+\begin_layout Itemize
+Systematic, momentum - try to find patterns in prices and predict using
+ them.
+\end_layout
+
+\begin_layout Itemize
+Statistical arbitrage - there is a distribution of possible outcomes.
+ Based on the statistics, the market is 
+\begin_inset Quotes eld
+\end_inset
+
+out of line
+\begin_inset Quotes erd
+\end_inset
+
+, which provides an arbitrage opportunity.
+\end_layout
+
+\begin_layout Itemize
+Global Macro - instead of looking at the very low-level details (companies
+ / projects), look at the global level (countries / the whole economy /
+ currencies / interest rates).
+ Currencies capture, to some extent, the dircetion of the economy of a country.
+\end_layout
+
+\begin_layout Itemize
+Special situations - distressed companies.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+The Evolution of Academic Finance
+\end_layout
+
+\begin_layout Enumerate
+The old finance: financial statements and the nature of financial claims.
+\end_layout
+
+\begin_layout Enumerate
+Modern finance: value is not created only by changing the capital structure
+ (M&M).
+ The paradigms are; optimization, CAPM, EMH.
+\end_layout
+
+\begin_layout Enumerate
+The new finance: markets are no longer considered to be efficient.
+ Behavioral models are employed.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Behavioral Psychology
+\end_layout
+
+\begin_layout Standard
+Some irrational investment decisions can be predicted.
+ Is it possiblt to take advantage of it? - 
+\series bold
+Yes
+\series default
+.
+ For example, bookmakers (sports gambling) systematically able to predict
+ the outcome of a game better than an occasional bettor.
+\end_layout
+
+\begin_layout Subsection
+Asset Classes
+\end_layout
+
+\begin_layout Itemize
+F/X (foreign exchange): currencies
+\end_layout
+
+\begin_layout Itemize
+Equity: stocks, IPOs
+\end_layout
+
+\begin_layout Itemize
+Debt: loans, bonds (can be traded on the secondary market)
+\end_layout
+
+\begin_layout Itemize
+Commodities (typically traded on the futures market).
+ The buyer of the future option thinks the price would rise, somewhat similar
+ to gambling.
+\end_layout
+
+\begin_layout Itemize
+Real Estate: land, buildings.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Decision making under uncertainity
+\end_layout
+
+\begin_layout Standard
+Investment is about making decisions.
+ There is a framework for it (probability, statistics), but unfortunately
+ humans are usually not good at it.
+ They make 
+\series bold
+predictable
+\series default
+ errors when thinking fast.
+ People are usually risk averse in gains and risk seeking in losses.
+\end_layout
+
+\begin_layout Standard
+An interesting implication of that is in insurance.
+ It is a small guaranteed loss, to avoid a very high loss on a low probability.
+\end_layout
+
+\begin_layout Standard
+A 
+\series bold
+top-down
+\series default
+ portfolio construction is based on the aggregate characteristics.
+ A 
+\series bold
+bottom-up
+\series default
+ approch, by contrast, looks at each investment in isolation (
+\begin_inset Quotes eld
+\end_inset
+
+each investment should make sense by its own
+\begin_inset Quotes erd
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Section
+Probability & Statistics Review
+\end_layout
+
+\begin_layout Standard
+A discrete RV - can only take a finite / countable number of values.
+ A continuous RV can tak an uncountable number of values.
+\end_layout
+
+\begin_layout Standard
+The 
+\series bold
+covariance
+\series default
+ can be thought of as measure to how much two variables move in the same
+ direction or in opposite directions.
+ The 
+\series bold
+correlelation
+\series default
+ is the normalized version of the covariance.
+\end_layout
+
+\begin_layout Standard
+How can one estimate the future (joint) p.d.f of asset returns? Using historical
+ returns is easy, but the future may not be like the past.
+ Also, some assets do not have long enough history.
+\end_layout
+
+\end_body
+\end_document

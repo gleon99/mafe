@@ -1,0 +1,620 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+\usepackage{indentfirst}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2.5cm
+\topmargin 2.5cm
+\rightmargin 2.5cm
+\bottommargin 2.5cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Corporate Valuation - Lecture 2
+\end_layout
+
+\begin_layout Author
+Leonid Genkin
+\end_layout
+
+\begin_layout Standard
+In the previous lecture we adjusted the B/S to reflect assets (operational:
+ fixed, net w.c, intangible) + excess = net debt + equity.
+\end_layout
+
+\begin_layout Standard
+The operational assets are those that generate the expected cash flow.
+\end_layout
+
+\begin_layout Section
+Forecasting Cash Flows
+\end_layout
+
+\begin_layout Subsection
+Short-Term CF
+\end_layout
+
+\begin_layout Standard
+The lifecycle of a product/firm usually consists (roughly) of an introduction,
+ growth, maturity and decline phases.
+\end_layout
+
+\begin_layout Standard
+It is relevant, because in order to talk about a company that is 
+\series bold
+continually growing
+\series default
+ - it might be assumed that 
+\series bold
+new projects
+\series default
+ are always launched.
+\end_layout
+
+\begin_layout Standard
+There is an 
+\series bold
+upper limit
+\series default
+ to the growth a firm can have (market size limitation - consider for example
+ Apple, Tesla, etc).
+\end_layout
+
+\begin_layout Standard
+A firm cannot grow indefinitely, without innovationg new businesses and
+ operations.
+\end_layout
+
+\begin_layout Standard
+The higher the firm value is, the more innovative it has to be.
+\end_layout
+
+\begin_layout Standard
+The long-term growth rate is therefore capped, and cannot drastically differ
+ from the overall industry rate.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Short-term
+\series default
+ is commonly defined as ~5 years, whereas 
+\series bold
+long-term
+\series default
+ is usually 6+ years (reaching a steady state).
+ The reason that management is assumed to forecast and make plans to roughly
+ 5 years.
+ Sometimes there are exceptions (for example: a patent is 
+\series bold
+not
+\series default
+ a steady state, its short-term is >5 years; Kellogg's in Brazil).
+\end_layout
+
+\begin_layout Standard
+The 
+\series bold
+yield curve
+\series default
+ is one of the most important aspects in valuation.
+ It is usually increasing (with a decreasing slope), having main impact
+ in 5-10 years.
+ In most cases (70%-90% of valuations), 5 years is the appropriate cut-off,
+ yet it is worth knowing when to deviate from it.
+\end_layout
+
+\begin_layout Subsection
+Pro forma analysis
+\end_layout
+
+\begin_layout Standard
+Every valuation with a pro forma analysis has (either explicitly/implicitly)
+ the following information:
+\end_layout
+
+\begin_layout Itemize
+Revenue / Sales / Operations: it is the most important part, and most of
+ the efforts are put to forecast it.
+\end_layout
+
+\begin_layout Itemize
+COGS (without depreciation - in the academia it is a separate line, but
+ in reality it is usually accounted in the COGS).
+ Anyway, depreciaton must be included in some way.
+\end_layout
+
+\begin_layout Itemize
+Gross profit
+\end_layout
+
+\begin_layout Itemize
+Operating profit (EBIT) - assume the company is fully financed with equity
+ (ignore the question of 
+\begin_inset Quotes eld
+\end_inset
+
+how the firm is financed
+\begin_inset Quotes erd
+\end_inset
+
+ - it is dealt afterwards).
+ If depreciation is not subtracted, it will be EBITDA instead.
+\end_layout
+
+\begin_layout Itemize
+Taxes
+\end_layout
+
+\begin_layout Itemize
+NOPLAT / NOPAT.
+ The problem with it is that this figure is not informative (
+\begin_inset Quotes eld
+\end_inset
+
+profits are opinions, but cash is a fact
+\begin_inset Quotes erd
+\end_inset
+
+.
+ A company might report profits and burn cash, or repoert losses and generate
+ cash.
+ We do not care (in this context) about profits, but only about cash (
+\begin_inset Quotes eld
+\end_inset
+
+what we can extract from the firm).
+ There are 3 conversion that need to be done to convert the profit to FCF:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Add back depreciation (
+\begin_inset Quotes eld
+\end_inset
+
+it is a tax skim
+\begin_inset Quotes erd
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Itemize
+Subtract capital expenditures (purchase of new fixed assets).
+ Might be positive in case of assets liquidation (usually at the end of
+ a project).
+\end_layout
+
+\begin_layout Itemize
+Account for changes in working capital (inventory, A/R, A/P).
+\end_layout
+
+\end_deeper
+\begin_layout Subsection
+Top-Down Sales Projection
+\end_layout
+
+\begin_layout Standard
+First, consider the market (its size and the company share) and the whole
+ industry.
+ Example: Haifa port valuation.
+ There are 3 ports: Haifa, Ashdod (historically 50%-50%) and a Chinese port,
+ which will start operationg in the future.
+ First, a demand analysis is made, to find out the total demand function.
+ Then, a 
+\begin_inset Quotes eld
+\end_inset
+
+split
+\begin_inset Quotes erd
+\end_inset
+
+ between the Northern Israel and Center is considered (the price effect
+ is modeled as well - e.g cars are likely to be still shipped to Ashdod,
+ unlike metal).
+\end_layout
+
+\begin_layout Standard
+According to the first approach, 
+\begin_inset Quotes eld
+\end_inset
+
+the Chinese are going to steal every bit of import, to operate their port
+ at a full capacity
+\begin_inset Quotes erd
+\end_inset
+
+, then only the leftovers are in the Haifa port.
+ In such case, every marginal growth goes to Haifa.
+ 
+\begin_inset Quotes eld
+\end_inset
+
+If the situation is bad quantity-wise, it might be not so bad price-wise
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+An alternative approach is to compete and lower the prices.
+\end_layout
+
+\begin_layout Standard
+The top-down approach consists of:
+\end_layout
+
+\begin_layout Enumerate
+Defining the market
+\end_layout
+
+\begin_layout Enumerate
+Finding out the market size
+\end_layout
+
+\begin_layout Enumerate
+Determining the company's market share (strategic analysis).
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+It is sometimes reasonable to 
+\begin_inset Quotes eld
+\end_inset
+
+skip the first 4 years
+\begin_inset Quotes erd
+\end_inset
+
+ when arguing about forecasts.
+ Is removes irrelevant details, and focuses on the important questions and
+ understanding the scale.
+\end_layout
+
+\begin_layout Subsection
+Operating profits forecasting
+\end_layout
+
+\begin_layout Standard
+There are 3 options:
+\end_layout
+
+\begin_layout Itemize
+Specifically estimate cost items
+\end_layout
+
+\begin_layout Itemize
+Allocate costs to fixed / variable items.
+ Is the historical COGS an accurate estimate of the future? - It usually
+ is, but not always.
+ There are fixed & variable costs.
+ Sometimes the response function is 
+\begin_inset Quotes eld
+\end_inset
+
+step-wise
+\begin_inset Quotes erd
+\end_inset
+
+.
+ The question is: how much of the cost and fixed, and how much of it is
+ variable? The firm, its operations and the reasonable profitability margin
+ need to be understood.
+\end_layout
+
+\begin_layout Itemize
+Estimate EBIDTA (% of sales)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Operating costs as a linear function of sales can be plotted (using a regression
+), to determine the intercept and the plot (notice the 
+\begin_inset Formula $R^{2}$
+\end_inset
+
+).
+ In order to provide more accurate results, many data points are recommended,
+ and a separate estimate for each item.
+ Usually salaries are the most expensive item in SG&A, and a natural increase
+ is usually assumed over time.
+\end_layout
+
+\begin_layout Subsection
+Depreciation estimation
+\end_layout
+
+\begin_layout Standard
+Usually a constant ratio of gross/net fixed assets to sales is assumed.
+ This approach can be bad, as 
+\series bold
+gross
+\series default
+ assets are depreciated, thus looking at a ratio with net assets does not
+ make sense.
+\end_layout
+
+\begin_layout Standard
+Usually, the NFA/sales ratio can be actually projected.
+ The NFA might not depend on the sales (e.g Intel - 50% spare capacity),
+ but usually that is not the case.
+\end_layout
+
+\begin_layout Standard
+The depreciation is a function of the 
+\series bold
+historical
+\series default
+ figures (thus there is no circular reference).
+\end_layout
+
+\begin_layout Standard
+The 
+\begin_inset Quotes eld
+\end_inset
+
+easy route
+\begin_inset Quotes erd
+\end_inset
+
+ of not starting from the historical investment but form the NFA might lead
+ to inaccurate results.
+\end_layout
+
+\begin_layout Subsection
+Tax rate forecasting
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+The tax is hell
+\series default
+.
+ If there is access to the firm, it is always better to ask the exact tax
+ figures.
+\end_layout
+
+\begin_layout Standard
+Otherwise, a rule of thumb is taking the average (effective) tax rate.
+ In case of a valuation for a specific division/project in the firm, the
+ statutory tax rate is usually taken (23%-25%), assuming all tax benefits
+ remain in the firm.
+\end_layout
+
+\begin_layout Subsection
+Capex forecasting
+\end_layout
+
+\begin_layout Standard
+As discussed above, it comes form the depreciation schedule.
+\end_layout
+
+\begin_layout Subsection
+Investments forecasting
+\end_layout
+
+\begin_layout Standard
+The correct approach, which is rarely used in practice, is to estimate eash
+ item separately.
+\end_layout
+
+\begin_layout Standard
+An easier method is to make some assumption regarding the 
+\series bold
+cycle
+\series default
+ of the inventory:
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Flows
+\series default
+ approach: the 
+\series bold
+change
+\series default
+ in working capital is a constant percentage of the change in sales.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Stocks
+\series default
+ approach: the 
+\series bold
+total
+\series default
+ working capital is some percentage of the sales, and the change is a plug
+ number.
+ It is usually more stable and leads to more coherent numbers.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Illustration of operation
+\end_layout
+
+\begin_layout Standard
+In a simplified form, an activity of a firm can be described as a cycle
+ of:
+\end_layout
+
+\begin_layout Itemize
+Investing capital to produce NOPAT.
+ Recalling, invested capital consists of fixed assets, intangibles, NWC.
+\end_layout
+
+\begin_layout Itemize
+Return on invested capital (ROIC) is the NOPAT, divided by the invested
+ capital.
+\end_layout
+
+\begin_layout Itemize
+From the NOPAT, some portion is paid out (payout ratio), the remaining is
+ reinvested (at the reinvestment rate) back.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+A study made by McKinsey shows that ROIC of firms (divided to groups by
+ quantiles) tend to converge over time.
+ 
+\begin_inset Quotes eld
+\end_inset
+
+Low
+\begin_inset Quotes erd
+\end_inset
+
+ / 
+\begin_inset Quotes eld
+\end_inset
+
+high
+\begin_inset Quotes erd
+\end_inset
+
+ groups do not intersect.
+\end_layout
+
+\begin_layout Standard
+Consider an exmple with Tiv-Taam: it was purchased for $250M, and being
+ prepared for an IPO in 2007.
+ A consultancy firm valued it at $445M.
+\end_layout
+
+\begin_layout Standard
+The consultancy firm assummed that Tiv-Taam would grow roughly twice in
+ 5 years.
+ The asssumption was the NOPAT would grow x5.
+ Fixing the ROIC, increasing revenues requires more investment (basically,
+ more fixed assets are needed).
+\end_layout
+
+\begin_layout Standard
+The analysis assumes the ROIC would increase from ~5% to ~21% (much higher
+ than the usual profitability in the industry).
+\end_layout
+
+\begin_layout Standard
+The projections were way off, by assuming either too high NOPAT or too low
+ capex.
+\end_layout
+
+\begin_layout Standard
+The 
+\series bold
+implied ROIC 
+\series default
+line is very important to check.
+ Many practitioners miss it, and it might reveal mistakes in the analysis.
+\end_layout
+
+\end_body
+\end_document
