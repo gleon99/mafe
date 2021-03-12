@@ -1,0 +1,503 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+\usepackage{indentfirst}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2.5cm
+\topmargin 2.5cm
+\rightmargin 2.5cm
+\bottommargin 2.5cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Macro 2 - Lecture 2
+\end_layout
+
+\begin_layout Author
+Leonid Genkin
+\end_layout
+
+\begin_layout Section
+Monetary Theory and Policy: Foundations - Continued
+\end_layout
+
+\begin_layout Standard
+The Friedman rule: the amount of money does not affect the real economy
+ or the real interest rate.
+ It only affectes the value of money and the inflation.
+\end_layout
+
+\begin_layout Standard
+The optimal policy is to maximize the value of money.
+ It happens when the 
+\begin_inset Quotes eld
+\end_inset
+
+cost of holding money
+\begin_inset Quotes erd
+\end_inset
+
+ is set to zero (equals to the cost of producing money).
+\end_layout
+
+\begin_layout Standard
+However, thie rule completely ignores the possibility of having a shock
+ (crisis).
+\end_layout
+
+\begin_layout Standard
+There are 3 main lessons from the great depression:
+\end_layout
+
+\begin_layout Enumerate
+Accommodating monetary policy can disconnect the dangerous connection of
+ over-indebtedness and deflation.
+\end_layout
+
+\begin_layout Enumerate
+Inflation must not be negative, as deflation makes the recession worse.
+\end_layout
+
+\begin_layout Enumerate
+Thus, an inflation expectation is required - which is done by 
+\begin_inset Quotes eld
+\end_inset
+
+printing money
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\pi^{*}=2\%$
+\end_inset
+
+ is chosen, as a 
+\begin_inset Quotes eld
+\end_inset
+
+not too high and not too low
+\begin_inset Quotes erd
+\end_inset
+
+ value.
+\end_layout
+
+\begin_layout Standard
+There might be 3 reasons to deviate from it:
+\end_layout
+
+\begin_layout Itemize
+Measurement issues (CPI doesn't account for quality)
+\end_layout
+
+\begin_layout Itemize
+Response to a negative shock (Fisher equation)
+\end_layout
+
+\begin_layout Itemize
+Price rigidity (employers fire instead of reducing the wage)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Bitcon is 
+\series bold
+not
+\series default
+ money, but rather an asset or a method of transactions (its 
+\begin_inset Quotes eld
+\end_inset
+
+printing cost
+\begin_inset Quotes erd
+\end_inset
+
+ is not 0).
+\end_layout
+
+\begin_layout Standard
+There is no reason for monetary policy to target real asset prices.
+\end_layout
+
+\begin_layout Section
+The Taylor Rule
+\end_layout
+
+\begin_layout Standard
+The CB analyzes the GDP and targets a particular inflation rate by adjusting
+ the interest rate.
+\end_layout
+
+\begin_layout Standard
+Recently CBs started to add 
+\begin_inset Quotes eld
+\end_inset
+
+forward guidance
+\begin_inset Quotes erd
+\end_inset
+
+ to their statements.
+\end_layout
+
+\begin_layout Subsection
+Long-run Goals
+\end_layout
+
+\begin_layout Standard
+In most advanced countries, its goals are set by the government/law.
+\end_layout
+
+\begin_layout Enumerate
+Price stability: can be an inflation target.
+ Who decides what is 
+\begin_inset Quotes eld
+\end_inset
+
+stable
+\begin_inset Quotes erd
+\end_inset
+
+ and what is the optimal inflation? - The government / the CB.
+\end_layout
+
+\begin_layout Enumerate
+Support growth and employment: support or maximize? How does the CB interpret
+ the law? Not included in the ECB law.
+\end_layout
+
+\begin_layout Enumerate
+Support financial stability
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+These goals are explicit, and affect daily CB decisions.
+\end_layout
+
+\begin_layout Subsection
+CB Tools
+\end_layout
+
+\begin_layout Standard
+In the U.S, the CB has monopoly on the cash supply.
+ It can buy assets and issue short-term debt (in Israel: also 1-year debt
+ is possible).
+\end_layout
+
+\begin_layout Standard
+The CB can also provide loans to financial institutions, but 
+\series bold
+not 
+\series default
+directly to the government (independence of the CB).
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes eld
+\end_inset
+
+Open market operation
+\begin_inset Quotes erd
+\end_inset
+
+: setting the interest rate, buying assets and foreign currencies.
+\end_layout
+
+\begin_layout Standard
+Today most CBs use an onvernight interest rule as the key policy tool with
+ full independence.
+\end_layout
+
+\begin_layout Standard
+In practice, monetary policy is determined by a committee that meets ~8
+ times a year.
+ The way to implement a particular interest policy is by using private dealers,
+ which use loans to ensure the interest rate is in the desired range.
+\end_layout
+
+\begin_layout Subsection
+The theory & practice of interest rate policy rule
+\end_layout
+
+\begin_layout Standard
+The CB determines the inflation rate over time (in the long-run).
+\end_layout
+
+\begin_layout Standard
+Monetary policy can affect the output and employment only in the short-run
+ (
+\begin_inset Quotes eld
+\end_inset
+
+around their potential levels), by setting the interest rate.
+\end_layout
+
+\begin_layout Standard
+The main goal is to 
+\series bold
+minimize short-run fluctuations
+\series default
+, as deviation fron the long-run levels.
+\end_layout
+
+\begin_layout Standard
+They key is to affect the output and the inflation expectations.
+\end_layout
+
+\begin_layout Standard
+The 
+\begin_inset Quotes eld
+\end_inset
+
+
+\series bold
+potential level of output
+\series default
+
+\begin_inset Quotes erd
+\end_inset
+
+ is what would have been achieved with full employment and capital utilization.
+\end_layout
+
+\begin_layout Standard
+A key assumption is that monetary policy cannot change the potential output.
+\end_layout
+
+\begin_layout Standard
+The (un)employment level for measuring deviation from the 
+\begin_inset Quotes eld
+\end_inset
+
+potential output
+\begin_inset Quotes erd
+\end_inset
+
+ is recently debated.
+\end_layout
+
+\begin_layout Standard
+The potential log output can be estimated by the long-run trend of GDP.
+ Then the 
+\series bold
+output gap
+\series default
+ is the (normalized) difference of the real GDP from the potential GDP.
+\end_layout
+
+\begin_layout Standard
+An alternative approach for the output gap calculation is to take the difference
+ between the actual and the potential growth rate of the GDP.
+\end_layout
+
+\begin_layout Standard
+The theory says that the objective function of the CB is to 
+\series bold
+minimize the deviation of the inflation (and the output - in log terms)
+ from the target.
+
+\series default
+ It means that the goal is to set the interest rate, that would make this
+ deviation as low as possible.
+\end_layout
+
+\begin_layout Subsection
+The Taylor Rule
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+i_{t}=r^{*}+\pi_{t}+a(\pi_{t}-\pi^{*})+b(y_{t}-y^{*})
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $i_{t}$
+\end_inset
+
+ is the CB interest rate, 
+\begin_inset Formula $\pi_{t}$
+\end_inset
+
+ and 
+\begin_inset Formula $\pi^{*}$
+\end_inset
+
+ are the inflation (actual, target), 
+\begin_inset Formula $y_{t}$
+\end_inset
+
+ and 
+\begin_inset Formula $y^{*}$
+\end_inset
+
+ are the output (actual, target).
+\end_layout
+
+\begin_layout Standard
+It minimizes the inflation gap and the output gap.
+ According to it, the CB should smooth the interest rate to reach the target.
+ The nominal interst rate equals the inflation target, plus the weighted
+ average of the inflation gap and the output gap.
+\end_layout
+
+\begin_layout Subsection
+Questions on implementation
+\end_layout
+
+\begin_layout Standard
+The determination of the inflation target is done both by the government
+ and the CB (by law and by interpretation).
+\end_layout
+
+\begin_layout Standard
+The weights of the deviations are determined mainly by the CB policy makers.
+\end_layout
+
+\begin_layout Standard
+An error term in the Taylor rule (
+\begin_inset Formula $u_{t}$
+\end_inset
+
+) accounts for all 
+\begin_inset Quotes eld
+\end_inset
+
+other considerations
+\begin_inset Quotes erd
+\end_inset
+
+ than the inflation and the output.
+\end_layout
+
+\begin_layout Standard
+In the long run the gaps equal zero (
+\begin_inset Formula $u_{t}=0$
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Standard
+The inflation expectations tend to fulfill themselves, which is consistent
+ with the Taylor rule (target anchoring).
+\end_layout
+
+\begin_layout Standard
+The most important thing that allows CB to implement its policy - is having
+ monopoly in the money market.
+\end_layout
+
+\begin_layout Subsection
+Taylor rule in practice
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_body
+\end_document

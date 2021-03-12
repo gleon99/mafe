@@ -1,0 +1,630 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+\usepackage{indentfirst}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2.5cm
+\topmargin 2.5cm
+\rightmargin 2.5cm
+\bottommargin 2.5cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Economic Growth - Lecture 2
+\end_layout
+
+\begin_layout Author
+Leonid Genkin
+\end_layout
+
+\begin_layout Section
+The Solow Model - Continued
+\end_layout
+
+\begin_layout Standard
+Whenever the 
+\begin_inset Formula $\phi$
+\end_inset
+
+ function is above the 45-degree line, the economy grows.
+ When it lies below - the economy declines.
+ Anyway, eventually the economy converges to the steady state.
+\end_layout
+
+\begin_layout Standard
+A steady state is an equilibrium, such that 
+\begin_inset Formula $\bar{k}=\phi(\bar{k})$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+This equation has 2 solutions.
+ One of them is 0 (the trivial / unstable / unimportant) steady state, the
+ other one is non-trivial.
+\end_layout
+
+\begin_layout Subsection
+Properties of the steady state
+\end_layout
+
+\begin_layout Itemize
+Existence: a steady state might not exist at all, in case the economy diverges
+ (e.g infinite growth).
+\end_layout
+
+\begin_layout Itemize
+Uniqueness: if 
+\begin_inset Formula $\phi$
+\end_inset
+
+ crosses the 45-degree line more than once, the steady state might not be
+ unique.
+ We know that it is not the case, as the function is concave.
+\end_layout
+
+\begin_layout Itemize
+Stability: the equilibrium might be unstable, depending on the slope of
+ the 
+\begin_inset Formula $\phi$
+\end_inset
+
+ function.
+ The oscillations might leads to convergence/divergence.
+ The process will be monotonic/oscillatory, depending on whether the slope
+ is positive.
+ For the Solow model, the monotonic convergence case is the relevant one.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Comparative Statics
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\bar{k}$
+\end_inset
+
+ is positively affected by 
+\begin_inset Formula $s$
+\end_inset
+
+ and negatively affected by 
+\begin_inset Formula $n$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection
+Comparative Dynamics
+\end_layout
+
+\begin_layout Standard
+If the growth rate is:
+\begin_inset Formula 
+\[
+\gamma_{k_{t}}=\frac{k_{t+1}-k_{t}}{k_{t}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+then, it is positively affected by 
+\begin_inset Formula $s$
+\end_inset
+
+, and negative affected by 
+\begin_inset Formula $n$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+As an economy approaches the steady state, the growth rate declines and
+ gradually approaches 0.
+ It is an important result, with implications on the economy convergence.
+\end_layout
+
+\begin_layout Subsection
+Conclusions
+\end_layout
+
+\begin_layout Standard
+The main conclusion is that there is no long-run growth, unless there is
+ a technological progress.
+ Only accumulating physical capital does not provide growth.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes eld
+\end_inset
+
+Convergence
+\begin_inset Quotes erd
+\end_inset
+
+ mean that poor countries grow faster than rich ones.
+\end_layout
+
+\begin_layout Standard
+Does the Solow model predict global convergence? - No, because countries
+ are different (savings rate, fertility, productivity, etc).
+ It only ensures 
+\series bold
+conditional
+\series default
+ convergence, but not global convergence.
+\end_layout
+
+\begin_layout Standard
+Soviet union: a centralized state forced high savings rate.
+ According to the Solow model, it is not sustainable.
+\end_layout
+
+\begin_layout Section
+Overlapping Generations Model
+\end_layout
+
+\begin_layout Standard
+The basic idea is an 
+\begin_inset Quotes eld
+\end_inset
+
+extension
+\begin_inset Quotes erd
+\end_inset
+
+ or alternative to the Solow model.
+\end_layout
+
+\begin_layout Standard
+In the Solow model there is no optimization, and the savings rate is a parameter.
+\end_layout
+
+\begin_layout Standard
+In this model we consider individuals and decisions they make.
+ It is a discrete time model, with a generation in each time period.
+ The old people retire / die / quit the market, and a new generation takes
+ place.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes eld
+\end_inset
+
+Overlapping
+\begin_inset Quotes erd
+\end_inset
+
+ - because in each point in time there are 2 generations alive: the 
+\begin_inset Quotes eld
+\end_inset
+
+young
+\begin_inset Quotes erd
+\end_inset
+
+ and the 
+\begin_inset Quotes eld
+\end_inset
+
+old
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+The main reason people save is for retirement, and the overlapping generations
+ model is based on that.
+\end_layout
+
+\begin_layout Standard
+The production function is similar to that in the Solow model:
+\begin_inset Formula 
+\[
+Y_{t}=F(K_{t},L_{t})
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+with diminishing marginal product, and constant return to scale.
+\end_layout
+
+\begin_layout Standard
+Being a competitive model economy, prices are needed.
+ The wage per worker is 
+\begin_inset Formula $w_{t}=f(k_{t})-f'(k_{t})k_{t}$
+\end_inset
+
+.
+ In other words, each worker produces 
+\begin_inset Formula $f(k_{t})$
+\end_inset
+
+ but needs to pay for the capital, as it doesn't belong him.
+\end_layout
+
+\begin_layout Standard
+The adults have only wage income, and when they are old they become owners
+ and rent the capital.
+ The return is:
+\begin_inset Formula 
+\[
+R_{t}=f'(k_{t})+1-\delta
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+(the value of the capital, net of depreciation).
+\end_layout
+
+\begin_layout Standard
+To simplify the model, no population growth is assumed.
+ A generation is born every period and lives for 2 periods.
+ There is no decision on how much labor to supply, but individuals do have
+ choice on how much to consume/save.
+\end_layout
+
+\begin_layout Standard
+The preferences of the individuals are represented by a utility function:
+\begin_inset Formula 
+\[
+u_{t}=u(c_{t}^{y},c_{t+1}^{o})
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+(consumption in young and old age).
+\end_layout
+
+\begin_layout Standard
+The budget constraint is that consumption in the second period is the savings
+ + return:
+\begin_inset Formula 
+\[
+c_{t+1}^{0}=R_{t+1}s_{t}^{y}=R_{t+1}[w_{1}-c_{t}^{y}]\Rightarrow c_{t}^{y}+\frac{c_{t+1}^{0}}{R_{t+1}}=w_{t}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The saving is the function of the wage and return to capital:
+\begin_inset Formula 
+\[
+s_{t}^{y}=s(w_{t},R_{t+1})
+\]
+
+\end_inset
+
+Unlike the Solow model, here 
+\begin_inset Formula $s$
+\end_inset
+
+ represents the saving itself (not the fraction).
+ As aggregate consumption is a normal good:
+\begin_inset Formula 
+\[
+\frac{ds_{t}}{dw_{t}}>0;\,\,\frac{ds_{t}}{dR_{t+1}}\geq0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Actually, 
+\begin_inset Formula $\frac{ds_{t}}{dw_{t}}<1$
+\end_inset
+
+ (otherwise an increase in wage would reduce current consumption).
+\end_layout
+
+\begin_layout Standard
+The second assumption is not obvious, as it depends on the income effect
+ (more income - consume today) vs.
+ substitution effect (incentive to save more).
+ The economic theory doesn't predict which one is stronger, thus some assumption
+ is to be made.
+\end_layout
+
+\begin_layout Standard
+Individuals has a utility function.
+ They try to maximize it subject to the budget constraint, which results
+ in a decision regarding the savings.
+\end_layout
+
+\begin_layout Subsection
+The evolution of capital
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+K_{t+1}=Ls_{t}^{y}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The capital in the next period is the savings from the current period.
+\end_layout
+
+\begin_layout Standard
+The depreciation is not there, because it has a very limited effect (unlike
+ the Solow model) - the capital is consumed by the hold generation each
+ period.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+k_{t+1}=\phi(k_{t})
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+The dynamical system
+\end_layout
+
+\begin_layout Standard
+Unlike the Solow model, here 
+\begin_inset Formula $\phi$
+\end_inset
+
+ is not necessarily concave, but can be convex as well.
+\end_layout
+
+\begin_layout Standard
+It is possible that when income is low, people save less (compared to higher
+ income, when they save a higher portion.
+\end_layout
+
+\begin_layout Standard
+An infinite growth is not possible, as:
+\begin_inset Formula 
+\[
+\phi(k_{t})=s_{t}\leq w_{t}\leq f(k_{t})
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+People cannot save more than they wage, and the wage cannot be more than
+ the capital.
+\end_layout
+
+\begin_layout Standard
+The aggregate saving in the economy is 
+\begin_inset Formula $s_{t}=s_{t}^{y}=s_{t}^{o}$
+\end_inset
+
+, where 
+\begin_inset Formula $s_{t}^{o}=-(1-\delta)k_{t}$
+\end_inset
+
+ and 
+\begin_inset Formula $s_{t}^{y}=k_{t+1}$
+\end_inset
+
+.
+ The old consume the income and the capital, net of depreciation.
+ 
+\end_layout
+
+\begin_layout Standard
+In the steady state:
+\begin_inset Formula 
+\[
+s_{t}=k_{t+1}-(1-\delta)k_{t}\Rightarrow s_{t}=\delta k
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+meaning 
+\series bold
+saving equals deprecciation
+\series default
+.
+\end_layout
+
+\begin_layout Subsection
+Cobb-Douglas production function
+\end_layout
+
+\begin_layout Standard
+Assuming 
+\begin_inset Formula $F(K_{t},L_{t})=AK_{t}^{\alpha}L_{t}^{1-\alpha}=L_{t}Ak_{t}^{\alpha}$
+\end_inset
+
+ the utility is:
+\begin_inset Formula 
+\[
+u_{t}=u(c_{t},c_{t+1})=ln(c_{t})+\frac{1}{1+\rho}ln(c_{t+1})
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+where 
+\begin_inset Formula $\rho$
+\end_inset
+
+ is the future discount rate.
+ The optimization is:
+\begin_inset Formula 
+\[
+s_{t}=\frac{1}{2+\rho}w_{t}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In this function, the interest rate, although affects the resulting total
+ capital - doesn't change the savings rate.
+\end_layout
+
+\begin_layout Standard
+In the general case, multiple steady state equilibria are possible.
+\end_layout
+
+\begin_layout Standard
+* Comment on problem set #1: to find the 
+\begin_inset Quotes eld
+\end_inset
+
+golden rule
+\begin_inset Quotes erd
+\end_inset
+
+, plot savings, capital.
+ depreciation per worker.
+ What is the consumption in that figure? How to maximize it?
+\end_layout
+
+\begin_layout Standard
+Given a savings rate, steady state is determined.
+ The golden rule is such that the consumption is maximized.
+\end_layout
+
+\begin_layout Standard
+* Comment on problem set #2: the first question is very mechanical (
+\begin_inset Quotes eld
+\end_inset
+
+no need to think
+\begin_inset Quotes erd
+\end_inset
+
+) - it illustrates how results differ depending on the model.
+ The second question is hard.
+ It is designed to capture the exact idea of the equilibrium and rational
+ expectations.
+\end_layout
+
+\end_body
+\end_document
