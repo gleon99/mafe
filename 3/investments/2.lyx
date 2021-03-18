@@ -1,0 +1,721 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+\usepackage{indentfirst}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2.5cm
+\topmargin 2.5cm
+\rightmargin 2.5cm
+\bottommargin 2.5cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Investments - Lecture 2
+\end_layout
+
+\begin_layout Author
+Leonid Genkin
+\end_layout
+
+\begin_layout Section
+Portfolio Optimization
+\end_layout
+
+\begin_layout Standard
+The assumpiton is that there is a universe of 
+\begin_inset Formula $N$
+\end_inset
+
+ assets, and the 
+\begin_inset Quotes eld
+\end_inset
+
+best
+\begin_inset Quotes erd
+\end_inset
+
+ portfolio is to be determined.
+\end_layout
+
+\begin_layout Standard
+The 
+\begin_inset Quotes eld
+\end_inset
+
+best
+\begin_inset Quotes erd
+\end_inset
+
+ - in terms of risk and return.
+\end_layout
+
+\begin_layout Standard
+The available data should include the means and the covariance on the assets
+ returns.
+\end_layout
+
+\begin_layout Standard
+The estimates of the future returns (expected value) and covariance is the
+ core of the portfolio theory.
+\end_layout
+
+\begin_layout Standard
+Some simplifying assumptions are made: a.e.b.e, higher return / lower risk
+ is always preferred; transactions are cost-free.
+\end_layout
+
+\begin_layout Standard
+We assume investors equate risk with uncertainity, which is measured by
+ 
+\series bold
+variance
+\series default
+.
+\end_layout
+
+\begin_layout Standard
+The fraction invested in the 
+\begin_inset Formula $i^{th}$
+\end_inset
+
+ asset is 
+\begin_inset Formula $w_{i}$
+\end_inset
+
+.
+ The investors is assumed to be fully invested:
+\begin_inset Formula 
+\[
+\sum_{i=1}^{N}w_{i}=1
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Other possible constraints:
+\end_layout
+
+\begin_layout Itemize
+No short sales are allowed (
+\begin_inset Formula $w_{i}\geq0$
+\end_inset
+
+) - especially relevant in mutual funds
+\end_layout
+
+\begin_layout Itemize
+No overconcentration (
+\begin_inset Formula $w_{i}\leq0.2$
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Itemize
+A minimum allocation (
+\begin_inset Formula $w_{i}\geq0.05$
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Standard
+Given a portfolio 
+\begin_inset Formula $P$
+\end_inset
+
+ with 
+\begin_inset Formula $w_{1}$
+\end_inset
+
+ and 
+\begin_inset Formula $w_{2}$
+\end_inset
+
+, the expected return is:
+\begin_inset Formula 
+\[
+E[R_{P}]=w_{1}E[R_{1}]+w_{2}E[R_{2}]
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+and the variance is:
+\begin_inset Formula 
+\[
+Var[R_{P}]=w_{1}^{2}Var[R_{1}]+w_{2}^{2}Var[R_{2}]+2w_{1}w_{2}Cov[R_{1},R_{2}]
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Denoting the covariance matrix as 
+\begin_inset Formula $\Sigma$
+\end_inset
+
+, 
+\begin_inset Formula $Var[R_{P}]=[w_{1}w_{2}]\Sigma\left[\begin{array}{c}
+w_{1}\\
+w_{2}
+\end{array}\right]$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The problem is determining the optimal values for the weights, using past
+ data (future covariances forecast allows using them for better results).
+\end_layout
+
+\begin_layout Standard
+Denoting the vector of the expected returns with 
+\begin_inset Formula $\mu$
+\end_inset
+
+, the problem is to minimize 
+\begin_inset Formula $\frac{1}{2}w^{t}\Sigma w$
+\end_inset
+
+ subject to 
+\begin_inset Formula $w^{t}\mu=m$
+\end_inset
+
+ and 
+\begin_inset Formula $\sum_{i=1}^{N}w_{i}=1$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+There is an explicit solution for the problem by the optimal portfolio theorem:
+\begin_inset Formula 
+\[
+w=y+mz
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+y=\frac{1}{\Delta}[(\mu^{t}\Sigma^{-1}\mu)\Sigma^{-1}1_{n}-(1_{n}^{t}\Sigma^{-1}\mu)\Sigma^{-1}\mu]
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\text{z=\ensuremath{\frac{1}{\Delta}[(1_{n}^{t}\Sigma^{-1}1_{n})\Sigma^{-1}\mu-(\mu^{t}\Sigma^{-1}1_{n})\Sigma^{-1}1_{n}]}}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\Delta=(\mu^{t}\Sigma^{-1}\mu)(1_{n}^{t}\Sigma^{-1}1_{n})-(\mu^{t}\Sigma^{-1}1_{n})^{2}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The result is the 
+\series bold
+two-fund separation theorem
+\series default
+: Given 2 optimal portfolios, any other one is a linear combination of them.
+\end_layout
+
+\begin_layout Standard
+The S&P 500 can be partitioned by industry segment.
+ Investors can invest using a corresponding ETF.
+\end_layout
+
+\begin_layout Standard
+In the long-term, the various segments are highly correlated with each other.
+ But in the short-term, the correlation is weak, and even negative for some
+ of them.
+\end_layout
+
+\begin_layout Standard
+The variance is in other units than the return, therefore cannot be compared
+ to it.
+\end_layout
+
+\begin_layout Quote
+\begin_inset Quotes eld
+\end_inset
+
+An unexpected profit is not a risk
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Try to find the case, where the returns distribution is 
+\series bold
+asymmetrical
+\series default
+ (the risk 
+\begin_inset Quotes eld
+\end_inset
+
+goes the other way
+\begin_inset Quotes erd
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Standard
+If 
+\begin_inset Formula $r_{ti}$
+\end_inset
+
+ is the return on security 
+\begin_inset Formula $i$
+\end_inset
+
+ for period 
+\begin_inset Formula $t$
+\end_inset
+
+ and 
+\begin_inset Formula $bm_{t}$
+\end_inset
+
+ is the return of a benchmark at period 
+\begin_inset Formula $t$
+\end_inset
+
+, then for any portfolio 
+\begin_inset Formula $w$
+\end_inset
+
+ and 
+\begin_inset Formula $E$
+\end_inset
+
+, the semi-variance versus mean is defined as:
+\begin_inset Formula 
+\[
+S_{E}(w)\equiv\frac{1}{T}\sum_{t=1}^{T}\left\{ \left(\sum_{i=1}^{n}r_{ti}w_{i}-E\right)^{-}\right\} ^{^{2}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+with 
+\begin_inset Formula 
+\[
+z^{-}=\begin{cases}
+|z| & z<0\\
+0 & z\geq0
+\end{cases}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The semi-variance versus benchmark is defined similarly, by replacing 
+\begin_inset Formula $E$
+\end_inset
+
+ with 
+\begin_inset Formula $bm_{t}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+The problem of optimizing 
+\begin_inset Formula $S_{E}(w)$
+\end_inset
+
+ is not in quadratic form.
+ It is possible to transform it, by introducing the Sharpe ratio and the
+ Sortino ratio.
+\end_layout
+
+\begin_layout Section
+Risk Aversion
+\end_layout
+
+\begin_layout Standard
+In order to 
+\series bold
+quantify
+\series default
+ the preference regarding risk and return, we assume that people like high
+ expected returns 
+\begin_inset Formula $E(\tilde{r})$
+\end_inset
+
+ and dislike high variance 
+\begin_inset Formula $\sigma^{2}(\tilde{r})$
+\end_inset
+
+.
+ Their utility is:
+\begin_inset Formula 
+\[
+U(\tilde{r})=E(\tilde{r})-\frac{1}{2}\sigma^{2}(\tilde{r})
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The question is: what is 
+\begin_inset Formula $A$
+\end_inset
+
+? The higher 
+\begin_inset Formula $A$
+\end_inset
+
+ - the higher an investor's dislike of risk.
+\end_layout
+
+\begin_layout Standard
+Denoting 
+\begin_inset Formula $\sigma^{2}(\tilde{r})$
+\end_inset
+
+ as 
+\begin_inset Formula $x$
+\end_inset
+
+ and 
+\begin_inset Formula $E(\tilde{r})$
+\end_inset
+
+ as 
+\begin_inset Formula $y$
+\end_inset
+
+, it is possible to depict the preferences as indifference curves which
+ yield the same utility 
+\begin_inset Formula $U(x,y)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Investors who are more risk-averse, need to get more compensation for taking
+ risk.
+\end_layout
+
+\begin_layout Standard
+Two-fund separation is a 
+\series bold
+key
+\series default
+ result in porftolio theory, which reduces the investment problem to 2 phases:
+ (1) find the optimal portfolio, (2) find the best combination of it with
+ the risk-free asset.
+\end_layout
+
+\begin_layout Standard
+The 
+\begin_inset Quotes eld
+\end_inset
+
+price of risk
+\begin_inset Quotes erd
+\end_inset
+
+ is the return premium per unit of portfolio risk, a.k.a Sharpe ratio.
+\end_layout
+
+\begin_layout Standard
+In order to choose a specific portfolio from the capital allocation line,
+ the utility function is used.
+\end_layout
+
+\begin_layout Standard
+The expected return on such portfolio is:
+\begin_inset Formula 
+\[
+E(\tilde{r}_{p})=r_{f}+wE(\tilde{r}_{A}^{e})
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+As adding a constant to a random variable does not change its variance,
+ the variance of such portfolio is 
+\begin_inset Formula $w^{2}\sigma_{A}^{2}$
+\end_inset
+
+ (as if it was without the risk-free asset).
+\end_layout
+
+\begin_layout Standard
+The 
+\series bold
+capital allocation line
+\series default
+ defines the set of investment possibilities created by those combinations.
+ It shows all possible risk-return combinations.
+\end_layout
+
+\begin_layout Standard
+Each value of risk aversion corresponds to a particular point on the CAL
+ (which is a unique portfolio).
+\end_layout
+
+\begin_layout Standard
+Having 2 risky assets produces 2 different CALs.
+ Combining them both results in a tangency portfolio, which provides the
+ steepest CAL.
+\end_layout
+
+\begin_layout Standard
+Diversification with less than perfect correlation always improves a portfolio
+ (though there is a disagreement on that).
+\end_layout
+
+\begin_layout Section
+Short Sales
+\end_layout
+
+\begin_layout Standard
+The traditional way to make profit is to 
+\begin_inset Quotes eld
+\end_inset
+
+buy low
+\begin_inset Quotes erd
+\end_inset
+
+, then 
+\begin_inset Quotes eld
+\end_inset
+
+sell high
+\begin_inset Quotes erd
+\end_inset
+
+.
+ It is also possible to do the opposite: first 
+\begin_inset Quotes eld
+\end_inset
+
+sell high
+\begin_inset Quotes erd
+\end_inset
+
+, then 
+\begin_inset Quotes eld
+\end_inset
+
+buy low
+\begin_inset Quotes erd
+\end_inset
+
+.
+ It can be done by 
+\series bold
+borrowing
+\series default
+ (which imposes a fee).
+ A key assumption here is that securities are 
+\series bold
+fungible
+\series default
+.
+\end_layout
+
+\begin_layout Standard
+When buying shares long, one does not know or care whether these shares
+ come from someone who sold short.
+\end_layout
+
+\begin_layout Standard
+The short seller is the 
+\series bold
+borrower
+\series default
+, and their supplier is the 
+\series bold
+lender
+\series default
+.
+\end_layout
+
+\begin_layout Standard
+The borrower and the supplier do not directly comunicate with each other
+ - it all goes through the broker.
+\end_layout
+
+\begin_layout Standard
+It is possible that the total shares held by investors is more than issued
+ - in case of short sells.
+\end_layout
+
+\begin_layout Standard
+If a dividend is declared, the short sellers must pay it.
+ If there is a shareholders meeting, the lenders give up the right to vote.
+\end_layout
+
+\begin_layout Standard
+In the past, the brokers are those who make money of lending shares.
+ Since then it has become more competitive, and institutional investors
+ do get profit form lending their shares.
+\end_layout
+
+\begin_layout Standard
+The risk in lending the shares is the possibility of the borrrower to become
+ bankrupt, but there are some protectino mechanisms against that (e.g margin).
+\end_layout
+
+\begin_layout Standard
+There are a lot of emotions and criticizm around short selling.
+ Its advocates claim for 
+\begin_inset Quotes eld
+\end_inset
+
+price discovery
+\begin_inset Quotes erd
+\end_inset
+
+ mechanism - it is only when the investors are able to express themselves,
+ both postiively and negatively, an unbiased assessment of the value of
+ a stock (
+\begin_inset Quotes eld
+\end_inset
+
+fair value
+\begin_inset Quotes erd
+\end_inset
+
+) can be achieved.
+ Without that, the only way to express a negative opinion on a stock would
+ be to hold it, which means that only investors with a positive opinion
+ would be represented.
+\end_layout
+
+\begin_layout Standard
+On the critic side, one can argue that there is a negative contribution,
+ as short sellers 
+\begin_inset Quotes eld
+\end_inset
+
+encourage
+\begin_inset Quotes erd
+\end_inset
+
+ companies to fell.
+ Companies tend to hate short sellers, and politicians as well (as they
+ usually get contributions form companies).
+\end_layout
+
+\end_body
+\end_document

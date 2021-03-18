@@ -1,0 +1,468 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+\usepackage{indentfirst}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2.5cm
+\topmargin 2.5cm
+\rightmargin 2.5cm
+\bottommargin 2.5cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Corporate Valuation - Lecture 3
+\end_layout
+
+\begin_layout Author
+Leonid Genkin
+\end_layout
+
+\begin_layout Section
+Homework 1 Solution
+\end_layout
+
+\begin_layout Itemize
+According to the accounting rule, the COGS and SG&A already 
+\series bold
+include
+\series default
+ the depreciation for the relevant items.
+ Thus, subtracting them from the gross profit yields the EBIT.
+\end_layout
+
+\begin_layout Itemize
+As far as depreciation is concerned, there is an underlying assumption that
+ the current balance is constructed of different periods, thus it is depreciated
+ on the average (
+\begin_inset Quotes eld
+\end_inset
+
+half-life
+\begin_inset Quotes erd
+\end_inset
+
+).
+ In reality, the best thing would be to go a few years back and take investments
+ starting from there.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Mid-year discounting
+\series default
+: as in reality cash dlow is not generated at the end of the year but continuous
+ly, it is more reasonable to discount using half of the discount rate 
+\begin_inset Formula $(1+r)^{0.5}$
+\end_inset
+
+ (or 1.5, 2.5, ...) - then the 
+\series bold
+discount factor 
+\series default
+can be calculated.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Enterprise Value
+\series default
+ is different for short-term / long-term.
+ The short-term EV consists of the sum of the next 5 years.
+ The long-term EV is calculated according to the frowing perpetuity model.
+ As it is delayed, it needs to be discounted to the present.
+\end_layout
+
+\begin_layout Itemize
+The payout ratio it 
+\begin_inset Formula $FCF/NOPAT$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Forecasting Cash Flows - Continued
+\end_layout
+
+\begin_layout Standard
+Almost no firm can be consistently above the growth rate in the long-term.
+ On average, all the firms converge to a nominal growth rate of about 5%.
+ Having understood that, we can imply that in the long-term the growth rate
+ is mostly capped by the industry/market/economy/population growth rate
+ (e.g diapers market).
+\end_layout
+
+\begin_layout Standard
+The long-term growth rate will be the multiplication of 2 numbers: the reinvestm
+ent rate and the ROIC.
+ RONIC is sometimes used as the 
+\begin_inset Quotes eld
+\end_inset
+
+return on 
+\series bold
+new
+\series default
+ invested capital
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+In most of actual valuations, the capex and the depreciation are assumed
+ to almost converge in a representative year.
+ But this implication generates an 
+\series bold
+internal inconsistency
+\series default
+.
+\end_layout
+
+\begin_layout Standard
+When reading a valution, the relationship between the 
+\series bold
+NOPAT
+\series default
+ and the 
+\series bold
+FCF
+\series default
+ is of importance.
+\end_layout
+
+\begin_layout Standard
+Assuming the FCF is almost equal to the NOPAT means that there is almost
+ no reinvestment (the payout ratio is close to 100%).
+ Therefore, even without knowing anything particular about the firm - having
+ too high FCF contradicts the assumption about the growth rate.
+\end_layout
+
+\begin_layout Standard
+Having an assumption of a long-term growth for a company which does not
+ invest does not make sense.
+\end_layout
+
+\begin_layout Standard
+Assuming particular vlaues for the long-term growth rate and the ROIC, the
+ FCF or a representative year can be calculated and the plugged in the long-term
+ EV calculation.
+\end_layout
+
+\begin_layout Section
+WACC
+\end_layout
+
+\begin_layout Standard
+The WACC is among the most discussed items in the valuation, as it might
+ have dramatic impact on it.
+\end_layout
+
+\begin_layout Standard
+Yet the cash flows are actually more imporatnt than it.
+\end_layout
+
+\begin_layout Standard
+When discounting the operational FCF, there are 2 candidates for the cost
+ of capital: the 
+\begin_inset Formula $r_{a}$
+\end_inset
+
+ (return on assets, which is also called 
+\begin_inset Formula $r_{e}^{u}$
+\end_inset
+
+ - return on equity in an unlevered firm) and the WACC.
+\end_layout
+
+\begin_layout Standard
+By the M&M model, 
+\begin_inset Formula $V_{L}=V_{U}+D\cdot t_{c}$
+\end_inset
+
+.
+ Discounting by 
+\begin_inset Formula $r_{u}^{e}$
+\end_inset
+
+ will yield the 
+\begin_inset Formula $V_{U}$
+\end_inset
+
+, then the debt value component must be added manually.
+\end_layout
+
+\begin_layout Standard
+If discounting with WACC instead - the levered value will be directly obtained.
+\end_layout
+
+\begin_layout Standard
+In practice, using WACC is usually easier, and the separate values of 
+\begin_inset Formula $V_{U}$
+\end_inset
+
+ and 
+\begin_inset Formula $D\cdot t_{c}$
+\end_inset
+
+ are usually irrelevant.
+\end_layout
+
+\begin_layout Standard
+The WACC is given by:
+\begin_inset Formula 
+\[
+WACC=\frac{E}{E+D}r_{E}+\frac{D}{E+D}r_{D}(1-t_{c})
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The 
+\begin_inset Formula $\frac{D}{E+D}$
+\end_inset
+
+ raio is sometimes called 
+\begin_inset Quotes eld
+\end_inset
+
+gearing
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection
+Market Value of Equity
+\end_layout
+
+\begin_layout Standard
+The market value of equity can be estimated by multiplying the number of
+ outstanding share by the market price of a share.
+\end_layout
+
+\begin_layout Subsection
+Market Value of Debt
+\end_layout
+
+\begin_layout Standard
+The net debt is the debt, excluding cash & cash equivalents.
+ It is important to always use the 
+\series bold
+market
+\series default
+ value consistently.
+\end_layout
+
+\begin_layout Standard
+Determining of the market value of the debt might not be trivial.
+ When the market value is not available, the amortization table of loans
+ can be used to determine the present value.
+ In practice, it is usually replaced by the book value of the firm's debts.
+\end_layout
+
+\begin_layout Standard
+Unless dealing with an extremely insolvent firm, trying to estimate the
+ market value of debt won't give any added value, as it is not far form
+ the book value.
+ Thus in most cases simply using the book value is appropriate.
+\end_layout
+
+\begin_layout Standard
+Though, in case there are many bonds trading in the market - looking at
+ them is better.
+\end_layout
+
+\begin_layout Standard
+There is no such thing as 
+\begin_inset Quotes eld
+\end_inset
+
+negative net debt
+\begin_inset Quotes erd
+\end_inset
+
+ and putting a negative sign on it does not make sense - it simply means
+ having excess financial assets.
+\end_layout
+
+\begin_layout Subsection
+Tax Rate
+\end_layout
+
+\begin_layout Standard
+When evaluating the whole firm, usually the average tax rate is used.
+\end_layout
+
+\begin_layout Subsection
+Return on Debt
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $r_{D}$
+\end_inset
+
+ has to be the 
+\series bold
+marginal 
+\series default
+expected borrowing cost of the firm - but it might be hard ot determine.
+ Some alternatives can be used:
+\end_layout
+
+\begin_layout Itemize
+Ratio of current interest payments to the average debt
+\end_layout
+
+\begin_layout Itemize
+Using the (rating-adjusted) yield curve
+\end_layout
+
+\begin_layout Itemize
+The expected return on the firm's bonds (
+\begin_inset Formula $\neq$
+\end_inset
+
+YTM)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $r_{D}\leq WACC\leq r_{E}$
+\end_inset
+
+ - getting a contradiction means an error in the calculation.
+\end_layout
+
+\begin_layout Standard
+The YTM is the average annual yield on a bond, if waiting until maturity
+ and if the debt is indeed fully paid back.
+ It is 
+\series bold
+not
+\series default
+ the 
+\begin_inset Quotes eld
+\end_inset
+
+expected
+\begin_inset Quotes erd
+\end_inset
+
+ return, but the best possible outcome.
+\end_layout
+
+\begin_layout Standard
+Therefore, using the YTM as 
+\begin_inset Formula $r_{D}$
+\end_inset
+
+ is, 
+\series bold
+by definition
+\series default
+, wrong.
+ The YTM is actually the expected value of 
+\begin_inset Formula $r_{D}$
+\end_inset
+
+, plus the average loss on the bond.
+\end_layout
+
+\end_body
+\end_document
