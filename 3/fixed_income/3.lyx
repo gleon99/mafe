@@ -1,0 +1,419 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+\usepackage{indentfirst}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2.5cm
+\topmargin 2.5cm
+\rightmargin 2.5cm
+\bottommargin 2.5cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Fixed Income Markets - Lecture 3
+\end_layout
+
+\begin_layout Author
+Leonid Genkin
+\end_layout
+
+\begin_layout Section
+Z-spread
+\end_layout
+
+\begin_layout Standard
+In order to compare 2 bonds, the most important thing is looking at their
+ rate of return.
+\end_layout
+
+\begin_layout Standard
+It is not the only criteria, as 2 bonds with a similar rate of return might
+ not have the same cash flow (e.g retirement plan, matching with another
+ cash flow).
+\end_layout
+
+\begin_layout Standard
+The z-spread is 
+\begin_inset Quotes eld
+\end_inset
+
+how much the bond is pushed upward
+\begin_inset Quotes erd
+\end_inset
+
+ so that the PV of a bond is equal to its cash flow.
+\end_layout
+
+\begin_layout Standard
+It is the risk premium derived from the market, given (1) the price of the
+ bond and (2) the risk-free rate.
+\end_layout
+
+\begin_layout Standard
+When talking about the 
+\begin_inset Quotes eld
+\end_inset
+
+z-spread
+\begin_inset Quotes erd
+\end_inset
+
+, usually a comparison of a corporate bond with a government bond is assumed.
+\end_layout
+
+\begin_layout Standard
+The difference between the yield on a T-bill vs.
+ the yield on a Eurodollar is that in the former one the yield is discount,
+ while in the latter one the yield is over the purchase price.
+\end_layout
+
+\begin_layout Standard
+If the risk-free rate and the bond rate are known, the z-spread is given
+ by the difference between them.
+\end_layout
+
+\begin_layout Section
+Bootstrapping and Forward Rates
+\end_layout
+
+\begin_layout Standard
+The U.S department of the treasury issues bills/bonds for particular maturities
+ at auctions.
+ How can one derive from the market the risk-free rate for intermediate
+ periods, in order to have the full yield curve?
+\end_layout
+
+\begin_layout Standard
+It can be done by looking at the secondary market.
+\end_layout
+
+\begin_layout Standard
+For on-the-run issues it can be observed directly from the market, and for
+ off-the-run issues it can be derived by interpolation.
+\end_layout
+
+\begin_layout Standard
+The treasury spot rates can be used to value default-free cash flow and
+ are derived by 
+\series bold
+bootstrapping
+\series default
+.
+ The basic principle is that the value of a coupon security should be equal
+ to the value of the package of zero coupon securities that duplicates its
+ cash flow.
+\end_layout
+
+\begin_layout Subsection
+Bootstrapping in Practice
+\end_layout
+
+\begin_layout Standard
+A 6-month (1-year) T-bill only pays the spot rate at the maturity.
+ A T-note pays the corresponsing rate at each period (
+\begin_inset Formula $s_{1},s_{2},s_{3}$
+\end_inset
+
+).
+ As 
+\begin_inset Formula $s_{1}$
+\end_inset
+
+ and 
+\begin_inset Formula $s_{2}$
+\end_inset
+
+ are known (from the T-bill), one can find out 
+\begin_inset Formula $s_{3}$
+\end_inset
+
+ by eqauting the sum of cash flows to 1 (as it is the IRR).
+\end_layout
+
+\begin_layout Standard
+If a bond has no coupons and a fixed spot rate - this is the YTM as well.
+\end_layout
+
+\begin_layout Standard
+A 
+\series bold
+par
+\series default
+ interest rate - is the interest rate actually written on the coupon (nominal
+ / face).
+\end_layout
+
+\begin_layout Standard
+When a bond trades at par (market value = face value = 
+\begin_inset Formula $\$100$
+\end_inset
+
+), then by definition its YTM is the IRR.
+\end_layout
+
+\begin_layout Standard
+Treasury instruments do not have optionalities, credit or liquidity risk.
+\end_layout
+
+\begin_layout Subsection
+Forward Rates
+\end_layout
+
+\begin_layout Standard
+It is possible to invest for 2 years and get the spot rate 
+\begin_inset Formula $s_{2}$
+\end_inset
+
+.
+ Investing for one year would yield 
+\begin_inset Formula $s_{1}$
+\end_inset
+
+, and denoting the forward rate is 
+\begin_inset Formula $f_{1,1}$
+\end_inset
+
+, the non-arbitrage condition imposes:
+\begin_inset Formula 
+\[
+(1+s_{1})(1+f_{1,1})=(1+s_{2})^{2}\Rightarrow f_{1,1}=\frac{(1+s_{2})^{2}}{1+s_{1}}-1
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The forward rate for several years can be calculated in a similar manner:
+\begin_inset Formula 
+\[
+(1+s_{T})^{T}(1+f_{1,T})=(1+s_{T+1})^{T+1}\Rightarrow f_{1,T}=\frac{(1+s_{T+1})^{T+1}}{(1+s_{T})^{T}}-1
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+By the same idea, for 
+\begin_inset Formula $\tau>1$
+\end_inset
+
+:
+\begin_inset Formula 
+\[
+(1+s_{T})^{T}(1+f_{\tau,T})^{\tau}=(1+s_{T+\tau})^{T+\tau}\Rightarrow f_{\tau,T}=\left[\frac{(1+s_{T+\tau})^{T+\tau}}{(1+s_{T})^{T}}\right]^{1/\tau}-1
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In summary, the forward rate can be calculated by 
+\series bold
+geometric average
+\series default
+.
+\end_layout
+
+\begin_layout Section
+Derivatives
+\end_layout
+
+\begin_layout Standard
+The outcome of fixed-income securities doe snot depend on the profits of
+ a firm.
+ Derivatives are built 
+\begin_inset Quotes eld
+\end_inset
+
+on top
+\begin_inset Quotes erd
+\end_inset
+
+ of the cash flow of the bond.
+ There are various reasons forusing derivatives: speculation, hedging, saving,
+ etc.
+\end_layout
+
+\begin_layout Standard
+A 
+\series bold
+derivative
+\series default
+ is an instrument that provides a return 
+\series bold
+derived
+\series default
+ from the return of another (underlying) asset at a specific strike (maturity)
+ date for a strike (maturity) price.
+\end_layout
+
+\begin_layout Standard
+The date and price do not have to be fixed - but can depend on a formula.
+ The delivery can be physical or in cash.
+\end_layout
+
+\begin_layout Standard
+The 
+\series bold
+basis
+\series default
+ is the spot price, minus future price.
+\end_layout
+
+\begin_layout Standard
+A 
+\series bold
+long (short)
+\series default
+ position represents an agreement/obligation to buy (sell) the underlying
+ asset.
+ There is a difference between a long/short on a 
+\series bold
+bond
+\series default
+ to the long/short on its 
+\series bold
+derivative
+\series default
+.
+\end_layout
+
+\begin_layout Standard
+Types of derivatives include:
+\end_layout
+
+\begin_layout Itemize
+Future & forward rate contracts
+\end_layout
+
+\begin_layout Itemize
+Swap
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+CDS - an 
+\begin_inset Quotes eld
+\end_inset
+
+insurance
+\begin_inset Quotes erd
+\end_inset
+
+ for the case a company becomes bankrupt
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Option
+\end_layout
+
+\begin_layout Itemize
+Swaption
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Derivatives are important financial instruments, as they allow for risk
+ management an funding and financial engineering.
+ They also provide liquidity and low transaction cost.
+\end_layout
+
+\begin_layout Standard
+The 
+\series bold
+trading
+\series default
+ of derivatives is done on the exchange (only for standardized assets) or
+ over-the-counter (which allows tailor-made and more specific variants).
+\end_layout
+
+\end_body
+\end_document

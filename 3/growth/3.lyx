@@ -1,0 +1,879 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+\usepackage{indentfirst}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2.5cm
+\topmargin 2.5cm
+\rightmargin 2.5cm
+\bottommargin 2.5cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Economic Growth - Lecture 3
+\end_layout
+
+\begin_layout Author
+Leonid Genkin
+\end_layout
+
+\begin_layout Standard
+Looking at the correlation between unemployment and imports - there is a
+ negative correlation (obviously it does not imply a 
+\begin_inset Quotes eld
+\end_inset
+
+causation
+\begin_inset Quotes erd
+\end_inset
+
+ link).
+\end_layout
+
+\begin_layout Standard
+The claim that 
+\begin_inset Quotes eld
+\end_inset
+
+preventing imports creates jobs
+\begin_inset Quotes erd
+\end_inset
+
+ is false.
+ It only preserves low-quality jobs and makes the life more expensive.
+\end_layout
+
+\begin_layout Standard
+Moreover - poor people gain more as a result of free trading and imports,
+ because they tend to spend larger portion of their income on comsumption
+ (food & manufacturing goods).
+\end_layout
+
+\begin_layout Standard
+When an economy opens for imports, the price of imported goods decreases.
+ The services do not become cheaper, in fact the opposite might happen.
+\end_layout
+
+\begin_layout Standard
+The tradegy of the policy of blocking imports, which is promoted by interest
+ groups and 
+\begin_inset Quotes eld
+\end_inset
+
+social-democrat
+\begin_inset Quotes erd
+\end_inset
+
+ politicians who claim to 
+\begin_inset Quotes eld
+\end_inset
+
+support the poor
+\begin_inset Quotes erd
+\end_inset
+
+ is being actually devastative for the poor: because the cost of living,
+ and because it blocks development and opportunities for better jobs.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes eld
+\end_inset
+
+How to grow a car
+\begin_inset Quotes erd
+\end_inset
+
+: an example that explains how, by international trade, it is possible to
+ 
+\begin_inset Quotes eld
+\end_inset
+
+grow
+\begin_inset Quotes erd
+\end_inset
+
+ cars (export wheat and excange it for cars).
+ Policies that advocate for 
+\begin_inset Quotes eld
+\end_inset
+
+protecting
+\begin_inset Quotes erd
+\end_inset
+
+ the local jobs, actually seek to protect a small group of people from all
+ others.
+\end_layout
+
+\begin_layout Section
+Poverty Traps
+\end_layout
+
+\begin_layout Standard
+The Solow model and the overlapping generations model are designed to show
+ that it is possible to grow by accumulating physical capital, but up to
+ a particular limit.
+\end_layout
+
+\begin_layout Standard
+The main lesson is that to achieve growth one should refer to technological
+ innovation and productivity increase.
+\end_layout
+
+\begin_layout Standard
+In the Solow model there is a unique steady state - unlike the OLG model,
+ where there might be several steady states (
+\begin_inset Quotes eld
+\end_inset
+
+poverty traps
+\begin_inset Quotes erd
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Standard
+A poverty trap is a steady state, which an economy might converge to, depending
+ on its initial state.
+\end_layout
+
+\begin_layout Standard
+A country is poor 
+\begin_inset Quotes eld
+\end_inset
+
+because it is poor
+\begin_inset Quotes erd
+\end_inset
+
+ (not because something is wrong with it, e.g policy / people).
+\end_layout
+
+\begin_layout Standard
+Poverty traps are important, because they provide another explanation (in
+ addition to 
+\begin_inset Quotes eld
+\end_inset
+
+people
+\begin_inset Quotes erd
+\end_inset
+
+) for the poorness of particular countries.
+\end_layout
+
+\begin_layout Standard
+The limitation of these models is that, if the world was characterized by
+ poverty traps - then how come there are rich countries? - Therefore a more
+ sophisticated story is required.
+\end_layout
+
+\begin_layout Subsection
+Poverty Traps Model
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+A(k_{t})=\begin{cases}
+A^{H} & k_{t}>\tilde{k}\\
+A^{L} & k_{t}\leq\tilde{k}
+\end{cases}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $A$
+\end_inset
+
+ represents a productivity threshold which impacts on the output:
+\begin_inset Formula 
+\[
+Y_{t}=A_{t}F(K_{t},L_{t})=A_{t}L_{t}f(k_{t})
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+For example, a plough vs.
+ a tractor for agriculture.
+ A tractor is not only more powerful - it is more 
+\series bold
+productive
+\series default
+, thus owning it is more than just holding more capital.
+\end_layout
+
+\begin_layout Standard
+Alternatively, it can be considered as a kind of 
+\series bold
+externality
+\series default
+: when firms produce more, there is an 
+\series bold
+agglomoration
+\series default
+ effect.
+\end_layout
+
+\begin_layout Standard
+The implied dynamics of the model lead to 2 different functions:
+\begin_inset Formula 
+\[
+k_{t+1}=\begin{cases}
+\phi^{H}(k_{t}) & k_{t}>\tilde{k}\\
+\phi^{L}(k_{t}) & k_{t}\leq\tilde{k}
+\end{cases}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Although there is a lot of critisism on this model, it is still extremely
+ important, as even if it has nothing to do with reality - people do believe
+ it has.
+\end_layout
+
+\begin_layout Standard
+It is possible to yield the same result by 
+\begin_inset Quotes eld
+\end_inset
+
+telling another story
+\begin_inset Quotes erd
+\end_inset
+
+ - tweaking the Solow model for the same results.
+ In the Solow model the savings rate is constant - thus 
+\begin_inset Formula $\phi$
+\end_inset
+
+ looks like 
+\begin_inset Formula $f$
+\end_inset
+
+ (multiplication by a constant).
+ If the saving rate depends on the output (poor countries save less).
+ a poverty trap can be achieved.
+ Another way (theoretically) is looking at the population growth rate: poor
+ people tend to have more children.
+\end_layout
+
+\begin_layout Standard
+According to this model, a possible aid policy to a poor country could be
+ simply supplying more initial capital to it so that it escapes the poverty
+ trap (in practice such policied failed and wasted huge amounts of money).
+\end_layout
+
+\begin_layout Section
+Growth Accounting (Total Factor Productivity)
+\end_layout
+
+\begin_layout Standard
+When trying to understand differences in income, we distinguish between
+ proximate cause (productivity improvement) and ultimate causes (why some
+ countries grow faster).
+\end_layout
+
+\begin_layout Standard
+Looking at the equation 
+\begin_inset Formula $Y=AF(K,L)$
+\end_inset
+
+ with 
+\begin_inset Formula $A$
+\end_inset
+
+ being the productivity coefficient, it is possible to decompose the changes
+ in 
+\begin_inset Formula $Y$
+\end_inset
+
+.
+ Knowing the changes in 
+\begin_inset Formula $Y$
+\end_inset
+
+, 
+\begin_inset Formula $K$
+\end_inset
+
+ and 
+\begin_inset Formula $L$
+\end_inset
+
+ allows calculating the change in 
+\begin_inset Formula $A$
+\end_inset
+
+ (the total productivity growth - 
+\begin_inset Quotes eld
+\end_inset
+
+Solow residual
+\begin_inset Quotes erd
+\end_inset
+
+):
+\begin_inset Formula 
+\[
+\Delta Y=\Delta A\frac{\partial Y}{\partial A}+\Delta K\frac{\partial Y}{\partial K}+\Delta L\frac{\partial Y}{\partial L}
+\]
+
+\end_inset
+
+The growth which cannot be attributed neither to labor nor to capital increase
+ is considered to be caused by total factor productivity increase.
+\begin_inset Formula 
+\[
+\frac{\Delta Y}{Y}=\frac{\Delta A}{A}+\frac{\Delta K}{K}\frac{\partial K}{K}\frac{K}{Y}+\frac{\Delta L}{L}\frac{\partial Y}{\partial L}\frac{L}{Y}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Trivially, the elasticity of 
+\begin_inset Formula $Y$
+\end_inset
+
+ with respect to 
+\begin_inset Formula $A$
+\end_inset
+
+ is 1.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{\Delta A}{A}=\frac{\Delta Y}{Y}-S_{K}\frac{\Delta K}{K}-S_{L}\frac{\Delta}{L}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The change in total factor productivity is the change in total output, minus
+ the capital change (times elasticity), minus the labor change (times elasticity
+).
+\end_layout
+
+\begin_layout Standard
+In order to know the elasticity, we assume a competitive economy (the share
+ of labor is similar to the elasticity of output with respect to labor).
+\end_layout
+
+\begin_layout Standard
+Anything that has an effect (more competitiv eeconomy; human capital; institutio
+ns) - is under 
+\begin_inset Quotes eld
+\end_inset
+
+total factor productivity
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+In the 20% richest countries, the capital per worker is 95% of that figure
+ in the U.S, while in the poorest it is less than 20%.
+\end_layout
+
+\begin_layout Standard
+The same is true regarding the productivity, which leads to the conclusion
+ that 
+\series bold
+the differences between countries are explained both by factors of production
+ and by the total factor productivity
+\series default
+.
+\end_layout
+
+\begin_layout Section
+Endogenous Growth
+\end_layout
+
+\begin_layout Standard
+The main lesson from the Solow model is that 
+\series bold
+productivity improvement is required for a sustained economic growth
+\series default
+.
+\end_layout
+
+\begin_layout Standard
+A basic and very simplified model for endogenous growth is:
+\begin_inset Formula 
+\[
+Y_{t}=AK_{t}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+We assume 
+\begin_inset Formula $A>(n+\delta)/s$
+\end_inset
+
+, meaning that 
+\begin_inset Formula $A$
+\end_inset
+
+ is sufficiently large to sustain economic growth without productivity innovatio
+ns.
+\begin_inset Formula 
+\[
+sAk>k(n+\delta)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Implies 
+\series bold
+investment per worker is higher than depreciation per worker
+\series default
+.
+\end_layout
+
+\begin_layout Standard
+The reason we got a steady state in the Solow model is that production function
+ is marignally decreasing, which is not the case here - this model provides
+ endless growth at a constant rate.
+\end_layout
+
+\begin_layout Standard
+It shall not be taken seriously to provide any prediction of the reality.
+\end_layout
+
+\begin_layout Standard
+A more sophisticated model is where technology can change over time: 
+\begin_inset Formula 
+\[
+A_{t}=A(k_{t})\Rightarrow y_{t}=A(k_{t})f(k_{t})
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In terms of factor prices - firms pay the marginal product, but they ignore
+ that by reducing labor and increasing capital they become more productive,
+ because it is an 
+\series bold
+externality
+\series default
+ (
+\begin_inset Quotes eld
+\end_inset
+
+taken as given
+\begin_inset Quotes erd
+\end_inset
+
+ - agglomeration).
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $A$
+\end_inset
+
+ and 
+\begin_inset Formula $f$
+\end_inset
+
+ are both concave functions, but their product can possibly be a linear,
+ or even a convex function.
+\end_layout
+
+\begin_layout Subsection
+Endogenous R&D Model
+\end_layout
+
+\begin_layout Standard
+The idea of this model is that there are 2 sectors: the final good sector
+ and the R&D sector.
+\begin_inset Formula 
+\[
+y_{t}=A_{t}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+A_{t}=A_{t-1}+i_{t}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+New knowledge needs to be purchased.
+ The productivity of a worker (firm) is the productivity in the previous
+ period + new knowledge (inventions) purchased.
+\end_layout
+
+\begin_layout Standard
+The sequence assumes first innovations, which are then sold to production
+ firms who produce the final product.
+\end_layout
+
+\begin_layout Standard
+In each period a population of size 
+\begin_inset Formula $N$
+\end_inset
+
+ joins.
+ They are active for one period, in which they work in one sector:
+\begin_inset Formula 
+\[
+L_{t}+H_{t}=N
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The equilibrium condition is reached when the wages are equal across the
+ sectors.
+\end_layout
+
+\begin_layout Standard
+In this structure, all workers (firms) in the final good sector would buy
+ all the innovations produced in the final R&D sector.
+\end_layout
+
+\begin_layout Standard
+A difference of a physical good and an innovation is that the marginal cost
+ of spreading ideas is 0.
+\end_layout
+
+\begin_layout Standard
+The model assumes that the number of non-rival inventions each worker produces
+ at period 
+\begin_inset Formula $t$
+\end_inset
+
+ is 
+\begin_inset Formula $\mu A_{t-1}$
+\end_inset
+
+ 0 which are made at the beginning of the period and sold to producers.
+ In an equilibrium, all inventions are purchased:
+\begin_inset Formula 
+\[
+i_{t}=\mu A_{t-1}H_{t}\Rightarrow A_{t}=A_{t-1}(1+\mu H_{t})
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+And the surplus generated by each invention by each worker is 1.
+\end_layout
+
+\begin_layout Standard
+The conclusion is that growth is done by investment in the R&D.
+\end_layout
+
+\begin_layout Standard
+The price of an innovation has ot be less then 1.
+\end_layout
+
+\begin_layout Standard
+The surplus is divided between the production workers and the R&D workers.
+ A fraction 
+\begin_inset Formula $\beta\in(0,1]$
+\end_inset
+
+ is allocated to the R&D worker, whose income is:
+\begin_inset Formula 
+\[
+I_{t}^{H}=\mu A_{t-1}\beta L_{t}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The income of each production worker is, therefore:
+\begin_inset Formula 
+\[
+I_{t}^{L}=A_{t-1}+(1-\beta)\mu A_{t-1}H_{t}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+For the R&D sector - the more people are willing to buy their patents, the
+ higher is their profit.
+ For the final good producers - as the price of a 
+\begin_inset Quotes eld
+\end_inset
+
+patent
+\begin_inset Quotes erd
+\end_inset
+
+ is less than 1, thus buying more patents give them more profit.
+\end_layout
+
+\begin_layout Standard
+The equilibrium condition implies
+\begin_inset Formula 
+\[
+I_{t}^{H}=I_{t}^{L}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+A single equation with 2 unknowns:
+\begin_inset Formula 
+\[
+\beta L_{1}\mu=1+(1-\beta)\mu H_{t}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Which leads to the solution:
+\begin_inset Formula 
+\[
+\begin{cases}
+H=\beta N-1\mu;\,\,K=(1-\beta)N+1\mu & \forall t(\mu\beta N>1)\\
+H=0;\,\,L=N & \forall t(\mu\beta N\leq1)
+\end{cases}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The higher is 
+\begin_inset Formula $A_{t-1}$
+\end_inset
+
+ - that increases, proportionally, the income of the workers of both types.
+\end_layout
+
+\begin_layout Standard
+As 
+\begin_inset Formula $\beta$
+\end_inset
+
+ is higher - it is more attractive to be an R&D worker, thus there are more
+ of them.
+\end_layout
+
+\begin_layout Standard
+Plugging 
+\begin_inset Formula $H$
+\end_inset
+
+ in the growth equation, we get:
+\begin_inset Formula 
+\[
+g_{t}=\frac{A_{t}-A_{t-1}}{A_{t-1}}=\begin{cases}
+\mu\beta N-1 & \mu\beta N>1\\
+0 & \mu\beta N\leq1
+\end{cases}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\beta$
+\end_inset
+
+ is the 
+\begin_inset Quotes eld
+\end_inset
+
+protection of property rights
+\begin_inset Quotes erd
+\end_inset
+
+ and 
+\begin_inset Formula $\mu$
+\end_inset
+
+ is the productivity in the R&D sector.
+\end_layout
+
+\begin_layout Subsection
+Conclusions
+\end_layout
+
+\begin_layout Enumerate
+Growth is affected by: scale, R&D productivity, parents & property rights.
+\end_layout
+
+\begin_layout Enumerate
+Crucial elements implied: technology is non-rival and excludable (in reality,
+ most inventions are not protected by patent rights); techological progress
+ with respect to its technological level.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+This model yields a sustained economic growth, provided an endogenous R&D
+ investment.
+\end_layout
+
+\begin_layout Standard
+Monopolistic competition might lead to over-investment in R&D.
+\end_layout
+
+\begin_layout Standard
+For a single period it is very simple to find the optimal allocation between
+ the sectors
+\end_layout
+
+\begin_layout Standard
+Looking at the long-term horizon, there is an externality that needs to
+ be taken into account: R&D gives a 
+\series bold
+future 
+\series default
+positive effect on the output when the patents expire (the workers are not
+ compensated for it).
+ There are oppositve forces (monopolistic competition vs.
+ externality), thus there is no reason to think that an equilibrium would
+ be efficient.
+\end_layout
+
+\end_body
+\end_document
