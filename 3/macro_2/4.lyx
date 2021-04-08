@@ -1,0 +1,605 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+\usepackage{indentfirst}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2.5cm
+\topmargin 2.5cm
+\rightmargin 2.5cm
+\bottommargin 2.5cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Macro 2 - Lecture 4
+\end_layout
+
+\begin_layout Author
+Leonid Genkin
+\end_layout
+
+\begin_layout Standard
+Looking at past crises, we can see that the markets tend to underpredict
+ the recovery of the interest rates.
+\end_layout
+
+\begin_layout Standard
+Each time there is a crysis.
+\end_layout
+
+\begin_layout Standard
+Does a negative interest rate (
+\begin_inset Quotes eld
+\end_inset
+
+taxation
+\begin_inset Quotes erd
+\end_inset
+
+ of savings) decrease the interest rates the banks give to their customers?
+ According to the bank of England, the answer is no.
+\end_layout
+
+\begin_layout Standard
+As a consequence of crises, there were changes in liquidity regulations:
+ short-term debt, leverage; it is not easy to understand how they interact
+ with the market.
+\end_layout
+
+\begin_layout Standard
+The interest rate is controlled by loans & deposits.
+\end_layout
+
+\begin_layout Standard
+Before the crysis the view was that making loans is the best way.
+ The current view is to have a larger B/S (repo & deposits).
+\end_layout
+
+\begin_layout Section
+Flexible Inflation Targeting
+\end_layout
+
+\begin_layout Standard
+The 
+\series bold
+dynamic stochastic general equilibrium model (DSGE)
+\series default
+ attempts to explain and predict short-run movements of inflation, GDP and
+ interest rates where monetary policy is based on the Taylor rule, based
+ on microeconomic theory.
+ 
+\end_layout
+
+\begin_layout Standard
+Since the theory is trivial and the reality is complicated, this model is
+ a simple guidance tool.
+ In practice CBs use somewhat more complicated models.
+\end_layout
+
+\begin_layout Standard
+The DSGE model describes the 
+\series bold
+transmission mechanism
+\series default
+ of the impact interest rates have on the inflation rates and the real GDP.
+ The short-run model is consistent with long-run assumptions.
+ CBs assumptions are taken as give.
+\end_layout
+
+\begin_layout Standard
+As the monetary policy depends on the past, present and expectations - 
+\series bold
+projections are crucial
+\series default
+.
+\end_layout
+
+\begin_layout Standard
+The economy is subject to shocks, which trigger policy reaction.
+\end_layout
+
+\begin_layout Standard
+The model includes 3 agents: households (maximize utility - decision on
+ consumption & savings), firms (set prices) and the central bank (sets the
+ nominal interest rate).
+\end_layout
+
+\begin_layout Standard
+The basic equations of the model are:
+\end_layout
+
+\begin_layout Itemize
+IS equation - GDP gap.
+\end_layout
+
+\begin_layout Itemize
+Phillips curve - provides the short-run friction (the inflation, as the
+ funciton of other variables).
+\end_layout
+
+\begin_layout Itemize
+Taylor rule - nominal interest rate.
+\end_layout
+
+\begin_layout Itemize
+UIP - nominal exchange rate.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+IS Equation
+\end_layout
+
+\begin_layout Standard
+The IS equation relates the output gap to the other variables, using the
+ households consumption demand, firms investment demand and the national
+ account identity:
+\begin_inset Formula 
+\[
+y_{t}-y_{t}^{*}=-\theta[i_{t}-\pi_{t+1}^{e}-r_{t}^{*}]+\sigma(y_{t+1}^{e}-y_{t+1}^{*})+u_{t}^{y}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $u_{t}^{y}$
+\end_inset
+
+ is a shock, the 
+\begin_inset Formula $\theta$
+\end_inset
+
+ and 
+\begin_inset Formula $\sigma$
+\end_inset
+
+ are positive parameters.
+\end_layout
+
+\begin_layout Standard
+The first term of the equation uses the deviation of the short-term real
+ interest rate affecting consumers, from its expected long-run steady state.
+ If the deviation is negative (short-run rate is below the long-run rate)
+ - there is a positive effect on output.
+\end_layout
+
+\begin_layout Standard
+The second term includes the gap of the expected output in the next period,
+ from its long-term state.
+\end_layout
+
+\begin_layout Standard
+The output gap decreases with real interest rate and increases with expected
+ future output deviation.
+\end_layout
+
+\begin_layout Standard
+The model assumes perfect markets (otherwise the interest rate effect can't
+ propagate to the GDP).
+ Consumption is assumed to be smoothed in order to maximize utility, which
+ is derived from consuming subject to to the intertemporal budget constraint:
+\begin_inset Formula 
+\[
+Max\left\{ u(c_{t})+\frac{u(c_{t+1})}{1+\beta}+\cdots\right\} 
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+subject to:
+\begin_inset Formula 
+\[
+P_{t}c_{t}+B_{t+1}=(1+i_{t})B_{t}+O_{t}(y_{t}^{L}+y_{t}^{L})
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Where 
+\begin_inset Formula $y_{t}^{L}$
+\end_inset
+
+ is the labor income (net wages) and 
+\begin_inset Formula $y_{t}^{K}$
+\end_inset
+
+ is the capital income (net profits).
+\end_layout
+
+\begin_layout Standard
+Plotting the consumption in the current period vs.
+ the next one and taking into account the marginal utility of consuming
+ vs.
+ borrowing:
+\begin_inset Formula 
+\[
+\frac{1+r_{t}}{1+\beta}=\frac{c_{t+1}}{c_{t}}=1+g
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+where 
+\begin_inset Formula $g$
+\end_inset
+
+ is the growth rate of consumption.
+ This equation means that in the long-run, if the growth rate decreases
+ (or is at least expected to) - the interest rate decreases as well.
+\end_layout
+
+\begin_layout Standard
+Households are assumed to own firms.
+ The IS equation is derived from the household devision.
+\end_layout
+
+\begin_layout Standard
+The national accounting identity:
+\begin_inset Formula 
+\[
+Y_{t}=C_{t}+I_{t}+G_{t}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+which means the GDP is the sum of consumption, investment and the government
+ consumption.
+\end_layout
+
+\begin_layout Standard
+Optimizing the households, firms and the national identity equations lead
+ to the 
+\series bold
+dynamic IS curve
+\series default
+, in which consumption and investmend decrease when the real interest rate
+ increases in the expected future.
+\end_layout
+
+\begin_layout Standard
+The key transmission mechanism is the first term of the equation (3 main
+ factors: nominal interest rate, inflation expectation and the long-run
+ real rate expectation).
+ It is to be noticed thatthe long-run real rate depends on the expected
+ growth rate.
+ For example, if the nominal rate is pushed to zero - the inflation expectation
+ must be high, which is achieved using QE.
+\end_layout
+
+\begin_layout Standard
+Perfect markets is a crucial assumption as well - when some markets do not
+ work, CE is needed.
+\end_layout
+
+\begin_layout Subsection
+The New Keynesian Phillips Curve (NKPC)
+\end_layout
+
+\begin_layout Standard
+The formal version is:
+\begin_inset Formula 
+\[
+(\pi_{t}-\pi^{*})=a_{\pi}(\pi_{t+1}^{e}-\pi^{*})+(1-a_{\pi})(\pi_{t-1}-\pi^{*})+b_{y}(y_{t}-y_{t}^{*})+u_{t}^{\pi}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+This equation represents the deviation of the inflation from its steady
+ state, broken down to 3 components: the short-run friction (weighted average
+ of the expected gap in the next period, and the previous period gap), output
+ gap and an exogenous shock.
+\end_layout
+
+\begin_layout Standard
+The economic rationale is that 
+\series bold
+firms set prices
+\series default
+ (economies are 
+\begin_inset Quotes eld
+\end_inset
+
+monopolistic competitions
+\begin_inset Quotes erd
+\end_inset
+
+ - which in fact closely resembles reality).
+ A key assumption is that firms are unable (or unwilling) to adjust prices
+ instantaneously - there is a 
+\begin_inset Quotes eld
+\end_inset
+
+menu cost
+\begin_inset Quotes erd
+\end_inset
+
+ (cost of adjusting prices).
+\end_layout
+
+\begin_layout Standard
+According to this model there are 3 sources of inflation: inflation expectation,
+ past inflation and output gap (low unemployment pushes wages).
+\end_layout
+
+\begin_layout Standard
+A key conclusion is that when there are no shocks, the target steady is
+ reached.
+\end_layout
+
+\begin_layout Standard
+Prices are adjusted 
+\series bold
+gradually
+\series default
+, as some fraction of the firms don't change the price - which leads to
+ a short-term rigidity.
+\end_layout
+
+\begin_layout Standard
+The old Keynesian Phillips curve (unlike the new one) assumes a 
+\series bold
+permanent
+\series default
+ relationship.
+\end_layout
+
+\begin_layout Subsection
+Taylor Rule
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+i_{t}=r^{*}+\pi_{t}+a(\pi_{t}-\pi^{*})+b(y_{t},y^{*})+u_{t}^{i}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+If inflation expectations are equal to the inflation target, the long-run
+ (and short-run) target is guaranteed, hence the goal is trying to anchor:
+\begin_inset Formula 
+\[
+\pi_{t+j}^{e}\cong\pi^{*}
+\]
+
+\end_inset
+
+ for all 
+\begin_inset Formula $j\geq1$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection
+The Central Bank
+\end_layout
+
+\begin_layout Standard
+The goals of the CB are 
+\series bold
+price and output stabilities
+\series default
+.
+ It provides normal anchors for inflation and its expectations, by responding
+ to deviations using the Taylor rule.
+\end_layout
+
+\begin_layout Standard
+In the long-run, nominal interest rate has no impact on the steady state.
+\end_layout
+
+\begin_layout Standard
+The interest rate is the risk-free shortest maturity interest rate, which
+ most other financial instruments are based on.
+\end_layout
+
+\begin_layout Subsection
+Monetary Transmission
+\end_layout
+
+\begin_layout Standard
+The main variables in the transmission mechanism are 
+\series bold
+inflation expectations
+\series default
+ and the 
+\series bold
+real interest rate
+\series default
+.
+\end_layout
+
+\begin_layout Standard
+Due to some short-term rigidity, changes in the nominal interest rate affect
+ the real interest rate, as inflation expectations are relatively unchanged.
+ A flexible monetary shocks yields a stabilized inflation rate in response
+ to exogenous shocks.
+\end_layout
+
+\begin_layout Standard
+In the lon run, the real interest rates equals the long run marginal product
+ of capital (plus risk premium), in the past is was around 2%, with the
+ nominal rate being around 4%.
+ It also determines the long-run growth rate.
+\end_layout
+
+\begin_layout Subsection
+Shock Response
+\end_layout
+
+\begin_layout Standard
+Consider a positive inflation shock.
+ According to Taylor rule, interest rate has to be increased.
+ It leads to a short-run increase in the real interest rate.
+ The way CBs think about the economy is: 
+\begin_inset Quotes eld
+\end_inset
+
+How to converge it to the steady state
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+The 
+\begin_inset Quotes eld
+\end_inset
+
+speed
+\begin_inset Quotes erd
+\end_inset
+
+ of convergence in an impluse reponse depends on the 
+\begin_inset Formula $a$
+\end_inset
+
+ and 
+\begin_inset Formula $b$
+\end_inset
+
+ coefficients (
+\begin_inset Quotes eld
+\end_inset
+
+sensitivity
+\begin_inset Quotes erd
+\end_inset
+
+) in the Taylor rule.
+\end_layout
+
+\begin_layout Standard
+According to the FOMC, this model captures the 
+\series bold
+dynamics
+\series default
+ of the overall economy, consistent with 
+\series bold
+historical data
+\series default
+ and 
+\series bold
+forward-looking
+\series default
+ optimizing behavior.
+ In addition, teh equations are internally consistent with each other and
+ with
+\series bold
+ rational expectations
+\series default
+.
+\end_layout
+
+\begin_layout Standard
+In practice most CBs use (complicated) versions of DSGE models.
+\end_layout
+
+\end_body
+\end_document

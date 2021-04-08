@@ -1,0 +1,668 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+\usepackage{indentfirst}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2.5cm
+\topmargin 2.5cm
+\rightmargin 2.5cm
+\bottommargin 2.5cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Corporate Valuation - Lecture 4
+\end_layout
+
+\begin_layout Author
+Leonid Genkin
+\end_layout
+
+\begin_layout Section
+WACC - Continued
+\end_layout
+
+\begin_layout Standard
+Recalling from the previous lecture:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+WACC=\frac{E}{E+D}r_{E}+\frac{D}{E+D}r_{D}(1-t_{c})
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+For 
+\begin_inset Formula $E$
+\end_inset
+
+, the market capitalization is usually used.
+ For 
+\begin_inset Formula $D$
+\end_inset
+
+, as the market value is usually unavailable, the book value is mostly used.
+ If the company is solvent, it is good enough.
+\end_layout
+
+\begin_layout Subsection
+Cost of Debt
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $r_{D}\neq YTM$
+\end_inset
+
+ , because the 
+\begin_inset Formula $YTM$
+\end_inset
+
+ is roughly (compounding interest rates, etc) equal to 
+\begin_inset Formula $E(r_{D})+EAL$
+\end_inset
+
+ where 
+\begin_inset Formula $EAL$
+\end_inset
+
+ is the 
+\series bold
+expected annual loss
+\series default
+.
+\end_layout
+
+\begin_layout Standard
+We know that the expected return on debt is:
+\begin_inset Formula 
+\[
+E(r_{f})=r_{f}+debt\,risk\,premium
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Prof.
+ Damodaran invented the 
+\begin_inset Quotes eld
+\end_inset
+
+synthetic rating
+\begin_inset Quotes erd
+\end_inset
+
+, which is quoted in ~60% of the valuations worldwide.
+\end_layout
+
+\begin_layout Standard
+The most infuential item that impacts the rating is the interest coverage
+ ratio (
+\begin_inset Formula $EBIT/Interest\,expenses$
+\end_inset
+
+) - it can be used to derive the spread.
+\end_layout
+
+\begin_layout Standard
+This rating is important, because of its wide acceptance among analysts.
+ The spread is the excess return required on the debt of the firm, because
+ of tis risk.
+\end_layout
+
+\begin_layout Standard
+Assuming that capex and depreciation roughly make up each other (a big assumptio
+n) and assuming that the investment in working capital is not significant
+ - then EBIT is not a good measure.
+\end_layout
+
+\begin_layout Subsection
+Cost of Equity
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $WACC$
+\end_inset
+
+ calculation can be refactored as:
+\begin_inset Formula 
+\[
+WACC=r_{A}(1-\frac{D}{V}t_{C})
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Where 
+\begin_inset Formula $r_{A}=r_{E}^{U}$
+\end_inset
+
+ is the business (industry) risk, which is the risk rate of unlevereged
+ equity.
+\end_layout
+
+\begin_layout Standard
+The 
+\begin_inset Formula $r_{E}^{U}$
+\end_inset
+
+ is usually slightly higher than the 
+\begin_inset Formula $WACC$
+\end_inset
+
+, and it is between the 
+\begin_inset Formula $r_{D}$
+\end_inset
+
+ and the 
+\begin_inset Formula $r_{E}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Most of the practicioners assume that 
+\begin_inset Formula $YTM=r_{D}$
+\end_inset
+
+, but they also assume that 
+\begin_inset Formula $\beta=0$
+\end_inset
+
+.
+ This would bring to an internal contradiction, with 
+\begin_inset Formula $WACC$
+\end_inset
+
+ higher than 
+\begin_inset Formula $r_{A}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+In practice, a vluation is done by a combination of: DCF, multiples and
+ past deals.
+ Checking the quality if the valuation can be done by comparing the results
+ achieved using different techniques.
+\end_layout
+
+\begin_layout Standard
+There are 2 approach for the equity cost valuation:
+\end_layout
+
+\begin_layout Subsubsection
+The Gordon dividend model
+\end_layout
+
+\begin_layout Standard
+In practice it is not widely used today.
+ It assumes a constant growth rate forever (which is usually not the case):
+\begin_inset Formula 
+\[
+P_{0}=\frac{Div_{0}(1+g)}{r_{E}-g}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+CAPM/SML
+\end_layout
+
+\begin_layout Standard
+Derive the 
+\begin_inset Formula $r_{E}$
+\end_inset
+
+ from the firm's 
+\begin_inset Formula $\beta$
+\end_inset
+
+.
+ There were endless attempts to improve this model - none of them became
+ sustainable in predicting growth.
+ It requires only 3 numbers: 
+\begin_inset Formula $r_{f}$
+\end_inset
+
+, 
+\begin_inset Formula $E(r_{m})$
+\end_inset
+
+ and 
+\begin_inset Formula $\beta$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+If the copmany is listed on the market, 
+\begin_inset Formula $\beta$
+\end_inset
+
+ can be easily estimated by running a regression (the market return vs.
+ the return of the firm).
+ Having a low 
+\begin_inset Formula $R^{2}$
+\end_inset
+
+ in the regression 
+\begin_inset Quotes eld
+\end_inset
+
+is not a bug, but a feature
+\begin_inset Quotes erd
+\end_inset
+
+.
+ We would expect to see it for some firms, which supports the model.
+\end_layout
+
+\begin_layout Standard
+In reality, a company which is not listed needs to be evaluated.
+ The 
+\begin_inset Formula $\beta$
+\end_inset
+
+ of a firm's assets is a weighted average of its components: 
+\begin_inset Formula 
+\[
+\beta_{A}=\left(\frac{E}{D+E}\right)\beta_{E}+\left(\frac{D}{D+E}\right)\beta_{D}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Thus the formula can be rewritten as:
+\begin_inset Formula 
+\[
+\beta_{E}=\beta_{A}+\frac{D}{E}(\beta_{A}-\beta_{D})
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Meaning that 
+\series bold
+equity risk
+\series default
+ equals 
+\series bold
+business risk
+\series default
+, plus 
+\series bold
+financial risk
+\series default
+ (leverage-induced risk).
+\end_layout
+
+\begin_layout Standard
+It is impossible to compare 2 companies only by looking at their equity,
+ as their leverage might be different - it must be 
+\begin_inset Quotes eld
+\end_inset
+
+stripped
+\begin_inset Quotes erd
+\end_inset
+
+ first (
+\begin_inset Quotes eld
+\end_inset
+
+unlever
+\begin_inset Quotes erd
+\end_inset
+
+ and 
+\begin_inset Quotes eld
+\end_inset
+
+relever
+\begin_inset Quotes erd
+\end_inset
+
+ the equity).
+\end_layout
+
+\begin_layout Standard
+The assets' 
+\begin_inset Formula $\beta$
+\end_inset
+
+ can be estimated by 5 steps:
+\end_layout
+
+\begin_layout Enumerate
+Find several coparable firms.
+\end_layout
+
+\begin_layout Enumerate
+Find their equity 
+\begin_inset Formula $\beta$
+\end_inset
+
+ .
+\end_layout
+
+\begin_layout Enumerate
+Calculate the asset 
+\begin_inset Formula $\beta$
+\end_inset
+
+ of each firm 
+\begin_inset Formula $\beta$
+\end_inset
+
+ (by using 
+\begin_inset Formula $\beta$
+\end_inset
+
+ of equity and debt, and capital structure).
+\end_layout
+
+\begin_layout Enumerate
+Use the average (or median) of the comparable's asset 
+\begin_inset Formula $\beta$
+\end_inset
+
+'s as the estimate for this firm.
+\end_layout
+
+\begin_layout Enumerate
+Calculate the discount rate using CAPM.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+According to M&M:
+\begin_inset Formula 
+\[
+r_{E}^{L}=r_{E}^{U}+\frac{D}{E}(1-t_{C})(r_{E}^{U}-r_{D})
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The debt is assumed to be constant, therefore 
+\begin_inset Formula $r_{D}$
+\end_inset
+
+ and its tax shield carry the risk of the debt:
+\begin_inset Formula 
+\[
+\frac{r_{D}\cdot D\cdot t_{C}}{r_{D}}=D\cdot t_{C}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+To make a more realistic assumption, one might rather assume 
+\begin_inset Formula $\frac{D}{E}$
+\end_inset
+
+ being constant.
+ In such case, the tax shield on the interest payment is not 
+\begin_inset Formula $r_{D}$
+\end_inset
+
+.
+ Then:
+\begin_inset Formula 
+\[
+r_{E}^{L}=r_{E}^{U}+\frac{D}{E}(r_{E}^{L}-r_{D})
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Using daily returns imposes a problem of heteroskedasticity (because of
+ weekends), therefore monthly data is more appropriate if the company is
+ in steady state - otherwise, weekly data can be used.
+ In the example valuation, after finding the equity and debt 
+\begin_inset Formula $\beta$
+\end_inset
+
+, we find out 
+\begin_inset Formula $\beta_{E}^{U}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsubsection
+CAPM Issues
+\end_layout
+
+\begin_layout Itemize
+Which 
+\begin_inset Formula $r_{f}$
+\end_inset
+
+ should be used (short/long-term)? The duration of the cash flow shal be
+ consistent with the duration of the risk-free asset.
+ For perpetual cash flows:
+\begin_inset Formula 
+\[
+D=\frac{1+YTM}{YTM}
+\]
+
+\end_inset
+
+Usually, 7-15 years is an appropriate range.
+ Most practitioners will generally take 10-15 years.
+ 10-year bonds are widely use, as they are traded a lot.
+ The market (either domestic or global) is chosen according to the specific
+ valuation case.
+\end_layout
+
+\begin_layout Itemize
+What is 
+\begin_inset Formula $E(r_{M})$
+\end_inset
+
+? The alternative for using historical returns is using expected returns
+ (using Gordon formula).
+ Though, in practice it provides imprecise predictions.
+ Another approach is to take 
+\begin_inset Formula $5\%-5.5\%$
+\end_inset
+
+ for a mature market and add 
+\begin_inset Formula $1\%$
+\end_inset
+
+ for Israel.
+ Immature markets carry a premium over mature ones.
+\end_layout
+
+\begin_layout Itemize
+Small size (or other premiums): The unlevered 
+\begin_inset Formula $\beta$
+\end_inset
+
+ is calculated, then the 
+\begin_inset Formula $r_{E}$
+\end_inset
+
+.
+ In most calculations, a 
+\begin_inset Quotes eld
+\end_inset
+
+small size
+\begin_inset Quotes erd
+\end_inset
+
+ premium is added.
+ Famma & French (1999) showed that doing so improves the accuracy of the
+ model.
+ Most of the valuations add it, yet it was found to be statistically insignifica
+nt: on average, big firms indeed give excess returns.
+ But the SD increases as well!
+\end_layout
+
+\begin_layout Itemize
+An alternative approach is to use known values (
+\begin_inset Quotes eld
+\end_inset
+
+ruel of thumb
+\begin_inset Quotes erd
+\end_inset
+
+) for assets 
+\begin_inset Formula $\beta$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+An example with cofix WACC valuation mistakes: It is a cheap 
+\begin_inset Quotes eld
+\end_inset
+
+on the go
+\begin_inset Quotes erd
+\end_inset
+
+ fast coffee shop.
+ The valuation took GOLF, Casto and other clother companies as comparables,
+ which is not appropriate.
+ As a result, the added specific risk (and not market risk) to the premium,
+ calling it 
+\begin_inset Quotes eld
+\end_inset
+
+small size premium
+\begin_inset Quotes erd
+\end_inset
+
+.
+ It lead a very high WACC figure (12%).
+ After that, an even higher figure was used (15%).
+\end_layout
+
+\end_body
+\end_document

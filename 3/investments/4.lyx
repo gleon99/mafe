@@ -1,0 +1,511 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+\usepackage{indentfirst}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2.5cm
+\topmargin 2.5cm
+\rightmargin 2.5cm
+\bottommargin 2.5cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Investments - Lecture 4
+\end_layout
+
+\begin_layout Author
+Leonid Genkin
+\end_layout
+
+\begin_layout Section
+Activist Short Selling (Freddy Brick)
+\end_layout
+
+\begin_layout Standard
+Most short-selling is usually concentrated on forward looking analysis,
+ looking at failing businesses (e.g Amazon vs.
+ traditional stores).
+\end_layout
+
+\begin_layout Standard
+Unlike 
+\begin_inset Quotes eld
+\end_inset
+
+gentleman
+\begin_inset Quotes erd
+\end_inset
+
+ short sellers, 
+\series bold
+activist short sellers
+\series default
+ communicate with the market to present new facts, and mostly focus on past
+ events.
+\end_layout
+
+\begin_layout Standard
+Most short sellers have very small short positions, for the obvious reason
+ of the asymmetry of shorts.
+\end_layout
+
+\begin_layout Subsection
+Red flags
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Quotes eld
+\end_inset
+
+Too good to be true
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Aggressive accounting
+\end_layout
+
+\begin_layout Itemize
+Unexplainable margins/output
+\end_layout
+
+\begin_layout Itemize
+Lower tier banker/auditor
+\end_layout
+
+\begin_layout Itemize
+Executive enrichment (how their packages are designed, e.g 
+\begin_inset Quotes eld
+\end_inset
+
+payout if a stock stays above some price
+\begin_inset Quotes erd
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Itemize
+Certaing geographies
+\end_layout
+
+\begin_layout Itemize
+Promitional management team (many announcements on social media)
+\end_layout
+
+\begin_layout Itemize
+Unusual capital structure
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+NMC Health
+\end_layout
+
+\begin_layout Standard
+A typical example: B.R Shetty's NMC Health (
+\begin_inset Quotes eld
+\end_inset
+
+he likes to wear medals
+\begin_inset Quotes erd
+\end_inset
+
+ and has a website with his philosophy).
+ The story didn't end well for him, as NMC's stock was delisted, bond trade
+ at 7c on the dollar and the company eventually became bankrupt.
+ B.R Shetty now hides in India.
+ There were many red flags in this case: too good margins, unusually high
+ cas, lack of board independence, and family members in key financial positions.
+\end_layout
+
+\begin_layout Standard
+Margin analysis is a very important part of the job: it is extremely difficult
+ to have margins around 10%-20%.
+ NMC were borrowing significant amounts of money from unusual sources (
+\begin_inset Quotes eld
+\end_inset
+
+supply chain financing
+\begin_inset Quotes erd
+\end_inset
+
+).
+ Abnormally high costs (compared to similar firms) on the I/S might give
+ a clue.
+ In NMC Health case, family members were found to be involved.
+\end_layout
+
+\begin_layout Standard
+As NMC Health was a big client for J.P Morgan, analysts refused to believe
+ that the scam was true.
+ 
+\end_layout
+
+\begin_layout Subsection
+GSX
+\end_layout
+
+\begin_layout Standard
+Another example is GSX.
+ A U.S company which became public in 2019.
+ The company provides online courses for Chiense students of ages 6-16.
+ Education is highly priced in China and people spend a significant portion
+ of their income of it, which tells a very good story and provides an advantage
+ over competitors.
+\end_layout
+
+\begin_layout Standard
+The problem with it is that most of the students are bots.
+ Server farms were identified by large groups of students logging out from
+ one course and logging in to another one at the same time.
+\end_layout
+
+\begin_layout Standard
+GSX was one of the rare cases, when people understood that it was a fraud
+ - therefore short sellers sufferred losses.
+\end_layout
+
+\begin_layout Standard
+A real danger in short selling is a 
+\begin_inset Quotes eld
+\end_inset
+
+short squeeze
+\begin_inset Quotes erd
+\end_inset
+
+ - by using swap options, traders can reduce the number of the available
+ shares, pushing their price up.
+\end_layout
+
+\begin_layout Section
+APT
+\end_layout
+
+\begin_layout Subsection
+CAPM
+\end_layout
+
+\begin_layout Standard
+Estimating 
+\begin_inset Formula $\beta$
+\end_inset
+
+ is an active research area.
+ 3 most popular methods are: (1) the naive method of taking 
+\begin_inset Formula $\beta=1$
+\end_inset
+
+, (2) historical method and (3) prediction method.
+\end_layout
+
+\begin_layout Standard
+In the absence of historical data, the 
+\begin_inset Formula $\beta$
+\end_inset
+
+ of new companies is estimated by taking into account several characteristics.
+\end_layout
+
+\begin_layout Subsection
+Factor Models
+\end_layout
+
+\begin_layout Standard
+Price restrictions in the APT come from the 
+\series bold
+absence of arbitrage
+\series default
+ (no security with negative price and non-negative payoff).
+\end_layout
+
+\begin_layout Standard
+A 
+\series bold
+factor model
+\series default
+ specifies how the security returns move with economic factors:
+\begin_inset Formula 
+\[
+\tilde{r_{i}}-E(\tilde{r}_{i})=b_{i,1}\tilde{f}_{1}+\cdots+b_{i,K}\tilde{f}_{K}+\tilde{e}_{i}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The 
+\begin_inset Formula $f_{i}$
+\end_inset
+
+'s are common factors for all securities (economic growth, interest rates,
+ inflation, etc).
+ For each factor, 
+\begin_inset Formula $E(\tilde{f}_{i})=0$
+\end_inset
+
+ i.e only the 
+\series bold
+deviation
+\series default
+ is measured.
+ In addition, zero covariance is often assumed.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $b_{i,j}$
+\end_inset
+
+ is the 
+\series bold
+loading
+\series default
+ of the 
+\begin_inset Formula $i$
+\end_inset
+
+'th asset on the 
+\begin_inset Formula $j$
+\end_inset
+
+'th factor (
+\begin_inset Quotes eld
+\end_inset
+
+sensitivity
+\begin_inset Quotes erd
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\tilde{e}_{i}$
+\end_inset
+
+ denotes the 
+\series bold
+idiosyncratic risk
+\series default
+.
+\end_layout
+
+\begin_layout Standard
+The APT provides a 
+\series bold
+theoretical
+\series default
+ justification for the empirical factor models which determine the 
+\begin_inset Quotes eld
+\end_inset
+
+fair
+\begin_inset Quotes erd
+\end_inset
+
+ rate of return.
+ A diversified portfolio in this context is one that carries 
+\series bold
+no idiosyncratic risk
+\series default
+:
+\begin_inset Formula 
+\[
+\tilde{r}_{p}-E(\tilde{r}_{p})=b_{p,1}\tilde{f}_{1}+\cdots+b_{p,K}\tilde{f}_{K}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The pricing equation:
+\begin_inset Formula 
+\[
+E(\tilde{r}_{i})=\lambda_{0}+\lambda_{1}b_{i,1}+\cdots+\lambda_{K}b_{i,K}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+specifies a linear relation between the return of a security and its factor
+ loadings.
+ The 
+\begin_inset Formula $\lambda$
+\end_inset
+
+'s are 
+\series bold
+factor risk premia
+\series default
+.
+ For the risk-free asset: 
+\begin_inset Formula $\lambda_{0}=r_{f}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+An 
+\series bold
+arbitrage
+\series default
+ arises when the risk is priced inconsistently across (well-diversified)
+ securities, e.g teo securities can be found, which bear the same risk/facotr-loa
+dings, but have different discount rates.
+\end_layout
+
+\begin_layout Standard
+The APT is an alternative model to the CAPM, with fewer assumptions and
+ weaker predictions.
+\end_layout
+
+\begin_layout Standard
+There are 3 approaches for selecting the factors:
+\end_layout
+
+\begin_layout Enumerate
+Treat them as observable and specify 
+\begin_inset Formula $\tilde{f_{i}}$
+\end_inset
+
+ directly (macroeconomic variables, regression) 
+\series bold
+-
+\series default
+ 
+\series bold
+macroeconomic approach
+\series default
+.
+\end_layout
+
+\begin_layout Enumerate
+Treat the 
+\series bold
+loadings
+\series default
+ as observable and infer the security sensitivities 
+\series bold
+-
+\series default
+ 
+\series bold
+fundamental approach
+\series default
+.
+\end_layout
+
+\begin_layout Enumerate
+Treat both the factors and the loadings as unobservable - 
+\series bold
+statistical approach
+\series default
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_body
+\end_document

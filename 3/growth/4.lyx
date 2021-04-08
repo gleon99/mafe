@@ -1,0 +1,866 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+\usepackage{indentfirst}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2.5cm
+\topmargin 2.5cm
+\rightmargin 2.5cm
+\bottommargin 2.5cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Economic Growth - Lecture 4
+\end_layout
+
+\begin_layout Author
+Leonid Genkin
+\end_layout
+
+\begin_layout Section
+Endogenous Growth - Continued
+\end_layout
+
+\begin_layout Standard
+The main conclusions form the endogenous growth model we seen last week
+ is that R&D is the main driver of the growth.
+ The investment is an endogenous factor, by firms which try to maximize
+ profit.
+\end_layout
+
+\begin_layout Standard
+The scale effect - the larger is the economy, the more R&D is (the marginal
+ cost is 0, and there is only the fixed cost of innovation).
+\end_layout
+
+\begin_layout Standard
+The crucial element is that technology is non-rival and excludable.
+\end_layout
+
+\begin_layout Standard
+The number of new innovations each firm produces is a multiple of the innovation
+s in the previous period.
+ Monopolistic competition might lead to too much / not enough investment.
+ There is an externality to technology, as it might generate under-investment
+ in R&D.
+\end_layout
+
+\begin_layout Subsection
+Criticism
+\end_layout
+
+\begin_layout Standard
+We did not understand 
+\begin_inset Quotes eld
+\end_inset
+
+too much
+\begin_inset Quotes erd
+\end_inset
+
+ about economic growth yet, but only 
+\series bold
+assumed
+\series default
+ that R&D drives it.
+ The model only tells us that there are factors that create 
+\series bold
+incentives
+\series default
+ for investment in R&D.
+ The Romer model doesn't really help in explaining the economic growth of
+ the last centuries.
+\end_layout
+
+\begin_layout Standard
+When it comes to real data, this model is very bad at predicting.
+\end_layout
+
+\begin_layout Standard
+Jones critisicm:
+\end_layout
+
+\begin_layout Enumerate
+Economies of scale - there is no increase of innovation, no supporting data.
+\end_layout
+
+\begin_layout Enumerate
+Non-decreasing productivity in R&D: the assumption is a linear (non diminishing
+ MP of R&D).
+\end_layout
+
+\begin_layout Enumerate
+New technology is proportional to the stock of old technology.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Define 
+\begin_inset Formula $\gamma_{t}$
+\end_inset
+
+ as the change in productivity:
+\begin_inset Formula 
+\[
+\gamma_{t}\equiv\frac{\Delta A_{t}}{A_{t}}=\frac{A_{t+1}-A_{t}}{A_{t}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Suppose 
+\begin_inset Formula $A_{t+1}=A_{t}+\Delta A_{t}=[1+g(R\&D)]A_{t}$
+\end_inset
+
+ with R&D being constant over time, then the growth rate is constant as
+ well.
+ Then, 
+\begin_inset Formula $\Delta A_{t}=g(R\&D)A_{t}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+What if 
+\begin_inset Formula $\beta\neq1$
+\end_inset
+
+? Then, 
+\begin_inset Formula $\Delta A_{t}=g(R\&D)A_{t}^{\beta}$
+\end_inset
+
+.
+ If 
+\begin_inset Formula $\beta>1$
+\end_inset
+
+, 
+\begin_inset Formula $\gamma_{t}$
+\end_inset
+
+ converges to infinity, when 
+\begin_inset Formula $\beta<1$
+\end_inset
+
+ is converges to 0.
+ As 
+\begin_inset Formula $\Delta A_{t}$
+\end_inset
+
+ is 
+\series bold
+proportional
+\series default
+ to 
+\begin_inset Formula $A_{t}$
+\end_inset
+
+, the growth rate is 
+\series bold
+constant
+\series default
+.
+ This simplifying assumption is not necessary true in reality.
+\end_layout
+
+\begin_layout Section
+Galor-Zeira Model
+\end_layout
+
+\begin_layout Standard
+The Solow model and the R&D model establish macro growth models with representat
+ive agents.
+ The next stage is to discuss additional mechanisms that affect growth –
+ inequality (heterogeneity) being one of them.
+ A related topic is poverty traps - which can be discussed using this model
+ as well.
+\end_layout
+
+\begin_layout Standard
+Growth and development are similar but no the same - growth usually refers
+ to rich countries, while development usually talks about poorer ones.
+\end_layout
+
+\begin_layout Standard
+The production function is very simple:
+\begin_inset Formula 
+\[
+Y_{t}=w^{u}L_{t}+w^{s}H_{t}
+\]
+
+\end_inset
+
+There are 2 types of workers (skilled and unskilled).
+ Unskilled workers become skilled by acquiring education.
+ Individuals live in overlapping generaions.
+ A generation is born every period and lives for 2 periods, with each individual
+ having exactly one parent and one child (e.g someone who makes a decision
+ whether to go to college).
+\end_layout
+
+\begin_layout Standard
+In the first life period individuals get endowments from their parents,
+ They invest it either in human capital or physical capital.
+\end_layout
+
+\begin_layout Standard
+In the second period they supply labor inelastically, consume and bequeath.
+\end_layout
+
+\begin_layout Standard
+Informally speaking, parents give children money and they use it (in practice,
+ parents decide for their offspring).
+\end_layout
+
+\begin_layout Standard
+Preferences are defined by the utility function:
+\begin_inset Formula 
+\[
+u_{t}^{i}=(1-\beta)logc_{t+1}^{i}+\beta logb_{t+1}^{i}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+meaning, young individuals do not consume anything (they are 
+\begin_inset Quotes eld
+\end_inset
+
+with the parents
+\begin_inset Quotes erd
+\end_inset
+
+), therefore they only maximize 
+\begin_inset Quotes eld
+\end_inset
+
+future utility
+\begin_inset Quotes erd
+\end_inset
+
+.
+ The decision today is 
+\begin_inset Quotes eld
+\end_inset
+
+how to invest (and allocate capital) in order to maximize 
+\series bold
+future
+\series default
+ utility
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+The budget constraint is:
+\begin_inset Formula 
+\[
+c_{t+1}+b_{t+1}^{i}=I_{t+1}^{i}\Rightarrow b_{t+1}^{i}=b(I_{t+1}^{i})=\beta I_{t+1}^{i}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+This utility models 
+\series bold
+altruism
+\series default
+ (
+\begin_inset Quotes eld
+\end_inset
+
+the joy of giving
+\begin_inset Quotes erd
+\end_inset
+
+) in a very simple way.
+ Formally speaking, parents do not 
+\begin_inset Quotes eld
+\end_inset
+
+care
+\begin_inset Quotes erd
+\end_inset
+
+ about the resulting utility, but only want to give money to their children.
+ The essence of this model is capturing the 
+\series bold
+family ties
+\series default
+: rich parents give more money to their children, to invest in human capital,
+ which increases and get transferred to the next generation, etc...
+ - which is a poverty trap when considering a poor family.
+\end_layout
+
+\begin_layout Standard
+There is a cost 
+\begin_inset Formula $h$
+\end_inset
+
+ invested in 
+\begin_inset Formula $t$
+\end_inset
+
+ to become skilled in 
+\begin_inset Formula $t+1$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+The gross interest rate for lenders is 
+\begin_inset Formula $R$
+\end_inset
+
+, and the gross interest rate for borrowers for human capital investment
+ is 
+\begin_inset Formula $\theta R$
+\end_inset
+
+ with 
+\begin_inset Formula $\theta>1$
+\end_inset
+
+ (market imperfection - the larger is 
+\begin_inset Formula $\theta$
+\end_inset
+
+ - the more there are market imperfections and credit constraints).
+\end_layout
+
+\begin_layout Subsection
+Assumptions
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $w^{s}-w^{u}$
+\end_inset
+
+ is large enough, so that 
+\begin_inset Formula $w^{s}-s^{u}>hR$
+\end_inset
+
+ (becoming a skilled worker is reasonable and profitable).
+ Suppose someone has enough money to invest in human capital - the gap resulting
+ from the gain is big enough to justify it, rather than investing in physical
+ capital.
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $\theta$
+\end_inset
+
+ is large enough, so that 
+\begin_inset Formula $w^{s}-w^{u}<h\theta R$
+\end_inset
+
+ - a person who does not have enough money to invest in human capital won't
+ take a loan, as the income gap is not big enough.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+If 
+\begin_inset Formula $b_{t}^{i}\geq h$
+\end_inset
+
+:
+\begin_inset Formula 
+\[
+I_{t+1}^{i}=w^{s}+(b_{t}^{o}-h)R
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+If 
+\begin_inset Formula $b_{t}^{i}<h$
+\end_inset
+
+:
+\begin_inset Formula 
+\[
+I_{t+1}^{i}=max\{w^{s}-(h-b_{t}^{o})\theta R,w^{u}+b_{i}^{t}R\}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+i.
+ when an individual does 
+\series bold
+not
+\series default
+ have enough money, she chooses between taking a loan and investing in physical
+ capital.
+ There exists a 
+\series bold
+unique
+\series default
+ threshold 
+\begin_inset Formula $\hat{b}$
+\end_inset
+
+, which differentiates between the 2 options.
+\end_layout
+
+\begin_layout Standard
+The dynamical system is given by:
+\begin_inset Formula 
+\[
+\left\{ \begin{array}{c}
+\beta[w^{u}+b_{t}^{i}R]\,\,\,(b_{t}^{i}<\hat{b})\\
+\beta[w^{s}+(h-b_{t}^{i})\theta R]\,\,\,b\in[\hat{b},h)\\
+\beta[w^{s}+(b_{t}^{i}-h)\theta R]\,\,\,b_{t}^{i}\geq h
+\end{array}\right\} 
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+There are 2 locally stable steady states, separated by a threshold inbetween;
+ 
+\begin_inset Formula $\hat{b}$
+\end_inset
+
+ separates the investment, while 
+\begin_inset Formula $b^{T}$
+\end_inset
+
+ is the long-run thresholds (between them there is a range in which there
+ is a short-run return, but it is not enough no escape poverty - which leads
+ eventually to a convergence to poverty).
+\end_layout
+
+\begin_layout Standard
+It is not a poverty trap of a 
+\series bold
+country
+\series default
+, but of 
+\series bold
+individuals
+\series default
+.
+ At the individual level, there are 3 steady states, 2 of which are stable.
+\end_layout
+
+\begin_layout Standard
+Looking at the whole economy rather than at a single individual, there are
+ infinitely many steady states (assuming a 
+\begin_inset Quotes eld
+\end_inset
+
+continuous
+\begin_inset Quotes erd
+\end_inset
+
+ population).
+\end_layout
+
+\begin_layout Standard
+Assumption 3: 
+\begin_inset Formula $w^{s}$
+\end_inset
+
+ is sufficiently large (such that 
+\begin_inset Formula $\beta w^{s}>h$
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Standard
+Assumption 4: 
+\begin_inset Formula $s^{u}$
+\end_inset
+
+ is sufficiently small (
+\begin_inset Formula $s^{u}<\hat{b}(1/\beta-R)\Leftrightarrow\beta R<1$
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Subsection
+Conclusion
+\end_layout
+
+\begin_layout Standard
+The above assumptions 
+\series bold
+guarantee
+\series default
+ the generation of a poverty trap.
+\end_layout
+
+\begin_layout Standard
+After making these assumptions, we can calculate the steady states by findins
+ the intersections of the lines.
+ The next steps is discussing how 
+\series bold
+inequality
+\series default
+ affect economic growth by the mechanism of poverty trap (according to this
+ model).
+\end_layout
+
+\begin_layout Standard
+The innovation in this model is to take poverty traps and discuss inequality
+ based on them.
+\end_layout
+
+\begin_layout Subsection
+Robustness and Endogenous Wages
+\end_layout
+
+\begin_layout Standard
+Rancom shocks happen when a fraction of individuals who invested / did not
+ invest in human capital become skilled / unskilled workers.
+ In most cases having random shocks does not matter, as they don't have
+ an important effect - which is not the case here.
+\end_layout
+
+\begin_layout Standard
+Why is a poor country poor? - Because there are 
+\series bold
+many 
+\series default
+poor people.
+ A large supply of unskilled workers pushed their salaries down (in rich
+ countries the opposit is true - even unskilled workers get a decent salary).
+\end_layout
+
+\begin_layout Standard
+The 
+\series bold
+amplifying effect
+\series default
+ provides multiple steady states, provided by the 
+\series bold
+random shocks
+\series default
+.
+\end_layout
+
+\begin_layout Standard
+For example, when the wage of the unskilled workers randomly increase -
+ the poverty trap might be escaped.
+\end_layout
+
+\begin_layout Standard
+The bottom line: If the economy starts with a low fraction of unskilled/skilled
+ workers, it is likely to lead to a steady state in which everyone is skilled/un
+skilled.
+\end_layout
+
+\begin_layout Section
+Poverty Traps and the Microfinance Disappointment
+\end_layout
+
+\begin_layout Standard
+One of the reasons of poverty is the lack of access to credit.
+\end_layout
+
+\begin_layout Subsection
+Hope
+\end_layout
+
+\begin_layout Standard
+Thousands of NGOs have been established arouns the worlds to offer the poor
+ billions of dollars in affordable interest rates, in order to significantly
+ reduce poverty - based on the hope that the problem is only in the credit
+ constraints.
+\end_layout
+
+\begin_layout Subsection
+Disappointment
+\end_layout
+
+\begin_layout Standard
+There were no significant levels of productive investmens.
+ Opportunities tended to be turned down, high return projects were avoided.
+ The average business remained small, while the consumption borrowing was
+ encouraged (increasing debt).
+\end_layout
+
+\begin_layout Subsection
+Mechanics of Poverty Traps
+\end_layout
+
+\begin_layout Standard
+The investment today depends on the income today, and the investment today
+ creates more income in the furute (both functions are monotonically increasing,
+ with the first one being linear for simplification and the second one is
+ concave).
+\end_layout
+
+\begin_layout Standard
+The standard modelling in economics does 
+\series bold
+not
+\series default
+ create a poverty trap with this reasoning.
+ To get a poverty trap, an 
+\begin_inset Quotes eld
+\end_inset
+
+S-shaped
+\begin_inset Quotes erd
+\end_inset
+
+ function is required, which is introduced by modifying the production function:
+ there is a range of 
+\series bold
+increasing
+\series default
+ marginal product, which 
+\series bold
+decreases
+\series default
+ afterwards.
+\end_layout
+
+\begin_layout Standard
+Nutrition example: poor people don't have enough money to buy food, thus
+ they work less and earn less.
+ In practice there is a consensus that this model is not true (calories
+ are extremely cheap, and even proteins).
+\end_layout
+
+\begin_layout Standard
+The problem with this approach is that poor families do not invest enough
+ in health and nutrition of their children, leading to less healty individuals.
+\end_layout
+
+\begin_layout Standard
+Though, recent research suggests then the evidence is 
+\begin_inset Quotes eld
+\end_inset
+
+
+\series bold
+inconsistent with technology-based (fixed costs) poverty traps)
+\series default
+
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Writing down an S-shaped production function is unusual.
+ An alternative model (Piketty) relies only on the interaction between the
+ wealth distribution and the equilibrium 
+\series bold
+interest rate
+\series default
+, without using 
+\series bold
+threshold effects
+\series default
+ in wealth accumulation.
+ Yet his model relies on a non-convex techology as well.
+\end_layout
+
+\begin_layout Standard
+A possible fix can be made by introduction of an S-shaped saving rate (wealthier
+ people save a higher fraction of ther income).
+\end_layout
+
+\begin_layout Standard
+Moving from the older literature (where the emphasis was mainly on 
+\series bold
+technology
+\series default
+), the modern papers look more at how people 
+\series bold
+behave
+\series default
+ (consumption, self-control issues, etc).
+\end_layout
+
+\begin_layout Standard
+Consider 2 identical economies with the exact same parameters, and same
+ average income, with the only difference being the initial distribution
+ (economy A has higher inequality).
+ In the long-run, economy B would be richer.
+ 
+\series bold
+Equality (of wealth) creates equal opportunities
+\series default
+, which allows families that are above the threshold to converge to the
+ reach state.
+\end_layout
+
+\begin_layout Standard
+People sometimes do not invest in human capital, although it is an efficient
+ investment, because of credit constraints.
+ According to this model, 
+\series bold
+under some parameters, 
+\series default
+equality is good for growth.
+\end_layout
+
+\begin_layout Standard
+Whether there is a threshold at all - is a debatable topic.
+\end_layout
+
+\begin_layout Subsection
+The 
+\begin_inset Quotes eld
+\end_inset
+
+Big Push
+\begin_inset Quotes erd
+\end_inset
+
+ Theory
+\end_layout
+
+\begin_layout Standard
+This theory is based on similar says that poverty 
+\series bold
+could
+\series default
+ by eliminated in the world, only generousity is needed for that.
+ There are many doubtful examples: 
+\begin_inset Quotes eld
+\end_inset
+
+the green revolusion
+\begin_inset Quotes erd
+\end_inset
+
+ for food production, vaccinations, oral rehydration, etc.
+ In practice thie theory rsulted with spending of huge amounts of money,
+ with disappointing results.
+\end_layout
+
+\begin_layout Standard
+Their is a gap between the intentions of a rich country and the actual results.
+ There is a lot of criticism of this theory, for example: it tries to 
+\begin_inset Quotes eld
+\end_inset
+
+plan
+\begin_inset Quotes erd
+\end_inset
+
+ the economy from above, ignoring information and incentives.
+\end_layout
+
+\end_body
+\end_document

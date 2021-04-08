@@ -1,0 +1,571 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+\usepackage{indentfirst}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2.5cm
+\topmargin 2.5cm
+\rightmargin 2.5cm
+\bottommargin 2.5cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Corporate Valuation - Lecture 5
+\end_layout
+
+\begin_layout Author
+Leonid Genkin
+\end_layout
+
+\begin_layout Section
+Homework 2 Solution
+\end_layout
+
+\begin_layout Standard
+Valuation is, basically, an attempt to understand the total value of the
+ net operational assets.
+\end_layout
+
+\begin_layout Standard
+The waccexpert.com website provides data on WACC of various industries.
+\end_layout
+
+\begin_layout Standard
+Given no information on the debt, the expectation is to do one of these:
+\end_layout
+
+\begin_layout Itemize
+Check the effective 
+\begin_inset Formula $r_{d}$
+\end_inset
+
+ by going 2-3 years back (interest payment divided by the net debt).
+\end_layout
+
+\begin_layout Itemize
+Use Demodaran (deduve the risk premium from the interest coverage ratio).
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $r_{e}$
+\end_inset
+
+ can be used from historical stock data (regress over S&P500).
+ The 
+\series bold
+unlevered
+\series default
+ 
+\begin_inset Formula $\beta$
+\end_inset
+
+ of the equity must account for cash.
+ Knowing the unlevered beta allows calculating the return.
+\end_layout
+
+\begin_layout Standard
+When predicting CFs in the short-term (
+\begin_inset Quotes eld
+\end_inset
+
+representative years
+\begin_inset Quotes erd
+\end_inset
+
+), they have a mid-year discount factor (
+\begin_inset Formula $n+0.5$
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Standard
+Plotting a table of market value vs.
+ short-term / long-term growth rate allows to compare the real figures vs.
+ the calculated ones, thus understanding what the market expects.
+\end_layout
+
+\begin_layout Section
+Relative Approach
+\end_layout
+
+\begin_layout Standard
+The relative approach is highly used by practitioners, and even sometimes
+ abused and misused.
+ A 
+\series bold
+multiple
+\series default
+ is the paid value divided by the received value.
+ The main categories of multiples are enterprise value (use FCF/NOPAT/sales/prof
+it to get EV) and equity (use profit to get equity value).
+\end_layout
+
+\begin_layout Standard
+When using the multiples approach, efficient markets are assumed - prices
+ reflect all relevant information.
+ In addition it is assumed that the sample represents the target close enough.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Forward multiple
+\series default
+: using the 
+\series bold
+expected
+\series default
+ variable for the next period.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Trailing multiple
+\series default
+: using the last 4 quarters.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Current multiple
+\series default
+: using the last annual value.
+\end_layout
+
+\begin_layout Standard
+In theory, the forward multiple is the best one, yet in practice it is difficult
+ to use.
+\end_layout
+
+\begin_layout Standard
+The CF to be used can be an 
+\series bold
+economic CF
+\series default
+ (after taxes/capex adjustment) or a 
+\series bold
+representative CF
+\series default
+ (takes into account one-time / cyclical events).
+\end_layout
+
+\begin_layout Subsection
+EV Multiples
+\end_layout
+
+\begin_layout Standard
+First calculate the EV of sample comparable firms, then divided by the correspon
+ding figure.
+\end_layout
+
+\begin_layout Standard
+The more we 
+\begin_inset Quotes eld
+\end_inset
+
+go up the ladder
+\begin_inset Quotes erd
+\end_inset
+
+ of: 
+\begin_inset Formula $FCF$
+\end_inset
+
+, 
+\begin_inset Formula $NOPAT$
+\end_inset
+
+, 
+\begin_inset Formula $EBITA$
+\end_inset
+
+, 
+\begin_inset Formula $EBIT$
+\end_inset
+
+, 
+\begin_inset Formula $Revenue$
+\end_inset
+
+, 
+\begin_inset Formula $Capital$
+\end_inset
+
+ - the less accurate the results will probably be.
+\end_layout
+
+\begin_layout Subsubsection
+FCF
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+EV_{t}=\frac{FCF_{t+1}}{WACC-g}=\frac{(1+g)FCF_{t}}{WACC-g}\Rightarrow\frac{EV_{t}}{FCF_{t}}=\frac{1+g}{WACC-g}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+FCF is the true source of value, but using it has some drawbacks.
+ It assumes a particular growth rate, same for different companies.
+\end_layout
+
+\begin_layout Standard
+The CF might be negative and is not readily available.
+\end_layout
+
+\begin_layout Subsubsection
+NOPAT
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{EV_{t}}{NOPAT_{t}}=\frac{(1-RR)(1+g)}{WACC-g}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+This multiple is much easier to calculate.
+ A representative NOPAT requires acyclical investments and assumptions regarding
+ the depreciation and forward tax benefits.
+\end_layout
+
+\begin_layout Subsection
+Creative Multiples
+\end_layout
+
+\begin_layout Standard
+Sometimes 
+\begin_inset Quotes eld
+\end_inset
+
+creative
+\begin_inset Quotes erd
+\end_inset
+
+ figures can be used in multiples, e.g 
+\series bold
+employee multiple
+\series default
+ (
+\begin_inset Quotes eld
+\end_inset
+
+value per employee
+\begin_inset Quotes erd
+\end_inset
+
+ vs.
+ 
+\begin_inset Quotes eld
+\end_inset
+
+cost per employee
+\begin_inset Quotes erd
+\end_inset
+
+ in Instagram case of startup purchases).
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes eld
+\end_inset
+
+Deployed cable length per employee
+\begin_inset Quotes erd
+\end_inset
+
+ was used in Chromatis - Lucent purchase valuation - which lead to an irrelevant
+ and extremely high result.
+\end_layout
+
+\begin_layout Subsection
+Equity Multiples
+\end_layout
+
+\begin_layout Standard
+P/E multiple:
+\begin_inset Formula 
+\[
+\frac{Market\,Cap}{NI}=\frac{Price}{EPS}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+It assumes not only the same WACC, but evne the same 
+\begin_inset Formula $r_{e}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Equity multiple:
+\begin_inset Formula 
+\[
+PBV=\frac{Market\,Cap}{BV\,Equity}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Standardization
+\end_layout
+
+\begin_layout Standard
+There are multiple assumptions and a single important factor.
+ There is no a single specific value, but rather several different ranges,
+ as a result of uncertainity.
+ When several factors are present 
+\end_layout
+
+\begin_layout Standard
+Should the median or the average be used? As the distribution is usually
+ far from normal, the average may be misleading, thus the median is more
+ appropriate.
+\end_layout
+
+\begin_layout Standard
+Which multiple is to be used? Different multiples can yield different values.
+ EBITDA is the easiest to collect.
+\end_layout
+
+\begin_layout Subsection
+Adjusted Present Value (APV)
+\end_layout
+
+\begin_layout Standard
+Using WACC assumes having a constant 
+\begin_inset Formula $r_{d}$
+\end_inset
+
+, tax rate and debt (or debt to value ratio).
+ In case some of these assumptions do not hold, WACC cannot be used - EV
+ components can be valued separately instead:
+\begin_inset Formula 
+\[
+EV=V^{u}+PV(tax\,shield)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Take only the 
+\begin_inset Formula $FCFF$
+\end_inset
+
+ and discount it with the 
+\begin_inset Formula $WACC$
+\end_inset
+
+ - which gives the unlevered value of the firm, then adjust manually for
+ the tax shield.
+\end_layout
+
+\begin_layout Subsection
+Conclusion
+\end_layout
+
+\begin_layout Standard
+The multiples approach is easy to implement and makes the analysis is 
+\begin_inset Quotes eld
+\end_inset
+
+easy to sell
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Section
+Accounting Methods Valuation
+\end_layout
+
+\begin_layout Standard
+Accounting is subjected to 
+\series bold
+a lot
+\series default
+ of manipulation, as there is a lot of creativity in the accounting statements.
+\end_layout
+
+\begin_layout Standard
+The quality of the accounting can be assessed by checking the 
+\series bold
+persistency
+\series default
+ and 
+\series bold
+provisions
+\series default
+ (accounting frauds usually deal with at least one of them).
+\end_layout
+
+\begin_layout Standard
+Looking at the cash (
+\begin_inset Quotes eld
+\end_inset
+
+bank account
+\begin_inset Quotes erd
+\end_inset
+
+) of the firm can reveal some frauds or inconsistencies.
+\end_layout
+
+\begin_layout Standard
+The idea is that the value of the firm is the 
+\series bold
+book value
+\series default
+, plus the 
+\series bold
+PV of the excess earnings.
+\end_layout
+
+\begin_layout Standard
+If the book value is equal to the market value, the profit is 
+\begin_inset Quotes eld
+\end_inset
+
+normative
+\begin_inset Quotes erd
+\end_inset
+
+.
+ When the excess earnings are positive (negative), the market value is higher
+ (lower) than the book value.
+\end_layout
+
+\begin_layout Subsection
+Ohlson Model
+\end_layout
+
+\begin_layout Standard
+In this model, we ask 
+\begin_inset Quotes eld
+\end_inset
+
+how permanent are the residual earnings?
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+In the next week: a stock is an option on the assets of the firm.
+ If we know how to valuate 
+\series bold
+options
+\series default
+ - we can valuate the stock.
+\end_layout
+
+\end_body
+\end_document

@@ -1,0 +1,425 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+\usepackage{indentfirst}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2.5cm
+\topmargin 2.5cm
+\rightmargin 2.5cm
+\bottommargin 2.5cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Fixed Income Markets - Lecture 4
+\end_layout
+
+\begin_layout Author
+Leonid Genkin
+\end_layout
+
+\begin_layout Standard
+A difference between a 
+\series bold
+future
+\series default
+ and a 
+\series bold
+forward
+\series default
+: 
+\begin_inset Quotes eld
+\end_inset
+
+spot
+\begin_inset Quotes erd
+\end_inset
+
+ is for buying the bond 
+\series bold
+now
+\series default
+ (like giving a loan).
+ A future only fixes the price, while the transaction itself takes place
+ in the future.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Futures
+\series default
+ are traded on the exchange, thus they are standardized and can only have
+ certain prices and maturity dates.
+\end_layout
+
+\begin_layout Standard
+A drawback of trading on an exchange is not having an exact fit to the needs
+ - in such cases a broker or an investment banker is needed, who would issue
+ a specific future / forward contract.
+ Its price is related to the future contracts on the exchange (although
+ it is not the same product, but it is comparable).
+\end_layout
+
+\begin_layout Section
+Forwarding
+\end_layout
+
+\begin_layout Subsection
+T-Bill Forwards
+\end_layout
+
+\begin_layout Standard
+T-bill forwarding means buying the bond at a future moment in time at a
+ particular (
+\begin_inset Quotes eld
+\end_inset
+
+locked
+\begin_inset Quotes erd
+\end_inset
+
+) price:
+\begin_inset Formula 
+\[
+BF_{0}=BS_{0}(1+R_{f})^{T}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Consider, for example, a 9 month forward constract on a 1-year T-bill (a
+ risk-free product) with a FV of $1,000, price of $900 and the APR is 5%.
+\end_layout
+
+\begin_layout Standard
+Locking the price for 9 months means getting a certain 5% yield.
+ Alternatively, one can buy a $900 bond today and hold it for 9 months,
+ which would yield $933.
+\end_layout
+
+\begin_layout Standard
+A financial instrument is usually valued at 3 points in time: at inception,
+ prior to expiration and at expiration.
+\end_layout
+
+\begin_layout Standard
+In the above example, the value of the T-Bill forward long position is:
+ 
+\begin_inset Formula $VBF_{0}=\$0$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Prior to expiration, assuming 
+\begin_inset Formula $r_{f}=6\%$
+\end_inset
+
+ and 
+\begin_inset Formula $BS_{t}=\$890$
+\end_inset
+
+: 
+\begin_inset Formula $VBF_{t}=\$890-\frac{\$933}{(1+6\%)^{7/12}}=-\$12.3$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+The value is what we can get on the market, minus what is guaranteed.
+\end_layout
+
+\begin_layout Subsection
+T-Bond Forward
+\end_layout
+
+\begin_layout Standard
+Pricing of a T-Bond at inception is given by:
+\begin_inset Formula 
+\[
+BF_{0}=BS_{0}(1+R_{f})^{T}-FVCF_{T}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Consider an example with a 1.25 forward contract on a 10-year 7% T-bond with
+ $1,000 FV that sells at $1,040, and the risk-free APR is 5%.
+ The bond is going to be bought in 1.25 years (not today).
+\end_layout
+
+\begin_layout Standard
+Investing in the bond today would yield:
+\begin_inset Formula 
+\[
+PCF_{1}=\$1000\frac{7\%}{2}(1+5\%)^{-0.5}=\$34.16
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+CF_{2}=\$1000\frac{7\%}{2}(1+5\%)^{-1}=\$33.33
+\]
+
+\end_inset
+
+Therefore:
+\begin_inset Formula 
+\[
+BF_{0}=(\$1040-\$34.16-\$33.33)\cdot(1+5\%)^{1.25}=\$1033.67
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+FRA
+\end_layout
+
+\begin_layout Standard
+Forward rate agreeement: it is a contract, in which one party agrees to
+ pay a 
+\series bold
+fixed
+\series default
+ interest payment (at a future strike date) and receive an interest payment
+ 
+\series bold
+to be determined at expiration
+\series default
+.
+\end_layout
+
+\begin_layout Standard
+Instead of guaranteeing the 
+\series bold
+price
+\series default
+, the 
+\series bold
+interest rate
+\series default
+ is guaranteed - which might be useful for firms that need to settle an
+ actual transaction.
+\end_layout
+
+\begin_layout Standard
+FRA - 
+\begin_inset Quotes eld
+\end_inset
+
+what 
+\series bold
+would have been
+\series default
+ if the loan was actuallly performed
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Backwardation
+\series default
+ (
+\series bold
+Contango
+\series default
+) means futures price is below (above) the spot price.
+\end_layout
+
+\begin_layout Standard
+Notation example: 
+\series bold
+5.5% 3x9FRA
+\series default
+ means an FRA contract for a 6-month deposit which begins in 3 months and
+ pays 5.5% interest 9 months from now.
+ The party 
+\series bold
+with the long position
+\series default
+ is the one who agrees to pay the 
+\series bold
+fixed rate
+\series default
+ - thus he 
+\series bold
+benefits if rtes increase
+\series default
+.
+\end_layout
+
+\begin_layout Standard
+In a Eurodollar FRA, the actual price is at discount from the FV.
+ A 
+\series bold
+tick 
+\series default
+is the minimal price change (1bps, which is $25).
+\end_layout
+
+\begin_layout Standard
+Given 2 time periods 
+\begin_inset Formula $\tau_{1}$
+\end_inset
+
+ and 
+\begin_inset Formula $\tau_{2}$
+\end_inset
+
+, the value of 
+\begin_inset Formula $\tau_{1}\times\tau_{2}$
+\end_inset
+
+ FRA is 0 at inception.
+\end_layout
+
+\begin_layout Standard
+T-bills FRA have a tick of 0.5bps, which is $12.5 change in price.
+\end_layout
+
+\begin_layout Standard
+It is important to always be aware of the qutation used (add-on rate basis
+ / discount basis).
+\end_layout
+
+\begin_layout Subsection
+Interest Rate Swap
+\end_layout
+
+\begin_layout Standard
+A 
+\series bold
+swap 
+\series default
+is a financial instrument which allows two parties to exchange two future
+ cash flow streams.
+ Usually at least one of them is 
+\series bold
+uncertain
+\series default
+.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+IRS
+\series default
+ is an interest rate swap.
+ For example, one party has floating rate loan while it prefers a fixed
+ interest rate.
+ It might buy a swap to pay a fixed rate and receive a floating rate.
+\end_layout
+
+\begin_layout Standard
+A fixed-for-floating interest swap is equivalent to issuing a fixed-rate
+ bond and buying an otherwise identical floating-rate bond.
+ The no-arbitrage condition requires the swap rate to make these bonds equal.
+\end_layout
+
+\begin_layout Standard
+When having a bond with a floating rate which is equal to the market interest
+ rate - it is 
+\series bold
+valued at face value
+\series default
+.
+\end_layout
+
+\end_body
+\end_document
