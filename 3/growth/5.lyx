@@ -1,0 +1,723 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+\usepackage{indentfirst}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2.5cm
+\topmargin 2.5cm
+\rightmargin 2.5cm
+\bottommargin 2.5cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Economic Growth - Lecture 5
+\end_layout
+
+\begin_layout Author
+Leonid Genkin
+\end_layout
+
+\begin_layout Section
+Poverty Traps - Continued
+\end_layout
+
+\begin_layout Standard
+There are 2 ways to think of poverty traps: (1) linking income to investment
+ (can be manipulated by 
+\begin_inset Quotes eld
+\end_inset
+
+S-shape
+\begin_inset Quotes erd
+\end_inset
+
+ production function), and (2) increasing saving rates.
+\end_layout
+
+\begin_layout Standard
+When considering the 
+\begin_inset Quotes eld
+\end_inset
+
+classic
+\begin_inset Quotes erd
+\end_inset
+
+ approach (inequality increases aggregate saving & investment), the 
+\series bold
+efficiency
+\series default
+ of the investment is also to be considered.
+ The fact that rich people save a larger part of their income means, taking
+ money from the poor and giving them to the rich leads to more saving.
+\end_layout
+
+\begin_layout Standard
+Whether equality and redistribution is good for growth is debatable.
+\end_layout
+
+\begin_layout Subsection
+The Big Push Theory
+\end_layout
+
+\begin_layout Standard
+Recalling the 
+\begin_inset Quotes eld
+\end_inset
+
+big push theory
+\begin_inset Quotes erd
+\end_inset
+
+, this model was found to be not very realistic, as it has a very larg impact
+ on policy.
+ The main critic of this approach is William Easterly, who refers to the
+ 
+\begin_inset Quotes eld
+\end_inset
+
+central planning
+\begin_inset Quotes erd
+\end_inset
+
+ issue of this policy.
+\end_layout
+
+\begin_layout Standard
+The idea of a poverty trap is that the only reason of an individual/country
+ to be poor is that it is poor.
+ Even if the government is well run and the politicians do their job, the
+ country would still remain poor.
+ The prediction of the 
+\begin_inset Quotes eld
+\end_inset
+
+big push
+\begin_inset Quotes erd
+\end_inset
+
+ theory claims that a poor country would have an accelerated growth and
+ convergence to high income over time, when aid is received by richer countries.
+\end_layout
+
+\begin_layout Standard
+In practice, the rare cases of 
+\begin_inset Quotes eld
+\end_inset
+
+takeoff
+\begin_inset Quotes erd
+\end_inset
+
+ are limited to the Asian success stories, and even then they are unrelated
+ to the provided help (e.g China).
+\end_layout
+
+\begin_layout Standard
+Giving money directly to countries tends to make governments, rather than
+ people.
+ better off.
+\end_layout
+
+\begin_layout Subsection
+The Modern Approach
+\end_layout
+
+\begin_layout Standard
+The new 
+\begin_inset Quotes eld
+\end_inset
+
+end of poverty
+\begin_inset Quotes erd
+\end_inset
+
+ claims that it is better to directly help poor 
+\series bold
+people
+\series default
+, rather than provide funds to poor 
+\series bold
+countries
+\series default
+.
+\begin_inset Newline newline
+\end_inset
+
+Randomized Control Trials (CRTs) are experimental programs focusing on helping
+ the poor.
+ The criticism of this program claims that focusing on micro-credit doesn't
+ help.
+ Giving the poor access to credit to make them 
+\begin_inset Quotes eld
+\end_inset
+
+small enterpreneurs
+\begin_inset Quotes erd
+\end_inset
+
+ does not work, as they do not use it for investment.
+\end_layout
+
+\begin_layout Standard
+Example with mosquito net vs.
+ eradicating mosquitos (the net is used in poor coutnries.
+ It can be given to many people, for various prices).
+\end_layout
+
+\begin_layout Section
+The Political Economy Approach
+\end_layout
+
+\begin_layout Standard
+The goal is to present a simplified model of the political economy approach.
+ The idea of this theory is that there is a political mechanism of income
+ redistribution.
+ Too much inequality leads to political pressures to increase taxes on the
+ rich.
+\end_layout
+
+\begin_layout Standard
+The big question with inequality and growth is how to test it empirically
+ (results are not random and hard to isolate).
+ A country might have high inequality, caused by high 
+\series bold
+heterogeneity
+\series default
+ - which leads to a correlation, but not to a causal effect.
+\end_layout
+
+\begin_layout Subsection
+One Period Endowment Economy
+\end_layout
+
+\begin_layout Standard
+The cumulative distribution of (pre-tax) wealth is:
+\begin_inset Formula 
+\[
+F(x)=\begin{cases}
+0 & x<0\\{}
+[\alpha/(1+\alpha)]^{\alpha}x^{\alpha} & x\in[0,(1+\alpha)/\alpha]\\
+1 & x>(1+\alpha)/\alpha
+\end{cases}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+With 
+\begin_inset Formula $\alpha\in(0,1]$
+\end_inset
+
+ impacts the inequality level of the economy.
+ Then the density function is given by:
+\begin_inset Formula 
+\[
+f(x)=\begin{cases}
+0 & x<0\\
+\alpha\left(\frac{\alpha}{1+\alpha}\right)^{\alpha}x^{\alpha-1} & x\in[0,(1+\alpha)/\alpha]\\
+0 & x>(1+\alpha)/\alpha
+\end{cases}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\alpha$
+\end_inset
+
+ measures equality, and increasing it makes the distribution more equal.
+ Increasing 
+\begin_inset Formula $\alpha$
+\end_inset
+
+ make the rich less rich, and the poor less poor.
+\end_layout
+
+\begin_layout Standard
+The mean income is:
+\begin_inset Formula 
+\[
+\bar{x}=\int_{0}^{(1+\alpha)/\alpha}xf(x)dx=1
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The median income is then:
+\begin_inset Formula 
+\[
+F(m)=1/2
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Comparing the median to the average captures the inequality.
+ The median is the 
+\begin_inset Quotes eld
+\end_inset
+
+typical
+\begin_inset Quotes erd
+\end_inset
+
+ income, while the average it pulled up by the rich.
+ Dividing the median by the average provides some indication on the level
+ of inequality.
+\end_layout
+
+\begin_layout Standard
+The variance is yet another indicator - it is decreasing in 
+\begin_inset Formula $\alpha$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection
+Redistribution
+\end_layout
+
+\begin_layout Standard
+The tax can be 0 or 
+\begin_inset Formula $\tau$
+\end_inset
+
+ (fraction of wealth taxes and redistributed).
+ The income of individual 
+\begin_inset Formula $i$
+\end_inset
+
+ is:
+\begin_inset Formula 
+\[
+\widetilde{x}^{i}=(1=\tau)x^{i}+\tau\theta\bar{x}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\theta<1$
+\end_inset
+
+ is 
+\series bold
+distortionary
+\series default
+ taxation (which is the popular approach - the government is inefficient),
+ while 
+\begin_inset Formula $\theta>1$
+\end_inset
+
+ is 
+\series bold
+beneficial
+\series default
+ taxation.
+\end_layout
+
+\begin_layout Standard
+An agent would prefer redistribution if:
+\begin_inset Formula 
+\[
+\widetilde{x}^{i}>x^{i}\leftrightarrow\theta\bar{x}>x_{i}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+With 
+\begin_inset Formula $\theta=1$
+\end_inset
+
+ it means:
+\begin_inset Formula 
+\[
+\widetilde{x}^{i}>x^{i}\leftrightarrow\bar{x}>x^{i}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+(the individual has less than average income).
+\end_layout
+
+\begin_layout Standard
+Even when the government is extremely inefficient (
+\begin_inset Formula $\theta=0.5$
+\end_inset
+
+), there are people who benefit from it.
+\end_layout
+
+\begin_layout Standard
+As 
+\begin_inset Formula $\bar{x}=1$
+\end_inset
+
+, redistribution is beneficial for an individual who has
+\begin_inset Formula 
+\[
+\widetilde{x}^{i}>x^{i}\leftrightarrow\theta>x^{i}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+redistribution is supported by a fraction 
+\begin_inset Formula $F(\theta)$
+\end_inset
+
+ of the population:
+\begin_inset Formula 
+\[
+F(\theta)=\begin{cases}
+0 & \theta<0\\{}
+[\alpha/(1+\alpha)]^{\alpha}\theta^{\alpha} & \theta\in[0,(1+\alpha)/\alpha]\\
+1 & \theta>(1+\alpha)/\alpha
+\end{cases}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Given 
+\begin_inset Formula $\theta\in(0,1)$
+\end_inset
+
+:
+\begin_inset Formula 
+\[
+\begin{cases}
+F(\theta)=1 & \alpha\rightarrow0\\
+\partial F(\theta)/\partial\alpha<0 & \alpha\in(0,1]\\
+F(\theta)=\theta/2 & \alpha=1
+\end{cases}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+As 
+\begin_inset Formula $\alpha$
+\end_inset
+
+ declines, more and more people are pushed towards low income.
+\end_layout
+
+\begin_layout Standard
+When 
+\begin_inset Formula $\theta>1$
+\end_inset
+
+, there is more support for taxation at high incomes.
+\end_layout
+
+\begin_layout Standard
+When the rich become richer, they oppose taxation.
+ An average person wants good public services, while the average 
+\series bold
+rich
+\series default
+ person would not care about that, and only rely on the private sector.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes eld
+\end_inset
+
+The more you push people down, the more they are supportive of taxation
+\begin_inset Quotes erd
+\end_inset
+
+.
+ But then, some people are pushed up - and the rich become more hostile.
+ There are opposite effects: pushing down (people are in favor of redistribution
+), pushing up (people oppose it).
+ Therefore, where 
+\begin_inset Formula $\theta>1$
+\end_inset
+
+ the effect is 
+\series bold
+not
+\series default
+ monotonic.
+\end_layout
+
+\begin_layout Standard
+When there is more support for taxes, the compromise would be higher taxation.
+\end_layout
+
+\begin_layout Subsection
+Conclusion
+\end_layout
+
+\begin_layout Standard
+According to this model, inequality is bad for economic growth:
+\end_layout
+
+\begin_layout Enumerate
+More inequality increases the proportion of less than average income individuals
+ who support taxes.
+\end_layout
+
+\begin_layout Enumerate
+More inequality increases the cost of redistribution for high-income individuals
+ who object it.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The theory predicts than inequality has a negative effect of growth both
+ with distorting taxation and beneficial taxation (when inequality is sufficient
+ly low).
+\end_layout
+
+\begin_layout Standard
+Empirically, we do not know the effect of inequality on growth.
+ To some extent, it is a 
+\series bold
+meaningless question
+\series default
+, while the correct one being 
+\begin_inset Quotes eld
+\end_inset
+
+what is the effect of 
+\series bold
+inequality policy
+\series default
+ on growth?
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection
+Subsistence Income
+\end_layout
+
+\begin_layout Standard
+Does subsistence income prevent the poor from saving? The typical poor:
+\end_layout
+
+\begin_layout Itemize
+Scarcely invest in children education, are poorly fed and suffer from health
+ problems.
+\end_layout
+
+\begin_layout Itemize
+Are worried and anxioust, so that their sleep and work are interefered.
+\end_layout
+
+\begin_layout Itemize
+Fail to make trivial investments (
+\begin_inset Quotes eld
+\end_inset
+
+micro-finance
+\begin_inset Quotes erd
+\end_inset
+
+ help - useless).
+ they cannot avoid cutting on their meals when income declines.
+\end_layout
+
+\begin_layout Itemize
+Yet, they spend a significant portion of their income on: alcohol, cigarettes,
+ festivals, etc.
+ Spending this money on educatino would transofrm the prospects of their
+ children.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Such typical family does not pay rent on time and doesn't send their children
+ to school, yet they spend money on cellphones and drinking.
+\end_layout
+
+\begin_layout Standard
+In India and Africa househoulds spend enormous emount of money on festivals
+ and funerals (respectively).
+\end_layout
+
+\begin_layout Standard
+Possible explanations to this phenomena might include:
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Conspicuous consumption
+\series default
+ 
+\series bold
+(Moav-Neeman)
+\series default
+: people, even the poorest ones, want to 
+\begin_inset Quotes eld
+\end_inset
+
+show off
+\begin_inset Quotes erd
+\end_inset
+
+.
+ A trade-off is suggested between human capital and conspicuous consumption,
+ as a signal of income.
+ The higher the human capital - the less people need to spend (as a fraction
+ of their income) on conspicuous consumption, investing more in education
+ of their children.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Temptation / self control
+\series default
+ 
+\series bold
+(Banerjee-Mullainathan)
+\series default
+: quasi-hyperbolic preferences, time inconsistency.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+When poverty traps are considered today, unlike older models, the behavioral
+ aspect is taken more seriously.
+\end_layout
+
+\begin_layout Standard
+In the next lessons: back to microfinance; deep roots of comparative development
+; Geography and institutions impact - theoretical and empirical papers.
+\end_layout
+
+\end_body
+\end_document

@@ -1,0 +1,755 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+\usepackage{indentfirst}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2.5cm
+\topmargin 2.5cm
+\rightmargin 2.5cm
+\bottommargin 2.5cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Economic Growth - Lecture 6
+\end_layout
+
+\begin_layout Author
+Leonid Genkin
+\end_layout
+
+\begin_layout Section
+Poverty Traps - Microfinance
+\end_layout
+
+\begin_layout Standard
+Why 
+\begin_inset Quotes eld
+\end_inset
+
+microfinance
+\begin_inset Quotes erd
+\end_inset
+
+ doesn't work? Poor people do not invest, because they are 
+\series bold
+very risk averse
+\series default
+ (a negative shock has more impact on them, and could be very devastaiing).
+\end_layout
+
+\begin_layout Standard
+A possible solution is providing microinsurance (but it might leads to yet
+ another problem - of moral hazard).
+\end_layout
+
+\begin_layout Standard
+Investment can be considered to be akin to a 
+\begin_inset Quotes eld
+\end_inset
+
+lottery ticket
+\begin_inset Quotes erd
+\end_inset
+
+ - high risk, without guaranteed outcome.
+\end_layout
+
+\begin_layout Standard
+Poor people are generally sophisticated (in poor counteries) and are worried
+ about disasters a potential failure.
+ Being very risk averse, they avoid high-rewarding seasonal migration and
+ 
+\begin_inset Quotes eld
+\end_inset
+
+insure
+\begin_inset Quotes erd
+\end_inset
+
+ themselves by marriages.
+ They do not engage in activities that could get them out of poverty.
+\end_layout
+
+\begin_layout Standard
+Going back to economic theory - when the fixed cost is coupled with risk,
+ it plays a crucial role: the risk averse poor might choose the safe alternative
+ and avoid invetsment (even if it is available) - 
+\begin_inset Quotes eld
+\end_inset
+
+failure could be too painful
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+When the rate of return is exogenous anf the technology is convex, the expected
+ utlity of a risk averse agent is a 
+\series bold
+concave
+\series default
+ function of the investment (would you invest $1K in a 9:1 lottery of winning
+ $10K or losing everything? $100K? $1M?) However, it practice - many investments
+ do not have a fixed cost (
+\begin_inset Quotes eld
+\end_inset
+
+every bit of education helps
+\begin_inset Quotes erd
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Standard
+Despite returns, many farmers do not invest in basic equipment, although
+ not much capital is needed and the returns are very high (e.g a fertilizer).
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+The evidence is inconsistent with technology-based (fixed costs) poverty
+ traps
+\series default
+.
+\end_layout
+
+\begin_layout Standard
+A possible explanation is that S-shaped production functions do not really
+ exist, but are only 
+\series bold
+perceived
+\series default
+ by the poor (which is inconsistent with other theories).
+\end_layout
+
+\begin_layout Standard
+Another explanation is the lack of complementary factors or business opportuniti
+es: expected utility is u-shaped for risk averse agents.
+\end_layout
+
+\begin_layout Standard
+Consider an example with a lottery with a $0 expected return: It costs $1.
+ Probability 
+\begin_inset Formula $p$
+\end_inset
+
+ yields $1 and probability 
+\begin_inset Formula $1-p$
+\end_inset
+
+ yields $0.
+\end_layout
+
+\begin_layout Standard
+An individual would be indifferent between investing $0 or $1, bu the corners
+ are preferred over any other investment, because of risk aversion.
+\end_layout
+
+\begin_layout Standard
+If the lottery is changed so that the prize is $2 and 
+\begin_inset Formula $p_{max}<1$
+\end_inset
+
+, the right corner solution moves up.
+ In any case, only wealthy people will invest (a threshold exists which
+ separates the mfrom the poor).
+\end_layout
+
+\begin_layout Section
+Geography, Transparency and Institutions
+\end_layout
+
+\begin_layout Standard
+Under 
+\begin_inset Quotes eld
+\end_inset
+
+institutions
+\begin_inset Quotes erd
+\end_inset
+
+, protection of property rights are usually meant: the ability to provide
+ 
+\series bold
+security
+\series default
+ (fron other people and outside forces).
+ Protection from the state itself is also a factor (enslavement, random
+ taxation, etc).
+\end_layout
+
+\begin_layout Standard
+State 
+\series bold
+capacity
+\series default
+ is related to that ability (the capacity to tax, to finance the system
+ of law & order).
+\end_layout
+
+\begin_layout Standard
+Geography might have both direct an indirect effect on economic growth,
+ for example a country near an ocean might both directly benefit from trade,
+ and indirectly (the istitutions improve).
+\end_layout
+
+\begin_layout Standard
+The goal is to consider the impact of 
+\series bold
+transparency
+\series default
+ on the 
+\begin_inset Quotes eld
+\end_inset
+
+stick-carrot
+\begin_inset Quotes erd
+\end_inset
+
+ elements of a typical principal-agent problem and explain differences in
+ institutions and the capacity and concentration of the state.
+\end_layout
+
+\begin_layout Standard
+In this model the principal designs the contract to maximize its income
+ (states are not benevolent) and the agents are risk neutral.
+ The economy operates in 2 periods.
+ The output per agent in each period is:
+\begin_inset Formula 
+\[
+Y=\begin{cases}
+H & e=h,\,\theta=G\\
+L & otherwise
+\end{cases}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+High output happens if both the effort of a farmer and the state of nature
+ are high - otherwise, low output occurs.
+\end_layout
+
+\begin_layout Standard
+In every period, the effort comes first and the state of nature is unknown
+ in advance (
+\begin_inset Quotes eld
+\end_inset
+
+rain
+\begin_inset Quotes erd
+\end_inset
+
+).
+ 
+\begin_inset Formula $\sigma\in\{\widetilde{G},\widetilde{B}\}$
+\end_inset
+
+ is a public signal with an accuracy 
+\begin_inset Formula $q\geq1/2$
+\end_inset
+
+ and is observed after effort decision.
+\end_layout
+
+\begin_layout Standard
+The interpretation of the signal can be by observing information at a specific
+ plot or by an observable signal.
+\end_layout
+
+\begin_layout Standard
+The cost of maintaining the agent (what the principal must give) is 0 or
+ 
+\begin_inset Formula $\gamma$
+\end_inset
+
+, depending on whether the effort is low or high.
+ It is assumed that 
+\begin_inset Formula $L\geq\gamma$
+\end_inset
+
+ (low output is larger than the maintanance cost) and 
+\begin_inset Formula $p(H-L)>\gamma$
+\end_inset
+
+ (the expected return is positive, effort is efficient).
+\end_layout
+
+\begin_layout Standard
+The utility of the agent is 
+\begin_inset Formula $U=I-\gamma$
+\end_inset
+
+ if it is exerting high effort, 
+\begin_inset Formula $I$
+\end_inset
+
+ otherwise.
+ The value of being employes in the second period is 
+\begin_inset Formula $V$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+The incentive schme consista of 
+\series bold
+the carrot
+\series default
+ (a 
+\begin_inset Formula $b\geq0$
+\end_inset
+
+ bonus for high output) and a basic wage 
+\begin_inset Formula $\omega=\gamma$
+\end_inset
+
+); and 
+\series bold
+stick
+\series default
+: the agent could (not necessarily) be dismissed at the end of period if
+ the output is low and the state of the nature is good.
+ The cost of replacing the agent is 
+\begin_inset Formula $x>\frac{p\gamma}{1-p}$
+\end_inset
+
+ ).
+ Dismissing the agent when the output is low, is dominated by never dismissing,
+ which leads 2 types of relevant strategies: pure carrot and stick and carrot
+ (which is irrelevant for the 2nd stage).
+\end_layout
+
+\begin_layout Standard
+The incentive compatibility constrait under 
+\begin_inset Quotes eld
+\end_inset
+
+pure carrot
+\begin_inset Quotes erd
+\end_inset
+
+ is:
+\begin_inset Formula 
+\[
+\omega-\gamma+pb_{c}\geq\omega
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+If the agent exerts high effort, he gets the wage, minus the effort, plus
+ a bonus with probability.
+\end_layout
+
+\begin_layout Standard
+Minimizing the cost so that the inequality still holds leads to:
+\begin_inset Formula 
+\[
+b_{c}=\gamma/p
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+which is the required bonus to incentivize agents to take high effort.
+\end_layout
+
+\begin_layout Standard
+The value of employment in period 2 is:
+\begin_inset Formula 
+\[
+V=\omega-\gamma+pb_{c}=\gamma
+\]
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+and the cost of employment is:
+\begin_inset Formula 
+\[
+Cost_{c}=\omega+pb_{c}=2\gamma
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The 
+\begin_inset Quotes eld
+\end_inset
+
+bonus
+\begin_inset Quotes erd
+\end_inset
+
+ is the smallest possible payment, needed to incentivize the agent.
+\end_layout
+
+\begin_layout Standard
+Under 
+\begin_inset Quotes eld
+\end_inset
+
+stick and carrot
+\begin_inset Quotes erd
+\end_inset
+
+ the IC constraint is:
+\begin_inset Formula 
+\[
+\omega+\gamma+pb_{s}+[p+(1-p)q]V\geq\omega+[p(1-q)+(1-p)q]V
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Therefore:
+\begin_inset Formula 
+\[
+b_{s}=\frac{1-pq}{p}\gamma
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In other words, even if the agent does not exert high effort in the first
+ period, he might still be employed in the second one.
+\end_layout
+
+\begin_layout Standard
+The 
+\begin_inset Quotes eld
+\end_inset
+
+price
+\begin_inset Quotes erd
+\end_inset
+
+ of incentivizing is now higher than in the first case, as expected.
+\end_layout
+
+\begin_layout Standard
+The cost of employment for the principal is then:
+\begin_inset Formula 
+\[
+Cost_{x}=(1-pq)\gamma+(1-p)(1-q)x
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The principal has to choose which contract to use - the important thing
+ is that 
+\begin_inset Formula $q$
+\end_inset
+
+ 
+\series bold
+matters
+\series default
+, as it defines 
+\series bold
+a threshold
+\series default
+.
+ Above some 
+\begin_inset Formula $\hat{q}$
+\end_inset
+
+, the 
+\begin_inset Quotes eld
+\end_inset
+
+stick and carrot
+\begin_inset Quotes erd
+\end_inset
+
+ strategy is better:
+\begin_inset Formula 
+\[
+\hat{q}=\frac{(1-p)x}{(1-p)x+p\gamma}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+If 
+\begin_inset Formula $q<\hat{q}$
+\end_inset
+
+, 
+\begin_inset Quotes eld
+\end_inset
+
+pure carrot
+\begin_inset Quotes erd
+\end_inset
+
+ will be chosen.
+ The expected income of both the agent and the principal can be calcualted
+ in each case.
+\end_layout
+
+\begin_layout Standard
+The source of the 
+\begin_inset Quotes eld
+\end_inset
+
+inefficieny
+\begin_inset Quotes erd
+\end_inset
+
+ is the cost of dismissal (it is a waste of resources).
+\end_layout
+
+\begin_layout Standard
+It can be shown on a graph that, the higher the transparency - the higher
+ is the income of the state (in the 
+\begin_inset Quotes eld
+\end_inset
+
+dictator
+\begin_inset Quotes erd
+\end_inset
+
+ example, the state is effectively the owner of the land when everything
+ is transparent).
+\end_layout
+
+\begin_layout Standard
+By 
+\series bold
+another
+\series default
+ model, the non-benevolent elite wants to incentivize the agents to exert
+ high effort, and they will only do that when protected - the result is
+ the opposite.
+\end_layout
+
+\begin_layout Standard
+At the end, the outcome depends on 
+\series bold
+who knows what
+\series default
+ - there is a multi-tiered hierarchy.
+ For example, local framing mught be transparent to the local officials,
+ but not to the state (peripheral centers are strong).
+\end_layout
+
+\begin_layout Standard
+Mesopotamia vs.
+ Ancient Egypt: the old testament refers to Egypt as a 
+\begin_inset Quotes eld
+\end_inset
+
+house of bondage
+\begin_inset Quotes erd
+\end_inset
+
+ (farmers did not own land).
+ This was the case in lower Mesopoltamis as well, unlike Mesopotamia - where
+ owner-operated farming was common.
+\end_layout
+
+\begin_layout Standard
+The government knew in advance what revenue to anticipate, aon the basis
+ of the Nilometer.
+\end_layout
+
+\begin_layout Standard
+By our model it can be explained, why the cities in Egypt were administrative
+ centers, but in Mesopotamia the retained much power (controlled by the
+ local elite).
+\end_layout
+
+\begin_layout Section
+The Emergence of Hierarchies and States
+\end_layout
+
+\begin_layout Standard
+There is a correlation between rich states today and functioning hierarchical
+ state 500 years ago.
+ Plotting the world in a map where the size of each country reflects its
+ productivity, so that the productivity per area in the new map is equal,
+ we can see the huge gap between North America, Europt and Japan, to South
+ America and Afrca.
+\end_layout
+
+\begin_layout Standard
+Going even more back in time, we can infer that Geography (altitude, rainfall,
+ access to water, terrain, etc) and ethnic diversity almost determine the
+ faith of countries.
+\end_layout
+
+\begin_layout Standard
+Diversity creates both advantage (comparative advantage, specialization)
+ and disadvantage (conflicts, politics) to an economy.
+\end_layout
+
+\begin_layout Standard
+Following the Neolithic revolution, some regions developed complex hierarchies.
+ How did farming trigger it? Why some regions remained with only simple
+ hierarchy?
+\end_layout
+
+\begin_layout Standard
+According to existing literature, the Neolithic revolution increased productivit
+y, which created a food surplus, which lead to an elite that doesn't produce
+ food (state emergence).
+\end_layout
+
+\begin_layout Standard
+Differences in agricultural productivity caused differences in the surplus,
+ which impacted the hierarchical complexity.
+\end_layout
+
+\begin_layout Standard
+The literature emphasizes the importance of the ability to 
+\series bold
+tax
+\series default
+ the surplus (
+\begin_inset Quotes eld
+\end_inset
+
+it is not enough to have a surplus - it should also be taxed
+\begin_inset Quotes erd
+\end_inset
+
+).
+ Current criticism suggests these explanations are flawed and the surplus
+ is claimed to be neither necessary nor sufficient.
+\end_layout
+
+\begin_layout Standard
+Instead, the claim is the the transition to farming created 
+\series bold
+appropriability
+\series default
+, which lead to an elite not producing food.
+\end_layout
+
+\begin_layout Standard
+New Guinea adopted faring roughly at the same time as Egypt, but failed
+ to develop hierarchical complexity.
+\end_layout
+
+\begin_layout Standard
+Eventually, hierarchy has developed where farmers were unable to grow roots
+ (to avoid taxation).
+\end_layout
+
+\begin_layout Standard
+The explanation for hierarchy and states is land suitability, which lead
+ to state capacity - that has large impact on economic development.
+\end_layout
+
+\end_body
+\end_document

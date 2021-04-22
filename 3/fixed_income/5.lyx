@@ -1,0 +1,503 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+\usepackage{indentfirst}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2.5cm
+\topmargin 2.5cm
+\rightmargin 2.5cm
+\bottommargin 2.5cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Fixed Income Markets - Lecture 5
+\end_layout
+
+\begin_layout Author
+Leonid Genkin
+\end_layout
+
+\begin_layout Section
+Options on Bonds
+\end_layout
+
+\begin_layout Standard
+A
+\series bold
+ 
+\series default
+call/put 
+\series bold
+option
+\series default
+ gives the holder the right (but not the obligation) to buy/sell an asset
+ at a fixed price at a particular future date.
+\end_layout
+
+\begin_layout Standard
+An 
+\series bold
+insurance
+\series default
+ is an example of a put option (for selling the car to the insurance company
+ in an event of a total loss).
+\end_layout
+
+\begin_layout Standard
+There are 2 typical types of options: 
+\series bold
+European option
+\series default
+ (can be only exercised only at a particular date) and 
+\series bold
+American option
+\series default
+ (can be used before the strike date).
+\end_layout
+
+\begin_layout Standard
+Unlike a forwads, where anything does not have to be paid upfront - in an
+ option one has to pay, because a 
+\series bold
+risk trading
+\series default
+ takes place 
+\series bold
+option premimum
+\series default
+).
+\end_layout
+
+\begin_layout Standard
+The whole risk is never transferred (for example there is a deductible in
+ insurance).
+\end_layout
+
+\begin_layout Subsection
+Interest Rate Option
+\end_layout
+
+\begin_layout Standard
+A 
+\series bold
+caplet
+\series default
+ is a call option on interest rate.
+ If there is not enough liquidity in the market, one might not get the guarantee
+d interest rate (e.g 2008 crisis; running out of cash, etc).
+\end_layout
+
+\begin_layout Standard
+The horizon is divided to 2 parts: the option and the loan.
+ In case the interest rate goes above the strike rate, one would exercise
+ the option.
+ The 
+\series bold
+payoff
+\series default
+ from exercising the option is the difference between the actual interest
+ rate at the expiration and the strike interest rate, times the notional
+ value, 
+\series bold
+discounted
+\series default
+.
+ Only if the interest rate goes 
+\series bold
+above
+\series default
+ the strike rate - the option is used.
+\end_layout
+
+\begin_layout Standard
+A 
+\series bold
+floorlet
+\series default
+ is the opposite - an agreement where the holder has the right to 
+\series bold
+receive
+\series default
+ an interest rate.
+\end_layout
+
+\begin_layout Subsection
+Caplet Valuation
+\end_layout
+
+\begin_layout Standard
+Consider a situation, where the rate today is 
+\begin_inset Formula $3\%$
+\end_inset
+
+, 
+\series bold
+
+\begin_inset Formula $5.99\%$
+\end_inset
+
+ 
+\series default
+in a year and 
+\begin_inset Formula $6.22\%$
+\end_inset
+
+ in 2 years.
+ An option today to take a 
+\begin_inset Formula $5\%$
+\end_inset
+
+ loan in a year 
+\series bold
+will
+\series default
+ be exercise (as the interest rate increases).
+ The payoff is 
+\begin_inset Formula $0.99\%$
+\end_inset
+
+ times the notional value (at the date of 
+\series bold
+interest payment
+\series default
+).
+ To value it at the beginning of the loan/option, one has to discount for
+ 1/2 years with the appropriate interest rate(s), which are in fact unknown
+ at that point in time.
+\end_layout
+
+\begin_layout Standard
+As the exact future interest rates are unknown, valuing the option can be
+ done using probabilities (weighted average of possible scenarios).
+ Each scenario must be correctly discounted, using the appropriate interest
+ rate in each case.
+\end_layout
+
+\begin_layout Subsection
+Swaption
+\end_layout
+
+\begin_layout Standard
+A 
+\series bold
+swaption
+\series default
+ grants its owner the right to enter an underlying swap.
+\end_layout
+
+\begin_layout Standard
+The payer/receiver (put/call) of the swaption pays/receives the 
+\series bold
+fixed leg
+\series default
+ and receives/pays the 
+\series bold
+floating leg
+\series default
+.
+\end_layout
+
+\begin_layout Standard
+The primary uses of swaption are for: (1) locking-in a maxium fixed rate,
+ (2) speculation on interest rate and (3) swap termination.
+\end_layout
+
+\begin_layout Standard
+Valuaing a swaption on expiration is done by taking the difference between
+ the market rate and the fixed rate, discounted using the 
+\series bold
+current spot rate
+\series default
+.
+\end_layout
+
+\begin_layout Subsection
+Option-free Bonds Valuation
+\end_layout
+
+\begin_layout Standard
+Valuing option-free bonds with certain future is done by discounting using
+ the appropriate risk-free interest rate.
+ When uncertainity is introduced, the valuation is the weighted average
+ of the possible cases.
+\end_layout
+
+\begin_layout Standard
+The z-spread is valued by iterative approximation.
+\end_layout
+
+\begin_layout Subsection
+Options-Embedded Bonds Valuation
+\end_layout
+
+\begin_layout Standard
+Valuing a callable bond (the issuer has the value) - the value goes down
+ when adding the option:
+\begin_inset Formula 
+\[
+V_{call}=V_{noncallable}-V_{callable}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+For a puttable option:
+\begin_inset Formula 
+\[
+V_{put}=V_{putable}-V_{nonputable}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Convertible Bonds
+\end_layout
+
+\begin_layout Standard
+A 
+\series bold
+convertible bond
+\series default
+ provides the right to convert it to a fixed number of shares (
+\series bold
+conversion ratio
+\series default
+).
+ Most of them are callable, meaning the issuer can 
+\begin_inset Quotes eld
+\end_inset
+
+force
+\begin_inset Quotes erd
+\end_inset
+
+ the conversion.
+\end_layout
+
+\begin_layout Standard
+The (stock) 
+\series bold
+conversion
+\series default
+ 
+\series bold
+price
+\series default
+ is the bond price, divided by the 
+\series bold
+conversion ratio
+\series default
+.
+\end_layout
+
+\begin_layout Standard
+The 
+\series bold
+conversion value
+\series default
+ is the stock price times the conversion ratio.
+\end_layout
+
+\begin_layout Standard
+The 
+\series bold
+minimum bond price
+\series default
+ must be at least the maximum of the conversion value and the 
+\series bold
+straight value 
+\series default
+(its PV without conversion).
+\end_layout
+
+\begin_layout Standard
+Valuing an 
+\series bold
+option on a bond
+\series default
+ with interest rate binomial model:
+\end_layout
+
+\begin_layout Enumerate
+Calculate the bond 
+\series bold
+price
+\series default
+ at each node (backward induction).
+\end_layout
+
+\begin_layout Enumerate
+Calculate the intrinsic 
+\series bold
+value
+\series default
+ of the option at each node.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Option Strategies
+\end_layout
+
+\begin_layout Standard
+There are various strategies for using options.
+ The key to understanding the instrument is knowing the cash flows and their
+ value.
+ It allows to perform 
+\series bold
+financial engineering
+\series default
+ - use various tools in order to shape the desired result.
+\end_layout
+
+\begin_layout Standard
+Plotting the payoff of a 
+\series bold
+forward 
+\series default
+as a function of the interest rate at expiration shows that a long (short)
+ forward has an upward (downward) sloping graph.
+ If the interest rate is below the strike rate, a long (short) option has
+ a negative (positive) payoff.
+\end_layout
+
+\begin_layout Standard
+With a 
+\series bold
+call
+\series default
+ option, the premium 
+\begin_inset Quotes eld
+\end_inset
+
+insures
+\begin_inset Quotes erd
+\end_inset
+
+ against a negative payoff, by a premium.
+ The payoff in the worst case is paying the premium, and in the best case
+ - the premium is deducted from the positive payoff.
+ A 
+\series bold
+put
+\series default
+ option works similarly, in the opposite direction.
+\end_layout
+
+\begin_layout Standard
+A 
+\series bold
+covered call
+\series default
+ provides extra profit for the asset holder, if the upside is unlikely.
+\end_layout
+
+\begin_layout Standard
+A 
+\series bold
+protected call
+\series default
+ provides insurance against a drop in the asset value.
+\end_layout
+
+\begin_layout Standard
+In summary, theoretically - any possible 
+\begin_inset Quotes eld
+\end_inset
+
+pizza
+\begin_inset Quotes erd
+\end_inset
+
+ of a financial strategy and cash flows can be built.
+\end_layout
+
+\end_body
+\end_document

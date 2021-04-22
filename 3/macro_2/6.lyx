@@ -1,0 +1,344 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+\usepackage{indentfirst}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2.5cm
+\topmargin 2.5cm
+\rightmargin 2.5cm
+\bottommargin 2.5cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Macro 2 - Lecture 6
+\end_layout
+
+\begin_layout Author
+Leonid Genkin
+\end_layout
+
+\begin_layout Section
+BOI Monetary Policy in the COVID crisis
+\end_layout
+
+\begin_layout Standard
+The main functions of the BOI are:
+\end_layout
+
+\begin_layout Itemize
+Managing monetary policy
+\end_layout
+
+\begin_layout Itemize
+Support the activity and stability of financial markets
+\end_layout
+
+\begin_layout Itemize
+Managing the foreign currency reserves of the State
+\end_layout
+
+\begin_layout Itemize
+Supervising and regulating the banking system - one of the key factors that
+ improves the ability to manage crises is having the monetary policy and
+ the supervision of banks in a single place
+\end_layout
+
+\begin_layout Itemize
+Issuing currency and regulating it
+\end_layout
+
+\begin_layout Itemize
+Advising the Government on economic matters
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+By law (2010), the main objectives are 
+\begin_inset Quotes eld
+\end_inset
+
+maintain price stability and support the economic policy, especially growth,
+ employment and social gaps reduction
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+The monetary committee has six members, 5 of them appointed by the government
+ and 1 is internal.
+ The decisions are made by a majority vote, with the governor having a double
+ vote.
+ The votes are anonymous with collective responsibility - which leads to
+ more open discussions.
+\end_layout
+
+\begin_layout Standard
+Over the last 20 years, the interest rate in Israeli has been gradually
+ decreasing, like in many other countries around the world - together with
+ the inflation (increasing technology and Chinese productivity created a
+ pressure on it).
+\end_layout
+
+\begin_layout Standard
+The Phillips curve is so 
+\begin_inset Quotes eld
+\end_inset
+
+flat
+\begin_inset Quotes erd
+\end_inset
+
+, because most labor markets are actually global and not national anymore.
+ Example: even the X-ray technician at a hospital.
+\end_layout
+
+\begin_layout Standard
+Unlike 2008, the COVID-19 crisis was not caused by a financial shock.
+ The economy of Israel entered the crisis in a relatively good state (in
+ terms of labor market, current account surplus and GDP growth).
+\end_layout
+
+\begin_layout Standard
+Response steps taken by the BOI include:
+\end_layout
+
+\begin_layout Itemize
+Monetary policy: liquidity on the FXm market, government bonds purchase,
+ Shekel liquidity supply
+\end_layout
+
+\begin_layout Itemize
+Credit: reducing capital requirements, loan deferrals, regulatory easings
+\end_layout
+
+\begin_layout Itemize
+Economic advice to the government: fiscal & economic plans, exit strategic
+ plan, policy steps
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Unlike normal times, during a crisis keeping the financial stability is
+ more important than reaching growth or inflation targets.
+\end_layout
+
+\begin_layout Standard
+Institutional investors developed significant exposure to derivatives abroad
+ during the last decade, which might be might impose a problem when prices
+ go down.
+\end_layout
+
+\begin_layout Standard
+The impact of asset purchase programs was decresaing the yields immediately
+ after the announcement.
+\end_layout
+
+\begin_layout Standard
+The advantage of the Central Bank, compared to the fiscal authorities -
+ is its ability to act much quicker.
+\end_layout
+
+\begin_layout Standard
+During the last 20 years there has been a steady appreciation of the Shekel.
+ A strong basic balance continues to support the Shekel, and the private
+ equity flows in the Israeli tech sector contribute to it.
+\end_layout
+
+\begin_layout Section
+\begin_inset Quotes eld
+\end_inset
+
+Be prepared
+\begin_inset Quotes erd
+\end_inset
+
+ - The Fed should explain how it will respond to rising inflation 
+\end_layout
+
+\begin_layout Standard
+The article discusses the inflation forecast by comparing the CPI with the
+ PCE indices.
+\end_layout
+
+\begin_layout Standard
+The Fed aims to 
+\series bold
+forecast
+\series default
+ the inflation to be 2% on average.
+ Therefore, after a long period on inflation around 0%, it is reasonable
+ to have a period with an inflation above 2%.
+\end_layout
+
+\begin_layout Section
+\begin_inset Quotes eld
+\end_inset
+
+Whatever it takes
+\begin_inset Quotes erd
+\end_inset
+
+ - continued
+\end_layout
+
+\begin_layout Standard
+Unlike the FED, the ECB was unable to get the interest rate down, until
+ they started asset purchasing.
+ It demonstrates the importance of QE.
+ Until the ECB saw a 
+\series bold
+deflation
+\series default
+, they were unwilling to perform QE.
+\end_layout
+
+\begin_layout Standard
+The gain from staying the E.U area is getting very low and stable interest
+ rates for a long period (leaving it would rise interest rates, because
+ of risk premium).
+\end_layout
+
+\begin_layout Section
+The BOI Monetary Policy
+\end_layout
+
+\begin_layout Standard
+In the monetary decision process, the economy is analyzed first, then inflation
+ and finally the exchange rate.
+ In normal times, only interest rate and FX intervention take place, but
+ during a crisis QE can be applicable.
+\end_layout
+
+\begin_layout Standard
+The strength of the Israeli economy lies in its stable banks and financial
+ markets (which was not the case before 2002, when the ratio of the debt
+ to GDP was around 95%).
+\end_layout
+
+\begin_layout Standard
+Looking at the 10 year rates in Israel during 2007-2021, we can see that
+ they are 
+\series bold
+lower
+\series default
+ the in the U.S, and the historical lowest ever - means that the markets
+ provide extremely low probability for the default of Israel.
+\end_layout
+
+\begin_layout Standard
+Israel has become more closed during the last 15 years (the exports and
+ imports going from ~40% to ~25% of GDP).
+\end_layout
+
+\begin_layout Standard
+The exchange rate gets stronger, which reduces prices.
+ Given the ZLB, the BOI tries to prevent that by intervening more.
+\end_layout
+
+\begin_layout Standard
+In 2013 gas was discovered in Israel and the high-tech sector boomed, therefore
+ the interest rate decreased dramatically.
+\end_layout
+
+\begin_layout Standard
+What are the reasons for the low Inflation in Israel? By decomposing the
+ inflation to tradable vs.
+ non-tradable goods index, we can see that the main reason is appreciation
+ of the Shekel.
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_body
+\end_document

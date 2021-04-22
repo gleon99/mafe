@@ -1,0 +1,396 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+\usepackage{indentfirst}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2.5cm
+\topmargin 2.5cm
+\rightmargin 2.5cm
+\bottommargin 2.5cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Investments - Lecture 6
+\end_layout
+
+\begin_layout Author
+Leonid Genkin
+\end_layout
+
+\begin_layout Section
+Efficient Markets Hypothesis (EMH)
+\end_layout
+
+\begin_layout Standard
+The theory is that the extra return (compared to government bonds) is required
+ to attract risk averse investors.
+\end_layout
+
+\begin_layout Standard
+Mehra & Prescott (1985) found that this premium should be
+\series bold
+ less than 1%
+\series default
+ for reasonable risk aversion levels, yet estimating it from historical
+ data gives about 
+\series bold
+6%
+\series default
+.
+\end_layout
+
+\begin_layout Standard
+In other words, it means that investors would prefer certain $51,300 to
+ a 50%-50% chance of $50K or $100K - this is the 
+\series bold
+equity premium puzzle
+\series default
+.
+\end_layout
+
+\begin_layout Standard
+The 
+\begin_inset Quotes eld
+\end_inset
+
+risk parity
+\begin_inset Quotes erd
+\end_inset
+
+ allocation strategy performed worse than the 60/40 strategy (investing
+ 60% in equity and 40% in bonds) during the COVID-19 crisis.
+\end_layout
+
+\begin_layout Standard
+Using the S&P500 index and 
+\begin_inset Quotes eld
+\end_inset
+
+hypothetically
+\begin_inset Quotes erd
+\end_inset
+
+ targeting it to particular volatility levels shows better results than
+ the HFR risk parity - it is unclear, where this underperformance comes
+ from.
+\end_layout
+
+\begin_layout Standard
+The motivation for the theory of market efficiency is that prices reflect
+ all available information (no arbitrage) in a trade-off between risk and
+ return.
+\end_layout
+
+\begin_layout Standard
+An example with markets reaction to the Challenger space shuttle explosion:
+ it took 5 months for the committee to determine the crash reason, while
+ the markets reflected this information within minutes.
+\end_layout
+
+\begin_layout Standard
+Market efficiency is affected by avrious factors: transaction costs, time
+ frame of the price adjsutments, market value vs.
+ intrinsic value.
+\end_layout
+
+\begin_layout Standard
+The extent to which a market is efficient affects the number of profitable
+ trading strategies: passive strategies will outperform active ones if markets
+ are efficient, and vice versa.
+ In practice, the markets are somewhere inbetween.
+\end_layout
+
+\begin_layout Standard
+The Grossman-Stiglitz paradox argues that perfectly efficient markets are
+ impossible, because it would equate the return on gathering information
+ to zero.
+\end_layout
+
+\begin_layout Standard
+In a 
+\series bold
+semi-strong-form
+\series default
+ efficient market, prices reflect all publibly known and available information.
+ 
+\series bold
+Weak-form
+\series default
+ efficiency assumes that past trading data is reflected in prices, but future
+ cannot be predicted.
+\end_layout
+
+\begin_layout Standard
+The 
+\series bold
+strong form
+\series default
+ of market efficiency implies past, public and private information for prices
+ determination (
+\begin_inset Quotes eld
+\end_inset
+
+crime pays
+\begin_inset Quotes erd
+\end_inset
+
+).
+ Empirical evidende supports the idea that markets in developed countries
+ are semi-strong-form efficient.
+ Private informatino is usually not reflected in prices, because of laws
+ that prohibit insider trading.
+\end_layout
+
+\begin_layout Standard
+Is the expected return for stocks equal to 0 in an efficient market? - No,
+ because it represents the equity premium.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Alpha
+\series default
+ is the amount by which the market is beaten, adjusting for risk (Alpha
+ for the whole market is 0 - 
+\begin_inset Quotes eld
+\end_inset
+
+statistical arbitrage is an oxymoron
+\begin_inset Quotes erd
+\end_inset
+
+).
+ It provides the conceptual value of CAPM.
+\end_layout
+
+\begin_layout Standard
+Providing an investment strategy with a positive alpha means that someone
+ is necessarily losing (as it is a zero-sum game).
+ It is therefore impossible to consistently generate positive alpha.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes eld
+\end_inset
+
+Efficiently Inefficient
+\begin_inset Quotes erd
+\end_inset
+
+ - recommended reading.
+\end_layout
+
+\begin_layout Standard
+The two-fund separation theorem states that 
+\series bold
+everyone invests
+\series default
+ (in portfolios of market & cash).
+\end_layout
+
+\begin_layout Standard
+Hedge funds usually concentrate on their 
+\begin_inset Quotes eld
+\end_inset
+
+high water mark
+\begin_inset Quotes erd
+\end_inset
+
+ (HWM), rather than its cumulative return (because of their profit incentives).
+\end_layout
+
+\begin_layout Standard
+In theory, by reporting returns with a delay a hedge fund misleadingly create
+ an impression of added value (
+\begin_inset Quotes eld
+\end_inset
+
+alpha
+\begin_inset Quotes erd
+\end_inset
+
+).
+ It can be easily adjusted by using lagged values of market returns.
+\end_layout
+
+\begin_layout Standard
+The liquidity-adjusted CAPM takes into account liquidity risks by incorporating
+ them into (co)variance calculations.
+\end_layout
+
+\begin_layout Standard
+The liquidity spiral: an initial shock leads to funding problems, which
+ reduce positions.
+ Then prices move away from their fundamentals, which leads to more funding
+ problems.
+\end_layout
+
+\begin_layout Standard
+There are 3 types of quantitative investing: fundamentals, statistical arbitrage
+ and HFT.
+\end_layout
+
+\begin_layout Section
+Adaptive Markets Hypothesis
+\end_layout
+
+\begin_layout Standard
+Recommended reading: 
+\begin_inset Quotes eld
+\end_inset
+
+Adaptive Markets
+\begin_inset Quotes erd
+\end_inset
+
+ - Andrew W.
+ Lo.
+\end_layout
+
+\begin_layout Standard
+The 5 key principles of the AMH are:
+\end_layout
+
+\begin_layout Enumerate
+People are neither always rational or irrational (but rather biological
+ entities, shaped by evolution).
+\end_layout
+
+\begin_layout Enumerate
+Behavioral biases lead to suboptimal decisions, but learning and feedback
+ improve our heuristics over time.
+\end_layout
+
+\begin_layout Enumerate
+Abstract thinkin capacity allows for 
+\begin_inset Quotes eld
+\end_inset
+
+what-if
+\begin_inset Quotes erd
+\end_inset
+
+ analysis.
+\end_layout
+
+\begin_layout Enumerate
+Market dynamics are driven by human interactions.
+\end_layout
+
+\begin_layout Enumerate
+Survival drives competition and innovation.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Probability matching can be shown to be a result of risk aversion, by observing
+ an experiment with I.D.D win/lose results (
+\begin_inset Quotes eld
+\end_inset
+
+the binary choice game
+\begin_inset Quotes erd
+\end_inset
+
+): even though the best strategy is to choose a single option consistently,
+ most people alternate between the options.
+\end_layout
+
+\begin_layout Standard
+From the perspective of the AMH, the EMH is not wrong - it is simply incomplete.
+ Markets 
+\series bold
+are
+\series default
+ in fact efficient in some cases, it only depends on the environment.
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_body
+\end_document

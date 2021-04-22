@@ -1,0 +1,702 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+\usepackage{indentfirst}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2.5cm
+\topmargin 2.5cm
+\rightmargin 2.5cm
+\bottommargin 2.5cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Macro 2 - Lecture 5
+\end_layout
+
+\begin_layout Author
+Leonid Genkin
+\end_layout
+
+\begin_layout Section
+Flexible Inflation Targeting - Continued
+\end_layout
+
+\begin_layout Standard
+Looking at the past predictions by the FOMC, the main reason for the decline
+ of the unemployment rate is the reduction of the long run rates.
+\end_layout
+
+\begin_layout Standard
+If a fast growth is expeceted, the future is discounted on a higher rate.
+\end_layout
+
+\begin_layout Standard
+A more interesting detail is that the long-run assumption on the long-run
+ unemployment rate is low - which reflects the changes in the structure
+ of the U.S economy.
+\end_layout
+
+\begin_layout Standard
+It is a very imoportant aspect, as it means that a low unemployment in the
+ short-run 
+\series bold
+does not 
+\series default
+necessarily mean an output gap.
+\end_layout
+
+\begin_layout Standard
+The change in GDP is projected to be high in 2021, and gradually decrease
+ in the following years.
+\end_layout
+
+\begin_layout Standard
+The long-run projected 
+\begin_inset Formula $i$
+\end_inset
+
+ was 2.5%, while for 2020-2023 it is 0% .
+\end_layout
+
+\begin_layout Standard
+Looking at the interest rate policy of various CBs, we can see that there
+ was a rise in Israel between 2010-2012 caused by an increase in inflation,
+ as if the 2008 crysis was over.
+ The U.S increased the interest rate around 2017-2020 for the same reason.
+\end_layout
+
+\begin_layout Subsection
+Conclusion
+\end_layout
+
+\begin_layout Standard
+The monetary policy should be 
+\series bold
+rule based
+\series default
+, 
+\series bold
+transparent
+\series default
+ (which allows the market to predict and establish credibility) and 
+\series bold
+forward looking
+\series default
+.
+ The 
+\series bold
+goals
+\series default
+ are inflation stabilization and output deviations.
+\end_layout
+
+\begin_layout Section
+Open Economy
+\end_layout
+
+\begin_layout Standard
+Is monetary policy less or more effective in a small open economy? How does
+ the exchange rate affect it?
+\end_layout
+
+\begin_layout Standard
+When the economy is opened up, a new variable is introduced (the exchange
+ rate).
+ The nominal exchange rate (local currency per $) is 
+\begin_inset Formula $e$
+\end_inset
+
+ and the real exchange rate is 
+\begin_inset Formula $e^{r}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+The national accounting identity is then:
+\begin_inset Formula 
+\[
+Y=C(r,e^{r})+I(r,e^{r})+G+X(r,e^{r})-IM(r,e^{r})
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Where 
+\begin_inset Formula $X$
+\end_inset
+
+ is the exports, 
+\begin_inset Formula $IM$
+\end_inset
+
+ is the imports and 
+\begin_inset Formula $e^{r}$
+\end_inset
+
+ is the real exchange rate, given by price level adjustment:
+\begin_inset Formula 
+\[
+e^{r}=\frac{CPI^{\$}}{CPI^{local}}e
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+If 
+\begin_inset Formula $e^{r}$
+\end_inset
+
+ goes up, 
+\begin_inset Formula $X$
+\end_inset
+
+ increases and 
+\begin_inset Formula $IM$
+\end_inset
+
+ decreases, leading to an increase of 
+\begin_inset Formula $Y$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+If the nominal exchange goes up, local prices goes up (goods are mroe expensive)
+ and the inflation goes up.
+\end_layout
+
+\begin_layout Subsection
+UIP
+\end_layout
+
+\begin_layout Standard
+In an open economy, the returns on all the local bonds and foreign bonds
+ are equalized.
+\end_layout
+
+\begin_layout Standard
+Adding expectations and a small countrhy risk rate (
+\begin_inset Formula $\rho$
+\end_inset
+
+), for discrete time:
+\begin_inset Formula 
+\[
+1+i_{t}-\rho=\frac{E_{t}(e_{t+1})}{e_{t}}(1+i_{t}^{\$})
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In continuous time:
+\begin_inset Formula 
+\[
+e_{t}\approx E_{t}(e_{t+1})+i_{t}^{\$}-(i_{t}-\rho)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+That is, assuming that the domestic bonds (
+\begin_inset Formula $i_{t}$
+\end_inset
+
+) and the foreign ones (
+\begin_inset Formula $i^{\$})$
+\end_inset
+
+ have the same expected return.
+\end_layout
+
+\begin_layout Standard
+A 
+\series bold
+positive
+\series default
+ shock to the (nominal) exchange rate implies a 
+\series bold
+decrease
+\series default
+ in exchange rate (stronger local currency).
+ The long-run 
+\series bold
+real exchange rate 
+\series default
+is determined by the 
+\series bold
+real
+\series default
+ economy.
+ In an open economy, the transmission mechanism is 
+\series bold
+faster
+\series default
+.
+\end_layout
+
+\begin_layout Standard
+If the nominal interest rate is increased: (1) real interest rate increases
+ and (2) exchange rate declines.
+\end_layout
+
+\begin_layout Standard
+In small economies the second effect is larger than the first one.
+\end_layout
+
+\begin_layout Standard
+The impact of the exchange rate on inflation is large, and is called 
+\begin_inset Quotes eld
+\end_inset
+
+pass-through
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection
+Choice of Exchange Rate Regime
+\end_layout
+
+\begin_layout Standard
+A 
+\series bold
+fixed
+\series default
+ exchange rate regime requires full control on capital mobility.
+ Holding it fixed with larged deviation from the equilibrium, the economy
+ might run on the currency.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Floating
+\series default
+ exchange rate requires no capital control or CB intervention, and exists
+ in most IT countries.
+\end_layout
+
+\begin_layout Standard
+A 
+\series bold
+managed floating
+\series default
+ exchange rate assumes CB intervention by buying/selling FX.
+ It is an additional unconventional tool for market policies, to be used
+ at exceptional cases.
+\end_layout
+
+\begin_layout Subsection
+The Russian Currency Crisis
+\end_layout
+
+\begin_layout Standard
+A single FX purchase works like a temporary shock.
+ If the UIP holds, it has only short-run effect.
+ A large 
+\series bold
+devaluation
+\series default
+: rising interest rate, then exchange rate drops.
+ A large 
+\series bold
+revaluation
+\series default
+: lower interest rate, until the ZLB, then QE (FX purchase).
+\end_layout
+
+\begin_layout Section
+The Euro Debt Crisis
+\end_layout
+
+\begin_layout Standard
+The primary objective of the ECB us to maintain 
+\series bold
+price stability
+\series default
+ within the Eurozone.
+ In addition to that, the 
+\begin_inset Quotes eld
+\end_inset
+
+harmonized
+\begin_inset Quotes erd
+\end_inset
+
+ index of consumer prices (HICP) is to be about 2% over the medium term.
+ Unliked the FED, the ECB has only a single objective.
+ Recently another goal was added - keeping the Euro.
+ The ECB reacts to real shocks, for example the COVID-19.
+\end_layout
+
+\begin_layout Standard
+The 10 year interest rate spread of certain countries has significantly
+ increased in 2010-2013, compare to Germany.
+ The big difference between the ECB and another currency is that the ECB
+ has one currency with different fiscal policies.
+ Unlike previous crises, in COVID-19 there were smaller gaps between interest
+ rates of different countries.
+\end_layout
+
+\begin_layout Standard
+The GDP went down, government deficit rised and the debt affected the interest
+ rate and the economy.
+ The government debt (% of GDP) in Greece has increased from 2008 to 2012,
+ but it stabilized since then.
+\end_layout
+
+\begin_layout Standard
+Looking at the general deficit, all countries have huge deficit since the
+ COVID-19 crisis, yet the market expects it to stabilize.
+\end_layout
+
+\begin_layout Standard
+The government spending of Greece (as % og GDP) went down since the stabilizatio
+n, as they readjusted their budget, as they were expected to do.
+\end_layout
+
+\begin_layout Subsection
+Debt Dynamics
+\end_layout
+
+\begin_layout Standard
+The exponential model of debt dynamics is very simple, with important outcome.
+ The main question is: should we 
+\series bold
+care
+\series default
+ about the level of debt we see?
+\end_layout
+
+\begin_layout Standard
+The government budget constraint is:
+\begin_inset Formula 
+\[
+G_{t}+r_{t}D_{t}-T_{t}=D_{t+1}-D_{t}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+What is the key reason that today is different than it was ~10 years ago?
+ The real interest rates are 
+\series bold
+negative
+\series default
+ (or close to 0).
+ Therefore, the cost of financing debt went down dramatically (as long as
+ one believes that in the long run he is not going to default).
+\end_layout
+
+\begin_layout Standard
+Primary deficit is the expenditures minus tax revenues: 
+\begin_inset Formula $G_{t}-T_{t}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+The deficit is financed by increasing the debt.
+\end_layout
+
+\begin_layout Standard
+In the short / medium run, taxes are assumed to be a fixed portion 
+\begin_inset Formula $\tau$
+\end_inset
+
+ of the output, and the government expenditure is a fixed portion 
+\begin_inset Formula $\alpha$
+\end_inset
+
+ of the GDP.
+ Then:
+\begin_inset Formula 
+\[
+(\alpha-\tau)Y_{t}=D_{t+1}-(1+r_{t})D_{t}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Define the GDP in the next period by: 
+\begin_inset Formula $Y_{t+1}=(1+g_{t})Y_{t}$
+\end_inset
+
+.
+ For simplicity, assume the primary deficit is 0 (
+\begin_inset Formula $\alpha=\tau$
+\end_inset
+
+), then:
+\begin_inset Formula 
+\[
+\frac{D_{t+1}}{Y_{t+1}}=\frac{1+r_{t}}{1+g_{t}}\cdot\frac{D_{t}}{Y_{t}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+A sustainable debt-to-GDP ratio requires 
+\begin_inset Formula $g>r$
+\end_inset
+
+ in the long-run (pro-growth measures).
+\end_layout
+
+\begin_layout Standard
+Assuming primary deficit of 0, when 
+\begin_inset Formula $r>g$
+\end_inset
+
+, debt-to-GDP ratio increases.
+ When 
+\begin_inset Formula $g<0$
+\end_inset
+
+, primary deficit and 
+\begin_inset Formula $r$
+\end_inset
+
+ increase.
+\end_layout
+
+\begin_layout Standard
+When primary deficit is positive or negative:
+\begin_inset Formula 
+\[
+\frac{D_{t+1}}{Y_{t+1}}=\frac{\alpha-\tau}{1+g_{t}}+\frac{1+r_{t}}{1+g_{t}}\frac{D_{t}}{Y_{t}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The key is checking the trend of the long-term interest rate.
+\end_layout
+
+\begin_layout Standard
+When Draghi says 
+\begin_inset Quotes eld
+\end_inset
+
+whatever it takes
+\begin_inset Quotes erd
+\end_inset
+
+ - he actually means 
+\begin_inset Quotes eld
+\end_inset
+
+given a 
+\series bold
+responsible policy 
+\series default
+is ran
+\begin_inset Quotes erd
+\end_inset
+
+.
+ It was not the case with Greece, thus the 
+\begin_inset Quotes eld
+\end_inset
+
+ATM machine was closed
+\begin_inset Quotes erd
+\end_inset
+
+.
+ Greece even considered rolling back to their own currency, but it was even
+ more complicated than adopting a responsible policy.
+ Their gain is very low interest rate today (close to the German one), as
+ the market believes in them, yet they lost the independence in defining
+ policy.
+\end_layout
+
+\begin_layout Standard
+The head of the ECB is very powerful, as he has the freedom of providing
+ or revoking help and support to a country and its banks.
+\end_layout
+
+\begin_layout Standard
+When Greece was in trouble, the CDS (spread) of its banks rised.
+ Italian banks CDS followed it, as they held a lot of their debt.
+ There are 2 differences illustrated here: each country can issue its own
+ debt.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Bank regulation should separate the risk of the banks default and the risk
+ of the country default.
+\end_layout
+
+\begin_layout Standard
+Is the interest rate policy consistent with the debt crisis? Draghi: 
+\begin_inset Quotes eld
+\end_inset
+
+Reaching a 2% inflation is impossible, unless GDP and unemployment stabilize
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Currently, the EDB hsa almost the lower interest rate of all countries and
+ rhe most expanding policy (in monetary sense) of all countries.
+\end_layout
+
+\begin_layout Standard
+That was done completely by Draghi, adopting Bernanke strategy.
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Quotes eld
+\end_inset
+
+Whatever it takes
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Draghi speech in 2012 announced that, under ceratin conditions (
+\begin_inset Quotes eld
+\end_inset
+
+responsible policy
+\begin_inset Quotes erd
+\end_inset
+
+), the ECB would buy 
+\series bold
+unlimited
+\series default
+ amounts of trouble ero-zoned countries.
+\end_layout
+
+\begin_layout Standard
+This statement is another way of telling that the ECN is adopting the policy
+ set by the FED.
+\end_layout
+
+\begin_layout Standard
+The ECB took an even stronger position in 2012, by taking the mandate to
+ regulate the banking system.
+\end_layout
+
+\begin_layout Standard
+In 2014 was the major change of ECB policy (only so late - because of internal
+ opposition, until deflation was finally seen).
+\end_layout
+
+\end_body
+\end_document

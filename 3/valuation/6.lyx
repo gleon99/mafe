@@ -1,0 +1,639 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+\usepackage{indentfirst}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2.5cm
+\topmargin 2.5cm
+\rightmargin 2.5cm
+\bottommargin 2.5cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Corporate Valuation - Lecture 6
+\end_layout
+
+\begin_layout Author
+Leonid Genkin
+\end_layout
+
+\begin_layout Section
+Final Assignment
+\end_layout
+
+\begin_layout Standard
+The final assignment is a group submission.
+ The last financial report usually covers 2 years of data.
+ Each gorup should choose a number of years appropriate to justify its assumptio
+ns.
+\end_layout
+
+\begin_layout Section
+Other Valuation Methods
+\end_layout
+
+\begin_layout Standard
+The basic idea is that a 
+\begin_inset Quotes eld
+\end_inset
+
+normative
+\begin_inset Quotes erd
+\end_inset
+
+ profit (no residual value) results in the market value equal to the book
+ value.
+\end_layout
+
+\begin_layout Standard
+When the residual earnings are positive (negative), the market value is
+ above (below) the book value.
+\end_layout
+
+\begin_layout Subsection
+Penman Model
+\end_layout
+
+\begin_layout Standard
+The Penman model models the next 2 years and checks, whether they are positive.
+\end_layout
+
+\begin_layout Subsection
+Ohlson Model
+\end_layout
+
+\begin_layout Standard
+This model looks for 
+\series bold
+structural relationship
+\series default
+ between the residual earnings (
+\begin_inset Quotes eld
+\end_inset
+
+will they go forever?
+\begin_inset Quotes erd
+\end_inset
+
+)
+\begin_inset Formula 
+\[
+Res\,Earnings_{t+1}=\gamma\cdot Res\,Earnings_{t}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\gamma=0$
+\end_inset
+
+ means that the residual earnings are a 
+\series bold
+non-recurring event
+\series default
+, 
+\begin_inset Formula $\gamma=1$
+\end_inset
+
+ means they are constant forever.
+\end_layout
+
+\begin_layout Subsection
+The Merton Model
+\end_layout
+
+\begin_layout Standard
+The model assumes a zero-coupon debt, no dividends and a constant debt to
+ maturity.
+\end_layout
+
+\begin_layout Standard
+The equity value is a 
+\series bold
+call option 
+\series default
+(on the assets of the firm) value.
+ Therefore, the equity value of the firm can be priced if the 
+\series bold
+assets
+\series default
+ can be priced (assuming we are able to valuate options).
+\end_layout
+
+\begin_layout Standard
+A stock is a call option on the firm's assets.
+ Consider an example with a large firm going into a bankruptcy.
+ From the perspective of the shareholders, there are 2 things that can increase
+ the assets value: time and volatiliy (risk).
+ Therefore the owners would try to 
+\begin_inset Quotes eld
+\end_inset
+
+buy
+\begin_inset Quotes erd
+\end_inset
+
+ as much time as possible and increase the risk of the assets.
+ It might lead to strange transactions (e.g acquisitions, assets substitution
+ - when managers have incentives to take negative NPV projects).
+\end_layout
+
+\begin_layout Standard
+If the company is levered, the bond holders can be considered as shareholders
+ of an unlevered firm.
+\end_layout
+
+\begin_layout Standard
+As the bankruptcy probability of a firm increases, bondholders jointly control
+ it together with the shareholders.
+\end_layout
+
+\begin_layout Standard
+In order to calculate the standard deviation, one can use the bond / stock
+ prices, in case they are traded.
+ Usually a correlation between debt and equity is assumed, and volatility
+ of the debt.
+\end_layout
+
+\begin_layout Standard
+In start-up companies there are usually many equity trenches (rounds, preferred
+ stock, secured debt, etc).
+ Each such layer represents a call option with different conditions.
+\end_layout
+
+\begin_layout Standard
+This model is rarely used in practice (when binomial trees are used it becomes
+ the 
+\begin_inset Quotes eld
+\end_inset
+
+Rubinstein model
+\begin_inset Quotes erd
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Subsection
+Financial Firms
+\end_layout
+
+\begin_layout Standard
+Financial firms are different from other firms in that they, essentially,
+ are a 
+\begin_inset Quotes eld
+\end_inset
+
+bunch of money, employed for generating profits
+\begin_inset Quotes erd
+\end_inset
+
+ - money is their operational asset.
+ The debt it 
+\begin_inset Quotes eld
+\end_inset
+
+cost of goods
+\begin_inset Quotes erd
+\end_inset
+
+.their 
+\end_layout
+
+\begin_layout Standard
+In 
+\begin_inset Quotes eld
+\end_inset
+
+usual
+\begin_inset Quotes erd
+\end_inset
+
+ firms, the equity is assumed to be the important thing (and the return
+ on equity is what matters).
+ An insurance firm is a 
+\begin_inset Quotes eld
+\end_inset
+
+pile of money
+\begin_inset Quotes erd
+\end_inset
+
+, and for their financial value there are 2 factors that matter: (1) how
+ much they charge vs.
+ how much they pay, and (2) how much profit they make on the capital.
+\end_layout
+
+\begin_layout Subsection
+Net Asset Value (NAV)
+\end_layout
+
+\begin_layout Standard
+This approach is generally used for a company whose assets with clear value
+ can be separated (e.g a holding company and a real estate company).
+\end_layout
+
+\begin_layout Standard
+IDB is a classic example for this technique.
+ What is the value of IDB? - It can be calculated by valuing the (weighted)
+ 
+\begin_inset Quotes eld
+\end_inset
+
+portfolio
+\begin_inset Quotes erd
+\end_inset
+
+ of its holdings.
+\end_layout
+
+\begin_layout Standard
+On top of that, specific off balance sheet items must be added.
+\end_layout
+
+\begin_layout Standard
+The value of a collection of assets can be different from the value of the
+ holding company (
+\begin_inset Quotes eld
+\end_inset
+
+the holding company puzzle
+\begin_inset Quotes erd
+\end_inset
+
+) - as the market also prices the 
+\series bold
+PV of other activities
+\series default
+ in the firm, for example:
+\end_layout
+
+\begin_layout Enumerate
+Azrieli Group - in theory, it is a simple bunch of assets.
+ Its market value is usually around 60% more than the value of its assets.
+ The reason is that the market prices the ability of Azrieli to extract
+ higher value form the same building (they are known in Israel ot have higher
+ rental and occupancy rates - 
+\series bold
+residual earnings
+\series default
+).
+\end_layout
+
+\begin_layout Enumerate
+Emblaze - was a very successfull high-tech company.
+ Its only asset was cash - which is easy to valuate, but the market priced
+ the probability of the managers misbehaving and engaging in a negative
+ NPV activity with their assets.
+ Eventually, the market proved to be wrong - the money was totally gone.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The basis point is assuming that the PV is 0, and make appropriate adjustments
+ accordingly.
+\end_layout
+
+\begin_layout Standard
+A NAV valuation typically starts with the book value of assets/liabilities
+ and adjusting it.
+\end_layout
+
+\begin_layout Section
+Flexibility
+\end_layout
+
+\begin_layout Standard
+Consider 2 different positive NPV projects, with the same cost of capital.
+ Assume project B is more expensive, longer and is more volatile - thus
+ project A is better.
+\end_layout
+
+\begin_layout Standard
+Now, assume these 2 projects are technologies (require R&D) and that they
+ are 
+\series bold
+not
+\series default
+ mutually exclusive.
+ If 
+\begin_inset Quotes eld
+\end_inset
+
+taking both technologies
+\begin_inset Quotes erd
+\end_inset
+
+ is better than taking only one of them, which one of them should be taken
+ first? Most economists choose A, yet it is the wrong answer - as the NPV
+ of taking B first is bigger than if taking A first.
+\end_layout
+
+\begin_layout Standard
+Flexibility is 
+\series bold
+not
+\series default
+ just about 
+\begin_inset Quotes eld
+\end_inset
+
+radnomness
+\begin_inset Quotes erd
+\end_inset
+
+ - but about the ability to choose one project before the other one.
+ It might lead to counter-intuitive results sometimes.
+ The cost of doing any projects comes from 2 sources: the 
+\series bold
+direct
+\series default
+ cost, and the 
+\series bold
+indirect
+\series default
+ cost (the cost of replacing already existing technology - 
+\begin_inset Quotes eld
+\end_inset
+
+optimal search policy
+\begin_inset Quotes erd
+\end_inset
+
+, Weizman's 
+\begin_inset Quotes eld
+\end_inset
+
+Pandora's Box
+\begin_inset Quotes erd
+\end_inset
+
+ problem).
+\end_layout
+
+\begin_layout Standard
+The intuition for choosing B first is that in the good case it provides
+ extreme value, while in the bad case it can be corrected with A.
+ The rarest, most volatile (even with a lower NPV) project must be first,
+ for the probability of a good outcome.
+\end_layout
+
+\begin_layout Subsection
+Real Options Valuation
+\end_layout
+
+\begin_layout Standard
+Decisions on investments are basically series of options (e.g the option
+ to delay - can wait for the resolution of uncertainity, instead of investing
+ immediately).
+\end_layout
+
+\begin_layout Standard
+Especially if the investment is irreversible, the cost is higher as the
+ uncertainty is higher (e.g land in East Europe).
+\end_layout
+
+\begin_layout Subsection
+Adjustments to Valuation
+\end_layout
+
+\begin_layout Standard
+There are 2 places where the DCF can be adjusted: lowering the expected
+ cash flow (multiply by some 
+\begin_inset Formula $factor<1$
+\end_inset
+
+) or increasing the interest rates (
+\begin_inset Formula $E(r)\uparrow$
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Standard
+Systematic risk vs.
+ Unique risk: the former one affects the whole market and is not diverifiable,
+ while the latter one is specific and can be diviersified.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes eld
+\end_inset
+
+Principles of Corporate Finance
+\begin_inset Quotes erd
+\end_inset
+
+ is an important textbook, with a chapter on specific prevalent mistakes.
+\end_layout
+
+\begin_layout Standard
+Adjusting for a private firm is not trivial: information is less strict
+ and might be unavailable.
+ There is less liquidity and ability to get cash.
+\end_layout
+
+\begin_layout Standard
+Finding the 
+\begin_inset Formula $\beta$
+\end_inset
+
+ value for private firms is complicated as well, there are some approximating
+ models for that (accounting 
+\begin_inset Formula $\beta$
+\end_inset
+
+, fundamental 
+\begin_inset Formula $\beta$
+\end_inset
+
+ and bottom-up 
+\begin_inset Formula $\beta$
+\end_inset
+
+ which is mostly used).
+\end_layout
+
+\begin_layout Subsection
+Adjustment for non-diversification
+\end_layout
+
+\begin_layout Standard
+When doing a valuation for a non-diversified company (e.g a family firm -
+ 
+\begin_inset Formula $\geq100\%$
+\end_inset
+
+ of the capital is invested in the business - including the human capital),
+ using the SML is a mistake, as it assumes that 
+\begin_inset Formula $\beta$
+\end_inset
+
+ compensates the return for a well-diversified investor.
+\end_layout
+
+\begin_layout Standard
+A non-diversified investor has to plug the SD in the 
+\series bold
+CML
+\series default
+.
+\end_layout
+
+\begin_layout Standard
+A potential investor is usually well-diversified, unless there are specific
+ assumptions.
+\end_layout
+
+\begin_layout Subsection
+VC Returns
+\end_layout
+
+\begin_layout Standard
+When a start-up firm comes with an expected cash flow, the VC usually discounts
+ some fudge (very high) factor - it is meaningless, as the risk is not in
+ fact adjusted correctly.
+\end_layout
+
+\begin_layout Subsection
+Small Size and B/M Premiums
+\end_layout
+
+\begin_layout Standard
+On average, small firms give higher returns.
+ There is no theoretical justification for that, yet in practice there is
+ a 
+\begin_inset Quotes eld
+\end_inset
+
+size premium
+\begin_inset Quotes erd
+\end_inset
+
+ for small companies (each decile has its own figure).
+\end_layout
+
+\begin_layout Standard
+But, when plotting the average monthly 
+\series bold
+excess
+\series default
+ return vs.
+ 
+\begin_inset Formula $\beta$
+\end_inset
+
+ - it can easily be seen that the size premium is statistically 
+\series bold
+insignificant
+\series default
+.
+\end_layout
+
+\begin_layout Subsection
+Conclusion
+\end_layout
+
+\begin_layout Standard
+Extreme caution must be used when adjusting the CAPM model (all alternatives
+ are 
+\begin_inset Quotes eld
+\end_inset
+
+fudge factors
+\begin_inset Quotes erd
+\end_inset
+
+) - unless there is a very strong reason (e.g non-diversification).
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_body
+\end_document
