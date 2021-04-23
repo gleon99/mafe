@@ -1,0 +1,609 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+\usepackage{indentfirst}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2.5cm
+\topmargin 2.5cm
+\rightmargin 2.5cm
+\bottommargin 2.5cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Fixed Income Markets - Lecture 6
+\end_layout
+
+\begin_layout Author
+Leonid Genkin
+\end_layout
+
+\begin_layout Section
+Risk Measurement and Management
+\end_layout
+
+\begin_layout Standard
+When building that portfolio,3 factors are the most important:
+\end_layout
+
+\begin_layout Itemize
+What is the yield we are looking for?
+\end_layout
+
+\begin_layout Itemize
+Liquidity requirements (cash flow)
+\end_layout
+
+\begin_layout Itemize
+The degree of risk
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Typically there is a positive correlation between risk and yield.
+\end_layout
+
+\begin_layout Subsection
+Identifying
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Interest rate risk
+\series default
+: the risk of the bond price declining, as a result of an increase in market
+ interest rate (
+\begin_inset Quotes eld
+\end_inset
+
+parallel shift
+\begin_inset Quotes erd
+\end_inset
+
+ of the yield curve).
+ It is important if the bond might not be held until maturity.
+ If the intention is to hold until maturity - it is less important (though
+ the bond would still appear on financial statements).
+ The interest rate risk (sensitivity)is affected by:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Maturity: the longer the maturity, the greater the sensitivity.
+\end_layout
+
+\begin_layout Enumerate
+Coupon rate: the lower it is, the greater the sensitivity (extreme case:
+ a zero-coupon bond).
+\end_layout
+
+\begin_layout Enumerate
+Embedded options: usually reduce the sensitivity.
+\end_layout
+
+\begin_layout Enumerate
+Yield curve: the higher the yield curve in the market, the lower the sensitivity
+ to changes in interest.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\series bold
+Reinvestment risk
+\series default
+: YTM assumes cash flow is 
+\series bold
+reinvested
+\series default
+.
+ In reality, they may have to be reinvested at a lower interest rate.
+ It is greater for amortizing bond.
+ The risk is 0 for zero-coupon bond (e.g a T-bill).
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Yield curve risk
+\series default
+: a non-parallel change shift (flattening, twist, steepening) of a yield
+ curve imposes a risk - particularly important for MBS.
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Spread risk
+\series default
+: the risk that the spread (nominal / z-spread / OAS) over the corresponding
+ T-bond would increase.
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Volatility risk
+\series default
+: higher future volatility increases the value of the embedded option.
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Prepayment risk
+\series default
+: for call-embedded options, higher prepayment is made when the interest
+ rate is lower than coupon rate.
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Cap and floor risk
+\series default
+: the risk of a floating-rate security to hit the cap (floor) and not have
+ full adjust in price.
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Exchange-rate risk
+\series default
+: when investing in a foreign currency, the return in domestic currency
+ depends on the exchange rate (currency appreciation / depreciation).
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Inflation risk
+\series default
+: the risk of the decline in purchasing power due to inflation.
+ TIPS are a simple way to eliminate it.
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Model risk
+\series default
+: the chance of the model being not good enough.
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Liquidity risk
+\series default
+: the investor might have to sell the bond below its book value.
+ It is indicated by the bid-ask spread (if there is aa big liquidity risk,
+ a significant difference in the prices is to be compensated by the broker).
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Event risk
+\series default
+: natural disaster, political risk, etc.
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Settlement risk
+\series default
+: the probability of one party to pay, while the other one would default
+ (mitigation: delivery instead of payment).
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Regulatory and legal risk
+\series default
+: changes in regulations and their enforcement.
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Sovereign bonds risks
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+\series bold
+Economic risk
+\series default
+ (growth, stability, fiscal responsibility, balance of payments)
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Political risk
+\series default
+ (stability, governance)
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\series bold
+Credit risk
+\series default
+: the risk of not paying on time.
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+\series bold
+Default risk
+\series default
+: the issuer might fail to fully pay the debt on time (the 
+\begin_inset Quotes eld
+\end_inset
+
+last stage
+\begin_inset Quotes erd
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Credit spread risk
+\series default
+: the spread is perceived higher by investors, though there is no 
+\begin_inset Quotes eld
+\end_inset
+
+default
+\begin_inset Quotes erd
+\end_inset
+
+ yet.
+ Only the idiosyncratic risk has increased.
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Downgrade risk
+\series default
+: even a step before - downgrade by credit rating agencies.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Credit Rating
+\end_layout
+
+\begin_layout Standard
+Credit rating is an 
+\series bold
+evaluation
+\series default
+ of the credit worthiness, ordered by the potential debtor from an independent
+ ratin agency.
+ It is applicable for corporations, governments and even individuals.
+\end_layout
+
+\begin_layout Standard
+The information released by these agencies typically include 
+\series bold
+credit rating
+\series default
+ (short-term / long-term assessment), 
+\series bold
+rating watch
+\series default
+ (short-term update) and 
+\series bold
+rating outlook
+\series default
+ (long-term update)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes eld
+\end_inset
+
+Investment grade
+\begin_inset Quotes erd
+\end_inset
+
+: a threshold that separates high-risk bonds from low-risk ones.
+\end_layout
+
+\begin_layout Standard
+There are 4 main factors (
+\begin_inset Quotes eld
+\end_inset
+
+4 C's
+\begin_inset Quotes erd
+\end_inset
+
+) for corporate debt issuers are:
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Character
+\series default
+: culture, management, skills, corporate governance.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Capacity
+\series default
+: financial ratios, industry trends, environment.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Collaterals
+\series default
+: assets quality and quantitym legal structure.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Covenants
+\series default
+: affirmative & negative (e.g 
+\begin_inset Quotes eld
+\end_inset
+
+do not pay dividends
+\begin_inset Quotes erd
+\end_inset
+
+) covenants that control the future behavior.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Credit rating factors for high-yield issuers include:
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Debt structure
+\series default
+ (typically short-term, floating-rate, which requires special attention
+ to short-term fluctuations exposure).
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Corporate structure
+\series default
+: typically a holding company and subsidiaries (financial ratios must be
+ analyzed with covenant on dividends distribution).
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Credit rating factors for ABS and MBS include quality of collaterals, servicers,
+ payment structure and the legal structure.
+\end_layout
+
+\begin_layout Standard
+Credit rating factors for tax-backed muni bonds are: debt structure, budgetary
+ policy, tax availability and the socioeconomic environment.
+\end_layout
+
+\begin_layout Subsection
+Measuring Risk
+\end_layout
+
+\begin_layout Standard
+Now that we have 
+\series bold
+identified
+\series default
+ risks (qualitative analysis), the next step is to 
+\series bold
+measure 
+\series default
+them (quantitative analysis), in order to be able to manage them.
+ A crucial concept in this context is the 
+\series bold
+value at risk
+\series default
+ (
+\series bold
+VAR
+\series default
+) - an estimate of the minimum expected loss over a particular time period,
+ at a desired significance level.
+ For example, a 5% VAR of $1,000 means that (at least) a $1,000 lost is
+ expected at 5% probability (and 95% confidence in the loss being less than
+ $1,000).
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Convexity
+\series default
+ refers to the non-linear relationship between the value of a security and
+ its yield.
+ The convexity is positive (negative) when for a given interest rate change,
+ the capital loss effect is smaller (greater) than the gain effect.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Macaulay duration
+\series default
+: a time-weighted average until teh cash flow repays its price.
+ Measures how long it taked for the bond to be repaid by its internal CF.
+ Longer duration implies higher risk.
+ A zero-coupon bond has duration equal to its time to maturity.
+\end_layout
+
+\begin_layout Standard
+The 
+\series bold
+modified duration
+\series default
+ measures the sensitivity of a bond's price to a 
+\series bold
+parallel
+\series default
+ interest rate changes of 1% (assuming its CF do not change).
+\end_layout
+
+\begin_layout Standard
+The 
+\series bold
+dollar duration
+\series default
+ is the price change due to 1% change in the yield.
+\end_layout
+
+\begin_layout Standard
+The 
+\series bold
+spread duration
+\series default
+ measures the price sensitivity to a change in a spread (nominal / z-spread
+ / OAS).
+\end_layout
+
+\begin_layout Subsection
+Managing Risk
+\end_layout
+
+\begin_layout Standard
+Hedging based on a duration framework assumes a parallel yield curve shift.
+ The first thing in risk management is putting a cap (positon limit) on
+ an investment, in order to limit the risk exposure.
+ A liquidity limit and performance stop-out might also be applicable.
+\end_layout
+
+\begin_layout Standard
+Managing the credit risk includes limiting the exposure, applying collaterals,
+ derivatives and various standards.
+\end_layout
+
+\end_body
+\end_document
