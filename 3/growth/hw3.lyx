@@ -1,0 +1,367 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+\usepackage{indentfirst}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2.5cm
+\topmargin 2.5cm
+\rightmargin 2.5cm
+\bottommargin 2.5cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Economic Growth - Probem Set 3
+\end_layout
+
+\begin_layout Author
+Leonid Genkin
+\end_layout
+
+\begin_layout Section*
+Question 1
+\end_layout
+
+\begin_layout Subsection*
+a.
+\end_layout
+
+\begin_layout Standard
+In order for the income distribution to 
+\series bold
+not 
+\series default
+have any effect on the output, the required condition is that any individual
+ would prefer investing in education (rather than not doing it).
+\end_layout
+
+\begin_layout Standard
+For 
+\begin_inset Formula $b_{t}=0$
+\end_inset
+
+ it requies:
+\begin_inset Formula 
+\[
+Aw^{U}\leq Aw^{S}-h\theta R\Rightarrow A\geq\frac{h\theta R}{w^{S}-w^{U}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+b.
+\end_layout
+
+\begin_layout Standard
+The first three assumptions of the model does not change, as these conditions
+ 
+\begin_inset Quotes eld
+\end_inset
+
+scale up
+\begin_inset Quotes erd
+\end_inset
+
+ when multiplying by 
+\begin_inset Formula $A$
+\end_inset
+
+:
+\begin_inset Formula 
+\[
+w^{S}-w^{U}>hR\Leftrightarrow wAw^{S}-Aw^{U}>AhR
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+w^{S}-w^{U}<h\theta R\Leftrightarrow wAw^{S}-Aw^{U}<Ah\theta R
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\beta w^{S}>h\Leftrightarrow\beta Aw^{S}>Ah
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+meaning, essentially - that when both salaries 
+\series bold
+and
+\series default
+ the education cost increase by the same coefficient - the system does not
+ change.
+\end_layout
+
+\begin_layout Standard
+The fourth assumption needs to be revised, as it is the steady states need
+ to remain at the exact same point when scaling up by 
+\begin_inset Formula $A$
+\end_inset
+
+:
+\begin_inset Formula 
+\[
+b_{L}=\frac{\beta w^{U}}{1-\beta R}=\frac{\beta Aw^{U}}{A(1-\beta R)}=\frac{\beta Aw^{U}}{1-(1-A-A\beta R)}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In case the education cost is indexed to wages, all the parameters of the
+ economy scale by a factor of 
+\begin_inset Formula $A$
+\end_inset
+
+, according to the assumptions of the model:
+\begin_inset Formula 
+\[
+w^{S}-w^{U}>hR\Leftrightarrow wAw^{S}-Aw^{U}>AhR
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+w^{S}-w^{U}<h\theta R\Leftrightarrow wAw^{S}-Aw^{U}<Ah\theta R
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\beta w^{S}>h\Leftrightarrow\beta Aw^{S}>Ah
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+w^{U}<\hat{b}(1/\beta-R)\Leftrightarrow Aw^{U}<A\hat{b}(1/\beta-R)
+\]
+
+\end_inset
+
+meaning that the quantitative result of the model will be exactly the same.
+\end_layout
+
+\begin_layout Section*
+Question 2
+\end_layout
+
+\begin_layout Subsection*
+a.
+\end_layout
+
+\begin_layout Standard
+As 
+\begin_inset Formula $\gamma w<\theta R$
+\end_inset
+
+, it doesn't make sense for individuals to borrow in order to invest in
+ human capital, and as 
+\begin_inset Formula $\gamma w>R$
+\end_inset
+
+ - wealthy individuals are better off when investing in their human capital
+ (or consuming), rather then borrowing 
+\end_layout
+
+\begin_layout Standard
+The income is given by:
+\begin_inset Formula 
+\[
+I_{t+1}^{i}=wh_{t+1}^{i}+(b_{t}^{i}-e_{t}^{i})=\begin{cases}
+w(\alpha+\gamma e_{t}^{i}) & e_{t}^{i}<\bar{e}\\
+w(\alpha+\gamma\bar{e})+(b_{t}^{i}-e_{i}^{t})R=w(\alpha+\gamma\bar{e}) & e_{t}^{i}\geq\bar{e}
+\end{cases}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Obviously there is no incentive to set 
+\begin_inset Formula $e_{t}^{i}>\bar{e}$
+\end_inset
+
+, because for each such value of 
+\begin_inset Formula $e_{t}^{i}$
+\end_inset
+
+, the following holds:
+\begin_inset Formula 
+\[
+I_{t+1}^{_{i}}(e_{t}^{i})=w(\alpha+\gamma\bar{e})+b_{t}^{i}-e_{i}^{t}<w(\alpha+\gamma\bar{e})+b_{t}^{i}-\bar{e}=I_{t+1}^{i}(\bar{e})
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The intuition suggests that 
+\begin_inset Formula $b_{t}=\bar{e}$
+\end_inset
+
+ shall be the steady state equilibrium, as bequests smaller than 
+\begin_inset Formula $\bar{e}$
+\end_inset
+
+ would gradually converge to it over generations, while larger bequests
+ are irrational.
+\end_layout
+
+\begin_layout Standard
+The dynamical system is:
+\begin_inset Formula 
+\[
+b_{t+1}^{i}=\begin{cases}
+\beta w(\alpha+\gamma e_{t}^{i}) & e_{t}^{i}<\bar{e}\\
+\beta w(\alpha+\gamma\bar{e}) & e_{t}^{i}\geq\bar{e}
+\end{cases}\equiv\phi(b_{t}^{i})
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+b.
+\end_layout
+
+\begin_layout Standard
+Intuitively, in order for such situation to be possible (a set of parameters
+ could be found so that the income distribution has an effect), 
+\series bold
+2 different steady states
+\series default
+ must exist.
+ This is so that dynasties can converge to either of them, and by 
+\begin_inset Quotes eld
+\end_inset
+
+tweaking
+\begin_inset Quotes erd
+\end_inset
+
+ the parameters one can create a model representation where changing the
+ income distribution in the initial state has impact on the final steady
+ state of the whole economy (fraction of the population that converges to
+ either of the states).
+ Unfortunately, I was no able to find such second steady state in addition
+ to 
+\begin_inset Formula $b_{t}^{i}=\bar{e}$
+\end_inset
+
+.
+ Perhaps there is some poverty trap at a lower level.
+\end_layout
+
+\end_body
+\end_document

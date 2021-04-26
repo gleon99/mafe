@@ -122,12 +122,12 @@ Introduction
 
 \begin_layout Standard
 Asking an economist to describe the economic history in one picture, it
- would be a graph of an income/capita vs.
+ would be a graph of an income per capita vs.
  time - not changing until the 19th century, when there was a change from
  stagnation to a sustained economic growth.
  We know that from (economic) historians - looking at books, analyzing wages,
  real incomes, etc.
- Once there are written records, we can make conclusions, though not very
+ Once there are written records - we can make conclusions, though not very
  accurately but quite precise, regarding the economy in the past.
 \end_layout
 
@@ -149,13 +149,13 @@ Sometimes, to answer questions about the difference between rich and poor
 \end_layout
 
 \begin_layout Standard
-Looking back at the hunters-gatherers society - the had some innovations,
- but they did not translate to an increase in qualty of life.
+Looking back at the hunters-gatherers society - they had some innovations,
+ but it did not translate to an increase in qualty of life.
  Despite being productive, people did not begin to live better.
- Neither by introduction of farming, nor by domestication of some animals
+ Neither by introduction of farming, nor by the domestication of some animals
  - the quality of life did not increase, and income per capita did not go
  up.
- There are 3 fundamental questions in the theory of economic growth:
+ There are 4 fundamental questions in the theory of economic growth:
 \end_layout
 
 \begin_layout Enumerate
@@ -164,7 +164,7 @@ What explains the experience of the last 200 years? What is the engine of
 \end_layout
 
 \begin_layout Enumerate
-Why, despite all productivity-increasing innovations, there is no increase
+Why, despite all productivity-increasing innovations, there was no increase
  in income per capita?
 \end_layout
 
@@ -182,8 +182,7 @@ The great divergence
 
  - with the take-off from divergence to growth, some countries did not take
  off, while other did.
- The huge gap that opened.
- What explains it? 
+ What explains the huge gap that opened? 
 \end_layout
 
 \begin_layout Standard
@@ -196,25 +195,40 @@ The great divergence
 \begin_layout Standard
 Suppose everyone in each country has the same income.
  The world average would be $9909 (2009).
- Singapore is the leaders, then the U.S, then Europe.
+ Singapore is the leader, then the U.S, then Europe.
  China, India and then the poorest countries in the would come afterwards.
 \end_layout
 
 \begin_layout Standard
-Only one quarter of the population of the would lives above the average.
+Only one quarter of the population of the world lives above the average.
 \end_layout
 
 \begin_layout Standard
 Looking at the inequality in the world and breaking it down to components,
- we can see that most of the increase in world inequality is because of
- the inequality between countries.
- 200 years ago differences between countries were much smaller than they
- are today.
+ we can see that 
+\series bold
+most
+\series default
+ of the increase in world inequality is because of the 
+\series bold
+inequality between countries 
+\series default
+(rather than the inequality 
+\series bold
+within countries
+\series default
+).
+ 200 years ago the differences between countries were much smaller than
+ they are today.
 \end_layout
 
 \begin_layout Standard
 In the middle of the 20th century there is a drop in the inequality within
- countries (an emergence of a middle class).
+ countries (
+\series bold
+emergence of the middle class
+\series default
+).
 \end_layout
 
 \begin_layout Standard
@@ -263,10 +277,10 @@ Productivity and production factors
 \series bold
 Efficiency
 \series default
-: the institutional framework (market economy vs, regulation), trade and
- mobility restrictions, monopolies, financial system and government functioning
- and many more differences that can explain why some countries are able
- to produce more, given the same resources.
+: the institutional framework (market economy vs.
+ regulation), trade and mobility restrictions, monopolies, financial system
+ and government functioning and many more differences that can explain why
+ some countries are able to produce more, given the same resources.
 \end_layout
 
 \begin_layout Itemize
@@ -318,8 +332,11 @@ Sustained Growth
 \end_layout
 
 \begin_layout Standard
-A sustained economic growth is explained by an accumulation of productivity
- factors and technological innovations.
+A sustained economic growth is explained by an 
+\series bold
+accumulation of productivity factors and technological innovations
+\series default
+.
 \end_layout
 
 \begin_layout Subsection
@@ -328,14 +345,28 @@ Stagnation
 
 \begin_layout Standard
 Why for tens of thousands of years people didn't become richer? The Malthusian
- poverty trap (Thomas Malthus) states that population growth follows income
- growth.
+ poverty trap (Thomas Malthus) states that 
+\series bold
+population growth follows income growth
+\series default
+.
  Inome per capita has a positive effect on population growth.
 \end_layout
 
 \begin_layout Standard
-The mechanism of the trap is that aggregate income grows, leading to population
- growth, thus the income per capita doesn't grow.
+The mechanism of the trap is that 
+\series bold
+aggregate income grows
+\series default
+, leading to 
+\series bold
+population growth
+\series default
+, thus the 
+\series bold
+income per capita doesn't grow
+\series default
+.
 \end_layout
 
 \begin_layout Standard
@@ -355,23 +386,33 @@ Escaping the Malthusian Trap
 \end_layout
 
 \begin_layout Standard
-As productive innovations accelerate, there is a rise in the demand for
- skilled workers.
- The world is changing, employers want workers that are able to read and
- write and perform calculations.
- People started to put more emphasis on the eduction of their children,
+As productive innovations accelerate, there is a rise in the 
+\series bold
+demand for skilled workers
+\series default
+.
+ The world is changing, employers want workers that are 
+\series bold
+able to read and write and perform calculations
+\series default
+.
+ People started to put more emphasis on the education of their children,
  and states started to invest more in schools.
 \end_layout
 
 \begin_layout Standard
-The demographic transition: people stopped having as many children as 
+The demographic transition: people 
+\series bold
+stopped having as many children as 
 \begin_inset Quotes eld
 \end_inset
 
-the nature give
+the nature gives
 \begin_inset Quotes erd
 \end_inset
 
+
+\series default
 , and that is the key to escaping the trap.
 \end_layout
 
@@ -430,8 +471,9 @@ The Solow Model
 The idea is to answer a very simple question.
  We saw a correlation between physical capital and income per worker.
  There is a positive feedback loop from capital to income, and back to capital.
- It leads to the question: could that loop lead to a sustained economic
- growth?
+ It leads to the question: 
+\series bold
+could that loop lead to a sustained economic growth?
 \end_layout
 
 \begin_layout Standard
@@ -457,10 +499,9 @@ tomorrow
 \begin_inset Quotes erd
 \end_inset
 
-, but there is also a nefgative effect of depreciation.
+, but there is also a negative effect of depreciation.
  Will the economy necessarily converege? Can we ensure the positive effect
- being stronger than the negative effect? - Analyze the model to answer
- that.
+ is stronger than the negative effect? - Analyze the model to answer that.
 \end_layout
 
 \begin_layout Standard
@@ -504,7 +545,7 @@ We assume that
 \begin_inset Formula $n+\delta>0$
 \end_inset
 
-: eventually the output of worker is deternined by the capital per worker.
+: eventually the output of worker is determined by the capital per worker.
  Anything that has a negative effect on the numerator reduces it.
  But the population growth might increase the denominator, which would reduce
  the output as well.
@@ -563,8 +604,8 @@ Looking at different countries, it is very hard to find any link between
 \begin_layout Standard
 On a micro level, there are economies of scale - but not at the aggregate
  level.
- There is no contradiction with having economies of scale within each factory/in
-dustry.
+ It does not contradict with having economies of scale within each factory
+ / industry.
 \end_layout
 
 \begin_layout Standard
@@ -707,7 +748,7 @@ k_{t+1}=\frac{sf(k_{t})+(1-\delta)k_{t}}{1+n}\equiv\phi(k_{t})
 \begin_layout Standard
 The capital (per worker) equals: (the savings per worker, plus the previous
  capital, net of depreciation), divided by the growth rate of the population
- (which dilutes the accumulation of the fators of production).
+ (which dilutes the accumulation of the production factors).
 \end_layout
 
 \begin_layout Standard
