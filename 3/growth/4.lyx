@@ -109,13 +109,21 @@ The scale effect - the larger is the economy, the more R&D is (the marginal
 \end_layout
 
 \begin_layout Standard
-The crucial element is that technology is non-rival and excludable.
+The crucial element is that 
+\series bold
+technology is non-rival and excludable
+\series default
+.
 \end_layout
 
 \begin_layout Standard
 The number of new innovations each firm produces is a multiple of the innovation
 s in the previous period.
- Monopolistic competition might lead to too much / not enough investment.
+ 
+\series bold
+Monopolistic competition might lead to too much / not enough investment
+\series default
+.
  There is an externality to technology, as it might generate under-investment
  in R&D.
 \end_layout
@@ -256,14 +264,22 @@ Galor-Zeira Model
 The Solow model and the R&D model establish macro growth models with representat
 ive agents.
  The next stage is to discuss additional mechanisms that affect growth –
- inequality (heterogeneity) being one of them.
+ 
+\series bold
+inequality (heterogeneity)
+\series default
+ being one of them.
  A related topic is poverty traps - which can be discussed using this model
  as well.
 \end_layout
 
 \begin_layout Standard
-Growth and development are similar but no the same - growth usually refers
- to rich countries, while development usually talks about poorer ones.
+Growth and development are similar but not the same - 
+\series bold
+growth usually refers to rich countries, while development usually talks
+ about poorer ones
+\series default
+.
 \end_layout
 
 \begin_layout Standard
@@ -310,7 +326,11 @@ u_{t}^{i}=(1-\beta)logc_{t+1}^{i}+\beta logb_{t+1}^{i}
 \end_layout
 
 \begin_layout Standard
-meaning, young individuals do not consume anything (they are 
+meaning, 
+\series bold
+young individuals do not consume anything 
+\series default
+(they are 
 \begin_inset Quotes eld
 \end_inset
 
@@ -318,7 +338,9 @@ with the parents
 \begin_inset Quotes erd
 \end_inset
 
-), therefore they only maximize 
+), therefore
+\series bold
+ they only maximize 
 \begin_inset Quotes eld
 \end_inset
 
@@ -326,6 +348,8 @@ future utility
 \begin_inset Quotes erd
 \end_inset
 
+
+\series default
 .
  The decision today is 
 \begin_inset Quotes eld
@@ -382,7 +406,7 @@ care
 family ties
 \series default
 : rich parents give more money to their children, to invest in human capital,
- which increases and get transferred to the next generation, etc...
+ which increases and gets transferred to the next generation, etc...
  - which is a poverty trap when considering a poor family.
 \end_layout
 
@@ -449,8 +473,8 @@ Assumptions
 \begin_inset Formula $w^{s}-w^{u}<h\theta R$
 \end_inset
 
- - a person who does not have enough money to invest in human capital won't
- take a loan, as the income gap is not big enough.
+ - a person who does not have money to invest in human capital at all won't
+ take a full loan, as the income gap is not big enough.
 \end_layout
 
 \begin_layout Standard
@@ -493,8 +517,7 @@ I_{t+1}^{i}=max\{w^{s}-(h-b_{t}^{o})\theta R,w^{u}+b_{i}^{t}R\}
 \end_layout
 
 \begin_layout Standard
-i.
- when an individual does 
+i.e when an individual does 
 \series bold
 not
 \series default
@@ -605,19 +628,22 @@ guarantee
 \end_layout
 
 \begin_layout Standard
-After making these assumptions, we can calculate the steady states by findins
+After making these assumptions, we can calculate the steady states by finding
  the intersections of the lines.
- The next steps is discussing how 
+ The next step is to discuss how 
 \series bold
 inequality
 \series default
- affect economic growth by the mechanism of poverty trap (according to this
- model).
+ affects economic growth by the mechanism of poverty trap (according to
+ this model).
 \end_layout
 
 \begin_layout Standard
-The innovation in this model is to take poverty traps and discuss inequality
- based on them.
+The innovation in this model is to 
+\series bold
+take poverty traps and discuss inequality based on them
+\series default
+.
 \end_layout
 
 \begin_layout Subsection
@@ -625,8 +651,8 @@ Robustness and Endogenous Wages
 \end_layout
 
 \begin_layout Standard
-Rancom shocks happen when a fraction of individuals who invested / did not
- invest in human capital become skilled / unskilled workers.
+Random shocks happen when a fraction of individuals who invested / did not
+ invest in human capital become unskilled / skilled workers.
  In most cases having random shocks does not matter, as they don't have
  an important effect - which is not the case here.
 \end_layout
@@ -638,7 +664,7 @@ many
 \series default
 poor people.
  A large supply of unskilled workers pushed their salaries down (in rich
- countries the opposit is true - even unskilled workers get a decent salary).
+ countries the opposite is true - even unskilled workers get a decent salary).
 \end_layout
 
 \begin_layout Standard
@@ -654,14 +680,14 @@ random shocks
 \end_layout
 
 \begin_layout Standard
-For example, when the wage of the unskilled workers randomly increase -
+For example, when the wage of the unskilled workers randomly increases -
  the poverty trap might be escaped.
 \end_layout
 
 \begin_layout Standard
-The bottom line: If the economy starts with a low fraction of unskilled/skilled
- workers, it is likely to lead to a steady state in which everyone is skilled/un
-skilled.
+The bottom line: If the economy starts with a low fraction of unskilled
+ / skilled workers, it is likely to lead to a steady state in which everyone
+ is skilled / unskilled.
 \end_layout
 
 \begin_layout Section
@@ -677,7 +703,7 @@ Hope
 \end_layout
 
 \begin_layout Standard
-Thousands of NGOs have been established arouns the worlds to offer the poor
+Thousands of NGOs have been established around the world to offer the poor
  billions of dollars in affordable interest rates, in order to significantly
  reduce poverty - based on the hope that the problem is only in the credit
  constraints.
@@ -689,7 +715,11 @@ Disappointment
 
 \begin_layout Standard
 There were no significant levels of productive investmens.
- Opportunities tended to be turned down, high return projects were avoided.
+ 
+\series bold
+Opportunities tended to be turned down, high return projects were avoided.
+
+\series default
  The average business remained small, while the consumption borrowing was
  encouraged (increasing debt).
 \end_layout
@@ -699,14 +729,14 @@ Mechanics of Poverty Traps
 \end_layout
 
 \begin_layout Standard
-The investment today depends on the income today, and the investment today
- creates more income in the furute (both functions are monotonically increasing,
+The investment today depends on the income today, and investment today creates
+ more income in the furute (both functions are monotonically increasing,
  with the first one being linear for simplification and the second one is
  concave).
 \end_layout
 
 \begin_layout Standard
-The standard modelling in economics does 
+The standard modeling in economics does 
 \series bold
 not
 \series default
@@ -750,7 +780,7 @@ Though, recent research suggests then the evidence is
 
 
 \series bold
-inconsistent with technology-based (fixed costs) poverty traps)
+inconsistent with technology-based (fixed costs) poverty traps
 \series default
 
 \begin_inset Quotes erd
@@ -771,11 +801,11 @@ interest rate
 threshold effects
 \series default
  in wealth accumulation.
- Yet his model relies on a non-convex techology as well.
+ Yet his model relies on non-convex techology as well.
 \end_layout
 
 \begin_layout Standard
-A possible fix can be made by introduction of an S-shaped saving rate (wealthier
+A possible fix can be made by introducing an S-shaped saving rate (wealthier
  people save a higher fraction of ther income).
 \end_layout
 
@@ -792,21 +822,31 @@ behave
 \end_layout
 
 \begin_layout Standard
-Consider 2 identical economies with the exact same parameters, and same
- average income, with the only difference being the initial distribution
+Consider 2 identical economies with the exact same parameters and same average
+ income, with the only difference being the 
+\series bold
+initial distribution
+\series default
  (economy A has higher inequality).
  In the long-run, economy B would be richer.
  
 \series bold
-Equality (of wealth) creates equal opportunities
+Equality 
+\series default
+(of wealth)
+\series bold
+ creates equal opportunities
 \series default
 , which allows families that are above the threshold to converge to the
- reach state.
+ rich state.
 \end_layout
 
 \begin_layout Standard
-People sometimes do not invest in human capital, although it is an efficient
- investment, because of credit constraints.
+People sometimes do not invest in human capital, although it is an 
+\series bold
+efficient investment
+\series default
+, because of credit constraints.
  According to this model, 
 \series bold
 under some parameters, 
@@ -815,7 +855,11 @@ equality is good for growth.
 \end_layout
 
 \begin_layout Standard
-Whether there is a threshold at all - is a debatable topic.
+
+\series bold
+Whether there is a threshold at all - is a debatable topic
+\series default
+.
 \end_layout
 
 \begin_layout Subsection
@@ -840,17 +884,21 @@ could
 \begin_inset Quotes eld
 \end_inset
 
-the green revolusion
+the green revolution
 \begin_inset Quotes erd
 \end_inset
 
  for food production, vaccinations, oral rehydration, etc.
- In practice thie theory rsulted with spending of huge amounts of money,
+ In practice this theory resulted with spending of huge amounts of money,
  with disappointing results.
 \end_layout
 
 \begin_layout Standard
-Their is a gap between the intentions of a rich country and the actual results.
+
+\series bold
+There is a gap between the intentions of a rich country and the actual results
+\series default
+.
  There is a lot of criticism of this theory, for example: it tries to 
 \begin_inset Quotes eld
 \end_inset

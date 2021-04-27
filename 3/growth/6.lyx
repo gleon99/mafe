@@ -118,7 +118,7 @@ A possible solution is providing microinsurance (but it might leads to yet
 \end_layout
 
 \begin_layout Standard
-Investment can be considered to be akin to a 
+They consider investment to be akin to a 
 \begin_inset Quotes eld
 \end_inset
 
@@ -148,7 +148,7 @@ insure
 \begin_layout Standard
 Going back to economic theory - when the fixed cost is coupled with risk,
  it plays a crucial role: the risk averse poor might choose the safe alternative
- and avoid invetsment (even if it is available) - 
+ and avoid investment (even if it is available) - 
 \begin_inset Quotes eld
 \end_inset
 
@@ -160,13 +160,13 @@ failure could be too painful
 \end_layout
 
 \begin_layout Standard
-When the rate of return is exogenous anf the technology is convex, the expected
+When the rate of return is exogenous and the technology is convex, the expected
  utlity of a risk averse agent is a 
 \series bold
 concave
 \series default
  function of the investment (would you invest $1K in a 9:1 lottery of winning
- $10K or losing everything? $100K? $1M?) However, it practice - many investments
+ $10K or losing everything? $100K? $1M?) However, in practice - many investments
  do not have a fixed cost (
 \begin_inset Quotes eld
 \end_inset
@@ -186,7 +186,7 @@ Despite returns, many farmers do not invest in basic equipment, although
 \begin_layout Standard
 
 \series bold
-The evidence is inconsistent with technology-based (fixed costs) poverty
+The evidence is inconsistent with technology-based (fixed-cost) poverty
  traps
 \series default
 .
@@ -220,7 +220,7 @@ Consider an example with a lottery with a $0 expected return: It costs $1.
 \end_layout
 
 \begin_layout Standard
-An individual would be indifferent between investing $0 or $1, bu the corners
+An individual would be indifferent between investing $0 or $1, but the corners
  are preferred over any other investment, because of risk aversion.
 \end_layout
 
@@ -231,7 +231,7 @@ If the lottery is changed so that the prize is $2 and
 
 , the right corner solution moves up.
  In any case, only wealthy people will invest (a threshold exists which
- separates the mfrom the poor).
+ separates them from the poor).
 \end_layout
 
 \begin_layout Section
@@ -253,8 +253,11 @@ institutions
 security
 \series default
  (fron other people and outside forces).
- Protection from the state itself is also a factor (enslavement, random
- taxation, etc).
+ 
+\series bold
+Protection from the state
+\series default
+ itself is also a factor (enslavement, random taxation, etc).
 \end_layout
 
 \begin_layout Standard
@@ -340,8 +343,7 @@ The interpretation of the signal can be by observing information at a specific
 \end_layout
 
 \begin_layout Standard
-The cost of maintaining the agent (what the principal must give) is 0 or
- 
+The cost of maintaining the agent is 0 or 
 \begin_inset Formula $\gamma$
 \end_inset
 
@@ -362,7 +364,7 @@ The utility of the agent is
 \begin_inset Formula $U=I-\gamma$
 \end_inset
 
- if it is exerting high effort, 
+ if it exerts high effort, 
 \begin_inset Formula $I$
 \end_inset
 
@@ -375,7 +377,7 @@ The utility of the agent is
 \end_layout
 
 \begin_layout Standard
-The incentive schme consists of the
+The incentive scheme consists of the
 \series bold
  carrot
 \series default
@@ -387,7 +389,7 @@ The incentive schme consists of the
 \begin_inset Formula $\omega=\gamma$
 \end_inset
 
-); and 
+; and the 
 \series bold
 stick
 \series default
@@ -397,10 +399,10 @@ stick
 \begin_inset Formula $x>\frac{p\gamma}{1-p}$
 \end_inset
 
- ).
+ .
  Dismissing the agent when the output is low, is dominated by never dismissing,
- which leads 2 types of relevant strategies: pure carrot and stick and carrot
- (which is irrelevant for the 2nd stage).
+ which leads to 2 types of relevant strategies: pure carrot and stick and
+ carrot (which is irrelevant for the 2nd stage).
 \end_layout
 
 \begin_layout Standard
@@ -654,8 +656,8 @@ house of bondage
 \end_inset
 
  (farmers did not own land).
- This was the case in lower Mesopoltamis as well, unlike Mesopotamia - where
- owner-operated farming was common.
+ This was the case in Lower Mesopotamia as well, unlike Upper Mesopotamia
+ - where owner-operated farming was common.
 \end_layout
 
 \begin_layout Standard
@@ -675,8 +677,8 @@ The Emergence of Hierarchies and States
 
 \begin_layout Standard
 There is a correlation between rich states today and functioning hierarchical
- state 500 years ago.
- Plotting the world in a map where the size of each country reflects its
+ states 500 years ago.
+ Plotting the world on a map where the size of each country reflects its
  productivity, so that the productivity per area in the new map is equal,
  we can see the huge gap between North America, Europt and Japan, to South
  America and Afrca.
@@ -700,9 +702,16 @@ Following the Neolithic revolution, some regions developed complex hierarchies.
 \end_layout
 
 \begin_layout Standard
-According to existing literature, the Neolithic revolution increased productivit
-y, which created a food surplus, which lead to an elite that doesn't produce
- food (state emergence).
+According to the existing literature, the Neolithic revolution increased
+ productivity, which created a
+\series bold
+ food surplus
+\series default
+, which lead to an 
+\series bold
+elite that doesn't produce food
+\series default
+ (state emergence).
 \end_layout
 
 \begin_layout Standard
@@ -733,11 +742,11 @@ Instead, the claim is the the transition to farming created
 \series bold
 appropriability
 \series default
-, which lead to an elite not producing food.
+, which lead to an non-productive elite.
 \end_layout
 
 \begin_layout Standard
-New Guinea adopted faring roughly at the same time as Egypt, but failed
+New Guinea adopted farming roughly at the same time as Egypt, but failed
  to develop hierarchical complexity.
 \end_layout
 

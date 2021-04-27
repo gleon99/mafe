@@ -97,7 +97,10 @@ Poverty Traps - Continued
 \end_layout
 
 \begin_layout Standard
-There are 2 ways to think of poverty traps: (1) linking income to investment
+There are 2 ways to think of poverty traps: (1) 
+\series bold
+linking income to investment
+\series default
  (can be manipulated by 
 \begin_inset Quotes eld
 \end_inset
@@ -106,7 +109,11 @@ S-shape
 \begin_inset Quotes erd
 \end_inset
 
- production function), and (2) increasing saving rates.
+ production function), and (2)
+\series bold
+ increasing saving rates
+\series default
+.
 \end_layout
 
 \begin_layout Standard
@@ -118,7 +125,11 @@ classic
 \begin_inset Quotes erd
 \end_inset
 
- approach (inequality increases aggregate saving & investment), the 
+ approach (
+\series bold
+inequality increases aggregate saving
+\series default
+ & investment), the 
 \series bold
 efficiency
 \series default
@@ -144,8 +155,8 @@ big push theory
 \begin_inset Quotes erd
 \end_inset
 
-, this model was found to be not very realistic, as it has a very larg impact
- on policy.
+, this model was found to be not very realistic, as it has a very large
+ impact on policy.
  The main critic of this approach is William Easterly, who refers to the
  
 \begin_inset Quotes eld
@@ -159,7 +170,7 @@ central planning
 \end_layout
 
 \begin_layout Standard
-The idea of a poverty trap is that the only reason of an individual/country
+The idea of a poverty trap is that the only reason of an individual / country
  to be poor is that it is poor.
  Even if the government is well run and the politicians do their job, the
  country would still remain poor.
@@ -172,7 +183,7 @@ big push
 \end_inset
 
  theory claims that a poor country would have an accelerated growth and
- convergence to high income over time, when aid is received by richer countries.
+ convergence to high income over time, when aid is given by richer countries.
 \end_layout
 
 \begin_layout Standard
@@ -184,14 +195,19 @@ takeoff
 \begin_inset Quotes erd
 \end_inset
 
- are limited to the Asian success stories, and even then they are unrelated
- to the provided help (e.g China).
+ are limited to the Asian success stories, and even then they are 
+\series bold
+unrelated to the provided help
+\series default
+ (e.g China).
 \end_layout
 
 \begin_layout Standard
-Giving money directly to countries tends to make governments, rather than
- people.
- better off.
+Giving money directly to countries tends to make 
+\series bold
+governments, rather than people, better off
+\series default
+.
 \end_layout
 
 \begin_layout Subsection
@@ -207,7 +223,11 @@ end of poverty
 \begin_inset Quotes erd
 \end_inset
 
- claims that it is better to directly help poor 
+ claims that it is better to 
+\series bold
+directly
+\series default
+ help poor 
 \series bold
 people
 \series default
@@ -216,13 +236,16 @@ people
 countries
 \series default
 .
-\begin_inset Newline newline
-\end_inset
+\end_layout
 
-Randomized Control Trials (CRTs) are experimental programs focusing on helping
+\begin_layout Standard
+Randomized Control Trials (RCTs) are experimental programs focusing on helping
  the poor.
- The criticism of this program claims that focusing on micro-credit doesn't
- help.
+ The criticism of this program claims that 
+\series bold
+focusing on micro-credit doesn't help
+\series default
+.
  Giving the poor access to credit to make them 
 \begin_inset Quotes eld
 \end_inset
@@ -231,7 +254,11 @@ small enterpreneurs
 \begin_inset Quotes erd
 \end_inset
 
- does not work, as they do not use it for investment.
+ does not work, as 
+\series bold
+they do not use it for investment
+\series default
+.
 \end_layout
 
 \begin_layout Standard
@@ -246,8 +273,11 @@ The Political Economy Approach
 
 \begin_layout Standard
 The goal is to present a simplified model of the political economy approach.
- The idea of this theory is that there is a political mechanism of income
- redistribution.
+ The idea of this theory is that 
+\series bold
+there is a political mechanism of income redistribution
+\series default
+.
  Too much inequality leads to political pressures to increase taxes on the
  rich.
 \end_layout
@@ -371,7 +401,7 @@ The tax can be 0 or
 \begin_inset Formula $\tau$
 \end_inset
 
- (fraction of wealth taxes and redistributed).
+ (fraction of wealth taxed and redistributed).
  The income of individual 
 \begin_inset Formula $i$
 \end_inset
@@ -379,7 +409,7 @@ The tax can be 0 or
  is:
 \begin_inset Formula 
 \[
-\widetilde{x}^{i}=(1=\tau)x^{i}+\tau\theta\bar{x}
+\widetilde{x}^{i}=(1-\tau)x^{i}+\tau\theta\bar{x}
 \]
 
 \end_inset
@@ -411,7 +441,7 @@ beneficial
 An agent would prefer redistribution if:
 \begin_inset Formula 
 \[
-\widetilde{x}^{i}>x^{i}\leftrightarrow\theta\bar{x}>x_{i}
+\widetilde{x}^{i}>x^{i}\Leftrightarrow\theta\bar{x}>x_{i}
 \]
 
 \end_inset
@@ -427,7 +457,7 @@ With
  it means:
 \begin_inset Formula 
 \[
-\widetilde{x}^{i}>x^{i}\leftrightarrow\bar{x}>x^{i}
+\widetilde{x}^{i}>x^{i}\Leftrightarrow\bar{x}>x^{i}
 \]
 
 \end_inset
@@ -455,7 +485,7 @@ As
 , redistribution is beneficial for an individual who has
 \begin_inset Formula 
 \[
-\widetilde{x}^{i}>x^{i}\leftrightarrow\theta>x^{i}
+\widetilde{x}^{i}>x^{i}\Leftrightarrow\theta>x^{i}
 \]
 
 \end_inset
@@ -464,7 +494,7 @@ As
 \end_layout
 
 \begin_layout Standard
-redistribution is supported by a fraction 
+The redistribution is supported by a fraction 
 \begin_inset Formula $F(\theta)$
 \end_inset
 
@@ -552,7 +582,11 @@ not
 \end_layout
 
 \begin_layout Standard
-When there is more support for taxes, the compromise would be higher taxation.
+
+\series bold
+When there is more support for taxes, the compromise would be higher taxation
+\series default
+.
 \end_layout
 
 \begin_layout Subsection
@@ -581,7 +615,7 @@ More inequality increases the cost of redistribution for high-income individuals
 \end_layout
 
 \begin_layout Standard
-The theory predicts than inequality has a negative effect of growth both
+The theory predicts that inequality has a negative effect of growth both
  with distorting taxation and beneficial taxation (when inequality is sufficient
 ly low).
 \end_layout
@@ -592,13 +626,13 @@ Empirically, we do not know the effect of inequality on growth.
 \series bold
 meaningless question
 \series default
-, while the correct one being 
+, while the correct one is: 
 \begin_inset Quotes eld
 \end_inset
 
-what is the effect of 
+what is the effect of inequality
 \series bold
-inequality policy
+ policy
 \series default
  on growth?
 \begin_inset Quotes erd
@@ -621,7 +655,7 @@ Scarcely invest in children education, are poorly fed and suffer from health
 \end_layout
 
 \begin_layout Itemize
-Are worried and anxioust, so that their sleep and work are interefered.
+Are worried and anxious, so that their sleep and work are interefered.
 \end_layout
 
 \begin_layout Itemize
@@ -634,13 +668,13 @@ micro-finance
 \end_inset
 
  help - useless).
- they cannot avoid cutting on their meals when income declines.
+ They cannot avoid cutting on their meals when income declines.
 \end_layout
 
 \begin_layout Itemize
 Yet, they spend a significant portion of their income on: alcohol, cigarettes,
  festivals, etc.
- Spending this money on educatino would transofrm the prospects of their
+ Spending this money on education would transofrm the prospects of their
  children.
 \end_layout
 
@@ -657,7 +691,7 @@ Such typical family does not pay rent on time and doesn't send their children
 \end_layout
 
 \begin_layout Standard
-In India and Africa househoulds spend enormous emount of money on festivals
+In India and Africa househoulds spend enormous amount of money on festivals
  and funerals (respectively).
 \end_layout
 

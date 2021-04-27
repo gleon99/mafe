@@ -147,7 +147,7 @@ support the poor
 \begin_inset Quotes erd
 \end_inset
 
- is being actually devastative for the poor: because the cost of living,
+ is being actually devastative for the poor: because of the cost of living,
  and because it blocks development and opportunities for better jobs.
 \end_layout
 
@@ -187,13 +187,19 @@ Poverty Traps
 
 \begin_layout Standard
 The Solow model and the overlapping generations model are designed to show
- that it is possible to grow by accumulating physical capital, but up to
- a particular limit.
+ that it is possible to grow by accumulating physical capital, but 
+\series bold
+up to a particular limit
+\series default
+.
 \end_layout
 
 \begin_layout Standard
-The main lesson is that to achieve growth one should refer to technological
- innovation and productivity increase.
+The main lesson is that 
+\series bold
+to achieve growth one should refer to technological innovation
+\series default
+ and productivity increase.
 \end_layout
 
 \begin_layout Standard
@@ -210,8 +216,11 @@ poverty traps
 \end_layout
 
 \begin_layout Standard
-A poverty trap is a steady state, which an economy might converge to, depending
- on its initial state.
+
+\series bold
+A poverty trap is a steady state
+\series default
+, which an economy might converge to, depending on its initial state.
 \end_layout
 
 \begin_layout Standard
@@ -240,9 +249,12 @@ people
 \end_layout
 
 \begin_layout Standard
-The limitation of these models is that, if the world was characterized by
- poverty traps - then how come there are rich countries? - Therefore a more
- sophisticated story is required.
+The limitation of these models is that,
+\series bold
+ if the world was characterized by poverty traps - then how come there are
+ rich countries
+\series default
+? - Therefore a more sophisticated story is required.
 \end_layout
 
 \begin_layout Subsection
@@ -267,7 +279,7 @@ A^{L} & k_{t}\leq\tilde{k}
 \begin_inset Formula $A$
 \end_inset
 
- represents a productivity threshold which impacts on the output:
+ represents a productivity threshold which has an impact on the output:
 \begin_inset Formula 
 \[
 Y_{t}=A_{t}F(K_{t},L_{t})=A_{t}L_{t}f(k_{t})
@@ -295,7 +307,7 @@ externality
 \series default
 : when firms produce more, there is an 
 \series bold
-agglomoration
+agglomeration
 \series default
  effect.
 \end_layout
@@ -317,8 +329,11 @@ k_{t+1}=\begin{cases}
 
 \begin_layout Standard
 Although there is a lot of critisism on this model, it is still extremely
- important, as even if it has nothing to do with reality - people do believe
- it has.
+ important, as even if it has nothing to do with reality - 
+\series bold
+people do believe it has
+\series default
+.
 \end_layout
 
 \begin_layout Standard
@@ -340,26 +355,33 @@ telling another story
 \end_inset
 
  (multiplication by a constant).
- If the saving rate depends on the output (poor countries save less).
- a poverty trap can be achieved.
- Another way (theoretically) is looking at the population growth rate: poor
+ If the saving rate depends on the output (poor countries save less), a
+ poverty trap can be achieved.
+ Another way (theoretically) is to look at the population growth rate: poor
  people tend to have more children.
 \end_layout
 
 \begin_layout Standard
 According to this model, a possible aid policy to a poor country could be
  simply supplying more initial capital to it so that it escapes the poverty
- trap (in practice such policied failed and wasted huge amounts of money).
+ trap (in practice such policies failed and wasted huge amounts of money).
 \end_layout
 
-\begin_layout Section
+\begin_layout Subsection
 Growth Accounting (Total Factor Productivity)
 \end_layout
 
 \begin_layout Standard
 When trying to understand differences in income, we distinguish between
- proximate cause (productivity improvement) and ultimate causes (why some
- countries grow faster).
+ 
+\series bold
+proximate causes
+\series default
+ (productivity improvement) and 
+\series bold
+ultimate causes
+\series default
+ (why some countries grow faster).
 \end_layout
 
 \begin_layout Standard
@@ -456,8 +478,13 @@ In order to know the elasticity, we assume a competitive economy (the share
 \end_layout
 
 \begin_layout Standard
-Anything that has an effect (more competitiv eeconomy; human capital; institutio
-ns) - is under 
+
+\series bold
+Anything that has an effect
+\series default
+ (more competitive economy; human capital; institutions) - 
+\series bold
+is under 
 \begin_inset Quotes eld
 \end_inset
 
@@ -465,6 +492,8 @@ total factor productivity
 \begin_inset Quotes erd
 \end_inset
 
+
+\series default
 .
 \end_layout
 
@@ -529,7 +558,7 @@ sAk>k(n+\delta)
 \end_layout
 
 \begin_layout Standard
-Implies 
+implies 
 \series bold
 investment per worker is higher than depreciation per worker
 \series default
@@ -537,17 +566,36 @@ investment per worker is higher than depreciation per worker
 \end_layout
 
 \begin_layout Standard
-The reason we got a steady state in the Solow model is that production function
- is marignally decreasing, which is not the case here - this model provides
- endless growth at a constant rate.
+The reason we got a steady state in the 
+\series bold
+Solow model
+\series default
+ is that
+\series bold
+ production function is marignally decreasing
+\series default
+, which is 
+\series bold
+not the case here
+\series default
+ - this model provides 
+\series bold
+endless growth at a constant rate
+\series default
+.
 \end_layout
 
 \begin_layout Standard
-It shall not be taken seriously to provide any prediction of the reality.
+
+\series bold
+It shall not be taken seriously
+\series default
+ to provide any prediction of the reality.
 \end_layout
 
 \begin_layout Standard
-A more sophisticated model is where technology can change over time: 
+A more sophisticated model is where the technology can change over time:
+ 
 \begin_inset Formula 
 \[
 A_{t}=A(k_{t})\Rightarrow y_{t}=A(k_{t})f(k_{t})
@@ -620,8 +668,11 @@ New knowledge needs to be purchased.
 \end_layout
 
 \begin_layout Standard
-The sequence assumes first innovations, which are then sold to production
- firms who produce the final product.
+The sequence assumes 
+\series bold
+first innovations, which are then sold 
+\series default
+to production firms who produce the final product.
 \end_layout
 
 \begin_layout Standard
@@ -657,8 +708,8 @@ A difference of a physical good and an innovation is that the marginal cost
 \end_layout
 
 \begin_layout Standard
-The model assumes that the number of non-rival inventions each worker produces
- at period 
+The model assumes that the number of non-rival inventions each worker in
+ the R&D sector produces at period 
 \begin_inset Formula $t$
 \end_inset
 
@@ -666,7 +717,7 @@ The model assumes that the number of non-rival inventions each worker produces
 \begin_inset Formula $\mu A_{t-1}$
 \end_inset
 
- 0 which are made at the beginning of the period and sold to producers.
+, which are made at the beginning of the period and sold to producers.
  In an equilibrium, all inventions are purchased:
 \begin_inset Formula 
 \[
@@ -687,7 +738,7 @@ The conclusion is that growth is done by investment in the R&D.
 \end_layout
 
 \begin_layout Standard
-The price of an innovation has ot be less then 1.
+The price of an innovation has to be less then 1.
 \end_layout
 
 \begin_layout Standard
@@ -708,7 +759,7 @@ I_{t}^{H}=\mu A_{t-1}\beta L_{t}
 \end_layout
 
 \begin_layout Standard
-The income of each production worker is, therefore:
+The income of each production worker is therefore:
 \begin_inset Formula 
 \[
 I_{t}^{L}=A_{t-1}+(1-\beta)\mu A_{t-1}H_{t}
@@ -730,7 +781,7 @@ patent
 \begin_inset Quotes erd
 \end_inset
 
- is less than 1, thus buying more patents give them more profit.
+ is less than 1, buying more patents gives them more profit.
 \end_layout
 
 \begin_layout Standard
@@ -762,7 +813,7 @@ Which leads to the solution:
 \begin_inset Formula 
 \[
 \begin{cases}
-H=\beta N-1\mu;\,\,K=(1-\beta)N+1\mu & \forall t(\mu\beta N>1)\\
+H=\beta N-1\mu;\,\,L=(1-\beta)N+1\mu & \forall t(\mu\beta N>1)\\
 H=0;\,\,L=N & \forall t(\mu\beta N\leq1)
 \end{cases}
 \]
@@ -832,13 +883,20 @@ Conclusions
 \end_layout
 
 \begin_layout Enumerate
-Growth is affected by: scale, R&D productivity, parents & property rights.
+Growth is affected by:
+\series bold
+ scale, R&D productivity, parents & property rights
+\series default
+.
 \end_layout
 
 \begin_layout Enumerate
-Crucial elements implied: technology is non-rival and excludable (in reality,
- most inventions are not protected by patent rights); techological progress
- with respect to its technological level.
+Crucial elements implied:
+\series bold
+ technology is non-rival and excludable
+\series default
+ (in reality, most inventions are not protected by patent rights); techological
+ progress is linear with respect to its technological level.
 \end_layout
 
 \begin_layout Standard
@@ -854,25 +912,38 @@ This model yields a sustained economic growth, provided an endogenous R&D
 \end_layout
 
 \begin_layout Standard
-Monopolistic competition might lead to over-investment in R&D.
+A monopolistic competition might lead to over-investment in R&D.
 \end_layout
 
 \begin_layout Standard
-For a single period it is very simple to find the optimal allocation between
- the sectors
+For a 
+\series bold
+single period
+\series default
+ it is
+\series bold
+ very simple
+\series default
+ to find the optimal allocation between the sectors.
 \end_layout
 
 \begin_layout Standard
-Looking at the long-term horizon, there is an externality that needs to
- be taken into account: R&D gives a 
+Looking at the
+\series bold
+ long-term horizon, there is an externality
+\series default
+ that needs to be taken into account: R&D gives a 
 \series bold
 future 
 \series default
 positive effect on the output when the patents expire (the workers are not
  compensated for it).
- There are oppositve forces (monopolistic competition vs.
- externality), thus there is no reason to think that an equilibrium would
- be efficient.
+ There are opposite forces (monopolistic competition vs.
+ externality), thus there is
+\series bold
+ no reason to think that an equilibrium would be efficient
+\series default
+.
 \end_layout
 
 \end_body

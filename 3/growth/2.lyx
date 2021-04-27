@@ -125,12 +125,20 @@ Properties of the steady state
 \end_layout
 
 \begin_layout Itemize
-Existence: a steady state might not exist at all, in case the economy diverges
- (e.g infinite growth).
+
+\series bold
+Existence
+\series default
+: a steady state might not exist at all, in case the economy diverges (e.g
+ infinite growth).
 \end_layout
 
 \begin_layout Itemize
-Uniqueness: if 
+
+\series bold
+Uniqueness
+\series default
+: if 
 \begin_inset Formula $\phi$
 \end_inset
 
@@ -140,8 +148,11 @@ Uniqueness: if
 \end_layout
 
 \begin_layout Itemize
-Stability: the equilibrium might be unstable, depending on the slope of
- the 
+
+\series bold
+Stability
+\series default
+: the equilibrium might be unstable, depending on the slope of the 
 \begin_inset Formula $\phi$
 \end_inset
 
@@ -171,7 +182,11 @@ Comparative Statics
 \begin_inset Formula $s$
 \end_inset
 
- and negatively affected by 
+ and 
+\begin_inset Formula $k_{0}$
+\end_inset
+
+, and negatively affected by 
 \begin_inset Formula $n$
 \end_inset
 
@@ -199,27 +214,37 @@ then, it is positively affected by
 \begin_inset Formula $s$
 \end_inset
 
-, and negative affected by 
+, and negatively affected by 
 \begin_inset Formula $n$
+\end_inset
+
+ and 
+\begin_inset Formula $k_{t}$
 \end_inset
 
 .
 \end_layout
 
 \begin_layout Standard
-As an economy approaches the steady state, the growth rate declines and
- gradually approaches 0.
+
+\series bold
+As an economy approaches the steady state, the growth rate declines
+\series default
+ and gradually approaches 0.
  It is an important result, with implications on the economy convergence.
 \end_layout
 
 \begin_layout Subsection
-Conclusions
+Conclusion
 \end_layout
 
 \begin_layout Standard
-The main conclusion is that there is no long-run growth, unless there is
- a technological progress.
- Only accumulating physical capital does not provide growth.
+The main conclusion is 
+\series bold
+that there is no long-run growth, unless there is a technological progress
+\series default
+.
+ Only accumulation of physical capital by itself - does not provide growth.
 \end_layout
 
 \begin_layout Standard
@@ -230,7 +255,11 @@ Convergence
 \begin_inset Quotes erd
 \end_inset
 
- mean that poor countries grow faster than rich ones.
+ means that 
+\series bold
+poor countries grow faster than rich ones
+\series default
+.
 \end_layout
 
 \begin_layout Standard
@@ -240,11 +269,15 @@ Does the Solow model predict global convergence? - No, because countries
 \series bold
 conditional
 \series default
- convergence, but not global convergence.
+ convergence, but
+\series bold
+ not global convergence
+\series default
+.
 \end_layout
 
 \begin_layout Standard
-Soviet union: a centralized state forced high savings rate.
+Soviet union: a centralized state which forced high savings rate.
  According to the Solow model, it is not sustainable.
 \end_layout
 
@@ -261,15 +294,23 @@ extension
 \begin_inset Quotes erd
 \end_inset
 
- or alternative to the Solow model.
+ or an alternative to the Solow model.
 \end_layout
 
 \begin_layout Standard
-In the Solow model there is no optimization, and the savings rate is a parameter.
+In the Solow model there is 
+\series bold
+no optimization
+\series default
+, and the savings rate is a 
+\series bold
+parameter
+\series default
+.
 \end_layout
 
 \begin_layout Standard
-In this model we consider individuals and decisions they make.
+In this model we consider the individuals and decisions they make.
  It is a discrete time model, with a generation in each time period.
  The old people retire / die / quit the market, and a new generation takes
  place.
@@ -320,11 +361,11 @@ Y_{t}=F(K_{t},L_{t})
 \end_layout
 
 \begin_layout Standard
-with diminishing marginal product, and constant return to scale.
+with diminishing marginal product and constant return to scale.
 \end_layout
 
 \begin_layout Standard
-Being a competitive model economy, prices are needed.
+As it is a competitive model economy, prices are needed.
  The wage per worker is 
 \begin_inset Formula $w_{t}=f(k_{t})-f'(k_{t})k_{t}$
 \end_inset
@@ -334,7 +375,7 @@ Being a competitive model economy, prices are needed.
 \begin_inset Formula $f(k_{t})$
 \end_inset
 
- but needs to pay for the capital, as it doesn't belong him.
+ but needs to pay for the capital, as it doesn't belong to him.
 \end_layout
 
 \begin_layout Standard
@@ -379,8 +420,8 @@ u_{t}=u(c_{t}^{y},c_{t+1}^{o})
 \end_layout
 
 \begin_layout Standard
-The budget constraint is that consumption in the second period is the savings
- + return:
+The budget constraint is that the consumption in the second period is the
+ savings plus return:
 \begin_inset Formula 
 \[
 c_{t+1}^{0}=R_{t+1}s_{t}^{y}=R_{t+1}[w_{1}-c_{t}^{y}]\Rightarrow c_{t}^{y}+\frac{c_{t+1}^{0}}{R_{t+1}}=w_{t}
@@ -404,8 +445,16 @@ Unlike the Solow model, here
 \begin_inset Formula $s$
 \end_inset
 
- represents the saving itself (not the fraction).
- As aggregate consumption is a normal good:
+ represents 
+\series bold
+the saving itself (not the fraction)
+\series default
+.
+ As aggregate 
+\series bold
+consumption is a normal good
+\series default
+:
 \begin_inset Formula 
 \[
 \frac{ds_{t}}{dw_{t}}>0;\,\,\frac{ds_{t}}{dR_{t+1}}\geq0
@@ -433,7 +482,7 @@ The second assumption is not obvious, as it depends on the income effect
 \end_layout
 
 \begin_layout Standard
-Individuals has a utility function.
+Individuals have a utility function.
  They try to maximize it subject to the budget constraint, which results
  in a decision regarding the savings.
 \end_layout
@@ -459,7 +508,8 @@ The capital in the next period is the savings from the current period.
 
 \begin_layout Standard
 The depreciation is not there, because it has a very limited effect (unlike
- the Solow model) - the capital is consumed by the old generation each period.
+ the Solow model) - the capital is consumed by the old generation in each
+ period.
 \end_layout
 
 \begin_layout Standard
@@ -482,12 +532,16 @@ Unlike the Solow model, here
 \begin_inset Formula $\phi$
 \end_inset
 
- is not necessarily concave, but can be convex as well.
+ is 
+\series bold
+not necessarily concave, but may be convex
+\series default
+ as well.
 \end_layout
 
 \begin_layout Standard
-It is possible that when income is low, people save less (compared to higher
- income, when they save a higher portion.
+It is possible that when income is low, people save less (compared to high
+ income, when they save a higher portion).
 \end_layout
 
 \begin_layout Standard
@@ -509,7 +563,7 @@ People cannot save more than their wage, and the wage cannot be more than
 
 \begin_layout Standard
 The aggregate saving in the economy is 
-\begin_inset Formula $s_{t}=s_{t}^{y}=s_{t}^{o}$
+\begin_inset Formula $s_{t}=s_{t}^{y}+s_{t}^{o}$
 \end_inset
 
 , where 
@@ -554,7 +608,7 @@ Assuming
 \begin_inset Formula $F(K_{t},L_{t})=AK_{t}^{\alpha}L_{t}^{1-\alpha}=L_{t}Ak_{t}^{\alpha}$
 \end_inset
 
- the utility is:
+, the utility is:
 \begin_inset Formula 
 \[
 u_{t}=u(c_{t},c_{t+1})=ln(c_{t})+\frac{1}{1+\rho}ln(c_{t+1})
@@ -583,8 +637,8 @@ s_{t}=\frac{1}{2+\rho}w_{t}
 \end_layout
 
 \begin_layout Standard
-In this function, the interest rate, although affects the resulting total
- capital - doesn't change the savings rate.
+In this function the interest rate, although affects the resulting total
+ capital, doesn't change the savings rate.
 \end_layout
 
 \begin_layout Standard
@@ -621,8 +675,8 @@ no need to think
 
 ) - it illustrates how results differ depending on the model.
  The second question is hard.
- It is designed to capture the exact idea of the equilibrium and rational
- expectations.
+ It is designed to capture the essence of the equilibrium and rational expectati
+ons.
 \end_layout
 
 \end_body
