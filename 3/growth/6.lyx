@@ -252,7 +252,7 @@ institutions
 \series bold
 security
 \series default
- (fron other people and outside forces).
+ (from other people and outside forces).
  
 \series bold
 Protection from the state
@@ -751,7 +751,10 @@ New Guinea adopted farming roughly at the same time as Egypt, but failed
 \end_layout
 
 \begin_layout Standard
-Eventually, hierarchy has developed where farmers were unable to grow roots
+Eventually, hierarchy has developed where 
+\series bold
+farmers were unable to grow roots
+\series default
  (to avoid taxation).
 \end_layout
 

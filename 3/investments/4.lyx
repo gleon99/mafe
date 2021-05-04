@@ -164,11 +164,11 @@ payout if a stock stays above some price
 \end_layout
 
 \begin_layout Itemize
-Certaing geographies
+Certain geographies
 \end_layout
 
 \begin_layout Itemize
-Promitional management team (many announcements on social media)
+Promotional management team (many announcements on social media)
 \end_layout
 
 \begin_layout Itemize
@@ -196,17 +196,17 @@ he likes to wear medals
 \end_inset
 
  and has a website with his philosophy).
- The story didn't end well for him, as NMC's stock was delisted, bond trade
+ The story didn't end well for him, as NMC's stock was delisted, bond traded
  at 7c on the dollar and the company eventually became bankrupt.
  B.R Shetty now hides in India.
  There were many red flags in this case: too good margins, unusually high
- cas, lack of board independence, and family members in key financial positions.
+ cash, lack of board independence and family members in key financial positions.
 \end_layout
 
 \begin_layout Standard
 Margin analysis is a very important part of the job: it is extremely difficult
  to have margins around 10%-20%.
- NMC were borrowing significant amounts of money from unusual sources (
+ NMC were borrowing significant amount of money from unusual sources (
 \begin_inset Quotes eld
 \end_inset
 
@@ -233,9 +233,9 @@ GSX
 \begin_layout Standard
 Another example is GSX.
  A U.S company which became public in 2019.
- The company provides online courses for Chiense students of ages 6-16.
+ The company provides online courses for Chinese students of ages 6-16.
  Education is highly priced in China and people spend a significant portion
- of their income of it, which tells a very good story and provides an advantage
+ of their income on it, which tells a very good story and provides an advantage
  over competitors.
 \end_layout
 
@@ -246,8 +246,15 @@ The problem with it is that most of the students are bots.
 \end_layout
 
 \begin_layout Standard
-GSX was one of the rare cases, when people understood that it was a fraud
- - therefore short sellers sufferred losses.
+GSX was one of the rare cases when people 
+\series bold
+understood
+\series default
+ that it was a fraud, therefore short sellers suffered 
+\series bold
+losses
+\series default
+.
 \end_layout
 
 \begin_layout Standard
@@ -442,9 +449,20 @@ An
 \series bold
 arbitrage
 \series default
- arises when the risk is priced inconsistently across (well-diversified)
- securities, e.g teo securities can be found, which bear the same risk/facotr-loa
-dings, but have different discount rates.
+ arises when the risk is priced 
+\series bold
+inconsistently
+\series default
+ across (well-diversified) securities, e.g two securities can be found, which
+ bear the 
+\series bold
+same
+\series default
+ risk/factor-loadings, but have 
+\series bold
+different
+\series default
+ discount rates.
 \end_layout
 
 \begin_layout Standard
@@ -500,10 +518,6 @@ statistical approach
 \begin_inset Separator plain
 \end_inset
 
-
-\end_layout
-
-\begin_layout Standard
 
 \end_layout
 

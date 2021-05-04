@@ -186,7 +186,7 @@ In a
 \series bold
 semi-strong-form
 \series default
- efficient market, prices reflect all publibly known and available information.
+ efficient market, prices reflect all publicly known and available information.
  
 \series bold
 Weak-form
@@ -210,15 +210,19 @@ crime pays
 \end_inset
 
 ).
- Empirical evidende supports the idea that markets in developed countries
- are semi-strong-form efficient.
- Private informatino is usually not reflected in prices, because of laws
+ Empirical evidence supports the idea that markets in developed countries
+ are semi-strong form efficient.
+ Private information is usually not reflected in prices, because of laws
  that prohibit insider trading.
 \end_layout
 
 \begin_layout Standard
 Is the expected return for stocks equal to 0 in an efficient market? - No,
- because it represents the equity premium.
+ because it represents the 
+\series bold
+equity premium
+\series default
+.
 \end_layout
 
 \begin_layout Standard
@@ -277,8 +281,8 @@ high water mark
 \end_layout
 
 \begin_layout Standard
-In theory, by reporting returns with a delay a hedge fund misleadingly create
- an impression of added value (
+In theory, by reporting returns with a delay, a hedge fund can misleadingly
+ create an impression of added value (
 \begin_inset Quotes eld
 \end_inset
 
@@ -339,7 +343,7 @@ Behavioral biases lead to suboptimal decisions, but learning and feedback
 \end_layout
 
 \begin_layout Enumerate
-Abstract thinkin capacity allows for 
+Abstract thinking capacity allows for 
 \begin_inset Quotes eld
 \end_inset
 
@@ -380,16 +384,20 @@ the binary choice game
 \end_layout
 
 \begin_layout Standard
-From the perspective of the AMH, the EMH is not wrong - it is simply incomplete.
+From the perspective of the AMH, the EMH 
+\series bold
+is not wrong
+\series default
+ - it is simply 
+\series bold
+incomplete
+\series default
+.
  Markets 
 \series bold
 are
 \series default
  in fact efficient in some cases, it only depends on the environment.
-\end_layout
-
-\begin_layout Standard
-
 \end_layout
 
 \end_body

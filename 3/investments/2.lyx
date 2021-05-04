@@ -125,7 +125,7 @@ best
 \end_layout
 
 \begin_layout Standard
-The available data should include the means and the covariance on the assets
+The available data should include the means and the covariance of the assets
  returns.
 \end_layout
 
@@ -158,7 +158,7 @@ The fraction invested in the
 \end_inset
 
 .
- The investors is assumed to be fully invested:
+ The investors are assumed to be fully invested:
 \begin_inset Formula 
 \[
 \sum_{i=1}^{N}w_{i}=1
@@ -666,18 +666,18 @@ If a dividend is declared, the short sellers must pay it.
 \end_layout
 
 \begin_layout Standard
-In the past, the brokers are those who make money of lending shares.
+In the past, the brokers were those who made money of lending shares.
  Since then it has become more competitive, and institutional investors
- do get profit form lending their shares.
+ also get profit form lending their shares.
 \end_layout
 
 \begin_layout Standard
 The risk in lending the shares is the possibility of the borrrower to become
- bankrupt, but there are some protectino mechanisms against that (e.g margin).
+ bankrupt, but there are some protection mechanisms against that (e.g margin).
 \end_layout
 
 \begin_layout Standard
-There are a lot of emotions and criticizm around short selling.
+There are a lot of emotions and criticism around short selling.
  Its advocates claim for 
 \begin_inset Quotes eld
 \end_inset
@@ -687,7 +687,7 @@ price discovery
 \end_inset
 
  mechanism - it is only when the investors are able to express themselves,
- both postiively and negatively, an unbiased assessment of the value of
+ both positively and negatively, an unbiased assessment of the value of
  a stock (
 \begin_inset Quotes eld
 \end_inset
@@ -712,7 +712,7 @@ encourage
 \begin_inset Quotes erd
 \end_inset
 
- companies to fell.
+ companies to fall.
  Companies tend to hate short sellers, and politicians as well (as they
  usually get contributions form companies).
 \end_layout

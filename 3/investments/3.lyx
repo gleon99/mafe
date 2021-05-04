@@ -1,0 +1,431 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+\usepackage{indentfirst}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2.5cm
+\topmargin 2.5cm
+\rightmargin 2.5cm
+\bottommargin 2.5cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Investments - Lecture 3
+\end_layout
+
+\begin_layout Author
+Leonid Genkin
+\end_layout
+
+\begin_layout Section
+CAPM
+\end_layout
+
+\begin_layout Subsection
+Sharpe Ratio
+\end_layout
+
+\begin_layout Standard
+Recalling from the previous lecture, the 
+\series bold
+Sharpe ratio
+\series default
+ of a portfolio is:
+\begin_inset Formula 
+\[
+SR=\frac{E[R_{p}-r_{f}]}{\sqrt{Var[R_{p}-r_{f}]}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+which can be roughly described as 
+\begin_inset Quotes eld
+\end_inset
+
+the excess return per unit of risk
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+What is the link between it and leverage? Doubling a position in a risky
+ portfolio by borrowing at risk-free rate doubles the expected return and
+ increases the variance by 4 times.
+\end_layout
+
+\begin_layout Standard
+If two different returns are reported, it might be because of leverage -
+ the Sharpe ratio remains unchanged.
+\end_layout
+
+\begin_layout Standard
+The Sharpe ratio is the 
+\series bold
+slope
+\series default
+ of the line connecting its position to the riskless rate position on the
+ risk-reward plot.
+\end_layout
+
+\begin_layout Standard
+The goal of the investment problem is to find a point on the efficient frontier,
+ which provides the highest possible slope.
+\end_layout
+
+\begin_layout Standard
+The CAPM is an 
+\series bold
+equilibrium
+\series default
+ model, which relates expected rates of return and covariances for all assets.
+\end_layout
+
+\begin_layout Subsection
+Equilibrium Pricing
+\end_layout
+
+\begin_layout Standard
+If anyone holds an efficient portfolio, how should securities be priced?
+ What prices are feasible? The CAPM gives an answer to these questions,
+ by making some assumptions: no transaction costs or taxes; all assets are
+ tradable; all traders are price takers.
+\end_layout
+
+\begin_layout Subsection
+CAPM
+\end_layout
+
+\begin_layout Standard
+The 
+\series bold
+market portfolio
+\series default
+ consists of 
+\series bold
+all
+\series default
+ risky securities held, in proportion to their value.
+\end_layout
+
+\begin_layout Standard
+Under the CAPM assumptions and the market being in an equilibrium, the expected
+ return on the 
+\begin_inset Formula $i^{th}$
+\end_inset
+
+ asset is given by:
+\begin_inset Formula 
+\[
+E[R_{i}]-r_{f}=\beta_{i}(E[R_{M}]-r_{f})
+\]
+
+\end_inset
+
+Where:
+\begin_inset Formula 
+\[
+\beta_{i}\equiv\frac{Cov[R_{M},r_{i}]}{\sigma_{M}^{2}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+CAPM vs.
+ Linear Regression
+\end_layout
+
+\begin_layout Standard
+The 
+\begin_inset Formula $\beta$
+\end_inset
+
+ of a risky asset can be alternatively calculated by estimating a linear
+ regression of 
+\begin_inset Formula $R_{i,t}$
+\end_inset
+
+ on 
+\begin_inset Formula $R_{M,t}-r_{f}$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+Investors do not get paid for idiosyncratic risk, because they are able
+ to diversify it away.
+\end_layout
+
+\begin_layout Standard
+Estimating 
+\begin_inset Formula $\beta$
+\end_inset
+
+ is an active research area.
+ The 
+\series bold
+naive
+\series default
+ method suggests 
+\begin_inset Formula $\beta=1$
+\end_inset
+
+.
+ The 
+\series bold
+historical
+\series default
+ method looks at the 60-day regression against the MSCI.
+ There is also a 
+\series bold
+prediction 
+\series default
+method, which uses a multifactor risk model.
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $\beta$
+\end_inset
+
+ Estimation
+\end_layout
+
+\begin_layout Standard
+Is it possible to estimate 
+\begin_inset Formula $\beta$
+\end_inset
+
+ without historical data? For (comparable) competitors in the same industry
+ - should be similar.
+ A more powerful approach is to regress it on parameters (industry, size,
+ leverage).
+\end_layout
+
+\begin_layout Subsection
+Single Index Model
+\end_layout
+
+\begin_layout Standard
+The 
+\series bold
+single index model
+\series default
+ estimates 
+\begin_inset Formula $\sigma_{i,j}$
+\end_inset
+
+'s by assuming zero covariance between any two securities.
+ It is a 
+\series bold
+statistical
+\series default
+ model, unlike the CAPM - which is an 
+\series bold
+economic
+\series default
+ model.
+\end_layout
+
+\begin_layout Subsection
+CAPM Challenges
+\end_layout
+
+\begin_layout Standard
+The CAPM model has been challenged during the last 20 years.
+ It is the most often used model for corporate valuation, portfolio management
+ and cost-of-capital determination.
+ Its failure implies that the market portfolio is inefficient.
+\end_layout
+
+\begin_layout Standard
+To test the CAPM, the market portfolio needs to be specified by choosing
+ an appropriate and diversified combination of assets.
+ The results in practice were not in support of the CAPM prediction.
+\end_layout
+
+\begin_layout Standard
+According to the the Roll critique: the only test of the CAPM is whether
+ the market portfolio is mean-variance efficient.
+ As the market portfolio cannot be identified (real estate, human capital)
+ - CAPM cannot be tested, and is therefore useless.
+\end_layout
+
+\begin_layout Subsection
+Other Factors
+\end_layout
+
+\begin_layout Standard
+If CAPM is wrong, other factors might explain returns.
+ Being able to isolate them might give better predictions of the expected
+ return.
+\end_layout
+
+\begin_layout Subsubsection
+The Small Firm Effect
+\end_layout
+
+\begin_layout Standard
+The firm size, defined as total market capitalizaion, might explain some
+ differences in the expected returns.
+ Small stocks tend to outperform large stocks.
+ This effect is measured by sorting and grouping firms according to their
+ size.
+ Indeed it does appear that smaller firms tend to yield higher returns.
+ It might be consistent with CAPM, as smaller firms are riskier (have higher
+ 
+\begin_inset Formula $\beta$
+\end_inset
+
+'s).
+ After controlling for it, it was found that the relation between average
+ returns and 
+\begin_inset Formula $\beta$
+\end_inset
+
+ in each size decile is negative.
+\end_layout
+
+\begin_layout Standard
+These findings were criticized by researches, who claim that other measures
+ of firm size have no similar predictive power, and that the size effect
+ has disappeared.
+\end_layout
+
+\begin_layout Standard
+The effect might be partially caused by a liquifdty problem (small stocks
+ are less liquid, which requires a premium).
+\end_layout
+
+\begin_layout Subsubsection
+The Value Effect
+\end_layout
+
+\begin_layout Standard
+Accounting figures tend to be very sticky, and change very slowly (while
+ the market moves much quicker).
+ Having a market share price which is very conservative.
+\end_layout
+
+\begin_layout Standard
+Sorting all stocks to deciles by P/B ratio, more expensive stocks have higher
+ returns.
+\end_layout
+
+\begin_layout Subsubsection
+Short-Term Momentum
+\end_layout
+
+\begin_layout Standard
+Firms with high (low) returns in the previous year tend to have higher (lower)
+ returns in the following few months.
+ The momentum effect seem to last only for a few months.
+\end_layout
+
+\begin_layout Subsubsection
+Multi-Factor Models
+\end_layout
+
+\begin_layout Standard
+The arbitrage pricing theory suggests a relationship with a number of 
+\begin_inset Quotes eld
+\end_inset
+
+systematic
+\begin_inset Quotes erd
+\end_inset
+
+ factors, e.g stocks in the same industry tend to move together.
+ However, other factors affect the returns as well.
+ APT assumes 
+\series bold
+no arbitrage
+\series default
+: no security with a negative price and a non-negative payoff.
+\end_layout
+
+\end_body
+\end_document
