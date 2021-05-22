@@ -97,8 +97,8 @@ Z-spread
 \end_layout
 
 \begin_layout Standard
-In order to compare 2 bonds, the most important thing is looking at their
- rate of return.
+In order to compare 2 bonds, the most important thing is to looking at their
+ rates of return.
 \end_layout
 
 \begin_layout Standard
@@ -168,7 +168,7 @@ For on-the-run issues it can be observed directly from the market, and for
 \end_layout
 
 \begin_layout Standard
-The treasury spot rates can be used to value default-free cash flow and
+The treasury spot rates can be used to value default-free cash flows and
  are derived by 
 \series bold
 bootstrapping
@@ -248,7 +248,7 @@ It is possible to invest for 2 years and get the spot rate
 \begin_inset Formula $f_{1,1}$
 \end_inset
 
-, the non-arbitrage condition imposes:
+, the non-arbitrage condition implies:
 \begin_inset Formula 
 \[
 (1+s_{1})(1+f_{1,1})=(1+s_{2})^{2}\Rightarrow f_{1,1}=\frac{(1+s_{2})^{2}}{1+s_{1}}-1
@@ -300,7 +300,7 @@ Derivatives
 \end_layout
 
 \begin_layout Standard
-The outcome of fixed-income securities doe snot depend on the profits of
+The outcome of fixed-income securities does not depend on the profits of
  a firm.
  Derivatives are built 
 \begin_inset Quotes eld
@@ -310,9 +310,9 @@ on top
 \begin_inset Quotes erd
 \end_inset
 
- of the cash flow of the bond.
- There are various reasons forusing derivatives: speculation, hedging, saving,
- etc.
+ of the cash flows of the bond.
+ There are various reasons for using derivatives: speculation, hedging,
+ saving, etc.
 \end_layout
 
 \begin_layout Standard
@@ -325,7 +325,7 @@ derivative
 derived
 \series default
  from the return of another (underlying) asset at a specific strike (maturity)
- date for a strike (maturity) price.
+ date for a particular strike (maturity) price.
 \end_layout
 
 \begin_layout Standard
@@ -352,7 +352,7 @@ long (short)
 \series bold
 bond
 \series default
- to the long/short on its 
+ to a long/short on its 
 \series bold
 derivative
 \series default

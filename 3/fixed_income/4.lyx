@@ -140,7 +140,7 @@ Forwarding
 \end_layout
 
 \begin_layout Subsection
-T-Bill Forwards
+T-Bill Forward
 \end_layout
 
 \begin_layout Standard
@@ -165,7 +165,7 @@ BF_{0}=BS_{0}(1+R_{f})^{T}
 \end_layout
 
 \begin_layout Standard
-Consider, for example, a 9 month forward constract on a 1-year T-bill (a
+Consider, for example, a 9 month forward contract on a 1-year T-bill (a
  risk-free product) with a FV of $1,000, price of $900 and the APR is 5%.
 \end_layout
 
@@ -338,7 +338,7 @@ fixed rate
 \series default
  - thus he 
 \series bold
-benefits if rtes increase
+benefits if rates increase
 \series default
 .
 \end_layout
@@ -373,7 +373,7 @@ T-bills FRA have a tick of 0.5bps, which is $12.5 change in price.
 \end_layout
 
 \begin_layout Standard
-It is important to always be aware of the qutation used (add-on rate basis
+It is important to always be aware of the quotation used (add-on rate basis
  / discount basis).
 \end_layout
 

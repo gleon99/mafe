@@ -99,11 +99,15 @@ Monetary Theory and Policy: Foundations - Continued
 \begin_layout Standard
 The Friedman rule: the amount of money does not affect the real economy
  or the real interest rate.
- It only affectes the value of money and the inflation.
+ It only affects the value of money and the inflation.
 \end_layout
 
 \begin_layout Standard
-The optimal policy is to maximize the value of money.
+
+\series bold
+The optimal policy is to maximize the value of money
+\series default
+.
  It happens when the 
 \begin_inset Quotes eld
 \end_inset
@@ -191,7 +195,7 @@ Price rigidity (employers fire instead of reducing the wage)
 \end_layout
 
 \begin_layout Standard
-Bitcon is 
+Bitcoin is 
 \series bold
 not
 \series default
@@ -203,7 +207,11 @@ printing cost
 \begin_inset Quotes erd
 \end_inset
 
- is not 0).
+ is
+\series bold
+ not 
+\series default
+0).
 \end_layout
 
 \begin_layout Standard
@@ -240,7 +248,11 @@ In most advanced countries, its goals are set by the government/law.
 \end_layout
 
 \begin_layout Enumerate
-Price stability: can be an inflation target.
+
+\series bold
+Price stability
+\series default
+: can be an inflation target.
  Who decides what is 
 \begin_inset Quotes eld
 \end_inset
@@ -253,12 +265,18 @@ stable
 \end_layout
 
 \begin_layout Enumerate
-Support growth and employment: support or maximize? How does the CB interpret
- the law? Not included in the ECB law.
+Support 
+\series bold
+growth and employment
+\series default
+: support or maximize? How does the CB interpret the law? Not included in
+ the ECB law.
 \end_layout
 
 \begin_layout Enumerate
-Support financial stability
+Support 
+\series bold
+financial stability
 \end_layout
 
 \begin_layout Standard
@@ -327,7 +345,11 @@ Monetary policy can affect the output and employment only in the short-run
 \begin_inset Quotes eld
 \end_inset
 
-around their potential levels), by setting the interest rate.
+around their potential levels
+\begin_inset Quotes erd
+\end_inset
+
+), by setting the interest rate.
 \end_layout
 
 \begin_layout Standard
@@ -347,11 +369,7 @@ The
 \begin_inset Quotes eld
 \end_inset
 
-
-\series bold
 potential level of output
-\series default
-
 \begin_inset Quotes erd
 \end_inset
 
@@ -359,7 +377,11 @@ potential level of output
 \end_layout
 
 \begin_layout Standard
-A key assumption is that monetary policy cannot change the potential output.
+A key assumption is that 
+\series bold
+monetary policy cannot change the potential output
+\series default
+.
 \end_layout
 
 \begin_layout Standard
@@ -489,10 +511,6 @@ The inflation expectations tend to fulfill themselves, which is consistent
 \begin_layout Standard
 The most important thing that allows CB to implement its policy - is having
  monopoly in the money market.
-\end_layout
-
-\begin_layout Subsection
-Taylor rule in practice
 \end_layout
 
 \begin_layout Standard

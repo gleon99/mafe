@@ -1,0 +1,413 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+\usepackage{indentfirst}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2.5cm
+\topmargin 2.5cm
+\rightmargin 2.5cm
+\bottommargin 2.5cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Macro 2 - Lecture 3
+\end_layout
+
+\begin_layout Author
+Leonid Genkin
+\end_layout
+
+\begin_layout Section
+Taylor Rule - continued
+\end_layout
+
+\begin_layout Standard
+We usually want the inflation expectation to be close to the inflation target.
+ This is, as the real interest rate is approximately equal to the nominal
+ rate minus the inflation expectation.
+\end_layout
+
+\begin_layout Standard
+If the inflation expectation is relatively stable around 
+\begin_inset Formula $\pi^{*}$
+\end_inset
+
+ , it will affect the real interest rate accordingly (and it is the rate
+ which in practice affects consumers).
+\end_layout
+
+\begin_layout Standard
+Therefore, the 
+\series bold
+key instrument
+\series default
+ used by the CB is affecting the 
+\series bold
+real 
+\series default
+interest rate.
+\end_layout
+
+\begin_layout Standard
+According to Bernanke, 
+\begin_inset Formula $u_{t}$
+\end_inset
+
+ is 
+\begin_inset Quotes eld
+\end_inset
+
+other considerations
+\begin_inset Quotes erd
+\end_inset
+
+ (applying the policy is not mechanical).
+\end_layout
+
+\begin_layout Subsection
+Measuring Inflation Expectations
+\end_layout
+
+\begin_layout Standard
+The 
+\series bold
+break-even inflation rate
+\series default
+ is defined as the difference between the nominal yield on a fixed-rate
+ investment and the real yield (fixed spread) on an inflation-linked investment
+ on similar terms.
+\end_layout
+
+\begin_layout Standard
+Is is basically the difference between the nominal rate and the real rate.
+\end_layout
+
+\begin_layout Standard
+Because the inflation expectation in fact affects the real rate, the committee
+ always 
+\begin_inset Quotes eld
+\end_inset
+
+
+\series bold
+monitors future expectations
+\series default
+
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Looking at inflation & inflation expectations in Israel it can be clearly
+ seen that even when the actual inflation rate is outside the 
+\begin_inset Formula $1\%-3\%$
+\end_inset
+
+ target range and even negative, the long-term expectations are nevertheless
+ mostly inside that range, and in fact closer to the midpoint of 2%.
+\end_layout
+
+\begin_layout Section
+Monetary policy at the Zero Lower Bound (ZLB)
+\end_layout
+
+\begin_layout Standard
+Is it possible to achieve the CB goals during a financial (or a pandemic)
+ crisis?
+\end_layout
+
+\begin_layout Itemize
+Zero lower bound (ZLB) on the nominal interest rate.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Spreads
+\series default
+ for firms and households 
+\series bold
+increase
+\series default
+, leading to higher real interest rate.
+ Reducing fund rate does not make the 
+\series bold
+real 
+\series default
+interest rate lower.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Deflation expectations
+\series default
+, leading to production going down.
+\end_layout
+
+\begin_layout Itemize
+The 
+\series bold
+accommodative policy is limited
+\series default
+, because of the long-run real rate and target inflation.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Saving the Financial Markets
+\end_layout
+
+\begin_layout Standard
+The conventional monetary policy (Taylor rule) has a limit, where the transmissi
+on mechanism does not fuction.
+ A more expansionary monetary policy is required, in order to keep short/long-te
+rm interest rates negative.
+\end_layout
+
+\begin_layout Standard
+In such case, unconventional policy tools are needed - the 
+\series bold
+quantitative easing (QE)
+\series default
+.
+ The CB buys financial assets, in order to reduce their yield and increase
+ the economy monetary base.
+ It is only possible when using 
+\begin_inset Quotes eld
+\end_inset
+
+Fiat money
+\begin_inset Quotes erd
+\end_inset
+
+ - zero cost of printing.
+\end_layout
+
+\begin_layout Standard
+The yield curve is the relation between the time to maturity and the interest
+ rate of a security.
+ Typically it is upward sloping (more risk in the far future): 
+\begin_inset Formula $i_{1t}<i_{2t}$
+\end_inset
+
+ - if and only if the interest rates are expected to increase.
+\end_layout
+
+\begin_layout Standard
+According to the expectation theory, 
+\begin_inset Formula $i_{2t}=(i_{1t}+t_{1t+t}^{e})/2$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The QE impacts by shifting the yield curve down.
+\end_layout
+
+\begin_layout Subsection
+Quantitative Easing
+\end_layout
+
+\begin_layout Standard
+QE1 took place in 2008-2010: Bernanke announced an aggressive support: AIG,
+ FX swaps, commercial paper purchase.
+\end_layout
+
+\begin_layout Standard
+QE2 (2012-2011): Further stimulation of the economy, by buying treasury
+ bills and T-bills.
+\end_layout
+
+\begin_layout Standard
+QE3 (2012-2014): Launching a bond purchasing program of agency MBS.
+\end_layout
+
+\begin_layout Standard
+Forward guidance: 
+\begin_inset Quotes eld
+\end_inset
+
+...likely maintain the federal funds rate near zero...
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+FED assets share of GDP has been gradually increasing from 5% in 2007 up
+ to 25% in 2015.
+\end_layout
+
+\begin_layout Standard
+The exit policy consists of stopping the QE when the inflation reaches the
+ target and the output gap is at the potential.
+ Fed rates are slowly raised, as goals are reached.
+ Assets are moved to 
+\begin_inset Quotes eld
+\end_inset
+
+normal
+\begin_inset Quotes erd
+\end_inset
+
+, and the long-run rate is reached when inflation and output are at their
+ long-run values.
+\end_layout
+
+\begin_layout Subsection
+ZLB
+\end_layout
+
+\begin_layout Standard
+The ZLB is reached and spreads increase, yet the CBs have a large set of
+ intervention tools for reaching their goals:
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Reduce
+\series default
+ the 
+\series bold
+spreads
+\series default
+ of certain credit markets
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Reduce
+\series default
+ long-term 
+\series bold
+interest rates
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Anchor
+\series default
+ inflation 
+\series bold
+expectations
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Prepare
+\series default
+ the 
+\series bold
+exit
+\series default
+ tools (stop the QE, raise the rate, reduce balance sheet).
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Interest rates
+\end_layout
+
+\begin_layout Standard
+When the long-run interest rate goes down - it means that the market expects
+ a crisis / recession.
+\end_layout
+
+\end_body
+\end_document

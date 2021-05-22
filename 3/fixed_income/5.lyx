@@ -123,7 +123,7 @@ There are 2 typical types of options:
 \series bold
 European option
 \series default
- (can be only exercised only at a particular date) and 
+ (can be only exercised at a particular date) and 
 \series bold
 American option
 \series default
@@ -131,14 +131,14 @@ American option
 \end_layout
 
 \begin_layout Standard
-Unlike a forwads, where anything does not have to be paid upfront - in an
+Unlike a forward, where anything does not have to be paid upfront - in an
  option one has to pay, because a 
 \series bold
 risk trading
 \series default
- takes place 
+ takes place (
 \series bold
-option premimum
+option premium
 \series default
 ).
 \end_layout
@@ -226,7 +226,7 @@ in a year and
 \series bold
 will
 \series default
- be exercise (as the interest rate increases).
+ be exercised (as the interest rate increases).
  The payoff is 
 \begin_inset Formula $0.99\%$
 \end_inset

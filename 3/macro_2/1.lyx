@@ -1,0 +1,517 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+\usepackage{indentfirst}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2.5cm
+\topmargin 2.5cm
+\rightmargin 2.5cm
+\bottommargin 2.5cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Macro 2 - Lecture 1
+\end_layout
+
+\begin_layout Author
+Leonid Genkin
+\end_layout
+
+\begin_layout Section
+Introduction
+\end_layout
+
+\begin_layout Standard
+The goals are:
+\end_layout
+
+\begin_layout Itemize
+To understand and predict CB decision making
+\end_layout
+
+\begin_layout Itemize
+Provide knowledge on how CBs and governments are related
+\end_layout
+
+\begin_layout Itemize
+Explaining the economic rationale for policy prescriptions
+\end_layout
+
+\begin_layout Itemize
+Using data and current events
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The goal of this class is to introduce the whole course, by considering
+ a specific crisis example.
+\end_layout
+
+\begin_layout Standard
+Data are processed by economic analysis, which is translated to actual policies.
+\end_layout
+
+\begin_layout Subsection
+COVID-19
+\end_layout
+
+\begin_layout Standard
+A crisis is: a collapse of large financial institutions (or a fear of it)
+ or a malfunctioning of important financial markets (even a potential one).
+ For example, in 2008 the value of big banks around the world went down
+ dramatically.
+\end_layout
+
+\begin_layout Standard
+How do we measure short-term and long-term risk of financial institutions?
+\end_layout
+
+\begin_layout Standard
+The 
+\series bold
+LIBOR
+\series default
+ - the (3 months) average of interest rates at which large banks lend to
+ each other.
+ It acts as an index to set cost of variable-rate loans.
+\end_layout
+
+\begin_layout Standard
+It is usually close the the CB interest rate, but might differ significantly
+ when there is lack of confidence.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+OIS
+\series default
+ - interest rate used to swap transactions in the money market (like the
+ CB interest rate).
+\end_layout
+
+\begin_layout Standard
+The LIBOR-OIS spread is a key measure of the 
+\series bold
+short-run
+\series default
+ credit risk in the banking sector.
+\end_layout
+
+\begin_layout Standard
+The 
+\series bold
+CDS
+\series default
+ (credit default swap) - an insurance contract against a default of another
+ entity.
+\end_layout
+
+\begin_layout Standard
+During the 2008 crisis, the LIBOR-OIS spread jumped by more than 7 times.
+ As the short-term risk increased, the long-term risk increased as well.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Quantitative Easing
+\series default
+ (QE) - large scale asset purchases by a CB.
+ Might be appropriate when short-term interest rates are near 0, and standard
+ monetary policy is not effective anymore.
+\end_layout
+
+\begin_layout Standard
+The COVID-19 global recession is caused both by 
+\series bold
+demand & supply shocks
+\series default
+, which lead to market instability due to uncertainity.
+ The economic activity is reduced and many businesses collapse.
+ The ability to work has decreased, there is negative impact on employment.
+\end_layout
+
+\begin_layout Standard
+CBs around the world initiated huge, 
+\series bold
+unprecedented
+\series default
+ QEs during the COVID-19 pandemic.
+ Each action taken now is 
+\series bold
+multiplied by several times
+\series default
+, compared to actions done in the previous crisis.
+\end_layout
+
+\begin_layout Standard
+All macroeconomic data come in quarters and CBs use it accordingly.
+ The main macroeconomic indicators important for monetary and financial
+ policy are:
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+GDP
+\series default
+ 
+\series bold
+growth
+\series default
+: looking at the quarterly GDP total percentage change, we can clearly see
+ a decrease in the 2008 crisis, around the Lehman brothers collapse.
+ Taking into account the growing population and the GDP per capita, the
+ situation is even worse.
+ The crisis hit Europe harder than the U.S and Israel, because: (1) tourism
+ (very affected by any crisis), (2) older population.
+ The monetary policy, in the short-run, tries to affect the GDP (promote
+ growth, decerase negative impact).
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Unemployment
+\series default
+ (depends on how it is measured): might be actually not such a good indicator
+ for monetary policy.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Inflation
+\series default
+: The inflation rates around the world seem to move together.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Interest rate
+\series default
+ is determined by the CB.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Debt/GDP 
+\series default
+ratio affects the financial stability.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Long-term interest rates
+\series default
+ (10-year government bonds) are the basic benchmark for long-term assets
+ (e.g stocks: when the discount rate increases, the value of a company goes
+ up).
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Monetary Theory and Policy: Foundations
+\end_layout
+
+\begin_layout Standard
+The main question is: what is the target (optimal) inflation rate? Most
+ advanced countries (starting with New Zealand in the early 90s) adopted
+ the policy of targeting a 2% inflation rate.
+\end_layout
+
+\begin_layout Standard
+Today monetary policy is focused on the interest rate.
+\end_layout
+
+\begin_layout Subsection
+What is Money?
+\end_layout
+
+\begin_layout Standard
+A medium of exchange (a legal tender) and a unit of account which stores
+ value.
+\end_layout
+
+\begin_layout Standard
+The money consists of cash produced by the CB, its reserves and close substitute
+s (deposits):
+\begin_inset Formula 
+\[
+M_{1}=Cash+Demand\,deposits
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+The Value of Money
+\end_layout
+
+\begin_layout Standard
+Long ago, each printed dollar was equal a ceratin amount of gold (gold standard
+ - commodity money), which was gradually replaced by Fiat money in the 20th
+ century.
+ Its advantage is having zero cost to print (no gold cover needed).
+\end_layout
+
+\begin_layout Standard
+The CB can, by law, print (or detsroy) as much money as needed to reach
+ its goal.
+\end_layout
+
+\begin_layout Standard
+What makes Fiat money acceptable, why do people go on holding it?
+\end_layout
+
+\begin_layout Standard
+Money is an asset with a nominal interest rate of 0%.
+ The cost of holding money is the interest gained on an alternative asset
+ with a similar risk (safe asset - government bond).
+ The higher the interest rate - the more expensive it is to hold liquid
+ cash, decreasing the demand for money.
+\end_layout
+
+\begin_layout Standard
+Interest rate can be negative (the CB takes money for holding the cash).
+\end_layout
+
+\begin_layout Subsection
+Interest Rate Determination
+\end_layout
+
+\begin_layout Standard
+Since the 80s, the short-run nominal interest rate is set by the CBs, with
+ the quantity of money (
+\begin_inset Formula $M_{1}$
+\end_inset
+
+) determined endogenously.
+ The bank can determine the interest rate, by providing loans/deposits.
+\end_layout
+
+\begin_layout Standard
+The theory of demand (Friedman & Sidrauski): individuals derive increasing
+ utility from consumption and real balance of money (for liquidity and transacti
+on services).
+\end_layout
+
+\begin_layout Standard
+A key assumption is that in the long-run, real values are not affected by
+ monetary polocy.
+\end_layout
+
+\begin_layout Standard
+The long-run real value of money that maximizes utility is such that 
+\series bold
+maximizes the value of cash
+\series default
+ - at a point where the marginal utility is zero.
+ Maximizing the value of money means that the long-run nominal interest
+ rate should be 0%.
+\end_layout
+
+\begin_layout Standard
+In practice, no one implements it.
+ If 
+\begin_inset Formula $i=0$
+\end_inset
+
+, the long-run optimal inflation is 
+\begin_inset Formula $\pi^{*}=-r$
+\end_inset
+
+.
+ The long-run real interest rate equals the marginal product of capital
+ (
+\begin_inset Formula $\sim0.5\%-2\%$
+\end_inset
+
+) requiring the inflation to be 
+\begin_inset Formula $-2\%$
+\end_inset
+
+ to 
+\begin_inset Formula $-0.5\%$
+\end_inset
+
+ (deflation).
+\end_layout
+
+\begin_layout Subsection
+Neutrality of Money
+\end_layout
+
+\begin_layout Standard
+The quantity theory states that the monetary policy cannot do any good in
+ the long-run (money increase leads to price increase).
+ The CBs believed that theory in the great depression.
+ Friedman stated in a later paper (1933) that during a crisis, money supply
+ shall be increased in order to prevent deflation.
+\end_layout
+
+\begin_layout Standard
+The key lesson of the great depression is: 
+\series bold
+accommodative policy can disconnect the relations of over-indebtedness and
+ deflation
+\series default
+, thus preventing a deep recession.
+\end_layout
+
+\begin_layout Standard
+Inflation therefore should not be negative, because a 
+\series bold
+deflation causes recession
+\series default
+.
+\end_layout
+
+\begin_layout Standard
+Thus a question is how to avoid a deflation in the long run, given a negative
+ shock to the economy? - The long-run interest rate 
+\begin_inset Formula $i^{*}=\pi^{*}+r$
+\end_inset
+
+ should be positive.
+ Since 
+\begin_inset Formula $r$
+\end_inset
+
+ is independent, 
+\begin_inset Formula $i^{*}$
+\end_inset
+
+ effectively determines 
+\begin_inset Formula $\pi^{*}$
+\end_inset
+
+ (
+\begin_inset Formula $i^{*}$
+\end_inset
+
+ must be a bit above 
+\begin_inset Formula $r$
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Standard
+In a crisis, 
+\begin_inset Formula $i^{*}$
+\end_inset
+
+ is actually negative, to enable the households and business get out of
+ it (as a short-term policy).
+\end_layout
+
+\begin_layout Standard
+The 2% is chosen to allow some space for an accommodative policy, but not
+ too much.
+ It is the 
+\begin_inset Quotes eld
+\end_inset
+
+maximum inflation allowed
+\begin_inset Quotes erd
+\end_inset
+
+, in order not to get too close to 0% nominal rate.
+\end_layout
+
+\end_body
+\end_document

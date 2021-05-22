@@ -114,7 +114,7 @@ Understand the mechanism
 \end_layout
 
 \begin_layout Itemize
-Estinate mean cash flow (account for conditionality and contingency)
+Estimate mean cash flow (account for conditionality and contingency)
 \end_layout
 
 \begin_layout Itemize
@@ -200,12 +200,16 @@ what is the PV
 \end_layout
 
 \begin_layout Standard
-As nominal rated go up, spot rates increase as well - but to a lowe extent.
+As nominal rates go up, spot rates increase as well - but 
+\series bold
+to a lower extent
+\series default
+.
 \end_layout
 
 \begin_layout Standard
-If a bond has an interest rate which equals the discount rate - it is traded
- 
+If a bond has an interest rate which is equal to the discount rate - it
+ is traded 
 \begin_inset Quotes eld
 \end_inset
 
@@ -250,7 +254,7 @@ risk-free
 \begin_inset Quotes erd
 \end_inset
 
- interest rate (set by the Fed)
+ interest rate (set by the Fed).
 \end_layout
 
 \begin_layout Standard
@@ -280,8 +284,15 @@ Comparing Bonds
 \end_layout
 
 \begin_layout Standard
-Yield measurement can be done in 2 ways: current yield which is the coupon
- divided by price, YTM which is the IRR of the cash flow.
+Yield measurement can be done in 2 ways: 
+\series bold
+current yield
+\series default
+ which is the coupon divided by price, 
+\series bold
+YTM
+\series default
+ which is the IRR of the cash flow.
 \end_layout
 
 \begin_layout Standard
@@ -301,7 +312,7 @@ Optionality
 \end_layout
 
 \begin_layout Itemize
-taxability
+Taxability
 \end_layout
 
 \begin_layout Itemize

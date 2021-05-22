@@ -93,12 +93,11 @@ Leonid Genkin
 \end_layout
 
 \begin_layout Standard
-Looking at past crises, we can see that the markets tend to underpredict
+Looking at past crises, we can see that the markets tend to 
+\series bold
+underpredict
+\series default
  the recovery of the interest rates.
-\end_layout
-
-\begin_layout Standard
-Each time there is a crysis.
 \end_layout
 
 \begin_layout Standard
@@ -111,7 +110,11 @@ taxation
 \end_inset
 
  of savings) decrease the interest rates the banks give to their customers?
- According to the bank of England, the answer is no.
+ According to the bank of England, the answer is 
+\series bold
+no
+\series default
+.
 \end_layout
 
 \begin_layout Standard
@@ -125,7 +128,7 @@ The interest rate is controlled by loans & deposits.
 \end_layout
 
 \begin_layout Standard
-Before the crysis the view was that making loans is the best way.
+Before the crisis the view was that making loans is the best way.
  The current view is to have a larger B/S (repo & deposits).
 \end_layout
 
@@ -157,11 +160,12 @@ transmission mechanism
 \series default
  of the impact interest rates have on the inflation rates and the real GDP.
  The short-run model is consistent with long-run assumptions.
- CBs assumptions are taken as give.
+ CBs assumptions are taken as given.
 \end_layout
 
 \begin_layout Standard
-As the monetary policy depends on the past, present and expectations - 
+As the monetary policy depends on the past, the present and expectations
+ - 
 \series bold
 projections are crucial
 \series default
@@ -316,8 +320,15 @@ where
 \end_inset
 
  is the growth rate of consumption.
- This equation means that in the long-run, if the growth rate decreases
- (or is at least expected to) - the interest rate decreases as well.
+ This equation means that in the long-run, 
+\series bold
+if the growth rate decreases
+\series default
+ (or is at least expected to) - 
+\series bold
+the interest rate decreases
+\series default
+ as well.
 \end_layout
 
 \begin_layout Standard
@@ -348,7 +359,7 @@ Optimizing the households, firms and the national identity equations lead
 \series bold
 dynamic IS curve
 \series default
-, in which consumption and investmend decrease when the real interest rate
+, in which consumption and investment decrease when the real interest rate
  increases in the expected future.
 \end_layout
 
@@ -356,8 +367,11 @@ dynamic IS curve
 The key transmission mechanism is the first term of the equation (3 main
  factors: nominal interest rate, inflation expectation and the long-run
  real rate expectation).
- It is to be noticed thatthe long-run real rate depends on the expected
- growth rate.
+ It is to be noticed that the
+\series bold
+ long-run real rate depends on the expected growth rate
+\series default
+.
  For example, if the nominal rate is pushed to zero - the inflation expectation
  must be high, which is achieved using QE.
 \end_layout
@@ -422,8 +436,8 @@ According to this model there are 3 sources of inflation: inflation expectation,
 \end_layout
 
 \begin_layout Standard
-A key conclusion is that when there are no shocks, the target steady is
- reached.
+A key conclusion is that when there are no shocks, the target steady state
+ is reached.
 \end_layout
 
 \begin_layout Standard
@@ -517,7 +531,7 @@ real interest rate
 \begin_layout Standard
 Due to some short-term rigidity, changes in the nominal interest rate affect
  the real interest rate, as inflation expectations are relatively unchanged.
- A flexible monetary shocks yields a stabilized inflation rate in response
+ A flexible monetary policy yields a stabilized inflation rate in response
  to exogenous shocks.
 \end_layout
 
@@ -540,7 +554,11 @@ Consider a positive inflation shock.
 \begin_inset Quotes eld
 \end_inset
 
-How to converge it to the steady state
+How to 
+\series bold
+converge
+\series default
+ it to the steady state
 \begin_inset Quotes erd
 \end_inset
 
@@ -589,7 +607,7 @@ historical data
 forward-looking
 \series default
  optimizing behavior.
- In addition, teh equations are internally consistent with each other and
+ In addition, the equations are internally consistent with each other and
  with
 \series bold
  rational expectations

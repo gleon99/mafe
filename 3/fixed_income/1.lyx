@@ -102,7 +102,8 @@ Introduction
 
 \begin_layout Standard
 In a fixed income security, the formula is fixed upfront.
- It might be very simple, or complicated (depend on the BOI interest rate).
+ It might be very simple, or complicated (e.g depend on the BOI interest
+ rate).
  Its important feature is that it is 
 \series bold
 not subject to performance
@@ -117,28 +118,44 @@ The amounts or the dates are not fixed, only the formula is.
 \end_layout
 
 \begin_layout Subsection
-Basid Definitions
+Basic Definitions
 \end_layout
 
 \begin_layout Itemize
-Identification of the issuer (government / corporate / bank; might not be
- so trivial in case of a group), the holders (not only their names but also
- define who are the holders that can buy the bond - the rules might limit
- to only foreign / institutional investors) and the trustee (represent the
- interest of the issue holders).
+
+\series bold
+Identification
+\series default
+ of the issuer (government / corporate / bank; might not be so trivial in
+ case of a group), the holders (not only their names but also define who
+ are the holders that can buy the bond - the rules might limit to only foreign
+ / institutional investors) and the trustee (represent the interest of the
+ issue holders).
 \end_layout
 
 \begin_layout Itemize
-Maturity (short / intermediate / long term) - change as time goes by; rebalancin
-g might be required to always hold a particular maturity
+
+\series bold
+Maturity
+\series default
+ (short / intermediate / long term) - change as time goes by; rebalancing
+ might be required to always hold a particular maturity
 \end_layout
 
 \begin_layout Itemize
-Par (principal/face/maturity) value
+
+\series bold
+Par
+\series default
+ (principal/face/maturity) value
 \end_layout
 
 \begin_layout Itemize
-Price quotation (at discount / premium / par)
+
+\series bold
+Price
+\series default
+ quotation (at discount / premium / par)
 \end_layout
 
 \begin_layout Itemize
@@ -146,20 +163,40 @@ Full price is the agreed (clean) price + accured interest
 \end_layout
 
 \begin_layout Itemize
-Spot rate is the market price paid for buying the security
+
+\series bold
+Spot rate
+\series default
+ is the market price paid for buying the security
 \end_layout
 
 \begin_layout Itemize
-Par coupon and payment frequency
+
+\series bold
+Par coupon
+\series default
+ and payment frequency
 \end_layout
 
 \begin_layout Itemize
-Par rate (interest rate on the par value)
+
+\series bold
+Par rate
+\series default
+ (interest rate on the par value)
 \end_layout
 
 \begin_layout Itemize
-Fixed vs.
- floating (
+
+\series bold
+Fixed
+\series default
+ vs.
+ 
+\series bold
+floating
+\series default
+ (
 \begin_inset Quotes eld
 \end_inset
 
@@ -168,48 +205,82 @@ variable
 \end_inset
 
 ) rate bond: a coupon rate might rest according to some reference (possibly:
- inverse, with cap/floor).
+ inverse, with cap/floor)
 \end_layout
 
 \begin_layout Itemize
-Zero-coupon bond: no interest payments, only at maturity (will be bought
- at discount)
+
+\series bold
+Zero-coupon
+\series default
+ bond: no interest payments, only at maturity (will be bought at discount)
 \end_layout
 
 \begin_layout Itemize
-Deferred coupon bond: coupons are deferred for a specific period.
+
+\series bold
+Deferred coupon
+\series default
+ bond: coupons are deferred for a specific period
 \end_layout
 
 \begin_layout Itemize
-Cum-coupon / Ex-coupon: require the buyer to pay the seller accrued interest.
+
+\series bold
+Cum-coupon
+\series default
+ / 
+\series bold
+Ex-coupon
+\series default
+: require the buyer to pay the seller accrued interest
 \end_layout
 
 \begin_layout Itemize
-Amortization schedule: repayment of principal pre-maturity (some part goes
- towards the interest, and a gradually increasing portion goes towards the
- principal).
- Bullet bonds have no amortization.
+
+\series bold
+Amortization
+\series default
+ schedule: repayment of principal pre-maturity (some part goes towards the
+ interest, and a gradually increasing portion goes towards the principal).
+ Bullet bonds have no amortization
 \end_layout
 
 \begin_layout Itemize
-Annuity: equal payments at regular intervals.
+
+\series bold
+Annuity
+\series default
+: equal payments at regular intervals
 \end_layout
 
 \begin_layout Itemize
-Currency denomination: local / foreign.
+
+\series bold
+Currency denomination
+\series default
+: local / foreign
 \end_layout
 
 \begin_layout Itemize
-Indexing: indexed to inflation rate (CPI) / exchange rate.
+
+\series bold
+Indexing
+\series default
+: indexed to inflation rate (CPI) / exchange rate
 \end_layout
 
 \begin_layout Itemize
-Covenants:
+
+\series bold
+Covenants
+\series default
+:
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-Affirmative (pay thev lender, pay taxes - preference over debt, reporting)
+Affirmative (pay the lender, pay taxes - preference over debt, reporting)
 \end_layout
 
 \begin_layout Itemize
@@ -218,21 +289,37 @@ Negative (debt, dividend, ratios limitation)
 
 \end_deeper
 \begin_layout Itemize
-Collaterals: on assets and future cash flow.
- A nonrecourse loan: the lender can look to the collaterals only in case
- of delinquency.
+
+\series bold
+Collaterals
+\series default
+: on assets and future cash flow.
+ A non-recourse loan: the lender can look to the collaterals only in case
+ of delinquency
 \end_layout
 
 \begin_layout Itemize
-Callable bond: the issuer can redeem at specific price/dates.
+
+\series bold
+Callable bond
+\series default
+: the issuer can redeem at specific price/dates
 \end_layout
 
 \begin_layout Itemize
-Puttable bond: the bondholder can redeem.
+
+\series bold
+Puttable bond
+\series default
+: the bondholder can redeem
 \end_layout
 
 \begin_layout Itemize
-Convertible bond: can be converted by the bondholder to shares.
+
+\series bold
+Convertible bond
+\series default
+: can be converted by the bondholder to shares
 \end_layout
 
 \begin_layout Standard
@@ -247,8 +334,8 @@ Regulation
 \end_layout
 
 \begin_layout Standard
-Fixed income markets are subject to commercial, customer protection, contract,
- corporate laws.
+Fixed income markets are subject to commercial, customer protection, contract
+ and corporate laws.
  In 2010 the following key points were adpoted: improving the transparency;
  stability oversight council; tighting securitization rules; capital requirement
 s.
@@ -256,11 +343,11 @@ s.
 
 \begin_layout Standard
 There rules govern how a bond (or other security) can be traded.
- HFT limitation (safeguard).
+ Limitations are imposed on HFT (in order to safeguard).
 \end_layout
 
 \begin_layout Standard
-MiFID II: improve corporate governanve; stronger investor protection; extend
+MiFID II: improve corporate governancse; stronger investor protection; extend
  transaction reporting and transparency.
 \end_layout
 
@@ -276,18 +363,19 @@ Fixed Income Market
 
 \begin_layout Standard
 The U.S issues zero-coupon T-bills at discount (YTM), semiannual coupon bearing
- T-note, T-bonds, TIPS.
+ T-notes, T-bonds, TIPS.
 \end_layout
 
 \begin_layout Standard
 All treasuries are issued through a public bid and are traded through brokers
  on the secondary market.
- They are reinvestment, interest and inflation risk.
+ They are vulnerable to reinvestment, interest and (except TIPS) inflation
+ risk.
 \end_layout
 
 \begin_layout Standard
-The FI securities are federally-related institutions (implicit) or government-sp
-onsored enterprises (explicit).
+The federal agency securities securities are federally-related institutions
+ (implicit) or government-sponsored enterprises (explicit).
 \end_layout
 
 \begin_layout Standard
@@ -311,7 +399,7 @@ credit
 \end_inset
 
 ) and the banking system.
- Some loans which hav epreviously been in the banking system, are now in
+ Some loans which have previously been in the banking system, are now in
  she shadow banking / capital market.
 \end_layout
 
