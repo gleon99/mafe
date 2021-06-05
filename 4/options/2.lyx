@@ -1,0 +1,499 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+\usepackage{indentfirst}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2.5cm
+\topmargin 2.5cm
+\rightmargin 2.5cm
+\bottommargin 2.5cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Options and Futures Markets - Lecture 2
+\end_layout
+
+\begin_layout Author
+Leonid Genkin
+\end_layout
+
+\begin_layout Section
+Hedging using Futures
+\end_layout
+
+\begin_layout Standard
+When one needs to purchase (sell) an asset in the future and believes the
+ price will increase (decrease), a long (short) future hedge is approprite
+ in order to lock the price and neutralize the risk.
+\end_layout
+
+\begin_layout Standard
+Pros of hedging:
+\end_layout
+
+\begin_layout Itemize
+Focus on business, minimize risks
+\end_layout
+
+\begin_layout Itemize
+Creates value, ensures cash
+\end_layout
+
+\begin_layout Itemize
+Stability (less volatility)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Cons:
+\end_layout
+
+\begin_layout Itemize
+Shareholders can diversify themselves and hedge if needed
+\end_layout
+
+\begin_layout Itemize
+May tie up collateral funds
+\end_layout
+
+\begin_layout Itemize
+Losses are difficult to explain
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+There is no 
+\begin_inset Quotes eld
+\end_inset
+
+perfect
+\begin_inset Quotes erd
+\end_inset
+
+ hedging often, if there is uncertainty or no contracts availability on
+ the needed asset (cross-hedge) / date (choose later contract or roll forward
+ rate).
+\end_layout
+
+\begin_layout Standard
+The 
+\series bold
+basis
+\series default
+ is defined as the difference between the spot price and the future price.
+ 
+\series bold
+Basis risk
+\series default
+ is the uncertainty about the basis when closing the hedge.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Hedge ration
+\series default
+ is the ration between the size of futures position and the size of exposure.
+ The optimal ratio should be chosen to 
+\series bold
+minimize the variance of the total proceeds
+\series default
+ (somewhat similar to the CAPM model).
+\end_layout
+
+\begin_layout Standard
+In a future contract, the profit is always the closing price minus the opening
+ price.
+\end_layout
+
+\begin_layout Standard
+An improperly done hedge can turn very bad, as was the case with Metallgesellsch
+aft.
+ They have engaged in very long-term contracts for oil supply for a locked
+ price (of $21 per barrel).
+ Retailers were averse to fluctuatinos in oil price and therefore willing
+ to buy these contracts.
+ The company believed they could purchase the oil at a low price, seeing
+ an arbitrage opportunity.
+\end_layout
+
+\begin_layout Standard
+They ended up having exposure to 150 million barrels of oil, which was hedged
+ in the futures market.
+ Each month the exposure was rolled to the next one.
+\end_layout
+
+\begin_layout Standard
+The total long position in the futures matched the short position for supply.
+ Variation in the short position was not compensated in the long position.
+\end_layout
+
+\begin_layout Standard
+In the spot market they were supplying oil at a gradually decreasing price,
+ thus their supply contract have been increasing in profit.
+\end_layout
+
+\begin_layout Standard
+As the futures curve was in 
+\series bold
+contango
+\series default
+ (which is always bad for those who are long on futures), they constantly
+ bought high and sold low, leading to loss on their future stack.
+\end_layout
+
+\begin_layout Subsection
+Stock Index Futures
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Stock index futures
+\series default
+ allow investors to participate in the market, without actually buying or
+ selling stock.
+\end_layout
+
+\begin_layout Standard
+The position in synthetic, the settlement is always in cash.
+ Speculators are major players in this market.
+\end_layout
+
+\begin_layout Standard
+It is a very easy and quick way to hedge a portfolio, therefore it can be
+ useful for hedging a well-diversified portfolio as well.
+\end_layout
+
+\begin_layout Standard
+For example, consider having a bullish position and being worried about
+ a potential decline in future prices.
+ One can hedge by shorting a future position in the index.
+ The appropriate number of contracts is chosen according to the 
+\begin_inset Formula $\beta$
+\end_inset
+
+ of the portfolio.
+\end_layout
+
+\begin_layout Standard
+The idea is to have a position in the futures market, which would offest
+ the anticipapted losses.
+\end_layout
+
+\begin_layout Subsection
+Market-Neutral Portfolio
+\end_layout
+
+\begin_layout Standard
+There are hedge funds that claim to run a 
+\begin_inset Quotes eld
+\end_inset
+
+market-neutral
+\begin_inset Quotes erd
+\end_inset
+
+ strategy.
+ In many cases in can be achieved using futures on the market index.
+ Obviously, the more diversified the underlying portfolio is, the better
+ the hedge will be.
+\end_layout
+
+\begin_layout Standard
+For example, an asset manager might believe that a particular asset is underpric
+es, while concerned about future market performance.
+\end_layout
+
+\begin_layout Subsection
+Managed Futures
+\end_layout
+
+\begin_layout Standard
+Historically called CTAs (commodity trading advisories).
+ An entire type of strategies, applied using only futures (in a diversified
+ portfolio).
+\end_layout
+
+\begin_layout Standard
+Their advantage is trading with the most liquid contracts (passing a certain
+ value threshold).
+ Sometimes they use strategies like momentum (or other price-based values).
+\end_layout
+
+\begin_layout Standard
+The idea is that these strategies, in general, should be 
+\series bold
+uncorrelated
+\series default
+ with the market and provide a consistent return.
+\end_layout
+
+\begin_layout Standard
+Historically, on average their correlations with any other kind of strategies
+ are indeed low 
+\end_layout
+
+\begin_layout Standard
+Basically they 
+\begin_inset Quotes eld
+\end_inset
+
+wait for a crisis
+\begin_inset Quotes erd
+\end_inset
+
+.
+ 2008 was an excellent year for them.
+ It take a while for the managed futures to adapt, thus 2020 was not a 
+\begin_inset Quotes eld
+\end_inset
+
+great' year
+\end_layout
+
+\begin_layout Section
+Pricing of Forwards and Futures
+\end_layout
+
+\begin_layout Subsection
+Introduction
+\end_layout
+
+\begin_layout Standard
+Up until now, future prices were taken as given.
+ We will now consider their pricing and its relation to the underlying assets.
+\end_layout
+
+\begin_layout Standard
+Arbitrage opportunities involve trying to take a position in the spot market
+ and an offsetting position in the futures market, such that either a zero
+ investment today results in a positive CF in the future, or a positive
+ CF today and zero CF in the futre.
+\end_layout
+
+\begin_layout Standard
+For example: spot rate is $40, 3 months forwards price is $43, interest
+ rate is 5%.
+ The forward price is relatively high.
+ In such case, we will take the short position in the expensive one (forward)
+ market and simultaneously purchase the stock in the spot market.
+\end_layout
+
+\begin_layout Standard
+Borrowing $40 to buy the asset and selling in the future results in a profit
+ of 
+\begin_inset Formula $\$43-\$40.5=\$2.5$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+If the forward price is $39, the correct strategy would be to short-sell
+ the stock, invest the money and enter a forward contract to buy the stock
+ at $39.
+\end_layout
+
+\begin_layout Subsection
+Forward Price
+\end_layout
+
+\begin_layout Standard
+The forward price that would prevent arbitrage opportunity would be:
+\begin_inset Formula 
+\[
+F_{0}^{T}=S_{0}\cdot(1+r)^{T}
+\]
+
+\end_inset
+
+otherwise investors will rush to exploit it.
+\end_layout
+
+\begin_layout Standard
+If the stock pays out a dividend before the forward maturity, its cash flows
+ need to be incorporated in the price:
+\begin_inset Formula 
+\[
+F_{t}=[S-PV(Div)]\cdot(1+r)^{T}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The underlying asset is not the stock, but the stock after the dividends
+ were paid.
+\end_layout
+
+\begin_layout Standard
+In case the dividend yield is (e.g in a stock index), the price becomes:
+\begin_inset Formula 
+\[
+F_{t}=S\cdot(1+r-d)^{T}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In case of bond, the calculation is the same (involving coupons).
+\end_layout
+
+\begin_layout Standard
+Prices of future contracts with different maturities are clearly highly
+ correlated, as they are derived form the same underlying asset.
+\end_layout
+
+\begin_layout Subsection
+Commodities
+\end_layout
+
+\begin_layout Standard
+Commodities are priced in a similar manner - they derive from the spot price
+ of the underlyihng asset.
+ The difference is that there is a 
+\series bold
+storage cost
+\series default
+ which is an outcome:
+\begin_inset Formula 
+\[
+F_{0}^{T}=(S_{0}+U)(1+r)^{T}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Or:
+\begin_inset Formula 
+\[
+F_{0}^{T}=S_{0}(1+r+u)^{T}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Note that there is a possibility for a forward price to be lower than the
+ theoretical price.
+ The reason is related to arbitrage opportunities.
+ For consumption commodities, those holding the asset may not be willing
+ to sell it therefore the arbitrage cannot be performed.
+ It might happen when there is a shortage in the market (e,g after there
+ is a hurricane, a shortage of oil, etc).
+ In such case there will be a spike in the sport price, while the forwarsd
+ price will be lower.
+\end_layout
+
+\begin_layout Subsection
+The Cost of Carry
+\end_layout
+
+\begin_layout Standard
+The 
+\series bold
+cost of carry
+\series default
+ is the cost of storage plus the interest costs, less the earned income.
+\end_layout
+
+\end_body
+\end_document

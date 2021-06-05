@@ -1,0 +1,543 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+\usepackage{indentfirst}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2.5cm
+\topmargin 2.5cm
+\rightmargin 2.5cm
+\bottommargin 2.5cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+International Finance - Lecture 1
+\end_layout
+
+\begin_layout Author
+Leonid Genkin
+\end_layout
+
+\begin_layout Standard
+The last time Israel had an inflation rate above 10% was a decade ago, now
+ they are around 2%.
+\end_layout
+
+\begin_layout Standard
+The current period is an interesting time in terms of policy, inflation,
+ etc.
+\end_layout
+
+\begin_layout Standard
+Goals of this class:
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Quotes eld
+\end_inset
+
+To bring us to the front page of the Financial Times
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+To show the methodology (top-down: starting from the macro; bottom-up: starting
+ from stocks & bonds) for looking at financial markets.
+\end_layout
+
+\begin_layout Section
+Key Current Issues
+\end_layout
+
+\begin_layout Itemize
+How long monetary expansion can last? We live in a world with around 0%
+ CB interest rate, which means a real negative interest rate.
+ The inflation expectations for the next year are 2% in Israel (2.5% in the
+ U.S).
+ CBs buy commercial and government bonds (price goes up, yield goes down).
+\end_layout
+
+\begin_layout Itemize
+Is the resent inflation increase only transitory? The message from FED is
+ clearly that it is a transitory phenomenon.
+ The COVID-19 vaccination is believed to facilitate economic normalization.
+ How long that would take - is unknown.
+\end_layout
+
+\begin_layout Itemize
+Will there be fiscal consolidation soon? Debt-to-GDP ratios are high around
+ the world.
+ It is especially relevant for emerging market.
+ Are government sustainable? Will it have a snowball effect? A crisis can
+ be triggered.
+\end_layout
+
+\begin_layout Itemize
+Role of cryptocurrencies and digital currencies.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+COVID-19
+\end_layout
+
+\begin_layout Standard
+The COVID-19 crisis was not a 
+\begin_inset Quotes eld
+\end_inset
+
+typical
+\begin_inset Quotes erd
+\end_inset
+
+ economic crisis, but a 
+\series bold
+sudden stop
+\series default
+.
+\end_layout
+
+\begin_layout Standard
+The Chinese virus was previously unknown, yet it was clear that eventually
+ it would spread to every aprt of the world.
+\end_layout
+
+\begin_layout Standard
+China declared that the virus would not spread otherwise, but at the end
+ it was not the case and a pandemic began.
+\end_layout
+
+\begin_layout Standard
+Lockdowns were initiated around the world and the medical personell panicked
+ as it was questionable whether the health systems would be able to accommodate
+ all the sick people (
+\begin_inset Quotes eld
+\end_inset
+
+flattening the curve
+\begin_inset Quotes erd
+\end_inset
+
+ - to prevent exceeding hospitals capacity).
+\end_layout
+
+\begin_layout Standard
+The capacity of the health systems increased during the crisis, as new equipment
+ was purchased.
+ What percentage of working people would return to a job after the crisis
+ remains an open question.
+\end_layout
+
+\begin_layout Standard
+It 2020Q2 there was a huge drop in GDP (in OECD / World figures).
+\end_layout
+
+\begin_layout Standard
+Typically when countries go to a recession or a crisis, it is a gradual
+ process which takes a lot of time.
+ It was not the case here - 
+\begin_inset Quotes eld
+\end_inset
+
+out of the blue
+\begin_inset Quotes erd
+\end_inset
+
+ people were told not to come to work.
+ International flights and ships were cancelled.
+\end_layout
+
+\begin_layout Standard
+Not everyone is able to work from home - which lead to a compression of
+ the supply.
+ Shopping was also significantly restricted, which resulted in a demand
+ decrease as well.
+\end_layout
+
+\begin_layout Standard
+The lockdowns resulted in 
+\begin_inset Quotes eld
+\end_inset
+
+zigzags
+\begin_inset Quotes erd
+\end_inset
+
+ (partial reopenings, when lockdowns were abolished).
+ The impact of each subsequent lockdown was lower than that of previous
+ ones (the Economy and people 
+\begin_inset Quotes eld
+\end_inset
+
+learned to live with it
+\begin_inset Quotes erd
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Subsection
+Global Supply Chain
+\end_layout
+
+\begin_layout Standard
+COVID-19 basically paralyzed the global supply chain.
+ Automobile facotries considered closing their production lines.
+ It was mostly affected by China, as the value added import depencence on
+ it was very significant.
+\end_layout
+
+\begin_layout Standard
+One lesson from it is that supply chains should be diversified and not rely
+ on a single supplier.
+\end_layout
+
+\begin_layout Subsection
+Recovery
+\end_layout
+
+\begin_layout Standard
+The recovery might start with an initial bounce, followed by a slow growth,
+ dependent on the demand, permanent damage and the policy.
+\end_layout
+
+\begin_layout Standard
+Global 
+\series bold
+economic projections have improved
+\series default
+ (compared to a few months ago) and currently have a 
+\series bold
+
+\begin_inset Quotes eld
+\end_inset
+
+V
+\begin_inset Quotes erd
+\end_inset
+
+ shape
+\series default
+.
+ The good news are that if 2020 can be described as a year of recession,
+ then 2021 is a year of recovery.
+\end_layout
+
+\begin_layout Standard
+Yet the pandemic has some persistent effects on the level of output and
+ on the disparity of income distribution.
+\end_layout
+
+\begin_layout Standard
+Clearly, the vaccination is an important element in a recovery.
+ But policy is also essential.
+ On the fiscal side, governments has increased spending, in order to: (1)
+ ensure infrastructure and (2) support unemployed people, businesses, various
+ welfare payments.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+The U.S is different
+\series default
+ from other countries in that their policy implies a very 
+\series bold
+significant expansion
+\series default
+, which also increases thei deficit.
+ The most traumatic event in their economic history is the 1929 recession
+ - something that could have been avoided by taking an activist position.
+ In Germany it is the hyper-inflation of the 1920s.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+The U.S is doing much better than Europe
+\series default
+.
+ There are various reasons, and the government spending is one of them.
+ The fiscal support was the largest and fastest in peacetime - in order
+ to avoid the 
+\begin_inset Quotes eld
+\end_inset
+
+domino effect
+\begin_inset Quotes erd
+\end_inset
+
+ of a total Economy collapse.
+\end_layout
+
+\begin_layout Standard
+The philosophy of 
+\series bold
+Reagan
+\series default
+ (similar to Netanyahu), 
+\series bold
+
+\begin_inset Quotes eld
+\end_inset
+
+supply side Economy
+\series default
+
+\begin_inset Quotes erd
+\end_inset
+
+, states that a reduction in taxes incentivizes people to work more and
+ spend more, leading to economic growth and increase in tax proceeds.
+ Empirically it was not proved to be true.
+\end_layout
+
+\begin_layout Standard
+On the monetary side - the CB policy can react very fast as they are very
+ flexible, independent and do not require any approval.
+ Interest rates around the world were set near 0%.
+ In addition to that, a quantitative easing was done (the FED B/S might
+ reach $9tn).
+ The budget deficit is increased by issuing bonds, but then money supply
+ is increased by 
+\begin_inset Quotes eld
+\end_inset
+
+printing money
+\begin_inset Quotes erd
+\end_inset
+
+.
+ On a leagl basis, it is a valid decision.
+ The CBs B/S can reach up to 60% on average.
+\end_layout
+
+\begin_layout Standard
+The 
+\series bold
+inflation expectations
+\series default
+ are now globally 
+\series bold
+higher
+\series default
+ than in 2020 because of revovery and incorporation of new activities in
+ the index.
+\end_layout
+
+\begin_layout Standard
+As part of the normalizating of economic activities, there was a 
+\series bold
+sharp rise in commodity prices
+\series default
+.
+\end_layout
+
+\begin_layout Standard
+There were higher spikes (2008), yet it is important to notice that shipping
+ costs have increased now.
+ The view of the Israeli CB is that 
+\series bold
+the rise in the infatlion is transitory
+\series default
+.
+ Econometric models cannot predict that, as such event has never occurred
+ in the past.
+\end_layout
+
+\begin_layout Standard
+The PCE inflation is typically lower than the CPI inflation.
+ The core index eliminates the most volatile items.
+\end_layout
+
+\begin_layout Standard
+One of the most important indicators in financial markets is the 
+\series bold
+spread
+\series default
+ (of commercial bonds).
+ High-grade bonds are distinguished from high-yield bonds (which usually
+ have lower grade and associated with more risk).
+ They increased dramatically at the beginnign of the crisis, with the high-yield
+ spreads increasing by more.
+ U.S bonds have higher spreads.
+\end_layout
+
+\begin_layout Standard
+The S&P500 first passed the 4000 value this year.
+ Investors who sold when the crisis happened (without waiting for the recovery)
+ suffered losses.
+ In 2012-2013 there were also some falls (not only in big crises).
+\end_layout
+
+\begin_layout Standard
+2020 was definitely a 
+\begin_inset Quotes eld
+\end_inset
+
+year of technology
+\begin_inset Quotes erd
+\end_inset
+
+, which is not necessarily true regarding 2021 - where it corrects down
+ and there is a market rotation towards more traditional stocks.
+\end_layout
+
+\begin_layout Standard
+One of the risk factors in the recovery is hte fact that global debts (household
+, corporate and government) have soared during the pandemic (
+\begin_inset Quotes eld
+\end_inset
+
+what will happen when the FED starts to increase the interest rate? A debt
+ trap?
+\begin_inset Quotes erd
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Section
+Foreign Exchange Markets
+\end_layout
+
+\begin_layout Standard
+A global de-centralized / OTC market for currencies trading which operates
+ 24/7.
+ It is the largest and the most liquid market in the world.
+ It is very large and has grown with globalization.
+\end_layout
+
+\begin_layout Standard
+There are many types of contracts (spot, future, derivaties), with 
+\series bold
+swaps 
+\series default
+the most popular.
+\end_layout
+
+\begin_layout Standard
+The 
+\series bold
+exchange rate
+\series default
+ is defined as the number of dometic currency units per single unit of a
+ foreign currency.
+ The domestic currency depreciates (appreciates) when the exchange rate
+ increases (decreases).
+\end_layout
+
+\begin_layout Standard
+Looking at the EUR/USD rate over time in can be seen that there was a depreciati
+on of USD until the 2008 crisis, followed by a reversal afterwards (problems
+ in Europe began to arise - crises in Greece, Ireland, Portugal).
+ The range of 1.15-1.25 in considered as an 
+\begin_inset Quotes eld
+\end_inset
+
+equilibrium
+\begin_inset Quotes erd
+\end_inset
+
+ today.
+\end_layout
+
+\begin_layout Standard
+The DXY is the index of USD (can be traded).
+\end_layout
+
+\begin_layout Standard
+An interesting question in this context is: are episodes of a stong Shekel
+ result of a weaker Dollar?
+\end_layout
+
+\begin_layout Standard
+In China the authorities used to be very fearful of a flexible exchange
+ rate, but not they allow it.
+\end_layout
+
+\end_body
+\end_document

@@ -1,0 +1,457 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+\usepackage{indentfirst}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2.5cm
+\topmargin 2.5cm
+\rightmargin 2.5cm
+\bottommargin 2.5cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Corporate Finance - Lecture 2
+\end_layout
+
+\begin_layout Author
+Leonid Genkin
+\end_layout
+
+\begin_layout Section
+Marvel Case
+\end_layout
+
+\begin_layout Standard
+Marvel has a diversified business.
+ Its ownership structure allows it limited liability, in order to consolidate
+ net operating losses for tax purposes.
+\end_layout
+
+\begin_layout Standard
+Marvel Holdings has a lot of debt and used it to acquire other businesses.
+\end_layout
+
+\begin_layout Standard
+The case illustrates the conflicts between debtholders / shareholders and
+ raises the issue of whether they can be mitigated by reputation.
+ It also raises the issue, whether 
+\begin_inset Quotes eld
+\end_inset
+
+insider trading
+\begin_inset Quotes erd
+\end_inset
+
+ in a distress situation should be illegal.
+\end_layout
+
+\begin_layout Subsection
+Distress Reasons
+\end_layout
+
+\begin_layout Standard
+Questionable financial moves: the company had huge amounts of debt, due
+ by the same period.
+ It had to 
+\series bold
+refinance 
+\series default
+itself.
+ Perelman was not involved in costs and aassets management.
+\end_layout
+
+\begin_layout Standard
+Today, short-term debt is very cheap (a 1 year loan costs much less then
+ 5 years loan).
+ Many companies use it as a 
+\begin_inset Quotes eld
+\end_inset
+
+revoler
+\begin_inset Quotes erd
+\end_inset
+
+ and roll they debt each year again.
+ When the markets carsh, companies that do not have liquidity and are unable
+ to put money aside - fall.
+\end_layout
+
+\begin_layout Standard
+The ratios of sales cost and SG&A expenses to sales have risen in the years
+ 1991 - 1995, which implies inefficient operations, and indeed the company
+ was lossy before the crisis.
+\end_layout
+
+\begin_layout Standard
+The interest expense increase, as the company took more debt.
+\end_layout
+
+\begin_layout Subsection
+Restructuring Plan
+\end_layout
+
+\begin_layout Standard
+Perelman would invest $365M in exchange for 427M new shares (at $0.85 per
+ share) - 
+\begin_inset Quotes eld
+\end_inset
+
+money injection
+\begin_inset Quotes erd
+\end_inset
+
+, to cover the share collateralized debt.
+ It also ensured Marvel could be consolidated for tax purposes.
+ The proceeds would be used to complete acquisition of Toy Biz and use its
+ cash flow to finance the debt.
+\end_layout
+
+\begin_layout Standard
+Perelman notified financial institutions about that plan, which lead to
+ a sudden fall in the bonds prices (as they sold them off).
+\end_layout
+
+\begin_layout Standard
+The market price of the shares was $2.75 and Perelman got a significant discount.
+ He asked the shareholders to exchange $894M FV of debt for $155M of equity.
+\end_layout
+
+\begin_layout Standard
+In order to valuate the equity after restructuring, we need to look at the
+ cash flows projections and discount them according to the WACC
+\end_layout
+
+\begin_layout Standard
+The growth rate is assumed to converge to the GDP rate (2%-3%) in the long-term.
+\end_layout
+
+\begin_layout Standard
+Perelman clearly had an incentive to undervaluate the comany.
+ According to his valuation, the fair share price was less than $1.
+ Increasing the EBIT only by 5% would result is a price of almost $2.
+\end_layout
+
+\begin_layout Standard
+From Icahn's perspective, the options are:
+\end_layout
+
+\begin_layout Itemize
+To accept the plan
+\end_layout
+
+\begin_layout Itemize
+Vote against and pass the case to the judge.
+ She would have to make sure that the value of the plan for the debtholders
+ is higher than the collateral (for the liquidation case).
+\end_layout
+
+\begin_layout Itemize
+Sell for $0.14-$0.17
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+All options are unattractive, as he is been taken advantage of.
+ Should a FI portfolio manager buy ahre-collateralized debt from Perelman
+ in the future?
+\end_layout
+
+\begin_layout Subsection
+What Happened
+\end_layout
+
+\begin_layout Standard
+The judge allowed public debtholders to seize their shares.
+ After 2 weeks, Perelman withdrew his reorganization.
+ The stock price jumped immediately from $2.375 to $2.857.
+ Debtholders tried to replace the board, but the court blocked that move.
+ Icahn released his restructuring plan with a divestiture and a 
+\series bold
+rights offering
+\series default
+ to repay the DIP financing and fund working capital (each one contributes
+ some money and gets a portion of shares).
+ The advantage is that the shares are distributed in the same proportion
+\end_layout
+
+\begin_layout Standard
+The bondholders filed their own reorganization plan and the debtholders
+ became, basically, the new equity holders.
+\end_layout
+
+\begin_layout Standard
+Bonds do not fall under 
+\begin_inset Quotes eld
+\end_inset
+
+insider trading
+\begin_inset Quotes erd
+\end_inset
+
+ rules, as they are a FI instrument.
+\end_layout
+
+\begin_layout Section
+Start-up Financing
+\end_layout
+
+\begin_layout Standard
+In general, startup financing refers to the early stage of ideas that require
+ funding.
+\end_layout
+
+\begin_layout Standard
+The 5 stages can be described as:
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Seed
+\series default
+ (no product yet, only an idea) - angel investors.
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Early
+\series default
+ stage - venture capital.
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Mid / Expansion
+\series default
+ - venture capital, private equity, debt investment.
+ Usually the break-even point is reached at this stage.
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Late / Mezzanine
+\series default
+ - mezzanine financing.
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Exit
+\series default
+ (or IPO).
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Typical start-up stages
+\end_layout
+
+\begin_layout Itemize
+Seed & start-up
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+There is an idea and a business model is under development.
+ Usually run by a few engineers.
+\end_layout
+
+\begin_layout Itemize
+Financing: seed investment funds, angel investing.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+First & second round
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+A viable product & customers usually exist at this stage, with $1M-$10M
+ revenue.
+\end_layout
+
+\begin_layout Itemize
+Financing: equity (formal investment rounds, usually tied to milestones).
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Third round and beyond
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+There is an experienced team, the product sells well.
+ Revenus are typically >$10M
+\end_layout
+
+\begin_layout Itemize
+Financing: debt (based on assets & CF), equity.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+As with any financing opportunity, the most important thing is finding the
+ value of the assets before the financing (the NPV of the projects).
+ As there are no revenues to rely on and no customers to project on, such
+ valuation relies on negotiation.
+\end_layout
+
+\begin_layout Subsection
+Cap Table
+\end_layout
+
+\begin_layout Standard
+Pre-money valuation + investment amount = port-money valuation.
+\end_layout
+
+\begin_layout Standard
+The current (previous) investors' ownership is the ratio of the investment
+ (pre-money) amount to the post-money valuation.
+\end_layout
+
+\begin_layout Standard
+Start-ups usually involve several financing round, with the shares number
+ to issue determined by the pre-money valuation at each one.
+\end_layout
+
+\begin_layout Standard
+A capitalization table includes this information for each round.
+\end_layout
+
+\begin_layout Subsection
+Option Pool
+\end_layout
+
+\begin_layout Standard
+Options provide equity-based compensation for employees to buy stock in
+ the future.
+ The startup team usually increases in size and would like to get options.
+ Giving them requires issuing shares.
+\end_layout
+
+\begin_layout Standard
+Investors often request the option pool to not be created before the investment,
+ so that only the founder is diluted.
+\end_layout
+
+\begin_layout Subsection
+Convertible Notes
+\end_layout
+
+\begin_layout Standard
+It is hard for seed investors to evaluate start-up companies and the face
+ high risk and try to protect themselves.
+ 
+\series bold
+Convertible bonds 
+\series default
+are a common solution for this issue: give a loan, which converts to equity
+ upon a financing round.
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_body
+\end_document

@@ -1,0 +1,773 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+\usepackage{indentfirst}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2.5cm
+\topmargin 2.5cm
+\rightmargin 2.5cm
+\bottommargin 2.5cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Corporate Finance - Lecture 1
+\end_layout
+
+\begin_layout Author
+Leonid Genkin
+\end_layout
+
+\begin_layout Standard
+This course is a natural continuation of Finance I and Finance II.
+ Several cases will be presented and anlyzed in class, on various topics:
+ bankruptcy, private equity, takeovers and startup financing.
+\end_layout
+
+\begin_layout Section
+Bankruptcy
+\end_layout
+
+\begin_layout Standard
+Recall from Finance II: bankruptcy has costs (legal, auditors, administrative,
+ indirect expenses, etc).
+ Therefore sometimes it can be inefficient.
+\end_layout
+
+\begin_layout Standard
+Bankruptcy is not something one 
+\begin_inset Quotes eld
+\end_inset
+
+likes to talk about
+\begin_inset Quotes erd
+\end_inset
+
+, yet it is very important.
+ Talking about it implies determining the value of the company.
+\end_layout
+
+\begin_layout Standard
+Understanding the value drivers of a company and the negotiation forces
+ in a bankruptcy affect its costs.
+\end_layout
+
+\begin_layout Standard
+As a company files for bankruptcy, interest conflicts between debt holders
+ and equity holders might arise, regrading the firm's value.
+\end_layout
+
+\begin_layout Subsection
+Capital Structure
+\end_layout
+
+\begin_layout Standard
+There might be a difference between the book and the market value of a firm's
+ assets (especially in times of distress).
+\end_layout
+
+\begin_layout Standard
+Accounting B/S: Assets = Liabilities + Equity.
+\end_layout
+
+\begin_layout Standard
+The current liabilities are usually those <1 year.
+ The most imoportant ones are: A/P, taxes, accrued expenses; debt, capital
+ leases, pension and other accrued expenses.
+\end_layout
+
+\begin_layout Subsection
+Debt
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Lines of credit
+\series default
+ is the maximum amount the bank is willing to lend to the firm (instead
+ of issuing debt each time money is needed).
+ In a 
+\series bold
+revolver
+\series default
+, the bank is obligated to keep lending after the firm repays back.
+\end_layout
+
+\begin_layout Standard
+An 
+\series bold
+indenture
+\series default
+ is a debt contract will all the details (interest, schedule, seniority,
+ covenants).
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Seniority
+\series default
+: Defines the priority in case of bankruptcy.
+ Bank loans are usually senior debt, while issued bonds are more junior.
+ Banks look at the B/S and the existing debts of a firm before lending to
+ it.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Collateral
+\series default
+: If the debt cannot be repaid, an ownership over assets can be taken in
+ some cases.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Covenants
+\series default
+: Limitations on the actions a firm can take (debt ratios, interest coverage
+ ratio, management provision, assets selling off, dividends payment, etc).
+ Can be negative / positive.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Callable features
+\series default
+: Any bond can be bought back.
+ The callability implies prepayment and the difference is that there is
+ a predetermined price in the latter case.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+A 
+\series bold
+syndicated loans
+\series default
+ is one that is provided by several banks.
+ A lead bank arranges other creditors for a fee and manages the negotiations
+ (interest & principal) - participants are not involved.
+ The rational for such loans is risk spreading.
+ For example, small banks might have too much money on their B/S.
+\end_layout
+
+\begin_layout Standard
+In Israel the bond market is more sophisticated than in the U.S - they can
+ be traded on the stock exchange, unlike the U.S where they can only be initially
+ bought over the counter.
+\end_layout
+
+\begin_layout Standard
+A direct long-term loan avoids the SEC registrationg cost and is likely
+ to have more restrictive covenants.
+\end_layout
+
+\begin_layout Standard
+Collaterals (a.k.a 
+\series bold
+lien
+\series default
+) can be a firm's assets, stocks/bonds (risky) , receivables.
+\end_layout
+
+\begin_layout Standard
+Even when covenants are violated, banks usually try to renegotiate the terms
+ (forcing the company to default will probably make them worse off).
+\end_layout
+
+\begin_layout Standard
+A
+\series bold
+ lease
+\series default
+ requires the user to pay the owner for the use of an asset.
+ In a 
+\series bold
+capital lease
+\series default
+, the lessor only finances the lease.
+\end_layout
+
+\begin_layout Subsection
+Balance Sheet
+\end_layout
+
+\begin_layout Standard
+It is important to always remember the important identity of 
+\begin_inset Formula $A=L+E$
+\end_inset
+
+ which is both an economic and a financial identity, when analyzing a firm.
+\end_layout
+
+\begin_layout Standard
+The accounting B/S represents the economic value of assets in place, without
+ the future growth opportunities (
+\begin_inset Quotes eld
+\end_inset
+
+what you owe
+\begin_inset Quotes erd
+\end_inset
+
+).
+ The economic B/S incorporates the future cash flows projections.
+\end_layout
+
+\begin_layout Standard
+Creditors tend to dislike assets sells, as they may transfer value from
+ them to equity holders (consider an example with 50%-50% low-high outcome,
+ and the bad outcome might or might not make the firm unable to fully repay
+ its debt).
+\end_layout
+
+\begin_layout Standard
+It is possible that even when the value of the firm is larger than the debt,
+ it is still traded at a discount - caused by volatility.
+\end_layout
+
+\begin_layout Subsection
+Financial Distress
+\end_layout
+
+\begin_layout Standard
+A 
+\series bold
+financial distress
+\series default
+ occurs when a firm's operating CF are insufficient to satisfy its current
+ obligations.
+\end_layout
+
+\begin_layout Standard
+An 
+\series bold
+insolvency
+\series default
+ is a situation when the value of a firm's assets is lower than its obligations
+ (debt).
+\end_layout
+
+\begin_layout Standard
+A 
+\series bold
+flow-base insolvency
+\series default
+ happens when a firm's cash flows are insufficient for it to pay its contractual
+ly required payments.
+\end_layout
+
+\begin_layout Standard
+Possible solutions to financial distress include: asset restructuring (selling,
+ merging, costs cutting) or financial restructuring (terms negotiation,
+ long-term financing, bankruptcy).
+ The first priority is to ensure the maximum economic value of the assets,
+ while satisfying creditors.
+\end_layout
+
+\begin_layout Standard
+Financial restructuring happens in about half of the cases of a financial
+ distress, out of them about half results in private workout (might be taxable
+ - capital gain) and another half leads to legal bankruptcy.
+\end_layout
+
+\begin_layout Standard
+Bankruptcy chapter 11 - workout; chapter 7 - liquidations.
+\end_layout
+
+\begin_layout Section
+Bankruptcy Procedure
+\end_layout
+
+\begin_layout Standard
+The procedures vary across different countries.
+ It is related to the role of equity holders, the ability of the management
+ to come up with a plan, the ability of the debt holders to take over the
+ collateral.
+\end_layout
+
+\begin_layout Standard
+In the U.S the bankruptcy procedures tend to protect the shareholders, while
+ in Europe they are more friendly for the debt holders.
+\end_layout
+
+\begin_layout Subsection
+Liquidation (Chapter 7)
+\end_layout
+
+\begin_layout Enumerate
+A petition is filed in a federal court.
+ It may be initiated by the firm (voluntary) or its creditors (involuntary).
+\end_layout
+
+\begin_layout Enumerate
+A trustee (usually a lawyer) is appointed by the judge, who will attempt
+ to liquidate the assets.
+\end_layout
+
+\begin_layout Enumerate
+After selling the assets and paying the administration costs, it is redistribute
+d to the creditors.
+\end_layout
+
+\begin_layout Enumerate
+If any money is left - the shareholders get it.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Reorganization (Chapter 11)
+\end_layout
+
+\begin_layout Enumerate
+A (voluntary or involuntary) petition is filed.
+\end_layout
+
+\begin_layout Enumerate
+The judge approves or denies it (the economic goal is to figure out 
+\series bold
+the highest value
+\series default
+, otherwise it will be dismissed).
+ A senior creditor will usually prefer chapter 7, as it provides him an
+ easier solution to get his money.
+\end_layout
+
+\begin_layout Enumerate
+The firm usually continues to run the business (in the UK the management
+ has to be replaced).
+\end_layout
+
+\begin_layout Enumerate
+A reorganization plan must be submitted within 120 days.
+\end_layout
+
+\begin_layout Enumerate
+1/3 of creditors who own 2/3 of the outstanding debt 
+\series bold
+in each class 
+\series default
+have to approve the plan.
+ The creditors are divided to 
+\begin_inset Quotes eld
+\end_inset
+
+classes
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+After creditors acceptance, the plan is confirmed by the court.
+ Even though all the creditors are required to vote on the plan and may
+ vote against it, the judge can overrule them (
+\begin_inset Quotes eld
+\end_inset
+
+would the value be more in case of liquidation?
+\begin_inset Quotes erd
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Enumerate
+Payments are made in cash, property and securities to the creditors and
+ shareholders.
+ The judge need to solve disputes regarding the true value of assets.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+The Purpose of Bankruptcy
+\end_layout
+
+\begin_layout Standard
+The fundamental role of bankruptcy law is to facilitate debt collection,
+ keeping economic efficiency in consideration.
+\end_layout
+
+\begin_layout Subsection
+Private Workout or Bankruptcy
+\end_layout
+
+\begin_layout Standard
+Both cases involve exchanging new financial claims for old ones (senior
+ debt is replaced with junior debt; junior debt is replaced with stock).
+\end_layout
+
+\begin_layout Standard
+Private workouts are usually better than a bankruptcy, when they work.
+ Complex structure and lack of information make them more likely.
+\end_layout
+
+\begin_layout Standard
+Debt financing: chapter 11 allows the firm to ask for more financing, if
+ the new debt is first in line (overriding allo ther claims).
+ It might be needed to have a high enough value of the firm's assets.
+\end_layout
+
+\begin_layout Standard
+Bankruptcy advantages:
+\end_layout
+
+\begin_layout Itemize
+New credit availability
+\end_layout
+
+\begin_layout Itemize
+Discontinued accrual of interest (it stops after filing for bankruptcy)
+\end_layout
+
+\begin_layout Itemize
+Tax advantages
+\end_layout
+
+\begin_layout Itemize
+Requires only a small portion of creditors to approve
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Bankruptcy disadvantages:
+\end_layout
+
+\begin_layout Itemize
+A long & expensive process
+\end_layout
+
+\begin_layout Itemize
+Judges approve business decisions
+\end_layout
+
+\begin_layout Itemize
+Management distraction (huge number of court appearances)
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Quotes eld
+\end_inset
+
+Hold out
+\begin_inset Quotes erd
+\end_inset
+
+ by stockholders
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Prepackaged Bankruptcy
+\end_layout
+
+\begin_layout Standard
+One way of reducing the bankruptcy costs is the 
+\series bold
+prepackaged bankruptcy
+\series default
+.
+ It is an agreement which is made before the legal filing.
+ It has some advantages of a formal bankruptcy, but is more efficient.
+\end_layout
+
+\begin_layout Subsection
+Priority of Claims
+\end_layout
+
+\begin_layout Standard
+The proceeds of a bankruptcy are distribute in a particular order of priority:
+\end_layout
+
+\begin_layout Enumerate
+Administrative expenses (liquidation & bankruptcy expenses, lawyers fees
+ on both sides, judge fees).
+\end_layout
+
+\begin_layout Enumerate
+Unsecured claims arising 
+\series bold
+after
+\series default
+ the filing (
+\begin_inset Quotes eld
+\end_inset
+
+DIP financing
+\begin_inset Quotes erd
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Enumerate
+Wages and contributions to employee benefit plans.
+\end_layout
+
+\begin_layout Enumerate
+Consumer claims.
+\end_layout
+
+\begin_layout Enumerate
+Tax claims.
+\end_layout
+
+\begin_layout Enumerate
+Creditors' claims.
+\end_layout
+
+\begin_layout Enumerate
+Stockholders' claims.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Absolute Priority Rule
+\end_layout
+
+\begin_layout Standard
+According to the APR, the order of preference of the bankruptcy procedure
+ is strictly followed, i.e senior claims are 
+\series bold
+fully
+\series default
+ satisfied, before junior claims receive 
+\series bold
+anything
+\series default
+.
+\end_layout
+
+\begin_layout Standard
+In practice, violations are common: in most cases equityholders receive
+ payout, while creditors do not receive their full payout.
+\end_layout
+
+\begin_layout Standard
+The reasons for that include bargaining.
+ Creditors try to avoid litigation expenses, debtors have a 120-day opportunity
+ window which is usued by the management (who has equity).
+ While judges like c onsensual plans (appeals are less likely).
+\end_layout
+
+\begin_layout Subsection
+Reorganization (Chapter 11) - Continued
+\end_layout
+
+\begin_layout Subsubsection
+Step 1 - Gaining Control
+\end_layout
+
+\begin_layout Standard
+All pre-petition claims automatically stay.
+ First-day motions need permission to enter into contracts and make critical
+ payments and DIP financing.
+\end_layout
+
+\begin_layout Standard
+A 
+\begin_inset Quotes eld
+\end_inset
+
+restructuring officer
+\begin_inset Quotes erd
+\end_inset
+
+ may be hired in order for the company to continue to operate with the existing
+ management.
+ A relief from all pre-petition unpaif interest, principal and lease results
+ in a sudden cash flow.
+\end_layout
+
+\begin_layout Subsubsection
+Step 2 - Restructuring
+\end_layout
+
+\begin_layout Itemize
+Section 363 Sales - assets can be sold by a judge approval in order to generate
+ cash (following an auction procedure to get the highest possible price).
+\end_layout
+
+\begin_layout Itemize
+Section 365 Contracs & Leases: modify leases and other contracts.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Step 3 - Reorganization
+\end_layout
+
+\begin_layout Standard
+First, the total enterprise value (TEV) of the core business is determined
+ using valuation techniques.
+\end_layout
+
+\begin_layout Standard
+Then pre-petition claims are settled using cash, debt or stock.
+ Secured (collateralized) creditors are paid at least the value of their
+ collateral and cannot be forced to take equity instead - unlike unsecured
+ creditors.
+\end_layout
+
+\begin_layout Subsection
+The Fulcrum Claim
+\end_layout
+
+\begin_layout Standard
+Two critical issues in Chapter 11 PORs are:
+\end_layout
+
+\begin_layout Enumerate
+The TEV of the business
+\end_layout
+
+\begin_layout Enumerate
+How much debt can be reasonably carried
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The TEV is allocated until it is exhausted, starting from the first priority.
+ 
+\begin_inset Quotes eld
+\end_inset
+
+Impaired
+\begin_inset Quotes erd
+\end_inset
+
+ creditors likely receive most of the equity.
+ The equity has an unlimited upside potential (unlike debt), therefore it
+ might acquire a position with enormous potential.
+\end_layout
+
+\end_body
+\end_document

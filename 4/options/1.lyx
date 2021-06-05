@@ -1,0 +1,413 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+\usepackage{indentfirst}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2.5cm
+\topmargin 2.5cm
+\rightmargin 2.5cm
+\bottommargin 2.5cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Options and Futures Markets - Lecture 1
+\end_layout
+
+\begin_layout Author
+Leonid Genkin
+\end_layout
+
+\begin_layout Section
+Introduction
+\end_layout
+
+\begin_layout Standard
+This course will cover various derivatives: futures, forward, options.
+ Swaps are assumed to have been covered in the FI class.
+\end_layout
+
+\begin_layout Section
+Forwards and Futures
+\end_layout
+
+\begin_layout Subsection
+Forward Contracts
+\end_layout
+
+\begin_layout Standard
+Derivatives are a 
+\series bold
+financial instrument
+\series default
+ whose value depends on the value of an 
+\series bold
+underlying asset
+\series default
+ - which might be equity, cond, exchange rate, commodity, etc.
+\end_layout
+
+\begin_layout Standard
+There are various types of derivatives: futures, forwards, options, swaps.
+ They allow 
+\series bold
+risk transfer
+\series default
+.
+
+\series bold
+ 
+\series default
+For example, a firm might hedge the exchange rate fluctuation rate.
+\end_layout
+
+\begin_layout Standard
+The motivation for derivatives includes: risk management, financial engineering,
+ liquidity, price discovery, market efficiency improvement.
+\end_layout
+
+\begin_layout Standard
+A 
+\series bold
+forward contract
+\series default
+ is a binding obligation to buy/sell an asset at a particular date at a
+ particular price - the 
+\series bold
+forward price
+\series default
+.
+\end_layout
+
+\begin_layout Standard
+The long (short) position party agrees to buy (sell) it.
+ Every long is offset by a short (
+\begin_inset Quotes eld
+\end_inset
+
+zero-sum game
+\begin_inset Quotes erd
+\end_inset
+
+).The profit for the long (short) is the spot price at maturity minus forward
+ price (or vice versa).
+\end_layout
+
+\begin_layout Standard
+The contract specifies: asset features & quantity; delivery logistics; price.
+ There are 2 main limitations with forward contract: 
+\series bold
+illiquidity 
+\series default
+and 
+\series bold
+counterparty risk
+\series default
+, as they are customized and traded OTC.
+\end_layout
+
+\begin_layout Subsection
+Future Contracts
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Futures contract
+\series default
+ are traded on an exchange, and therefore standardized.
+ The exchange is both the counterparty and the clearing house (risk elimination).
+ They are more liquid, and contract details are set by the exchange (regulation).
+\end_layout
+
+\begin_layout Standard
+Futures are available on many asset types as well (commodities, financial
+ assets).
+\end_layout
+
+\begin_layout Subsection
+Options
+\end_layout
+
+\begin_layout Standard
+Derivatives are extremely useful, though they carry danger - as is always
+ the case with the OTC market.
+\end_layout
+
+\begin_layout Standard
+Since the 2008 financial crisis, there is more transparency in the financial
+ markets.
+ 
+\end_layout
+
+\begin_layout Standard
+Most of the trade in futures and options happens in Asia and in North America.
+ It has been increasing in Asia during the last years.
+ The biggest postion of futures trade is equity index (36.1%), followed by
+ individual equity (17.7%).
+\end_layout
+
+\begin_layout Standard
+As there was significant uncertainity regarding the monetary policy in the
+ recent years, the volume of interest futures has increased.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Open interest
+\series default
+ - the number of open contracts at the end of the period (total number of
+ long / short positions).
+\end_layout
+
+\begin_layout Standard
+The difference between volume and open interest is that the former one describes
+ how many contract were traded, while the latter one determines how many
+ contracts were open 
+\begin_inset Quotes eld
+\end_inset
+
+by end of the day
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection
+Futures Markets
+\end_layout
+
+\begin_layout Standard
+In North America there is more long-term activity in these markets and less
+ speculation.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+China
+\series default
+ is the world's largest exporter and second largest importer of goods.
+ There are more than 46 commodities listed on its 3 futures exchanges.
+ The difference between volume and open interest in China exhcanges suggests
+ a lot of speculative activity (unlike in western markets) - actually by
+ retail traders.
+\end_layout
+
+\begin_layout Standard
+The OTC market has mainly interest rate and FX derivaties, while the exchanges
+ trade mostly equity derivaties.
+\end_layout
+
+\begin_layout Standard
+The OTC market it much larger than the underlying global equity market,
+ because there are 
+\series bold
+contracts
+\series default
+ - and there can be infinitely many of them.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Hedgers
+\series default
+ trade in the derivative markets to reduce risk from future price movements.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Speculators
+\series default
+ bet on future direction.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Arbitrageurs
+\series default
+ try to lock a riskless profit by offsetting positions in several instruments.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Hedge funds
+\series default
+ are key players on the derivatives markets.
+ They are not subjects to regulation constraints like mutual funds (investment
+ policy disclosure, leverage limit).
+ An investor can be both (a speculator and a hedger).
+\end_layout
+
+\begin_layout Standard
+The exchange manages its counterparty risk through 
+\series bold
+margin accounts
+\series default
+.
+\end_layout
+
+\begin_layout Standard
+The trading volume in near future contracts is typically high, as the speculativ
+e activity is concntrated there.
+\end_layout
+
+\begin_layout Standard
+Futures curves may be upward (downward) sloping, meaning the market is in
+ contango (backwardation).
+\end_layout
+
+\begin_layout Standard
+During the COVID-19 crisis the deman for oil increased, lowering its price.
+ The 
+\begin_inset Quotes eld
+\end_inset
+
+black Friday
+\begin_inset Quotes erd
+\end_inset
+
+ was when its price became negative: there was a supply clog and nowhere
+ to store the oil, thus investors wanted to exit their positions (at any
+ cost).
+ Investors who want to saty longer in the market - roll their position to
+ the next contract.
+\end_layout
+
+\begin_layout Standard
+The future price sometimes start being higher (lower) than the spot price.
+ But as time passes and the spot price changes, they eventually converge.
+ Exposure declines in value as it approaches the spot price.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Roll yield
+\series default
+: in a contango market leads to accumulation of losses (which may not necessaril
+y be the case with exposure to the underlying asset itself).
+\end_layout
+
+\begin_layout Standard
+Most of the investors are speculators - only 3% of future contracts get
+ to maturity and actually settled by physical delivery.
+\end_layout
+
+\begin_layout Standard
+Some are closed out early by entering to an opposite trades (with the 
+\series bold
+same
+\series default
+ maturity).
+\end_layout
+
+\begin_layout Subsection
+The Exchange Clearinghouse
+\end_layout
+
+\begin_layout Standard
+It acts as an intermediary (transactions go through it).
+ Guaranteeing parties performance is done by margin requirements.
+\end_layout
+
+\begin_layout Standard
+A 
+\series bold
+margin
+\series default
+ is cash (or securities) deposited by an investor and is adjusted daily.
+ Its purpose is minimizing counterparty risk.
+\end_layout
+
+\begin_layout Standard
+What is the reason to invest in future, rather than in the underlying asset?
+ 
+\series bold
+Leverage
+\series default
+ - margin instaed of paying the full price.
+\end_layout
+
+\end_body
+\end_document
